@@ -1,6 +1,6 @@
 This work is built on progressbar, Keras and Theano
 
-The best way to configure the environment is to use Anaconda, after install Anaconda, then install the Theano and Keras
+The best way to configure the environment is to use Anaconda[https://www.continuum.io/downloads], after install Anaconda, then install the Theano[https://github.com/Theano/Theano] and Keras[https://github.com/fchollet/keras]
 
 Here is the introduction of each file:
 data directory: include the pre-trained word embedding

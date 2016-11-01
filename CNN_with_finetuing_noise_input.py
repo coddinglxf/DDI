@@ -4,8 +4,8 @@ import numpy as np
 import keras
 import pprint
 
-train_path = "F:\\python_chram_data\\DDI\\train\\"
-test_path = "F:\\python_chram_data\\DDI\\test\\"
+train_path = "xml/train/"
+test_path = "xml/test/"
 
 train_ = Datasets(filename=train_path)
 train_data = train_.features

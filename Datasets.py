@@ -9,7 +9,7 @@ import copy
 
 print
 print "initial only one times----------------------"
-initial = Initial(all_data_path="F:\\python_chram_data\\DDI\\all\\")
+initial = Initial(all_data_path="xml/all/")
 print "initial only one times----------------------"
 print
 
@@ -185,77 +185,3 @@ class Feature(object):
             if e2_pos - e1_pos <= 4:
                 return False
         return True
-
-
-# dataset = Datasets(filename="e:\\python_chram_data\\DDI\\train\\")
-# all_instance = 0
-# hash = set()
-# sum = dict()
-# negative_all = 0
-# negative = 0
-# negative_wrong = 0
-# openfile = open('negative.txt', 'w')
-# wrong = open('wrong.txt', 'w')
-# writefile = open('svm_train', 'w')
-# distance_sum = dict()
-# for instance in dataset.features:
-#     all_instance += 1
-#     # print instance['sdp']
-#     # print [initial.index2word[index] for index in instance['sdp']]
-#     # print instance['padding_words']
-#     # print instance['all_sequence']
-#
-#     writefile.write(str(instance['label'])
-#                     + " "
-#                     + instance['type']
-#                     + " "
-#                     + str(instance['e1_pos'])
-#                     + " "
-#                     + str(instance['e2_pos'])
-#                     + " "
-#                     + " ".join(instance['word_sequence']) + "\n")
-#
-#     hash.add(instance['type'])
-#     if instance['type'] in sum:
-#         sum[instance['type']] += 1
-#     else:
-#         sum[instance['type']] = 1
-#         # print instance['class']
-#     if instance['label'] == 4:
-#         negative_all += 1
-#         # print instance['negative']
-#         if instance['negative'] is False:
-#             # print "cool"
-#             relation = instance['relation']
-#             openfile.write(instance['context'] + "\n")
-#             openfile.write(instance['type'] + "\n")
-#             openfile.write(relation.e1_name + "\t" + str(relation.e1_position) + "\n")
-#             openfile.write(relation.e2_name + "\t" + str(relation.e2_position) + "\n")
-#             openfile.write("\n")
-#         else:
-#             index = instance['e2_pos'] - instance['e1_pos']
-#             if index in distance_sum:
-#                 distance_sum[index] += 1
-#             else:
-#                 distance_sum[index] = 1
-#
-#     if instance['negative'] is True:
-#         negative += 1
-#         # print "instance['label']---->", instance['label']
-#         # print instance['context']
-#         # print instance['relation'].smart_print()
-#         if instance['class'] != 4:
-#             negative_wrong += 1
-#             relation = instance['relation']
-#             wrong.write(instance['context'] + "\n")
-#             wrong.write(instance['type'] + "\n")
-#             wrong.write(relation.e1_name + "\t" + str(relation.e1_position) + "\n")
-#             wrong.write(relation.e2_name + "\t" + str(relation.e2_position) + "\n")
-#             wrong.write("\n")
-# openfile.close()
-# writefile.close()
-# print initial.index2word[51]
-# print hash
-# print sum
-# print all_instance, negative, negative_wrong, negative - negative_wrong, negative_all
-# print(distance_sum)
