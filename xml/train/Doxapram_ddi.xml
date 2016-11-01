@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d332"> 
+   <sentence id="DDI-DrugBank.d332.s0" text="Administration of doxapram to patients who are receiving sympathomimetic or monoamine oxidase inhibiting drugs may result in an additive pressor effect ." new_text="Administration@@of@@doxapram@@to@@patients@@who@@are@@receiving@@sympathomimetic@@or@@monoamine oxidase inhibiting drugs@@may@@result@@in@@an@@additive@@pressor@@effect@@.@@"> 
+      <entity id="DDI-DrugBank.d332.s0.e0" charOffset="18-25" type="drug" text="doxapram" position="2"/>  
+      <entity id="DDI-DrugBank.d332.s0.e1" charOffset="57-71" type="group" text="sympathomimetic" position="8"/>  
+      <entity id="DDI-DrugBank.d332.s0.e2" charOffset="76-109" type="group" text="monoamine oxidase inhibiting drugs" position="10"/>  
+      <pair id="DDI-DrugBank.d332.s0.p0" e1="DDI-DrugBank.d332.s0.e0" e2="DDI-DrugBank.d332.s0.e1" ddi="true" type="effect" flags="True" e1_name="doxapram" e2_name="sympathomimetic" e1_pos="2" e2_pos="8" path="2@@4@@7@@8@@">doxapram@@@@prep_to@@patients@@rcmod@@receiving@@acomp@@sympathomimetic</pair>  
+      <pair id="DDI-DrugBank.d332.s0.p1" e1="DDI-DrugBank.d332.s0.e0" e2="DDI-DrugBank.d332.s0.e2" ddi="true" type="effect" flags="True" e1_name="doxapram" e2_name="monoamine oxidase inhibiting drugs" e1_pos="2" e2_pos="10" path="2@@4@@7@@10@@">doxapram@@@@prep_to@@patients@@rcmod@@receiving@@acomp@@monoamine oxidase inhibiting drugs</pair>  
+      <pair id="DDI-DrugBank.d332.s0.p2" e1="DDI-DrugBank.d332.s0.e1" e2="DDI-DrugBank.d332.s0.e2" ddi="false" flags="True" e1_name="sympathomimetic" e2_name="monoamine oxidase inhibiting drugs" e1_pos="8" e2_pos="10" path="8@@10@@">sympathomimetic@@@@conj_or@@monoamine oxidase inhibiting drugs</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d332.s1" text="In patients who have received muscle relaxants, doxapram may temporarily mask the residual effects of muscle relaxant drugs." new_text="In@@patients@@who@@have@@received@@muscle relaxants@@,@@doxapram@@may@@temporarily@@mask@@the@@residual@@effects@@of@@muscle relaxant drugs@@.@@"> 
+      <entity id="DDI-DrugBank.d332.s1.e0" charOffset="30-45" type="group" text="muscle relaxants" position="5"/>  
+      <entity id="DDI-DrugBank.d332.s1.e1" charOffset="48-55" type="drug" text="doxapram" position="7"/>  
+      <entity id="DDI-DrugBank.d332.s1.e2" charOffset="102-122" type="group" text="muscle relaxant drugs" position="15"/>  
+      <pair id="DDI-DrugBank.d332.s1.p0" e1="DDI-DrugBank.d332.s1.e0" e2="DDI-DrugBank.d332.s1.e1" ddi="false" flags="True" e1_name="muscle relaxants" e2_name="doxapram" e1_pos="5" e2_pos="7" path="5@@4@@1@@10@@7@@">muscle relaxants@@@@dobj@@received@@rcmod@@patients@@prep_in@@mask@@nsubj@@doxapram</pair>  
+      <pair id="DDI-DrugBank.d332.s1.p1" e1="DDI-DrugBank.d332.s1.e0" e2="DDI-DrugBank.d332.s1.e2" ddi="false" flags="True" e1_name="muscle relaxants" e2_name="muscle relaxant drugs" e1_pos="5" e2_pos="15" path="5@@4@@1@@10@@13@@15@@">muscle relaxants@@@@dobj@@received@@rcmod@@patients@@prep_in@@mask@@dobj@@effects@@prep_of@@muscle relaxant drugs</pair>  
+      <pair id="DDI-DrugBank.d332.s1.p2" e1="DDI-DrugBank.d332.s1.e1" e2="DDI-DrugBank.d332.s1.e2" ddi="true" type="effect" flags="True" e1_name="doxapram" e2_name="muscle relaxant drugs" e1_pos="7" e2_pos="15" path="7@@10@@13@@15@@">doxapram@@@@nsubj@@mask@@dobj@@effects@@prep_of@@muscle relaxant drugs</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d332.s2" text="In patients who have received general anesthesia utilizing a volatile agent known to sensitize the myocardium to catecholamines, administration of doxapram should be delayed until the volatile agent has been excreted in order to lessen the potential for arrhythmias, including ventricular tachycardia and ventricular fibrillation." new_text="In@@patients@@who@@have@@received@@general@@anesthesia@@utilizing@@a@@volatile@@agent@@known@@to@@sensitize@@the@@myocardium@@to@@catecholamines@@,@@administration@@of@@doxapram@@should@@be@@delayed@@until@@the@@volatile@@agent@@has@@been@@excreted@@in@@order@@to@@lessen@@the@@potential@@for@@arrhythmias@@,@@including@@ventricular@@tachycardia@@and@@ventricular@@fibrillation@@.@@"> 
+      <entity id="DDI-DrugBank.d332.s2.e0" charOffset="147-154" type="drug" text="doxapram" position="21"/> 
+   </sentence> 
+</document>

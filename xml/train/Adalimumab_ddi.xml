@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d493"> 
+   <sentence id="DDI-DrugBank.d493.s0" text="Methotrexate: HUMIRA has been studied in rheumatoid arthritis patients taking concomitant MTX." new_text="Methotrexate@@:@@HUMIRA@@has@@been@@studied@@in@@rheumatoid@@arthritis@@patients@@taking@@concomitant@@MTX@@.@@"> 
+      <entity id="DDI-DrugBank.d493.s0.e0" charOffset="0-11" type="drug" text="Methotrexate" position="0"/>  
+      <entity id="DDI-DrugBank.d493.s0.e1" charOffset="14-19" type="brand" text="HUMIRA" position="2"/>  
+      <entity id="DDI-DrugBank.d493.s0.e2" charOffset="90-92" type="drug" text="MTX" position="12"/>  
+      <pair id="DDI-DrugBank.d493.s0.p0" e1="DDI-DrugBank.d493.s0.e0" e2="DDI-DrugBank.d493.s0.e1" ddi="false" flags="True" e1_name="Methotrexate" e2_name="HUMIRA" e1_pos="0" e2_pos="2" path="0@@5@@2@@">Methotrexate@@@@dep@@studied@@nsubjpass@@HUMIRA</pair>  
+      <pair id="DDI-DrugBank.d493.s0.p1" e1="DDI-DrugBank.d493.s0.e0" e2="DDI-DrugBank.d493.s0.e2" ddi="false" flags="True" e1_name="Methotrexate" e2_name="MTX" e1_pos="0" e2_pos="12" path="0@@5@@10@@12@@">Methotrexate@@@@dep@@studied@@xcomp@@taking@@dobj@@MTX</pair>  
+      <pair id="DDI-DrugBank.d493.s0.p2" e1="DDI-DrugBank.d493.s0.e1" e2="DDI-DrugBank.d493.s0.e2" ddi="false" flags="True" e1_name="HUMIRA" e2_name="MTX" e1_pos="2" e2_pos="12" path="2@@5@@10@@12@@">HUMIRA@@@@nsubjpass@@studied@@xcomp@@taking@@dobj@@MTX</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d493.s1" text="The data do not suggest the need for dose adjustment of either HUMIRA or MTX." new_text="The@@data@@do@@not@@suggest@@the@@need@@for@@dose@@adjustment@@of@@either@@HUMIRA@@or@@MTX@@.@@"> 
+      <entity id="DDI-DrugBank.d493.s1.e0" charOffset="63-68" type="brand" text="HUMIRA" position="12"/>  
+      <entity id="DDI-DrugBank.d493.s1.e1" charOffset="73-75" type="drug" text="MTX" position="14"/>  
+      <pair id="DDI-DrugBank.d493.s1.p0" e1="DDI-DrugBank.d493.s1.e0" e2="DDI-DrugBank.d493.s1.e1" ddi="false" flags="True" e1_name="HUMIRA" e2_name="MTX" e1_pos="12" e2_pos="14" path="12@@14@@">HUMIRA@@@@conj_or@@MTX</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d493.s2" text="Anakinra: Concurrent administration of anakinra (an interleukin-1 antagonist) and another TNF-blocking agent has been associated with an increased risk of serious infections, an increased risk of neutropenia and no additional benefit compared to these medicinal products alone." new_text="Anakinra@@:@@Concurrent@@administration@@of@@anakinra@@(an@@interleukin-1 antagonist@@)@@and@@another@@TNF-blocking agent@@has@@been@@associated@@with@@an@@increased@@risk@@of@@serious@@infections@@,@@an@@increased@@risk@@of@@neutropenia@@and@@no@@additional@@benefit@@compared@@to@@these@@medicinal@@products@@alone@@.@@"> 
+      <entity id="DDI-DrugBank.d493.s2.e0" charOffset="0-7" type="drug" text="Anakinra" position="0"/>  
+      <entity id="DDI-DrugBank.d493.s2.e1" charOffset="39-46" type="drug" text="anakinra" position="5"/>  
+      <entity id="DDI-DrugBank.d493.s2.e2" charOffset="52-75" type="group" text="interleukin-1 antagonist" position="7"/>  
+      <entity id="DDI-DrugBank.d493.s2.e3" charOffset="90-107" type="group" text="TNF-blocking agent" position="11"/>  
+      <pair id="DDI-DrugBank.d493.s2.p0" e1="DDI-DrugBank.d493.s2.e0" e2="DDI-DrugBank.d493.s2.e1" ddi="false" flags="True" e1_name="Anakinra" e2_name="anakinra" e1_pos="0" e2_pos="5" path="0@@14@@3@@8@@5@@">Anakinra@@@@dep@@associated@@nsubjpass@@administration@@prep_of@@)@@amod@@anakinra</pair>  
+      <pair id="DDI-DrugBank.d493.s2.p1" e1="DDI-DrugBank.d493.s2.e0" e2="DDI-DrugBank.d493.s2.e2" ddi="false" flags="True" e1_name="Anakinra" e2_name="interleukin-1 antagonist" e1_pos="0" e2_pos="7" path="0@@14@@3@@8@@7@@">Anakinra@@@@dep@@associated@@nsubjpass@@administration@@prep_of@@)@@amod@@interleukin-1 antagonist</pair>  
+      <pair id="DDI-DrugBank.d493.s2.p2" e1="DDI-DrugBank.d493.s2.e0" e2="DDI-DrugBank.d493.s2.e3" ddi="false" flags="True" e1_name="Anakinra" e2_name="TNF-blocking agent" e1_pos="0" e2_pos="11" path="0@@14@@3@@11@@">Anakinra@@@@dep@@associated@@nsubjpass@@administration@@prep_of@@TNF-blocking agent</pair>  
+      <pair id="DDI-DrugBank.d493.s2.p3" e1="DDI-DrugBank.d493.s2.e1" e2="DDI-DrugBank.d493.s2.e2" ddi="false" flags="True" e1_name="anakinra" e2_name="interleukin-1 antagonist" e1_pos="5" e2_pos="7" path="5@@8@@7@@">anakinra@@@@amod@@)@@amod@@interleukin-1 antagonist</pair>  
+      <pair id="DDI-DrugBank.d493.s2.p4" e1="DDI-DrugBank.d493.s2.e1" e2="DDI-DrugBank.d493.s2.e3" ddi="true" type="effect" flags="True" e1_name="anakinra" e2_name="TNF-blocking agent" e1_pos="5" e2_pos="11" path="5@@8@@11@@">anakinra@@@@amod@@)@@conj_and@@TNF-blocking agent</pair>  
+      <pair id="DDI-DrugBank.d493.s2.p5" e1="DDI-DrugBank.d493.s2.e2" e2="DDI-DrugBank.d493.s2.e3" ddi="true" type="effect" flags="True" e1_name="interleukin-1 antagonist" e2_name="TNF-blocking agent" e1_pos="7" e2_pos="11" path="7@@8@@11@@">interleukin-1 antagonist@@@@amod@@)@@conj_and@@TNF-blocking agent</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d493.s3" text="The safety and efficacy of anakinra used in combination with HUMIRA has not been studied." new_text="The@@safety@@and@@efficacy@@of@@anakinra@@used@@in@@combination@@with@@HUMIRA@@has@@not@@been@@studied@@.@@"> 
+      <entity id="DDI-DrugBank.d493.s3.e0" charOffset="27-34" type="drug" text="anakinra" position="5"/>  
+      <entity id="DDI-DrugBank.d493.s3.e1" charOffset="61-66" type="brand" text="HUMIRA" position="10"/>  
+      <pair id="DDI-DrugBank.d493.s3.p0" e1="DDI-DrugBank.d493.s3.e0" e2="DDI-DrugBank.d493.s3.e1" ddi="false" flags="True" e1_name="anakinra" e2_name="HUMIRA" e1_pos="5" e2_pos="10" path="5@@6@@10@@">anakinra@@@@partmod@@used@@prep_with@@HUMIRA</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d493.s4" text="Therefore the, combination of anakinra with other TNF-blocking agents, including HUMIRA, may also result i n similar toxicities." new_text="Therefore@@the@@,@@combination@@of@@anakinra@@with@@other@@TNF-blocking agents@@,@@including@@HUMIRA@@,@@may@@also@@result@@i@@n@@similar@@toxicities@@.@@"> 
+      <entity id="DDI-DrugBank.d493.s4.e0" charOffset="30-37" type="drug" text="anakinra" position="5"/>  
+      <entity id="DDI-DrugBank.d493.s4.e1" charOffset="50-68" type="group" text="TNF-blocking agents" position="8"/>  
+      <entity id="DDI-DrugBank.d493.s4.e2" charOffset="81-86" type="brand" text="HUMIRA" position="11"/>  
+      <pair id="DDI-DrugBank.d493.s4.p0" e1="DDI-DrugBank.d493.s4.e0" e2="DDI-DrugBank.d493.s4.e1" ddi="true" type="effect" flags="True" e1_name="anakinra" e2_name="TNF-blocking agents" e1_pos="5" e2_pos="8" path="5@@8@@">anakinra@@@@prep_with@@TNF-blocking agents</pair>  
+      <pair id="DDI-DrugBank.d493.s4.p1" e1="DDI-DrugBank.d493.s4.e0" e2="DDI-DrugBank.d493.s4.e2" ddi="true" type="effect" flags="True" e1_name="anakinra" e2_name="HUMIRA" e1_pos="5" e2_pos="11" path="5@@11@@">anakinra@@@@prep_including@@HUMIRA</pair>  
+      <pair id="DDI-DrugBank.d493.s4.p2" e1="DDI-DrugBank.d493.s4.e1" e2="DDI-DrugBank.d493.s4.e2" ddi="false" flags="True" e1_name="TNF-blocking agents" e2_name="HUMIRA" e1_pos="8" e2_pos="11" path="8@@5@@11@@">TNF-blocking agents@@@@prep_with@@anakinra@@prep_including@@HUMIRA</pair> 
+   </sentence> 
+</document>

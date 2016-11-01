@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d295"> 
+   <sentence id="DDI-DrugBank.d295.s0" text="Since entecavir is primarily eliminated by the kidneys, coadministration of BARACLUDE with drugs that reduce renal function or compete for active tubular secretion may increase serum concentrations of either entecavir or the coadministered drug." new_text="Since@@entecavir@@is@@primarily@@eliminated@@by@@the@@kidneys@@,@@coadministration@@of@@BARACLUDE@@with@@drugs@@that@@reduce@@renal@@function@@or@@compete@@for@@active@@tubular@@secretion@@may@@increase@@serum@@concentrations@@of@@either@@entecavir@@or@@the@@coadministered@@drug@@.@@"> 
+      <entity id="DDI-DrugBank.d295.s0.e0" charOffset="6-14" type="drug" text="entecavir" position="1"/>  
+      <entity id="DDI-DrugBank.d295.s0.e1" charOffset="76-84" type="brand" text="BARACLUDE" position="11"/>  
+      <entity id="DDI-DrugBank.d295.s0.e2" charOffset="208-216" type="drug" text="entecavir" position="30"/>  
+      <pair id="DDI-DrugBank.d295.s0.p0" e1="DDI-DrugBank.d295.s0.e0" e2="DDI-DrugBank.d295.s0.e1" ddi="false" flags="True" e1_name="entecavir" e2_name="BARACLUDE" e1_pos="1" e2_pos="11" path="1@@4@@25@@9@@11@@">entecavir@@@@nsubjpass@@eliminated@@advcl@@increase@@nsubj@@coadministration@@prep_of@@BARACLUDE</pair>  
+      <pair id="DDI-DrugBank.d295.s0.p1" e1="DDI-DrugBank.d295.s0.e0" e2="DDI-DrugBank.d295.s0.e2" ddi="false" flags="True" e1_name="entecavir" e2_name="entecavir" e1_pos="1" e2_pos="30" path="1@@4@@25@@27@@30@@">entecavir@@@@nsubjpass@@eliminated@@advcl@@increase@@dobj@@concentrations@@prep_of@@entecavir</pair>  
+      <pair id="DDI-DrugBank.d295.s0.p2" e1="DDI-DrugBank.d295.s0.e1" e2="DDI-DrugBank.d295.s0.e2" ddi="false" flags="True" e1_name="BARACLUDE" e2_name="entecavir" e1_pos="11" e2_pos="30" path="11@@9@@25@@27@@30@@">BARACLUDE@@@@prep_of@@coadministration@@nsubj@@increase@@dobj@@concentrations@@prep_of@@entecavir</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d295.s1" text="Coadministration of entecavir with lamivudine, adefovir dipivoxil,or tenofovir disoproxil fumarate did not result in significant drug interactions." new_text="Coadministration@@of@@entecavir@@with@@lamivudine@@,@@adefovir dipivoxil@@,or@@tenofovir disoproxil fumarate@@did@@not@@result@@in@@significant@@drug@@interactions@@.@@"> 
+      <entity id="DDI-DrugBank.d295.s1.e0" charOffset="20-28" type="drug" text="entecavir" position="2"/>  
+      <entity id="DDI-DrugBank.d295.s1.e1" charOffset="35-44" type="drug" text="lamivudine" position="4"/>  
+      <entity id="DDI-DrugBank.d295.s1.e2" charOffset="47-64" type="drug" text="adefovir dipivoxil" position="6"/>  
+      <entity id="DDI-DrugBank.d295.s1.e3" charOffset="69-97" type="drug" text="tenofovir disoproxil fumarate" position="8"/>  
+      <pair id="DDI-DrugBank.d295.s1.p0" e1="DDI-DrugBank.d295.s1.e0" e2="DDI-DrugBank.d295.s1.e1" ddi="false" flags="True" e1_name="entecavir" e2_name="lamivudine" e1_pos="2" e2_pos="4" path="2@@8@@4@@">entecavir@@@@prep_with@@tenofovir disoproxil fumarate@@amod@@lamivudine</pair>  
+      <pair id="DDI-DrugBank.d295.s1.p1" e1="DDI-DrugBank.d295.s1.e0" e2="DDI-DrugBank.d295.s1.e2" ddi="false" flags="True" e1_name="entecavir" e2_name="adefovir dipivoxil" e1_pos="2" e2_pos="6" path="2@@8@@6@@">entecavir@@@@prep_with@@tenofovir disoproxil fumarate@@amod@@adefovir dipivoxil</pair>  
+      <pair id="DDI-DrugBank.d295.s1.p2" e1="DDI-DrugBank.d295.s1.e0" e2="DDI-DrugBank.d295.s1.e3" ddi="false" flags="True" e1_name="entecavir" e2_name="tenofovir disoproxil fumarate" e1_pos="2" e2_pos="8" path="2@@8@@">entecavir@@@@prep_with@@tenofovir disoproxil fumarate</pair>  
+      <pair id="DDI-DrugBank.d295.s1.p3" e1="DDI-DrugBank.d295.s1.e1" e2="DDI-DrugBank.d295.s1.e2" ddi="false" flags="True" e1_name="lamivudine" e2_name="adefovir dipivoxil" e1_pos="4" e2_pos="6" path="4@@8@@6@@">lamivudine@@@@amod@@tenofovir disoproxil fumarate@@amod@@adefovir dipivoxil</pair>  
+      <pair id="DDI-DrugBank.d295.s1.p4" e1="DDI-DrugBank.d295.s1.e1" e2="DDI-DrugBank.d295.s1.e3" ddi="false" flags="True" e1_name="lamivudine" e2_name="tenofovir disoproxil fumarate" e1_pos="4" e2_pos="8" path="4@@8@@">lamivudine@@@@amod@@tenofovir disoproxil fumarate</pair>  
+      <pair id="DDI-DrugBank.d295.s1.p5" e1="DDI-DrugBank.d295.s1.e2" e2="DDI-DrugBank.d295.s1.e3" ddi="false" flags="True" e1_name="adefovir dipivoxil" e2_name="tenofovir disoproxil fumarate" e1_pos="6" e2_pos="8" path="6@@8@@">adefovir dipivoxil@@@@amod@@tenofovir disoproxil fumarate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d295.s2" text="The effects of coadministration of BARACLUDE with other drugs that are renally eliminated or are known to affect renal function have not been evaluated, and patients should be monitored closely for adverse events when BARACLUDE is coadministered with such drugs." new_text="The@@effects@@of@@coadministration@@of@@BARACLUDE@@with@@other@@drugs@@that@@are@@renally@@eliminated@@or@@are@@known@@to@@affect@@renal@@function@@have@@not@@been@@evaluated@@,@@and@@patients@@should@@be@@monitored@@closely@@for@@adverse@@events@@when@@BARACLUDE@@is@@coadministered@@with@@such@@drugs@@.@@"> 
+      <entity id="DDI-DrugBank.d295.s2.e0" charOffset="35-43" type="brand" text="BARACLUDE" position="5"/>  
+      <entity id="DDI-DrugBank.d295.s2.e1" charOffset="218-226" type="brand" text="BARACLUDE" position="35"/>  
+      <pair id="DDI-DrugBank.d295.s2.p0" e1="DDI-DrugBank.d295.s2.e0" e2="DDI-DrugBank.d295.s2.e1" ddi="false" flags="True" e1_name="BARACLUDE" e2_name="BARACLUDE" e1_pos="5" e2_pos="35" path="5@@3@@1@@23@@29@@37@@35@@">BARACLUDE@@@@prep_of@@coadministration@@prep_of@@effects@@nsubjpass@@evaluated@@conj_and@@monitored@@advcl@@coadministered@@nsubjpass@@BARACLUDE</pair> 
+   </sentence> 
+</document>

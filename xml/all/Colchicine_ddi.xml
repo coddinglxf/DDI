@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d146"> 
+   <sentence id="DDI-DrugBank.d146.s0" text="Colchicine is inhibited by acidifying agents." new_text="Colchicine@@is@@inhibited@@by@@acidifying agents@@.@@"> 
+      <entity id="DDI-DrugBank.d146.s0.e0" charOffset="0-9" type="drug" text="Colchicine" position="0"/>  
+      <entity id="DDI-DrugBank.d146.s0.e1" charOffset="27-43" type="group" text="acidifying agents" position="4"/>  
+      <pair id="DDI-DrugBank.d146.s0.p0" e1="DDI-DrugBank.d146.s0.e0" e2="DDI-DrugBank.d146.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="Colchicine" e2_name="acidifying agents" e1_pos="0" e2_pos="4" path="0@@2@@4@@">Colchicine@@@@nsubjpass@@inhibited@@agent@@acidifying agents</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d146.s1" text="The action of colchicine is potentiated by alkalinizing agents." new_text="The@@action@@of@@colchicine@@is@@potentiated@@by@@alkalinizing agents@@.@@"> 
+      <entity id="DDI-DrugBank.d146.s1.e0" charOffset="14-23" type="drug" text="colchicine" position="3"/>  
+      <entity id="DDI-DrugBank.d146.s1.e1" charOffset="43-61" type="group" text="alkalinizing agents" position="7"/>  
+      <pair id="DDI-DrugBank.d146.s1.p0" e1="DDI-DrugBank.d146.s1.e0" e2="DDI-DrugBank.d146.s1.e1" ddi="true" type="mechanism" flags="True" e1_name="colchicine" e2_name="alkalinizing agents" e1_pos="3" e2_pos="7" path="3@@1@@5@@7@@">colchicine@@@@prep_of@@action@@nsubjpass@@potentiated@@agent@@alkalinizing agents</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d146.s2" text="Colchicine may increase sensitivity to the CNS depressants." new_text="Colchicine@@may@@increase@@sensitivity@@to@@the@@CNS depressants@@.@@"> 
+      <entity id="DDI-DrugBank.d146.s2.e0" charOffset="0-9" type="drug" text="Colchicine" position="0"/>  
+      <entity id="DDI-DrugBank.d146.s2.e1" charOffset="43-57" type="group" text="CNS depressants" position="6"/>  
+      <pair id="DDI-DrugBank.d146.s2.p0" e1="DDI-DrugBank.d146.s2.e0" e2="DDI-DrugBank.d146.s2.e1" ddi="true" type="effect" flags="True" e1_name="Colchicine" e2_name="CNS depressants" e1_pos="0" e2_pos="6" path="0@@2@@6@@">Colchicine@@@@nsubj@@increase@@prep_to@@CNS depressants</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d146.s3" text="Response to sympathomimetic agents may be enhanced by colchicine." new_text="Response@@to@@sympathomimetic agents@@may@@be@@enhanced@@by@@colchicine@@.@@"> 
+      <entity id="DDI-DrugBank.d146.s3.e0" charOffset="12-33" type="group" text="sympathomimetic agents" position="2"/>  
+      <entity id="DDI-DrugBank.d146.s3.e1" charOffset="54-63" type="drug" text="colchicine" position="7"/>  
+      <pair id="DDI-DrugBank.d146.s3.p0" e1="DDI-DrugBank.d146.s3.e0" e2="DDI-DrugBank.d146.s3.e1" ddi="true" type="effect" flags="True" e1_name="sympathomimetic agents" e2_name="colchicine" e1_pos="2" e2_pos="7" path="2@@0@@5@@7@@">sympathomimetic agents@@@@prep_to@@Response@@nsubjpass@@enhanced@@agent@@colchicine</pair> 
+   </sentence> 
+</document>

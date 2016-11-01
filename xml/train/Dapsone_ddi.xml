@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d185"> 
+   <sentence id="DDI-DrugBank.d185.s0" text="A drug-drug interaction study evaluated the effect of the use of ACZONE Gel, 5%, in combination with double strength (160 mg/800 mg) trimethoprim/sulfamethoxazole (TMP/SMX)." new_text="A@@drug-drug@@interaction@@study@@evaluated@@the@@effect@@of@@the@@use@@of@@ACZONE@@Gel@@,@@5%@@,@@in@@combination@@with@@double@@strength@@(160@@mg/800@@mg)@@trimethoprim@@/@@sulfamethoxazole@@(@@TMP@@/@@SMX@@)@@.@@"> 
+      <entity id="DDI-DrugBank.d185.s0.e0" charOffset="65-70" type="brand" text="ACZONE" position="11"/>  
+      <entity id="DDI-DrugBank.d185.s0.e1" charOffset="133-144" type="drug" text="trimethoprim" position="24"/>  
+      <entity id="DDI-DrugBank.d185.s0.e2" charOffset="146-161" type="drug" text="sulfamethoxazole" position="26"/>  
+      <entity id="DDI-DrugBank.d185.s0.e3" charOffset="164-166" type="drug" text="TMP" position="28"/>  
+      <entity id="DDI-DrugBank.d185.s0.e4" charOffset="168-170" type="drug" text="SMX" position="30"/>  
+      <pair id="DDI-DrugBank.d185.s0.p0" e1="DDI-DrugBank.d185.s0.e0" e2="DDI-DrugBank.d185.s0.e1" ddi="false" flags="True" e1_name="ACZONE" e2_name="trimethoprim" e1_pos="11" e2_pos="24" path="11@@12@@9@@6@@4@@3@@24@@">ACZONE@@@@nn@@Gel@@prep_of@@use@@prep_of@@effect@@dobj@@evaluated@@partmod@@study@@nsubj@@trimethoprim</pair>  
+      <pair id="DDI-DrugBank.d185.s0.p1" e1="DDI-DrugBank.d185.s0.e0" e2="DDI-DrugBank.d185.s0.e2" ddi="false" flags="True" e1_name="ACZONE" e2_name="sulfamethoxazole" e1_pos="11" e2_pos="26" path="11@@12@@9@@6@@4@@3@@24@@26@@">ACZONE@@@@nn@@Gel@@prep_of@@use@@prep_of@@effect@@dobj@@evaluated@@partmod@@study@@nsubj@@trimethoprim@@parataxis@@sulfamethoxazole</pair>  
+      <pair id="DDI-DrugBank.d185.s0.p2" e1="DDI-DrugBank.d185.s0.e0" e2="DDI-DrugBank.d185.s0.e3" ddi="false" flags="True" e1_name="ACZONE" e2_name="TMP" e1_pos="11" e2_pos="28" path="11@@12@@9@@6@@4@@3@@24@@26@@28@@">ACZONE@@@@nn@@Gel@@prep_of@@use@@prep_of@@effect@@dobj@@evaluated@@partmod@@study@@nsubj@@trimethoprim@@parataxis@@sulfamethoxazole@@dobj@@TMP</pair>  
+      <pair id="DDI-DrugBank.d185.s0.p3" e1="DDI-DrugBank.d185.s0.e0" e2="DDI-DrugBank.d185.s0.e4" ddi="false" flags="True" e1_name="ACZONE" e2_name="SMX" e1_pos="11" e2_pos="30" path="11@@12@@9@@6@@4@@3@@24@@31@@30@@">ACZONE@@@@nn@@Gel@@prep_of@@use@@prep_of@@effect@@dobj@@evaluated@@partmod@@study@@nsubj@@trimethoprim@@dobj@@)@@nn@@SMX</pair>  
+      <pair id="DDI-DrugBank.d185.s0.p4" e1="DDI-DrugBank.d185.s0.e1" e2="DDI-DrugBank.d185.s0.e2" ddi="false" flags="True" e1_name="trimethoprim" e2_name="sulfamethoxazole" e1_pos="24" e2_pos="26" path="24@@26@@">trimethoprim@@@@parataxis@@sulfamethoxazole</pair>  
+      <pair id="DDI-DrugBank.d185.s0.p5" e1="DDI-DrugBank.d185.s0.e1" e2="DDI-DrugBank.d185.s0.e3" ddi="false" flags="True" e1_name="trimethoprim" e2_name="TMP" e1_pos="24" e2_pos="28" path="24@@26@@28@@">trimethoprim@@@@parataxis@@sulfamethoxazole@@dobj@@TMP</pair>  
+      <pair id="DDI-DrugBank.d185.s0.p6" e1="DDI-DrugBank.d185.s0.e1" e2="DDI-DrugBank.d185.s0.e4" ddi="false" flags="True" e1_name="trimethoprim" e2_name="SMX" e1_pos="24" e2_pos="30" path="24@@31@@30@@">trimethoprim@@@@dobj@@)@@nn@@SMX</pair>  
+      <pair id="DDI-DrugBank.d185.s0.p7" e1="DDI-DrugBank.d185.s0.e2" e2="DDI-DrugBank.d185.s0.e3" ddi="false" flags="True" e1_name="sulfamethoxazole" e2_name="TMP" e1_pos="26" e2_pos="28" path="26@@28@@">sulfamethoxazole@@@@dobj@@TMP</pair>  
+      <pair id="DDI-DrugBank.d185.s0.p8" e1="DDI-DrugBank.d185.s0.e2" e2="DDI-DrugBank.d185.s0.e4" ddi="false" flags="True" e1_name="sulfamethoxazole" e2_name="SMX" e1_pos="26" e2_pos="30" path="26@@24@@31@@30@@">sulfamethoxazole@@@@parataxis@@trimethoprim@@dobj@@)@@nn@@SMX</pair>  
+      <pair id="DDI-DrugBank.d185.s0.p9" e1="DDI-DrugBank.d185.s0.e3" e2="DDI-DrugBank.d185.s0.e4" ddi="false" flags="True" e1_name="TMP" e2_name="SMX" e1_pos="28" e2_pos="30" path="28@@26@@24@@31@@30@@">TMP@@@@dobj@@sulfamethoxazole@@parataxis@@trimethoprim@@dobj@@)@@nn@@SMX</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d185.s1" text="During co-administration, systemic levels of TMP and SMX were essentially unchanged." new_text="During@@co-administration@@,@@systemic@@levels@@of@@TMP@@and@@SMX@@were@@essentially@@unchanged@@.@@"> 
+      <entity id="DDI-DrugBank.d185.s1.e0" charOffset="45-47" type="drug" text="TMP" position="6"/>  
+      <entity id="DDI-DrugBank.d185.s1.e1" charOffset="53-55" type="drug" text="SMX" position="8"/>  
+      <pair id="DDI-DrugBank.d185.s1.p0" e1="DDI-DrugBank.d185.s1.e0" e2="DDI-DrugBank.d185.s1.e1" ddi="false" flags="True" e1_name="TMP" e2_name="SMX" e1_pos="6" e2_pos="8" path="6@@8@@">TMP@@@@conj_and@@SMX</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d185.s2" text="Notably, systemic exposure (AUC0-12) of dapsone hydroxylamine (DHA) was more than doubled in the presence of TMP/SMX." new_text="Notably@@,@@systemic@@exposure@@(AUC0-12)@@of@@dapsone hydroxylamine@@(@@DHA@@)@@was@@more@@than@@doubled@@in@@the@@presence@@of@@TMP@@/@@SMX@@.@@"> 
+      <entity id="DDI-DrugBank.d185.s2.e0" charOffset="40-60" type="drug_n" text="dapsone hydroxylamine" position="6"/>  
+      <entity id="DDI-DrugBank.d185.s2.e1" charOffset="63-65" type="drug_n" text="DHA" position="8"/>  
+      <entity id="DDI-DrugBank.d185.s2.e2" charOffset="109-111" type="drug" text="TMP" position="18"/>  
+      <entity id="DDI-DrugBank.d185.s2.e3" charOffset="113-115" type="drug" text="SMX" position="20"/>  
+      <pair id="DDI-DrugBank.d185.s2.p0" e1="DDI-DrugBank.d185.s2.e0" e2="DDI-DrugBank.d185.s2.e1" ddi="false" flags="True" e1_name="dapsone hydroxylamine" e2_name="DHA" e1_pos="6" e2_pos="8" path="6@@9@@8@@">dapsone hydroxylamine@@@@amod@@)@@nn@@DHA</pair>  
+      <pair id="DDI-DrugBank.d185.s2.p1" e1="DDI-DrugBank.d185.s2.e0" e2="DDI-DrugBank.d185.s2.e2" ddi="false" flags="True" e1_name="dapsone hydroxylamine" e2_name="TMP" e1_pos="6" e2_pos="18" path="6@@9@@4@@13@@16@@20@@18@@">dapsone hydroxylamine@@@@amod@@)@@prep_of@@(AUC0-12)@@nsubjpass@@doubled@@prep_in@@presence@@prep_of@@SMX@@nn@@TMP</pair>  
+      <pair id="DDI-DrugBank.d185.s2.p2" e1="DDI-DrugBank.d185.s2.e0" e2="DDI-DrugBank.d185.s2.e3" ddi="false" flags="True" e1_name="dapsone hydroxylamine" e2_name="SMX" e1_pos="6" e2_pos="20" path="6@@9@@4@@13@@16@@20@@">dapsone hydroxylamine@@@@amod@@)@@prep_of@@(AUC0-12)@@nsubjpass@@doubled@@prep_in@@presence@@prep_of@@SMX</pair>  
+      <pair id="DDI-DrugBank.d185.s2.p3" e1="DDI-DrugBank.d185.s2.e1" e2="DDI-DrugBank.d185.s2.e2" ddi="false" flags="True" e1_name="DHA" e2_name="TMP" e1_pos="8" e2_pos="18" path="8@@9@@4@@13@@16@@20@@18@@">DHA@@@@nn@@)@@prep_of@@(AUC0-12)@@nsubjpass@@doubled@@prep_in@@presence@@prep_of@@SMX@@nn@@TMP</pair>  
+      <pair id="DDI-DrugBank.d185.s2.p4" e1="DDI-DrugBank.d185.s2.e1" e2="DDI-DrugBank.d185.s2.e3" ddi="false" flags="True" e1_name="DHA" e2_name="SMX" e1_pos="8" e2_pos="20" path="8@@9@@4@@13@@16@@20@@">DHA@@@@nn@@)@@prep_of@@(AUC0-12)@@nsubjpass@@doubled@@prep_in@@presence@@prep_of@@SMX</pair>  
+      <pair id="DDI-DrugBank.d185.s2.p5" e1="DDI-DrugBank.d185.s2.e2" e2="DDI-DrugBank.d185.s2.e3" ddi="false" flags="True" e1_name="TMP" e2_name="SMX" e1_pos="18" e2_pos="20" path="18@@20@@">TMP@@@@nn@@SMX</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d185.s3" text="Exposure from the proposed topical dose is about 1% of that from the 100 mg oral dose, even when co-administered with TMP/SMX." new_text="Exposure@@from@@the@@proposed@@topical@@dose@@is@@about@@1%@@of@@that@@from@@the@@100@@mg@@oral@@dose@@,@@even@@when@@co-administered@@with@@TMP@@/@@SMX@@.@@"> 
+      <entity id="DDI-DrugBank.d185.s3.e0" charOffset="118-120" type="drug" text="TMP" position="22"/>  
+      <entity id="DDI-DrugBank.d185.s3.e1" charOffset="122-124" type="drug" text="SMX" position="24"/>  
+      <pair id="DDI-DrugBank.d185.s3.p0" e1="DDI-DrugBank.d185.s3.e0" e2="DDI-DrugBank.d185.s3.e1" ddi="false" flags="True" e1_name="TMP" e2_name="SMX" e1_pos="22" e2_pos="24" path="22@@24@@">TMP@@@@nn@@SMX</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d185.s4" text="Certain concomitant medications (such as rifampin, anticonvulsants, St." new_text="Certain@@concomitant@@medications@@(such@@as@@rifampin@@,@@anticonvulsants@@,@@St@@.@@"> 
+      <entity id="DDI-DrugBank.d185.s4.e0" charOffset="41-48" type="drug" text="rifampin" position="5"/>  
+      <entity id="DDI-DrugBank.d185.s4.e1" charOffset="51-65" type="group" text="anticonvulsants" position="7"/>  
+      <pair id="DDI-DrugBank.d185.s4.p0" e1="DDI-DrugBank.d185.s4.e0" e2="DDI-DrugBank.d185.s4.e1" ddi="false" flags="True" e1_name="rifampin" e2_name="anticonvulsants" e1_pos="5" e2_pos="7" path="5@@7@@">rifampin@@@@amod@@anticonvulsants</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d185.s5" text="John s wort) may increase the formation of dapsone hydroxylamine, a metabolite of dapsone associated with hemolysis." new_text="John@@s@@wort)@@may@@increase@@the@@formation@@of@@dapsone hydroxylamine@@,@@a@@metabolite@@of@@dapsone@@associated@@with@@hemolysis@@.@@"> 
+      <entity id="DDI-DrugBank.d185.s5.e0" charOffset="43-63" type="drug_n" text="dapsone hydroxylamine" position="8"/>  
+      <entity id="DDI-DrugBank.d185.s5.e1" charOffset="82-88" type="drug" text="dapsone" position="13"/>  
+      <pair id="DDI-DrugBank.d185.s5.p0" e1="DDI-DrugBank.d185.s5.e0" e2="DDI-DrugBank.d185.s5.e1" ddi="false" flags="True" e1_name="dapsone hydroxylamine" e2_name="dapsone" e1_pos="8" e2_pos="13" path="8@@6@@4@@14@@11@@13@@">dapsone hydroxylamine@@@@prep_of@@formation@@dobj@@increase@@ccomp@@associated@@nsubj@@metabolite@@prep_of@@dapsone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d185.s6" text="With oral dapsone treatment, folic acid antagonists such as pyrimethamine have been noted to possibly increase the likelihood of hematologic reactions" new_text="With@@oral@@dapsone@@treatment@@,@@folic acid antagonists@@such@@as@@pyrimethamine@@have@@been@@noted@@to@@possibly@@increase@@the@@likelihood@@of@@hematologic@@reactions@@"> 
+      <entity id="DDI-DrugBank.d185.s6.e0" charOffset="10-16" type="drug" text="dapsone" position="2"/>  
+      <entity id="DDI-DrugBank.d185.s6.e1" charOffset="29-50" type="group" text="folic acid antagonists" position="5"/>  
+      <entity id="DDI-DrugBank.d185.s6.e2" charOffset="60-72" type="drug" text="pyrimethamine" position="8"/>  
+      <pair id="DDI-DrugBank.d185.s6.p0" e1="DDI-DrugBank.d185.s6.e0" e2="DDI-DrugBank.d185.s6.e1" ddi="true" type="effect" flags="True" e1_name="dapsone" e2_name="folic acid antagonists" e1_pos="2" e2_pos="5" path="2@@3@@11@@5@@">dapsone@@@@nn@@treatment@@prep_with@@noted@@nsubjpass@@folic acid antagonists</pair>  
+      <pair id="DDI-DrugBank.d185.s6.p1" e1="DDI-DrugBank.d185.s6.e0" e2="DDI-DrugBank.d185.s6.e2" ddi="true" type="effect" flags="True" e1_name="dapsone" e2_name="pyrimethamine" e1_pos="2" e2_pos="8" path="2@@3@@11@@5@@8@@">dapsone@@@@nn@@treatment@@prep_with@@noted@@nsubjpass@@folic acid antagonists@@prep_such_as@@pyrimethamine</pair>  
+      <pair id="DDI-DrugBank.d185.s6.p2" e1="DDI-DrugBank.d185.s6.e1" e2="DDI-DrugBank.d185.s6.e2" ddi="false" flags="True" e1_name="folic acid antagonists" e2_name="pyrimethamine" e1_pos="5" e2_pos="8" path="5@@8@@">folic acid antagonists@@@@prep_such_as@@pyrimethamine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d185.s7" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d185.s8" text="" new_text=""/> 
+</document>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d135"> 
+   <sentence id="DDI-MedLine.d135.s0" text="Combinations of clozapine and phencyclidine: effects on drug discrimination and behavioral inhibition in rats.
+" new_text="Combinations@@of@@clozapine@@and@@phencyclidine@@:@@effects@@on@@drug@@discrimination@@and@@behavioral@@inhibition@@in@@rats@@.@@"> 
+      <entity id="DDI-MedLine.d135.s0.e0" charOffset="16-24" type="drug" text="clozapine" position="2"/>  
+      <entity id="DDI-MedLine.d135.s0.e1" charOffset="30-42" type="drug_n" text="phencyclidine" position="4"/>  
+      <pair id="DDI-MedLine.d135.s0.p0" e1="DDI-MedLine.d135.s0.e0" e2="DDI-MedLine.d135.s0.e1" ddi="false" flags="True" e1_name="clozapine" e2_name="phencyclidine" e1_pos="2" e2_pos="4" path="2@@4@@">clozapine@@@@conj_and@@phencyclidine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d135.s1" text="Phencyclidine (PCP) produces psychotomimetic effects in humans that resemble schizophrenia symptoms. " new_text="Phencyclidine@@(@@PCP@@)@@produces@@psychotomimetic@@effects@@in@@humans@@that@@resemble@@schizophrenia@@symptoms@@.@@"> 
+      <entity id="DDI-MedLine.d135.s1.e0" charOffset="0-12" type="drug_n" text="Phencyclidine" position="0"/>  
+      <entity id="DDI-MedLine.d135.s1.e1" charOffset="15-17" type="drug_n" text="PCP" position="2"/>  
+      <pair id="DDI-MedLine.d135.s1.p0" e1="DDI-MedLine.d135.s1.e0" e2="DDI-MedLine.d135.s1.e1" ddi="false" flags="True" e1_name="Phencyclidine" e2_name="PCP" e1_pos="0" e2_pos="2" path="0@@3@@2@@">Phencyclidine@@@@nn@@)@@nn@@PCP</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d135.s2" text="In an effort to screen compounds for antipsychotic activity, preclinical researchers have investigated whether these compounds block PCP-induced behaviors in animals. " new_text="In@@an@@effort@@to@@screen@@compounds@@for@@antipsychotic@@activity@@,@@preclinical@@researchers@@have@@investigated@@whether@@these@@compounds@@block@@PCP@@-induced@@behaviors@@in@@animals@@.@@"> 
+      <entity id="DDI-MedLine.d135.s2.e0" charOffset="133-135" type="drug_n" text="PCP" position="18"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d135.s3" text="In the present study, the atypical antipsychotic clozapine was tested in combination with an active dose of PCP in two-lever drug discrimination and mixed signalled-unsignalled differential-reinforcement-of-low-rates (DRL) procedures. " new_text="In@@the@@present@@study@@,@@the@@atypical antipsychotic@@clozapine@@was@@tested@@in@@combination@@with@@an@@active@@dose@@of@@PCP@@in@@two-lever@@drug@@discrimination@@and@@mixed@@signalled-unsignalled@@differential-reinforcement-of-low-rates@@(DRL)@@procedures@@.@@"> 
+      <entity id="DDI-MedLine.d135.s3.e0" charOffset="26-47" type="group" text="atypical antipsychotic" position="6"/>  
+      <entity id="DDI-MedLine.d135.s3.e1" charOffset="49-57" type="drug" text="clozapine" position="7"/>  
+      <entity id="DDI-MedLine.d135.s3.e2" charOffset="108-110" type="drug_n" text="PCP" position="17"/>  
+      <pair id="DDI-MedLine.d135.s3.p0" e1="DDI-MedLine.d135.s3.e0" e2="DDI-MedLine.d135.s3.e1" ddi="false" flags="True" e1_name="atypical antipsychotic" e2_name="clozapine" e1_pos="6" e2_pos="7" path="6@@7@@">atypical antipsychotic@@@@amod@@clozapine</pair>  
+      <pair id="DDI-MedLine.d135.s3.p1" e1="DDI-MedLine.d135.s3.e0" e2="DDI-MedLine.d135.s3.e2" ddi="false" flags="True" e1_name="atypical antipsychotic" e2_name="PCP" e1_pos="6" e2_pos="17" path="6@@7@@9@@15@@17@@">atypical antipsychotic@@@@amod@@clozapine@@nsubjpass@@tested@@prep_with@@dose@@prep_of@@PCP</pair>  
+      <pair id="DDI-MedLine.d135.s3.p2" e1="DDI-MedLine.d135.s3.e1" e2="DDI-MedLine.d135.s3.e2" ddi="false" flags="True" e1_name="clozapine" e2_name="PCP" e1_pos="7" e2_pos="17" path="7@@9@@15@@17@@">clozapine@@@@nsubjpass@@tested@@prep_with@@dose@@prep_of@@PCP</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d135.s4" text="PCP produced distinctive effects in each task: it substituted for the training dose in PCP discrimination and it increased the number of responses with short (&lt;3 s) interresponse times as well as increasing overall response rates in the DRL schedule. " new_text="PCP@@produced@@distinctive@@effects@@in@@each@@task@@:@@it@@substituted@@for@@the@@training@@dose@@in@@PCP@@discrimination@@and@@it@@increased@@the@@number@@of@@responses@@with@@short@@(&lt;3@@s)@@interresponse@@times@@as@@well@@as@@increasing@@overall@@response@@rates@@in@@the@@DRL@@schedule@@.@@"> 
+      <entity id="DDI-MedLine.d135.s4.e0" charOffset="0-2" type="drug_n" text="PCP" position="0"/>  
+      <entity id="DDI-MedLine.d135.s4.e1" charOffset="87-89" type="drug_n" text="PCP" position="15"/>  
+      <pair id="DDI-MedLine.d135.s4.p0" e1="DDI-MedLine.d135.s4.e0" e2="DDI-MedLine.d135.s4.e1" ddi="false" flags="True" e1_name="PCP" e2_name="PCP" e1_pos="0" e2_pos="15" path="0@@1@@9@@13@@16@@15@@">PCP@@@@nsubj@@produced@@parataxis@@substituted@@prep_for@@dose@@prep_in@@discrimination@@nn@@PCP</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d135.s5" text="Acute dosing with clozapine failed to alter the behavioral effects of PCP in either procedure even when tested up to doses that produced pharmacological effects alone. " new_text="Acute@@dosing@@with@@clozapine@@failed@@to@@alter@@the@@behavioral@@effects@@of@@PCP@@in@@either@@procedure@@even@@when@@tested@@up@@to@@doses@@that@@produced@@pharmacological@@effects@@alone@@.@@"> 
+      <entity id="DDI-MedLine.d135.s5.e0" charOffset="18-26" type="drug" text="clozapine" position="3"/>  
+      <entity id="DDI-MedLine.d135.s5.e1" charOffset="70-72" type="drug_n" text="PCP" position="11"/>  
+      <pair id="DDI-MedLine.d135.s5.p0" e1="DDI-MedLine.d135.s5.e0" e2="DDI-MedLine.d135.s5.e1" ddi="false" flags="True" e1_name="clozapine" e2_name="PCP" e1_pos="3" e2_pos="11" path="3@@1@@6@@9@@11@@">clozapine@@@@prep_with@@dosing@@xsubj@@alter@@dobj@@effects@@prep_of@@PCP</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d135.s6" text="These results suggest that acute dosing with clozapine would not affect behaviors most closely associated with PCP intoxication. " new_text="These@@results@@suggest@@that@@acute@@dosing@@with@@clozapine@@would@@not@@affect@@behaviors@@most@@closely@@associated@@with@@PCP@@intoxication@@.@@"> 
+      <entity id="DDI-MedLine.d135.s6.e0" charOffset="45-53" type="drug" text="clozapine" position="7"/>  
+      <entity id="DDI-MedLine.d135.s6.e1" charOffset="111-113" type="drug_n" text="PCP" position="16"/>  
+      <pair id="DDI-MedLine.d135.s6.p0" e1="DDI-MedLine.d135.s6.e0" e2="DDI-MedLine.d135.s6.e1" ddi="false" flags="True" e1_name="clozapine" e2_name="PCP" e1_pos="7" e2_pos="16" path="7@@5@@10@@14@@17@@16@@">clozapine@@@@prep_with@@dosing@@nsubj@@affect@@xcomp@@associated@@prep_with@@intoxication@@nn@@PCP</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d135.s7" text="Further, they bring into question the utility of using PCP combination procedures in animals to screen for antipsychotic potential. " new_text="Further@@,@@they@@bring@@into@@question@@the@@utility@@of@@using@@PCP@@combination@@procedures@@in@@animals@@to@@screen@@for@@antipsychotic@@potential@@.@@"> 
+      <entity id="DDI-MedLine.d135.s7.e0" charOffset="55-57" type="drug_n" text="PCP" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d135.s8" text="Since chronic dosing is required for therapeutic efficacy of antipsychotics, future studies should focus on investigation of chronic dosing effects of these drugs in combination with PCP." new_text="Since@@chronic@@dosing@@is@@required@@for@@therapeutic@@efficacy@@of@@antipsychotics@@,@@future@@studies@@should@@focus@@on@@investigation@@of@@chronic@@dosing@@effects@@of@@these@@drugs@@in@@combination@@with@@PCP@@.@@"> 
+      <entity id="DDI-MedLine.d135.s8.e0" charOffset="61-74" type="group" text="antipsychotics" position="9"/>  
+      <entity id="DDI-MedLine.d135.s8.e1" charOffset="183-185" type="drug_n" text="PCP" position="27"/>  
+      <pair id="DDI-MedLine.d135.s8.p0" e1="DDI-MedLine.d135.s8.e0" e2="DDI-MedLine.d135.s8.e1" ddi="false" flags="True" e1_name="antipsychotics" e2_name="PCP" e1_pos="9" e2_pos="27" path="9@@7@@4@@14@@27@@">antipsychotics@@@@prep_of@@efficacy@@prep_for@@required@@advcl@@focus@@prep_with@@PCP</pair> 
+   </sentence> 
+</document>

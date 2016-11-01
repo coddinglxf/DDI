@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d112"> 
+   <sentence id="DDI-DrugBank.d112.s0" text="Concurrent use with probenecid or other drugs significantly eliminated by active renal tubular secretion may result in increased plasma concentrations of penciclovir." new_text="Concurrent@@use@@with@@probenecid@@or@@other@@drugs@@significantly@@eliminated@@by@@active@@renal@@tubular@@secretion@@may@@result@@in@@increased@@plasma@@concentrations@@of@@penciclovir@@.@@"> 
+      <entity id="DDI-DrugBank.d112.s0.e0" charOffset="20-29" type="drug" text="probenecid" position="3"/>  
+      <entity id="DDI-DrugBank.d112.s0.e1" charOffset="154-164" type="drug" text="penciclovir" position="21"/>  
+      <pair id="DDI-DrugBank.d112.s0.p0" e1="DDI-DrugBank.d112.s0.e0" e2="DDI-DrugBank.d112.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="probenecid" e2_name="penciclovir" e1_pos="3" e2_pos="21" path="3@@6@@1@@15@@19@@21@@">probenecid@@@@amod@@drugs@@prep_with@@use@@nsubj@@result@@prep_in@@concentrations@@prep_of@@penciclovir</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d112.s1" text="The conversion of 6-deoxy penciclovir to penciclovir is catalyzed by aldehyde oxidase." new_text="The@@conversion@@of@@6-deoxy penciclovir@@to@@penciclovir@@is@@catalyzed@@by@@aldehyde@@oxidase@@.@@"> 
+      <entity id="DDI-DrugBank.d112.s1.e0" charOffset="18-36" type="drug_n" text="6-deoxy penciclovir" position="3"/>  
+      <entity id="DDI-DrugBank.d112.s1.e1" charOffset="41-51" type="drug" text="penciclovir" position="5"/>  
+      <pair id="DDI-DrugBank.d112.s1.p0" e1="DDI-DrugBank.d112.s1.e0" e2="DDI-DrugBank.d112.s1.e1" ddi="false" flags="True" e1_name="6-deoxy penciclovir" e2_name="penciclovir" e1_pos="3" e2_pos="5" path="3@@5@@">6-deoxy penciclovir@@@@prep_to@@penciclovir</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d112.s2" text="Interactions with other drugs metabolized by this enzyme could potentially occur." new_text="Interactions@@with@@other@@drugs@@metabolized@@by@@this@@enzyme@@could@@potentially@@occur@@.@@"/> 
+</document>

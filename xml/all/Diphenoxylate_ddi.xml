@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d538"> 
+   <sentence id="DDI-DrugBank.d538.s0" text="Known drug interactions include barbiturates, tranquilizers, and alcohol." new_text="Known@@drug@@interactions@@include@@barbiturates@@,@@tranquilizers@@,@@and@@alcohol@@.@@"> 
+      <entity id="DDI-DrugBank.d538.s0.e0" charOffset="32-43" type="group" text="barbiturates" position="4"/>  
+      <entity id="DDI-DrugBank.d538.s0.e1" charOffset="46-58" type="group" text="tranquilizers" position="6"/>  
+      <entity id="DDI-DrugBank.d538.s0.e2" charOffset="65-71" type="drug" text="alcohol" position="9"/>  
+      <pair id="DDI-DrugBank.d538.s0.p0" e1="DDI-DrugBank.d538.s0.e0" e2="DDI-DrugBank.d538.s0.e1" ddi="false" flags="True" e1_name="barbiturates" e2_name="tranquilizers" e1_pos="4" e2_pos="6" path="4@@6@@">barbiturates@@@@conj_and@@tranquilizers</pair>  
+      <pair id="DDI-DrugBank.d538.s0.p1" e1="DDI-DrugBank.d538.s0.e0" e2="DDI-DrugBank.d538.s0.e2" ddi="false" flags="True" e1_name="barbiturates" e2_name="alcohol" e1_pos="4" e2_pos="9" path="4@@9@@">barbiturates@@@@conj_and@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d538.s0.p2" e1="DDI-DrugBank.d538.s0.e1" e2="DDI-DrugBank.d538.s0.e2" ddi="false" flags="True" e1_name="tranquilizers" e2_name="alcohol" e1_pos="6" e2_pos="9" path="6@@3@@9@@">tranquilizers@@@@dobj@@include@@dobj@@alcohol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d538.s1" text="Diphenoxylate HCl and atropine sulfate may interact with MAO inhibitors In studies with male rats, diphenoxylate hydrochloride was found to inhibit the hepatic microsomal enzyme system at a dose of 2 mg/kg/day." new_text="Diphenoxylate HCl@@and@@atropine sulfate@@may@@interact@@with@@MAO inhibitors@@In@@studies@@with@@male@@rats@@,@@diphenoxylate hydrochloride@@was@@found@@to@@inhibit@@the@@hepatic@@microsomal@@enzyme@@system@@at@@a@@dose@@of@@2@@mg/kg/day@@.@@"> 
+      <entity id="DDI-DrugBank.d538.s1.e0" charOffset="0-16" type="drug" text="Diphenoxylate HCl" position="0"/>  
+      <entity id="DDI-DrugBank.d538.s1.e1" charOffset="22-37" type="drug" text="atropine sulfate" position="2"/>  
+      <entity id="DDI-DrugBank.d538.s1.e2" charOffset="57-70" type="group" text="MAO inhibitors" position="6"/>  
+      <entity id="DDI-DrugBank.d538.s1.e3" charOffset="99-125" type="drug" text="diphenoxylate hydrochloride" position="13"/>  
+      <pair id="DDI-DrugBank.d538.s1.p0" e1="DDI-DrugBank.d538.s1.e0" e2="DDI-DrugBank.d538.s1.e1" ddi="false" flags="True" e1_name="Diphenoxylate HCl" e2_name="atropine sulfate" e1_pos="0" e2_pos="2" path="0@@2@@">Diphenoxylate HCl@@@@conj_and@@atropine sulfate</pair>  
+      <pair id="DDI-DrugBank.d538.s1.p1" e1="DDI-DrugBank.d538.s1.e0" e2="DDI-DrugBank.d538.s1.e2" ddi="true" type="int" flags="True" e1_name="Diphenoxylate HCl" e2_name="MAO inhibitors" e1_pos="0" e2_pos="6" path="0@@4@@6@@">Diphenoxylate HCl@@@@nsubj@@interact@@prep_with@@MAO inhibitors</pair>  
+      <pair id="DDI-DrugBank.d538.s1.p2" e1="DDI-DrugBank.d538.s1.e0" e2="DDI-DrugBank.d538.s1.e3" ddi="false" flags="True" e1_name="Diphenoxylate HCl" e2_name="diphenoxylate hydrochloride" e1_pos="0" e2_pos="13" path="0@@4@@15@@13@@">Diphenoxylate HCl@@@@nsubj@@interact@@ccomp@@found@@nsubjpass@@diphenoxylate hydrochloride</pair>  
+      <pair id="DDI-DrugBank.d538.s1.p3" e1="DDI-DrugBank.d538.s1.e1" e2="DDI-DrugBank.d538.s1.e2" ddi="true" type="int" flags="True" e1_name="atropine sulfate" e2_name="MAO inhibitors" e1_pos="2" e2_pos="6" path="2@@4@@6@@">atropine sulfate@@@@nsubj@@interact@@prep_with@@MAO inhibitors</pair>  
+      <pair id="DDI-DrugBank.d538.s1.p4" e1="DDI-DrugBank.d538.s1.e1" e2="DDI-DrugBank.d538.s1.e3" ddi="false" flags="True" e1_name="atropine sulfate" e2_name="diphenoxylate hydrochloride" e1_pos="2" e2_pos="13" path="2@@4@@15@@13@@">atropine sulfate@@@@nsubj@@interact@@ccomp@@found@@nsubjpass@@diphenoxylate hydrochloride</pair>  
+      <pair id="DDI-DrugBank.d538.s1.p5" e1="DDI-DrugBank.d538.s1.e2" e2="DDI-DrugBank.d538.s1.e3" ddi="false" flags="True" e1_name="MAO inhibitors" e2_name="diphenoxylate hydrochloride" e1_pos="6" e2_pos="13" path="6@@4@@15@@13@@">MAO inhibitors@@@@prep_with@@interact@@ccomp@@found@@nsubjpass@@diphenoxylate hydrochloride</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d538.s2" text="Therefore, diphenoxylate has the potential to prolong the biological half-lives of drugs for which the rate of elimination is dependent on the microsomal drug metabolizing enzyme system." new_text="Therefore@@,@@diphenoxylate@@has@@the@@potential@@to@@prolong@@the@@biological@@half-lives@@of@@drugs@@for@@which@@the@@rate@@of@@elimination@@is@@dependent@@on@@the@@microsomal@@drug@@metabolizing@@enzyme@@system@@.@@"> 
+      <entity id="DDI-DrugBank.d538.s2.e0" charOffset="11-23" type="drug" text="diphenoxylate" position="2"/> 
+   </sentence> 
+</document>

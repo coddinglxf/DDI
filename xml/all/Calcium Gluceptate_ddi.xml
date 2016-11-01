@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d406"> 
+   <sentence id="DDI-DrugBank.d406.s0" text="May interact with cefamandole naftate, cephalothin sodium, magnesium sulfate, prednisolone sodium succinate, and prochlorperazine edisylate." new_text="May@@interact@@with@@cefamandole naftate@@,@@cephalothin sodium@@,@@magnesium sulfate@@,@@prednisolone sodium succinate@@,@@and@@prochlorperazine edisylate@@.@@"> 
+      <entity id="DDI-DrugBank.d406.s0.e0" charOffset="18-36" type="drug" text="cefamandole naftate" position="3"/>  
+      <entity id="DDI-DrugBank.d406.s0.e1" charOffset="39-56" type="drug" text="cephalothin sodium" position="5"/>  
+      <entity id="DDI-DrugBank.d406.s0.e2" charOffset="59-75" type="drug" text="magnesium sulfate" position="7"/>  
+      <entity id="DDI-DrugBank.d406.s0.e3" charOffset="78-106" type="drug" text="prednisolone sodium succinate" position="9"/>  
+      <entity id="DDI-DrugBank.d406.s0.e4" charOffset="113-138" type="drug" text="prochlorperazine edisylate" position="12"/>  
+      <pair id="DDI-DrugBank.d406.s0.p0" e1="DDI-DrugBank.d406.s0.e0" e2="DDI-DrugBank.d406.s0.e1" ddi="false" flags="True" e1_name="cefamandole naftate" e2_name="cephalothin sodium" e1_pos="3" e2_pos="5" path="3@@5@@">cefamandole naftate@@@@appos@@cephalothin sodium</pair>  
+      <pair id="DDI-DrugBank.d406.s0.p1" e1="DDI-DrugBank.d406.s0.e0" e2="DDI-DrugBank.d406.s0.e2" ddi="false" flags="True" e1_name="cefamandole naftate" e2_name="magnesium sulfate" e1_pos="3" e2_pos="7" path="3@@7@@">cefamandole naftate@@@@appos@@magnesium sulfate</pair>  
+      <pair id="DDI-DrugBank.d406.s0.p2" e1="DDI-DrugBank.d406.s0.e0" e2="DDI-DrugBank.d406.s0.e3" ddi="false" flags="True" e1_name="cefamandole naftate" e2_name="prednisolone sodium succinate" e1_pos="3" e2_pos="9" path="3@@9@@">cefamandole naftate@@@@appos@@prednisolone sodium succinate</pair>  
+      <pair id="DDI-DrugBank.d406.s0.p3" e1="DDI-DrugBank.d406.s0.e0" e2="DDI-DrugBank.d406.s0.e4" ddi="false" flags="True" e1_name="cefamandole naftate" e2_name="prochlorperazine edisylate" e1_pos="3" e2_pos="12" path="3@@12@@">cefamandole naftate@@@@appos@@prochlorperazine edisylate</pair>  
+      <pair id="DDI-DrugBank.d406.s0.p4" e1="DDI-DrugBank.d406.s0.e1" e2="DDI-DrugBank.d406.s0.e2" ddi="false" flags="True" e1_name="cephalothin sodium" e2_name="magnesium sulfate" e1_pos="5" e2_pos="7" path="5@@7@@">cephalothin sodium@@@@conj_and@@magnesium sulfate</pair>  
+      <pair id="DDI-DrugBank.d406.s0.p5" e1="DDI-DrugBank.d406.s0.e1" e2="DDI-DrugBank.d406.s0.e3" ddi="false" flags="True" e1_name="cephalothin sodium" e2_name="prednisolone sodium succinate" e1_pos="5" e2_pos="9" path="5@@9@@">cephalothin sodium@@@@conj_and@@prednisolone sodium succinate</pair>  
+      <pair id="DDI-DrugBank.d406.s0.p6" e1="DDI-DrugBank.d406.s0.e1" e2="DDI-DrugBank.d406.s0.e4" ddi="false" flags="True" e1_name="cephalothin sodium" e2_name="prochlorperazine edisylate" e1_pos="5" e2_pos="12" path="5@@12@@">cephalothin sodium@@@@conj_and@@prochlorperazine edisylate</pair>  
+      <pair id="DDI-DrugBank.d406.s0.p7" e1="DDI-DrugBank.d406.s0.e2" e2="DDI-DrugBank.d406.s0.e3" ddi="false" flags="True" e1_name="magnesium sulfate" e2_name="prednisolone sodium succinate" e1_pos="7" e2_pos="9" path="7@@3@@9@@">magnesium sulfate@@@@appos@@cefamandole naftate@@appos@@prednisolone sodium succinate</pair>  
+      <pair id="DDI-DrugBank.d406.s0.p8" e1="DDI-DrugBank.d406.s0.e2" e2="DDI-DrugBank.d406.s0.e4" ddi="false" flags="True" e1_name="magnesium sulfate" e2_name="prochlorperazine edisylate" e1_pos="7" e2_pos="12" path="7@@3@@12@@">magnesium sulfate@@@@appos@@cefamandole naftate@@appos@@prochlorperazine edisylate</pair>  
+      <pair id="DDI-DrugBank.d406.s0.p9" e1="DDI-DrugBank.d406.s0.e3" e2="DDI-DrugBank.d406.s0.e4" ddi="false" flags="True" e1_name="prednisolone sodium succinate" e2_name="prochlorperazine edisylate" e1_pos="9" e2_pos="12" path="9@@3@@12@@">prednisolone sodium succinate@@@@appos@@cefamandole naftate@@appos@@prochlorperazine edisylate</pair> 
+   </sentence> 
+</document>

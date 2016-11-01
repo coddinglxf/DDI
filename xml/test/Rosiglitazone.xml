@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d609"> 
+   <sentence id="DDI-DrugBank.d609.s0" text="An inhibitor of CYP2C8 (such as gemfibrozil) may increase the AUC of rosiglitazone and an inducer of CYP2C8 (such as rifampin) may decrease the AUC of rosiglitazone. " new_text="An@@inhibitor@@of@@CYP2C8@@(such@@as@@gemfibrozil@@)@@may@@increase@@the@@AUC@@of@@rosiglitazone@@and@@an@@inducer@@of@@CYP2C8@@(such@@as@@rifampin@@)@@may@@decrease@@the@@AUC@@of@@rosiglitazone@@.@@"> 
+      <entity id="DDI-DrugBank.d609.s0.e0" charOffset="32-42" type="drug" text="gemfibrozil" position="6"/>  
+      <entity id="DDI-DrugBank.d609.s0.e1" charOffset="69-81" type="drug" text="rosiglitazone" position="13"/>  
+      <entity id="DDI-DrugBank.d609.s0.e2" charOffset="117-124" type="drug" text="rifampin" position="21"/>  
+      <entity id="DDI-DrugBank.d609.s0.e3" charOffset="151-163" type="drug" text="rosiglitazone" position="28"/>  
+      <pair id="DDI-DrugBank.d609.s0.p0" e1="DDI-DrugBank.d609.s0.e0" e2="DDI-DrugBank.d609.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="gemfibrozil" e2_name="rosiglitazone" e1_pos="6" e2_pos="13" path="6@@7@@9@@11@@13@@">gemfibrozil@@@@amod@@)@@nsubj@@increase@@dobj@@AUC@@prep_of@@rosiglitazone</pair>  
+      <pair id="DDI-DrugBank.d609.s0.p1" e1="DDI-DrugBank.d609.s0.e0" e2="DDI-DrugBank.d609.s0.e2" ddi="false" flags="True" e1_name="gemfibrozil" e2_name="rifampin" e1_pos="6" e2_pos="21" path="6@@7@@9@@24@@22@@21@@">gemfibrozil@@@@amod@@)@@nsubj@@increase@@advcl@@decrease@@nsubj@@)@@nn@@rifampin</pair>  
+      <pair id="DDI-DrugBank.d609.s0.p2" e1="DDI-DrugBank.d609.s0.e0" e2="DDI-DrugBank.d609.s0.e3" ddi="false" flags="True" e1_name="gemfibrozil" e2_name="rosiglitazone" e1_pos="6" e2_pos="28" path="6@@7@@9@@24@@26@@28@@">gemfibrozil@@@@amod@@)@@nsubj@@increase@@advcl@@decrease@@dobj@@AUC@@prep_of@@rosiglitazone</pair>  
+      <pair id="DDI-DrugBank.d609.s0.p3" e1="DDI-DrugBank.d609.s0.e1" e2="DDI-DrugBank.d609.s0.e2" ddi="false" flags="True" e1_name="rosiglitazone" e2_name="rifampin" e1_pos="13" e2_pos="21" path="13@@11@@9@@24@@22@@21@@">rosiglitazone@@@@prep_of@@AUC@@dobj@@increase@@advcl@@decrease@@nsubj@@)@@nn@@rifampin</pair>  
+      <pair id="DDI-DrugBank.d609.s0.p4" e1="DDI-DrugBank.d609.s0.e1" e2="DDI-DrugBank.d609.s0.e3" ddi="false" flags="True" e1_name="rosiglitazone" e2_name="rosiglitazone" e1_pos="13" e2_pos="28" path="13@@11@@9@@24@@26@@28@@">rosiglitazone@@@@prep_of@@AUC@@dobj@@increase@@advcl@@decrease@@dobj@@AUC@@prep_of@@rosiglitazone</pair>  
+      <pair id="DDI-DrugBank.d609.s0.p5" e1="DDI-DrugBank.d609.s0.e2" e2="DDI-DrugBank.d609.s0.e3" ddi="true" type="mechanism" flags="True" e1_name="rifampin" e2_name="rosiglitazone" e1_pos="21" e2_pos="28" path="21@@22@@24@@26@@28@@">rifampin@@@@nn@@)@@nsubj@@decrease@@dobj@@AUC@@prep_of@@rosiglitazone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d609.s1" text="Therefore, if an inhibitor or an inducer of CYP2C8 is started or stopped during treatment with rosiglitazone, changes in diabetes treatment may be needed based upon clinical response." new_text="Therefore@@,@@if@@an@@inhibitor@@or@@an@@inducer@@of@@CYP2C8@@is@@started@@or@@stopped@@during@@treatment@@with@@rosiglitazone@@,@@changes@@in@@diabetes@@treatment@@may@@be@@needed@@based@@upon@@clinical@@response@@.@@"> 
+      <entity id="DDI-DrugBank.d609.s1.e0" charOffset="95-107" type="drug" text="rosiglitazone" position="17"/> 
+   </sentence> 
+</document>

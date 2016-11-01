@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d307"> 
+   <sentence id="DDI-DrugBank.d307.s0" text="Oxcarbazepine can inhibit CYP2C19 and induce CYP3A4/5 with potentially important effects on plasma concentrations of other drugs." new_text="Oxcarbazepine@@can@@inhibit@@CYP2C19@@and@@induce@@CYP3A4/5@@with@@potentially@@important@@effects@@on@@plasma@@concentrations@@of@@other@@drugs@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s0.e0" charOffset="0-12" type="drug" text="Oxcarbazepine" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s1" text="In addition, several AED s that are cytochrome P450 inducers can decrease plasma concentrations of oxcarbazepine and MHD." new_text="In@@addition@@,@@several@@AED@@s@@that@@are@@cytochrome@@P450@@inducers@@can@@decrease@@plasma@@concentrations@@of@@oxcarbazepine@@and@@MHD@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s1.e0" charOffset="21-23" type="group" text="AED" position="4"/>  
+      <entity id="DDI-DrugBank.d307.s1.e1" charOffset="99-111" type="drug" text="oxcarbazepine" position="16"/>  
+      <entity id="DDI-DrugBank.d307.s1.e2" charOffset="117-119" type="drug_n" text="MHD" position="18"/>  
+      <pair id="DDI-DrugBank.d307.s1.p0" e1="DDI-DrugBank.d307.s1.e0" e2="DDI-DrugBank.d307.s1.e1" ddi="true" type="mechanism" flags="True" e1_name="AED" e2_name="oxcarbazepine" e1_pos="4" e2_pos="16" path="4@@5@@8@@12@@14@@16@@">AED@@@@nsubj@@s@@ccomp@@cytochrome@@ccomp@@decrease@@dobj@@concentrations@@prep_of@@oxcarbazepine</pair>  
+      <pair id="DDI-DrugBank.d307.s1.p1" e1="DDI-DrugBank.d307.s1.e0" e2="DDI-DrugBank.d307.s1.e2" ddi="false" flags="True" e1_name="AED" e2_name="MHD" e1_pos="4" e2_pos="18" path="4@@5@@8@@12@@14@@18@@">AED@@@@nsubj@@s@@ccomp@@cytochrome@@ccomp@@decrease@@dobj@@concentrations@@prep_of@@MHD</pair>  
+      <pair id="DDI-DrugBank.d307.s1.p2" e1="DDI-DrugBank.d307.s1.e1" e2="DDI-DrugBank.d307.s1.e2" ddi="false" flags="True" e1_name="oxcarbazepine" e2_name="MHD" e1_pos="16" e2_pos="18" path="16@@18@@">oxcarbazepine@@@@conj_and@@MHD</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s2" text="Oxcarbazepine was evaluated in human liver microsomes to determine its capacity to inhibit the major cytochrome P450 enzymes responsible for the metabolism of other drugs." new_text="Oxcarbazepine@@was@@evaluated@@in@@human@@liver@@microsomes@@to@@determine@@its@@capacity@@to@@inhibit@@the@@major@@cytochrome@@P450@@enzymes@@responsible@@for@@the@@metabolism@@of@@other@@drugs@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s2.e0" charOffset="0-12" type="drug" text="Oxcarbazepine" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s3" text="Results demonstrate that oxcarbazepine and its pharmacologically active 10-monohydroxy metabolite (MHD) have little or no capacity to function as inhibitors for most of the human cytochrome P450 enzymes evaluated (CYP1A2, CYP2A6, CYP2C9, CYP2D6, CYP2E1, CYP4A9 and CYP4A11) with the exception of CYP2C19 and CYP3A4/5." new_text="Results@@demonstrate@@that@@oxcarbazepine@@and@@its@@pharmacologically@@active@@10-monohydroxy@@metabolite@@(@@MHD@@)@@have@@little@@or@@no@@capacity@@to@@function@@as@@inhibitors@@for@@most@@of@@the@@human@@cytochrome@@P450@@enzymes@@evaluated@@(CYP1A2@@,@@CYP2A6@@,@@CYP2C9@@,@@CYP2D6@@,@@CYP2E1@@,@@CYP4A9@@and@@CYP4A11)@@with@@the@@exception@@of@@CYP2C19@@and@@CYP3A4/5@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s3.e0" charOffset="25-37" type="drug" text="oxcarbazepine" position="3"/>  
+      <entity id="DDI-DrugBank.d307.s3.e1" charOffset="99-101" type="drug_n" text="MHD" position="11"/>  
+      <pair id="DDI-DrugBank.d307.s3.p0" e1="DDI-DrugBank.d307.s3.e0" e2="DDI-DrugBank.d307.s3.e1" ddi="false" flags="True" e1_name="oxcarbazepine" e2_name="MHD" e1_pos="3" e2_pos="11" path="3@@10@@13@@12@@11@@">oxcarbazepine@@@@nsubj@@(@@ccomp@@have@@nsubj@@)@@nn@@MHD</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s4" text="Although inhibition of CYP 3A4/5 by OXC and MHD did occur at high concentrations, it is not likely to be of clinical significance." new_text="Although@@inhibition@@of@@CYP@@3A4/5@@by@@OXC@@and@@MHD@@did@@occur@@at@@high@@concentrations@@,@@it@@is@@not@@likely@@to@@be@@of@@clinical@@significance@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s4.e0" charOffset="36-38" type="drug" text="OXC" position="6"/>  
+      <entity id="DDI-DrugBank.d307.s4.e1" charOffset="44-46" type="drug_n" text="MHD" position="8"/>  
+      <pair id="DDI-DrugBank.d307.s4.p0" e1="DDI-DrugBank.d307.s4.e0" e2="DDI-DrugBank.d307.s4.e1" ddi="false" flags="True" e1_name="OXC" e2_name="MHD" e1_pos="6" e2_pos="8" path="6@@8@@">OXC@@@@conj_and@@MHD</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s5" text="The inhibition of CYP-2C19 by OXC and MHD, however, is clinically relevant." new_text="The@@inhibition@@of@@CYP-2C19@@by@@OXC@@and@@MHD@@,@@however@@,@@is@@clinically@@relevant@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s5.e0" charOffset="30-32" type="drug" text="OXC" position="5"/>  
+      <entity id="DDI-DrugBank.d307.s5.e1" charOffset="38-40" type="drug_n" text="MHD" position="7"/>  
+      <pair id="DDI-DrugBank.d307.s5.p0" e1="DDI-DrugBank.d307.s5.e0" e2="DDI-DrugBank.d307.s5.e1" ddi="false" flags="True" e1_name="OXC" e2_name="MHD" e1_pos="5" e2_pos="7" path="5@@7@@">OXC@@@@conj_and@@MHD</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s6" text="In vitro, the UDP-glucuronyl transferase level was increased, indicating induction of this enzyme." new_text="In@@vitro@@,@@the@@UDP-glucuronyl@@transferase@@level@@was@@increased@@,@@indicating@@induction@@of@@this@@enzyme@@.@@"/>  
+   <sentence id="DDI-DrugBank.d307.s7" text="Increases of 22% with MHD and 47% with oxcarbazepine were observed." new_text="Increases@@of@@22%@@with@@MHD@@and@@47%@@with@@oxcarbazepine@@were@@observed@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s7.e0" charOffset="22-24" type="drug_n" text="MHD" position="4"/>  
+      <entity id="DDI-DrugBank.d307.s7.e1" charOffset="39-51" type="drug" text="oxcarbazepine" position="8"/>  
+      <pair id="DDI-DrugBank.d307.s7.p0" e1="DDI-DrugBank.d307.s7.e0" e2="DDI-DrugBank.d307.s7.e1" ddi="false" flags="True" e1_name="MHD" e2_name="oxcarbazepine" e1_pos="4" e2_pos="8" path="4@@2@@6@@8@@">MHD@@@@prep_with@@22%@@conj_and@@47%@@prep_with@@oxcarbazepine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s8" text="As MHD, the predominant plasma substrate, is only a weak inducer of UDP-glucuronyl transferase, it is unlikely to have an effect on drugs that are mainly eliminated by conjugation through UDP-glucuronyl transferase (e.g., valproic acid, lamotrigine)." new_text="As@@MHD@@,@@the@@predominant@@plasma@@substrate@@,@@is@@only@@a@@weak@@inducer@@of@@UDP-glucuronyl@@transferase@@,@@it@@is@@unlikely@@to@@have@@an@@effect@@on@@drugs@@that@@are@@mainly@@eliminated@@by@@conjugation@@through@@UDP-glucuronyl@@transferase@@(e.g.@@,@@valproic acid@@,@@lamotrigine@@)@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s8.e0" charOffset="3-5" type="drug_n" text="MHD" position="1"/>  
+      <entity id="DDI-DrugBank.d307.s8.e1" charOffset="222-234" type="drug" text="valproic acid" position="37"/>  
+      <entity id="DDI-DrugBank.d307.s8.e2" charOffset="237-247" type="drug" text="lamotrigine" position="39"/>  
+      <pair id="DDI-DrugBank.d307.s8.p0" e1="DDI-DrugBank.d307.s8.e0" e2="DDI-DrugBank.d307.s8.e1" ddi="false" flags="True" e1_name="MHD" e2_name="valproic acid" e1_pos="1" e2_pos="37" path="1@@12@@19@@21@@23@@25@@29@@35@@40@@37@@">MHD@@@@nsubj@@inducer@@advcl@@unlikely@@xcomp@@have@@dobj@@effect@@prep_on@@drugs@@rcmod@@eliminated@@prep_through@@(e.g.@@appos@@)@@amod@@valproic acid</pair>  
+      <pair id="DDI-DrugBank.d307.s8.p1" e1="DDI-DrugBank.d307.s8.e0" e2="DDI-DrugBank.d307.s8.e2" ddi="false" flags="True" e1_name="MHD" e2_name="lamotrigine" e1_pos="1" e2_pos="39" path="1@@12@@19@@21@@23@@25@@29@@35@@40@@39@@">MHD@@@@nsubj@@inducer@@advcl@@unlikely@@xcomp@@have@@dobj@@effect@@prep_on@@drugs@@rcmod@@eliminated@@prep_through@@(e.g.@@appos@@)@@amod@@lamotrigine</pair>  
+      <pair id="DDI-DrugBank.d307.s8.p2" e1="DDI-DrugBank.d307.s8.e1" e2="DDI-DrugBank.d307.s8.e2" ddi="false" flags="True" e1_name="valproic acid" e2_name="lamotrigine" e1_pos="37" e2_pos="39" path="37@@40@@39@@">valproic acid@@@@amod@@)@@amod@@lamotrigine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s9" text="In addition, oxcarbazepine and MHD induce a subgroup of the cytochrome P450 3A family (CYP3A4 and CYP3A5) responsible for the metabolism of dihydropyridine calcium antagonists and oral contraceptives, resulting in a lower plasma concentration of these drugs." new_text="In@@addition@@,@@oxcarbazepine@@and@@MHD@@induce@@a@@subgroup@@of@@the@@cytochrome@@P450@@3A@@family@@(CYP3A4@@and@@CYP3A5)@@responsible@@for@@the@@metabolism@@of@@dihydropyridine calcium antagonists@@and@@oral@@contraceptives@@,@@resulting@@in@@a@@lower@@plasma@@concentration@@of@@these@@drugs@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s9.e0" charOffset="13-25" type="drug" text="oxcarbazepine" position="3"/>  
+      <entity id="DDI-DrugBank.d307.s9.e1" charOffset="31-33" type="drug_n" text="MHD" position="5"/>  
+      <entity id="DDI-DrugBank.d307.s9.e2" charOffset="140-174" type="group" text="dihydropyridine calcium antagonists" position="23"/>  
+      <entity id="DDI-DrugBank.d307.s9.e3" charOffset="185-198" type="group" text="contraceptives" position="26"/>  
+      <pair id="DDI-DrugBank.d307.s9.p0" e1="DDI-DrugBank.d307.s9.e0" e2="DDI-DrugBank.d307.s9.e1" ddi="false" flags="True" e1_name="oxcarbazepine" e2_name="MHD" e1_pos="3" e2_pos="5" path="3@@5@@">oxcarbazepine@@@@conj_and@@MHD</pair>  
+      <pair id="DDI-DrugBank.d307.s9.p1" e1="DDI-DrugBank.d307.s9.e0" e2="DDI-DrugBank.d307.s9.e2" ddi="false" flags="True" e1_name="oxcarbazepine" e2_name="dihydropyridine calcium antagonists" e1_pos="3" e2_pos="23" path="3@@6@@8@@11@@21@@23@@">oxcarbazepine@@@@nsubj@@induce@@dobj@@subgroup@@prep_of@@cytochrome@@prep_for@@metabolism@@prep_of@@dihydropyridine calcium antagonists</pair>  
+      <pair id="DDI-DrugBank.d307.s9.p2" e1="DDI-DrugBank.d307.s9.e0" e2="DDI-DrugBank.d307.s9.e3" ddi="false" flags="True" e1_name="oxcarbazepine" e2_name="contraceptives" e1_pos="3" e2_pos="26" path="3@@6@@8@@11@@21@@26@@">oxcarbazepine@@@@nsubj@@induce@@dobj@@subgroup@@prep_of@@cytochrome@@prep_for@@metabolism@@prep_of@@contraceptives</pair>  
+      <pair id="DDI-DrugBank.d307.s9.p3" e1="DDI-DrugBank.d307.s9.e1" e2="DDI-DrugBank.d307.s9.e2" ddi="false" flags="True" e1_name="MHD" e2_name="dihydropyridine calcium antagonists" e1_pos="5" e2_pos="23" path="5@@6@@8@@11@@21@@23@@">MHD@@@@nsubj@@induce@@dobj@@subgroup@@prep_of@@cytochrome@@prep_for@@metabolism@@prep_of@@dihydropyridine calcium antagonists</pair>  
+      <pair id="DDI-DrugBank.d307.s9.p4" e1="DDI-DrugBank.d307.s9.e1" e2="DDI-DrugBank.d307.s9.e3" ddi="false" flags="True" e1_name="MHD" e2_name="contraceptives" e1_pos="5" e2_pos="26" path="5@@6@@8@@11@@21@@26@@">MHD@@@@nsubj@@induce@@dobj@@subgroup@@prep_of@@cytochrome@@prep_for@@metabolism@@prep_of@@contraceptives</pair>  
+      <pair id="DDI-DrugBank.d307.s9.p5" e1="DDI-DrugBank.d307.s9.e2" e2="DDI-DrugBank.d307.s9.e3" ddi="false" flags="True" e1_name="dihydropyridine calcium antagonists" e2_name="contraceptives" e1_pos="23" e2_pos="26" path="23@@26@@">dihydropyridine calcium antagonists@@@@conj_and@@contraceptives</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s10" text="As binding of MHD to plasma proteins is low (40%), clinically significant interactions with other drugs through competition for protein binding sites are unlikely." new_text="As@@binding@@of@@MHD@@to@@plasma@@proteins@@is@@low@@(40%)@@,@@clinically@@significant@@interactions@@with@@other@@drugs@@through@@competition@@for@@protein@@binding@@sites@@are@@unlikely@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s10.e0" charOffset="14-16" type="drug_n" text="MHD" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s11" text="Antiepileptic drugs: Potential interactions between Trileptal and other AEDs were assessed in clinical studies." new_text="Antiepileptic drugs@@:@@Potential@@interactions@@between@@Trileptal@@and@@other@@AEDs@@were@@assessed@@in@@clinical@@studies@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s11.e0" charOffset="0-18" type="group" text="Antiepileptic drugs" position="0"/>  
+      <entity id="DDI-DrugBank.d307.s11.e1" charOffset="52-60" type="brand" text="Trileptal" position="5"/>  
+      <entity id="DDI-DrugBank.d307.s11.e2" charOffset="72-75" type="group" text="AEDs" position="8"/>  
+      <pair id="DDI-DrugBank.d307.s11.p0" e1="DDI-DrugBank.d307.s11.e0" e2="DDI-DrugBank.d307.s11.e1" ddi="false" flags="True" e1_name="Antiepileptic drugs" e2_name="Trileptal" e1_pos="0" e2_pos="5" path="0@@10@@3@@5@@">Antiepileptic drugs@@@@dep@@assessed@@nsubjpass@@interactions@@prep_between@@Trileptal</pair>  
+      <pair id="DDI-DrugBank.d307.s11.p1" e1="DDI-DrugBank.d307.s11.e0" e2="DDI-DrugBank.d307.s11.e2" ddi="false" flags="True" e1_name="Antiepileptic drugs" e2_name="AEDs" e1_pos="0" e2_pos="8" path="0@@10@@3@@8@@">Antiepileptic drugs@@@@dep@@assessed@@nsubjpass@@interactions@@prep_between@@AEDs</pair>  
+      <pair id="DDI-DrugBank.d307.s11.p2" e1="DDI-DrugBank.d307.s11.e1" e2="DDI-DrugBank.d307.s11.e2" ddi="false" flags="True" e1_name="Trileptal" e2_name="AEDs" e1_pos="5" e2_pos="8" path="5@@8@@">Trileptal@@@@conj_and@@AEDs</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s12" text="The effect of these interactions on mean AUCs and Cmin are summarized in Table 2: Table 2: Summary of AED interactions with Trileptal" new_text="The@@effect@@of@@these@@interactions@@on@@mean@@AUCs@@and@@Cmin@@are@@summarized@@in@@Table@@2@@:@@Table@@2@@:@@Summary@@of@@AED@@interactions@@with@@Trileptal@@"> 
+      <entity id="DDI-DrugBank.d307.s12.e0" charOffset="124-132" type="brand" text="Trileptal" position="24"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s13" text="AED Co-administered" new_text="AED@@Co-administered@@"> 
+      <entity id="DDI-DrugBank.d307.s13.e0" charOffset="0-2" type="group" text="AED" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s14" text="Dose of AED (mg/day)" new_text="Dose@@of@@AED@@(mg/day)@@"> 
+      <entity id="DDI-DrugBank.d307.s14.e0" charOffset="8-10" type="group" text="AED" position="2"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s15" text="Trileptal dose (mg/day)" new_text="Trileptal@@dose@@(mg/day)@@"> 
+      <entity id="DDI-DrugBank.d307.s15.e0" charOffset="0-8" type="brand" text="Trileptal" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s16" text="Influence of Trileptal on AED Concentration (Mean change, 90% Confidence Interval)" new_text="Influence@@of@@Trileptal@@on@@AED@@Concentration@@(Mean@@change@@,@@90%@@Confidence@@Interval)@@"> 
+      <entity id="DDI-DrugBank.d307.s16.e0" charOffset="13-21" type="brand" text="Trileptal" position="2"/>  
+      <entity id="DDI-DrugBank.d307.s16.e1" charOffset="26-28" type="group" text="AED" position="4"/>  
+      <pair id="DDI-DrugBank.d307.s16.p0" e1="DDI-DrugBank.d307.s16.e0" e2="DDI-DrugBank.d307.s16.e1" ddi="false" flags="True" e1_name="Trileptal" e2_name="AED" e1_pos="2" e2_pos="4" path="2@@0@@11@@4@@">Trileptal@@@@prep_of@@Influence@@prep_on@@Interval)@@nn@@AED</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s17" text="Influence of AED On MHD Concentration (Mean change, 90% Confidence Interval)" new_text="Influence@@of@@AED@@On@@MHD@@Concentration@@(Mean@@change@@,@@90%@@Confidence@@Interval)@@"> 
+      <entity id="DDI-DrugBank.d307.s17.e0" charOffset="13-15" type="group" text="AED" position="2"/>  
+      <entity id="DDI-DrugBank.d307.s17.e1" charOffset="20-22" type="drug_n" text="MHD" position="4"/>  
+      <pair id="DDI-DrugBank.d307.s17.p0" e1="DDI-DrugBank.d307.s17.e0" e2="DDI-DrugBank.d307.s17.e1" ddi="false" flags="True" e1_name="AED" e2_name="MHD" e1_pos="2" e2_pos="4" path="2@@0@@11@@4@@">AED@@@@prep_of@@Influence@@prep_on@@Interval)@@nn@@MHD</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s18" text="Carbamazepine" new_text="Carbamazepine@@"> 
+      <entity id="DDI-DrugBank.d307.s18.e0" charOffset="0-12" type="drug" text="Carbamazepine" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s19" text="400-2000" new_text="400-2000@@"/>  
+   <sentence id="DDI-DrugBank.d307.s20" text="900" new_text="900@@"/>  
+   <sentence id="DDI-DrugBank.d307.s21" text="nc1 40% decrease [CI: 17% decrease, 57% decrease]" new_text="nc1@@40%@@decrease@@[CI@@:@@17%@@decrease@@,@@57%@@decrease]@@"/>  
+   <sentence id="DDI-DrugBank.d307.s22" text="Phenobarbital" new_text="Phenobarbital@@"> 
+      <entity id="DDI-DrugBank.d307.s22.e0" charOffset="0-12" type="drug" text="Phenobarbital" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s23" text="100-150" new_text="100-150@@"/>  
+   <sentence id="DDI-DrugBank.d307.s24" text="600-1800" new_text="600-1800@@"/>  
+   <sentence id="DDI-DrugBank.d307.s25" text="14% increase [CI: 2% increase, 24% increase] 25% decrease [CI: 12% decrease, 51% decrease]" new_text="14%@@increase@@[CI@@:@@2%@@increase@@,@@24%@@increase]@@25%@@decrease@@[CI@@:@@12%@@decrease@@,@@51%@@decrease]@@"/>  
+   <sentence id="DDI-DrugBank.d307.s26" text="Phenytoin" new_text="Phenytoin@@"> 
+      <entity id="DDI-DrugBank.d307.s26.e0" charOffset="0-8" type="drug" text="Phenytoin" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s27" text="250-500" new_text="250-500@@"/>  
+   <sentence id="DDI-DrugBank.d307.s28" text="600-1800" new_text="600-1800@@"/>  
+   <sentence id="DDI-DrugBank.d307.s29" text="nc1,2 30% decrease [CI: 3% decrease, 48 % decrease]" new_text="nc1,2@@30%@@decrease@@[CI@@:@@3%@@decrease@@,@@48@@%@@decrease]@@"/>  
+   <sentence id="DDI-DrugBank.d307.s30" text="1200-2400 up to 40% increase3 [CI: 12% increase, 60 % increase]" new_text="1200-2400@@up@@to@@40%@@increase3@@[CI@@:@@12%@@increase@@,@@60@@%@@increase]@@"/>  
+   <sentence id="DDI-DrugBank.d307.s31" text="Valproic acid" new_text="Valproic acid@@"> 
+      <entity id="DDI-DrugBank.d307.s31.e0" charOffset="0-12" type="drug" text="Valproic acid" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s32" text="400-2800" new_text="400-2800@@"/>  
+   <sentence id="DDI-DrugBank.d307.s33" text="600-1800" new_text="600-1800@@"/>  
+   <sentence id="DDI-DrugBank.d307.s34" text="nc1 18% decrease [CI: 13% decrease, 40 % decrease]" new_text="nc1@@18%@@decrease@@[CI@@:@@13%@@decrease@@,@@40@@%@@decrease]@@"/>  
+   <sentence id="DDI-DrugBank.d307.s35" text="1- nc denotes a mean change of less than 10% 2- Pediatrics 3- Mean increase in adults at high Trileptal doses In vivo, the plasma levels of phenytoin increased by up to 40%, when Trileptal was given at doses above 1200 mg/day." new_text="1-@@nc@@denotes@@a@@mean@@change@@of@@less@@than@@10%@@2-@@Pediatrics@@3-@@Mean@@increase@@in@@adults@@at@@high@@Trileptal@@doses@@In@@vivo@@,@@the@@plasma@@levels@@of@@phenytoin@@increased@@by@@up@@to@@40%@@,@@when@@Trileptal@@was@@given@@at@@doses@@above@@1200@@mg/day@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s35.e0" charOffset="94-102" type="brand" text="Trileptal" position="19"/>  
+      <entity id="DDI-DrugBank.d307.s35.e1" charOffset="140-148" type="drug" text="phenytoin" position="28"/>  
+      <entity id="DDI-DrugBank.d307.s35.e2" charOffset="179-187" type="brand" text="Trileptal" position="36"/>  
+      <pair id="DDI-DrugBank.d307.s35.p0" e1="DDI-DrugBank.d307.s35.e0" e2="DDI-DrugBank.d307.s35.e1" ddi="false" flags="True" e1_name="Trileptal" e2_name="phenytoin" e1_pos="19" e2_pos="28" path="19@@20@@16@@14@@29@@26@@28@@">Trileptal@@@@nn@@doses@@prep_at@@adults@@prep_in@@increase@@rcmod@@increased@@nsubj@@levels@@prep_of@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d307.s35.p1" e1="DDI-DrugBank.d307.s35.e0" e2="DDI-DrugBank.d307.s35.e2" ddi="false" flags="True" e1_name="Trileptal" e2_name="Trileptal" e1_pos="19" e2_pos="36" path="19@@20@@16@@14@@29@@38@@36@@">Trileptal@@@@nn@@doses@@prep_at@@adults@@prep_in@@increase@@rcmod@@increased@@advcl@@given@@nsubjpass@@Trileptal</pair>  
+      <pair id="DDI-DrugBank.d307.s35.p2" e1="DDI-DrugBank.d307.s35.e1" e2="DDI-DrugBank.d307.s35.e2" ddi="true" type="mechanism" flags="True" e1_name="phenytoin" e2_name="Trileptal" e1_pos="28" e2_pos="36" path="28@@26@@29@@38@@36@@">phenytoin@@@@prep_of@@levels@@nsubj@@increased@@advcl@@given@@nsubjpass@@Trileptal</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s36" text="Therefore, when using doses of Trileptal greater than 1200 mg/day during adjunctive therapy, a decrease in the dose of phenytoin may be required." new_text="Therefore@@,@@when@@using@@doses@@of@@Trileptal@@greater@@than@@1200@@mg/day@@during@@adjunctive@@therapy@@,@@a@@decrease@@in@@the@@dose@@of@@phenytoin@@may@@be@@required@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s36.e0" charOffset="31-39" type="brand" text="Trileptal" position="6"/>  
+      <entity id="DDI-DrugBank.d307.s36.e1" charOffset="119-127" type="drug" text="phenytoin" position="21"/>  
+      <pair id="DDI-DrugBank.d307.s36.p0" e1="DDI-DrugBank.d307.s36.e0" e2="DDI-DrugBank.d307.s36.e1" ddi="true" type="advise" flags="True" e1_name="Trileptal" e2_name="phenytoin" e1_pos="6" e2_pos="21" path="6@@4@@3@@24@@16@@19@@21@@">Trileptal@@@@prep_of@@doses@@dobj@@using@@advcl@@required@@nsubjpass@@decrease@@prep_in@@dose@@prep_of@@phenytoin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s37" text="The increase of phenobarbital level, however, is small (15%) when given with Trileptal." new_text="The@@increase@@of@@phenobarbital@@level@@,@@however@@,@@is@@small@@(15%)@@when@@given@@with@@Trileptal@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s37.e0" charOffset="16-28" type="drug" text="phenobarbital" position="3"/>  
+      <entity id="DDI-DrugBank.d307.s37.e1" charOffset="77-85" type="brand" text="Trileptal" position="14"/>  
+      <pair id="DDI-DrugBank.d307.s37.p0" e1="DDI-DrugBank.d307.s37.e0" e2="DDI-DrugBank.d307.s37.e1" ddi="true" type="mechanism" flags="True" e1_name="phenobarbital" e2_name="Trileptal" e1_pos="3" e2_pos="14" path="3@@4@@1@@9@@12@@14@@">phenobarbital@@@@amod@@level@@prep_of@@increase@@nsubj@@small@@advcl@@given@@prep_with@@Trileptal</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s38" text="Strong inducers of cytochrome P450 enzymes (i.e. carbamazepine, phenytoin and phenobarbital) have been shown to decrease the plasma levels of MHD (29-40%)." new_text="Strong@@inducers@@of@@cytochrome@@P450@@enzymes@@(i.e@@.@@carbamazepine@@,@@phenytoin@@and@@phenobarbital@@)@@have@@been@@shown@@to@@decrease@@the@@plasma@@levels@@of@@MHD@@(29-40%)@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s38.e0" charOffset="49-61" type="drug" text="carbamazepine" position="8"/>  
+      <entity id="DDI-DrugBank.d307.s38.e1" charOffset="64-72" type="drug" text="phenytoin" position="10"/>  
+      <entity id="DDI-DrugBank.d307.s38.e2" charOffset="78-90" type="drug" text="phenobarbital" position="12"/>  
+      <entity id="DDI-DrugBank.d307.s38.e3" charOffset="142-144" type="drug_n" text="MHD" position="23"/>  
+      <pair id="DDI-DrugBank.d307.s38.p0" e1="DDI-DrugBank.d307.s38.e0" e2="DDI-DrugBank.d307.s38.e1" ddi="false" flags="True" e1_name="carbamazepine" e2_name="phenytoin" e1_pos="8" e2_pos="10" path="8@@10@@">carbamazepine@@@@conj_and@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d307.s38.p1" e1="DDI-DrugBank.d307.s38.e0" e2="DDI-DrugBank.d307.s38.e2" ddi="false" flags="True" e1_name="carbamazepine" e2_name="phenobarbital" e1_pos="8" e2_pos="12" path="8@@12@@">carbamazepine@@@@conj_and@@phenobarbital</pair>  
+      <pair id="DDI-DrugBank.d307.s38.p2" e1="DDI-DrugBank.d307.s38.e0" e2="DDI-DrugBank.d307.s38.e3" ddi="false" flags="True" e1_name="carbamazepine" e2_name="MHD" e1_pos="8" e2_pos="23" path="8@@6@@1@@18@@21@@23@@">carbamazepine@@@@amod@@(i.e@@prep_of@@inducers@@xsubj@@decrease@@dobj@@levels@@prep_of@@MHD</pair>  
+      <pair id="DDI-DrugBank.d307.s38.p3" e1="DDI-DrugBank.d307.s38.e1" e2="DDI-DrugBank.d307.s38.e2" ddi="false" flags="True" e1_name="phenytoin" e2_name="phenobarbital" e1_pos="10" e2_pos="12" path="10@@6@@12@@">phenytoin@@@@amod@@(i.e@@amod@@phenobarbital</pair>  
+      <pair id="DDI-DrugBank.d307.s38.p4" e1="DDI-DrugBank.d307.s38.e1" e2="DDI-DrugBank.d307.s38.e3" ddi="false" flags="True" e1_name="phenytoin" e2_name="MHD" e1_pos="10" e2_pos="23" path="10@@6@@1@@18@@21@@23@@">phenytoin@@@@amod@@(i.e@@prep_of@@inducers@@xsubj@@decrease@@dobj@@levels@@prep_of@@MHD</pair>  
+      <pair id="DDI-DrugBank.d307.s38.p5" e1="DDI-DrugBank.d307.s38.e2" e2="DDI-DrugBank.d307.s38.e3" ddi="false" flags="True" e1_name="phenobarbital" e2_name="MHD" e1_pos="12" e2_pos="23" path="12@@6@@1@@18@@21@@23@@">phenobarbital@@@@amod@@(i.e@@prep_of@@inducers@@xsubj@@decrease@@dobj@@levels@@prep_of@@MHD</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s39" text="No autoinduction has been observed with Trileptal." new_text="No@@autoinduction@@has@@been@@observed@@with@@Trileptal@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s39.e0" charOffset="40-48" type="brand" text="Trileptal" position="6"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s40" text="Hormonal contraceptives Co-administration of Trileptal with an oral contraceptive has been shown to influence the plasma concentrations of the two hormonal components, ethinylestradiol (EE) and levonorgestrel (LNG)." new_text="Hormonal@@contraceptives@@Co-administration@@of@@Trileptal@@with@@an@@oral@@contraceptive@@has@@been@@shown@@to@@influence@@the@@plasma@@concentrations@@of@@the@@two@@hormonal@@components@@,@@ethinylestradiol@@(EE)@@and@@levonorgestrel@@(LNG)@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s40.e0" charOffset="9-22" type="group" text="contraceptives" position="1"/>  
+      <entity id="DDI-DrugBank.d307.s40.e1" charOffset="45-53" type="brand" text="Trileptal" position="4"/>  
+      <entity id="DDI-DrugBank.d307.s40.e2" charOffset="68-80" type="group" text="contraceptive" position="8"/>  
+      <entity id="DDI-DrugBank.d307.s40.e3" charOffset="168-183" type="drug" text="ethinylestradiol" position="23"/>  
+      <entity id="DDI-DrugBank.d307.s40.e4" charOffset="194-207" type="drug" text="levonorgestrel" position="26"/>  
+      <pair id="DDI-DrugBank.d307.s40.p0" e1="DDI-DrugBank.d307.s40.e0" e2="DDI-DrugBank.d307.s40.e1" ddi="false" flags="True" e1_name="contraceptives" e2_name="Trileptal" e1_pos="1" e2_pos="4" path="1@@2@@4@@">contraceptives@@@@nn@@Co-administration@@prep_of@@Trileptal</pair>  
+      <pair id="DDI-DrugBank.d307.s40.p1" e1="DDI-DrugBank.d307.s40.e0" e2="DDI-DrugBank.d307.s40.e2" ddi="false" flags="True" e1_name="contraceptives" e2_name="contraceptive" e1_pos="1" e2_pos="8" path="1@@2@@4@@8@@">contraceptives@@@@nn@@Co-administration@@prep_of@@Trileptal@@prep_with@@contraceptive</pair>  
+      <pair id="DDI-DrugBank.d307.s40.p2" e1="DDI-DrugBank.d307.s40.e0" e2="DDI-DrugBank.d307.s40.e3" ddi="false" flags="True" e1_name="contraceptives" e2_name="ethinylestradiol" e1_pos="1" e2_pos="23" path="1@@2@@13@@16@@24@@23@@">contraceptives@@@@nn@@Co-administration@@xsubj@@influence@@dobj@@concentrations@@prep_of@@(EE)@@amod@@ethinylestradiol</pair>  
+      <pair id="DDI-DrugBank.d307.s40.p3" e1="DDI-DrugBank.d307.s40.e0" e2="DDI-DrugBank.d307.s40.e4" ddi="false" flags="True" e1_name="contraceptives" e2_name="levonorgestrel" e1_pos="1" e2_pos="26" path="1@@2@@13@@16@@27@@26@@">contraceptives@@@@nn@@Co-administration@@xsubj@@influence@@dobj@@concentrations@@prep_of@@(LNG)@@amod@@levonorgestrel</pair>  
+      <pair id="DDI-DrugBank.d307.s40.p4" e1="DDI-DrugBank.d307.s40.e1" e2="DDI-DrugBank.d307.s40.e2" ddi="true" type="mechanism" flags="True" e1_name="Trileptal" e2_name="contraceptive" e1_pos="4" e2_pos="8" path="4@@8@@">Trileptal@@@@prep_with@@contraceptive</pair>  
+      <pair id="DDI-DrugBank.d307.s40.p5" e1="DDI-DrugBank.d307.s40.e1" e2="DDI-DrugBank.d307.s40.e3" ddi="false" flags="True" e1_name="Trileptal" e2_name="ethinylestradiol" e1_pos="4" e2_pos="23" path="4@@2@@13@@16@@24@@23@@">Trileptal@@@@prep_of@@Co-administration@@xsubj@@influence@@dobj@@concentrations@@prep_of@@(EE)@@amod@@ethinylestradiol</pair>  
+      <pair id="DDI-DrugBank.d307.s40.p6" e1="DDI-DrugBank.d307.s40.e1" e2="DDI-DrugBank.d307.s40.e4" ddi="false" flags="True" e1_name="Trileptal" e2_name="levonorgestrel" e1_pos="4" e2_pos="26" path="4@@2@@13@@16@@27@@26@@">Trileptal@@@@prep_of@@Co-administration@@xsubj@@influence@@dobj@@concentrations@@prep_of@@(LNG)@@amod@@levonorgestrel</pair>  
+      <pair id="DDI-DrugBank.d307.s40.p7" e1="DDI-DrugBank.d307.s40.e2" e2="DDI-DrugBank.d307.s40.e3" ddi="false" flags="True" e1_name="contraceptive" e2_name="ethinylestradiol" e1_pos="8" e2_pos="23" path="8@@4@@2@@13@@16@@24@@23@@">contraceptive@@@@prep_with@@Trileptal@@prep_of@@Co-administration@@xsubj@@influence@@dobj@@concentrations@@prep_of@@(EE)@@amod@@ethinylestradiol</pair>  
+      <pair id="DDI-DrugBank.d307.s40.p8" e1="DDI-DrugBank.d307.s40.e2" e2="DDI-DrugBank.d307.s40.e4" ddi="false" flags="True" e1_name="contraceptive" e2_name="levonorgestrel" e1_pos="8" e2_pos="26" path="8@@4@@2@@13@@16@@27@@26@@">contraceptive@@@@prep_with@@Trileptal@@prep_of@@Co-administration@@xsubj@@influence@@dobj@@concentrations@@prep_of@@(LNG)@@amod@@levonorgestrel</pair>  
+      <pair id="DDI-DrugBank.d307.s40.p9" e1="DDI-DrugBank.d307.s40.e3" e2="DDI-DrugBank.d307.s40.e4" ddi="false" flags="True" e1_name="ethinylestradiol" e2_name="levonorgestrel" e1_pos="23" e2_pos="26" path="23@@24@@16@@27@@26@@">ethinylestradiol@@@@amod@@(EE)@@prep_of@@concentrations@@prep_of@@(LNG)@@amod@@levonorgestrel</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s41" text="The mean AUC values of EE were decreased by 48% [90% CI: 22-65] in one study and 52% [90% CI: 38-52] in another study [1,2]." new_text="The@@mean@@AUC@@values@@of@@EE@@were@@decreased@@by@@48%@@[90%@@CI@@:@@22-65]@@in@@one@@study@@and@@52%@@[90%@@CI@@:@@38-52]@@in@@another@@study@@[1,2]@@.@@"/>  
+   <sentence id="DDI-DrugBank.d307.s42" text="The mean AUC values of LNG were decreased by 32% [90% CI: 20-45] in one study and 52% [90% CI: 42-52] in another study." new_text="The@@mean@@AUC@@values@@of@@LNG@@were@@decreased@@by@@32%@@[90%@@CI@@:@@20-45]@@in@@one@@study@@and@@52%@@[90%@@CI@@:@@42-52]@@in@@another@@study@@.@@"/>  
+   <sentence id="DDI-DrugBank.d307.s43" text="Therefore, concurrent use of Trileptal with hormonal contraceptives may render these contraceptives less effective." new_text="Therefore@@,@@concurrent@@use@@of@@Trileptal@@with@@hormonal contraceptives@@may@@render@@these@@contraceptives@@less@@effective@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s43.e0" charOffset="29-37" type="brand" text="Trileptal" position="5"/>  
+      <entity id="DDI-DrugBank.d307.s43.e1" charOffset="44-66" type="group" text="hormonal contraceptives" position="7"/>  
+      <entity id="DDI-DrugBank.d307.s43.e2" charOffset="85-98" type="group" text="contraceptives" position="11"/>  
+      <pair id="DDI-DrugBank.d307.s43.p0" e1="DDI-DrugBank.d307.s43.e0" e2="DDI-DrugBank.d307.s43.e1" ddi="true" type="effect" flags="True" e1_name="Trileptal" e2_name="hormonal contraceptives" e1_pos="5" e2_pos="7" path="5@@7@@">Trileptal@@@@prep_with@@hormonal contraceptives</pair>  
+      <pair id="DDI-DrugBank.d307.s43.p1" e1="DDI-DrugBank.d307.s43.e0" e2="DDI-DrugBank.d307.s43.e2" ddi="false" flags="True" e1_name="Trileptal" e2_name="contraceptives" e1_pos="5" e2_pos="11" path="5@@3@@9@@13@@11@@">Trileptal@@@@prep_of@@use@@nsubj@@render@@xcomp@@effective@@nsubj@@contraceptives</pair>  
+      <pair id="DDI-DrugBank.d307.s43.p2" e1="DDI-DrugBank.d307.s43.e1" e2="DDI-DrugBank.d307.s43.e2" ddi="false" flags="True" e1_name="hormonal contraceptives" e2_name="contraceptives" e1_pos="7" e2_pos="11" path="7@@5@@3@@9@@13@@11@@">hormonal contraceptives@@@@prep_with@@Trileptal@@prep_of@@use@@nsubj@@render@@xcomp@@effective@@nsubj@@contraceptives</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s44" text="Studies with other oral or implant contraceptives have not been conducted." new_text="Studies@@with@@other@@oral@@or@@implant@@contraceptives@@have@@not@@been@@conducted@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s44.e0" charOffset="35-48" type="group" text="contraceptives" position="6"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s45" text="Calcium Antagonists: After repeated co-administration of Trileptal, the AUC of felodipine was lowered by 28% [90% CI: 20-33]." new_text="Calcium Antagonist@@s@@:@@After@@repeated@@co-administration@@of@@Trileptal@@,@@the@@AUC@@of@@felodipine@@was@@lowered@@by@@28%@@[90%@@CI@@:@@20-33]@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s45.e0" charOffset="0-17" type="group" text="Calcium Antagonist" position="0"/>  
+      <entity id="DDI-DrugBank.d307.s45.e1" charOffset="57-65" type="brand" text="Trileptal" position="7"/>  
+      <entity id="DDI-DrugBank.d307.s45.e2" charOffset="79-88" type="drug" text="felodipine" position="12"/>  
+      <pair id="DDI-DrugBank.d307.s45.p0" e1="DDI-DrugBank.d307.s45.e0" e2="DDI-DrugBank.d307.s45.e1" ddi="false" flags="True" e1_name="Calcium Antagonist" e2_name="Trileptal" e1_pos="0" e2_pos="7" path="0@@1@@14@@5@@7@@">Calcium Antagonist@@@@nsubj@@s@@parataxis@@lowered@@prep_after@@co-administration@@prep_of@@Trileptal</pair>  
+      <pair id="DDI-DrugBank.d307.s45.p1" e1="DDI-DrugBank.d307.s45.e0" e2="DDI-DrugBank.d307.s45.e2" ddi="false" flags="True" e1_name="Calcium Antagonist" e2_name="felodipine" e1_pos="0" e2_pos="12" path="0@@1@@14@@10@@12@@">Calcium Antagonist@@@@nsubj@@s@@parataxis@@lowered@@nsubjpass@@AUC@@prep_of@@felodipine</pair>  
+      <pair id="DDI-DrugBank.d307.s45.p2" e1="DDI-DrugBank.d307.s45.e1" e2="DDI-DrugBank.d307.s45.e2" ddi="true" type="mechanism" flags="True" e1_name="Trileptal" e2_name="felodipine" e1_pos="7" e2_pos="12" path="7@@5@@14@@10@@12@@">Trileptal@@@@prep_of@@co-administration@@prep_after@@lowered@@nsubjpass@@AUC@@prep_of@@felodipine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s46" text="Verapamil produced a decrease of 20% [90% CI: 18-27] of the plasma levels of MHD." new_text="Verapamil@@produced@@a@@decrease@@of@@20%@@[90%@@CI@@:@@18-27]@@of@@the@@plasma@@levels@@of@@MHD@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s46.e0" charOffset="0-8" type="drug" text="Verapamil" position="0"/>  
+      <entity id="DDI-DrugBank.d307.s46.e1" charOffset="77-79" type="drug_n" text="MHD" position="15"/>  
+      <pair id="DDI-DrugBank.d307.s46.p0" e1="DDI-DrugBank.d307.s46.e0" e2="DDI-DrugBank.d307.s46.e1" ddi="false" flags="True" e1_name="Verapamil" e2_name="MHD" e1_pos="0" e2_pos="15" path="0@@1@@3@@9@@13@@15@@">Verapamil@@@@nsubj@@produced@@dobj@@decrease@@dep@@18-27]@@prep_of@@levels@@prep_of@@MHD</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s47" text="Other drug interactions Cimetidine, erythromycin and dextropropoxyphene had no effect on the pharmacokinetics of MHD." new_text="Other@@drug@@interactions@@Cimetidine@@,@@erythromycin@@and@@dextropropoxyphene@@had@@no@@effect@@on@@the@@pharmacokinetics@@of@@MHD@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s47.e0" charOffset="24-33" type="drug" text="Cimetidine" position="3"/>  
+      <entity id="DDI-DrugBank.d307.s47.e1" charOffset="36-47" type="drug" text="erythromycin" position="5"/>  
+      <entity id="DDI-DrugBank.d307.s47.e2" charOffset="53-70" type="drug" text="dextropropoxyphene" position="7"/>  
+      <entity id="DDI-DrugBank.d307.s47.e3" charOffset="113-115" type="drug_n" text="MHD" position="15"/>  
+      <pair id="DDI-DrugBank.d307.s47.p0" e1="DDI-DrugBank.d307.s47.e0" e2="DDI-DrugBank.d307.s47.e1" ddi="false" flags="True" e1_name="Cimetidine" e2_name="erythromycin" e1_pos="3" e2_pos="5" path="3@@5@@">Cimetidine@@@@conj_and@@erythromycin</pair>  
+      <pair id="DDI-DrugBank.d307.s47.p1" e1="DDI-DrugBank.d307.s47.e0" e2="DDI-DrugBank.d307.s47.e2" ddi="false" flags="True" e1_name="Cimetidine" e2_name="dextropropoxyphene" e1_pos="3" e2_pos="7" path="3@@7@@">Cimetidine@@@@conj_and@@dextropropoxyphene</pair>  
+      <pair id="DDI-DrugBank.d307.s47.p2" e1="DDI-DrugBank.d307.s47.e0" e2="DDI-DrugBank.d307.s47.e3" ddi="false" flags="True" e1_name="Cimetidine" e2_name="MHD" e1_pos="3" e2_pos="15" path="3@@2@@8@@10@@13@@15@@">Cimetidine@@@@amod@@interactions@@nsubj@@had@@dobj@@effect@@prep_on@@pharmacokinetics@@prep_of@@MHD</pair>  
+      <pair id="DDI-DrugBank.d307.s47.p3" e1="DDI-DrugBank.d307.s47.e1" e2="DDI-DrugBank.d307.s47.e2" ddi="false" flags="True" e1_name="erythromycin" e2_name="dextropropoxyphene" e1_pos="5" e2_pos="7" path="5@@2@@7@@">erythromycin@@@@amod@@interactions@@amod@@dextropropoxyphene</pair>  
+      <pair id="DDI-DrugBank.d307.s47.p4" e1="DDI-DrugBank.d307.s47.e1" e2="DDI-DrugBank.d307.s47.e3" ddi="false" flags="True" e1_name="erythromycin" e2_name="MHD" e1_pos="5" e2_pos="15" path="5@@2@@8@@10@@13@@15@@">erythromycin@@@@amod@@interactions@@nsubj@@had@@dobj@@effect@@prep_on@@pharmacokinetics@@prep_of@@MHD</pair>  
+      <pair id="DDI-DrugBank.d307.s47.p5" e1="DDI-DrugBank.d307.s47.e2" e2="DDI-DrugBank.d307.s47.e3" ddi="false" flags="True" e1_name="dextropropoxyphene" e2_name="MHD" e1_pos="7" e2_pos="15" path="7@@2@@8@@10@@13@@15@@">dextropropoxyphene@@@@amod@@interactions@@nsubj@@had@@dobj@@effect@@prep_on@@pharmacokinetics@@prep_of@@MHD</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d307.s48" text="Results with warfarin wshow no evidence of interaction with either single or repeated doses of Trileptal." new_text="Results@@with@@warfarin@@wshow@@no@@evidence@@of@@interaction@@with@@either@@single@@or@@repeated@@doses@@of@@Trileptal@@.@@"> 
+      <entity id="DDI-DrugBank.d307.s48.e0" charOffset="13-20" type="drug" text="warfarin" position="2"/>  
+      <entity id="DDI-DrugBank.d307.s48.e1" charOffset="95-103" type="brand" text="Trileptal" position="15"/>  
+      <pair id="DDI-DrugBank.d307.s48.p0" e1="DDI-DrugBank.d307.s48.e0" e2="DDI-DrugBank.d307.s48.e1" ddi="false" flags="True" e1_name="warfarin" e2_name="Trileptal" e1_pos="2" e2_pos="15" path="2@@0@@3@@10@@15@@">warfarin@@@@prep_with@@Results@@nsubj@@wshow@@prep_with@@single@@prep_of@@Trileptal</pair> 
+   </sentence> 
+</document>

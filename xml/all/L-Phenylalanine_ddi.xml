@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d530"> 
+   <sentence id="DDI-DrugBank.d530.s0" text="Non-selective monoamine oxidase (MAO) inhibitors - including phenelzine sulfate, tranylcypromine sulfate and pargyline HC1." new_text="Non-selective monoamine oxidase (MAO) inhibitors@@-@@including@@phenelzine sulfate@@,@@tranylcypromine sulfate@@and@@pargyline@@HC1@@.@@"> 
+      <entity id="DDI-DrugBank.d530.s0.e0" charOffset="0-47" type="group" text="Non-selective monoamine oxidase (MAO) inhibitors" position="0"/>  
+      <entity id="DDI-DrugBank.d530.s0.e1" charOffset="61-78" type="drug" text="phenelzine sulfate" position="3"/>  
+      <entity id="DDI-DrugBank.d530.s0.e2" charOffset="81-103" type="drug" text="tranylcypromine sulfate" position="5"/>  
+      <entity id="DDI-DrugBank.d530.s0.e3" charOffset="109-117" type="drug" text="pargyline" position="7"/>  
+      <pair id="DDI-DrugBank.d530.s0.p0" e1="DDI-DrugBank.d530.s0.e0" e2="DDI-DrugBank.d530.s0.e1" ddi="false" flags="True" e1_name="Non-selective monoamine oxidase (MAO) inhibitors" e2_name="phenelzine sulfate" e1_pos="0" e2_pos="3" path="0@@2@@8@@3@@">Non-selective monoamine oxidase (MAO) inhibitors@@@@dep@@including@@pobj@@HC1@@nn@@phenelzine sulfate</pair>  
+      <pair id="DDI-DrugBank.d530.s0.p1" e1="DDI-DrugBank.d530.s0.e0" e2="DDI-DrugBank.d530.s0.e2" ddi="false" flags="True" e1_name="Non-selective monoamine oxidase (MAO) inhibitors" e2_name="tranylcypromine sulfate" e1_pos="0" e2_pos="5" path="0@@2@@8@@5@@">Non-selective monoamine oxidase (MAO) inhibitors@@@@dep@@including@@pobj@@HC1@@nn@@tranylcypromine sulfate</pair>  
+      <pair id="DDI-DrugBank.d530.s0.p2" e1="DDI-DrugBank.d530.s0.e0" e2="DDI-DrugBank.d530.s0.e3" ddi="false" flags="True" e1_name="Non-selective monoamine oxidase (MAO) inhibitors" e2_name="pargyline" e1_pos="0" e2_pos="7" path="0@@2@@8@@7@@">Non-selective monoamine oxidase (MAO) inhibitors@@@@dep@@including@@pobj@@HC1@@nn@@pargyline</pair>  
+      <pair id="DDI-DrugBank.d530.s0.p3" e1="DDI-DrugBank.d530.s0.e1" e2="DDI-DrugBank.d530.s0.e2" ddi="false" flags="True" e1_name="phenelzine sulfate" e2_name="tranylcypromine sulfate" e1_pos="3" e2_pos="5" path="3@@5@@">phenelzine sulfate@@@@conj_and@@tranylcypromine sulfate</pair>  
+      <pair id="DDI-DrugBank.d530.s0.p4" e1="DDI-DrugBank.d530.s0.e1" e2="DDI-DrugBank.d530.s0.e3" ddi="false" flags="True" e1_name="phenelzine sulfate" e2_name="pargyline" e1_pos="3" e2_pos="7" path="3@@7@@">phenelzine sulfate@@@@conj_and@@pargyline</pair>  
+      <pair id="DDI-DrugBank.d530.s0.p5" e1="DDI-DrugBank.d530.s0.e2" e2="DDI-DrugBank.d530.s0.e3" ddi="false" flags="True" e1_name="tranylcypromine sulfate" e2_name="pargyline" e1_pos="5" e2_pos="7" path="5@@3@@7@@">tranylcypromine sulfate@@@@conj_and@@phenelzine sulfate@@conj_and@@pargyline</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d530.s1" text="Concomitant use of L-phenylalanine and non-selective MAO inhibitors may cause hypertension." new_text="Concomitant@@use@@of@@L-phenylalanine@@and@@non-selective MAO inhibitors@@may@@cause@@hypertension@@.@@"> 
+      <entity id="DDI-DrugBank.d530.s1.e0" charOffset="19-33" type="drug" text="L-phenylalanine" position="3"/>  
+      <entity id="DDI-DrugBank.d530.s1.e1" charOffset="39-66" type="group" text="non-selective MAO inhibitors" position="5"/>  
+      <pair id="DDI-DrugBank.d530.s1.p0" e1="DDI-DrugBank.d530.s1.e0" e2="DDI-DrugBank.d530.s1.e1" ddi="true" type="effect" flags="True" e1_name="L-phenylalanine" e2_name="non-selective MAO inhibitors" e1_pos="3" e2_pos="5" path="3@@5@@">L-phenylalanine@@@@conj_and@@non-selective MAO inhibitors</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d530.s2" text="Selegiline - L-phenylalanine and the selective MAO inhibitor selegiline may have synergistic antidepressant activity if used concomitantly." new_text="Selegiline@@-@@L-phenylalanine@@and@@the@@selective MAO inhibitor@@selegiline@@may@@have@@synergistic@@antidepressant@@activity@@if@@used@@concomitantly@@.@@"> 
+      <entity id="DDI-DrugBank.d530.s2.e0" charOffset="0-9" type="drug" text="Selegiline" position="0"/>  
+      <entity id="DDI-DrugBank.d530.s2.e1" charOffset="13-27" type="drug" text="L-phenylalanine" position="2"/>  
+      <entity id="DDI-DrugBank.d530.s2.e2" charOffset="37-59" type="group" text="selective MAO inhibitor" position="5"/>  
+      <entity id="DDI-DrugBank.d530.s2.e3" charOffset="61-70" type="drug" text="selegiline" position="6"/>  
+      <pair id="DDI-DrugBank.d530.s2.p0" e1="DDI-DrugBank.d530.s2.e0" e2="DDI-DrugBank.d530.s2.e1" ddi="false" flags="True" e1_name="Selegiline" e2_name="L-phenylalanine" e1_pos="0" e2_pos="2" path="0@@8@@2@@">Selegiline@@@@dep@@have@@nsubj@@L-phenylalanine</pair>  
+      <pair id="DDI-DrugBank.d530.s2.p1" e1="DDI-DrugBank.d530.s2.e0" e2="DDI-DrugBank.d530.s2.e2" ddi="false" flags="True" e1_name="Selegiline" e2_name="selective MAO inhibitor" e1_pos="0" e2_pos="5" path="0@@8@@6@@5@@">Selegiline@@@@dep@@have@@nsubj@@selegiline@@nn@@selective MAO inhibitor</pair>  
+      <pair id="DDI-DrugBank.d530.s2.p2" e1="DDI-DrugBank.d530.s2.e0" e2="DDI-DrugBank.d530.s2.e3" ddi="false" flags="True" e1_name="Selegiline" e2_name="selegiline" e1_pos="0" e2_pos="6" path="0@@8@@6@@">Selegiline@@@@dep@@have@@nsubj@@selegiline</pair>  
+      <pair id="DDI-DrugBank.d530.s2.p3" e1="DDI-DrugBank.d530.s2.e1" e2="DDI-DrugBank.d530.s2.e2" ddi="false" flags="True" e1_name="L-phenylalanine" e2_name="selective MAO inhibitor" e1_pos="2" e2_pos="5" path="2@@6@@5@@">L-phenylalanine@@@@conj_and@@selegiline@@nn@@selective MAO inhibitor</pair>  
+      <pair id="DDI-DrugBank.d530.s2.p4" e1="DDI-DrugBank.d530.s2.e1" e2="DDI-DrugBank.d530.s2.e3" ddi="true" type="effect" flags="True" e1_name="L-phenylalanine" e2_name="selegiline" e1_pos="2" e2_pos="6" path="2@@6@@">L-phenylalanine@@@@conj_and@@selegiline</pair>  
+      <pair id="DDI-DrugBank.d530.s2.p5" e1="DDI-DrugBank.d530.s2.e2" e2="DDI-DrugBank.d530.s2.e3" ddi="false" flags="True" e1_name="selective MAO inhibitor" e2_name="selegiline" e1_pos="5" e2_pos="6" path="5@@6@@">selective MAO inhibitor@@@@nn@@selegiline</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d530.s3" text="Neuroleptic Drugs - L-phenylalanine may potentiate the tardive dyskinesia side reactions of neuroleptic drugs if used concomitantly with them." new_text="Neuroleptic Drugs@@-@@L-phenylalanine@@may@@potentiate@@the@@tardive@@dyskinesia@@side@@reactions@@of@@neuroleptic drugs@@if@@used@@concomitantly@@with@@them@@.@@"> 
+      <entity id="DDI-DrugBank.d530.s3.e0" charOffset="0-16" type="group" text="Neuroleptic Drugs" position="0"/>  
+      <entity id="DDI-DrugBank.d530.s3.e1" charOffset="20-34" type="drug" text="L-phenylalanine" position="2"/>  
+      <entity id="DDI-DrugBank.d530.s3.e2" charOffset="92-108" type="group" text="neuroleptic drugs" position="11"/>  
+      <pair id="DDI-DrugBank.d530.s3.p0" e1="DDI-DrugBank.d530.s3.e0" e2="DDI-DrugBank.d530.s3.e1" ddi="true" type="effect" flags="True" e1_name="Neuroleptic Drugs" e2_name="L-phenylalanine" e1_pos="0" e2_pos="2" path="0@@4@@2@@">Neuroleptic Drugs@@@@dep@@potentiate@@nsubj@@L-phenylalanine</pair>  
+      <pair id="DDI-DrugBank.d530.s3.p1" e1="DDI-DrugBank.d530.s3.e0" e2="DDI-DrugBank.d530.s3.e2" ddi="false" flags="True" e1_name="Neuroleptic Drugs" e2_name="neuroleptic drugs" e1_pos="0" e2_pos="11" path="0@@4@@9@@11@@">Neuroleptic Drugs@@@@dep@@potentiate@@dobj@@reactions@@prep_of@@neuroleptic drugs</pair>  
+      <pair id="DDI-DrugBank.d530.s3.p2" e1="DDI-DrugBank.d530.s3.e1" e2="DDI-DrugBank.d530.s3.e2" ddi="false" flags="True" e1_name="L-phenylalanine" e2_name="neuroleptic drugs" e1_pos="2" e2_pos="11" path="2@@4@@9@@11@@">L-phenylalanine@@@@nsubj@@potentiate@@dobj@@reactions@@prep_of@@neuroleptic drugs</pair> 
+   </sentence> 
+</document>

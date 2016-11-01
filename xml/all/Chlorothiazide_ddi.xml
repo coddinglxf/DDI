@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d46"> 
+   <sentence id="DDI-DrugBank.d46.s0" text="When given concurrently the following drugs may interact with thiazide diuretics." new_text="When@@given@@concurrently@@the@@following@@drugs@@may@@interact@@with@@thiazide diuretics@@.@@"> 
+      <entity id="DDI-DrugBank.d46.s0.e0" charOffset="62-79" type="group" text="thiazide diuretics" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d46.s1" text="- Alcohol, barbiturates, or narcotics: Potentiation of otthostatic hypotension may occur" new_text="-@@Alcohol@@,@@barbiturates@@,@@or@@narcotics@@:@@Potentiation@@of@@otthostatic@@hypotension@@may@@occur@@"> 
+      <entity id="DDI-DrugBank.d46.s1.e0" charOffset="2-8" type="drug" text="Alcohol" position="1"/>  
+      <entity id="DDI-DrugBank.d46.s1.e1" charOffset="11-22" type="group" text="barbiturates" position="3"/>  
+      <entity id="DDI-DrugBank.d46.s1.e2" charOffset="28-36" type="group" text="narcotics" position="6"/>  
+      <pair id="DDI-DrugBank.d46.s1.p0" e1="DDI-DrugBank.d46.s1.e0" e2="DDI-DrugBank.d46.s1.e1" ddi="false" flags="True" e1_name="Alcohol" e2_name="barbiturates" e1_pos="1" e2_pos="3" path="1@@3@@">Alcohol@@@@conj_or@@barbiturates</pair>  
+      <pair id="DDI-DrugBank.d46.s1.p1" e1="DDI-DrugBank.d46.s1.e0" e2="DDI-DrugBank.d46.s1.e2" ddi="false" flags="True" e1_name="Alcohol" e2_name="narcotics" e1_pos="1" e2_pos="6" path="1@@6@@">Alcohol@@@@conj_or@@narcotics</pair>  
+      <pair id="DDI-DrugBank.d46.s1.p2" e1="DDI-DrugBank.d46.s1.e1" e2="DDI-DrugBank.d46.s1.e2" ddi="false" flags="True" e1_name="barbiturates" e2_name="narcotics" e1_pos="3" e2_pos="6" path="3@@1@@6@@">barbiturates@@@@conj_or@@Alcohol@@conj_or@@narcotics</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d46.s2" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d46.s3" text="- Antidiabetic drugs: (Oral agents and insulin) Dosage adjustment of the antidiabetic drug may be required" new_text="-@@Antidiabetic drugs@@:@@(Oral@@agents@@and@@insulin@@)@@Dosage@@adjustment@@of@@the@@antidiabetic drug@@may@@be@@required@@"> 
+      <entity id="DDI-DrugBank.d46.s3.e0" charOffset="2-19" type="group" text="Antidiabetic drugs" position="1"/>  
+      <entity id="DDI-DrugBank.d46.s3.e1" charOffset="39-45" type="drug" text="insulin" position="6"/>  
+      <entity id="DDI-DrugBank.d46.s3.e2" charOffset="73-89" type="group" text="antidiabetic drug" position="12"/>  
+      <pair id="DDI-DrugBank.d46.s3.p0" e1="DDI-DrugBank.d46.s3.e0" e2="DDI-DrugBank.d46.s3.e1" ddi="false" flags="True" e1_name="Antidiabetic drugs" e2_name="insulin" e1_pos="1" e2_pos="6" path="1@@15@@9@@6@@">Antidiabetic drugs@@@@dep@@required@@nsubjpass@@adjustment@@nn@@insulin</pair>  
+      <pair id="DDI-DrugBank.d46.s3.p1" e1="DDI-DrugBank.d46.s3.e0" e2="DDI-DrugBank.d46.s3.e2" ddi="false" flags="True" e1_name="Antidiabetic drugs" e2_name="antidiabetic drug" e1_pos="1" e2_pos="12" path="1@@15@@4@@12@@">Antidiabetic drugs@@@@dep@@required@@nsubjpass@@agents@@prep_of@@antidiabetic drug</pair>  
+      <pair id="DDI-DrugBank.d46.s3.p2" e1="DDI-DrugBank.d46.s3.e1" e2="DDI-DrugBank.d46.s3.e2" ddi="false" flags="True" e1_name="insulin" e2_name="antidiabetic drug" e1_pos="6" e2_pos="12" path="6@@9@@4@@12@@">insulin@@@@nn@@adjustment@@conj_and@@agents@@prep_of@@antidiabetic drug</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d46.s4" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d46.s5" text="- Other antihypertensive drugs: Additive effect or potentiation" new_text="-@@Other@@antihypertensive drugs@@:@@Additive@@effect@@or@@potentiation@@"> 
+      <entity id="DDI-DrugBank.d46.s5.e0" charOffset="8-29" type="group" text="antihypertensive drugs" position="2"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d46.s6" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d46.s7" text="- Cholestyramine and colestipol resins: Cholestytamine and colestipol resins have the potential of binding thiazide diuretics and reducing diuretic absorption from the gastrointestinal tract" new_text="-@@Cholestyramine@@and@@colestipol@@resins@@:@@Cholestytamine@@and@@colestipol@@resins@@have@@the@@potential@@of@@binding@@thiazide diuretics@@and@@reducing@@diuretic@@absorption@@from@@the@@gastrointestinal@@tract@@"> 
+      <entity id="DDI-DrugBank.d46.s7.e0" charOffset="2-15" type="drug" text="Cholestyramine" position="1"/>  
+      <entity id="DDI-DrugBank.d46.s7.e1" charOffset="21-30" type="drug" text="colestipol" position="3"/>  
+      <entity id="DDI-DrugBank.d46.s7.e2" charOffset="32-37" type="group" text="resins" position="4"/>  
+      <entity id="DDI-DrugBank.d46.s7.e3" charOffset="40-53" type="drug" text="Cholestytamine" position="6"/>  
+      <entity id="DDI-DrugBank.d46.s7.e4" charOffset="59-68" type="drug" text="colestipol" position="8"/>  
+      <entity id="DDI-DrugBank.d46.s7.e5" charOffset="70-75" type="group" text="resins" position="9"/>  
+      <entity id="DDI-DrugBank.d46.s7.e6" charOffset="107-124" type="group" text="thiazide diuretics" position="15"/>  
+      <entity id="DDI-DrugBank.d46.s7.e7" charOffset="139-146" type="group" text="diuretic" position="18"/>  
+      <pair id="DDI-DrugBank.d46.s7.p0" e1="DDI-DrugBank.d46.s7.e0" e2="DDI-DrugBank.d46.s7.e1" ddi="false" flags="True" e1_name="Cholestyramine" e2_name="colestipol" e1_pos="1" e2_pos="3" path="1@@4@@3@@">Cholestyramine@@@@conj_and@@resins@@amod@@colestipol</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p1" e1="DDI-DrugBank.d46.s7.e0" e2="DDI-DrugBank.d46.s7.e2" ddi="false" flags="True" e1_name="Cholestyramine" e2_name="resins" e1_pos="1" e2_pos="4" path="1@@4@@">Cholestyramine@@@@conj_and@@resins</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p2" e1="DDI-DrugBank.d46.s7.e0" e2="DDI-DrugBank.d46.s7.e3" ddi="false" flags="True" e1_name="Cholestyramine" e2_name="Cholestytamine" e1_pos="1" e2_pos="6" path="1@@10@@6@@">Cholestyramine@@@@dep@@have@@nsubj@@Cholestytamine</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p3" e1="DDI-DrugBank.d46.s7.e0" e2="DDI-DrugBank.d46.s7.e4" ddi="false" flags="True" e1_name="Cholestyramine" e2_name="colestipol" e1_pos="1" e2_pos="8" path="1@@10@@9@@8@@">Cholestyramine@@@@dep@@have@@nsubj@@resins@@amod@@colestipol</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p4" e1="DDI-DrugBank.d46.s7.e0" e2="DDI-DrugBank.d46.s7.e5" ddi="false" flags="True" e1_name="Cholestyramine" e2_name="resins" e1_pos="1" e2_pos="9" path="1@@10@@9@@">Cholestyramine@@@@dep@@have@@nsubj@@resins</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p5" e1="DDI-DrugBank.d46.s7.e0" e2="DDI-DrugBank.d46.s7.e6" ddi="false" flags="True" e1_name="Cholestyramine" e2_name="thiazide diuretics" e1_pos="1" e2_pos="15" path="1@@10@@12@@15@@">Cholestyramine@@@@dep@@have@@dobj@@potential@@prep_of@@thiazide diuretics</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p6" e1="DDI-DrugBank.d46.s7.e0" e2="DDI-DrugBank.d46.s7.e7" ddi="false" flags="True" e1_name="Cholestyramine" e2_name="diuretic" e1_pos="1" e2_pos="18" path="1@@0@@17@@19@@18@@">Cholestyramine@@@@dobj@@-@@conj_and@@reducing@@dobj@@absorption@@amod@@diuretic</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p7" e1="DDI-DrugBank.d46.s7.e1" e2="DDI-DrugBank.d46.s7.e2" ddi="false" flags="True" e1_name="colestipol" e2_name="resins" e1_pos="3" e2_pos="4" path="3@@4@@">colestipol@@@@amod@@resins</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p8" e1="DDI-DrugBank.d46.s7.e1" e2="DDI-DrugBank.d46.s7.e3" ddi="false" flags="True" e1_name="colestipol" e2_name="Cholestytamine" e1_pos="3" e2_pos="6" path="3@@4@@1@@10@@6@@">colestipol@@@@amod@@resins@@conj_and@@Cholestyramine@@dep@@have@@nsubj@@Cholestytamine</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p9" e1="DDI-DrugBank.d46.s7.e1" e2="DDI-DrugBank.d46.s7.e4" ddi="false" flags="True" e1_name="colestipol" e2_name="colestipol" e1_pos="3" e2_pos="8" path="3@@4@@1@@10@@9@@8@@">colestipol@@@@amod@@resins@@conj_and@@Cholestyramine@@dep@@have@@nsubj@@resins@@amod@@colestipol</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p10" e1="DDI-DrugBank.d46.s7.e1" e2="DDI-DrugBank.d46.s7.e5" ddi="false" flags="True" e1_name="colestipol" e2_name="resins" e1_pos="3" e2_pos="9" path="3@@4@@1@@10@@9@@">colestipol@@@@amod@@resins@@conj_and@@Cholestyramine@@dep@@have@@nsubj@@resins</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p11" e1="DDI-DrugBank.d46.s7.e1" e2="DDI-DrugBank.d46.s7.e6" ddi="false" flags="True" e1_name="colestipol" e2_name="thiazide diuretics" e1_pos="3" e2_pos="15" path="3@@4@@1@@10@@12@@15@@">colestipol@@@@amod@@resins@@conj_and@@Cholestyramine@@dep@@have@@dobj@@potential@@prep_of@@thiazide diuretics</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p12" e1="DDI-DrugBank.d46.s7.e1" e2="DDI-DrugBank.d46.s7.e7" ddi="false" flags="True" e1_name="colestipol" e2_name="diuretic" e1_pos="3" e2_pos="18" path="3@@4@@0@@17@@19@@18@@">colestipol@@@@amod@@resins@@dobj@@-@@conj_and@@reducing@@dobj@@absorption@@amod@@diuretic</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p13" e1="DDI-DrugBank.d46.s7.e2" e2="DDI-DrugBank.d46.s7.e3" ddi="false" flags="True" e1_name="resins" e2_name="Cholestytamine" e1_pos="4" e2_pos="6" path="4@@1@@10@@6@@">resins@@@@conj_and@@Cholestyramine@@dep@@have@@nsubj@@Cholestytamine</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p14" e1="DDI-DrugBank.d46.s7.e2" e2="DDI-DrugBank.d46.s7.e4" ddi="false" flags="True" e1_name="resins" e2_name="colestipol" e1_pos="4" e2_pos="8" path="4@@1@@10@@9@@8@@">resins@@@@conj_and@@Cholestyramine@@dep@@have@@nsubj@@resins@@amod@@colestipol</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p15" e1="DDI-DrugBank.d46.s7.e2" e2="DDI-DrugBank.d46.s7.e5" ddi="false" flags="True" e1_name="resins" e2_name="resins" e1_pos="4" e2_pos="9" path="4@@1@@10@@9@@">resins@@@@conj_and@@Cholestyramine@@dep@@have@@nsubj@@resins</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p16" e1="DDI-DrugBank.d46.s7.e2" e2="DDI-DrugBank.d46.s7.e6" ddi="false" flags="True" e1_name="resins" e2_name="thiazide diuretics" e1_pos="4" e2_pos="15" path="4@@1@@10@@12@@15@@">resins@@@@conj_and@@Cholestyramine@@dep@@have@@dobj@@potential@@prep_of@@thiazide diuretics</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p17" e1="DDI-DrugBank.d46.s7.e2" e2="DDI-DrugBank.d46.s7.e7" ddi="false" flags="True" e1_name="resins" e2_name="diuretic" e1_pos="4" e2_pos="18" path="4@@0@@17@@19@@18@@">resins@@@@dobj@@-@@conj_and@@reducing@@dobj@@absorption@@amod@@diuretic</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p18" e1="DDI-DrugBank.d46.s7.e3" e2="DDI-DrugBank.d46.s7.e4" ddi="false" flags="True" e1_name="Cholestytamine" e2_name="colestipol" e1_pos="6" e2_pos="8" path="6@@9@@8@@">Cholestytamine@@@@conj_and@@resins@@amod@@colestipol</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p19" e1="DDI-DrugBank.d46.s7.e3" e2="DDI-DrugBank.d46.s7.e5" ddi="false" flags="True" e1_name="Cholestytamine" e2_name="resins" e1_pos="6" e2_pos="9" path="6@@9@@">Cholestytamine@@@@conj_and@@resins</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p20" e1="DDI-DrugBank.d46.s7.e3" e2="DDI-DrugBank.d46.s7.e6" ddi="true" type="mechanism" flags="True" e1_name="Cholestytamine" e2_name="thiazide diuretics" e1_pos="6" e2_pos="15" path="6@@10@@12@@15@@">Cholestytamine@@@@nsubj@@have@@dobj@@potential@@prep_of@@thiazide diuretics</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p21" e1="DDI-DrugBank.d46.s7.e3" e2="DDI-DrugBank.d46.s7.e7" ddi="false" flags="True" e1_name="Cholestytamine" e2_name="diuretic" e1_pos="6" e2_pos="18" path="6@@10@@1@@0@@17@@19@@18@@">Cholestytamine@@@@nsubj@@have@@dep@@Cholestyramine@@dobj@@-@@conj_and@@reducing@@dobj@@absorption@@amod@@diuretic</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p22" e1="DDI-DrugBank.d46.s7.e4" e2="DDI-DrugBank.d46.s7.e5" ddi="false" flags="True" e1_name="colestipol" e2_name="resins" e1_pos="8" e2_pos="9" path="8@@9@@">colestipol@@@@amod@@resins</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p23" e1="DDI-DrugBank.d46.s7.e4" e2="DDI-DrugBank.d46.s7.e6" ddi="true" type="mechanism" flags="True" e1_name="colestipol" e2_name="thiazide diuretics" e1_pos="8" e2_pos="15" path="8@@9@@10@@12@@15@@">colestipol@@@@amod@@resins@@nsubj@@have@@dobj@@potential@@prep_of@@thiazide diuretics</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p24" e1="DDI-DrugBank.d46.s7.e4" e2="DDI-DrugBank.d46.s7.e7" ddi="false" flags="True" e1_name="colestipol" e2_name="diuretic" e1_pos="8" e2_pos="18" path="8@@9@@10@@1@@0@@17@@19@@18@@">colestipol@@@@amod@@resins@@nsubj@@have@@dep@@Cholestyramine@@dobj@@-@@conj_and@@reducing@@dobj@@absorption@@amod@@diuretic</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p25" e1="DDI-DrugBank.d46.s7.e5" e2="DDI-DrugBank.d46.s7.e6" ddi="false" flags="True" e1_name="resins" e2_name="thiazide diuretics" e1_pos="9" e2_pos="15" path="9@@10@@12@@15@@">resins@@@@nsubj@@have@@dobj@@potential@@prep_of@@thiazide diuretics</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p26" e1="DDI-DrugBank.d46.s7.e5" e2="DDI-DrugBank.d46.s7.e7" ddi="false" flags="True" e1_name="resins" e2_name="diuretic" e1_pos="9" e2_pos="18" path="9@@10@@1@@0@@17@@19@@18@@">resins@@@@nsubj@@have@@dep@@Cholestyramine@@dobj@@-@@conj_and@@reducing@@dobj@@absorption@@amod@@diuretic</pair>  
+      <pair id="DDI-DrugBank.d46.s7.p27" e1="DDI-DrugBank.d46.s7.e6" e2="DDI-DrugBank.d46.s7.e7" ddi="false" flags="True" e1_name="thiazide diuretics" e2_name="diuretic" e1_pos="15" e2_pos="18" path="15@@12@@10@@1@@0@@17@@19@@18@@">thiazide diuretics@@@@prep_of@@potential@@dobj@@have@@dep@@Cholestyramine@@dobj@@-@@conj_and@@reducing@@dobj@@absorption@@amod@@diuretic</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d46.s8" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d46.s9" text="- Corticosteroids, ACTH: Intensified electrolyte depletion, particularly hypokalemia" new_text="-@@Corticosteroids@@,@@ACTH@@:@@Intensified@@electrolyte@@depletion@@,@@particularly@@hypokalemia@@"> 
+      <entity id="DDI-DrugBank.d46.s9.e0" charOffset="2-16" type="group" text="Corticosteroids" position="1"/>  
+      <entity id="DDI-DrugBank.d46.s9.e1" charOffset="19-22" type="drug" text="ACTH" position="3"/>  
+      <pair id="DDI-DrugBank.d46.s9.p0" e1="DDI-DrugBank.d46.s9.e0" e2="DDI-DrugBank.d46.s9.e1" ddi="false" flags="True" e1_name="Corticosteroids" e2_name="ACTH" e1_pos="1" e2_pos="3" path="1@@3@@">Corticosteroids@@@@appos@@ACTH</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d46.s10" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d46.s11" text="- Pressor amines (e.g., norepinephrine): Possible decreased response to pressor amines but not sufficient to preclude their use" new_text="-@@Pressor@@amines@@(e.g.@@,@@norepinephrine@@)@@:@@Possible@@decreased@@response@@to@@pressor@@amines@@but@@not@@sufficient@@to@@preclude@@their@@use@@"> 
+      <entity id="DDI-DrugBank.d46.s11.e0" charOffset="24-37" type="drug" text="norepinephrine" position="5"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d46.s12" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d46.s13" text="- Skeletal muscle relaxants, nondepolarizing (e.g., tubocurarine): Possible increased responsiveness to the muscle relaxant" new_text="-@@Skeletal muscle relaxants@@,@@nondepolarizing@@(e.g.@@,@@tubocurarine@@)@@:@@Possible@@increased@@responsiveness@@to@@the@@muscle relaxant@@"> 
+      <entity id="DDI-DrugBank.d46.s13.e0" charOffset="2-26" type="group" text="Skeletal muscle relaxants" position="1"/>  
+      <entity id="DDI-DrugBank.d46.s13.e1" charOffset="52-63" type="drug" text="tubocurarine" position="6"/>  
+      <entity id="DDI-DrugBank.d46.s13.e2" charOffset="108-122" type="group" text="muscle relaxant" position="14"/>  
+      <pair id="DDI-DrugBank.d46.s13.p0" e1="DDI-DrugBank.d46.s13.e0" e2="DDI-DrugBank.d46.s13.e1" ddi="false" flags="True" e1_name="Skeletal muscle relaxants" e2_name="tubocurarine" e1_pos="1" e2_pos="6" path="1@@4@@7@@6@@">Skeletal muscle relaxants@@@@appos@@(e.g.@@appos@@)@@amod@@tubocurarine</pair>  
+      <pair id="DDI-DrugBank.d46.s13.p1" e1="DDI-DrugBank.d46.s13.e0" e2="DDI-DrugBank.d46.s13.e2" ddi="false" flags="True" e1_name="Skeletal muscle relaxants" e2_name="muscle relaxant" e1_pos="1" e2_pos="14" path="1@@4@@11@@14@@">Skeletal muscle relaxants@@@@appos@@(e.g.@@dep@@responsiveness@@prep_to@@muscle relaxant</pair>  
+      <pair id="DDI-DrugBank.d46.s13.p2" e1="DDI-DrugBank.d46.s13.e1" e2="DDI-DrugBank.d46.s13.e2" ddi="false" flags="True" e1_name="tubocurarine" e2_name="muscle relaxant" e1_pos="6" e2_pos="14" path="6@@7@@4@@11@@14@@">tubocurarine@@@@amod@@)@@appos@@(e.g.@@dep@@responsiveness@@prep_to@@muscle relaxant</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d46.s14" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d46.s15" text="- Lithium: Generally should not be given with diuretics." new_text="-@@Lithium@@:@@Generally@@should@@not@@be@@given@@with@@diuretics@@.@@"> 
+      <entity id="DDI-DrugBank.d46.s15.e0" charOffset="2-8" type="drug" text="Lithium" position="1"/>  
+      <entity id="DDI-DrugBank.d46.s15.e1" charOffset="46-54" type="group" text="diuretics" position="9"/>  
+      <pair id="DDI-DrugBank.d46.s15.p0" e1="DDI-DrugBank.d46.s15.e0" e2="DDI-DrugBank.d46.s15.e1" ddi="true" type="advise" flags="True" e1_name="Lithium" e2_name="diuretics" e1_pos="1" e2_pos="9" path="1@@7@@9@@">Lithium@@@@nsubjpass@@given@@prep_with@@diuretics</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d46.s16" text="Diuretic agents reduce the renal clearance of lithium and add a high risk of lithium toxicity." new_text="Diuretic agents@@reduce@@the@@renal@@clearance@@of@@lithium@@and@@add@@a@@high@@risk@@of@@lithium@@toxicity@@.@@"> 
+      <entity id="DDI-DrugBank.d46.s16.e0" charOffset="0-14" type="group" text="Diuretic agents" position="0"/>  
+      <entity id="DDI-DrugBank.d46.s16.e1" charOffset="46-52" type="drug" text="lithium" position="6"/>  
+      <entity id="DDI-DrugBank.d46.s16.e2" charOffset="77-83" type="drug" text="lithium" position="13"/>  
+      <pair id="DDI-DrugBank.d46.s16.p0" e1="DDI-DrugBank.d46.s16.e0" e2="DDI-DrugBank.d46.s16.e1" ddi="true" type="mechanism" flags="True" e1_name="Diuretic agents" e2_name="lithium" e1_pos="0" e2_pos="6" path="0@@1@@4@@6@@">Diuretic agents@@@@nsubj@@reduce@@dobj@@clearance@@prep_of@@lithium</pair>  
+      <pair id="DDI-DrugBank.d46.s16.p1" e1="DDI-DrugBank.d46.s16.e0" e2="DDI-DrugBank.d46.s16.e2" ddi="true" type="mechanism" flags="True" e1_name="Diuretic agents" e2_name="lithium" e1_pos="0" e2_pos="13" path="0@@8@@11@@14@@13@@">Diuretic agents@@@@nsubj@@add@@dobj@@risk@@prep_of@@toxicity@@nn@@lithium</pair>  
+      <pair id="DDI-DrugBank.d46.s16.p2" e1="DDI-DrugBank.d46.s16.e1" e2="DDI-DrugBank.d46.s16.e2" ddi="false" flags="True" e1_name="lithium" e2_name="lithium" e1_pos="6" e2_pos="13" path="6@@4@@1@@8@@11@@14@@13@@">lithium@@@@prep_of@@clearance@@dobj@@reduce@@conj_and@@add@@dobj@@risk@@prep_of@@toxicity@@nn@@lithium</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d46.s17" text="Refer to the package insert for lithium preparations before use of such preparations with chlorothiazide" new_text="Refer@@to@@the@@package@@insert@@for@@lithium@@preparations@@before@@use@@of@@such@@preparations@@with@@chlorothiazide@@"> 
+      <entity id="DDI-DrugBank.d46.s17.e0" charOffset="32-38" type="drug" text="lithium" position="6"/>  
+      <entity id="DDI-DrugBank.d46.s17.e1" charOffset="90-103" type="drug" text="chlorothiazide" position="14"/>  
+      <pair id="DDI-DrugBank.d46.s17.p0" e1="DDI-DrugBank.d46.s17.e0" e2="DDI-DrugBank.d46.s17.e1" ddi="true" type="advise" flags="True" e1_name="lithium" e2_name="chlorothiazide" e1_pos="6" e2_pos="14" path="6@@7@@4@@0@@14@@">lithium@@@@nn@@preparations@@prep_for@@insert@@prep_to@@Refer@@prep_with@@chlorothiazide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d46.s18" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d46.s19" text="- Non-steroidal Anti-inflammatory Drugs: In some patients, the administration of a non-steroidal anti-inflammatory agent can reduce the diuretic, natriuretic, and antihypertensive effects of loop, potassium-sparing and thiazide diuretics." new_text="-@@Non-steroidal Anti-inflammatory Drugs@@:@@In@@some@@patients@@,@@the@@administration@@of@@a@@non-steroidal anti-inflammatory agent@@can@@reduce@@the@@diuretic@@,@@natriuretic@@,@@and@@antihypertensive@@effects@@of@@loop@@,@@potassium-sparing@@and@@thiazide diuretics@@.@@"> 
+      <entity id="DDI-DrugBank.d46.s19.e0" charOffset="2-38" type="group" text="Non-steroidal Anti-inflammatory Drugs" position="1"/>  
+      <entity id="DDI-DrugBank.d46.s19.e1" charOffset="83-119" type="group" text="non-steroidal anti-inflammatory agent" position="11"/>  
+      <entity id="DDI-DrugBank.d46.s19.e2" charOffset="191-194;228-236" type="group" text="loop diuretics" position="not_a_number"/>  
+      <entity id="DDI-DrugBank.d46.s19.e3" charOffset="197-213;228-236" type="group" text="potassium-sparing diuretics" position="not_a_number"/>  
+      <entity id="DDI-DrugBank.d46.s19.e4" charOffset="219-236" type="drug" text="thiazide diuretics" position="27"/>  
+      <pair id="DDI-DrugBank.d46.s19.p0" e1="DDI-DrugBank.d46.s19.e0" e2="DDI-DrugBank.d46.s19.e1" ddi="false" flags="True" e1_name="Non-steroidal Anti-inflammatory Drugs" e2_name="non-steroidal anti-inflammatory agent" e1_pos="1" e2_pos="11" path="1@@13@@8@@11@@">Non-steroidal Anti-inflammatory Drugs@@@@dep@@reduce@@nsubj@@administration@@prep_of@@non-steroidal anti-inflammatory agent</pair>  
+      <pair id="DDI-DrugBank.d46.s19.p1" e1="DDI-DrugBank.d46.s19.e0" e2="DDI-DrugBank.d46.s19.e2" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d46.s19.p2" e1="DDI-DrugBank.d46.s19.e0" e2="DDI-DrugBank.d46.s19.e3" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d46.s19.p3" e1="DDI-DrugBank.d46.s19.e0" e2="DDI-DrugBank.d46.s19.e4" ddi="false" flags="True" e1_name="Non-steroidal Anti-inflammatory Drugs" e2_name="thiazide diuretics" e1_pos="1" e2_pos="27" path="1@@13@@17@@27@@">Non-steroidal Anti-inflammatory Drugs@@@@dep@@reduce@@dobj@@natriuretic@@prep_of@@thiazide diuretics</pair>  
+      <pair id="DDI-DrugBank.d46.s19.p4" e1="DDI-DrugBank.d46.s19.e1" e2="DDI-DrugBank.d46.s19.e2" ddi="true" type="effect" flags="False"/>  
+      <pair id="DDI-DrugBank.d46.s19.p5" e1="DDI-DrugBank.d46.s19.e1" e2="DDI-DrugBank.d46.s19.e3" ddi="true" type="effect" flags="False"/>  
+      <pair id="DDI-DrugBank.d46.s19.p6" e1="DDI-DrugBank.d46.s19.e1" e2="DDI-DrugBank.d46.s19.e4" ddi="true" type="effect" flags="True" e1_name="non-steroidal anti-inflammatory agent" e2_name="thiazide diuretics" e1_pos="11" e2_pos="27" path="11@@8@@13@@17@@27@@">non-steroidal anti-inflammatory agent@@@@prep_of@@administration@@nsubj@@reduce@@dobj@@natriuretic@@prep_of@@thiazide diuretics</pair>  
+      <pair id="DDI-DrugBank.d46.s19.p7" e1="DDI-DrugBank.d46.s19.e2" e2="DDI-DrugBank.d46.s19.e3" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d46.s19.p8" e1="DDI-DrugBank.d46.s19.e2" e2="DDI-DrugBank.d46.s19.e4" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d46.s19.p9" e1="DDI-DrugBank.d46.s19.e3" e2="DDI-DrugBank.d46.s19.e4" ddi="false" flags="False"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d46.s20" text="Therefore, when chlorothiazide and non-steroidal anti-inflammatory agents are used concomitantly, the patient should be observed closely to determine if the desired effect of the diuretic is obtained" new_text="Therefore@@,@@when@@chlorothiazide@@and@@non-steroidal anti-inflammatory agents@@are@@used@@concomitantly@@,@@the@@patient@@should@@be@@observed@@closely@@to@@determine@@if@@the@@desired@@effect@@of@@the@@diuretic@@is@@obtained@@"> 
+      <entity id="DDI-DrugBank.d46.s20.e0" charOffset="16-29" type="drug" text="chlorothiazide" position="3"/>  
+      <entity id="DDI-DrugBank.d46.s20.e1" charOffset="35-72" type="group" text="non-steroidal anti-inflammatory agents" position="5"/>  
+      <entity id="DDI-DrugBank.d46.s20.e2" charOffset="179-186" type="group" text="diuretic" position="24"/>  
+      <pair id="DDI-DrugBank.d46.s20.p0" e1="DDI-DrugBank.d46.s20.e0" e2="DDI-DrugBank.d46.s20.e1" ddi="true" type="advise" flags="True" e1_name="chlorothiazide" e2_name="non-steroidal anti-inflammatory agents" e1_pos="3" e2_pos="5" path="3@@5@@">chlorothiazide@@@@conj_and@@non-steroidal anti-inflammatory agents</pair>  
+      <pair id="DDI-DrugBank.d46.s20.p1" e1="DDI-DrugBank.d46.s20.e0" e2="DDI-DrugBank.d46.s20.e2" ddi="false" flags="True" e1_name="chlorothiazide" e2_name="diuretic" e1_pos="3" e2_pos="24" path="3@@7@@14@@17@@26@@21@@24@@">chlorothiazide@@@@nsubjpass@@used@@advcl@@observed@@xcomp@@determine@@advcl@@obtained@@nsubjpass@@effect@@prep_of@@diuretic</pair>  
+      <pair id="DDI-DrugBank.d46.s20.p2" e1="DDI-DrugBank.d46.s20.e1" e2="DDI-DrugBank.d46.s20.e2" ddi="false" flags="True" e1_name="non-steroidal anti-inflammatory agents" e2_name="diuretic" e1_pos="5" e2_pos="24" path="5@@7@@14@@17@@26@@21@@24@@">non-steroidal anti-inflammatory agents@@@@nsubjpass@@used@@advcl@@observed@@xcomp@@determine@@advcl@@obtained@@nsubjpass@@effect@@prep_of@@diuretic</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d46.s21" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d46.s22" text="- Drug/Laboratory Test Interactions: Thiazides should be discontinued before carrying out tests for parathyroid function." new_text="-@@Drug/Laboratory@@Test@@Interactions@@:@@Thiazides@@should@@be@@discontinued@@before@@carrying@@out@@tests@@for@@parathyroid@@function@@.@@"> 
+      <entity id="DDI-DrugBank.d46.s22.e0" charOffset="37-45" type="group" text="Thiazides" position="5"/> 
+   </sentence> 
+</document>

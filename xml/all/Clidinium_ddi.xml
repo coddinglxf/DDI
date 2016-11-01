@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d322"> 
+   <sentence id="DDI-DrugBank.d322.s0" text="Amantadine, tricyclic antidepressants, and MAOIs may increase anticholinergic effect of clidinium." new_text="Amantadine@@,@@tricyclic antidepressants@@,@@and@@MAOIs@@may@@increase@@anticholinergic@@effect@@of@@clidinium@@.@@"> 
+      <entity id="DDI-DrugBank.d322.s0.e0" charOffset="0-9" type="drug" text="Amantadine" position="0"/>  
+      <entity id="DDI-DrugBank.d322.s0.e1" charOffset="12-36" type="group" text="tricyclic antidepressants" position="2"/>  
+      <entity id="DDI-DrugBank.d322.s0.e2" charOffset="43-47" type="group" text="MAOIs" position="5"/>  
+      <entity id="DDI-DrugBank.d322.s0.e3" charOffset="88-96" type="drug" text="clidinium" position="11"/>  
+      <pair id="DDI-DrugBank.d322.s0.p0" e1="DDI-DrugBank.d322.s0.e0" e2="DDI-DrugBank.d322.s0.e1" ddi="false" flags="True" e1_name="Amantadine" e2_name="tricyclic antidepressants" e1_pos="0" e2_pos="2" path="0@@2@@">Amantadine@@@@conj_and@@tricyclic antidepressants</pair>  
+      <pair id="DDI-DrugBank.d322.s0.p1" e1="DDI-DrugBank.d322.s0.e0" e2="DDI-DrugBank.d322.s0.e2" ddi="false" flags="True" e1_name="Amantadine" e2_name="MAOIs" e1_pos="0" e2_pos="5" path="0@@5@@">Amantadine@@@@conj_and@@MAOIs</pair>  
+      <pair id="DDI-DrugBank.d322.s0.p2" e1="DDI-DrugBank.d322.s0.e0" e2="DDI-DrugBank.d322.s0.e3" ddi="true" type="effect" flags="True" e1_name="Amantadine" e2_name="clidinium" e1_pos="0" e2_pos="11" path="0@@7@@9@@11@@">Amantadine@@@@nsubj@@increase@@dobj@@effect@@prep_of@@clidinium</pair>  
+      <pair id="DDI-DrugBank.d322.s0.p3" e1="DDI-DrugBank.d322.s0.e1" e2="DDI-DrugBank.d322.s0.e2" ddi="false" flags="True" e1_name="tricyclic antidepressants" e2_name="MAOIs" e1_pos="2" e2_pos="5" path="2@@0@@5@@">tricyclic antidepressants@@@@conj_and@@Amantadine@@conj_and@@MAOIs</pair>  
+      <pair id="DDI-DrugBank.d322.s0.p4" e1="DDI-DrugBank.d322.s0.e1" e2="DDI-DrugBank.d322.s0.e3" ddi="true" type="effect" flags="True" e1_name="tricyclic antidepressants" e2_name="clidinium" e1_pos="2" e2_pos="11" path="2@@7@@9@@11@@">tricyclic antidepressants@@@@nsubj@@increase@@dobj@@effect@@prep_of@@clidinium</pair>  
+      <pair id="DDI-DrugBank.d322.s0.p5" e1="DDI-DrugBank.d322.s0.e2" e2="DDI-DrugBank.d322.s0.e3" ddi="true" type="effect" flags="True" e1_name="MAOIs" e2_name="clidinium" e1_pos="5" e2_pos="11" path="5@@7@@9@@11@@">MAOIs@@@@nsubj@@increase@@dobj@@effect@@prep_of@@clidinium</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d322.s1" text="Clidinium may decrease the effect of phenothiazines, levodopa, and ketoconazole." new_text="Clidinium@@may@@decrease@@the@@effect@@of@@phenothiazines@@,@@levodopa@@,@@and@@ketoconazole@@.@@"> 
+      <entity id="DDI-DrugBank.d322.s1.e0" charOffset="0-8" type="drug" text="Clidinium" position="0"/>  
+      <entity id="DDI-DrugBank.d322.s1.e1" charOffset="37-50" type="group" text="phenothiazines" position="6"/>  
+      <entity id="DDI-DrugBank.d322.s1.e2" charOffset="53-60" type="drug" text="levodopa" position="8"/>  
+      <entity id="DDI-DrugBank.d322.s1.e3" charOffset="67-78" type="drug" text="ketoconazole" position="11"/>  
+      <pair id="DDI-DrugBank.d322.s1.p0" e1="DDI-DrugBank.d322.s1.e0" e2="DDI-DrugBank.d322.s1.e1" ddi="true" type="effect" flags="True" e1_name="Clidinium" e2_name="phenothiazines" e1_pos="0" e2_pos="6" path="0@@2@@4@@6@@">Clidinium@@@@nsubj@@decrease@@dobj@@effect@@prep_of@@phenothiazines</pair>  
+      <pair id="DDI-DrugBank.d322.s1.p1" e1="DDI-DrugBank.d322.s1.e0" e2="DDI-DrugBank.d322.s1.e2" ddi="true" type="effect" flags="True" e1_name="Clidinium" e2_name="levodopa" e1_pos="0" e2_pos="8" path="0@@2@@4@@8@@">Clidinium@@@@nsubj@@decrease@@dobj@@effect@@prep_of@@levodopa</pair>  
+      <pair id="DDI-DrugBank.d322.s1.p2" e1="DDI-DrugBank.d322.s1.e0" e2="DDI-DrugBank.d322.s1.e3" ddi="true" type="effect" flags="True" e1_name="Clidinium" e2_name="ketoconazole" e1_pos="0" e2_pos="11" path="0@@2@@4@@11@@">Clidinium@@@@nsubj@@decrease@@dobj@@effect@@prep_of@@ketoconazole</pair>  
+      <pair id="DDI-DrugBank.d322.s1.p3" e1="DDI-DrugBank.d322.s1.e1" e2="DDI-DrugBank.d322.s1.e2" ddi="false" flags="True" e1_name="phenothiazines" e2_name="levodopa" e1_pos="6" e2_pos="8" path="6@@8@@">phenothiazines@@@@conj_and@@levodopa</pair>  
+      <pair id="DDI-DrugBank.d322.s1.p4" e1="DDI-DrugBank.d322.s1.e1" e2="DDI-DrugBank.d322.s1.e3" ddi="false" flags="True" e1_name="phenothiazines" e2_name="ketoconazole" e1_pos="6" e2_pos="11" path="6@@11@@">phenothiazines@@@@conj_and@@ketoconazole</pair>  
+      <pair id="DDI-DrugBank.d322.s1.p5" e1="DDI-DrugBank.d322.s1.e2" e2="DDI-DrugBank.d322.s1.e3" ddi="false" flags="True" e1_name="levodopa" e2_name="ketoconazole" e1_pos="8" e2_pos="11" path="8@@4@@11@@">levodopa@@@@prep_of@@effect@@prep_of@@ketoconazole</pair> 
+   </sentence> 
+</document>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d688"> 
+   <sentence id="DDI-DrugBank.d688.s0" text="Pharmacokinetic studies show that there are no significant alterations in pharmacokinetic parameters of zidovudine or rifabutin to warrant dosage adjustment when megestrol acetate is administered with these drugs. " new_text="Pharmacokinetic@@studies@@show@@that@@there@@are@@no@@significant@@alterations@@in@@pharmacokinetic@@parameters@@of@@zidovudine@@or@@rifabutin@@to@@warrant@@dosage@@adjustment@@when@@megestrol acetate@@is@@administered@@with@@these@@drugs@@.@@"> 
+      <entity id="DDI-DrugBank.d688.s0.e0" charOffset="104-113" type="drug" text="zidovudine" position="13"/>  
+      <entity id="DDI-DrugBank.d688.s0.e1" charOffset="118-126" type="drug" text="rifabutin" position="15"/>  
+      <entity id="DDI-DrugBank.d688.s0.e2" charOffset="162-178" type="drug" text="megestrol acetate" position="21"/>  
+      <pair id="DDI-DrugBank.d688.s0.p0" e1="DDI-DrugBank.d688.s0.e0" e2="DDI-DrugBank.d688.s0.e1" ddi="false" flags="True" e1_name="zidovudine" e2_name="rifabutin" e1_pos="13" e2_pos="15" path="13@@15@@">zidovudine@@@@conj_or@@rifabutin</pair>  
+      <pair id="DDI-DrugBank.d688.s0.p1" e1="DDI-DrugBank.d688.s0.e0" e2="DDI-DrugBank.d688.s0.e2" ddi="false" flags="True" e1_name="zidovudine" e2_name="megestrol acetate" e1_pos="13" e2_pos="21" path="13@@11@@8@@17@@23@@21@@">zidovudine@@@@prep_of@@parameters@@prep_in@@alterations@@infmod@@warrant@@advcl@@administered@@nsubjpass@@megestrol acetate</pair>  
+      <pair id="DDI-DrugBank.d688.s0.p2" e1="DDI-DrugBank.d688.s0.e1" e2="DDI-DrugBank.d688.s0.e2" ddi="false" flags="True" e1_name="rifabutin" e2_name="megestrol acetate" e1_pos="15" e2_pos="21" path="15@@11@@8@@17@@23@@21@@">rifabutin@@@@prep_of@@parameters@@prep_in@@alterations@@infmod@@warrant@@advcl@@administered@@nsubjpass@@megestrol acetate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d688.s1" text="A pharmacokinetic study demonstrated that coadministration of megestrol acetate and indinavir results in a significant decrease in the pharmacokinetic parameters (~36% for Cmax and ~28% for AUC) of indinavir. " new_text="A@@pharmacokinetic@@study@@demonstrated@@that@@coadministration@@of@@megestrol acetate@@and@@indinavir@@results@@in@@a@@significant@@decrease@@in@@the@@pharmacokinetic@@parameters@@(~36%@@for@@Cmax@@and@@~28%@@for@@AUC)@@of@@indinavir@@.@@"> 
+      <entity id="DDI-DrugBank.d688.s1.e0" charOffset="62-78" type="drug" text="megestrol acetate" position="7"/>  
+      <entity id="DDI-DrugBank.d688.s1.e1" charOffset="84-92" type="drug" text="indinavir" position="9"/>  
+      <entity id="DDI-DrugBank.d688.s1.e2" charOffset="198-206" type="drug" text="indinavir" position="27"/>  
+      <pair id="DDI-DrugBank.d688.s1.p0" e1="DDI-DrugBank.d688.s1.e0" e2="DDI-DrugBank.d688.s1.e1" ddi="true" type="mechanism" flags="True" e1_name="megestrol acetate" e2_name="indinavir" e1_pos="7" e2_pos="9" path="7@@9@@">megestrol acetate@@@@conj_and@@indinavir</pair>  
+      <pair id="DDI-DrugBank.d688.s1.p1" e1="DDI-DrugBank.d688.s1.e0" e2="DDI-DrugBank.d688.s1.e2" ddi="false" flags="True" e1_name="megestrol acetate" e2_name="indinavir" e1_pos="7" e2_pos="27" path="7@@10@@5@@3@@14@@23@@25@@27@@">megestrol acetate@@@@nn@@results@@prep_of@@coadministration@@dobj@@demonstrated@@prep_in@@decrease@@prep_in@@~28%@@prep_for@@AUC)@@prep_of@@indinavir</pair>  
+      <pair id="DDI-DrugBank.d688.s1.p2" e1="DDI-DrugBank.d688.s1.e1" e2="DDI-DrugBank.d688.s1.e2" ddi="false" flags="True" e1_name="indinavir" e2_name="indinavir" e1_pos="9" e2_pos="27" path="9@@10@@5@@3@@14@@23@@25@@27@@">indinavir@@@@nn@@results@@prep_of@@coadministration@@dobj@@demonstrated@@prep_in@@decrease@@prep_in@@~28%@@prep_for@@AUC)@@prep_of@@indinavir</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d688.s2" text="Administration of a higher dose of indinavir should be considered when coadministering with megestrol acetate. " new_text="Administration@@of@@a@@higher@@dose@@of@@indinavir@@should@@be@@considered@@when@@coadministering@@with@@megestrol acetate@@.@@"> 
+      <entity id="DDI-DrugBank.d688.s2.e0" charOffset="35-43" type="drug" text="indinavir" position="6"/>  
+      <entity id="DDI-DrugBank.d688.s2.e1" charOffset="92-108" type="drug" text="megestrol acetate" position="13"/>  
+      <pair id="DDI-DrugBank.d688.s2.p0" e1="DDI-DrugBank.d688.s2.e0" e2="DDI-DrugBank.d688.s2.e1" ddi="true" type="advise" flags="True" e1_name="indinavir" e2_name="megestrol acetate" e1_pos="6" e2_pos="13" path="6@@4@@0@@9@@11@@13@@">indinavir@@@@prep_of@@dose@@prep_of@@Administration@@nsubjpass@@considered@@advcl@@coadministering@@prep_with@@megestrol acetate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d688.s3" text="The effects of indinavir, zidovudine or rifabutin on the pharmacokinetics of megestrol acetate were not studied." new_text="The@@effects@@of@@indinavir@@,@@zidovudine@@or@@rifabutin@@on@@the@@pharmacokinetics@@of@@megestrol acetate@@were@@not@@studied@@.@@"> 
+      <entity id="DDI-DrugBank.d688.s3.e0" charOffset="15-23" type="drug" text="indinavir" position="3"/>  
+      <entity id="DDI-DrugBank.d688.s3.e1" charOffset="26-35" type="drug" text="zidovudine" position="5"/>  
+      <entity id="DDI-DrugBank.d688.s3.e2" charOffset="40-48" type="drug" text="rifabutin" position="7"/>  
+      <entity id="DDI-DrugBank.d688.s3.e3" charOffset="77-93" type="drug" text="megestrol acetate" position="12"/>  
+      <pair id="DDI-DrugBank.d688.s3.p0" e1="DDI-DrugBank.d688.s3.e0" e2="DDI-DrugBank.d688.s3.e1" ddi="false" flags="True" e1_name="indinavir" e2_name="zidovudine" e1_pos="3" e2_pos="5" path="3@@5@@">indinavir@@@@conj_or@@zidovudine</pair>  
+      <pair id="DDI-DrugBank.d688.s3.p1" e1="DDI-DrugBank.d688.s3.e0" e2="DDI-DrugBank.d688.s3.e2" ddi="false" flags="True" e1_name="indinavir" e2_name="rifabutin" e1_pos="3" e2_pos="7" path="3@@7@@">indinavir@@@@conj_or@@rifabutin</pair>  
+      <pair id="DDI-DrugBank.d688.s3.p2" e1="DDI-DrugBank.d688.s3.e0" e2="DDI-DrugBank.d688.s3.e3" ddi="false" flags="True" e1_name="indinavir" e2_name="megestrol acetate" e1_pos="3" e2_pos="12" path="3@@1@@10@@12@@">indinavir@@@@prep_of@@effects@@prep_on@@pharmacokinetics@@prep_of@@megestrol acetate</pair>  
+      <pair id="DDI-DrugBank.d688.s3.p3" e1="DDI-DrugBank.d688.s3.e1" e2="DDI-DrugBank.d688.s3.e2" ddi="false" flags="True" e1_name="zidovudine" e2_name="rifabutin" e1_pos="5" e2_pos="7" path="5@@1@@7@@">zidovudine@@@@prep_of@@effects@@prep_of@@rifabutin</pair>  
+      <pair id="DDI-DrugBank.d688.s3.p4" e1="DDI-DrugBank.d688.s3.e1" e2="DDI-DrugBank.d688.s3.e3" ddi="false" flags="True" e1_name="zidovudine" e2_name="megestrol acetate" e1_pos="5" e2_pos="12" path="5@@1@@10@@12@@">zidovudine@@@@prep_of@@effects@@prep_on@@pharmacokinetics@@prep_of@@megestrol acetate</pair>  
+      <pair id="DDI-DrugBank.d688.s3.p5" e1="DDI-DrugBank.d688.s3.e2" e2="DDI-DrugBank.d688.s3.e3" ddi="false" flags="True" e1_name="rifabutin" e2_name="megestrol acetate" e1_pos="7" e2_pos="12" path="7@@1@@10@@12@@">rifabutin@@@@prep_of@@effects@@prep_on@@pharmacokinetics@@prep_of@@megestrol acetate</pair> 
+   </sentence> 
+</document>

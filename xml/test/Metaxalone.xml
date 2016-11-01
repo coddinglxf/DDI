@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d605"> 
+   <sentence id="DDI-DrugBank.d605.s0" text="SKELAXIN may enhance the effects of alcohol, barbiturates and other CNS depressants." new_text="SKELAXIN@@may@@enhance@@the@@effects@@of@@alcohol@@,@@barbiturates@@and@@other@@CNS depressants@@.@@"> 
+      <entity id="DDI-DrugBank.d605.s0.e0" charOffset="0-7" type="brand" text="SKELAXIN" position="0"/>  
+      <entity id="DDI-DrugBank.d605.s0.e1" charOffset="36-42" type="drug" text="alcohol" position="6"/>  
+      <entity id="DDI-DrugBank.d605.s0.e2" charOffset="45-56" type="group" text="barbiturates" position="8"/>  
+      <entity id="DDI-DrugBank.d605.s0.e3" charOffset="68-82" type="group" text="CNS depressants" position="11"/>  
+      <pair id="DDI-DrugBank.d605.s0.p0" e1="DDI-DrugBank.d605.s0.e0" e2="DDI-DrugBank.d605.s0.e1" ddi="true" type="effect" flags="True" e1_name="SKELAXIN" e2_name="alcohol" e1_pos="0" e2_pos="6" path="0@@2@@4@@6@@">SKELAXIN@@@@nsubj@@enhance@@dobj@@effects@@prep_of@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d605.s0.p1" e1="DDI-DrugBank.d605.s0.e0" e2="DDI-DrugBank.d605.s0.e2" ddi="true" type="effect" flags="True" e1_name="SKELAXIN" e2_name="barbiturates" e1_pos="0" e2_pos="8" path="0@@2@@4@@8@@">SKELAXIN@@@@nsubj@@enhance@@dobj@@effects@@prep_of@@barbiturates</pair>  
+      <pair id="DDI-DrugBank.d605.s0.p2" e1="DDI-DrugBank.d605.s0.e0" e2="DDI-DrugBank.d605.s0.e3" ddi="true" type="effect" flags="True" e1_name="SKELAXIN" e2_name="CNS depressants" e1_pos="0" e2_pos="11" path="0@@2@@4@@11@@">SKELAXIN@@@@nsubj@@enhance@@dobj@@effects@@prep_of@@CNS depressants</pair>  
+      <pair id="DDI-DrugBank.d605.s0.p3" e1="DDI-DrugBank.d605.s0.e1" e2="DDI-DrugBank.d605.s0.e2" ddi="false" flags="True" e1_name="alcohol" e2_name="barbiturates" e1_pos="6" e2_pos="8" path="6@@8@@">alcohol@@@@conj_and@@barbiturates</pair>  
+      <pair id="DDI-DrugBank.d605.s0.p4" e1="DDI-DrugBank.d605.s0.e1" e2="DDI-DrugBank.d605.s0.e3" ddi="false" flags="True" e1_name="alcohol" e2_name="CNS depressants" e1_pos="6" e2_pos="11" path="6@@11@@">alcohol@@@@conj_and@@CNS depressants</pair>  
+      <pair id="DDI-DrugBank.d605.s0.p5" e1="DDI-DrugBank.d605.s0.e2" e2="DDI-DrugBank.d605.s0.e3" ddi="false" flags="True" e1_name="barbiturates" e2_name="CNS depressants" e1_pos="8" e2_pos="11" path="8@@4@@11@@">barbiturates@@@@prep_of@@effects@@prep_of@@CNS depressants</pair> 
+   </sentence> 
+</document>

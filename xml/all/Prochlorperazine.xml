@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d734"> 
+   <sentence id="DDI-DrugBank.d734.s0" text="Thiazide diuretics may accentuate the orthostatic hypotension that may occur with phenothiazines. " new_text="Thiazide diuretics@@may@@accentuate@@the@@orthostatic@@hypotension@@that@@may@@occur@@with@@phenothiazines@@.@@"> 
+      <entity id="DDI-DrugBank.d734.s0.e0" charOffset="0-17" type="group" text="Thiazide diuretics" position="0"/>  
+      <entity id="DDI-DrugBank.d734.s0.e1" charOffset="82-95" type="group" text="phenothiazines" position="10"/>  
+      <pair id="DDI-DrugBank.d734.s0.p0" e1="DDI-DrugBank.d734.s0.e0" e2="DDI-DrugBank.d734.s0.e1" ddi="true" type="effect" flags="True" e1_name="Thiazide diuretics" e2_name="phenothiazines" e1_pos="0" e2_pos="10" path="0@@2@@5@@8@@10@@">Thiazide diuretics@@@@nsubj@@accentuate@@dobj@@hypotension@@rcmod@@occur@@prep_with@@phenothiazines</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d734.s1" text="Antihypertensive effects of guanethidine and related compounds may be counteracted when phenothiazines are used concomitantly. " new_text="Antihypertensive@@effects@@of@@guanethidine@@and@@related@@compounds@@may@@be@@counteracted@@when@@phenothiazines@@are@@used@@concomitantly@@.@@"> 
+      <entity id="DDI-DrugBank.d734.s1.e0" charOffset="28-39" type="drug" text="guanethidine" position="3"/>  
+      <entity id="DDI-DrugBank.d734.s1.e1" charOffset="88-101" type="group" text="phenothiazines" position="11"/>  
+      <pair id="DDI-DrugBank.d734.s1.p0" e1="DDI-DrugBank.d734.s1.e0" e2="DDI-DrugBank.d734.s1.e1" ddi="true" type="effect" flags="True" e1_name="guanethidine" e2_name="phenothiazines" e1_pos="3" e2_pos="11" path="3@@6@@1@@9@@13@@11@@">guanethidine@@@@amod@@compounds@@prep_of@@effects@@nsubjpass@@counteracted@@advcl@@used@@nsubjpass@@phenothiazines</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d734.s2" text="Concomitant administration of propranolol with phenothiazines results in increased plasma levels of both drugs." new_text="Concomitant@@administration@@of@@propranolol@@with@@phenothiazines@@results@@in@@increased@@plasma@@levels@@of@@both@@drugs@@.@@"> 
+      <entity id="DDI-DrugBank.d734.s2.e0" charOffset="30-40" type="drug" text="propranolol" position="3"/>  
+      <entity id="DDI-DrugBank.d734.s2.e1" charOffset="47-60" type="group" text="phenothiazines" position="5"/>  
+      <pair id="DDI-DrugBank.d734.s2.p0" e1="DDI-DrugBank.d734.s2.e0" e2="DDI-DrugBank.d734.s2.e1" ddi="true" type="mechanism" flags="True" e1_name="propranolol" e2_name="phenothiazines" e1_pos="3" e2_pos="5" path="3@@5@@">propranolol@@@@prep_with@@phenothiazines</pair> 
+   </sentence> 
+</document>

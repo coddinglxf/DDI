@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d352"> 
+   <sentence id="DDI-DrugBank.d352.s0" text="Antidiabetic drug requirements (i.e., insulin) may be altered." new_text="Antidiabetic drug@@requirements@@(i.e.@@,@@insulin@@)@@may@@be@@altered@@.@@"> 
+      <entity id="DDI-DrugBank.d352.s0.e0" charOffset="0-16" type="group" text="Antidiabetic drug" position="0"/>  
+      <entity id="DDI-DrugBank.d352.s0.e1" charOffset="38-44" type="drug" text="insulin" position="4"/>  
+      <pair id="DDI-DrugBank.d352.s0.p0" e1="DDI-DrugBank.d352.s0.e0" e2="DDI-DrugBank.d352.s0.e1" ddi="false" flags="True" e1_name="Antidiabetic drug" e2_name="insulin" e1_pos="0" e2_pos="4" path="0@@8@@5@@4@@">Antidiabetic drug@@@@partmod@@altered@@nsubjpass@@)@@nn@@insulin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d352.s1" text="Concurrent use with general anesthetics may result in arrhythmias." new_text="Concurrent@@use@@with@@general@@anesthetics@@may@@result@@in@@arrhythmias@@.@@"> 
+      <entity id="DDI-DrugBank.d352.s1.e0" charOffset="28-38" type="group" text="anesthetics" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d352.s2" text="The pressor effects of diethylpropion and those of other drugs may be additive when the drugs are used concomitantly;" new_text="The@@pressor@@effects@@of@@diethylpropion@@and@@those@@of@@other@@drugs@@may@@be@@additive@@when@@the@@drugs@@are@@used@@concomitantly;@@"> 
+      <entity id="DDI-DrugBank.d352.s2.e0" charOffset="23-36" type="drug" text="diethylpropion" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d352.s3" text="conversely, diethylpropion may interfere with antihypertensive drugs (i.e., guanethidine, a-methyldopa)." new_text="conversely@@,@@diethylpropion@@may@@interfere@@with@@antihypertensive drugs@@(i.e.@@,@@guanethidine@@,@@a-methyldopa@@)@@.@@"> 
+      <entity id="DDI-DrugBank.d352.s3.e0" charOffset="12-25" type="drug" text="diethylpropion" position="2"/>  
+      <entity id="DDI-DrugBank.d352.s3.e1" charOffset="46-67" type="group" text="antihypertensive drugs" position="6"/>  
+      <entity id="DDI-DrugBank.d352.s3.e2" charOffset="76-87" type="drug" text="guanethidine" position="9"/>  
+      <entity id="DDI-DrugBank.d352.s3.e3" charOffset="90-101" type="drug" text="a-methyldopa" position="11"/>  
+      <pair id="DDI-DrugBank.d352.s3.p0" e1="DDI-DrugBank.d352.s3.e0" e2="DDI-DrugBank.d352.s3.e1" ddi="true" type="int" flags="True" e1_name="diethylpropion" e2_name="antihypertensive drugs" e1_pos="2" e2_pos="6" path="2@@4@@7@@6@@">diethylpropion@@@@nsubj@@interfere@@prep_with@@(i.e.@@amod@@antihypertensive drugs</pair>  
+      <pair id="DDI-DrugBank.d352.s3.p1" e1="DDI-DrugBank.d352.s3.e0" e2="DDI-DrugBank.d352.s3.e2" ddi="true" type="int" flags="True" e1_name="diethylpropion" e2_name="guanethidine" e1_pos="2" e2_pos="9" path="2@@4@@7@@12@@9@@">diethylpropion@@@@nsubj@@interfere@@prep_with@@(i.e.@@appos@@)@@amod@@guanethidine</pair>  
+      <pair id="DDI-DrugBank.d352.s3.p2" e1="DDI-DrugBank.d352.s3.e0" e2="DDI-DrugBank.d352.s3.e3" ddi="true" type="int" flags="True" e1_name="diethylpropion" e2_name="a-methyldopa" e1_pos="2" e2_pos="11" path="2@@4@@7@@12@@11@@">diethylpropion@@@@nsubj@@interfere@@prep_with@@(i.e.@@appos@@)@@amod@@a-methyldopa</pair>  
+      <pair id="DDI-DrugBank.d352.s3.p3" e1="DDI-DrugBank.d352.s3.e1" e2="DDI-DrugBank.d352.s3.e2" ddi="false" flags="True" e1_name="antihypertensive drugs" e2_name="guanethidine" e1_pos="6" e2_pos="9" path="6@@7@@12@@9@@">antihypertensive drugs@@@@amod@@(i.e.@@appos@@)@@amod@@guanethidine</pair>  
+      <pair id="DDI-DrugBank.d352.s3.p4" e1="DDI-DrugBank.d352.s3.e1" e2="DDI-DrugBank.d352.s3.e3" ddi="false" flags="True" e1_name="antihypertensive drugs" e2_name="a-methyldopa" e1_pos="6" e2_pos="11" path="6@@7@@12@@11@@">antihypertensive drugs@@@@amod@@(i.e.@@appos@@)@@amod@@a-methyldopa</pair>  
+      <pair id="DDI-DrugBank.d352.s3.p5" e1="DDI-DrugBank.d352.s3.e2" e2="DDI-DrugBank.d352.s3.e3" ddi="false" flags="True" e1_name="guanethidine" e2_name="a-methyldopa" e1_pos="9" e2_pos="11" path="9@@12@@11@@">guanethidine@@@@amod@@)@@amod@@a-methyldopa</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d352.s4" text="Concurrent use of phenothiazines may antagonize the anorectic effect of diethylpropion." new_text="Concurrent@@use@@of@@phenothiazines@@may@@antagonize@@the@@anorectic@@effect@@of@@diethylpropion@@.@@"> 
+      <entity id="DDI-DrugBank.d352.s4.e0" charOffset="18-31" type="group" text="phenothiazines" position="3"/>  
+      <entity id="DDI-DrugBank.d352.s4.e1" charOffset="72-85" type="drug" text="diethylpropion" position="10"/>  
+      <pair id="DDI-DrugBank.d352.s4.p0" e1="DDI-DrugBank.d352.s4.e0" e2="DDI-DrugBank.d352.s4.e1" ddi="true" type="effect" flags="True" e1_name="phenothiazines" e2_name="diethylpropion" e1_pos="3" e2_pos="10" path="3@@1@@5@@8@@10@@">phenothiazines@@@@prep_of@@use@@nsubj@@antagonize@@dobj@@effect@@prep_of@@diethylpropion</pair> 
+   </sentence> 
+</document>

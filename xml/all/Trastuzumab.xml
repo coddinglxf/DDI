@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d712"> 
+   <sentence id="DDI-DrugBank.d712.s0" text="There have been no formal drug interaction studies performed with HERCEPTIN in humans. " new_text="There@@have@@been@@no@@formal@@drug@@interaction@@studies@@performed@@with@@HERCEPTIN@@in@@humans@@.@@"> 
+      <entity id="DDI-DrugBank.d712.s0.e0" charOffset="66-74" type="brand" text="HERCEPTIN" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d712.s1" text="Administration of paclitaxel in combination with HERCEPTIN resulted in a two-fold decrease in HERCEPTIN clearance in a non-human primate study and in a 1.5-fold increase in HERCEPTIN serum levels in clinical studies." new_text="Administration@@of@@paclitaxel@@in@@combination@@with@@HERCEPTIN@@resulted@@in@@a@@two-fold@@decrease@@in@@HERCEPTIN@@clearance@@in@@a@@non-human@@primate@@study@@and@@in@@a@@1.5-fold@@increase@@in@@HERCEPTIN@@serum@@levels@@in@@clinical@@studies@@.@@"> 
+      <entity id="DDI-DrugBank.d712.s1.e0" charOffset="18-27" type="drug" text="paclitaxel" position="2"/>  
+      <entity id="DDI-DrugBank.d712.s1.e1" charOffset="49-57" type="brand" text="HERCEPTIN" position="6"/>  
+      <entity id="DDI-DrugBank.d712.s1.e2" charOffset="94-102" type="brand" text="HERCEPTIN" position="13"/>  
+      <entity id="DDI-DrugBank.d712.s1.e3" charOffset="173-181" type="brand" text="HERCEPTIN" position="26"/>  
+      <pair id="DDI-DrugBank.d712.s1.p0" e1="DDI-DrugBank.d712.s1.e0" e2="DDI-DrugBank.d712.s1.e1" ddi="true" type="mechanism" flags="True" e1_name="paclitaxel" e2_name="HERCEPTIN" e1_pos="2" e2_pos="6" path="2@@4@@6@@">paclitaxel@@@@prep_in@@combination@@prep_with@@HERCEPTIN</pair>  
+      <pair id="DDI-DrugBank.d712.s1.p1" e1="DDI-DrugBank.d712.s1.e0" e2="DDI-DrugBank.d712.s1.e2" ddi="false" flags="True" e1_name="paclitaxel" e2_name="HERCEPTIN" e1_pos="2" e2_pos="13" path="2@@0@@7@@11@@14@@13@@">paclitaxel@@@@prep_of@@Administration@@nsubj@@resulted@@prep_in@@decrease@@prep_in@@clearance@@nn@@HERCEPTIN</pair>  
+      <pair id="DDI-DrugBank.d712.s1.p2" e1="DDI-DrugBank.d712.s1.e0" e2="DDI-DrugBank.d712.s1.e3" ddi="false" flags="True" e1_name="paclitaxel" e2_name="HERCEPTIN" e1_pos="2" e2_pos="26" path="2@@0@@7@@24@@28@@26@@">paclitaxel@@@@prep_of@@Administration@@nsubj@@resulted@@prep_in@@increase@@prep_in@@levels@@nn@@HERCEPTIN</pair>  
+      <pair id="DDI-DrugBank.d712.s1.p3" e1="DDI-DrugBank.d712.s1.e1" e2="DDI-DrugBank.d712.s1.e2" ddi="false" flags="True" e1_name="HERCEPTIN" e2_name="HERCEPTIN" e1_pos="6" e2_pos="13" path="6@@4@@2@@0@@7@@11@@14@@13@@">HERCEPTIN@@@@prep_with@@combination@@prep_in@@paclitaxel@@prep_of@@Administration@@nsubj@@resulted@@prep_in@@decrease@@prep_in@@clearance@@nn@@HERCEPTIN</pair>  
+      <pair id="DDI-DrugBank.d712.s1.p4" e1="DDI-DrugBank.d712.s1.e1" e2="DDI-DrugBank.d712.s1.e3" ddi="false" flags="True" e1_name="HERCEPTIN" e2_name="HERCEPTIN" e1_pos="6" e2_pos="26" path="6@@4@@2@@0@@7@@24@@28@@26@@">HERCEPTIN@@@@prep_with@@combination@@prep_in@@paclitaxel@@prep_of@@Administration@@nsubj@@resulted@@prep_in@@increase@@prep_in@@levels@@nn@@HERCEPTIN</pair>  
+      <pair id="DDI-DrugBank.d712.s1.p5" e1="DDI-DrugBank.d712.s1.e2" e2="DDI-DrugBank.d712.s1.e3" ddi="false" flags="True" e1_name="HERCEPTIN" e2_name="HERCEPTIN" e1_pos="13" e2_pos="26" path="13@@14@@11@@7@@24@@28@@26@@">HERCEPTIN@@@@nn@@clearance@@prep_in@@decrease@@prep_in@@resulted@@prep_in@@increase@@prep_in@@levels@@nn@@HERCEPTIN</pair> 
+   </sentence> 
+</document>

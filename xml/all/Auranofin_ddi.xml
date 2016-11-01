@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d374"> 
+   <sentence id="DDI-DrugBank.d374.s0" text="Auranofin should be avoided by patients with a history of serious reaction to any gold medication, including Solganal and Myochrysine." new_text="Auranofin@@should@@be@@avoided@@by@@patients@@with@@a@@history@@of@@serious@@reaction@@to@@any@@gold medication@@,@@including@@Solganal@@and@@Myochrysine@@.@@"> 
+      <entity id="DDI-DrugBank.d374.s0.e0" charOffset="0-8" type="drug" text="Auranofin" position="0"/>  
+      <entity id="DDI-DrugBank.d374.s0.e1" charOffset="82-96" type="group" text="gold medication" position="14"/>  
+      <entity id="DDI-DrugBank.d374.s0.e2" charOffset="109-116" type="brand" text="Solganal" position="17"/>  
+      <entity id="DDI-DrugBank.d374.s0.e3" charOffset="122-132" type="brand" text="Myochrysine" position="19"/>  
+      <pair id="DDI-DrugBank.d374.s0.p0" e1="DDI-DrugBank.d374.s0.e0" e2="DDI-DrugBank.d374.s0.e1" ddi="true" type="advise" flags="True" e1_name="Auranofin" e2_name="gold medication" e1_pos="0" e2_pos="14" path="0@@3@@14@@">Auranofin@@@@nsubjpass@@avoided@@prep_to@@gold medication</pair>  
+      <pair id="DDI-DrugBank.d374.s0.p1" e1="DDI-DrugBank.d374.s0.e0" e2="DDI-DrugBank.d374.s0.e2" ddi="true" type="advise" flags="True" e1_name="Auranofin" e2_name="Solganal" e1_pos="0" e2_pos="17" path="0@@3@@17@@">Auranofin@@@@nsubjpass@@avoided@@prep_including@@Solganal</pair>  
+      <pair id="DDI-DrugBank.d374.s0.p2" e1="DDI-DrugBank.d374.s0.e0" e2="DDI-DrugBank.d374.s0.e3" ddi="true" type="advise" flags="True" e1_name="Auranofin" e2_name="Myochrysine" e1_pos="0" e2_pos="19" path="0@@3@@19@@">Auranofin@@@@nsubjpass@@avoided@@prep_including@@Myochrysine</pair>  
+      <pair id="DDI-DrugBank.d374.s0.p3" e1="DDI-DrugBank.d374.s0.e1" e2="DDI-DrugBank.d374.s0.e2" ddi="false" flags="True" e1_name="gold medication" e2_name="Solganal" e1_pos="14" e2_pos="17" path="14@@3@@17@@">gold medication@@@@prep_to@@avoided@@prep_including@@Solganal</pair>  
+      <pair id="DDI-DrugBank.d374.s0.p4" e1="DDI-DrugBank.d374.s0.e1" e2="DDI-DrugBank.d374.s0.e3" ddi="false" flags="True" e1_name="gold medication" e2_name="Myochrysine" e1_pos="14" e2_pos="19" path="14@@3@@19@@">gold medication@@@@prep_to@@avoided@@prep_including@@Myochrysine</pair>  
+      <pair id="DDI-DrugBank.d374.s0.p5" e1="DDI-DrugBank.d374.s0.e2" e2="DDI-DrugBank.d374.s0.e3" ddi="false" flags="True" e1_name="Solganal" e2_name="Myochrysine" e1_pos="17" e2_pos="19" path="17@@19@@">Solganal@@@@conj_and@@Myochrysine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d374.s1" text="Auranofin should not be used together with penicillamine (Depen, Cuprimine), another arthritis medication." new_text="Auranofin@@should@@not@@be@@used@@together@@with@@penicillamine@@(@@Depen@@,@@Cuprimine@@)@@,@@another@@arthritis@@medication@@.@@"> 
+      <entity id="DDI-DrugBank.d374.s1.e0" charOffset="0-8" type="drug" text="Auranofin" position="0"/>  
+      <entity id="DDI-DrugBank.d374.s1.e1" charOffset="43-55" type="drug" text="penicillamine" position="7"/>  
+      <entity id="DDI-DrugBank.d374.s1.e2" charOffset="58-62" type="brand" text="Depen" position="9"/>  
+      <entity id="DDI-DrugBank.d374.s1.e3" charOffset="65-73" type="brand" text="Cuprimine" position="11"/>  
+      <pair id="DDI-DrugBank.d374.s1.p0" e1="DDI-DrugBank.d374.s1.e0" e2="DDI-DrugBank.d374.s1.e1" ddi="true" type="advise" flags="True" e1_name="Auranofin" e2_name="penicillamine" e1_pos="0" e2_pos="7" path="0@@4@@9@@7@@">Auranofin@@@@nsubjpass@@used@@prep_together_with@@Depen@@nn@@penicillamine</pair>  
+      <pair id="DDI-DrugBank.d374.s1.p1" e1="DDI-DrugBank.d374.s1.e0" e2="DDI-DrugBank.d374.s1.e2" ddi="true" type="advise" flags="True" e1_name="Auranofin" e2_name="Depen" e1_pos="0" e2_pos="9" path="0@@4@@9@@">Auranofin@@@@nsubjpass@@used@@prep_together_with@@Depen</pair>  
+      <pair id="DDI-DrugBank.d374.s1.p2" e1="DDI-DrugBank.d374.s1.e0" e2="DDI-DrugBank.d374.s1.e3" ddi="true" type="advise" flags="True" e1_name="Auranofin" e2_name="Cuprimine" e1_pos="0" e2_pos="11" path="0@@4@@9@@12@@11@@">Auranofin@@@@nsubjpass@@used@@prep_together_with@@Depen@@appos@@)@@nn@@Cuprimine</pair>  
+      <pair id="DDI-DrugBank.d374.s1.p3" e1="DDI-DrugBank.d374.s1.e1" e2="DDI-DrugBank.d374.s1.e2" ddi="false" flags="True" e1_name="penicillamine" e2_name="Depen" e1_pos="7" e2_pos="9" path="7@@9@@">penicillamine@@@@nn@@Depen</pair>  
+      <pair id="DDI-DrugBank.d374.s1.p4" e1="DDI-DrugBank.d374.s1.e1" e2="DDI-DrugBank.d374.s1.e3" ddi="false" flags="True" e1_name="penicillamine" e2_name="Cuprimine" e1_pos="7" e2_pos="11" path="7@@9@@12@@11@@">penicillamine@@@@nn@@Depen@@appos@@)@@nn@@Cuprimine</pair>  
+      <pair id="DDI-DrugBank.d374.s1.p5" e1="DDI-DrugBank.d374.s1.e2" e2="DDI-DrugBank.d374.s1.e3" ddi="false" flags="True" e1_name="Depen" e2_name="Cuprimine" e1_pos="9" e2_pos="11" path="9@@12@@11@@">Depen@@@@appos@@)@@nn@@Cuprimine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d374.s2" text="It should also be avoided in patients with blood, liver or kidney diseases, recent radiation treatment, or uncontrolled diabetes." new_text="It@@should@@also@@be@@avoided@@in@@patients@@with@@blood@@,@@liver@@or@@kidney@@diseases@@,@@recent@@radiation@@treatment@@,@@or@@uncontrolled@@diabetes@@.@@"/>  
+   <sentence id="DDI-DrugBank.d374.s3" text="Patients should report to their practitioners any new rashes, itching, mouth sores, or unusual taste while taking auranofin." new_text="Patients@@should@@report@@to@@their@@practitioners@@any@@new@@rashes@@,@@itching@@,@@mouth@@sores@@,@@or@@unusual@@taste@@while@@taking@@auranofin@@.@@"> 
+      <entity id="DDI-DrugBank.d374.s3.e0" charOffset="114-122" type="drug" text="auranofin" position="20"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d374.s4" text="Gold is excreted slowly from the body." new_text="Gold@@is@@excreted@@slowly@@from@@the@@body@@.@@"> 
+      <entity id="DDI-DrugBank.d374.s4.e0" charOffset="0-3" type="group" text="Gold" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d374.s5" text="Safety and effectiveness in children has not been established." new_text="Safety@@and@@effectiveness@@in@@children@@has@@not@@been@@established@@.@@"/> 
+</document>

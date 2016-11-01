@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d66"> 
+   <sentence id="DDI-MedLine.d66.s0" text="Changes in urinary homocysteine following synthetic steroidal estrogen and progestogen administration to rats." new_text="Changes@@in@@urinary@@homocysteine@@following@@synthetic steroidal estrogen@@and@@progestogen@@administration@@to@@rats@@.@@"> 
+      <entity id="DDI-MedLine.d66.s0.e0" charOffset="42-69" type="group" text="synthetic steroidal estrogen" position="5"/>  
+      <entity id="DDI-MedLine.d66.s0.e1" charOffset="42-60;75-85" type="group" text="synthetic steroidal progestogen" position="not_a_number"/>  
+      <pair id="DDI-MedLine.d66.s0.p0" e1="DDI-MedLine.d66.s0.e0" e2="DDI-MedLine.d66.s0.e1" ddi="false" flags="False"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d66.s1" text="The present work involved the administration of both ethynyl estradiol and levonorgestrel to groups of rats, followed by determination of the homocysteine excretion rate in urine. " new_text="The@@present@@work@@involved@@the@@administration@@of@@both@@ethynyl estradiol@@and@@levonorgestrel@@to@@groups@@of@@rats@@,@@followed@@by@@determination@@of@@the@@homocysteine@@excretion@@rate@@in@@urine@@.@@"> 
+      <entity id="DDI-MedLine.d66.s1.e0" charOffset="53-69" type="drug" text="ethynyl estradiol" position="8"/>  
+      <entity id="DDI-MedLine.d66.s1.e1" charOffset="75-88" type="drug" text="levonorgestrel" position="10"/>  
+      <pair id="DDI-MedLine.d66.s1.p0" e1="DDI-MedLine.d66.s1.e0" e2="DDI-MedLine.d66.s1.e1" ddi="false" flags="True" e1_name="ethynyl estradiol" e2_name="levonorgestrel" e1_pos="8" e2_pos="10" path="8@@10@@">ethynyl estradiol@@@@conj_and@@levonorgestrel</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d66.s2" text="The results indicate that a statistically significant difference exists between the excreted levels of homocysteine in the urine of both control and levonorgestrel-treated rats and the levels shown by rats treated with ethynyl estradiol. " new_text="The@@results@@indicate@@that@@a@@statistically@@significant@@difference@@exists@@between@@the@@excreted@@levels@@of@@homocysteine@@in@@the@@urine@@of@@both@@control@@and@@levonorgestrel@@-treated@@rats@@and@@the@@levels@@shown@@by@@rats@@treated@@with@@ethynyl estradiol@@.@@"> 
+      <entity id="DDI-MedLine.d66.s2.e0" charOffset="149-162" type="drug" text="levonorgestrel" position="22"/>  
+      <entity id="DDI-MedLine.d66.s2.e1" charOffset="219-235" type="drug" text="ethynyl estradiol" position="33"/>  
+      <pair id="DDI-MedLine.d66.s2.p0" e1="DDI-MedLine.d66.s2.e0" e2="DDI-MedLine.d66.s2.e1" ddi="false" flags="True" e1_name="levonorgestrel" e2_name="ethynyl estradiol" e1_pos="22" e2_pos="33" path="22@@24@@17@@14@@12@@27@@28@@30@@31@@33@@">levonorgestrel@@@@amod@@rats@@prep_of@@urine@@prep_in@@homocysteine@@prep_of@@levels@@conj_and@@levels@@partmod@@shown@@agent@@rats@@partmod@@treated@@prep_with@@ethynyl estradiol</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d66.s3" text="The implications of these results are discussed, especially with respect to observations which indicate that homocysteine may be a precipitating factor in the development of thrombosis. " new_text="The@@implications@@of@@these@@results@@are@@discussed@@,@@especially@@with@@respect@@to@@observations@@which@@indicate@@that@@homocysteine@@may@@be@@a@@precipitating@@factor@@in@@the@@development@@of@@thrombosis@@.@@"/>  
+   <sentence id="DDI-MedLine.d66.s4" text="Also included in this paper is a study which confirms the identity of the HPLC peak as being homocysteine by forming a radioactive derivative of this particular sulphydryl-containing amino acid, and then analysing the resulting mixture by TLC." new_text="Also@@included@@in@@this@@paper@@is@@a@@study@@which@@confirms@@the@@identity@@of@@the@@HPLC@@peak@@as@@being@@homocysteine@@by@@forming@@a@@radioactive@@derivative@@of@@this@@particular@@sulphydryl-containing@@amino@@acid@@,@@and@@then@@analysing@@the@@resulting@@mixture@@by@@TLC@@.@@"/> 
+</document>

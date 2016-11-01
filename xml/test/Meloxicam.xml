@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d597"> 
+   <sentence id="DDI-DrugBank.d597.s0" text="ACE inhibitors Reports suggest that NSAIDs may diminish the antihypertensive effect of angiotensin-converting enzyme (ACE) inhibitors. " new_text="ACE inhibitors@@Reports@@suggest@@that@@NSAIDs@@may@@diminish@@the@@antihypertensive@@effect@@of@@angiotensin-converting enzyme (ACE) inhibitors@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s0.e0" charOffset="0-13" type="group" text="ACE inhibitors" position="0"/>  
+      <entity id="DDI-DrugBank.d597.s0.e1" charOffset="36-41" type="group" text="NSAIDs" position="4"/>  
+      <entity id="DDI-DrugBank.d597.s0.e2" charOffset="87-132" type="group" text="angiotensin-converting enzyme (ACE) inhibitors" position="11"/>  
+      <pair id="DDI-DrugBank.d597.s0.p0" e1="DDI-DrugBank.d597.s0.e0" e2="DDI-DrugBank.d597.s0.e1" ddi="false" flags="True" e1_name="ACE inhibitors" e2_name="NSAIDs" e1_pos="0" e2_pos="4" path="0@@1@@2@@6@@4@@">ACE inhibitors@@@@nn@@Reports@@nsubj@@suggest@@ccomp@@diminish@@nsubj@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d597.s0.p1" e1="DDI-DrugBank.d597.s0.e0" e2="DDI-DrugBank.d597.s0.e2" ddi="false" flags="True" e1_name="ACE inhibitors" e2_name="angiotensin-converting enzyme (ACE) inhibitors" e1_pos="0" e2_pos="11" path="0@@1@@2@@6@@9@@11@@">ACE inhibitors@@@@nn@@Reports@@nsubj@@suggest@@ccomp@@diminish@@dobj@@effect@@prep_of@@angiotensin-converting enzyme (ACE) inhibitors</pair>  
+      <pair id="DDI-DrugBank.d597.s0.p2" e1="DDI-DrugBank.d597.s0.e1" e2="DDI-DrugBank.d597.s0.e2" ddi="true" type="effect" flags="True" e1_name="NSAIDs" e2_name="angiotensin-converting enzyme (ACE) inhibitors" e1_pos="4" e2_pos="11" path="4@@6@@9@@11@@">NSAIDs@@@@nsubj@@diminish@@dobj@@effect@@prep_of@@angiotensin-converting enzyme (ACE) inhibitors</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s1" text="This interaction should be given consideration in patients taking NSAIDs concomitantly with ACE inhibitors. " new_text="This@@interaction@@should@@be@@given@@consideration@@in@@patients@@taking@@NSAIDs@@concomitantly@@with@@ACE inhibitors@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s1.e0" charOffset="66-71" type="group" text="NSAIDs" position="9"/>  
+      <entity id="DDI-DrugBank.d597.s1.e1" charOffset="92-105" type="group" text="ACE inhibitors" position="12"/>  
+      <pair id="DDI-DrugBank.d597.s1.p0" e1="DDI-DrugBank.d597.s1.e0" e2="DDI-DrugBank.d597.s1.e1" ddi="true" type="advise" flags="True" e1_name="NSAIDs" e2_name="ACE inhibitors" e1_pos="9" e2_pos="12" path="9@@8@@12@@">NSAIDs@@@@dobj@@taking@@prep_with@@ACE inhibitors</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s2" text="Aspirin: Concomitant administration of aspirin (1000 mg TID) to healthy volunteers tended to increase the AUC (10%) and Cmax (24%) of meloxicam. " new_text="Aspirin@@:@@Concomitant@@administration@@of@@aspirin@@(1000@@mg@@TID)@@to@@healthy@@volunteers@@tended@@to@@increase@@the@@AUC@@(10%)@@and@@Cmax@@(24%)@@of@@meloxicam@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s2.e0" charOffset="0-6" type="brand" text="Aspirin" position="0"/>  
+      <entity id="DDI-DrugBank.d597.s2.e1" charOffset="39-45" type="brand" text="aspirin" position="5"/>  
+      <entity id="DDI-DrugBank.d597.s2.e2" charOffset="134-142" type="drug" text="meloxicam" position="22"/>  
+      <pair id="DDI-DrugBank.d597.s2.p0" e1="DDI-DrugBank.d597.s2.e0" e2="DDI-DrugBank.d597.s2.e1" ddi="false" flags="True" e1_name="Aspirin" e2_name="aspirin" e1_pos="0" e2_pos="5" path="0@@3@@8@@5@@">Aspirin@@@@dep@@administration@@prep_of@@TID)@@nn@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d597.s2.p1" e1="DDI-DrugBank.d597.s2.e0" e2="DDI-DrugBank.d597.s2.e2" ddi="false" flags="True" e1_name="Aspirin" e2_name="meloxicam" e1_pos="0" e2_pos="22" path="0@@3@@19@@22@@">Aspirin@@@@dep@@administration@@prep_of@@Cmax@@prep_of@@meloxicam</pair>  
+      <pair id="DDI-DrugBank.d597.s2.p2" e1="DDI-DrugBank.d597.s2.e1" e2="DDI-DrugBank.d597.s2.e2" ddi="true" type="mechanism" flags="True" e1_name="aspirin" e2_name="meloxicam" e1_pos="5" e2_pos="22" path="5@@8@@19@@22@@">aspirin@@@@nn@@TID)@@conj_and@@Cmax@@prep_of@@meloxicam</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s3" text="The clinical significance of this interaction is not known; " new_text="The@@clinical@@significance@@of@@this@@interaction@@is@@not@@known;@@"/>  
+   <sentence id="DDI-DrugBank.d597.s4" text="however, as with other NSAIDs, concomitant administration of meloxicam and aspirin is not generally recommended because of the potential for increased adverse effects. " new_text="however@@,@@as@@with@@other@@NSAIDs@@,@@concomitant@@administration@@of@@meloxicam@@and@@aspirin@@is@@not@@generally@@recommended@@because@@of@@the@@potential@@for@@increased@@adverse@@effects@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s4.e0" charOffset="23-28" type="group" text="NSAIDs" position="5"/>  
+      <entity id="DDI-DrugBank.d597.s4.e1" charOffset="61-69" type="drug" text="meloxicam" position="10"/>  
+      <entity id="DDI-DrugBank.d597.s4.e2" charOffset="75-81" type="brand" text="aspirin" position="12"/>  
+      <pair id="DDI-DrugBank.d597.s4.p0" e1="DDI-DrugBank.d597.s4.e0" e2="DDI-DrugBank.d597.s4.e1" ddi="false" flags="True" e1_name="NSAIDs" e2_name="meloxicam" e1_pos="5" e2_pos="10" path="5@@3@@2@@16@@8@@10@@">NSAIDs@@@@pobj@@with@@pcomp@@as@@prep@@recommended@@nsubjpass@@administration@@prep_of@@meloxicam</pair>  
+      <pair id="DDI-DrugBank.d597.s4.p1" e1="DDI-DrugBank.d597.s4.e0" e2="DDI-DrugBank.d597.s4.e2" ddi="true" type="advise" flags="True" e1_name="NSAIDs" e2_name="aspirin" e1_pos="5" e2_pos="12" path="5@@3@@2@@16@@8@@12@@">NSAIDs@@@@pobj@@with@@pcomp@@as@@prep@@recommended@@nsubjpass@@administration@@prep_of@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d597.s4.p2" e1="DDI-DrugBank.d597.s4.e1" e2="DDI-DrugBank.d597.s4.e2" ddi="true" type="advise" flags="True" e1_name="meloxicam" e2_name="aspirin" e1_pos="10" e2_pos="12" path="10@@12@@">meloxicam@@@@conj_and@@aspirin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s5" text="Concomitant administration of low-dose aspirin with MOBIC may result in an increased rate of GI ulceration or other complications, compared to use of MOBIC alone. " new_text="Concomitant@@administration@@of@@low-dose@@aspirin@@with@@MOBIC@@may@@result@@in@@an@@increased@@rate@@of@@GI@@ulceration@@or@@other@@complications@@,@@compared@@to@@use@@of@@MOBIC@@alone@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s5.e0" charOffset="39-45" type="brand" text="aspirin" position="4"/>  
+      <entity id="DDI-DrugBank.d597.s5.e1" charOffset="52-56" type="brand" text="MOBIC" position="6"/>  
+      <entity id="DDI-DrugBank.d597.s5.e2" charOffset="150-154" type="brand" text="MOBIC" position="24"/>  
+      <pair id="DDI-DrugBank.d597.s5.p0" e1="DDI-DrugBank.d597.s5.e0" e2="DDI-DrugBank.d597.s5.e1" ddi="true" type="effect" flags="True" e1_name="aspirin" e2_name="MOBIC" e1_pos="4" e2_pos="6" path="4@@6@@">aspirin@@@@prep_with@@MOBIC</pair>  
+      <pair id="DDI-DrugBank.d597.s5.p1" e1="DDI-DrugBank.d597.s5.e0" e2="DDI-DrugBank.d597.s5.e2" ddi="false" flags="True" e1_name="aspirin" e2_name="MOBIC" e1_pos="4" e2_pos="24" path="4@@1@@8@@12@@24@@">aspirin@@@@prep_of@@administration@@nsubj@@result@@prep_in@@rate@@prep_of@@MOBIC</pair>  
+      <pair id="DDI-DrugBank.d597.s5.p2" e1="DDI-DrugBank.d597.s5.e1" e2="DDI-DrugBank.d597.s5.e2" ddi="false" flags="True" e1_name="MOBIC" e2_name="MOBIC" e1_pos="6" e2_pos="24" path="6@@4@@1@@8@@12@@24@@">MOBIC@@@@prep_with@@aspirin@@prep_of@@administration@@nsubj@@result@@prep_in@@rate@@prep_of@@MOBIC</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s6" text="MOBIC is not a substitute for aspirin for cardiovascular prophylaxis. " new_text="MOBIC@@is@@not@@a@@substitute@@for@@aspirin@@for@@cardiovascular@@prophylaxis@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s6.e0" charOffset="0-4" type="brand" text="MOBIC" position="0"/>  
+      <entity id="DDI-DrugBank.d597.s6.e1" charOffset="30-36" type="brand" text="aspirin" position="6"/>  
+      <pair id="DDI-DrugBank.d597.s6.p0" e1="DDI-DrugBank.d597.s6.e0" e2="DDI-DrugBank.d597.s6.e1" ddi="false" flags="True" e1_name="MOBIC" e2_name="aspirin" e1_pos="0" e2_pos="6" path="0@@4@@6@@">MOBIC@@@@nsubj@@substitute@@prep_for@@aspirin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s7" text="Cholestyramine: Pretreatment for four days with cholestyramine significantly increased the clearance of meloxicam by 50%. " new_text="Cholestyramine@@:@@Pretreatment@@for@@four@@days@@with@@cholestyramine@@significantly@@increased@@the@@clearance@@of@@meloxicam@@by@@50%@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s7.e0" charOffset="0-13" type="drug" text="Cholestyramine" position="0"/>  
+      <entity id="DDI-DrugBank.d597.s7.e1" charOffset="48-61" type="drug" text="cholestyramine" position="7"/>  
+      <entity id="DDI-DrugBank.d597.s7.e2" charOffset="104-112" type="drug" text="meloxicam" position="13"/>  
+      <pair id="DDI-DrugBank.d597.s7.p0" e1="DDI-DrugBank.d597.s7.e0" e2="DDI-DrugBank.d597.s7.e1" ddi="false" flags="True" e1_name="Cholestyramine" e2_name="cholestyramine" e1_pos="0" e2_pos="7" path="0@@9@@2@@5@@7@@">Cholestyramine@@@@dep@@increased@@nsubj@@Pretreatment@@prep_for@@days@@prep_with@@cholestyramine</pair>  
+      <pair id="DDI-DrugBank.d597.s7.p1" e1="DDI-DrugBank.d597.s7.e0" e2="DDI-DrugBank.d597.s7.e2" ddi="false" flags="True" e1_name="Cholestyramine" e2_name="meloxicam" e1_pos="0" e2_pos="13" path="0@@9@@11@@13@@">Cholestyramine@@@@dep@@increased@@dobj@@clearance@@prep_of@@meloxicam</pair>  
+      <pair id="DDI-DrugBank.d597.s7.p2" e1="DDI-DrugBank.d597.s7.e1" e2="DDI-DrugBank.d597.s7.e2" ddi="true" type="mechanism" flags="True" e1_name="cholestyramine" e2_name="meloxicam" e1_pos="7" e2_pos="13" path="7@@5@@2@@9@@11@@13@@">cholestyramine@@@@prep_with@@days@@prep_for@@Pretreatment@@nsubj@@increased@@dobj@@clearance@@prep_of@@meloxicam</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s8" text="This resulted in a decrease in t1/2, from 19.2 hours to 12.5 hours, and a 35% reduction in AUC. " new_text="This@@resulted@@in@@a@@decrease@@in@@t1/2@@,@@from@@19.2@@hours@@to@@12.5@@hours@@,@@and@@a@@35%@@reduction@@in@@AUC@@.@@"/>  
+   <sentence id="DDI-DrugBank.d597.s9" text="This suggests the existence of a recirculation pathway for meloxicam in the gastrointestinal tract. " new_text="This@@suggests@@the@@existence@@of@@a@@recirculation@@pathway@@for@@meloxicam@@in@@the@@gastrointestinal@@tract@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s9.e0" charOffset="59-67" type="drug" text="meloxicam" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s10" text="The clinical relevance of this interaction has not been established. " new_text="The@@clinical@@relevance@@of@@this@@interaction@@has@@not@@been@@established@@.@@"/>  
+   <sentence id="DDI-DrugBank.d597.s11" text="Cimetidine: Concomitant administration of 200 mg cimetidine QID did not alter the single-dose pharmacokinetics of 30 mg meloxicam. " new_text="Cimetidine@@:@@Concomitant@@administration@@of@@200@@mg@@cimetidine@@QID@@did@@not@@alter@@the@@single-dose@@pharmacokinetics@@of@@30@@mg@@meloxicam@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s11.e0" charOffset="0-9" type="drug" text="Cimetidine" position="0"/>  
+      <entity id="DDI-DrugBank.d597.s11.e1" charOffset="49-58" type="drug" text="cimetidine" position="7"/>  
+      <entity id="DDI-DrugBank.d597.s11.e2" charOffset="120-128" type="drug" text="meloxicam" position="18"/>  
+      <pair id="DDI-DrugBank.d597.s11.p0" e1="DDI-DrugBank.d597.s11.e0" e2="DDI-DrugBank.d597.s11.e1" ddi="false" flags="True" e1_name="Cimetidine" e2_name="cimetidine" e1_pos="0" e2_pos="7" path="0@@7@@">Cimetidine@@@@dep@@cimetidine</pair>  
+      <pair id="DDI-DrugBank.d597.s11.p1" e1="DDI-DrugBank.d597.s11.e0" e2="DDI-DrugBank.d597.s11.e2" ddi="false" flags="True" e1_name="Cimetidine" e2_name="meloxicam" e1_pos="0" e2_pos="18" path="0@@7@@11@@14@@18@@">Cimetidine@@@@dep@@cimetidine@@ccomp@@alter@@dobj@@pharmacokinetics@@prep_of@@meloxicam</pair>  
+      <pair id="DDI-DrugBank.d597.s11.p2" e1="DDI-DrugBank.d597.s11.e1" e2="DDI-DrugBank.d597.s11.e2" ddi="false" flags="True" e1_name="cimetidine" e2_name="meloxicam" e1_pos="7" e2_pos="18" path="7@@11@@14@@18@@">cimetidine@@@@ccomp@@alter@@dobj@@pharmacokinetics@@prep_of@@meloxicam</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s12" text="Digoxin: Meloxicam 15 mg once daily for 7 days did not alter the plasma concentration profile of digoxin after b-acetyldigoxin administration for 7 days at clinical doses. " new_text="Digoxin@@:@@Meloxicam@@15@@mg@@once@@daily@@for@@7@@days@@did@@not@@alter@@the@@plasma@@concentration@@profile@@of@@digoxin@@after@@b-acetyldigoxin@@administration@@for@@7@@days@@at@@clinical@@doses@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s12.e0" charOffset="0-6" type="drug" text="Digoxin" position="0"/>  
+      <entity id="DDI-DrugBank.d597.s12.e1" charOffset="9-17" type="drug" text="Meloxicam" position="2"/>  
+      <entity id="DDI-DrugBank.d597.s12.e2" charOffset="97-103" type="drug" text="digoxin" position="18"/>  
+      <pair id="DDI-DrugBank.d597.s12.p0" e1="DDI-DrugBank.d597.s12.e0" e2="DDI-DrugBank.d597.s12.e1" ddi="false" flags="True" e1_name="Digoxin" e2_name="Meloxicam" e1_pos="0" e2_pos="2" path="0@@4@@2@@">Digoxin@@@@dep@@mg@@nn@@Meloxicam</pair>  
+      <pair id="DDI-DrugBank.d597.s12.p1" e1="DDI-DrugBank.d597.s12.e0" e2="DDI-DrugBank.d597.s12.e2" ddi="false" flags="True" e1_name="Digoxin" e2_name="digoxin" e1_pos="0" e2_pos="18" path="0@@4@@12@@16@@18@@">Digoxin@@@@dep@@mg@@dep@@alter@@dobj@@profile@@prep_of@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d597.s12.p2" e1="DDI-DrugBank.d597.s12.e1" e2="DDI-DrugBank.d597.s12.e2" ddi="false" flags="True" e1_name="Meloxicam" e2_name="digoxin" e1_pos="2" e2_pos="18" path="2@@4@@12@@16@@18@@">Meloxicam@@@@nn@@mg@@dep@@alter@@dobj@@profile@@prep_of@@digoxin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s13" text="In vitro testing found no protein binding drug interaction between digoxin and meloxicam. " new_text="In@@vitro@@testing@@found@@no@@protein@@binding@@drug@@interaction@@between@@digoxin@@and@@meloxicam@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s13.e0" charOffset="67-73" type="drug" text="digoxin" position="10"/>  
+      <entity id="DDI-DrugBank.d597.s13.e1" charOffset="79-87" type="drug" text="meloxicam" position="12"/>  
+      <pair id="DDI-DrugBank.d597.s13.p0" e1="DDI-DrugBank.d597.s13.e0" e2="DDI-DrugBank.d597.s13.e1" ddi="false" flags="True" e1_name="digoxin" e2_name="meloxicam" e1_pos="10" e2_pos="12" path="10@@12@@">digoxin@@@@conj_and@@meloxicam</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s14" text="Furosemide: Clinical studies, as well as post-marketing observations, have shown that NSAIDs can reduce the natriuretic effect of furosemide and thiazide diuretics in some patients. " new_text="Furosemide@@:@@Clinical@@studies@@,@@as@@well@@as@@post-marketing@@observations@@,@@have@@shown@@that@@NSAIDs@@can@@reduce@@the@@natriuretic@@effect@@of@@furosemide@@and@@thiazide diuretics@@in@@some@@patients@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s14.e0" charOffset="0-9" type="drug" text="Furosemide" position="0"/>  
+      <entity id="DDI-DrugBank.d597.s14.e1" charOffset="86-91" type="group" text="NSAIDs" position="14"/>  
+      <entity id="DDI-DrugBank.d597.s14.e2" charOffset="130-139" type="drug" text="furosemide" position="21"/>  
+      <entity id="DDI-DrugBank.d597.s14.e3" charOffset="145-162" type="group" text="thiazide diuretics" position="23"/>  
+      <pair id="DDI-DrugBank.d597.s14.p0" e1="DDI-DrugBank.d597.s14.e0" e2="DDI-DrugBank.d597.s14.e1" ddi="false" flags="True" e1_name="Furosemide" e2_name="NSAIDs" e1_pos="0" e2_pos="14" path="0@@12@@16@@14@@">Furosemide@@@@dep@@shown@@ccomp@@reduce@@nsubj@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d597.s14.p1" e1="DDI-DrugBank.d597.s14.e0" e2="DDI-DrugBank.d597.s14.e2" ddi="false" flags="True" e1_name="Furosemide" e2_name="furosemide" e1_pos="0" e2_pos="21" path="0@@12@@16@@19@@21@@">Furosemide@@@@dep@@shown@@ccomp@@reduce@@dobj@@effect@@prep_of@@furosemide</pair>  
+      <pair id="DDI-DrugBank.d597.s14.p2" e1="DDI-DrugBank.d597.s14.e0" e2="DDI-DrugBank.d597.s14.e3" ddi="false" flags="True" e1_name="Furosemide" e2_name="thiazide diuretics" e1_pos="0" e2_pos="23" path="0@@12@@16@@19@@23@@">Furosemide@@@@dep@@shown@@ccomp@@reduce@@dobj@@effect@@prep_of@@thiazide diuretics</pair>  
+      <pair id="DDI-DrugBank.d597.s14.p3" e1="DDI-DrugBank.d597.s14.e1" e2="DDI-DrugBank.d597.s14.e2" ddi="true" type="effect" flags="True" e1_name="NSAIDs" e2_name="furosemide" e1_pos="14" e2_pos="21" path="14@@16@@19@@21@@">NSAIDs@@@@nsubj@@reduce@@dobj@@effect@@prep_of@@furosemide</pair>  
+      <pair id="DDI-DrugBank.d597.s14.p4" e1="DDI-DrugBank.d597.s14.e1" e2="DDI-DrugBank.d597.s14.e3" ddi="true" type="effect" flags="True" e1_name="NSAIDs" e2_name="thiazide diuretics" e1_pos="14" e2_pos="23" path="14@@16@@19@@23@@">NSAIDs@@@@nsubj@@reduce@@dobj@@effect@@prep_of@@thiazide diuretics</pair>  
+      <pair id="DDI-DrugBank.d597.s14.p5" e1="DDI-DrugBank.d597.s14.e2" e2="DDI-DrugBank.d597.s14.e3" ddi="false" flags="True" e1_name="furosemide" e2_name="thiazide diuretics" e1_pos="21" e2_pos="23" path="21@@23@@">furosemide@@@@conj_and@@thiazide diuretics</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s15" text="This effect has been attributed to inhibition of renal prostaglandin synthesis. " new_text="This@@effect@@has@@been@@attributed@@to@@inhibition@@of@@renal@@prostaglandin@@synthesis@@.@@"/>  
+   <sentence id="DDI-DrugBank.d597.s16" text="Studies with furosemide agents and meloxicam have not demonstrated a reduction in natriuretic effect. " new_text="Studies@@with@@furosemide@@agents@@and@@meloxicam@@have@@not@@demonstrated@@a@@reduction@@in@@natriuretic@@effect@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s16.e0" charOffset="13-22" type="drug" text="furosemide" position="2"/>  
+      <entity id="DDI-DrugBank.d597.s16.e1" charOffset="35-43" type="drug" text="meloxicam" position="5"/>  
+      <pair id="DDI-DrugBank.d597.s16.p0" e1="DDI-DrugBank.d597.s16.e0" e2="DDI-DrugBank.d597.s16.e1" ddi="false" flags="True" e1_name="furosemide" e2_name="meloxicam" e1_pos="2" e2_pos="5" path="2@@3@@5@@">furosemide@@@@amod@@agents@@conj_and@@meloxicam</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s17" text="Furosemide: single and multiple dose pharmacodynamics and pharmacokinetics are not affected by multiple doses of meloxicam. " new_text="Furosemide@@:@@single@@and@@multiple@@dose@@pharmacodynamics@@and@@pharmacokinetics@@are@@not@@affected@@by@@multiple@@doses@@of@@meloxicam@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s17.e0" charOffset="0-9" type="drug" text="Furosemide" position="0"/>  
+      <entity id="DDI-DrugBank.d597.s17.e1" charOffset="113-121" type="drug" text="meloxicam" position="16"/>  
+      <pair id="DDI-DrugBank.d597.s17.p0" e1="DDI-DrugBank.d597.s17.e0" e2="DDI-DrugBank.d597.s17.e1" ddi="false" flags="True" e1_name="Furosemide" e2_name="meloxicam" e1_pos="0" e2_pos="16" path="0@@11@@14@@16@@">Furosemide@@@@dep@@affected@@agent@@doses@@prep_of@@meloxicam</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s18" text="Nevertheless, during concomitant therapy with furosemide and MOBIC, patients should be observed closely for signs of declining renal function, as well as to assure diuretic efficacy. " new_text="Nevertheless@@,@@during@@concomitant@@therapy@@with@@furosemide@@and@@MOBIC@@,@@patients@@should@@be@@observed@@closely@@for@@signs@@of@@declining@@renal@@function@@,@@as@@well@@as@@to@@assure@@diuretic@@efficacy@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s18.e0" charOffset="46-55" type="drug" text="furosemide" position="6"/>  
+      <entity id="DDI-DrugBank.d597.s18.e1" charOffset="61-65" type="brand" text="MOBIC" position="8"/>  
+      <pair id="DDI-DrugBank.d597.s18.p0" e1="DDI-DrugBank.d597.s18.e0" e2="DDI-DrugBank.d597.s18.e1" ddi="true" type="advise" flags="True" e1_name="furosemide" e2_name="MOBIC" e1_pos="6" e2_pos="8" path="6@@8@@">furosemide@@@@conj_and@@MOBIC</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s19" text="Lithium: In clinical trials, NSAIDs have produced an elevation of plasma lithium levels and a reduction in renal lithium clearance. " new_text="Lithium@@:@@In@@clinical@@trials@@,@@NSAIDs@@have@@produced@@an@@elevation@@of@@plasma@@lithium@@levels@@and@@a@@reduction@@in@@renal@@lithium@@clearance@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s19.e0" charOffset="0-6" type="drug" text="Lithium" position="0"/>  
+      <entity id="DDI-DrugBank.d597.s19.e1" charOffset="29-34" type="group" text="NSAIDs" position="6"/>  
+      <entity id="DDI-DrugBank.d597.s19.e2" charOffset="73-79" type="drug" text="lithium" position="13"/>  
+      <entity id="DDI-DrugBank.d597.s19.e3" charOffset="113-119" type="drug" text="lithium" position="20"/>  
+      <pair id="DDI-DrugBank.d597.s19.p0" e1="DDI-DrugBank.d597.s19.e0" e2="DDI-DrugBank.d597.s19.e1" ddi="false" flags="True" e1_name="Lithium" e2_name="NSAIDs" e1_pos="0" e2_pos="6" path="0@@8@@6@@">Lithium@@@@dep@@produced@@nsubj@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d597.s19.p1" e1="DDI-DrugBank.d597.s19.e0" e2="DDI-DrugBank.d597.s19.e2" ddi="false" flags="True" e1_name="Lithium" e2_name="lithium" e1_pos="0" e2_pos="13" path="0@@8@@10@@14@@13@@">Lithium@@@@dep@@produced@@dobj@@elevation@@prep_of@@levels@@nn@@lithium</pair>  
+      <pair id="DDI-DrugBank.d597.s19.p2" e1="DDI-DrugBank.d597.s19.e0" e2="DDI-DrugBank.d597.s19.e3" ddi="false" flags="True" e1_name="Lithium" e2_name="lithium" e1_pos="0" e2_pos="20" path="0@@8@@17@@21@@20@@">Lithium@@@@dep@@produced@@dobj@@reduction@@prep_in@@clearance@@nn@@lithium</pair>  
+      <pair id="DDI-DrugBank.d597.s19.p3" e1="DDI-DrugBank.d597.s19.e1" e2="DDI-DrugBank.d597.s19.e2" ddi="true" type="mechanism" flags="True" e1_name="NSAIDs" e2_name="lithium" e1_pos="6" e2_pos="13" path="6@@8@@10@@14@@13@@">NSAIDs@@@@nsubj@@produced@@dobj@@elevation@@prep_of@@levels@@nn@@lithium</pair>  
+      <pair id="DDI-DrugBank.d597.s19.p4" e1="DDI-DrugBank.d597.s19.e1" e2="DDI-DrugBank.d597.s19.e3" ddi="false" flags="True" e1_name="NSAIDs" e2_name="lithium" e1_pos="6" e2_pos="20" path="6@@8@@17@@21@@20@@">NSAIDs@@@@nsubj@@produced@@dobj@@reduction@@prep_in@@clearance@@nn@@lithium</pair>  
+      <pair id="DDI-DrugBank.d597.s19.p5" e1="DDI-DrugBank.d597.s19.e2" e2="DDI-DrugBank.d597.s19.e3" ddi="false" flags="True" e1_name="lithium" e2_name="lithium" e1_pos="13" e2_pos="20" path="13@@14@@10@@17@@21@@20@@">lithium@@@@nn@@levels@@prep_of@@elevation@@conj_and@@reduction@@prep_in@@clearance@@nn@@lithium</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s20" text="In a study conducted in healthy subjects, mean pre-dose lithium concentration and AUC were increased by 21% in subjects receiving lithium doses ranging from 804 to 1072 mg BID with meloxicam 15 mg QD as compared to subjects receiving lithium alone. " new_text="In@@a@@study@@conducted@@in@@healthy@@subjects@@,@@mean@@pre-dose@@lithium@@concentration@@and@@AUC@@were@@increased@@by@@21%@@in@@subjects@@receiving@@lithium@@doses@@ranging@@from@@804@@to@@1072@@mg@@BID@@with@@meloxicam@@15@@mg@@QD@@as@@compared@@to@@subjects@@receiving@@lithium@@alone@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s20.e0" charOffset="56-62" type="drug" text="lithium" position="10"/>  
+      <entity id="DDI-DrugBank.d597.s20.e1" charOffset="130-136" type="drug" text="lithium" position="21"/>  
+      <entity id="DDI-DrugBank.d597.s20.e2" charOffset="181-189" type="drug" text="meloxicam" position="31"/>  
+      <entity id="DDI-DrugBank.d597.s20.e3" charOffset="234-240" type="drug" text="lithium" position="40"/>  
+      <pair id="DDI-DrugBank.d597.s20.p0" e1="DDI-DrugBank.d597.s20.e0" e2="DDI-DrugBank.d597.s20.e1" ddi="false" flags="True" e1_name="lithium" e2_name="lithium" e1_pos="10" e2_pos="21" path="10@@11@@15@@19@@20@@22@@21@@">lithium@@@@nn@@concentration@@nsubjpass@@increased@@prep_in@@subjects@@partmod@@receiving@@dobj@@doses@@nn@@lithium</pair>  
+      <pair id="DDI-DrugBank.d597.s20.p1" e1="DDI-DrugBank.d597.s20.e0" e2="DDI-DrugBank.d597.s20.e2" ddi="false" flags="True" e1_name="lithium" e2_name="meloxicam" e1_pos="10" e2_pos="31" path="10@@11@@15@@19@@20@@23@@29@@31@@">lithium@@@@nn@@concentration@@nsubjpass@@increased@@prep_in@@subjects@@partmod@@receiving@@xcomp@@ranging@@prep_from@@BID@@prep_with@@meloxicam</pair>  
+      <pair id="DDI-DrugBank.d597.s20.p2" e1="DDI-DrugBank.d597.s20.e0" e2="DDI-DrugBank.d597.s20.e3" ddi="false" flags="True" e1_name="lithium" e2_name="lithium" e1_pos="10" e2_pos="40" path="10@@11@@15@@19@@20@@23@@38@@39@@40@@">lithium@@@@nn@@concentration@@nsubjpass@@increased@@prep_in@@subjects@@partmod@@receiving@@xcomp@@ranging@@pobj@@subjects@@partmod@@receiving@@dobj@@lithium</pair>  
+      <pair id="DDI-DrugBank.d597.s20.p3" e1="DDI-DrugBank.d597.s20.e1" e2="DDI-DrugBank.d597.s20.e2" ddi="true" type="mechanism" flags="True" e1_name="lithium" e2_name="meloxicam" e1_pos="21" e2_pos="31" path="21@@22@@20@@23@@29@@31@@">lithium@@@@nn@@doses@@dobj@@receiving@@xcomp@@ranging@@prep_from@@BID@@prep_with@@meloxicam</pair>  
+      <pair id="DDI-DrugBank.d597.s20.p4" e1="DDI-DrugBank.d597.s20.e1" e2="DDI-DrugBank.d597.s20.e3" ddi="false" flags="True" e1_name="lithium" e2_name="lithium" e1_pos="21" e2_pos="40" path="21@@22@@20@@23@@38@@39@@40@@">lithium@@@@nn@@doses@@dobj@@receiving@@xcomp@@ranging@@pobj@@subjects@@partmod@@receiving@@dobj@@lithium</pair>  
+      <pair id="DDI-DrugBank.d597.s20.p5" e1="DDI-DrugBank.d597.s20.e2" e2="DDI-DrugBank.d597.s20.e3" ddi="false" flags="True" e1_name="meloxicam" e2_name="lithium" e1_pos="31" e2_pos="40" path="31@@29@@23@@38@@39@@40@@">meloxicam@@@@prep_with@@BID@@prep_from@@ranging@@pobj@@subjects@@partmod@@receiving@@dobj@@lithium</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s21" text="These effects have been attributed to inhibition of renal prostaglandin synthesis by MOBIC. " new_text="These@@effects@@have@@been@@attributed@@to@@inhibition@@of@@renal@@prostaglandin@@synthesis@@by@@MOBIC@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s21.e0" charOffset="85-89" type="brand" text="MOBIC" position="12"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s22" text="Patients on lithium treatment should be closely monitored when MOBIC is introduced or withdrawn. " new_text="Patients@@on@@lithium@@treatment@@should@@be@@closely@@monitored@@when@@MOBIC@@is@@introduced@@or@@withdrawn@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s22.e0" charOffset="12-18" type="drug" text="lithium" position="2"/>  
+      <entity id="DDI-DrugBank.d597.s22.e1" charOffset="63-67" type="brand" text="MOBIC" position="9"/>  
+      <pair id="DDI-DrugBank.d597.s22.p0" e1="DDI-DrugBank.d597.s22.e0" e2="DDI-DrugBank.d597.s22.e1" ddi="true" type="advise" flags="True" e1_name="lithium" e2_name="MOBIC" e1_pos="2" e2_pos="9" path="2@@3@@0@@7@@11@@9@@">lithium@@@@nn@@treatment@@prep_on@@Patients@@nsubjpass@@monitored@@advcl@@introduced@@nsubjpass@@MOBIC</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s23" text="Methotrexate: A study in 13 rheumatoid arthritis (RA) patients evaluated the effects of multiple doses of meloxicam on the pharmacokinetics of methotrexate taken once weekly. " new_text="Methotrexate@@:@@A@@study@@in@@13@@rheumatoid@@arthritis@@(RA)@@patients@@evaluated@@the@@effects@@of@@multiple@@doses@@of@@meloxicam@@on@@the@@pharmacokinetics@@of@@methotrexate@@taken@@once@@weekly@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s23.e0" charOffset="0-11" type="drug" text="Methotrexate" position="0"/>  
+      <entity id="DDI-DrugBank.d597.s23.e1" charOffset="106-114" type="drug" text="meloxicam" position="17"/>  
+      <entity id="DDI-DrugBank.d597.s23.e2" charOffset="143-154" type="drug" text="methotrexate" position="22"/>  
+      <pair id="DDI-DrugBank.d597.s23.p0" e1="DDI-DrugBank.d597.s23.e0" e2="DDI-DrugBank.d597.s23.e1" ddi="false" flags="True" e1_name="Methotrexate" e2_name="meloxicam" e1_pos="0" e2_pos="17" path="0@@3@@9@@10@@12@@15@@17@@">Methotrexate@@@@dep@@study@@prep_in@@patients@@partmod@@evaluated@@dobj@@effects@@prep_of@@doses@@prep_of@@meloxicam</pair>  
+      <pair id="DDI-DrugBank.d597.s23.p1" e1="DDI-DrugBank.d597.s23.e0" e2="DDI-DrugBank.d597.s23.e2" ddi="false" flags="True" e1_name="Methotrexate" e2_name="methotrexate" e1_pos="0" e2_pos="22" path="0@@3@@9@@10@@20@@22@@">Methotrexate@@@@dep@@study@@prep_in@@patients@@partmod@@evaluated@@prep_on@@pharmacokinetics@@prep_of@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d597.s23.p2" e1="DDI-DrugBank.d597.s23.e1" e2="DDI-DrugBank.d597.s23.e2" ddi="false" flags="True" e1_name="meloxicam" e2_name="methotrexate" e1_pos="17" e2_pos="22" path="17@@15@@12@@10@@20@@22@@">meloxicam@@@@prep_of@@doses@@prep_of@@effects@@dobj@@evaluated@@prep_on@@pharmacokinetics@@prep_of@@methotrexate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s24" text="Meloxicam did not have a significant effect on the pharmacokinetics of single doses of methotrexate. " new_text="Meloxicam@@did@@not@@have@@a@@significant@@effect@@on@@the@@pharmacokinetics@@of@@single@@doses@@of@@methotrexate@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s24.e0" charOffset="0-8" type="drug" text="Meloxicam" position="0"/>  
+      <entity id="DDI-DrugBank.d597.s24.e1" charOffset="87-98" type="drug" text="methotrexate" position="14"/>  
+      <pair id="DDI-DrugBank.d597.s24.p0" e1="DDI-DrugBank.d597.s24.e0" e2="DDI-DrugBank.d597.s24.e1" ddi="false" flags="True" e1_name="Meloxicam" e2_name="methotrexate" e1_pos="0" e2_pos="14" path="0@@3@@6@@9@@12@@14@@">Meloxicam@@@@nsubj@@have@@dobj@@effect@@prep_on@@pharmacokinetics@@prep_of@@doses@@prep_of@@methotrexate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s25" text="In vitro, methotrexate did not displace meloxicam from its human serum binding sites. " new_text="In@@vitro@@,@@methotrexate@@did@@not@@displace@@meloxicam@@from@@its@@human@@serum@@binding@@sites@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s25.e0" charOffset="10-21" type="drug" text="methotrexate" position="3"/>  
+      <entity id="DDI-DrugBank.d597.s25.e1" charOffset="40-48" type="drug" text="meloxicam" position="7"/>  
+      <pair id="DDI-DrugBank.d597.s25.p0" e1="DDI-DrugBank.d597.s25.e0" e2="DDI-DrugBank.d597.s25.e1" ddi="false" flags="True" e1_name="methotrexate" e2_name="meloxicam" e1_pos="3" e2_pos="7" path="3@@6@@7@@">methotrexate@@@@nsubj@@displace@@dobj@@meloxicam</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s26" text="Warfarin: Anticoagulant activity should be monitored, particularly in the first few days after initiating or changing MOBIC therapy in patients receiving warfarin or similar agents, since these patients are at an increased risk of bleeding. " new_text="Warfarin@@:@@Anticoagulant@@activity@@should@@be@@monitored@@,@@particularly@@in@@the@@first@@few@@days@@after@@initiating@@or@@changing@@MOBIC@@therapy@@in@@patients@@receiving@@warfarin@@or@@similar@@agents@@,@@since@@these@@patients@@are@@at@@an@@increased@@risk@@of@@bleeding@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s26.e0" charOffset="0-7" type="drug" text="Warfarin" position="0"/>  
+      <entity id="DDI-DrugBank.d597.s26.e1" charOffset="118-122" type="brand" text="MOBIC" position="18"/>  
+      <entity id="DDI-DrugBank.d597.s26.e2" charOffset="154-161" type="drug" text="warfarin" position="23"/>  
+      <pair id="DDI-DrugBank.d597.s26.p0" e1="DDI-DrugBank.d597.s26.e0" e2="DDI-DrugBank.d597.s26.e1" ddi="false" flags="True" e1_name="Warfarin" e2_name="MOBIC" e1_pos="0" e2_pos="18" path="0@@6@@13@@15@@19@@18@@">Warfarin@@@@dep@@monitored@@prep_in@@days@@prepc_after@@initiating@@dobj@@therapy@@nn@@MOBIC</pair>  
+      <pair id="DDI-DrugBank.d597.s26.p1" e1="DDI-DrugBank.d597.s26.e0" e2="DDI-DrugBank.d597.s26.e2" ddi="false" flags="True" e1_name="Warfarin" e2_name="warfarin" e1_pos="0" e2_pos="23" path="0@@6@@13@@15@@19@@21@@22@@26@@23@@">Warfarin@@@@dep@@monitored@@prep_in@@days@@prepc_after@@initiating@@dobj@@therapy@@prep_in@@patients@@partmod@@receiving@@dobj@@agents@@amod@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d597.s26.p2" e1="DDI-DrugBank.d597.s26.e1" e2="DDI-DrugBank.d597.s26.e2" ddi="true" type="advise" flags="True" e1_name="MOBIC" e2_name="warfarin" e1_pos="18" e2_pos="23" path="18@@19@@21@@22@@26@@23@@">MOBIC@@@@nn@@therapy@@prep_in@@patients@@partmod@@receiving@@dobj@@agents@@amod@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s27" text="The effect of meloxicam on the anticoagulant effect of warfarin was studied in a group of healthy subjects receiving daily doses of warfarin that produced an INR (International Normalized Ratio) between 1.2 and 1.8. " new_text="The@@effect@@of@@meloxicam@@on@@the@@anticoagulant@@effect@@of@@warfarin@@was@@studied@@in@@a@@group@@of@@healthy@@subjects@@receiving@@daily@@doses@@of@@warfarin@@that@@produced@@an@@INR@@(International@@Normalized@@Ratio)@@between@@1.2@@and@@1.8@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s27.e0" charOffset="14-22" type="drug" text="meloxicam" position="3"/>  
+      <entity id="DDI-DrugBank.d597.s27.e1" charOffset="55-62" type="drug" text="warfarin" position="9"/>  
+      <entity id="DDI-DrugBank.d597.s27.e2" charOffset="132-139" type="drug" text="warfarin" position="22"/>  
+      <pair id="DDI-DrugBank.d597.s27.p0" e1="DDI-DrugBank.d597.s27.e0" e2="DDI-DrugBank.d597.s27.e1" ddi="false" flags="True" e1_name="meloxicam" e2_name="warfarin" e1_pos="3" e2_pos="9" path="3@@7@@9@@">meloxicam@@@@prep_on@@effect@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d597.s27.p1" e1="DDI-DrugBank.d597.s27.e0" e2="DDI-DrugBank.d597.s27.e2" ddi="false" flags="True" e1_name="meloxicam" e2_name="warfarin" e1_pos="3" e2_pos="22" path="3@@1@@11@@18@@20@@22@@">meloxicam@@@@prep_of@@effect@@nsubjpass@@studied@@xcomp@@receiving@@dobj@@doses@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d597.s27.p2" e1="DDI-DrugBank.d597.s27.e1" e2="DDI-DrugBank.d597.s27.e2" ddi="false" flags="True" e1_name="warfarin" e2_name="warfarin" e1_pos="9" e2_pos="22" path="9@@7@@3@@1@@11@@18@@20@@22@@">warfarin@@@@prep_of@@effect@@prep_on@@meloxicam@@prep_of@@effect@@nsubjpass@@studied@@xcomp@@receiving@@dobj@@doses@@prep_of@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s28" text="In these subjects, meloxicam did not alter warfarin pharmacokinetics and the average anticoagulant effect of warfarin as determined by prothrombin time. " new_text="In@@these@@subjects@@,@@meloxicam@@did@@not@@alter@@warfarin@@pharmacokinetics@@and@@the@@average@@anticoagulant@@effect@@of@@warfarin@@as@@determined@@by@@prothrombin@@time@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s28.e0" charOffset="19-27" type="drug" text="meloxicam" position="4"/>  
+      <entity id="DDI-DrugBank.d597.s28.e1" charOffset="43-50" type="drug" text="warfarin" position="8"/>  
+      <entity id="DDI-DrugBank.d597.s28.e2" charOffset="109-116" type="drug" text="warfarin" position="16"/>  
+      <pair id="DDI-DrugBank.d597.s28.p0" e1="DDI-DrugBank.d597.s28.e0" e2="DDI-DrugBank.d597.s28.e1" ddi="false" flags="True" e1_name="meloxicam" e2_name="warfarin" e1_pos="4" e2_pos="8" path="4@@7@@9@@8@@">meloxicam@@@@nsubj@@alter@@dobj@@pharmacokinetics@@nn@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d597.s28.p1" e1="DDI-DrugBank.d597.s28.e0" e2="DDI-DrugBank.d597.s28.e2" ddi="false" flags="True" e1_name="meloxicam" e2_name="warfarin" e1_pos="4" e2_pos="16" path="4@@7@@14@@16@@">meloxicam@@@@nsubj@@alter@@dobj@@effect@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d597.s28.p2" e1="DDI-DrugBank.d597.s28.e1" e2="DDI-DrugBank.d597.s28.e2" ddi="false" flags="True" e1_name="warfarin" e2_name="warfarin" e1_pos="8" e2_pos="16" path="8@@9@@14@@16@@">warfarin@@@@nn@@pharmacokinetics@@conj_and@@effect@@prep_of@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d597.s29" text="However, one subject showed an increase in INR from 1.5 to 2.1. " new_text="However@@,@@one@@subject@@showed@@an@@increase@@in@@INR@@from@@1.5@@to@@2.1@@.@@"/>  
+   <sentence id="DDI-DrugBank.d597.s30" text="Caution should be used when administering MOBIC with warfarin since patients on warfarin may experience changes in INR and an increased risk of bleeding complications when a new medication is introduced." new_text="Caution@@should@@be@@used@@when@@administering@@MOBIC@@with@@warfarin@@since@@patients@@on@@warfarin@@may@@experience@@changes@@in@@INR@@and@@an@@increased@@risk@@of@@bleeding@@complications@@when@@a@@new@@medication@@is@@introduced@@.@@"> 
+      <entity id="DDI-DrugBank.d597.s30.e0" charOffset="42-46" type="brand" text="MOBIC" position="6"/>  
+      <entity id="DDI-DrugBank.d597.s30.e1" charOffset="53-60" type="drug" text="warfarin" position="8"/>  
+      <entity id="DDI-DrugBank.d597.s30.e2" charOffset="80-87" type="drug" text="warfarin" position="12"/>  
+      <pair id="DDI-DrugBank.d597.s30.p0" e1="DDI-DrugBank.d597.s30.e0" e2="DDI-DrugBank.d597.s30.e1" ddi="true" type="advise" flags="True" e1_name="MOBIC" e2_name="warfarin" e1_pos="6" e2_pos="8" path="6@@8@@">MOBIC@@@@prep_with@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d597.s30.p1" e1="DDI-DrugBank.d597.s30.e0" e2="DDI-DrugBank.d597.s30.e2" ddi="false" flags="True" e1_name="MOBIC" e2_name="warfarin" e1_pos="6" e2_pos="12" path="6@@5@@10@@12@@">MOBIC@@@@dobj@@administering@@prep_since@@patients@@prep_on@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d597.s30.p2" e1="DDI-DrugBank.d597.s30.e1" e2="DDI-DrugBank.d597.s30.e2" ddi="false" flags="True" e1_name="warfarin" e2_name="warfarin" e1_pos="8" e2_pos="12" path="8@@6@@5@@10@@12@@">warfarin@@@@prep_with@@MOBIC@@dobj@@administering@@prep_since@@patients@@prep_on@@warfarin</pair> 
+   </sentence> 
+</document>

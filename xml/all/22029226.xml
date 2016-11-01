@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d195"> 
+   <sentence id="DDI-MedLine.d195.s0" text="Influence of piperine on ibuprofen induced antinociception and its pharmacokinetics.
+" new_text="Influence@@of@@piperine@@on@@ibuprofen@@induced@@antinociception@@and@@its@@pharmacokinetics@@.@@"> 
+      <entity id="DDI-MedLine.d195.s0.e0" charOffset="13-20" type="drug_n" text="piperine" position="2"/>  
+      <entity id="DDI-MedLine.d195.s0.e1" charOffset="25-33" type="drug" text="ibuprofen" position="4"/>  
+      <pair id="DDI-MedLine.d195.s0.p0" e1="DDI-MedLine.d195.s0.e0" e2="DDI-MedLine.d195.s0.e1" ddi="false" flags="True" e1_name="piperine" e2_name="ibuprofen" e1_pos="2" e2_pos="4" path="2@@4@@">piperine@@@@prep_on@@ibuprofen</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d195.s1" text="Piperine (CAS 94-62-2), an alkaloid obtained from Piper nigrum and P. " new_text="Piperine@@(CAS@@94-62-2)@@,@@an@@alkaloid@@obtained@@from@@Piper@@nigrum@@and@@P@@.@@"> 
+      <entity id="DDI-MedLine.d195.s1.e0" charOffset="0-7" type="drug_n" text="Piperine" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d195.s2" text="longum, is a known inhibitor of various enzymes (CYP isozymes) responsible for biotransformation of drugs. " new_text="longum@@,@@is@@a@@known@@inhibitor@@of@@various@@enzymes@@(CYP@@isozymes)@@responsible@@for@@biotransformation@@of@@drugs@@.@@"/>  
+   <sentence id="DDI-MedLine.d195.s3" text="By inhibiting the metabolism of drugs, piperine improves the bioavailability of drugs. " new_text="By@@inhibiting@@the@@metabolism@@of@@drugs@@,@@piperine@@improves@@the@@bioavailability@@of@@drugs@@.@@"> 
+      <entity id="DDI-MedLine.d195.s3.e0" charOffset="39-46" type="drug_n" text="piperine" position="7"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d195.s4" text="In the present study piperine (10 mg/kg) significantly increased the dose-dependent antinociceptive activity of ibuprofen evaluated by both acetic acid writhing and formalin test, when it was administered with ibuprofen. " new_text="In@@the@@present@@study@@piperine@@(10@@mg/kg)@@significantly@@increased@@the@@dose-dependent@@antinociceptive@@activity@@of@@ibuprofen@@evaluated@@by@@both@@acetic acid@@writhing@@and@@formalin@@test@@,@@when@@it@@was@@administered@@with@@ibuprofen@@.@@"> 
+      <entity id="DDI-MedLine.d195.s4.e0" charOffset="21-28" type="drug_n" text="piperine" position="4"/>  
+      <entity id="DDI-MedLine.d195.s4.e1" charOffset="112-120" type="drug" text="ibuprofen" position="14"/>  
+      <entity id="DDI-MedLine.d195.s4.e2" charOffset="140-150" type="drug" text="acetic acid" position="18"/>  
+      <entity id="DDI-MedLine.d195.s4.e3" charOffset="210-218" type="drug" text="ibuprofen" position="29"/>  
+      <pair id="DDI-MedLine.d195.s4.p0" e1="DDI-MedLine.d195.s4.e0" e2="DDI-MedLine.d195.s4.e1" ddi="true" type="effect" flags="True" e1_name="piperine" e2_name="ibuprofen" e1_pos="4" e2_pos="14" path="4@@8@@12@@14@@">piperine@@@@prep_in@@increased@@dobj@@activity@@prep_of@@ibuprofen</pair>  
+      <pair id="DDI-MedLine.d195.s4.p1" e1="DDI-MedLine.d195.s4.e0" e2="DDI-MedLine.d195.s4.e2" ddi="false" flags="True" e1_name="piperine" e2_name="acetic acid" e1_pos="4" e2_pos="18" path="4@@8@@12@@14@@15@@19@@18@@">piperine@@@@prep_in@@increased@@dobj@@activity@@prep_of@@ibuprofen@@partmod@@evaluated@@agent@@writhing@@amod@@acetic acid</pair>  
+      <pair id="DDI-MedLine.d195.s4.p2" e1="DDI-MedLine.d195.s4.e0" e2="DDI-MedLine.d195.s4.e3" ddi="false" flags="True" e1_name="piperine" e2_name="ibuprofen" e1_pos="4" e2_pos="29" path="4@@8@@12@@14@@15@@19@@27@@29@@">piperine@@@@prep_in@@increased@@dobj@@activity@@prep_of@@ibuprofen@@partmod@@evaluated@@agent@@writhing@@rcmod@@administered@@prep_with@@ibuprofen</pair>  
+      <pair id="DDI-MedLine.d195.s4.p3" e1="DDI-MedLine.d195.s4.e1" e2="DDI-MedLine.d195.s4.e2" ddi="false" flags="True" e1_name="ibuprofen" e2_name="acetic acid" e1_pos="14" e2_pos="18" path="14@@15@@19@@18@@">ibuprofen@@@@partmod@@evaluated@@agent@@writhing@@amod@@acetic acid</pair>  
+      <pair id="DDI-MedLine.d195.s4.p4" e1="DDI-MedLine.d195.s4.e1" e2="DDI-MedLine.d195.s4.e3" ddi="false" flags="True" e1_name="ibuprofen" e2_name="ibuprofen" e1_pos="14" e2_pos="29" path="14@@15@@19@@27@@29@@">ibuprofen@@@@partmod@@evaluated@@agent@@writhing@@rcmod@@administered@@prep_with@@ibuprofen</pair>  
+      <pair id="DDI-MedLine.d195.s4.p5" e1="DDI-MedLine.d195.s4.e2" e2="DDI-MedLine.d195.s4.e3" ddi="false" flags="True" e1_name="acetic acid" e2_name="ibuprofen" e1_pos="18" e2_pos="29" path="18@@19@@27@@29@@">acetic acid@@@@amod@@writhing@@rcmod@@administered@@prep_with@@ibuprofen</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d195.s5" text="Ibuprofen plasma concentration was also increased when it was administered with piperine. " new_text="Ibuprofen@@plasma@@concentration@@was@@also@@increased@@when@@it@@was@@administered@@with@@piperine@@.@@"> 
+      <entity id="DDI-MedLine.d195.s5.e0" charOffset="0-8" type="drug" text="Ibuprofen" position="0"/>  
+      <entity id="DDI-MedLine.d195.s5.e1" charOffset="80-87" type="drug_n" text="piperine" position="11"/>  
+      <pair id="DDI-MedLine.d195.s5.p0" e1="DDI-MedLine.d195.s5.e0" e2="DDI-MedLine.d195.s5.e1" ddi="true" type="mechanism" flags="True" e1_name="Ibuprofen" e2_name="piperine" e1_pos="0" e2_pos="11" path="0@@2@@5@@9@@11@@">Ibuprofen@@@@nn@@concentration@@nsubjpass@@increased@@advcl@@administered@@prep_with@@piperine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d195.s6" text="The synergistic antinociception activity of ibuprofen when administered with piperine can be attributed to increased plasma concentration of ibuprofen. " new_text="The@@synergistic@@antinociception@@activity@@of@@ibuprofen@@when@@administered@@with@@piperine@@can@@be@@attributed@@to@@increased@@plasma@@concentration@@of@@ibuprofen@@.@@"> 
+      <entity id="DDI-MedLine.d195.s6.e0" charOffset="44-52" type="drug" text="ibuprofen" position="5"/>  
+      <entity id="DDI-MedLine.d195.s6.e1" charOffset="77-84" type="drug_n" text="piperine" position="9"/>  
+      <entity id="DDI-MedLine.d195.s6.e2" charOffset="141-149" type="drug" text="ibuprofen" position="18"/>  
+      <pair id="DDI-MedLine.d195.s6.p0" e1="DDI-MedLine.d195.s6.e0" e2="DDI-MedLine.d195.s6.e1" ddi="true" type="mechanism" flags="True" e1_name="ibuprofen" e2_name="piperine" e1_pos="5" e2_pos="9" path="5@@7@@9@@">ibuprofen@@@@rcmod@@administered@@prep_with@@piperine</pair>  
+      <pair id="DDI-MedLine.d195.s6.p1" e1="DDI-MedLine.d195.s6.e0" e2="DDI-MedLine.d195.s6.e2" ddi="false" flags="True" e1_name="ibuprofen" e2_name="ibuprofen" e1_pos="5" e2_pos="18" path="5@@3@@12@@16@@18@@">ibuprofen@@@@prep_of@@activity@@nsubjpass@@attributed@@prep_to@@concentration@@prep_of@@ibuprofen</pair>  
+      <pair id="DDI-MedLine.d195.s6.p2" e1="DDI-MedLine.d195.s6.e1" e2="DDI-MedLine.d195.s6.e2" ddi="false" flags="True" e1_name="piperine" e2_name="ibuprofen" e1_pos="9" e2_pos="18" path="9@@7@@5@@3@@12@@16@@18@@">piperine@@@@prep_with@@administered@@rcmod@@ibuprofen@@prep_of@@activity@@nsubjpass@@attributed@@prep_to@@concentration@@prep_of@@ibuprofen</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d195.s7" text="From this study it can be concluded that piperine can be used as a bioenhancer along with ibuprofen." new_text="From@@this@@study@@it@@can@@be@@concluded@@that@@piperine@@can@@be@@used@@as@@a@@bioenhancer@@along@@with@@ibuprofen@@.@@"> 
+      <entity id="DDI-MedLine.d195.s7.e0" charOffset="41-48" type="drug_n" text="piperine" position="8"/>  
+      <entity id="DDI-MedLine.d195.s7.e1" charOffset="90-98" type="drug" text="ibuprofen" position="17"/>  
+      <pair id="DDI-MedLine.d195.s7.p0" e1="DDI-MedLine.d195.s7.e0" e2="DDI-MedLine.d195.s7.e1" ddi="true" type="effect" flags="True" e1_name="piperine" e2_name="ibuprofen" e1_pos="8" e2_pos="17" path="8@@11@@14@@17@@">piperine@@@@nsubjpass@@used@@prep_as@@bioenhancer@@prep_along_with@@ibuprofen</pair> 
+   </sentence> 
+</document>

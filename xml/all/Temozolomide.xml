@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d687"> 
+   <sentence id="DDI-DrugBank.d687.s0" text="Administration of valproic acid decreases oral clearance of temozolomide by about 5%. " new_text="Administration@@of@@valproic acid@@decreases@@oral@@clearance@@of@@temozolomide@@by@@about@@5%@@.@@"> 
+      <entity id="DDI-DrugBank.d687.s0.e0" charOffset="18-30" type="drug" text="valproic acid" position="2"/>  
+      <entity id="DDI-DrugBank.d687.s0.e1" charOffset="60-71" type="drug" text="temozolomide" position="7"/>  
+      <pair id="DDI-DrugBank.d687.s0.p0" e1="DDI-DrugBank.d687.s0.e0" e2="DDI-DrugBank.d687.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="valproic acid" e2_name="temozolomide" e1_pos="2" e2_pos="7" path="2@@0@@3@@5@@7@@">valproic acid@@@@prep_of@@Administration@@nsubj@@decreases@@dobj@@clearance@@prep_of@@temozolomide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d687.s1" text="The clinical implication of this effect is not known. " new_text="The@@clinical@@implication@@of@@this@@effect@@is@@not@@known@@.@@"/>  
+   <sentence id="DDI-DrugBank.d687.s2" text="Patients with Severe Hepatic or Renal Impairment Caution should be exercised when TEMODAR Capsules are administered to patients with severe hepatic or renal impairment." new_text="Patients@@with@@Severe@@Hepatic@@or@@Renal@@Impairment@@Caution@@should@@be@@exercised@@when@@TEMODAR@@Capsules@@are@@administered@@to@@patients@@with@@severe@@hepatic@@or@@renal@@impairment@@.@@"> 
+      <entity id="DDI-DrugBank.d687.s2.e0" charOffset="82-88" type="brand" text="TEMODAR" position="12"/> 
+   </sentence> 
+</document>

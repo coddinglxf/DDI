@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d355"> 
+   <sentence id="DDI-DrugBank.d355.s0" text="Androgens may increase sensitivity to oral anticoagulahts." new_text="Androgens@@may@@increase@@sensitivity@@to@@oral@@anticoagulahts@@.@@"> 
+      <entity id="DDI-DrugBank.d355.s0.e0" charOffset="0-8" type="group" text="Androgens" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d355.s1" text="Dosage of the anticoagulant may require reduction in order to maintain satisfactory therapeutic hypoprothrombinemia." new_text="Dosage@@of@@the@@anticoagulant@@may@@require@@reduction@@in@@order@@to@@maintain@@satisfactory@@therapeutic@@hypoprothrombinemia@@.@@"> 
+      <entity id="DDI-DrugBank.d355.s1.e0" charOffset="14-26" type="group" text="anticoagulant" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d355.s2" text="Concurrent administration of oxyphenbutazone and androgens may result in elevated serum levels of oxyphenbutazone." new_text="Concurrent@@administration@@of@@oxyphenbutazone@@and@@androgens@@may@@result@@in@@elevated@@serum@@levels@@of@@oxyphenbutazone@@.@@"> 
+      <entity id="DDI-DrugBank.d355.s2.e0" charOffset="29-43" type="drug" text="oxyphenbutazone" position="3"/>  
+      <entity id="DDI-DrugBank.d355.s2.e1" charOffset="49-57" type="group" text="androgens" position="5"/>  
+      <entity id="DDI-DrugBank.d355.s2.e2" charOffset="98-112" type="drug" text="oxyphenbutazone" position="13"/>  
+      <pair id="DDI-DrugBank.d355.s2.p0" e1="DDI-DrugBank.d355.s2.e0" e2="DDI-DrugBank.d355.s2.e1" ddi="true" type="mechanism" flags="True" e1_name="oxyphenbutazone" e2_name="androgens" e1_pos="3" e2_pos="5" path="3@@5@@">oxyphenbutazone@@@@conj_and@@androgens</pair>  
+      <pair id="DDI-DrugBank.d355.s2.p1" e1="DDI-DrugBank.d355.s2.e0" e2="DDI-DrugBank.d355.s2.e2" ddi="false" flags="True" e1_name="oxyphenbutazone" e2_name="oxyphenbutazone" e1_pos="3" e2_pos="13" path="3@@1@@7@@11@@13@@">oxyphenbutazone@@@@prep_of@@administration@@nsubj@@result@@prep_in@@levels@@prep_of@@oxyphenbutazone</pair>  
+      <pair id="DDI-DrugBank.d355.s2.p2" e1="DDI-DrugBank.d355.s2.e1" e2="DDI-DrugBank.d355.s2.e2" ddi="false" flags="True" e1_name="androgens" e2_name="oxyphenbutazone" e1_pos="5" e2_pos="13" path="5@@1@@7@@11@@13@@">androgens@@@@prep_of@@administration@@nsubj@@result@@prep_in@@levels@@prep_of@@oxyphenbutazone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d355.s3" text="In diabetic patients, the metabolic effects of androgens may decrease blood glucose and therefore, insulin requirements." new_text="In@@diabetic@@patients@@,@@the@@metabolic@@effects@@of@@androgens@@may@@decrease@@blood@@glucose@@and@@therefore@@,@@insulin@@requirements@@.@@"> 
+      <entity id="DDI-DrugBank.d355.s3.e0" charOffset="47-55" type="group" text="androgens" position="8"/>  
+      <entity id="DDI-DrugBank.d355.s3.e1" charOffset="99-105" type="drug" text="insulin" position="16"/>  
+      <pair id="DDI-DrugBank.d355.s3.p0" e1="DDI-DrugBank.d355.s3.e0" e2="DDI-DrugBank.d355.s3.e1" ddi="true" type="effect" flags="True" e1_name="androgens" e2_name="insulin" e1_pos="8" e2_pos="16" path="8@@6@@10@@17@@16@@">androgens@@@@prep_of@@effects@@nsubj@@decrease@@dobj@@requirements@@nn@@insulin</pair> 
+   </sentence> 
+</document>

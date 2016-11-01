@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d696"> 
+   <sentence id="DDI-DrugBank.d696.s0" text="Methysergide may reverse the analgesic activity of narcotic analgesics. " new_text="Methysergide@@may@@reverse@@the@@analgesic@@activity@@of@@narcotic analgesics@@.@@"> 
+      <entity id="DDI-DrugBank.d696.s0.e0" charOffset="0-11" type="drug" text="Methysergide" position="0"/>  
+      <entity id="DDI-DrugBank.d696.s0.e1" charOffset="51-69" type="group" text="narcotic analgesics" position="7"/>  
+      <pair id="DDI-DrugBank.d696.s0.p0" e1="DDI-DrugBank.d696.s0.e0" e2="DDI-DrugBank.d696.s0.e1" ddi="true" type="effect" flags="True" e1_name="Methysergide" e2_name="narcotic analgesics" e1_pos="0" e2_pos="7" path="0@@2@@5@@7@@">Methysergide@@@@nsubj@@reverse@@dobj@@activity@@prep_of@@narcotic analgesics</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d696.s1" text="Concurrent use with vasoconstrictor agents including ergot alkaloids, sumatriptan, and nicotine (e.g. smoking) may result in enhanced vasoconstriction." new_text="Concurrent@@use@@with@@vasoconstrictor agents@@including@@ergot alkaloids@@,@@sumatriptan@@,@@and@@nicotine@@(e.g@@.@@smoking)@@may@@result@@in@@enhanced@@vasoconstriction@@.@@"> 
+      <entity id="DDI-DrugBank.d696.s1.e0" charOffset="20-41" type="group" text="vasoconstrictor agents" position="3"/>  
+      <entity id="DDI-DrugBank.d696.s1.e1" charOffset="53-67" type="group" text="ergot alkaloids" position="5"/>  
+      <entity id="DDI-DrugBank.d696.s1.e2" charOffset="70-80" type="drug" text="sumatriptan" position="7"/>  
+      <entity id="DDI-DrugBank.d696.s1.e3" charOffset="87-94" type="drug" text="nicotine" position="10"/>  
+      <pair id="DDI-DrugBank.d696.s1.p0" e1="DDI-DrugBank.d696.s1.e0" e2="DDI-DrugBank.d696.s1.e1" ddi="false" flags="True" e1_name="vasoconstrictor agents" e2_name="ergot alkaloids" e1_pos="3" e2_pos="5" path="3@@5@@">vasoconstrictor agents@@@@prep_including@@ergot alkaloids</pair>  
+      <pair id="DDI-DrugBank.d696.s1.p1" e1="DDI-DrugBank.d696.s1.e0" e2="DDI-DrugBank.d696.s1.e2" ddi="false" flags="True" e1_name="vasoconstrictor agents" e2_name="sumatriptan" e1_pos="3" e2_pos="7" path="3@@7@@">vasoconstrictor agents@@@@prep_including@@sumatriptan</pair>  
+      <pair id="DDI-DrugBank.d696.s1.p2" e1="DDI-DrugBank.d696.s1.e0" e2="DDI-DrugBank.d696.s1.e3" ddi="false" flags="True" e1_name="vasoconstrictor agents" e2_name="nicotine" e1_pos="3" e2_pos="10" path="3@@13@@10@@">vasoconstrictor agents@@@@prep_including@@smoking)@@nn@@nicotine</pair>  
+      <pair id="DDI-DrugBank.d696.s1.p3" e1="DDI-DrugBank.d696.s1.e1" e2="DDI-DrugBank.d696.s1.e2" ddi="false" flags="True" e1_name="ergot alkaloids" e2_name="sumatriptan" e1_pos="5" e2_pos="7" path="5@@7@@">ergot alkaloids@@@@conj_and@@sumatriptan</pair>  
+      <pair id="DDI-DrugBank.d696.s1.p4" e1="DDI-DrugBank.d696.s1.e1" e2="DDI-DrugBank.d696.s1.e3" ddi="false" flags="True" e1_name="ergot alkaloids" e2_name="nicotine" e1_pos="5" e2_pos="10" path="5@@13@@10@@">ergot alkaloids@@@@conj_and@@smoking)@@nn@@nicotine</pair>  
+      <pair id="DDI-DrugBank.d696.s1.p5" e1="DDI-DrugBank.d696.s1.e2" e2="DDI-DrugBank.d696.s1.e3" ddi="false" flags="True" e1_name="sumatriptan" e2_name="nicotine" e1_pos="7" e2_pos="10" path="7@@3@@13@@10@@">sumatriptan@@@@prep_including@@vasoconstrictor agents@@prep_including@@smoking)@@nn@@nicotine</pair> 
+   </sentence> 
+</document>

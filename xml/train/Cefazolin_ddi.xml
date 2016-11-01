@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d281"> 
+   <sentence id="DDI-DrugBank.d281.s0" text="Probenecid may decrease renal tubular secretion of cephalosporins when used concurrently, resulting in increased and more prolonged cephalosporin blood levels." new_text="Probenecid@@may@@decrease@@renal@@tubular@@secretion@@of@@cephalosporins@@when@@used@@concurrently@@,@@resulting@@in@@increased@@and@@more@@prolonged@@cephalosporin@@blood@@levels@@.@@"> 
+      <entity id="DDI-DrugBank.d281.s0.e0" charOffset="0-9" type="drug" text="Probenecid" position="0"/>  
+      <entity id="DDI-DrugBank.d281.s0.e1" charOffset="51-64" type="group" text="cephalosporins" position="7"/>  
+      <entity id="DDI-DrugBank.d281.s0.e2" charOffset="132-144" type="group" text="cephalosporin" position="18"/>  
+      <pair id="DDI-DrugBank.d281.s0.p0" e1="DDI-DrugBank.d281.s0.e0" e2="DDI-DrugBank.d281.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="Probenecid" e2_name="cephalosporins" e1_pos="0" e2_pos="7" path="0@@2@@5@@7@@">Probenecid@@@@nsubj@@decrease@@dobj@@secretion@@prep_of@@cephalosporins</pair>  
+      <pair id="DDI-DrugBank.d281.s0.p1" e1="DDI-DrugBank.d281.s0.e0" e2="DDI-DrugBank.d281.s0.e2" ddi="false" flags="True" e1_name="Probenecid" e2_name="cephalosporin" e1_pos="0" e2_pos="18" path="0@@2@@9@@12@@20@@18@@">Probenecid@@@@nsubj@@decrease@@advcl@@used@@xcomp@@resulting@@prep_in@@levels@@amod@@cephalosporin</pair>  
+      <pair id="DDI-DrugBank.d281.s0.p2" e1="DDI-DrugBank.d281.s0.e1" e2="DDI-DrugBank.d281.s0.e2" ddi="false" flags="True" e1_name="cephalosporins" e2_name="cephalosporin" e1_pos="7" e2_pos="18" path="7@@5@@2@@9@@12@@20@@18@@">cephalosporins@@@@prep_of@@secretion@@dobj@@decrease@@advcl@@used@@xcomp@@resulting@@prep_in@@levels@@amod@@cephalosporin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d281.s1" text="Drug/Laboratory Test Interactions A false positive reaction for glucose in the urine may occur with Benedicts solution, Fehlings solution or with CLINITEST  tablets, but not with enzyme-based tests such as CLINISTIX ." new_text="Drug/Laboratory@@Test@@Interactions@@A@@false@@positive@@reaction@@for@@glucose@@in@@the@@urine@@may@@occur@@with@@Benedicts@@solution@@,@@Fehlings@@solution@@or@@with@@CLINITEST@@@@tablets@@,@@but@@not@@with@@enzyme-based@@tests@@such@@as@@CLINISTIX@@.@@"/>  
+   <sentence id="DDI-DrugBank.d281.s2" text="Positive direct and indirect antiglobulin (Coombs) tests have occurred;" new_text="Positive@@direct@@and@@indirect@@antiglobulin@@(Coombs)@@tests@@have@@occurred;@@"/>  
+   <sentence id="DDI-DrugBank.d281.s3" text="these may also occur in neonates whose mothers received cephalosporins before delivery." new_text="these@@may@@also@@occur@@in@@neonates@@whose@@mothers@@received@@cephalosporins@@before@@delivery@@.@@"> 
+      <entity id="DDI-DrugBank.d281.s3.e0" charOffset="56-69" type="group" text="cephalosporins" position="9"/> 
+   </sentence> 
+</document>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d166"> 
+   <sentence id="DDI-DrugBank.d166.s0" text="Trecator has been found to temporarily raise serum concentrations of isoniazid." new_text="Trecator@@has@@been@@found@@to@@temporarily@@raise@@serum@@concentrations@@of@@isoniazid@@.@@"> 
+      <entity id="DDI-DrugBank.d166.s0.e0" charOffset="0-7" type="brand" text="Trecator" position="0"/>  
+      <entity id="DDI-DrugBank.d166.s0.e1" charOffset="69-77" type="drug" text="isoniazid" position="10"/>  
+      <pair id="DDI-DrugBank.d166.s0.p0" e1="DDI-DrugBank.d166.s0.e0" e2="DDI-DrugBank.d166.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="Trecator" e2_name="isoniazid" e1_pos="0" e2_pos="10" path="0@@6@@8@@10@@">Trecator@@@@xsubj@@raise@@dobj@@concentrations@@prep_of@@isoniazid</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d166.s1" text="Trecator may potentiate the adverse effects of other antituberculous drugs administered concomitantly." new_text="Trecator@@may@@potentiate@@the@@adverse@@effects@@of@@other@@antituberculous drugs@@administered@@concomitantly@@.@@"> 
+      <entity id="DDI-DrugBank.d166.s1.e0" charOffset="0-7" type="brand" text="Trecator" position="0"/>  
+      <entity id="DDI-DrugBank.d166.s1.e1" charOffset="53-73" type="group" text="antituberculous drugs" position="8"/>  
+      <pair id="DDI-DrugBank.d166.s1.p0" e1="DDI-DrugBank.d166.s1.e0" e2="DDI-DrugBank.d166.s1.e1" ddi="true" type="effect" flags="True" e1_name="Trecator" e2_name="antituberculous drugs" e1_pos="0" e2_pos="8" path="0@@2@@5@@8@@">Trecator@@@@nsubj@@potentiate@@dobj@@effects@@prep_of@@antituberculous drugs</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d166.s2" text="In particular, convulsions have been reported when ethionamide is administered with cycloserine and special care should be taken when the treatment regimen includes both of these drugs." new_text="In@@particular@@,@@convulsions@@have@@been@@reported@@when@@ethionamide@@is@@administered@@with@@cycloserine@@and@@special@@care@@should@@be@@taken@@when@@the@@treatment@@regimen@@includes@@both@@of@@these@@drugs@@.@@"> 
+      <entity id="DDI-DrugBank.d166.s2.e0" charOffset="51-61" type="drug" text="ethionamide" position="8"/>  
+      <entity id="DDI-DrugBank.d166.s2.e1" charOffset="84-94" type="drug" text="cycloserine" position="12"/>  
+      <pair id="DDI-DrugBank.d166.s2.p0" e1="DDI-DrugBank.d166.s2.e0" e2="DDI-DrugBank.d166.s2.e1" ddi="true" type="effect" flags="True" e1_name="ethionamide" e2_name="cycloserine" e1_pos="8" e2_pos="12" path="8@@10@@12@@">ethionamide@@@@nsubjpass@@administered@@prep_with@@cycloserine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d166.s3" text="Excessive ethanol ingestion should be avoided because a psychotic reaction has been reported." new_text="Excessive@@ethanol@@ingestion@@should@@be@@avoided@@because@@a@@psychotic@@reaction@@has@@been@@reported@@.@@"> 
+      <entity id="DDI-DrugBank.d166.s3.e0" charOffset="10-16" type="drug" text="ethanol" position="1"/> 
+   </sentence> 
+</document>

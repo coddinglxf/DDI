@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d113"> 
+   <sentence id="DDI-DrugBank.d113.s0" text="Warfarin: Meclofenamate sodium enhances the effect of warfarin." new_text="Warfarin@@:@@Meclofenamate sodium@@enhances@@the@@effect@@of@@warfarin@@.@@"> 
+      <entity id="DDI-DrugBank.d113.s0.e0" charOffset="0-7" type="drug" text="Warfarin" position="0"/>  
+      <entity id="DDI-DrugBank.d113.s0.e1" charOffset="10-29" type="drug" text="Meclofenamate sodium" position="2"/>  
+      <entity id="DDI-DrugBank.d113.s0.e2" charOffset="54-61" type="drug" text="warfarin" position="7"/>  
+      <pair id="DDI-DrugBank.d113.s0.p0" e1="DDI-DrugBank.d113.s0.e0" e2="DDI-DrugBank.d113.s0.e1" ddi="true" type="effect" flags="True" e1_name="Warfarin" e2_name="Meclofenamate sodium" e1_pos="0" e2_pos="2" path="0@@3@@2@@">Warfarin@@@@dep@@enhances@@nsubj@@Meclofenamate sodium</pair>  
+      <pair id="DDI-DrugBank.d113.s0.p1" e1="DDI-DrugBank.d113.s0.e0" e2="DDI-DrugBank.d113.s0.e2" ddi="false" flags="True" e1_name="Warfarin" e2_name="warfarin" e1_pos="0" e2_pos="7" path="0@@3@@5@@7@@">Warfarin@@@@dep@@enhances@@dobj@@effect@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d113.s0.p2" e1="DDI-DrugBank.d113.s0.e1" e2="DDI-DrugBank.d113.s0.e2" ddi="false" flags="True" e1_name="Meclofenamate sodium" e2_name="warfarin" e1_pos="2" e2_pos="7" path="2@@3@@5@@7@@">Meclofenamate sodium@@@@nsubj@@enhances@@dobj@@effect@@prep_of@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d113.s1" text="Therefore, when meclofenamate sodium is given to a patient receiving warfarin, the dosage of warfarin should be reduced to prevent excessive prolongation of the prothrombin time." new_text="Therefore@@,@@when@@meclofenamate sodium@@is@@given@@to@@a@@patient@@receiving@@warfarin@@,@@the@@dosage@@of@@warfarin@@should@@be@@reduced@@to@@prevent@@excessive@@prolongation@@of@@the@@prothrombin@@time@@.@@"> 
+      <entity id="DDI-DrugBank.d113.s1.e0" charOffset="16-35" type="drug" text="meclofenamate sodium" position="3"/>  
+      <entity id="DDI-DrugBank.d113.s1.e1" charOffset="69-76" type="drug" text="warfarin" position="10"/>  
+      <entity id="DDI-DrugBank.d113.s1.e2" charOffset="93-100" type="drug" text="warfarin" position="15"/>  
+      <pair id="DDI-DrugBank.d113.s1.p0" e1="DDI-DrugBank.d113.s1.e0" e2="DDI-DrugBank.d113.s1.e1" ddi="true" type="advise" flags="True" e1_name="meclofenamate sodium" e2_name="warfarin" e1_pos="3" e2_pos="10" path="3@@5@@10@@">meclofenamate sodium@@@@nsubjpass@@given@@prep_to@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d113.s1.p1" e1="DDI-DrugBank.d113.s1.e0" e2="DDI-DrugBank.d113.s1.e2" ddi="false" flags="True" e1_name="meclofenamate sodium" e2_name="warfarin" e1_pos="3" e2_pos="15" path="3@@5@@18@@13@@15@@">meclofenamate sodium@@@@nsubjpass@@given@@advcl@@reduced@@nsubjpass@@dosage@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d113.s1.p2" e1="DDI-DrugBank.d113.s1.e1" e2="DDI-DrugBank.d113.s1.e2" ddi="false" flags="True" e1_name="warfarin" e2_name="warfarin" e1_pos="10" e2_pos="15" path="10@@5@@18@@13@@15@@">warfarin@@@@prep_to@@given@@advcl@@reduced@@nsubjpass@@dosage@@prep_of@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d113.s2" text="Aspirin: Concurrent administration of aspirin may lower meclofenamate sodium plasma levels, possibly by competing for protein-binding sites." new_text="Aspirin@@:@@Concurrent@@administration@@of@@aspirin@@may@@lower@@meclofenamate sodium@@plasma@@levels@@,@@possibly@@by@@competing@@for@@protein-binding@@sites@@.@@"> 
+      <entity id="DDI-DrugBank.d113.s2.e0" charOffset="0-6" type="brand" text="Aspirin" position="0"/>  
+      <entity id="DDI-DrugBank.d113.s2.e1" charOffset="38-44" type="brand" text="aspirin" position="5"/>  
+      <entity id="DDI-DrugBank.d113.s2.e2" charOffset="56-75" type="drug" text="meclofenamate sodium" position="8"/>  
+      <pair id="DDI-DrugBank.d113.s2.p0" e1="DDI-DrugBank.d113.s2.e0" e2="DDI-DrugBank.d113.s2.e1" ddi="false" flags="True" e1_name="Aspirin" e2_name="aspirin" e1_pos="0" e2_pos="5" path="0@@7@@3@@5@@">Aspirin@@@@dep@@lower@@nsubj@@administration@@prep_of@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d113.s2.p1" e1="DDI-DrugBank.d113.s2.e0" e2="DDI-DrugBank.d113.s2.e2" ddi="false" flags="True" e1_name="Aspirin" e2_name="meclofenamate sodium" e1_pos="0" e2_pos="8" path="0@@7@@10@@8@@">Aspirin@@@@dep@@lower@@dobj@@levels@@nn@@meclofenamate sodium</pair>  
+      <pair id="DDI-DrugBank.d113.s2.p2" e1="DDI-DrugBank.d113.s2.e1" e2="DDI-DrugBank.d113.s2.e2" ddi="true" type="mechanism" flags="True" e1_name="aspirin" e2_name="meclofenamate sodium" e1_pos="5" e2_pos="8" path="5@@3@@7@@10@@8@@">aspirin@@@@prep_of@@administration@@nsubj@@lower@@dobj@@levels@@nn@@meclofenamate sodium</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d113.s3" text="The urinary excretion of meclofenamate sodium is unaffected by aspirin, indicating no change in meclofenamate sodium absorption." new_text="The@@urinary@@excretion@@of@@meclofenamate sodium@@is@@unaffected@@by@@aspirin@@,@@indicating@@no@@change@@in@@meclofenamate sodium@@absorption@@.@@"> 
+      <entity id="DDI-DrugBank.d113.s3.e0" charOffset="25-44" type="drug" text="meclofenamate sodium" position="4"/>  
+      <entity id="DDI-DrugBank.d113.s3.e1" charOffset="63-69" type="brand" text="aspirin" position="8"/>  
+      <entity id="DDI-DrugBank.d113.s3.e2" charOffset="96-115" type="drug" text="meclofenamate sodium" position="14"/>  
+      <pair id="DDI-DrugBank.d113.s3.p0" e1="DDI-DrugBank.d113.s3.e0" e2="DDI-DrugBank.d113.s3.e1" ddi="false" flags="True" e1_name="meclofenamate sodium" e2_name="aspirin" e1_pos="4" e2_pos="8" path="4@@2@@10@@8@@">meclofenamate sodium@@@@prep_of@@excretion@@nsubj@@indicating@@prep_by@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d113.s3.p1" e1="DDI-DrugBank.d113.s3.e0" e2="DDI-DrugBank.d113.s3.e2" ddi="false" flags="True" e1_name="meclofenamate sodium" e2_name="meclofenamate sodium" e1_pos="4" e2_pos="14" path="4@@2@@10@@12@@15@@14@@">meclofenamate sodium@@@@prep_of@@excretion@@nsubj@@indicating@@dobj@@change@@prep_in@@absorption@@nn@@meclofenamate sodium</pair>  
+      <pair id="DDI-DrugBank.d113.s3.p2" e1="DDI-DrugBank.d113.s3.e1" e2="DDI-DrugBank.d113.s3.e2" ddi="false" flags="True" e1_name="aspirin" e2_name="meclofenamate sodium" e1_pos="8" e2_pos="14" path="8@@10@@12@@15@@14@@">aspirin@@@@prep_by@@indicating@@dobj@@change@@prep_in@@absorption@@nn@@meclofenamate sodium</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d113.s4" text="Meclofenamate sodium does not affect serum salicylate levels." new_text="Meclofenamate sodium@@does@@not@@affect@@serum@@salicylate@@levels@@.@@"> 
+      <entity id="DDI-DrugBank.d113.s4.e0" charOffset="0-19" type="drug" text="Meclofenamate sodium" position="0"/>  
+      <entity id="DDI-DrugBank.d113.s4.e1" charOffset="43-52" type="group" text="salicylate" position="5"/>  
+      <pair id="DDI-DrugBank.d113.s4.p0" e1="DDI-DrugBank.d113.s4.e0" e2="DDI-DrugBank.d113.s4.e1" ddi="false" flags="True" e1_name="Meclofenamate sodium" e2_name="salicylate" e1_pos="0" e2_pos="5" path="0@@3@@6@@5@@">Meclofenamate sodium@@@@nsubj@@affect@@dobj@@levels@@nn@@salicylate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d113.s5" text="Greater fecal blood loss results from concomitant administration of both drugs than from either drug alone." new_text="Greater@@fecal@@blood@@loss@@results@@from@@concomitant@@administration@@of@@both@@drugs@@than@@from@@either@@drug@@alone@@.@@"/>  
+   <sentence id="DDI-DrugBank.d113.s6" text="Propoxyphene: The concurrent administration of propoxyphene hydrochloride does not affect the bioavailability of meclofenamate sodium." new_text="Propoxyphene@@:@@The@@concurrent@@administration@@of@@propoxyphene hydrochloride@@does@@not@@affect@@the@@bioavailability@@of@@meclofenamate sodium@@.@@"> 
+      <entity id="DDI-DrugBank.d113.s6.e0" charOffset="0-11" type="drug" text="Propoxyphene" position="0"/>  
+      <entity id="DDI-DrugBank.d113.s6.e1" charOffset="47-72" type="drug" text="propoxyphene hydrochloride" position="6"/>  
+      <entity id="DDI-DrugBank.d113.s6.e2" charOffset="113-132" type="drug" text="meclofenamate sodium" position="13"/>  
+      <pair id="DDI-DrugBank.d113.s6.p0" e1="DDI-DrugBank.d113.s6.e0" e2="DDI-DrugBank.d113.s6.e1" ddi="false" flags="True" e1_name="Propoxyphene" e2_name="propoxyphene hydrochloride" e1_pos="0" e2_pos="6" path="0@@9@@4@@6@@">Propoxyphene@@@@dep@@affect@@nsubj@@administration@@prep_of@@propoxyphene hydrochloride</pair>  
+      <pair id="DDI-DrugBank.d113.s6.p1" e1="DDI-DrugBank.d113.s6.e0" e2="DDI-DrugBank.d113.s6.e2" ddi="false" flags="True" e1_name="Propoxyphene" e2_name="meclofenamate sodium" e1_pos="0" e2_pos="13" path="0@@9@@11@@13@@">Propoxyphene@@@@dep@@affect@@dobj@@bioavailability@@prep_of@@meclofenamate sodium</pair>  
+      <pair id="DDI-DrugBank.d113.s6.p2" e1="DDI-DrugBank.d113.s6.e1" e2="DDI-DrugBank.d113.s6.e2" ddi="false" flags="True" e1_name="propoxyphene hydrochloride" e2_name="meclofenamate sodium" e1_pos="6" e2_pos="13" path="6@@4@@9@@11@@13@@">propoxyphene hydrochloride@@@@prep_of@@administration@@nsubj@@affect@@dobj@@bioavailability@@prep_of@@meclofenamate sodium</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d113.s7" text="Antacids: Concomitant administration of aluminum and magnesium hydroxides does not interfere with absorption of meclofenamate sodium." new_text="Antacids@@:@@Concomitant@@administration@@of@@aluminum@@and@@magnesium hydroxide@@s@@does@@not@@interfere@@with@@absorption@@of@@meclofenamate sodium@@.@@"> 
+      <entity id="DDI-DrugBank.d113.s7.e0" charOffset="0-7" type="group" text="Antacids" position="0"/>  
+      <entity id="DDI-DrugBank.d113.s7.e1" charOffset="40-47;63-71" type="drug" text="aluminum hydroxide" position="not_a_number"/>  
+      <entity id="DDI-DrugBank.d113.s7.e2" charOffset="53-71" type="drug" text="magnesium hydroxide" position="7"/>  
+      <entity id="DDI-DrugBank.d113.s7.e3" charOffset="112-131" type="drug" text="meclofenamate sodium" position="15"/>  
+      <pair id="DDI-DrugBank.d113.s7.p0" e1="DDI-DrugBank.d113.s7.e0" e2="DDI-DrugBank.d113.s7.e1" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d113.s7.p1" e1="DDI-DrugBank.d113.s7.e0" e2="DDI-DrugBank.d113.s7.e2" ddi="false" flags="True" e1_name="Antacids" e2_name="magnesium hydroxide" e1_pos="0" e2_pos="7" path="0@@3@@7@@">Antacids@@@@dep@@administration@@prep_of@@magnesium hydroxide</pair>  
+      <pair id="DDI-DrugBank.d113.s7.p2" e1="DDI-DrugBank.d113.s7.e0" e2="DDI-DrugBank.d113.s7.e3" ddi="false" flags="True" e1_name="Antacids" e2_name="meclofenamate sodium" e1_pos="0" e2_pos="15" path="0@@3@@11@@13@@15@@">Antacids@@@@dep@@administration@@rcmod@@interfere@@prep_with@@absorption@@prep_of@@meclofenamate sodium</pair>  
+      <pair id="DDI-DrugBank.d113.s7.p3" e1="DDI-DrugBank.d113.s7.e1" e2="DDI-DrugBank.d113.s7.e2" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d113.s7.p4" e1="DDI-DrugBank.d113.s7.e1" e2="DDI-DrugBank.d113.s7.e3" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d113.s7.p5" e1="DDI-DrugBank.d113.s7.e2" e2="DDI-DrugBank.d113.s7.e3" ddi="false" flags="True" e1_name="magnesium hydroxide" e2_name="meclofenamate sodium" e1_pos="7" e2_pos="15" path="7@@3@@11@@13@@15@@">magnesium hydroxide@@@@prep_of@@administration@@rcmod@@interfere@@prep_with@@absorption@@prep_of@@meclofenamate sodium</pair> 
+   </sentence> 
+</document>

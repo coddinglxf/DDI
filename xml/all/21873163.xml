@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d201"> 
+   <sentence id="DDI-MedLine.d201.s0" text="Antitumor effects of CRM197, a specific inhibitor of HB-EGF, in T-cell acute lymphoblastic leukemia.
+" new_text="Antitumor@@effects@@of@@CRM197@@,@@a@@specific@@inhibitor@@of@@HB-EGF@@,@@in@@T-cell@@acute@@lymphoblastic@@leukemia@@.@@"> 
+      <entity id="DDI-MedLine.d201.s0.e0" charOffset="21-26" type="drug_n" text="CRM197" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d201.s1" text="The therapeutic outcome for T-cell acute lymphoblastic leukemia (T-ALL) remains poor; " new_text="The@@therapeutic@@outcome@@for@@T-cell@@acute@@lymphoblastic@@leukemia@@(T-ALL)@@remains@@poor;@@"/>  
+   <sentence id="DDI-MedLine.d201.s2" text="thus, novel, targeted therapies are urgently needed. " new_text="thus@@,@@novel@@,@@targeted@@therapies@@are@@urgently@@needed@@.@@"/>  
+   <sentence id="DDI-MedLine.d201.s3" text="Recently, we showed that heparin-binding epidermal growth factor-like growth factor (HB-EGF), a member of the EGF family, is a promising target for the treatment of various types of cancer. " new_text="Recently@@,@@we@@showed@@that@@heparin-binding@@epidermal@@growth@@factor-like@@growth@@factor@@(HB-EGF)@@,@@a@@member@@of@@the@@EGF@@family@@,@@is@@a@@promising@@target@@for@@the@@treatment@@of@@various@@types@@of@@cancer@@.@@"/>  
+   <sentence id="DDI-MedLine.d201.s4" text="The aim of the present study was to investigate whether HB-EGF is a therapeutic target for T-ALL, and to further elucidate the antitumor effects of a specific inhibitor of HB-EGF, cross-reacting material 197 (CRM197). " new_text="The@@aim@@of@@the@@present@@study@@was@@to@@investigate@@whether@@HB-EGF@@is@@a@@therapeutic@@target@@for@@T-ALL@@,@@and@@to@@further@@elucidate@@the@@antitumor@@effects@@of@@a@@specific@@inhibitor@@of@@HB-EGF@@,@@cross-reacting material 197@@(@@CRM197@@)@@.@@"> 
+      <entity id="DDI-MedLine.d201.s4.e0" charOffset="180-206" type="drug_n" text="cross-reacting material 197" position="32"/>  
+      <entity id="DDI-MedLine.d201.s4.e1" charOffset="209-214" type="drug_n" text="CRM197" position="34"/>  
+      <pair id="DDI-MedLine.d201.s4.p0" e1="DDI-MedLine.d201.s4.e0" e2="DDI-MedLine.d201.s4.e1" ddi="false" flags="True" e1_name="cross-reacting material 197" e2_name="CRM197" e1_pos="32" e2_pos="34" path="32@@35@@34@@">cross-reacting material 197@@@@amod@@)@@nn@@CRM197</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d201.s5" text="We elucidated the expression of HB-EGF in T-ALL cell lines, and evaluated the effect of CRM197 on these cells alone or in combination with anticancer agent. " new_text="We@@elucidated@@the@@expression@@of@@HB-EGF@@in@@T-ALL@@cell@@lines@@,@@and@@evaluated@@the@@effect@@of@@CRM197@@on@@these@@cells@@alone@@or@@in@@combination@@with@@anticancer agent@@.@@"> 
+      <entity id="DDI-MedLine.d201.s5.e0" charOffset="88-93" type="drug_n" text="CRM197" position="16"/>  
+      <entity id="DDI-MedLine.d201.s5.e1" charOffset="139-154" type="group" text="anticancer agent" position="25"/>  
+      <pair id="DDI-MedLine.d201.s5.p0" e1="DDI-MedLine.d201.s5.e0" e2="DDI-MedLine.d201.s5.e1" ddi="false" flags="True" e1_name="CRM197" e2_name="anticancer agent" e1_pos="16" e2_pos="25" path="16@@14@@12@@25@@">CRM197@@@@prep_of@@effect@@dobj@@evaluated@@prep_with@@anticancer agent</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d201.s6" text="The expression of EGFR and EGFR ligands was determined by flow cytometry, RT-PCR and real-time quantitative PCR. " new_text="The@@expression@@of@@EGFR@@and@@EGFR@@ligands@@was@@determined@@by@@flow@@cytometry@@,@@RT-PCR@@and@@real-time@@quantitative@@PCR@@.@@"/>  
+   <sentence id="DDI-MedLine.d201.s7" text="Induction of apoptosis was assessed by TUNEL assay. " new_text="Induction@@of@@apoptosis@@was@@assessed@@by@@TUNEL@@assay@@.@@"/>  
+   <sentence id="DDI-MedLine.d201.s8" text="HB-EGF was strongly expressed by T-ALL cell lines, and the expression of both HB-EGF and EGFR was enhanced by doxorubicin. " new_text="HB-EGF@@was@@strongly@@expressed@@by@@T-ALL@@cell@@lines@@,@@and@@the@@expression@@of@@both@@HB-EGF@@and@@EGFR@@was@@enhanced@@by@@doxorubicin@@.@@"> 
+      <entity id="DDI-MedLine.d201.s8.e0" charOffset="110-120" type="drug" text="doxorubicin" position="20"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d201.s9" text="CRM197 induced apoptosis, and furthermore, the combination of CRM197 plus doxorubicin enhanced cytotoxicity in a T-ALL cell line. " new_text="CRM197@@induced@@apoptosis@@,@@and@@furthermore@@,@@the@@combination@@of@@CRM197@@plus@@doxorubicin@@enhanced@@cytotoxicity@@in@@a@@T-ALL@@cell@@line@@.@@"> 
+      <entity id="DDI-MedLine.d201.s9.e0" charOffset="0-5" type="drug_n" text="CRM197" position="0"/>  
+      <entity id="DDI-MedLine.d201.s9.e1" charOffset="62-67" type="drug_n" text="CRM197" position="10"/>  
+      <entity id="DDI-MedLine.d201.s9.e2" charOffset="74-84" type="drug" text="doxorubicin" position="12"/>  
+      <pair id="DDI-MedLine.d201.s9.p0" e1="DDI-MedLine.d201.s9.e0" e2="DDI-MedLine.d201.s9.e1" ddi="false" flags="True" e1_name="CRM197" e2_name="CRM197" e1_pos="0" e2_pos="10" path="0@@1@@2@@13@@8@@10@@">CRM197@@@@nn@@induced@@nsubj@@apoptosis@@conj_and@@enhanced@@nsubj@@combination@@prep_of@@CRM197</pair>  
+      <pair id="DDI-MedLine.d201.s9.p1" e1="DDI-MedLine.d201.s9.e0" e2="DDI-MedLine.d201.s9.e2" ddi="false" flags="True" e1_name="CRM197" e2_name="doxorubicin" e1_pos="0" e2_pos="12" path="0@@1@@2@@13@@8@@12@@">CRM197@@@@nn@@induced@@nsubj@@apoptosis@@conj_and@@enhanced@@nsubj@@combination@@prep_of@@doxorubicin</pair>  
+      <pair id="DDI-MedLine.d201.s9.p2" e1="DDI-MedLine.d201.s9.e1" e2="DDI-MedLine.d201.s9.e2" ddi="true" type="effect" flags="True" e1_name="CRM197" e2_name="doxorubicin" e1_pos="10" e2_pos="12" path="10@@12@@">CRM197@@@@conj_plus@@doxorubicin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d201.s10" text="These results suggest that HB-EGF is a promising therapeutic target for T-ALL." new_text="These@@results@@suggest@@that@@HB-EGF@@is@@a@@promising@@therapeutic@@target@@for@@T-ALL@@.@@"/> 
+</document>

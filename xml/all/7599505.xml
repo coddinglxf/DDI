@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d34"> 
+   <sentence id="DDI-MedLine.d34.s0" text="Interactions of cobalt and iron in absorption and retention.
+" new_text="Interactions@@of@@cobalt@@and@@iron@@in@@absorption@@and@@retention@@.@@"> 
+      <entity id="DDI-MedLine.d34.s0.e0" charOffset="16-21" type="drug" text="cobalt" position="2"/>  
+      <entity id="DDI-MedLine.d34.s0.e1" charOffset="27-30" type="drug" text="iron" position="4"/>  
+      <pair id="DDI-MedLine.d34.s0.p0" e1="DDI-MedLine.d34.s0.e0" e2="DDI-MedLine.d34.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="cobalt" e2_name="iron" e1_pos="2" e2_pos="4" path="2@@4@@">cobalt@@@@conj_and@@iron</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d34.s1" text="The effects of supplementary oral cobalt and iron, as well as the interaction between both at the absorption site, fecal and urinary excretion as well as the retention of these trace elements were determined by using four diets containing either 9 or 63 micrograms/kg of Co and 48 or 446 mg/kg of Fe over a period of 19 days in a total of 24 rats. " new_text="The@@effects@@of@@supplementary@@oral@@cobalt@@and@@iron@@,@@as@@well@@as@@the@@interaction@@between@@both@@at@@the@@absorption@@site@@,@@fecal@@and@@urinary@@excretion@@as@@well@@as@@the@@retention@@of@@these@@trace@@elements@@were@@determined@@by@@using@@four@@diets@@containing@@either@@9@@or@@63@@micrograms/kg@@of@@Co@@and@@48@@or@@446@@mg/kg@@of@@Fe@@over@@a@@period@@of@@19@@days@@in@@a@@total@@of@@24@@rats@@.@@"> 
+      <entity id="DDI-MedLine.d34.s1.e0" charOffset="34-39" type="drug" text="cobalt" position="5"/>  
+      <entity id="DDI-MedLine.d34.s1.e1" charOffset="45-48" type="drug" text="iron" position="7"/>  
+      <entity id="DDI-MedLine.d34.s1.e2" charOffset="271-272" type="drug" text="Co" position="47"/>  
+      <entity id="DDI-MedLine.d34.s1.e3" charOffset="297-298" type="drug" text="Fe" position="54"/>  
+      <pair id="DDI-MedLine.d34.s1.p0" e1="DDI-MedLine.d34.s1.e0" e2="DDI-MedLine.d34.s1.e1" ddi="false" flags="True" e1_name="cobalt" e2_name="iron" e1_pos="5" e2_pos="7" path="5@@7@@">cobalt@@@@conj_and@@iron</pair>  
+      <pair id="DDI-MedLine.d34.s1.p1" e1="DDI-MedLine.d34.s1.e0" e2="DDI-MedLine.d34.s1.e2" ddi="false" flags="True" e1_name="cobalt" e2_name="Co" e1_pos="5" e2_pos="47" path="5@@1@@35@@37@@39@@40@@42@@45@@47@@">cobalt@@@@prep_of@@effects@@nsubjpass@@determined@@agent@@using@@dobj@@diets@@partmod@@containing@@dobj@@9@@partmod@@micrograms/kg@@prep_of@@Co</pair>  
+      <pair id="DDI-MedLine.d34.s1.p2" e1="DDI-MedLine.d34.s1.e0" e2="DDI-MedLine.d34.s1.e3" ddi="false" flags="True" e1_name="cobalt" e2_name="Fe" e1_pos="5" e2_pos="54" path="5@@1@@35@@37@@39@@40@@42@@45@@52@@54@@">cobalt@@@@prep_of@@effects@@nsubjpass@@determined@@agent@@using@@dobj@@diets@@partmod@@containing@@dobj@@9@@partmod@@micrograms/kg@@prep_of@@mg/kg@@prep_of@@Fe</pair>  
+      <pair id="DDI-MedLine.d34.s1.p3" e1="DDI-MedLine.d34.s1.e1" e2="DDI-MedLine.d34.s1.e2" ddi="false" flags="True" e1_name="iron" e2_name="Co" e1_pos="7" e2_pos="47" path="7@@1@@35@@37@@39@@40@@42@@45@@47@@">iron@@@@prep_of@@effects@@nsubjpass@@determined@@agent@@using@@dobj@@diets@@partmod@@containing@@dobj@@9@@partmod@@micrograms/kg@@prep_of@@Co</pair>  
+      <pair id="DDI-MedLine.d34.s1.p4" e1="DDI-MedLine.d34.s1.e1" e2="DDI-MedLine.d34.s1.e3" ddi="false" flags="True" e1_name="iron" e2_name="Fe" e1_pos="7" e2_pos="54" path="7@@1@@35@@37@@39@@40@@42@@45@@52@@54@@">iron@@@@prep_of@@effects@@nsubjpass@@determined@@agent@@using@@dobj@@diets@@partmod@@containing@@dobj@@9@@partmod@@micrograms/kg@@prep_of@@mg/kg@@prep_of@@Fe</pair>  
+      <pair id="DDI-MedLine.d34.s1.p5" e1="DDI-MedLine.d34.s1.e2" e2="DDI-MedLine.d34.s1.e3" ddi="false" flags="True" e1_name="Co" e2_name="Fe" e1_pos="47" e2_pos="54" path="47@@52@@54@@">Co@@@@conj_and@@mg/kg@@prep_of@@Fe</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d34.s2" text="Retention was calculated by the balance technique and by the comparative slaughter technique. " new_text="Retention@@was@@calculated@@by@@the@@balance@@technique@@and@@by@@the@@comparative@@slaughter@@technique@@.@@"/>  
+   <sentence id="DDI-MedLine.d34.s3" text="After one day, fecal as well as urinary excretion of both elements had already responded to the dietary treatments, with constant values being reached after approximately three days. " new_text="After@@one@@day@@,@@fecal@@as@@well@@as@@urinary@@excretion@@of@@both@@elements@@had@@already@@responded@@to@@the@@dietary@@treatments@@,@@with@@constant@@values@@being@@reached@@after@@approximately@@three@@days@@.@@"/>  
+   <sentence id="DDI-MedLine.d34.s4" text="Cobalt excretion was enhanced by supplementary cobalt; " new_text="Cobalt@@excretion@@was@@enhanced@@by@@supplementary@@cobalt@@;@@"> 
+      <entity id="DDI-MedLine.d34.s4.e0" charOffset="0-5" type="drug" text="Cobalt" position="0"/>  
+      <entity id="DDI-MedLine.d34.s4.e1" charOffset="47-52" type="drug" text="cobalt" position="6"/>  
+      <pair id="DDI-MedLine.d34.s4.p0" e1="DDI-MedLine.d34.s4.e0" e2="DDI-MedLine.d34.s4.e1" ddi="false" flags="True" e1_name="Cobalt" e2_name="cobalt" e1_pos="0" e2_pos="6" path="0@@1@@3@@6@@">Cobalt@@@@amod@@excretion@@nsubjpass@@enhanced@@agent@@cobalt</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d34.s5" text="fecal excretion, too, was increased by supplementary iron; " new_text="fecal@@excretion@@,@@too@@,@@was@@increased@@by@@supplementary@@iron@@;@@"> 
+      <entity id="DDI-MedLine.d34.s5.e0" charOffset="53-56" type="drug" text="iron" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d34.s6" text="whereas urinary excretion was decreased in both cases. " new_text="whereas@@urinary@@excretion@@was@@decreased@@in@@both@@cases@@.@@"/>  
+   <sentence id="DDI-MedLine.d34.s7" text="Additional iron significantly inhibited the absorption of cobalt in both dietary cobalt treatments. " new_text="Additional@@iron@@significantly@@inhibited@@the@@absorption@@of@@cobalt@@in@@both@@dietary@@cobalt@@treatments@@.@@"> 
+      <entity id="DDI-MedLine.d34.s7.e0" charOffset="11-14" type="drug" text="iron" position="1"/>  
+      <entity id="DDI-MedLine.d34.s7.e1" charOffset="58-63" type="drug" text="cobalt" position="7"/>  
+      <entity id="DDI-MedLine.d34.s7.e2" charOffset="81-86" type="drug" text="cobalt" position="11"/>  
+      <pair id="DDI-MedLine.d34.s7.p0" e1="DDI-MedLine.d34.s7.e0" e2="DDI-MedLine.d34.s7.e1" ddi="true" type="mechanism" flags="True" e1_name="iron" e2_name="cobalt" e1_pos="1" e2_pos="7" path="1@@3@@5@@7@@">iron@@@@nsubj@@inhibited@@dobj@@absorption@@prep_of@@cobalt</pair>  
+      <pair id="DDI-MedLine.d34.s7.p1" e1="DDI-MedLine.d34.s7.e0" e2="DDI-MedLine.d34.s7.e2" ddi="true" type="mechanism" flags="True" e1_name="iron" e2_name="cobalt" e1_pos="1" e2_pos="11" path="1@@3@@12@@11@@">iron@@@@nsubj@@inhibited@@prep_in@@treatments@@amod@@cobalt</pair>  
+      <pair id="DDI-MedLine.d34.s7.p2" e1="DDI-MedLine.d34.s7.e1" e2="DDI-MedLine.d34.s7.e2" ddi="false" flags="True" e1_name="cobalt" e2_name="cobalt" e1_pos="7" e2_pos="11" path="7@@5@@3@@12@@11@@">cobalt@@@@prep_of@@absorption@@dobj@@inhibited@@prep_in@@treatments@@amod@@cobalt</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d34.s8" text="The lower rate of absorption in the groups receiving 446 mg Fe instead of 48 mg of Fe per kg diet resulted in a decreased renal excretion of cobalt. " new_text="The@@lower@@rate@@of@@absorption@@in@@the@@groups@@receiving@@446@@mg@@Fe@@instead@@of@@48@@mg@@of@@Fe@@per@@kg@@diet@@resulted@@in@@a@@decreased@@renal@@excretion@@of@@cobalt@@.@@"> 
+      <entity id="DDI-MedLine.d34.s8.e0" charOffset="60-61" type="drug" text="Fe" position="11"/>  
+      <entity id="DDI-MedLine.d34.s8.e1" charOffset="83-84" type="drug" text="Fe" position="17"/>  
+      <entity id="DDI-MedLine.d34.s8.e2" charOffset="141-146" type="drug" text="cobalt" position="28"/>  
+      <pair id="DDI-MedLine.d34.s8.p0" e1="DDI-MedLine.d34.s8.e0" e2="DDI-MedLine.d34.s8.e1" ddi="false" flags="True" e1_name="Fe" e2_name="Fe" e1_pos="11" e2_pos="17" path="11@@8@@7@@4@@2@@17@@">Fe@@@@dobj@@receiving@@partmod@@groups@@prep_in@@absorption@@prep_of@@rate@@prep_of@@Fe</pair>  
+      <pair id="DDI-MedLine.d34.s8.p1" e1="DDI-MedLine.d34.s8.e0" e2="DDI-MedLine.d34.s8.e2" ddi="true" type="mechanism" flags="True" e1_name="Fe" e2_name="cobalt" e1_pos="11" e2_pos="28" path="11@@8@@7@@4@@2@@21@@26@@28@@">Fe@@@@dobj@@receiving@@partmod@@groups@@prep_in@@absorption@@prep_of@@rate@@partmod@@resulted@@prep_in@@excretion@@prep_of@@cobalt</pair>  
+      <pair id="DDI-MedLine.d34.s8.p2" e1="DDI-MedLine.d34.s8.e1" e2="DDI-MedLine.d34.s8.e2" ddi="false" flags="True" e1_name="Fe" e2_name="cobalt" e1_pos="17" e2_pos="28" path="17@@2@@21@@26@@28@@">Fe@@@@prep_of@@rate@@partmod@@resulted@@prep_in@@excretion@@prep_of@@cobalt</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d34.s9" text="Consequently, the effect of iron on the retention of cobalt was lower than on absorption. " new_text="Consequently@@,@@the@@effect@@of@@iron@@on@@the@@retention@@of@@cobalt@@was@@lower@@than@@on@@absorption@@.@@"> 
+      <entity id="DDI-MedLine.d34.s9.e0" charOffset="28-31" type="drug" text="iron" position="5"/>  
+      <entity id="DDI-MedLine.d34.s9.e1" charOffset="53-58" type="drug" text="cobalt" position="10"/>  
+      <pair id="DDI-MedLine.d34.s9.p0" e1="DDI-MedLine.d34.s9.e0" e2="DDI-MedLine.d34.s9.e1" ddi="true" type="mechanism" flags="True" e1_name="iron" e2_name="cobalt" e1_pos="5" e2_pos="10" path="5@@8@@10@@">iron@@@@prep_on@@retention@@prep_of@@cobalt</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d34.s10" text="This suggests that interactions between the two elements only take place at the site of absorption. " new_text="This@@suggests@@that@@interactions@@between@@the@@two@@elements@@only@@take@@place@@at@@the@@site@@of@@absorption@@.@@"/>  
+   <sentence id="DDI-MedLine.d34.s11" text="Because of the low dietary cobalt concentration as compared to the iron contents of the diets, no effect of cobalt on iron absorption and excretion occurred. " new_text="Because@@of@@the@@low@@dietary@@cobalt@@concentration@@as@@compared@@to@@the@@iron@@contents@@of@@the@@diets@@,@@no@@effect@@of@@cobalt@@on@@iron@@absorption@@and@@excretion@@occurred@@.@@"> 
+      <entity id="DDI-MedLine.d34.s11.e0" charOffset="27-32" type="drug" text="cobalt" position="5"/>  
+      <entity id="DDI-MedLine.d34.s11.e1" charOffset="67-70" type="drug" text="iron" position="11"/>  
+      <entity id="DDI-MedLine.d34.s11.e2" charOffset="108-113" type="drug" text="cobalt" position="20"/>  
+      <entity id="DDI-MedLine.d34.s11.e3" charOffset="118-121" type="drug" text="iron" position="22"/>  
+      <pair id="DDI-MedLine.d34.s11.p0" e1="DDI-MedLine.d34.s11.e0" e2="DDI-MedLine.d34.s11.e1" ddi="false" flags="True" e1_name="cobalt" e2_name="iron" e1_pos="5" e2_pos="11" path="5@@6@@12@@11@@">cobalt@@@@amod@@concentration@@pobj@@contents@@nn@@iron</pair>  
+      <pair id="DDI-MedLine.d34.s11.p1" e1="DDI-MedLine.d34.s11.e0" e2="DDI-MedLine.d34.s11.e2" ddi="false" flags="True" e1_name="cobalt" e2_name="cobalt" e1_pos="5" e2_pos="20" path="5@@6@@26@@18@@20@@">cobalt@@@@amod@@concentration@@prep_because_of@@occurred@@nsubj@@effect@@prep_of@@cobalt</pair>  
+      <pair id="DDI-MedLine.d34.s11.p2" e1="DDI-MedLine.d34.s11.e0" e2="DDI-MedLine.d34.s11.e3" ddi="false" flags="True" e1_name="cobalt" e2_name="iron" e1_pos="5" e2_pos="22" path="5@@6@@26@@18@@20@@23@@22@@">cobalt@@@@amod@@concentration@@prep_because_of@@occurred@@nsubj@@effect@@prep_of@@cobalt@@prep_on@@absorption@@nn@@iron</pair>  
+      <pair id="DDI-MedLine.d34.s11.p3" e1="DDI-MedLine.d34.s11.e1" e2="DDI-MedLine.d34.s11.e2" ddi="false" flags="True" e1_name="iron" e2_name="cobalt" e1_pos="11" e2_pos="20" path="11@@12@@6@@26@@18@@20@@">iron@@@@nn@@contents@@pobj@@concentration@@prep_because_of@@occurred@@nsubj@@effect@@prep_of@@cobalt</pair>  
+      <pair id="DDI-MedLine.d34.s11.p4" e1="DDI-MedLine.d34.s11.e1" e2="DDI-MedLine.d34.s11.e3" ddi="false" flags="True" e1_name="iron" e2_name="iron" e1_pos="11" e2_pos="22" path="11@@12@@6@@26@@18@@20@@23@@22@@">iron@@@@nn@@contents@@pobj@@concentration@@prep_because_of@@occurred@@nsubj@@effect@@prep_of@@cobalt@@prep_on@@absorption@@nn@@iron</pair>  
+      <pair id="DDI-MedLine.d34.s11.p5" e1="DDI-MedLine.d34.s11.e2" e2="DDI-MedLine.d34.s11.e3" ddi="false" flags="True" e1_name="cobalt" e2_name="iron" e1_pos="20" e2_pos="22" path="20@@23@@22@@">cobalt@@@@prep_on@@absorption@@nn@@iron</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d34.s12" text="Differences in iron balance were only observed between both dietary concentrations, showing a higher absolute but a lower relative absorption as well as retention in the groups fed further Fe.(ABSTRACT TRUNCATED AT 250 WORDS)" new_text="Differences@@in@@iron@@balance@@were@@only@@observed@@between@@both@@dietary@@concentrations@@,@@showing@@a@@higher@@absolute@@but@@a@@lower@@relative@@absorption@@as@@well@@as@@retention@@in@@the@@groups@@fed@@further@@Fe@@.(ABSTRACT@@TRUNCATED@@AT@@250@@WORDS)@@"> 
+      <entity id="DDI-MedLine.d34.s12.e0" charOffset="15-18" type="drug" text="iron" position="2"/>  
+      <entity id="DDI-MedLine.d34.s12.e1" charOffset="189-190" type="drug" text="Fe" position="30"/>  
+      <pair id="DDI-MedLine.d34.s12.p0" e1="DDI-MedLine.d34.s12.e0" e2="DDI-MedLine.d34.s12.e1" ddi="false" flags="True" e1_name="iron" e2_name="Fe" e1_pos="2" e2_pos="30" path="2@@3@@0@@12@@28@@33@@30@@">iron@@@@nn@@balance@@prep_in@@Differences@@nsubj@@showing@@dep@@fed@@dobj@@AT@@nn@@Fe</pair> 
+   </sentence> 
+</document>

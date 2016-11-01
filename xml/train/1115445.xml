@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d116"> 
+   <sentence id="DDI-MedLine.d116.s0" text="Rifampin and warfarin: a drug interaction.
+" new_text="Rifampin@@and@@warfarin@@:@@a@@drug@@interaction@@.@@"> 
+      <entity id="DDI-MedLine.d116.s0.e0" charOffset="0-7" type="drug" text="Rifampin" position="0"/>  
+      <entity id="DDI-MedLine.d116.s0.e1" charOffset="13-20" type="drug" text="warfarin" position="2"/>  
+      <pair id="DDI-MedLine.d116.s0.p0" e1="DDI-MedLine.d116.s0.e0" e2="DDI-MedLine.d116.s0.e1" ddi="true" type="int" flags="True" e1_name="Rifampin" e2_name="warfarin" e1_pos="0" e2_pos="2" path="0@@2@@">Rifampin@@@@conj_and@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d116.s1" text="The drug interaction between warfarin and rifampin is not well known. " new_text="The@@drug@@interaction@@between@@warfarin@@and@@rifampin@@is@@not@@well@@known@@.@@"> 
+      <entity id="DDI-MedLine.d116.s1.e0" charOffset="29-36" type="drug" text="warfarin" position="4"/>  
+      <entity id="DDI-MedLine.d116.s1.e1" charOffset="42-49" type="drug" text="rifampin" position="6"/>  
+      <pair id="DDI-MedLine.d116.s1.p0" e1="DDI-MedLine.d116.s1.e0" e2="DDI-MedLine.d116.s1.e1" ddi="true" type="int" flags="True" e1_name="warfarin" e2_name="rifampin" e1_pos="4" e2_pos="6" path="4@@6@@">warfarin@@@@conj_and@@rifampin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d116.s2" text="Rifampin has been reported to increase the warfarin requirements in human subjects ingesting these agents simultaneously. " new_text="Rifampin@@has@@been@@reported@@to@@increase@@the@@warfarin@@requirements@@in@@human@@subjects@@ingesting@@these@@agents@@simultaneously@@.@@"> 
+      <entity id="DDI-MedLine.d116.s2.e0" charOffset="0-7" type="drug" text="Rifampin" position="0"/>  
+      <entity id="DDI-MedLine.d116.s2.e1" charOffset="43-50" type="drug" text="warfarin" position="7"/>  
+      <pair id="DDI-MedLine.d116.s2.p0" e1="DDI-MedLine.d116.s2.e0" e2="DDI-MedLine.d116.s2.e1" ddi="true" type="mechanism" flags="True" e1_name="Rifampin" e2_name="warfarin" e1_pos="0" e2_pos="7" path="0@@5@@8@@7@@">Rifampin@@@@xsubj@@increase@@dobj@@requirements@@nn@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d116.s3" text="The concomitant administration of rifampin and warfarin resulted in the need for an unusually high maintenance dose of warfarin (20 mg per day) in order to produce a therapeutic effect. " new_text="The@@concomitant@@administration@@of@@rifampin@@and@@warfarin@@resulted@@in@@the@@need@@for@@an@@unusually@@high@@maintenance@@dose@@of@@warfarin@@(20@@mg@@per@@day)@@in@@order@@to@@produce@@a@@therapeutic@@effect@@.@@"> 
+      <entity id="DDI-MedLine.d116.s3.e0" charOffset="34-41" type="drug" text="rifampin" position="4"/>  
+      <entity id="DDI-MedLine.d116.s3.e1" charOffset="47-54" type="drug" text="warfarin" position="6"/>  
+      <entity id="DDI-MedLine.d116.s3.e2" charOffset="119-126" type="drug" text="warfarin" position="18"/>  
+      <pair id="DDI-MedLine.d116.s3.p0" e1="DDI-MedLine.d116.s3.e0" e2="DDI-MedLine.d116.s3.e1" ddi="true" type="mechanism" flags="True" e1_name="rifampin" e2_name="warfarin" e1_pos="4" e2_pos="6" path="4@@6@@">rifampin@@@@conj_and@@warfarin</pair>  
+      <pair id="DDI-MedLine.d116.s3.p1" e1="DDI-MedLine.d116.s3.e0" e2="DDI-MedLine.d116.s3.e2" ddi="false" flags="True" e1_name="rifampin" e2_name="warfarin" e1_pos="4" e2_pos="18" path="4@@2@@7@@10@@16@@20@@18@@">rifampin@@@@prep_of@@administration@@nsubj@@resulted@@prep_in@@need@@prep_for@@dose@@prep_of@@mg@@nn@@warfarin</pair>  
+      <pair id="DDI-MedLine.d116.s3.p2" e1="DDI-MedLine.d116.s3.e1" e2="DDI-MedLine.d116.s3.e2" ddi="false" flags="True" e1_name="warfarin" e2_name="warfarin" e1_pos="6" e2_pos="18" path="6@@2@@7@@10@@16@@20@@18@@">warfarin@@@@prep_of@@administration@@nsubj@@resulted@@prep_in@@need@@prep_for@@dose@@prep_of@@mg@@nn@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d116.s4" text="Withdrawal of rifampin decreased the warfarin requirement by 50%. " new_text="Withdrawal@@of@@rifampin@@decreased@@the@@warfarin@@requirement@@by@@50%@@.@@"> 
+      <entity id="DDI-MedLine.d116.s4.e0" charOffset="14-21" type="drug" text="rifampin" position="2"/>  
+      <entity id="DDI-MedLine.d116.s4.e1" charOffset="37-44" type="drug" text="warfarin" position="5"/>  
+      <pair id="DDI-MedLine.d116.s4.p0" e1="DDI-MedLine.d116.s4.e0" e2="DDI-MedLine.d116.s4.e1" ddi="true" type="mechanism" flags="True" e1_name="rifampin" e2_name="warfarin" e1_pos="2" e2_pos="5" path="2@@0@@3@@6@@5@@">rifampin@@@@prep_of@@Withdrawal@@nsubj@@decreased@@dobj@@requirement@@nn@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d116.s5" text="This effect may be mediated by the ability of rifampin to induce microsomal enzymes and, thus, the catabolism of warfarin. " new_text="This@@effect@@may@@be@@mediated@@by@@the@@ability@@of@@rifampin@@to@@induce@@microsomal@@enzymes@@and@@,@@thus@@,@@the@@catabolism@@of@@warfarin@@.@@"> 
+      <entity id="DDI-MedLine.d116.s5.e0" charOffset="46-53" type="drug" text="rifampin" position="9"/>  
+      <entity id="DDI-MedLine.d116.s5.e1" charOffset="113-120" type="drug" text="warfarin" position="21"/>  
+      <pair id="DDI-MedLine.d116.s5.p0" e1="DDI-MedLine.d116.s5.e0" e2="DDI-MedLine.d116.s5.e1" ddi="true" type="mechanism" flags="True" e1_name="rifampin" e2_name="warfarin" e1_pos="9" e2_pos="21" path="9@@7@@4@@11@@19@@21@@">rifampin@@@@prep_of@@ability@@agent@@mediated@@xcomp@@induce@@dep@@catabolism@@prep_of@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d116.s6" text="The effect of rifampin on the warfarin requirement of our patient appeared to be maximal 5 to 7 days after the initiation of rifampin and extended a similar length of time after rifampin withdrawal. " new_text="The@@effect@@of@@rifampin@@on@@the@@warfarin@@requirement@@of@@our@@patient@@appeared@@to@@be@@maximal@@5@@to@@7@@days@@after@@the@@initiation@@of@@rifampin@@and@@extended@@a@@similar@@length@@of@@time@@after@@rifampin@@withdrawal@@.@@"> 
+      <entity id="DDI-MedLine.d116.s6.e0" charOffset="14-21" type="drug" text="rifampin" position="3"/>  
+      <entity id="DDI-MedLine.d116.s6.e1" charOffset="30-37" type="drug" text="warfarin" position="6"/>  
+      <entity id="DDI-MedLine.d116.s6.e2" charOffset="125-132" type="drug" text="rifampin" position="23"/>  
+      <entity id="DDI-MedLine.d116.s6.e3" charOffset="178-185" type="drug" text="rifampin" position="32"/>  
+      <pair id="DDI-MedLine.d116.s6.p0" e1="DDI-MedLine.d116.s6.e0" e2="DDI-MedLine.d116.s6.e1" ddi="true" type="effect" flags="True" e1_name="rifampin" e2_name="warfarin" e1_pos="3" e2_pos="6" path="3@@7@@6@@">rifampin@@@@prep_on@@requirement@@nn@@warfarin</pair>  
+      <pair id="DDI-MedLine.d116.s6.p1" e1="DDI-MedLine.d116.s6.e0" e2="DDI-MedLine.d116.s6.e2" ddi="false" flags="True" e1_name="rifampin" e2_name="rifampin" e1_pos="3" e2_pos="23" path="3@@1@@14@@21@@23@@">rifampin@@@@prep_of@@effect@@xsubj@@maximal@@prep_after@@initiation@@prep_of@@rifampin</pair>  
+      <pair id="DDI-MedLine.d116.s6.p2" e1="DDI-MedLine.d116.s6.e0" e2="DDI-MedLine.d116.s6.e3" ddi="false" flags="True" e1_name="rifampin" e2_name="rifampin" e1_pos="3" e2_pos="32" path="3@@1@@25@@33@@32@@">rifampin@@@@prep_of@@effect@@nsubj@@extended@@prep_after@@withdrawal@@nn@@rifampin</pair>  
+      <pair id="DDI-MedLine.d116.s6.p3" e1="DDI-MedLine.d116.s6.e1" e2="DDI-MedLine.d116.s6.e2" ddi="false" flags="True" e1_name="warfarin" e2_name="rifampin" e1_pos="6" e2_pos="23" path="6@@7@@3@@1@@14@@21@@23@@">warfarin@@@@nn@@requirement@@prep_on@@rifampin@@prep_of@@effect@@xsubj@@maximal@@prep_after@@initiation@@prep_of@@rifampin</pair>  
+      <pair id="DDI-MedLine.d116.s6.p4" e1="DDI-MedLine.d116.s6.e1" e2="DDI-MedLine.d116.s6.e3" ddi="false" flags="True" e1_name="warfarin" e2_name="rifampin" e1_pos="6" e2_pos="32" path="6@@7@@3@@1@@25@@33@@32@@">warfarin@@@@nn@@requirement@@prep_on@@rifampin@@prep_of@@effect@@nsubj@@extended@@prep_after@@withdrawal@@nn@@rifampin</pair>  
+      <pair id="DDI-MedLine.d116.s6.p5" e1="DDI-MedLine.d116.s6.e2" e2="DDI-MedLine.d116.s6.e3" ddi="false" flags="True" e1_name="rifampin" e2_name="rifampin" e1_pos="23" e2_pos="32" path="23@@21@@14@@1@@25@@33@@32@@">rifampin@@@@prep_of@@initiation@@prep_after@@maximal@@xsubj@@effect@@nsubj@@extended@@prep_after@@withdrawal@@nn@@rifampin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d116.s7" text="This interaction appears to be clinically significant." new_text="This@@interaction@@appears@@to@@be@@clinically@@significant@@.@@"/> 
+</document>

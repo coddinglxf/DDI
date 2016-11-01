@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d475"> 
+   <sentence id="DDI-DrugBank.d475.s0" text="No interactions have been observed between nizatidine and theophylline, chlordiazepoxide, lorazepam, lidocaine, phenytoin, and warfarin." new_text="No@@interactions@@have@@been@@observed@@between@@nizatidine@@and@@theophylline@@,@@chlordiazepoxide@@,@@lorazepam@@,@@lidocaine@@,@@phenytoin@@,@@and@@warfarin@@.@@"> 
+      <entity id="DDI-DrugBank.d475.s0.e0" charOffset="43-52" type="drug" text="nizatidine" position="6"/>  
+      <entity id="DDI-DrugBank.d475.s0.e1" charOffset="58-69" type="drug" text="theophylline" position="8"/>  
+      <entity id="DDI-DrugBank.d475.s0.e2" charOffset="72-87" type="drug" text="chlordiazepoxide" position="10"/>  
+      <entity id="DDI-DrugBank.d475.s0.e3" charOffset="90-98" type="drug" text="lorazepam" position="12"/>  
+      <entity id="DDI-DrugBank.d475.s0.e4" charOffset="101-109" type="drug" text="lidocaine" position="14"/>  
+      <entity id="DDI-DrugBank.d475.s0.e5" charOffset="112-120" type="drug" text="phenytoin" position="16"/>  
+      <entity id="DDI-DrugBank.d475.s0.e6" charOffset="127-134" type="drug" text="warfarin" position="19"/>  
+      <pair id="DDI-DrugBank.d475.s0.p0" e1="DDI-DrugBank.d475.s0.e0" e2="DDI-DrugBank.d475.s0.e1" ddi="false" flags="True" e1_name="nizatidine" e2_name="theophylline" e1_pos="6" e2_pos="8" path="6@@8@@">nizatidine@@@@conj_and@@theophylline</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p1" e1="DDI-DrugBank.d475.s0.e0" e2="DDI-DrugBank.d475.s0.e2" ddi="false" flags="True" e1_name="nizatidine" e2_name="chlordiazepoxide" e1_pos="6" e2_pos="10" path="6@@10@@">nizatidine@@@@conj_and@@chlordiazepoxide</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p2" e1="DDI-DrugBank.d475.s0.e0" e2="DDI-DrugBank.d475.s0.e3" ddi="false" flags="True" e1_name="nizatidine" e2_name="lorazepam" e1_pos="6" e2_pos="12" path="6@@12@@">nizatidine@@@@conj_and@@lorazepam</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p3" e1="DDI-DrugBank.d475.s0.e0" e2="DDI-DrugBank.d475.s0.e4" ddi="false" flags="True" e1_name="nizatidine" e2_name="lidocaine" e1_pos="6" e2_pos="14" path="6@@14@@">nizatidine@@@@conj_and@@lidocaine</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p4" e1="DDI-DrugBank.d475.s0.e0" e2="DDI-DrugBank.d475.s0.e5" ddi="false" flags="True" e1_name="nizatidine" e2_name="phenytoin" e1_pos="6" e2_pos="16" path="6@@16@@">nizatidine@@@@conj_and@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p5" e1="DDI-DrugBank.d475.s0.e0" e2="DDI-DrugBank.d475.s0.e6" ddi="false" flags="True" e1_name="nizatidine" e2_name="warfarin" e1_pos="6" e2_pos="19" path="6@@19@@">nizatidine@@@@conj_and@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p6" e1="DDI-DrugBank.d475.s0.e1" e2="DDI-DrugBank.d475.s0.e2" ddi="false" flags="True" e1_name="theophylline" e2_name="chlordiazepoxide" e1_pos="8" e2_pos="10" path="8@@10@@">theophylline@@@@conj_and@@chlordiazepoxide</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p7" e1="DDI-DrugBank.d475.s0.e1" e2="DDI-DrugBank.d475.s0.e3" ddi="false" flags="True" e1_name="theophylline" e2_name="lorazepam" e1_pos="8" e2_pos="12" path="8@@12@@">theophylline@@@@conj_and@@lorazepam</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p8" e1="DDI-DrugBank.d475.s0.e1" e2="DDI-DrugBank.d475.s0.e4" ddi="false" flags="True" e1_name="theophylline" e2_name="lidocaine" e1_pos="8" e2_pos="14" path="8@@14@@">theophylline@@@@conj_and@@lidocaine</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p9" e1="DDI-DrugBank.d475.s0.e1" e2="DDI-DrugBank.d475.s0.e5" ddi="false" flags="True" e1_name="theophylline" e2_name="phenytoin" e1_pos="8" e2_pos="16" path="8@@16@@">theophylline@@@@conj_and@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p10" e1="DDI-DrugBank.d475.s0.e1" e2="DDI-DrugBank.d475.s0.e6" ddi="false" flags="True" e1_name="theophylline" e2_name="warfarin" e1_pos="8" e2_pos="19" path="8@@19@@">theophylline@@@@conj_and@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p11" e1="DDI-DrugBank.d475.s0.e2" e2="DDI-DrugBank.d475.s0.e3" ddi="false" flags="True" e1_name="chlordiazepoxide" e2_name="lorazepam" e1_pos="10" e2_pos="12" path="10@@6@@12@@">chlordiazepoxide@@@@conj_and@@nizatidine@@conj_and@@lorazepam</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p12" e1="DDI-DrugBank.d475.s0.e2" e2="DDI-DrugBank.d475.s0.e4" ddi="false" flags="True" e1_name="chlordiazepoxide" e2_name="lidocaine" e1_pos="10" e2_pos="14" path="10@@6@@14@@">chlordiazepoxide@@@@conj_and@@nizatidine@@conj_and@@lidocaine</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p13" e1="DDI-DrugBank.d475.s0.e2" e2="DDI-DrugBank.d475.s0.e5" ddi="false" flags="True" e1_name="chlordiazepoxide" e2_name="phenytoin" e1_pos="10" e2_pos="16" path="10@@6@@16@@">chlordiazepoxide@@@@conj_and@@nizatidine@@conj_and@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p14" e1="DDI-DrugBank.d475.s0.e2" e2="DDI-DrugBank.d475.s0.e6" ddi="false" flags="True" e1_name="chlordiazepoxide" e2_name="warfarin" e1_pos="10" e2_pos="19" path="10@@6@@19@@">chlordiazepoxide@@@@conj_and@@nizatidine@@conj_and@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p15" e1="DDI-DrugBank.d475.s0.e3" e2="DDI-DrugBank.d475.s0.e4" ddi="false" flags="True" e1_name="lorazepam" e2_name="lidocaine" e1_pos="12" e2_pos="14" path="12@@6@@14@@">lorazepam@@@@conj_and@@nizatidine@@conj_and@@lidocaine</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p16" e1="DDI-DrugBank.d475.s0.e3" e2="DDI-DrugBank.d475.s0.e5" ddi="false" flags="True" e1_name="lorazepam" e2_name="phenytoin" e1_pos="12" e2_pos="16" path="12@@6@@16@@">lorazepam@@@@conj_and@@nizatidine@@conj_and@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p17" e1="DDI-DrugBank.d475.s0.e3" e2="DDI-DrugBank.d475.s0.e6" ddi="false" flags="True" e1_name="lorazepam" e2_name="warfarin" e1_pos="12" e2_pos="19" path="12@@6@@19@@">lorazepam@@@@conj_and@@nizatidine@@conj_and@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p18" e1="DDI-DrugBank.d475.s0.e4" e2="DDI-DrugBank.d475.s0.e5" ddi="false" flags="True" e1_name="lidocaine" e2_name="phenytoin" e1_pos="14" e2_pos="16" path="14@@6@@16@@">lidocaine@@@@conj_and@@nizatidine@@conj_and@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p19" e1="DDI-DrugBank.d475.s0.e4" e2="DDI-DrugBank.d475.s0.e6" ddi="false" flags="True" e1_name="lidocaine" e2_name="warfarin" e1_pos="14" e2_pos="19" path="14@@6@@19@@">lidocaine@@@@conj_and@@nizatidine@@conj_and@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d475.s0.p20" e1="DDI-DrugBank.d475.s0.e5" e2="DDI-DrugBank.d475.s0.e6" ddi="false" flags="True" e1_name="phenytoin" e2_name="warfarin" e1_pos="16" e2_pos="19" path="16@@6@@19@@">phenytoin@@@@conj_and@@nizatidine@@conj_and@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d475.s1" text="Nizatidine does not inhibit the cytochrome P-450-linked drug-metabolizing enzyme system;" new_text="Nizatidine@@does@@not@@inhibit@@the@@cytochrome@@P-450-linked@@drug-metabolizing@@enzyme@@system;@@"> 
+      <entity id="DDI-DrugBank.d475.s1.e0" charOffset="0-9" type="drug" text="Nizatidine" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d475.s2" text="therefore, drug interactions mediated by inhibition of hepatic metabolism are not expected to occur." new_text="therefore@@,@@drug@@interactions@@mediated@@by@@inhibition@@of@@hepatic@@metabolism@@are@@not@@expected@@to@@occur@@.@@"/>  
+   <sentence id="DDI-DrugBank.d475.s3" text="In patients given very high doses (3900 mg) of aspirin daily, increases in serum salicylate levels were seen when nizatidine, 150 mg b.i.d., was administered concurrently." new_text="In@@patients@@given@@very@@high@@doses@@(3900@@mg)@@of@@aspirin@@daily@@,@@increases@@in@@serum@@salicylate@@levels@@were@@seen@@when@@nizatidine@@,@@150@@mg@@b.i.d.@@,@@was@@administered@@concurrently@@.@@"> 
+      <entity id="DDI-DrugBank.d475.s3.e0" charOffset="47-53" type="brand" text="aspirin" position="9"/>  
+      <entity id="DDI-DrugBank.d475.s3.e1" charOffset="81-90" type="group" text="salicylate" position="15"/>  
+      <entity id="DDI-DrugBank.d475.s3.e2" charOffset="114-123" type="drug" text="nizatidine" position="20"/>  
+      <pair id="DDI-DrugBank.d475.s3.p0" e1="DDI-DrugBank.d475.s3.e0" e2="DDI-DrugBank.d475.s3.e1" ddi="false" flags="True" e1_name="aspirin" e2_name="salicylate" e1_pos="9" e2_pos="15" path="9@@10@@7@@2@@1@@18@@12@@16@@15@@">aspirin@@@@nn@@daily@@prep_of@@mg)@@dobj@@given@@partmod@@patients@@prep_in@@seen@@nsubjpass@@increases@@prep_in@@levels@@nn@@salicylate</pair>  
+      <pair id="DDI-DrugBank.d475.s3.p1" e1="DDI-DrugBank.d475.s3.e0" e2="DDI-DrugBank.d475.s3.e2" ddi="true" type="mechanism" flags="True" e1_name="aspirin" e2_name="nizatidine" e1_pos="9" e2_pos="20" path="9@@10@@7@@2@@1@@18@@27@@20@@">aspirin@@@@nn@@daily@@prep_of@@mg)@@dobj@@given@@partmod@@patients@@prep_in@@seen@@advcl@@administered@@nsubjpass@@nizatidine</pair>  
+      <pair id="DDI-DrugBank.d475.s3.p2" e1="DDI-DrugBank.d475.s3.e1" e2="DDI-DrugBank.d475.s3.e2" ddi="false" flags="True" e1_name="salicylate" e2_name="nizatidine" e1_pos="15" e2_pos="20" path="15@@16@@12@@18@@27@@20@@">salicylate@@@@nn@@levels@@prep_in@@increases@@nsubjpass@@seen@@advcl@@administered@@nsubjpass@@nizatidine</pair> 
+   </sentence> 
+</document>

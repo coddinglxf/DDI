@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d4"> 
+   <sentence id="DDI-MedLine.d4.s0" text="[The effect of sandimmune on the activity of mixed-function mono-oxidases in the liver microsomes] The effects of the immunodepressant--the drug sandimmune--on hepatic microsomal monooxygenase activities were studied. " new_text="[The@@effect@@of@@sandimmune@@on@@the@@activity@@of@@mixed-function@@mono-oxidases@@in@@the@@liver@@microsomes]@@The@@effects@@of@@the@@immunodepressant@@--the@@drug@@sandimmune@@--on@@hepatic@@microsomal@@monooxygenase@@activities@@were@@studied@@.@@"> 
+      <entity id="DDI-MedLine.d4.s0.e0" charOffset="15-24" type="brand" text="sandimmune" position="3"/>  
+      <entity id="DDI-MedLine.d4.s0.e1" charOffset="118-133" type="group" text="immunodepressant" position="18"/>  
+      <entity id="DDI-MedLine.d4.s0.e2" charOffset="145-154" type="brand" text="sandimmune" position="21"/>  
+      <pair id="DDI-MedLine.d4.s0.p0" e1="DDI-MedLine.d4.s0.e0" e2="DDI-MedLine.d4.s0.e1" ddi="false" flags="True" e1_name="sandimmune" e2_name="immunodepressant" e1_pos="3" e2_pos="18" path="3@@6@@9@@12@@13@@15@@20@@18@@">sandimmune@@@@prep_on@@activity@@prep_of@@mono-oxidases@@prep_in@@liver@@partmod@@microsomes]@@dobj@@effects@@prep_of@@drug@@amod@@immunodepressant</pair>  
+      <pair id="DDI-MedLine.d4.s0.p1" e1="DDI-MedLine.d4.s0.e0" e2="DDI-MedLine.d4.s0.e2" ddi="false" flags="True" e1_name="sandimmune" e2_name="sandimmune" e1_pos="3" e2_pos="21" path="3@@26@@21@@">sandimmune@@@@amod@@activities@@amod@@sandimmune</pair>  
+      <pair id="DDI-MedLine.d4.s0.p2" e1="DDI-MedLine.d4.s0.e1" e2="DDI-MedLine.d4.s0.e2" ddi="false" flags="True" e1_name="immunodepressant" e2_name="sandimmune" e1_pos="18" e2_pos="21" path="18@@20@@15@@13@@12@@9@@6@@3@@26@@21@@">immunodepressant@@@@amod@@drug@@prep_of@@effects@@dobj@@microsomes]@@partmod@@liver@@prep_in@@mono-oxidases@@prep_of@@activity@@prep_on@@sandimmune@@amod@@activities@@amod@@sandimmune</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d4.s1" text="The agent was found to produce some inhibiting activity against hepatic microsomal 7-ethoxycoumarine deethylase in male Wistar rats in vitro and in vivo experiments. " new_text="The@@agent@@was@@found@@to@@produce@@some@@inhibiting@@activity@@against@@hepatic@@microsomal@@7-ethoxycoumarine@@deethylase@@in@@male@@Wistar@@rats@@in@@vitro@@and@@in@@vivo@@experiments@@.@@"/>  
+   <sentence id="DDI-MedLine.d4.s2" text="When given in a dose of 50 mg/kg, sandimmune produced no statistically significant effect on the duration of hexanal-induced sleep in mice. " new_text="When@@given@@in@@a@@dose@@of@@50@@mg/kg@@,@@sandimmune@@produced@@no@@statistically@@significant@@effect@@on@@the@@duration@@of@@hexanal-induced@@sleep@@in@@mice@@.@@"> 
+      <entity id="DDI-MedLine.d4.s2.e0" charOffset="34-43" type="brand" text="sandimmune" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d4.s3" text="The findings suggest that the agent has slight effects on the tested activities." new_text="The@@findings@@suggest@@that@@the@@agent@@has@@slight@@effects@@on@@the@@tested@@activities@@.@@"/> 
+</document>

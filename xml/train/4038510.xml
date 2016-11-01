@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d130"> 
+   <sentence id="DDI-MedLine.d130.s0" text="High-dose cisplatin with sodium thiosulfate protection.
+" new_text="High-dose@@cisplatin@@with@@sodium thiosulfate@@protection@@.@@"> 
+      <entity id="DDI-MedLine.d130.s0.e0" charOffset="10-18" type="drug" text="cisplatin" position="1"/>  
+      <entity id="DDI-MedLine.d130.s0.e1" charOffset="25-42" type="drug" text="sodium thiosulfate" position="3"/>  
+      <pair id="DDI-MedLine.d130.s0.p0" e1="DDI-MedLine.d130.s0.e0" e2="DDI-MedLine.d130.s0.e1" ddi="true" type="effect" flags="True" e1_name="cisplatin" e2_name="sodium thiosulfate" e1_pos="1" e2_pos="3" path="1@@4@@3@@">cisplatin@@@@prep_with@@protection@@amod@@sodium thiosulfate</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d130.s1" text="Nephrotoxicity frequently limits the dose of cisplatin to less than 120 mg/m2 per injection. " new_text="Nephrotoxicity@@frequently@@limits@@the@@dose@@of@@cisplatin@@to@@less@@than@@120@@mg/m2@@per@@injection@@.@@"> 
+      <entity id="DDI-MedLine.d130.s1.e0" charOffset="45-53" type="drug" text="cisplatin" position="6"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d130.s2" text="Sodium thiosulfate is a neutralizing agent for cisplatin that protects against renal damage. " new_text="Sodium thiosulfate@@is@@a@@neutralizing@@agent@@for@@cisplatin@@that@@protects@@against@@renal@@damage@@.@@"> 
+      <entity id="DDI-MedLine.d130.s2.e0" charOffset="0-17" type="drug" text="Sodium thiosulfate" position="0"/>  
+      <entity id="DDI-MedLine.d130.s2.e1" charOffset="47-55" type="drug" text="cisplatin" position="6"/>  
+      <pair id="DDI-MedLine.d130.s2.p0" e1="DDI-MedLine.d130.s2.e0" e2="DDI-MedLine.d130.s2.e1" ddi="true" type="effect" flags="True" e1_name="Sodium thiosulfate" e2_name="cisplatin" e1_pos="0" e2_pos="6" path="0@@4@@6@@">Sodium thiosulfate@@@@nsubj@@agent@@prep_for@@cisplatin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d130.s3" text="To determine whether injection of thiosulfate would permit larger doses of cisplatin to be administered, a fixed 9.9-g/m2 dose of thiosulfate was given intravenously over three hours concurrently with escalating doses of cisplatin. " new_text="To@@determine@@whether@@injection@@of@@thiosulfate@@would@@permit@@larger@@doses@@of@@cisplatin@@to@@be@@administered@@,@@a@@fixed@@9.9-g/m2@@dose@@of@@thiosulfate@@was@@given@@intravenously@@over@@three@@hours@@concurrently@@with@@escalating@@doses@@of@@cisplatin@@.@@"> 
+      <entity id="DDI-MedLine.d130.s3.e0" charOffset="34-44" type="drug" text="thiosulfate" position="5"/>  
+      <entity id="DDI-MedLine.d130.s3.e1" charOffset="75-83" type="drug" text="cisplatin" position="11"/>  
+      <entity id="DDI-MedLine.d130.s3.e2" charOffset="130-140" type="drug" text="thiosulfate" position="21"/>  
+      <entity id="DDI-MedLine.d130.s3.e3" charOffset="221-229" type="drug" text="cisplatin" position="33"/>  
+      <pair id="DDI-MedLine.d130.s3.p0" e1="DDI-MedLine.d130.s3.e0" e2="DDI-MedLine.d130.s3.e1" ddi="false" flags="True" e1_name="thiosulfate" e2_name="cisplatin" e1_pos="5" e2_pos="11" path="5@@3@@7@@9@@11@@">thiosulfate@@@@prep_of@@injection@@nsubj@@permit@@dobj@@doses@@prep_of@@cisplatin</pair>  
+      <pair id="DDI-MedLine.d130.s3.p1" e1="DDI-MedLine.d130.s3.e0" e2="DDI-MedLine.d130.s3.e2" ddi="false" flags="True" e1_name="thiosulfate" e2_name="thiosulfate" e1_pos="5" e2_pos="21" path="5@@3@@7@@1@@23@@19@@21@@">thiosulfate@@@@prep_of@@injection@@nsubj@@permit@@ccomp@@determine@@advcl@@given@@nsubjpass@@dose@@prep_of@@thiosulfate</pair>  
+      <pair id="DDI-MedLine.d130.s3.p2" e1="DDI-MedLine.d130.s3.e0" e2="DDI-MedLine.d130.s3.e3" ddi="false" flags="True" e1_name="thiosulfate" e2_name="cisplatin" e1_pos="5" e2_pos="33" path="5@@3@@7@@1@@23@@31@@33@@">thiosulfate@@@@prep_of@@injection@@nsubj@@permit@@ccomp@@determine@@advcl@@given@@prep_with@@doses@@prep_of@@cisplatin</pair>  
+      <pair id="DDI-MedLine.d130.s3.p3" e1="DDI-MedLine.d130.s3.e1" e2="DDI-MedLine.d130.s3.e2" ddi="false" flags="True" e1_name="cisplatin" e2_name="thiosulfate" e1_pos="11" e2_pos="21" path="11@@9@@7@@1@@23@@19@@21@@">cisplatin@@@@prep_of@@doses@@dobj@@permit@@ccomp@@determine@@advcl@@given@@nsubjpass@@dose@@prep_of@@thiosulfate</pair>  
+      <pair id="DDI-MedLine.d130.s3.p4" e1="DDI-MedLine.d130.s3.e1" e2="DDI-MedLine.d130.s3.e3" ddi="false" flags="True" e1_name="cisplatin" e2_name="cisplatin" e1_pos="11" e2_pos="33" path="11@@9@@7@@1@@23@@31@@33@@">cisplatin@@@@prep_of@@doses@@dobj@@permit@@ccomp@@determine@@advcl@@given@@prep_with@@doses@@prep_of@@cisplatin</pair>  
+      <pair id="DDI-MedLine.d130.s3.p5" e1="DDI-MedLine.d130.s3.e2" e2="DDI-MedLine.d130.s3.e3" ddi="false" flags="True" e1_name="thiosulfate" e2_name="cisplatin" e1_pos="21" e2_pos="33" path="21@@19@@23@@31@@33@@">thiosulfate@@@@prep_of@@dose@@nsubjpass@@given@@prep_with@@doses@@prep_of@@cisplatin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d130.s4" text="Cisplatin was administered over the last two hours of the thiosulfate infusion. " new_text="Cisplatin@@was@@administered@@over@@the@@last@@two@@hours@@of@@the@@thiosulfate@@infusion@@.@@"> 
+      <entity id="DDI-MedLine.d130.s4.e0" charOffset="0-8" type="drug" text="Cisplatin" position="0"/>  
+      <entity id="DDI-MedLine.d130.s4.e1" charOffset="58-68" type="drug" text="thiosulfate" position="10"/>  
+      <pair id="DDI-MedLine.d130.s4.p0" e1="DDI-MedLine.d130.s4.e0" e2="DDI-MedLine.d130.s4.e1" ddi="false" flags="True" e1_name="Cisplatin" e2_name="thiosulfate" e1_pos="0" e2_pos="10" path="0@@2@@7@@11@@10@@">Cisplatin@@@@nsubjpass@@administered@@prep_over@@hours@@prep_of@@infusion@@amod@@thiosulfate</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d130.s5" text="Using this technique, it was possible to escalate the cisplatin dose to 225 mg/m2 before dose-limiting toxicities were encountered. " new_text="Using@@this@@technique@@,@@it@@was@@possible@@to@@escalate@@the@@cisplatin@@dose@@to@@225@@mg/m2@@before@@dose-limiting@@toxicities@@were@@encountered@@.@@"> 
+      <entity id="DDI-MedLine.d130.s5.e0" charOffset="54-62" type="drug" text="cisplatin" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d130.s6" text="Comparison of cisplatin pharmacokinetics in patients treated with 202.5 mg/m2 plus thiosulfate to those in patients treated with 100 mg/m2 without thiosulfate indicated that there were no changes in the elimination rate constant, volume of distribution, or total body clearance of cisplatin. " new_text="Comparison@@of@@cisplatin@@pharmacokinetics@@in@@patients@@treated@@with@@202.5@@mg/m2@@plus@@thiosulfate@@to@@those@@in@@patients@@treated@@with@@100@@mg/m2@@without@@thiosulfate@@indicated@@that@@there@@were@@no@@changes@@in@@the@@elimination@@rate@@constant@@,@@volume@@of@@distribution@@,@@or@@total@@body@@clearance@@of@@cisplatin@@.@@"> 
+      <entity id="DDI-MedLine.d130.s6.e0" charOffset="14-22" type="drug" text="cisplatin" position="2"/>  
+      <entity id="DDI-MedLine.d130.s6.e1" charOffset="83-93" type="drug" text="thiosulfate" position="11"/>  
+      <entity id="DDI-MedLine.d130.s6.e2" charOffset="147-157" type="drug" text="thiosulfate" position="21"/>  
+      <entity id="DDI-MedLine.d130.s6.e3" charOffset="281-289" type="drug" text="cisplatin" position="43"/>  
+      <pair id="DDI-MedLine.d130.s6.p0" e1="DDI-MedLine.d130.s6.e0" e2="DDI-MedLine.d130.s6.e1" ddi="false" flags="True" e1_name="cisplatin" e2_name="thiosulfate" e1_pos="2" e2_pos="11" path="2@@3@@5@@6@@9@@10@@11@@">cisplatin@@@@nn@@pharmacokinetics@@prep_in@@patients@@partmod@@treated@@prep_with@@mg/m2@@prep@@plus@@dep@@thiosulfate</pair>  
+      <pair id="DDI-MedLine.d130.s6.p1" e1="DDI-MedLine.d130.s6.e0" e2="DDI-MedLine.d130.s6.e2" ddi="false" flags="True" e1_name="cisplatin" e2_name="thiosulfate" e1_pos="2" e2_pos="21" path="2@@3@@5@@6@@13@@15@@16@@21@@">cisplatin@@@@nn@@pharmacokinetics@@prep_in@@patients@@partmod@@treated@@prep_to@@those@@prep_in@@patients@@partmod@@treated@@prep_without@@thiosulfate</pair>  
+      <pair id="DDI-MedLine.d130.s6.p2" e1="DDI-MedLine.d130.s6.e0" e2="DDI-MedLine.d130.s6.e3" ddi="false" flags="True" e1_name="cisplatin" e2_name="cisplatin" e1_pos="2" e2_pos="43" path="2@@3@@0@@22@@25@@41@@43@@">cisplatin@@@@nn@@pharmacokinetics@@prep_of@@Comparison@@nsubj@@indicated@@ccomp@@were@@nsubj@@clearance@@prep_of@@cisplatin</pair>  
+      <pair id="DDI-MedLine.d130.s6.p3" e1="DDI-MedLine.d130.s6.e1" e2="DDI-MedLine.d130.s6.e2" ddi="false" flags="True" e1_name="thiosulfate" e2_name="thiosulfate" e1_pos="11" e2_pos="21" path="11@@10@@9@@6@@13@@15@@16@@21@@">thiosulfate@@@@dep@@plus@@prep@@mg/m2@@prep_with@@treated@@prep_to@@those@@prep_in@@patients@@partmod@@treated@@prep_without@@thiosulfate</pair>  
+      <pair id="DDI-MedLine.d130.s6.p4" e1="DDI-MedLine.d130.s6.e1" e2="DDI-MedLine.d130.s6.e3" ddi="false" flags="True" e1_name="thiosulfate" e2_name="cisplatin" e1_pos="11" e2_pos="43" path="11@@10@@9@@6@@5@@3@@0@@22@@25@@41@@43@@">thiosulfate@@@@dep@@plus@@prep@@mg/m2@@prep_with@@treated@@partmod@@patients@@prep_in@@pharmacokinetics@@prep_of@@Comparison@@nsubj@@indicated@@ccomp@@were@@nsubj@@clearance@@prep_of@@cisplatin</pair>  
+      <pair id="DDI-MedLine.d130.s6.p5" e1="DDI-MedLine.d130.s6.e2" e2="DDI-MedLine.d130.s6.e3" ddi="false" flags="True" e1_name="thiosulfate" e2_name="cisplatin" e1_pos="21" e2_pos="43" path="21@@16@@15@@13@@6@@5@@3@@0@@22@@25@@41@@43@@">thiosulfate@@@@prep_without@@treated@@partmod@@patients@@prep_in@@those@@prep_to@@treated@@partmod@@patients@@prep_in@@pharmacokinetics@@prep_of@@Comparison@@nsubj@@indicated@@ccomp@@were@@nsubj@@clearance@@prep_of@@cisplatin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d130.s7" text="The total drug exposure for the plasma was approximately twofold at the higher cisplatin dose. " new_text="The@@total@@drug@@exposure@@for@@the@@plasma@@was@@approximately@@twofold@@at@@the@@higher@@cisplatin@@dose@@.@@"> 
+      <entity id="DDI-MedLine.d130.s7.e0" charOffset="79-87" type="drug" text="cisplatin" position="13"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d130.s8" text="This study demonstrates that concurrent administration of thiosulfate permits at least a twofold increase in dose and total exposure to cisplatin." new_text="This@@study@@demonstrates@@that@@concurrent@@administration@@of@@thiosulfate@@permits@@at@@least@@a@@twofold@@increase@@in@@dose@@and@@total@@exposure@@to@@cisplatin@@.@@"> 
+      <entity id="DDI-MedLine.d130.s8.e0" charOffset="58-68" type="drug" text="thiosulfate" position="7"/>  
+      <entity id="DDI-MedLine.d130.s8.e1" charOffset="136-144" type="drug" text="cisplatin" position="20"/>  
+      <pair id="DDI-MedLine.d130.s8.p0" e1="DDI-MedLine.d130.s8.e0" e2="DDI-MedLine.d130.s8.e1" ddi="true" type="mechanism" flags="True" e1_name="thiosulfate" e2_name="cisplatin" e1_pos="7" e2_pos="20" path="7@@5@@8@@20@@">thiosulfate@@@@prep_of@@administration@@nsubj@@permits@@prep_to@@cisplatin</pair> 
+   </sentence> 
+</document>

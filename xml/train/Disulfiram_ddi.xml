@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d19"> 
+   <sentence id="DDI-DrugBank.d19.s0" text="Disulfiram appears to decrease the rate at which certain drugs are metabolized and therefore may increase the blood levels and the possibility of clinical toxicity of drugs given concomitantly." new_text="Disulfiram@@appears@@to@@decrease@@the@@rate@@at@@which@@certain@@drugs@@are@@metabolized@@and@@therefore@@may@@increase@@the@@blood@@levels@@and@@the@@possibility@@of@@clinical@@toxicity@@of@@drugs@@given@@concomitantly@@.@@"> 
+      <entity id="DDI-DrugBank.d19.s0.e0" charOffset="0-9" type="drug" text="Disulfiram" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d19.s1" text="DISULFIRAM SHOULD BE USED WITH CAUTION IN THOSE PATIENTS REVEIVING PHENYTOIN AND ITS CONGENERS." new_text="DISULFIRAM@@SHOULD@@BE@@USED@@WITH@@CAUTION@@IN@@THOSE@@PATIENTS@@REVEIVING@@PHENYTOIN@@AND@@ITS@@CONGENERS@@.@@"> 
+      <entity id="DDI-DrugBank.d19.s1.e0" charOffset="0-9" type="drug" text="DISULFIRAM" position="0"/>  
+      <entity id="DDI-DrugBank.d19.s1.e1" charOffset="67-75" type="drug" text="PHENYTOIN" position="10"/>  
+      <pair id="DDI-DrugBank.d19.s1.p0" e1="DDI-DrugBank.d19.s1.e0" e2="DDI-DrugBank.d19.s1.e1" ddi="true" type="advise" flags="True" e1_name="DISULFIRAM" e2_name="PHENYTOIN" e1_pos="0" e2_pos="10" path="0@@2@@3@@10@@">DISULFIRAM@@@@nn@@BE@@nsubj@@USED@@prep_in@@PHENYTOIN</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d19.s2" text="SINCE THE CONCOMITANT ADMINISTRATION OF THESE TWO DRUGS CAN LEAD TO PHENYTOIN INTOXICATION, PRIOR TO ADMINISTERING DISULFIRAM TO A PATIENT ON PHENYTOIN THERAPY, A BASELINE PHENYTOIN SERUM LEVEL SHOULD BE OBTAINED." new_text="SINCE@@THE@@CONCOMITANT@@ADMINISTRATION@@OF@@THESE@@TWO@@DRUGS@@CAN@@LEAD@@TO@@PHENYTOIN@@INTOXICATION@@,@@PRIOR@@TO@@ADMINISTERING@@DISULFIRAM@@TO@@A@@PATIENT@@ON@@PHENYTOIN@@THERAPY@@,@@A@@BASELINE@@PHENYTOIN@@SERUM@@LEVEL@@SHOULD@@BE@@OBTAINED@@.@@"> 
+      <entity id="DDI-DrugBank.d19.s2.e0" charOffset="68-76" type="drug" text="PHENYTOIN" position="11"/>  
+      <entity id="DDI-DrugBank.d19.s2.e1" charOffset="115-124" type="drug" text="DISULFIRAM" position="17"/>  
+      <entity id="DDI-DrugBank.d19.s2.e2" charOffset="142-150" type="drug" text="PHENYTOIN" position="22"/>  
+      <entity id="DDI-DrugBank.d19.s2.e3" charOffset="172-180" type="drug" text="PHENYTOIN" position="27"/>  
+      <pair id="DDI-DrugBank.d19.s2.p0" e1="DDI-DrugBank.d19.s2.e0" e2="DDI-DrugBank.d19.s2.e1" ddi="false" flags="True" e1_name="PHENYTOIN" e2_name="DISULFIRAM" e1_pos="11" e2_pos="17" path="11@@20@@17@@">PHENYTOIN@@@@dobj@@PATIENT@@nn@@DISULFIRAM</pair>  
+      <pair id="DDI-DrugBank.d19.s2.p1" e1="DDI-DrugBank.d19.s2.e0" e2="DDI-DrugBank.d19.s2.e2" ddi="false" flags="True" e1_name="PHENYTOIN" e2_name="PHENYTOIN" e1_pos="11" e2_pos="22" path="11@@20@@23@@22@@">PHENYTOIN@@@@dobj@@PATIENT@@prep_on@@THERAPY@@nn@@PHENYTOIN</pair>  
+      <pair id="DDI-DrugBank.d19.s2.p2" e1="DDI-DrugBank.d19.s2.e0" e2="DDI-DrugBank.d19.s2.e3" ddi="false" flags="True" e1_name="PHENYTOIN" e2_name="PHENYTOIN" e1_pos="11" e2_pos="27" path="11@@7@@32@@31@@27@@">PHENYTOIN@@@@xcomp@@DRUGS@@ccomp@@OBTAINED@@nsubj@@BE@@nn@@PHENYTOIN</pair>  
+      <pair id="DDI-DrugBank.d19.s2.p3" e1="DDI-DrugBank.d19.s2.e1" e2="DDI-DrugBank.d19.s2.e2" ddi="true" type="effect" flags="True" e1_name="DISULFIRAM" e2_name="PHENYTOIN" e1_pos="17" e2_pos="22" path="17@@20@@23@@22@@">DISULFIRAM@@@@nn@@PATIENT@@prep_on@@THERAPY@@nn@@PHENYTOIN</pair>  
+      <pair id="DDI-DrugBank.d19.s2.p4" e1="DDI-DrugBank.d19.s2.e1" e2="DDI-DrugBank.d19.s2.e3" ddi="false" flags="True" e1_name="DISULFIRAM" e2_name="PHENYTOIN" e1_pos="17" e2_pos="27" path="17@@20@@11@@7@@32@@31@@27@@">DISULFIRAM@@@@nn@@PATIENT@@dobj@@PHENYTOIN@@xcomp@@DRUGS@@ccomp@@OBTAINED@@nsubj@@BE@@nn@@PHENYTOIN</pair>  
+      <pair id="DDI-DrugBank.d19.s2.p5" e1="DDI-DrugBank.d19.s2.e2" e2="DDI-DrugBank.d19.s2.e3" ddi="false" flags="True" e1_name="PHENYTOIN" e2_name="PHENYTOIN" e1_pos="22" e2_pos="27" path="22@@23@@20@@11@@7@@32@@31@@27@@">PHENYTOIN@@@@nn@@THERAPY@@prep_on@@PATIENT@@dobj@@PHENYTOIN@@xcomp@@DRUGS@@ccomp@@OBTAINED@@nsubj@@BE@@nn@@PHENYTOIN</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d19.s3" text="SUBSEQUENT TO INITIATION OF DISULFIRAM THERAPY." new_text="SUBSEQUENT@@TO@@INITIATION@@OF@@DISULFIRAM@@THERAPY@@.@@"> 
+      <entity id="DDI-DrugBank.d19.s3.e0" charOffset="28-37" type="drug" text="DISULFIRAM" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d19.s4" text="SERUM LEVELS OF PHENYTOIN SHOULD BE DETERMINED ON DIFFERENT DAYS FOR EVIDENCE OF AN INCREASE OR FOR A CONTINUING RISE IN LEVELS." new_text="SERUM@@LEVELS@@OF@@PHENYTOIN@@SHOULD@@BE@@DETERMINED@@ON@@DIFFERENT@@DAYS@@FOR@@EVIDENCE@@OF@@AN@@INCREASE@@OR@@FOR@@A@@CONTINUING@@RISE@@IN@@LEVELS@@.@@"> 
+      <entity id="DDI-DrugBank.d19.s4.e0" charOffset="16-24" type="drug" text="PHENYTOIN" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d19.s5" text="INCREASED PHENYTOIN LEVELS SHOULD BE TREATED WITH APPROPRIATE DOSAGE ADJUSTMENT." new_text="INCREASED@@PHENYTOIN@@LEVELS@@SHOULD@@BE@@TREATED@@WITH@@APPROPRIATE@@DOSAGE@@ADJUSTMENT@@.@@"> 
+      <entity id="DDI-DrugBank.d19.s5.e0" charOffset="10-18" type="drug" text="PHENYTOIN" position="1"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d19.s6" text="It may be necessary to adjust the dosage of oral anticoagulants upon beginning or stopping disulfiram. since disulfiram may prolong prothrombin time." new_text="It@@may@@be@@necessary@@to@@adjust@@the@@dosage@@of@@oral@@anticoagulants@@upon@@beginning@@or@@stopping@@disulfiram@@.@@since@@disulfiram@@may@@prolong@@prothrombin@@time@@.@@"> 
+      <entity id="DDI-DrugBank.d19.s6.e0" charOffset="49-62" type="group" text="anticoagulants" position="10"/>  
+      <entity id="DDI-DrugBank.d19.s6.e1" charOffset="91-100" type="drug" text="disulfiram" position="15"/>  
+      <entity id="DDI-DrugBank.d19.s6.e2" charOffset="109-118" type="drug" text="disulfiram" position="18"/>  
+      <pair id="DDI-DrugBank.d19.s6.p0" e1="DDI-DrugBank.d19.s6.e0" e2="DDI-DrugBank.d19.s6.e1" ddi="true" type="advise" flags="True" e1_name="anticoagulants" e2_name="disulfiram" e1_pos="10" e2_pos="15" path="10@@7@@5@@12@@15@@">anticoagulants@@@@prep_of@@dosage@@dobj@@adjust@@prepc_upon@@beginning@@dobj@@disulfiram</pair>  
+      <pair id="DDI-DrugBank.d19.s6.p1" e1="DDI-DrugBank.d19.s6.e0" e2="DDI-DrugBank.d19.s6.e2" ddi="false" flags="True" e1_name="anticoagulants" e2_name="disulfiram" e1_pos="10" e2_pos="18" path="10@@7@@5@@12@@15@@20@@18@@">anticoagulants@@@@prep_of@@dosage@@dobj@@adjust@@prepc_upon@@beginning@@dobj@@disulfiram@@dep@@prolong@@nsubj@@disulfiram</pair>  
+      <pair id="DDI-DrugBank.d19.s6.p2" e1="DDI-DrugBank.d19.s6.e1" e2="DDI-DrugBank.d19.s6.e2" ddi="false" flags="True" e1_name="disulfiram" e2_name="disulfiram" e1_pos="15" e2_pos="18" path="15@@20@@18@@">disulfiram@@@@dep@@prolong@@nsubj@@disulfiram</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d19.s7" text="Patients taking isoniazid when disulfiram is given should be observed for the appearance of unsteady gait or marked changes in mental status;" new_text="Patients@@taking@@isoniazid@@when@@disulfiram@@is@@given@@should@@be@@observed@@for@@the@@appearance@@of@@unsteady@@gait@@or@@marked@@changes@@in@@mental@@status;@@"> 
+      <entity id="DDI-DrugBank.d19.s7.e0" charOffset="16-24" type="drug" text="isoniazid" position="2"/>  
+      <entity id="DDI-DrugBank.d19.s7.e1" charOffset="31-40" type="drug" text="disulfiram" position="4"/>  
+      <pair id="DDI-DrugBank.d19.s7.p0" e1="DDI-DrugBank.d19.s7.e0" e2="DDI-DrugBank.d19.s7.e1" ddi="true" type="advise" flags="True" e1_name="isoniazid" e2_name="disulfiram" e1_pos="2" e2_pos="4" path="2@@1@@6@@4@@">isoniazid@@@@acomp@@taking@@advcl@@given@@nsubjpass@@disulfiram</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d19.s8" text="the disulfiram should be discontinued if such signs appear." new_text="the@@disulfiram@@should@@be@@discontinued@@if@@such@@signs@@appear@@.@@"> 
+      <entity id="DDI-DrugBank.d19.s8.e0" charOffset="4-13" type="drug" text="disulfiram" position="1"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d19.s9" text="In rats, simultaneous ingestion of disulfiram and nitrite in the diet for 78 weeks has been reported to cause tumors, and it has been suggested that disulfiram may react with nitrites in the rat stomach to form a nitrosamine, which is tumorigenic." new_text="In@@rats@@,@@simultaneous@@ingestion@@of@@disulfiram@@and@@nitrite@@in@@the@@diet@@for@@78@@weeks@@has@@been@@reported@@to@@cause@@tumors@@,@@and@@it@@has@@been@@suggested@@that@@disulfiram@@may@@react@@with@@nitrites@@in@@the@@rat@@stomach@@to@@form@@a@@nitrosamine@@,@@which@@is@@tumorigenic@@.@@"> 
+      <entity id="DDI-DrugBank.d19.s9.e0" charOffset="35-44" type="drug" text="disulfiram" position="6"/>  
+      <entity id="DDI-DrugBank.d19.s9.e1" charOffset="50-56" type="drug" text="nitrite" position="8"/>  
+      <entity id="DDI-DrugBank.d19.s9.e2" charOffset="149-158" type="drug" text="disulfiram" position="28"/>  
+      <entity id="DDI-DrugBank.d19.s9.e3" charOffset="175-182" type="group" text="nitrites" position="32"/>  
+      <pair id="DDI-DrugBank.d19.s9.p0" e1="DDI-DrugBank.d19.s9.e0" e2="DDI-DrugBank.d19.s9.e1" ddi="true" type="effect" flags="True" e1_name="disulfiram" e2_name="nitrite" e1_pos="6" e2_pos="8" path="6@@8@@">disulfiram@@@@conj_and@@nitrite</pair>  
+      <pair id="DDI-DrugBank.d19.s9.p1" e1="DDI-DrugBank.d19.s9.e0" e2="DDI-DrugBank.d19.s9.e2" ddi="false" flags="True" e1_name="disulfiram" e2_name="disulfiram" e1_pos="6" e2_pos="28" path="6@@4@@17@@26@@30@@28@@">disulfiram@@@@prep_of@@ingestion@@nsubjpass@@reported@@conj_and@@suggested@@ccomp@@react@@nsubj@@disulfiram</pair>  
+      <pair id="DDI-DrugBank.d19.s9.p2" e1="DDI-DrugBank.d19.s9.e0" e2="DDI-DrugBank.d19.s9.e3" ddi="false" flags="True" e1_name="disulfiram" e2_name="nitrites" e1_pos="6" e2_pos="32" path="6@@4@@17@@26@@30@@32@@">disulfiram@@@@prep_of@@ingestion@@nsubjpass@@reported@@conj_and@@suggested@@ccomp@@react@@prep_with@@nitrites</pair>  
+      <pair id="DDI-DrugBank.d19.s9.p3" e1="DDI-DrugBank.d19.s9.e1" e2="DDI-DrugBank.d19.s9.e2" ddi="false" flags="True" e1_name="nitrite" e2_name="disulfiram" e1_pos="8" e2_pos="28" path="8@@4@@17@@26@@30@@28@@">nitrite@@@@prep_of@@ingestion@@nsubjpass@@reported@@conj_and@@suggested@@ccomp@@react@@nsubj@@disulfiram</pair>  
+      <pair id="DDI-DrugBank.d19.s9.p4" e1="DDI-DrugBank.d19.s9.e1" e2="DDI-DrugBank.d19.s9.e3" ddi="false" flags="True" e1_name="nitrite" e2_name="nitrites" e1_pos="8" e2_pos="32" path="8@@4@@17@@26@@30@@32@@">nitrite@@@@prep_of@@ingestion@@nsubjpass@@reported@@conj_and@@suggested@@ccomp@@react@@prep_with@@nitrites</pair>  
+      <pair id="DDI-DrugBank.d19.s9.p5" e1="DDI-DrugBank.d19.s9.e2" e2="DDI-DrugBank.d19.s9.e3" ddi="true" type="effect" flags="True" e1_name="disulfiram" e2_name="nitrites" e1_pos="28" e2_pos="32" path="28@@30@@32@@">disulfiram@@@@nsubj@@react@@prep_with@@nitrites</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d19.s10" text="Disulfiram alone in the rat s diet did not lead to such tumors." new_text="Disulfiram@@alone@@in@@the@@rat@@s@@diet@@did@@not@@lead@@to@@such@@tumors@@.@@"> 
+      <entity id="DDI-DrugBank.d19.s10.e0" charOffset="0-9" type="drug" text="Disulfiram" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d19.s11" text="The relevance of this finding to humans is not known at this time." new_text="The@@relevance@@of@@this@@finding@@to@@humans@@is@@not@@known@@at@@this@@time@@.@@"/> 
+</document>

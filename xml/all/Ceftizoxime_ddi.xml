@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d33"> 
+   <sentence id="DDI-DrugBank.d33.s0" text="Although the occurrence has not been reported with Cefizox, nephrotoxicity has been reported following concomitant administration of other cephalosporins and aminoglycosides." new_text="Although@@the@@occurrence@@has@@not@@been@@reported@@with@@Cefizox@@,@@nephrotoxicity@@has@@been@@reported@@following@@concomitant@@administration@@of@@other@@cephalosporins@@and@@aminoglycosides@@.@@"> 
+      <entity id="DDI-DrugBank.d33.s0.e0" charOffset="51-57" type="brand" text="Cefizox" position="8"/>  
+      <entity id="DDI-DrugBank.d33.s0.e1" charOffset="139-152" type="group" text="cephalosporins" position="19"/>  
+      <entity id="DDI-DrugBank.d33.s0.e2" charOffset="158-172" type="group" text="aminoglycosides" position="21"/>  
+      <pair id="DDI-DrugBank.d33.s0.p0" e1="DDI-DrugBank.d33.s0.e0" e2="DDI-DrugBank.d33.s0.e1" ddi="false" flags="True" e1_name="Cefizox" e2_name="cephalosporins" e1_pos="8" e2_pos="19" path="8@@6@@13@@16@@19@@">Cefizox@@@@prep_with@@reported@@advcl@@reported@@prep_following@@administration@@prep_of@@cephalosporins</pair>  
+      <pair id="DDI-DrugBank.d33.s0.p1" e1="DDI-DrugBank.d33.s0.e0" e2="DDI-DrugBank.d33.s0.e2" ddi="false" flags="True" e1_name="Cefizox" e2_name="aminoglycosides" e1_pos="8" e2_pos="21" path="8@@6@@13@@16@@21@@">Cefizox@@@@prep_with@@reported@@advcl@@reported@@prep_following@@administration@@prep_of@@aminoglycosides</pair>  
+      <pair id="DDI-DrugBank.d33.s0.p2" e1="DDI-DrugBank.d33.s0.e1" e2="DDI-DrugBank.d33.s0.e2" ddi="true" type="effect" flags="True" e1_name="cephalosporins" e2_name="aminoglycosides" e1_pos="19" e2_pos="21" path="19@@21@@">cephalosporins@@@@conj_and@@aminoglycosides</pair> 
+   </sentence> 
+</document>

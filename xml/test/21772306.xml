@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d163"> 
+   <sentence id="DDI-MedLine.d163.s0" text="In vitro activity of minocycline combined with fosfomycin against clinical isolates of methicillin-resistant Staphylococcus aureus.
+" new_text="In@@vitro@@activity@@of@@minocycline@@combined@@with@@fosfomycin@@against@@clinical@@isolates@@of@@methicillin@@-resistant@@Staphylococcus@@aureus@@.@@"> 
+      <entity id="DDI-MedLine.d163.s0.e0" charOffset="21-31" type="drug" text="minocycline" position="4"/>  
+      <entity id="DDI-MedLine.d163.s0.e1" charOffset="47-56" type="drug" text="fosfomycin" position="7"/>  
+      <entity id="DDI-MedLine.d163.s0.e2" charOffset="87-97" type="drug" text="methicillin" position="12"/>  
+      <pair id="DDI-MedLine.d163.s0.p0" e1="DDI-MedLine.d163.s0.e0" e2="DDI-MedLine.d163.s0.e1" ddi="false" flags="True" e1_name="minocycline" e2_name="fosfomycin" e1_pos="4" e2_pos="7" path="4@@2@@5@@7@@">minocycline@@@@prep_of@@activity@@nsubj@@combined@@prep_with@@fosfomycin</pair>  
+      <pair id="DDI-MedLine.d163.s0.p1" e1="DDI-MedLine.d163.s0.e0" e2="DDI-MedLine.d163.s0.e2" ddi="false" flags="True" e1_name="minocycline" e2_name="methicillin" e1_pos="4" e2_pos="12" path="4@@2@@5@@10@@15@@12@@">minocycline@@@@prep_of@@activity@@nsubj@@combined@@prep_against@@isolates@@prep_of@@aureus@@amod@@methicillin</pair>  
+      <pair id="DDI-MedLine.d163.s0.p2" e1="DDI-MedLine.d163.s0.e1" e2="DDI-MedLine.d163.s0.e2" ddi="false" flags="True" e1_name="fosfomycin" e2_name="methicillin" e1_pos="7" e2_pos="12" path="7@@5@@10@@15@@12@@">fosfomycin@@@@prep_with@@combined@@prep_against@@isolates@@prep_of@@aureus@@amod@@methicillin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d163.s1" text="This study aimed to evaluate the in vitro activity of minocycline combined with fosfomycin against isolates of methicillin-resistant Staphylococcus aureus (MRSA). " new_text="This@@study@@aimed@@to@@evaluate@@the@@in@@vitro@@activity@@of@@minocycline@@combined@@with@@fosfomycin@@against@@isolates@@of@@methicillin@@-resistant@@Staphylococcus@@aureus@@(MRSA)@@.@@"> 
+      <entity id="DDI-MedLine.d163.s1.e0" charOffset="54-64" type="drug" text="minocycline" position="10"/>  
+      <entity id="DDI-MedLine.d163.s1.e1" charOffset="80-89" type="drug" text="fosfomycin" position="13"/>  
+      <entity id="DDI-MedLine.d163.s1.e2" charOffset="111-121" type="drug" text="methicillin" position="17"/>  
+      <pair id="DDI-MedLine.d163.s1.p0" e1="DDI-MedLine.d163.s1.e0" e2="DDI-MedLine.d163.s1.e1" ddi="false" flags="True" e1_name="minocycline" e2_name="fosfomycin" e1_pos="10" e2_pos="13" path="10@@8@@4@@11@@12@@13@@">minocycline@@@@prep_of@@activity@@dobj@@evaluate@@prep@@combined@@pcomp@@with@@pobj@@fosfomycin</pair>  
+      <pair id="DDI-MedLine.d163.s1.p1" e1="DDI-MedLine.d163.s1.e0" e2="DDI-MedLine.d163.s1.e2" ddi="false" flags="True" e1_name="minocycline" e2_name="methicillin" e1_pos="10" e2_pos="17" path="10@@8@@4@@11@@12@@13@@15@@21@@17@@">minocycline@@@@prep_of@@activity@@dobj@@evaluate@@prep@@combined@@pcomp@@with@@pobj@@fosfomycin@@prep_against@@isolates@@prep_of@@(MRSA)@@nn@@methicillin</pair>  
+      <pair id="DDI-MedLine.d163.s1.p2" e1="DDI-MedLine.d163.s1.e1" e2="DDI-MedLine.d163.s1.e2" ddi="false" flags="True" e1_name="fosfomycin" e2_name="methicillin" e1_pos="13" e2_pos="17" path="13@@15@@21@@17@@">fosfomycin@@@@prep_against@@isolates@@prep_of@@(MRSA)@@nn@@methicillin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d163.s2" text="A total of 87 clinical isolates of MRSA collected from three Chinese hospitals were included in the study. " new_text="A@@total@@of@@87@@clinical@@isolates@@of@@MRSA@@collected@@from@@three@@Chinese@@hospitals@@were@@included@@in@@the@@study@@.@@"/>  
+   <sentence id="DDI-MedLine.d163.s3" text="The checkerboard method with determination of the fractional IC index (FICI) was used to determine whether antibiotic combinations act synergistically against these isolates. " new_text="The@@checkerboard@@method@@with@@determination@@of@@the@@fractional@@IC@@index@@(FICI)@@was@@used@@to@@determine@@whether@@antibiotic@@combinations@@act@@synergistically@@against@@these@@isolates@@.@@"> 
+      <entity id="DDI-MedLine.d163.s3.e0" charOffset="107-116" type="group" text="antibiotic" position="16"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d163.s4" text="The susceptibility results for minocycline and fosfomycin were interpreted according to the most relevant criteria. " new_text="The@@susceptibility@@results@@for@@minocycline@@and@@fosfomycin@@were@@interpreted@@according@@to@@the@@most@@relevant@@criteria@@.@@"> 
+      <entity id="DDI-MedLine.d163.s4.e0" charOffset="31-41" type="drug" text="minocycline" position="4"/>  
+      <entity id="DDI-MedLine.d163.s4.e1" charOffset="47-56" type="drug" text="fosfomycin" position="6"/>  
+      <pair id="DDI-MedLine.d163.s4.p0" e1="DDI-MedLine.d163.s4.e0" e2="DDI-MedLine.d163.s4.e1" ddi="false" flags="True" e1_name="minocycline" e2_name="fosfomycin" e1_pos="4" e2_pos="6" path="4@@6@@">minocycline@@@@conj_and@@fosfomycin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d163.s5" text="The results demonstrated the following interactions: 76 isolates (87.4%) showed synergistic interactions (FICI   0.5) and 11 isolates (12.6%) showed indifferent interactions (0.5&amp;lt;FICI&amp;lt;4). " new_text="The@@results@@demonstrated@@the@@following@@interactions@@:@@76@@isolates@@(87.4%)@@showed@@synergistic@@interactions@@(FICI@@@@@@0.5)@@and@@11@@isolates@@(12.6%)@@showed@@indifferent@@interactions@@(0.5&amp;lt;FICI&amp;lt;4)@@.@@"/>  
+   <sentence id="DDI-MedLine.d163.s6" text="No antagonistic interactions (FICI   4) were observed. " new_text="No@@antagonistic@@interactions@@(FICI@@@@@@4)@@were@@observed@@.@@"/>  
+   <sentence id="DDI-MedLine.d163.s7" text="The combination of minocycline and fosfomycin can be synergistic against MRSA. " new_text="The@@combination@@of@@minocycline@@and@@fosfomycin@@can@@be@@synergistic@@against@@MRSA@@.@@"> 
+      <entity id="DDI-MedLine.d163.s7.e0" charOffset="19-29" type="drug" text="minocycline" position="3"/>  
+      <entity id="DDI-MedLine.d163.s7.e1" charOffset="35-44" type="drug" text="fosfomycin" position="5"/>  
+      <pair id="DDI-MedLine.d163.s7.p0" e1="DDI-MedLine.d163.s7.e0" e2="DDI-MedLine.d163.s7.e1" ddi="true" type="effect" flags="True" e1_name="minocycline" e2_name="fosfomycin" e1_pos="3" e2_pos="5" path="3@@5@@">minocycline@@@@conj_and@@fosfomycin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d163.s8" text="Further studies are required to determine the potential clinical role of this combination regimen as a therapeutic alternative for certain types of MRSA infections." new_text="Further@@studies@@are@@required@@to@@determine@@the@@potential@@clinical@@role@@of@@this@@combination@@regimen@@as@@a@@therapeutic@@alternative@@for@@certain@@types@@of@@MRSA@@infections@@.@@"/> 
+</document>

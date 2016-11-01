@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d22"> 
+   <sentence id="DDI-DrugBank.d22.s0" text="Aminosalicylic acid may decrease the amount of digoxin (Lanoxin, Lanoxicaps) that gets absorbed into your body." new_text="Aminosalicylic acid@@may@@decrease@@the@@amount@@of@@digoxin@@(@@Lanoxin@@,@@Lanoxicaps@@)@@that@@gets@@absorbed@@into@@your@@body@@.@@"> 
+      <entity id="DDI-DrugBank.d22.s0.e0" charOffset="0-18" type="drug" text="Aminosalicylic acid" position="0"/>  
+      <entity id="DDI-DrugBank.d22.s0.e1" charOffset="47-53" type="drug" text="digoxin" position="6"/>  
+      <entity id="DDI-DrugBank.d22.s0.e2" charOffset="56-62" type="brand" text="Lanoxin" position="8"/>  
+      <entity id="DDI-DrugBank.d22.s0.e3" charOffset="65-74" type="drug" text="Lanoxicaps" position="10"/>  
+      <pair id="DDI-DrugBank.d22.s0.p0" e1="DDI-DrugBank.d22.s0.e0" e2="DDI-DrugBank.d22.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="Aminosalicylic acid" e2_name="digoxin" e1_pos="0" e2_pos="6" path="0@@2@@4@@6@@">Aminosalicylic acid@@@@dep@@decrease@@dobj@@amount@@prep_of@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d22.s0.p1" e1="DDI-DrugBank.d22.s0.e0" e2="DDI-DrugBank.d22.s0.e2" ddi="true" type="mechanism" flags="True" e1_name="Aminosalicylic acid" e2_name="Lanoxin" e1_pos="0" e2_pos="8" path="0@@8@@">Aminosalicylic acid@@@@nsubj@@Lanoxin</pair>  
+      <pair id="DDI-DrugBank.d22.s0.p2" e1="DDI-DrugBank.d22.s0.e0" e2="DDI-DrugBank.d22.s0.e3" ddi="false" flags="True" e1_name="Aminosalicylic acid" e2_name="Lanoxicaps" e1_pos="0" e2_pos="10" path="0@@8@@11@@10@@">Aminosalicylic acid@@@@nsubj@@Lanoxin@@appos@@)@@nn@@Lanoxicaps</pair>  
+      <pair id="DDI-DrugBank.d22.s0.p3" e1="DDI-DrugBank.d22.s0.e1" e2="DDI-DrugBank.d22.s0.e2" ddi="false" flags="True" e1_name="digoxin" e2_name="Lanoxin" e1_pos="6" e2_pos="8" path="6@@4@@2@@0@@8@@">digoxin@@@@prep_of@@amount@@dobj@@decrease@@dep@@Aminosalicylic acid@@nsubj@@Lanoxin</pair>  
+      <pair id="DDI-DrugBank.d22.s0.p4" e1="DDI-DrugBank.d22.s0.e1" e2="DDI-DrugBank.d22.s0.e3" ddi="false" flags="True" e1_name="digoxin" e2_name="Lanoxicaps" e1_pos="6" e2_pos="10" path="6@@4@@2@@0@@8@@11@@10@@">digoxin@@@@prep_of@@amount@@dobj@@decrease@@dep@@Aminosalicylic acid@@nsubj@@Lanoxin@@appos@@)@@nn@@Lanoxicaps</pair>  
+      <pair id="DDI-DrugBank.d22.s0.p5" e1="DDI-DrugBank.d22.s0.e2" e2="DDI-DrugBank.d22.s0.e3" ddi="false" flags="True" e1_name="Lanoxin" e2_name="Lanoxicaps" e1_pos="8" e2_pos="10" path="8@@11@@10@@">Lanoxin@@@@appos@@)@@nn@@Lanoxicaps</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d22.s1" text="In the case that you are taking digoxin while taking aminosalicylic acid, higher doses of digoxin may be needed." new_text="In@@the@@case@@that@@you@@are@@taking@@digoxin@@while@@taking@@aminosalicylic acid@@,@@higher@@doses@@of@@digoxin@@may@@be@@needed@@.@@"> 
+      <entity id="DDI-DrugBank.d22.s1.e0" charOffset="32-38" type="drug" text="digoxin" position="7"/>  
+      <entity id="DDI-DrugBank.d22.s1.e1" charOffset="53-71" type="drug" text="aminosalicylic acid" position="10"/>  
+      <entity id="DDI-DrugBank.d22.s1.e2" charOffset="90-96" type="drug" text="digoxin" position="15"/>  
+      <pair id="DDI-DrugBank.d22.s1.p0" e1="DDI-DrugBank.d22.s1.e0" e2="DDI-DrugBank.d22.s1.e1" ddi="true" type="advise" flags="True" e1_name="digoxin" e2_name="aminosalicylic acid" e1_pos="7" e2_pos="10" path="7@@6@@10@@">digoxin@@@@dobj@@taking@@advcl@@aminosalicylic acid</pair>  
+      <pair id="DDI-DrugBank.d22.s1.p1" e1="DDI-DrugBank.d22.s1.e0" e2="DDI-DrugBank.d22.s1.e2" ddi="false" flags="True" e1_name="digoxin" e2_name="digoxin" e1_pos="7" e2_pos="15" path="7@@6@@2@@18@@13@@15@@">digoxin@@@@dobj@@taking@@dep@@case@@prep_in@@needed@@nsubjpass@@doses@@prep_of@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d22.s1.p2" e1="DDI-DrugBank.d22.s1.e1" e2="DDI-DrugBank.d22.s1.e2" ddi="false" flags="True" e1_name="aminosalicylic acid" e2_name="digoxin" e1_pos="10" e2_pos="15" path="10@@6@@2@@18@@13@@15@@">aminosalicylic acid@@@@advcl@@taking@@dep@@case@@prep_in@@needed@@nsubjpass@@doses@@prep_of@@digoxin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d22.s2" text="Aminosalicylic acid may also decrease the absorption of vitamin B12, which can lead to a deficiency." new_text="Aminosalicylic acid@@may@@also@@decrease@@the@@absorption@@of@@vitamin B12@@,@@which@@can@@lead@@to@@a@@deficiency@@.@@"> 
+      <entity id="DDI-DrugBank.d22.s2.e0" charOffset="0-18" type="drug" text="Aminosalicylic acid" position="0"/>  
+      <entity id="DDI-DrugBank.d22.s2.e1" charOffset="56-66" type="drug" text="vitamin B12" position="7"/>  
+      <pair id="DDI-DrugBank.d22.s2.p0" e1="DDI-DrugBank.d22.s2.e0" e2="DDI-DrugBank.d22.s2.e1" ddi="true" type="mechanism" flags="True" e1_name="Aminosalicylic acid" e2_name="vitamin B12" e1_pos="0" e2_pos="7" path="0@@3@@5@@7@@">Aminosalicylic acid@@@@nsubj@@decrease@@dobj@@absorption@@prep_of@@vitamin B12</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d22.s3" text="Therefore you may need to take a vitamin B12 supplement while taking aminosalicylic acid." new_text="Therefore@@you@@may@@need@@to@@take@@a@@vitamin B12@@supplement@@while@@taking@@aminosalicylic acid@@.@@"> 
+      <entity id="DDI-DrugBank.d22.s3.e0" charOffset="33-43" type="drug" text="vitamin B12" position="7"/>  
+      <entity id="DDI-DrugBank.d22.s3.e1" charOffset="69-87" type="drug" text="aminosalicylic acid" position="11"/>  
+      <pair id="DDI-DrugBank.d22.s3.p0" e1="DDI-DrugBank.d22.s3.e0" e2="DDI-DrugBank.d22.s3.e1" ddi="true" type="advise" flags="True" e1_name="vitamin B12" e2_name="aminosalicylic acid" e1_pos="7" e2_pos="11" path="7@@8@@5@@11@@">vitamin B12@@@@amod@@supplement@@dobj@@take@@advcl@@aminosalicylic acid</pair> 
+   </sentence> 
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d554"> 
+   <sentence id="DDI-DrugBank.d554.s0" text="Certain antibiotic, cisplatin, cyclosporine, diuretic, foscarnet, and vaccines." new_text="Certain@@antibiotic@@,@@cisplatin@@,@@cyclosporine@@,@@diuretic@@,@@foscarnet@@,@@and@@vaccines@@.@@"> 
+      <entity id="DDI-DrugBank.d554.s0.e0" charOffset="8-17" type="group" text="antibiotic" position="1"/>  
+      <entity id="DDI-DrugBank.d554.s0.e1" charOffset="20-28" type="drug" text="cisplatin" position="3"/>  
+      <entity id="DDI-DrugBank.d554.s0.e2" charOffset="31-42" type="drug" text="cyclosporine" position="5"/>  
+      <entity id="DDI-DrugBank.d554.s0.e3" charOffset="45-52" type="group" text="diuretic" position="7"/>  
+      <entity id="DDI-DrugBank.d554.s0.e4" charOffset="55-63" type="drug" text="foscarnet" position="9"/>  
+      <entity id="DDI-DrugBank.d554.s0.e5" charOffset="70-77" type="group" text="vaccines" position="12"/>  
+      <pair id="DDI-DrugBank.d554.s0.p0" e1="DDI-DrugBank.d554.s0.e0" e2="DDI-DrugBank.d554.s0.e1" ddi="false" flags="True" e1_name="antibiotic" e2_name="cisplatin" e1_pos="1" e2_pos="3" path="1@@3@@">antibiotic@@@@appos@@cisplatin</pair>  
+      <pair id="DDI-DrugBank.d554.s0.p1" e1="DDI-DrugBank.d554.s0.e0" e2="DDI-DrugBank.d554.s0.e2" ddi="false" flags="True" e1_name="antibiotic" e2_name="cyclosporine" e1_pos="1" e2_pos="5" path="1@@5@@">antibiotic@@@@appos@@cyclosporine</pair>  
+      <pair id="DDI-DrugBank.d554.s0.p2" e1="DDI-DrugBank.d554.s0.e0" e2="DDI-DrugBank.d554.s0.e3" ddi="false" flags="True" e1_name="antibiotic" e2_name="diuretic" e1_pos="1" e2_pos="7" path="1@@7@@">antibiotic@@@@appos@@diuretic</pair>  
+      <pair id="DDI-DrugBank.d554.s0.p3" e1="DDI-DrugBank.d554.s0.e0" e2="DDI-DrugBank.d554.s0.e4" ddi="false" flags="True" e1_name="antibiotic" e2_name="foscarnet" e1_pos="1" e2_pos="9" path="1@@9@@">antibiotic@@@@appos@@foscarnet</pair>  
+      <pair id="DDI-DrugBank.d554.s0.p4" e1="DDI-DrugBank.d554.s0.e0" e2="DDI-DrugBank.d554.s0.e5" ddi="false" flags="True" e1_name="antibiotic" e2_name="vaccines" e1_pos="1" e2_pos="12" path="1@@12@@">antibiotic@@@@appos@@vaccines</pair>  
+      <pair id="DDI-DrugBank.d554.s0.p5" e1="DDI-DrugBank.d554.s0.e1" e2="DDI-DrugBank.d554.s0.e2" ddi="false" flags="True" e1_name="cisplatin" e2_name="cyclosporine" e1_pos="3" e2_pos="5" path="3@@5@@">cisplatin@@@@conj_and@@cyclosporine</pair>  
+      <pair id="DDI-DrugBank.d554.s0.p6" e1="DDI-DrugBank.d554.s0.e1" e2="DDI-DrugBank.d554.s0.e3" ddi="false" flags="True" e1_name="cisplatin" e2_name="diuretic" e1_pos="3" e2_pos="7" path="3@@7@@">cisplatin@@@@conj_and@@diuretic</pair>  
+      <pair id="DDI-DrugBank.d554.s0.p7" e1="DDI-DrugBank.d554.s0.e1" e2="DDI-DrugBank.d554.s0.e4" ddi="false" flags="True" e1_name="cisplatin" e2_name="foscarnet" e1_pos="3" e2_pos="9" path="3@@9@@">cisplatin@@@@conj_and@@foscarnet</pair>  
+      <pair id="DDI-DrugBank.d554.s0.p8" e1="DDI-DrugBank.d554.s0.e1" e2="DDI-DrugBank.d554.s0.e5" ddi="false" flags="True" e1_name="cisplatin" e2_name="vaccines" e1_pos="3" e2_pos="12" path="3@@12@@">cisplatin@@@@conj_and@@vaccines</pair>  
+      <pair id="DDI-DrugBank.d554.s0.p9" e1="DDI-DrugBank.d554.s0.e2" e2="DDI-DrugBank.d554.s0.e3" ddi="false" flags="True" e1_name="cyclosporine" e2_name="diuretic" e1_pos="5" e2_pos="7" path="5@@1@@7@@">cyclosporine@@@@appos@@antibiotic@@appos@@diuretic</pair>  
+      <pair id="DDI-DrugBank.d554.s0.p10" e1="DDI-DrugBank.d554.s0.e2" e2="DDI-DrugBank.d554.s0.e4" ddi="false" flags="True" e1_name="cyclosporine" e2_name="foscarnet" e1_pos="5" e2_pos="9" path="5@@1@@9@@">cyclosporine@@@@appos@@antibiotic@@appos@@foscarnet</pair>  
+      <pair id="DDI-DrugBank.d554.s0.p11" e1="DDI-DrugBank.d554.s0.e2" e2="DDI-DrugBank.d554.s0.e5" ddi="false" flags="True" e1_name="cyclosporine" e2_name="vaccines" e1_pos="5" e2_pos="12" path="5@@1@@12@@">cyclosporine@@@@appos@@antibiotic@@appos@@vaccines</pair>  
+      <pair id="DDI-DrugBank.d554.s0.p12" e1="DDI-DrugBank.d554.s0.e3" e2="DDI-DrugBank.d554.s0.e4" ddi="false" flags="True" e1_name="diuretic" e2_name="foscarnet" e1_pos="7" e2_pos="9" path="7@@1@@9@@">diuretic@@@@appos@@antibiotic@@appos@@foscarnet</pair>  
+      <pair id="DDI-DrugBank.d554.s0.p13" e1="DDI-DrugBank.d554.s0.e3" e2="DDI-DrugBank.d554.s0.e5" ddi="false" flags="True" e1_name="diuretic" e2_name="vaccines" e1_pos="7" e2_pos="12" path="7@@1@@12@@">diuretic@@@@appos@@antibiotic@@appos@@vaccines</pair>  
+      <pair id="DDI-DrugBank.d554.s0.p14" e1="DDI-DrugBank.d554.s0.e4" e2="DDI-DrugBank.d554.s0.e5" ddi="false" flags="True" e1_name="foscarnet" e2_name="vaccines" e1_pos="9" e2_pos="12" path="9@@1@@12@@">foscarnet@@@@appos@@antibiotic@@appos@@vaccines</pair> 
+   </sentence> 
+</document>

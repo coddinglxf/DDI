@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d109"> 
+   <sentence id="DDI-DrugBank.d109.s0" text="Ketoconazole/Itraconazole, Macrolides, Including Erythromycin" new_text="Ketoconazole@@/@@Itraconazole@@,@@Macrolides@@,@@Including@@Erythromycin@@"> 
+      <entity id="DDI-DrugBank.d109.s0.e0" charOffset="0-11" type="drug" text="Ketoconazole" position="0"/>  
+      <entity id="DDI-DrugBank.d109.s0.e1" charOffset="13-24" type="drug" text="Itraconazole" position="2"/>  
+      <entity id="DDI-DrugBank.d109.s0.e2" charOffset="27-36" type="group" text="Macrolides" position="4"/>  
+      <entity id="DDI-DrugBank.d109.s0.e3" charOffset="49-60" type="drug" text="Erythromycin" position="7"/>  
+      <pair id="DDI-DrugBank.d109.s0.p0" e1="DDI-DrugBank.d109.s0.e0" e2="DDI-DrugBank.d109.s0.e1" ddi="false" flags="True" e1_name="Ketoconazole" e2_name="Itraconazole" e1_pos="0" e2_pos="2" path="0@@4@@2@@">Ketoconazole@@@@nn@@Macrolides@@nn@@Itraconazole</pair>  
+      <pair id="DDI-DrugBank.d109.s0.p1" e1="DDI-DrugBank.d109.s0.e0" e2="DDI-DrugBank.d109.s0.e2" ddi="false" flags="True" e1_name="Ketoconazole" e2_name="Macrolides" e1_pos="0" e2_pos="4" path="0@@4@@">Ketoconazole@@@@nn@@Macrolides</pair>  
+      <pair id="DDI-DrugBank.d109.s0.p2" e1="DDI-DrugBank.d109.s0.e0" e2="DDI-DrugBank.d109.s0.e3" ddi="false" flags="True" e1_name="Ketoconazole" e2_name="Erythromycin" e1_pos="0" e2_pos="7" path="0@@4@@7@@">Ketoconazole@@@@nn@@Macrolides@@prep_including@@Erythromycin</pair>  
+      <pair id="DDI-DrugBank.d109.s0.p3" e1="DDI-DrugBank.d109.s0.e1" e2="DDI-DrugBank.d109.s0.e2" ddi="false" flags="True" e1_name="Itraconazole" e2_name="Macrolides" e1_pos="2" e2_pos="4" path="2@@4@@">Itraconazole@@@@nn@@Macrolides</pair>  
+      <pair id="DDI-DrugBank.d109.s0.p4" e1="DDI-DrugBank.d109.s0.e1" e2="DDI-DrugBank.d109.s0.e3" ddi="false" flags="True" e1_name="Itraconazole" e2_name="Erythromycin" e1_pos="2" e2_pos="7" path="2@@4@@7@@">Itraconazole@@@@nn@@Macrolides@@prep_including@@Erythromycin</pair>  
+      <pair id="DDI-DrugBank.d109.s0.p5" e1="DDI-DrugBank.d109.s0.e2" e2="DDI-DrugBank.d109.s0.e3" ddi="false" flags="True" e1_name="Macrolides" e2_name="Erythromycin" e1_pos="4" e2_pos="7" path="4@@7@@">Macrolides@@@@prep_including@@Erythromycin</pair> 
+   </sentence> 
+</document>

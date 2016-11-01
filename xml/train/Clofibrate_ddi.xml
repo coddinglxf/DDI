@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d12"> 
+   <sentence id="DDI-DrugBank.d12.s0" text="Caution should be exercised when anticoagulants are given in conjunction with Atromid-S." new_text="Caution@@should@@be@@exercised@@when@@anticoagulants@@are@@given@@in@@conjunction@@with@@Atromid-S@@.@@"> 
+      <entity id="DDI-DrugBank.d12.s0.e0" charOffset="33-46" type="group" text="anticoagulants" position="5"/>  
+      <entity id="DDI-DrugBank.d12.s0.e1" charOffset="78-86" type="brand" text="Atromid-S" position="11"/>  
+      <pair id="DDI-DrugBank.d12.s0.p0" e1="DDI-DrugBank.d12.s0.e0" e2="DDI-DrugBank.d12.s0.e1" ddi="true" type="advise" flags="True" e1_name="anticoagulants" e2_name="Atromid-S" e1_pos="5" e2_pos="11" path="5@@7@@11@@">anticoagulants@@@@nsubjpass@@given@@prep_with@@Atromid-S</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d12.s1" text="Usually, the dosage of the anticoagulant should be reduced by one-half (depending on the individual case) to maintain the prothrombin time at the desired level to prevent bleeding complications." new_text="Usually@@,@@the@@dosage@@of@@the@@anticoagulant@@should@@be@@reduced@@by@@one-half@@(depending@@on@@the@@individual@@case)@@to@@maintain@@the@@prothrombin@@time@@at@@the@@desired@@level@@to@@prevent@@bleeding@@complications@@.@@"> 
+      <entity id="DDI-DrugBank.d12.s1.e0" charOffset="27-39" type="group" text="anticoagulant" position="6"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d12.s2" text="Frequent prothrombin determinations are advisable until it has been determined definitely that the prothrombin level has been stabilized." new_text="Frequent@@prothrombin@@determinations@@are@@advisable@@until@@it@@has@@been@@determined@@definitely@@that@@the@@prothrombin@@level@@has@@been@@stabilized@@.@@"/>  
+   <sentence id="DDI-DrugBank.d12.s3" text="Atromid-S may displace acidic drugs such as phenytoin or tolbutamide from their binding sites." new_text="Atromid-S@@may@@displace@@acidic@@drugs@@such@@as@@phenytoin@@or@@tolbutamide@@from@@their@@binding@@sites@@.@@"> 
+      <entity id="DDI-DrugBank.d12.s3.e0" charOffset="0-8" type="brand" text="Atromid-S" position="0"/>  
+      <entity id="DDI-DrugBank.d12.s3.e1" charOffset="44-52" type="drug" text="phenytoin" position="7"/>  
+      <entity id="DDI-DrugBank.d12.s3.e2" charOffset="57-67" type="drug" text="tolbutamide" position="9"/>  
+      <pair id="DDI-DrugBank.d12.s3.p0" e1="DDI-DrugBank.d12.s3.e0" e2="DDI-DrugBank.d12.s3.e1" ddi="true" type="mechanism" flags="True" e1_name="Atromid-S" e2_name="phenytoin" e1_pos="0" e2_pos="7" path="0@@2@@4@@7@@">Atromid-S@@@@nsubj@@displace@@dobj@@drugs@@prep_such_as@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d12.s3.p1" e1="DDI-DrugBank.d12.s3.e0" e2="DDI-DrugBank.d12.s3.e2" ddi="true" type="mechanism" flags="True" e1_name="Atromid-S" e2_name="tolbutamide" e1_pos="0" e2_pos="9" path="0@@2@@4@@9@@">Atromid-S@@@@nsubj@@displace@@dobj@@drugs@@prep_such_as@@tolbutamide</pair>  
+      <pair id="DDI-DrugBank.d12.s3.p2" e1="DDI-DrugBank.d12.s3.e1" e2="DDI-DrugBank.d12.s3.e2" ddi="false" flags="True" e1_name="phenytoin" e2_name="tolbutamide" e1_pos="7" e2_pos="9" path="7@@9@@">phenytoin@@@@conj_or@@tolbutamide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d12.s4" text="Caution should be exercised when treating patients with either of these drugs or other highly protein-bound drugs and Atromid-S." new_text="Caution@@should@@be@@exercised@@when@@treating@@patients@@with@@either@@of@@these@@drugs@@or@@other@@highly@@protein-bound@@drugs@@and@@Atromid-S@@.@@"> 
+      <entity id="DDI-DrugBank.d12.s4.e0" charOffset="118-126" type="brand" text="Atromid-S" position="18"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d12.s5" text="The hypoglycemic effect of tolbutamide has been reported to increase when Atromid-S is given concurrently." new_text="The@@hypoglycemic@@effect@@of@@tolbutamide@@has@@been@@reported@@to@@increase@@when@@Atromid-S@@is@@given@@concurrently@@.@@"> 
+      <entity id="DDI-DrugBank.d12.s5.e0" charOffset="27-37" type="drug" text="tolbutamide" position="4"/>  
+      <entity id="DDI-DrugBank.d12.s5.e1" charOffset="74-82" type="brand" text="Atromid-S" position="11"/>  
+      <pair id="DDI-DrugBank.d12.s5.p0" e1="DDI-DrugBank.d12.s5.e0" e2="DDI-DrugBank.d12.s5.e1" ddi="true" type="effect" flags="True" e1_name="tolbutamide" e2_name="Atromid-S" e1_pos="4" e2_pos="11" path="4@@2@@9@@13@@11@@">tolbutamide@@@@prep_of@@effect@@xsubj@@increase@@advcl@@given@@nsubjpass@@Atromid-S</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d12.s6" text="Fulminant rhabdomyolysis has been seen as early as three weeks after initiation of combined therapy with another fibrate and lovastatin but may be seen after several months." new_text="Fulminant@@rhabdomyolysis@@has@@been@@seen@@as@@early@@as@@three@@weeks@@after@@initiation@@of@@combined@@therapy@@with@@another@@fibrate@@and@@lovastatin@@but@@may@@be@@seen@@after@@several@@months@@.@@"> 
+      <entity id="DDI-DrugBank.d12.s6.e0" charOffset="113-119" type="group" text="fibrate" position="17"/>  
+      <entity id="DDI-DrugBank.d12.s6.e1" charOffset="125-134" type="drug" text="lovastatin" position="19"/>  
+      <pair id="DDI-DrugBank.d12.s6.p0" e1="DDI-DrugBank.d12.s6.e0" e2="DDI-DrugBank.d12.s6.e1" ddi="true" type="effect" flags="True" e1_name="fibrate" e2_name="lovastatin" e1_pos="17" e2_pos="19" path="17@@19@@">fibrate@@@@conj_and@@lovastatin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d12.s7" text="For these reasons, it is felt that, in most subjects who have had an unsatisfactory lipid response to either drug alone, the possible benefits of combined therapy with lovastatin and a fibrate do not outweigh the risks of severe myopathy, rhabdomyolysis, and acute renal failure." new_text="For@@these@@reasons@@,@@it@@is@@felt@@that@@,@@in@@most@@subjects@@who@@have@@had@@an@@unsatisfactory@@lipid@@response@@to@@either@@drug@@alone@@,@@the@@possible@@benefits@@of@@combined@@therapy@@with@@lovastatin@@and@@a@@fibrate@@do@@not@@outweigh@@the@@risks@@of@@severe@@myopathy@@,@@rhabdomyolysis@@,@@and@@acute@@renal@@failure@@.@@"> 
+      <entity id="DDI-DrugBank.d12.s7.e0" charOffset="168-177" type="drug" text="lovastatin" position="31"/>  
+      <entity id="DDI-DrugBank.d12.s7.e1" charOffset="185-191" type="group" text="fibrate" position="34"/>  
+      <pair id="DDI-DrugBank.d12.s7.p0" e1="DDI-DrugBank.d12.s7.e0" e2="DDI-DrugBank.d12.s7.e1" ddi="true" type="effect" flags="True" e1_name="lovastatin" e2_name="fibrate" e1_pos="31" e2_pos="34" path="31@@34@@">lovastatin@@@@conj_and@@fibrate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d12.s8" text="While it is not known whether this interaction occurs with fibrates other than gemfibrozil, myopathy and rhabdomyolysis have occasionally been associated with the use of fibrates alone, including clofibrate." new_text="While@@it@@is@@not@@known@@whether@@this@@interaction@@occurs@@with@@fibrates@@other@@than@@gemfibrozil@@,@@myopathy@@and@@rhabdomyolysis@@have@@occasionally@@been@@associated@@with@@the@@use@@of@@fibrates@@alone@@,@@including@@clofibrate@@.@@"> 
+      <entity id="DDI-DrugBank.d12.s8.e0" charOffset="59-66" type="group" text="fibrates" position="10"/>  
+      <entity id="DDI-DrugBank.d12.s8.e1" charOffset="79-89" type="drug" text="gemfibrozil" position="13"/>  
+      <entity id="DDI-DrugBank.d12.s8.e2" charOffset="170-177" type="group" text="fibrates" position="26"/>  
+      <entity id="DDI-DrugBank.d12.s8.e3" charOffset="196-205" type="drug" text="clofibrate" position="30"/>  
+      <pair id="DDI-DrugBank.d12.s8.p0" e1="DDI-DrugBank.d12.s8.e0" e2="DDI-DrugBank.d12.s8.e1" ddi="false" flags="True" e1_name="fibrates" e2_name="gemfibrozil" e1_pos="10" e2_pos="13" path="10@@13@@">fibrates@@@@prep_than@@gemfibrozil</pair>  
+      <pair id="DDI-DrugBank.d12.s8.p1" e1="DDI-DrugBank.d12.s8.e0" e2="DDI-DrugBank.d12.s8.e2" ddi="false" flags="True" e1_name="fibrates" e2_name="fibrates" e1_pos="10" e2_pos="26" path="10@@8@@4@@21@@24@@26@@">fibrates@@@@prep_with@@occurs@@ccomp@@known@@advcl@@associated@@prep_with@@use@@prep_of@@fibrates</pair>  
+      <pair id="DDI-DrugBank.d12.s8.p2" e1="DDI-DrugBank.d12.s8.e0" e2="DDI-DrugBank.d12.s8.e3" ddi="false" flags="True" e1_name="fibrates" e2_name="clofibrate" e1_pos="10" e2_pos="30" path="10@@8@@4@@21@@24@@30@@">fibrates@@@@prep_with@@occurs@@ccomp@@known@@advcl@@associated@@prep_with@@use@@prep_including@@clofibrate</pair>  
+      <pair id="DDI-DrugBank.d12.s8.p3" e1="DDI-DrugBank.d12.s8.e1" e2="DDI-DrugBank.d12.s8.e2" ddi="false" flags="True" e1_name="gemfibrozil" e2_name="fibrates" e1_pos="13" e2_pos="26" path="13@@10@@8@@4@@21@@24@@26@@">gemfibrozil@@@@prep_than@@fibrates@@prep_with@@occurs@@ccomp@@known@@advcl@@associated@@prep_with@@use@@prep_of@@fibrates</pair>  
+      <pair id="DDI-DrugBank.d12.s8.p4" e1="DDI-DrugBank.d12.s8.e1" e2="DDI-DrugBank.d12.s8.e3" ddi="false" flags="True" e1_name="gemfibrozil" e2_name="clofibrate" e1_pos="13" e2_pos="30" path="13@@10@@8@@4@@21@@24@@30@@">gemfibrozil@@@@prep_than@@fibrates@@prep_with@@occurs@@ccomp@@known@@advcl@@associated@@prep_with@@use@@prep_including@@clofibrate</pair>  
+      <pair id="DDI-DrugBank.d12.s8.p5" e1="DDI-DrugBank.d12.s8.e2" e2="DDI-DrugBank.d12.s8.e3" ddi="false" flags="True" e1_name="fibrates" e2_name="clofibrate" e1_pos="26" e2_pos="30" path="26@@24@@30@@">fibrates@@@@prep_of@@use@@prep_including@@clofibrate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d12.s9" text="Therefore, the combined use of lovastatin with fibrates should generally be avoided." new_text="Therefore@@,@@the@@combined@@use@@of@@lovastatin@@with@@fibrates@@should@@generally@@be@@avoided@@.@@"> 
+      <entity id="DDI-DrugBank.d12.s9.e0" charOffset="31-40" type="drug" text="lovastatin" position="6"/>  
+      <entity id="DDI-DrugBank.d12.s9.e1" charOffset="47-54" type="group" text="fibrates" position="8"/>  
+      <pair id="DDI-DrugBank.d12.s9.p0" e1="DDI-DrugBank.d12.s9.e0" e2="DDI-DrugBank.d12.s9.e1" ddi="true" type="advise" flags="True" e1_name="lovastatin" e2_name="fibrates" e1_pos="6" e2_pos="8" path="6@@8@@">lovastatin@@@@prep_with@@fibrates</pair> 
+   </sentence> 
+</document>

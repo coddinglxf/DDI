@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d343"> 
+   <sentence id="DDI-DrugBank.d343.s0" text="Aspirin, warfarin, heparin, NSAIDs" new_text="Aspirin@@,@@warfarin@@,@@heparin@@,@@NSAIDs@@"> 
+      <entity id="DDI-DrugBank.d343.s0.e0" charOffset="0-6" type="brand" text="Aspirin" position="0"/>  
+      <entity id="DDI-DrugBank.d343.s0.e1" charOffset="9-16" type="drug" text="warfarin" position="2"/>  
+      <entity id="DDI-DrugBank.d343.s0.e2" charOffset="19-25" type="drug" text="heparin" position="4"/>  
+      <entity id="DDI-DrugBank.d343.s0.e3" charOffset="28-33" type="group" text="NSAIDs" position="6"/>  
+      <pair id="DDI-DrugBank.d343.s0.p0" e1="DDI-DrugBank.d343.s0.e0" e2="DDI-DrugBank.d343.s0.e1" ddi="false" flags="True" e1_name="Aspirin" e2_name="warfarin" e1_pos="0" e2_pos="2" path="0@@2@@">Aspirin@@@@appos@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d343.s0.p1" e1="DDI-DrugBank.d343.s0.e0" e2="DDI-DrugBank.d343.s0.e2" ddi="false" flags="True" e1_name="Aspirin" e2_name="heparin" e1_pos="0" e2_pos="4" path="0@@4@@">Aspirin@@@@appos@@heparin</pair>  
+      <pair id="DDI-DrugBank.d343.s0.p2" e1="DDI-DrugBank.d343.s0.e0" e2="DDI-DrugBank.d343.s0.e3" ddi="false" flags="True" e1_name="Aspirin" e2_name="NSAIDs" e1_pos="0" e2_pos="6" path="0@@6@@">Aspirin@@@@appos@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d343.s0.p3" e1="DDI-DrugBank.d343.s0.e1" e2="DDI-DrugBank.d343.s0.e2" ddi="false" flags="True" e1_name="warfarin" e2_name="heparin" e1_pos="2" e2_pos="4" path="2@@0@@4@@">warfarin@@@@appos@@Aspirin@@appos@@heparin</pair>  
+      <pair id="DDI-DrugBank.d343.s0.p4" e1="DDI-DrugBank.d343.s0.e1" e2="DDI-DrugBank.d343.s0.e3" ddi="false" flags="True" e1_name="warfarin" e2_name="NSAIDs" e1_pos="2" e2_pos="6" path="2@@0@@6@@">warfarin@@@@appos@@Aspirin@@appos@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d343.s0.p5" e1="DDI-DrugBank.d343.s0.e2" e2="DDI-DrugBank.d343.s0.e3" ddi="false" flags="True" e1_name="heparin" e2_name="NSAIDs" e1_pos="4" e2_pos="6" path="4@@0@@6@@">heparin@@@@appos@@Aspirin@@appos@@NSAIDs</pair> 
+   </sentence> 
+</document>

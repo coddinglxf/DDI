@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d599"> 
+   <sentence id="DDI-DrugBank.d599.s0" text="Excessive glucocorticoid therapy will inhibit the growth-promoting effect of human GH. " new_text="Excessive@@glucocorticoid@@therapy@@will@@inhibit@@the@@growth-promoting@@effect@@of@@human GH@@.@@"> 
+      <entity id="DDI-DrugBank.d599.s0.e0" charOffset="77-84" type="drug" text="human GH" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d599.s1" text="Patients with ACTH deficiency should have their glucocorticoid-replacement dose carefully adjusted to avoid an inhibitory effect on growth. " new_text="Patients@@with@@ACTH@@deficiency@@should@@have@@their@@glucocorticoid@@-replacement@@dose@@carefully@@adjusted@@to@@avoid@@an@@inhibitory@@effect@@on@@growth@@.@@"> 
+      <entity id="DDI-DrugBank.d599.s1.e0" charOffset="48-61" type="group" text="glucocorticoid" position="7"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d599.s2" text="The use of Nutropin in patients with chronic renal insufficiency receiving glucocorticoid therapy has not been evaluated. " new_text="The@@use@@of@@Nutropin@@in@@patients@@with@@chronic@@renal@@insufficiency@@receiving@@glucocorticoid@@therapy@@has@@not@@been@@evaluated@@.@@"> 
+      <entity id="DDI-DrugBank.d599.s2.e0" charOffset="11-18" type="brand" text="Nutropin" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d599.s3" text="Concomitant glucocorticoid therapy may inhibit the growth-promoting effect of Nutropin. " new_text="Concomitant@@glucocorticoid@@therapy@@may@@inhibit@@the@@growth-promoting@@effect@@of@@Nutropin@@.@@"> 
+      <entity id="DDI-DrugBank.d599.s3.e0" charOffset="78-85" type="brand" text="Nutropin" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d599.s4" text="If glucocorticoid replacement is required, the glucocorticoid dose should be carefully adjusted. " new_text="If@@glucocorticoid@@replacement@@is@@required@@,@@the@@glucocorticoid@@dose@@should@@be@@carefully@@adjusted@@.@@"> 
+      <entity id="DDI-DrugBank.d599.s4.e0" charOffset="3-16" type="group" text="glucocorticoid" position="1"/>  
+      <entity id="DDI-DrugBank.d599.s4.e1" charOffset="47-60" type="group" text="glucocorticoid" position="7"/>  
+      <pair id="DDI-DrugBank.d599.s4.p0" e1="DDI-DrugBank.d599.s4.e0" e2="DDI-DrugBank.d599.s4.e1" ddi="false" flags="True" e1_name="glucocorticoid" e2_name="glucocorticoid" e1_pos="1" e2_pos="7" path="1@@2@@4@@12@@8@@7@@">glucocorticoid@@@@amod@@replacement@@nsubjpass@@required@@advcl@@adjusted@@nsubjpass@@dose@@amod@@glucocorticoid</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d599.s5" text="There was no evidence in the controlled studies of Nutropin   s interaction with drugs commonly used in chronic renal insufficiency patients. " new_text="There@@was@@no@@evidence@@in@@the@@controlled@@studies@@of@@Nutropin@@s@@interaction@@with@@drugs@@commonly@@used@@in@@chronic@@renal@@insufficiency@@patients@@.@@"> 
+      <entity id="DDI-DrugBank.d599.s5.e0" charOffset="51-58" type="brand" text="Nutropin" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d599.s6" text="Limited published data indicate that GH treatment increases cytochrome P450 (CP450) mediated antipyrine clearance in man. " new_text="Limited@@published@@data@@indicate@@that@@GH@@treatment@@increases@@cytochrome@@P450@@(CP450)@@mediated@@antipyrine@@clearance@@in@@man@@.@@"> 
+      <entity id="DDI-DrugBank.d599.s6.e0" charOffset="37-38" type="drug" text="GH" position="5"/>  
+      <entity id="DDI-DrugBank.d599.s6.e1" charOffset="93-102" type="drug" text="antipyrine" position="12"/>  
+      <pair id="DDI-DrugBank.d599.s6.p0" e1="DDI-DrugBank.d599.s6.e0" e2="DDI-DrugBank.d599.s6.e1" ddi="true" type="mechanism" flags="True" e1_name="GH" e2_name="antipyrine" e1_pos="5" e2_pos="12" path="5@@7@@8@@13@@12@@">GH@@@@nn@@increases@@nsubj@@cytochrome@@dobj@@clearance@@nn@@antipyrine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d599.s7" text="These data suggest that GH administration may alter the clearance of compounds known to be metabolized by CP450 liver enzymes (e.g., corticosteroids, sex steroids, anticonvulsants, cyclosporin). " new_text="These@@data@@suggest@@that@@GH@@administration@@may@@alter@@the@@clearance@@of@@compounds@@known@@to@@be@@metabolized@@by@@CP450@@liver@@enzymes@@(e.g.@@,@@corticosteroids@@,@@sex steroids@@,@@anticonvulsants@@,@@cyclosporin@@)@@.@@"> 
+      <entity id="DDI-DrugBank.d599.s7.e0" charOffset="24-25" type="drug" text="GH" position="4"/>  
+      <entity id="DDI-DrugBank.d599.s7.e1" charOffset="133-147" type="group" text="corticosteroids" position="22"/>  
+      <entity id="DDI-DrugBank.d599.s7.e2" charOffset="150-161" type="group" text="sex steroids" position="24"/>  
+      <entity id="DDI-DrugBank.d599.s7.e3" charOffset="164-178" type="group" text="anticonvulsants" position="26"/>  
+      <entity id="DDI-DrugBank.d599.s7.e4" charOffset="181-191" type="drug" text="cyclosporin" position="28"/>  
+      <pair id="DDI-DrugBank.d599.s7.p0" e1="DDI-DrugBank.d599.s7.e0" e2="DDI-DrugBank.d599.s7.e1" ddi="true" type="mechanism" flags="True" e1_name="GH" e2_name="corticosteroids" e1_pos="4" e2_pos="22" path="4@@5@@7@@9@@11@@12@@15@@29@@22@@">GH@@@@nn@@administration@@nsubj@@alter@@dobj@@clearance@@prep_of@@compounds@@partmod@@known@@xcomp@@metabolized@@dobj@@)@@dep@@corticosteroids</pair>  
+      <pair id="DDI-DrugBank.d599.s7.p1" e1="DDI-DrugBank.d599.s7.e0" e2="DDI-DrugBank.d599.s7.e2" ddi="true" type="mechanism" flags="True" e1_name="GH" e2_name="sex steroids" e1_pos="4" e2_pos="24" path="4@@5@@7@@9@@11@@12@@15@@29@@24@@">GH@@@@nn@@administration@@nsubj@@alter@@dobj@@clearance@@prep_of@@compounds@@partmod@@known@@xcomp@@metabolized@@dobj@@)@@dep@@sex steroids</pair>  
+      <pair id="DDI-DrugBank.d599.s7.p2" e1="DDI-DrugBank.d599.s7.e0" e2="DDI-DrugBank.d599.s7.e3" ddi="true" type="mechanism" flags="True" e1_name="GH" e2_name="anticonvulsants" e1_pos="4" e2_pos="26" path="4@@5@@7@@9@@11@@12@@15@@29@@26@@">GH@@@@nn@@administration@@nsubj@@alter@@dobj@@clearance@@prep_of@@compounds@@partmod@@known@@xcomp@@metabolized@@dobj@@)@@dep@@anticonvulsants</pair>  
+      <pair id="DDI-DrugBank.d599.s7.p3" e1="DDI-DrugBank.d599.s7.e0" e2="DDI-DrugBank.d599.s7.e4" ddi="true" type="mechanism" flags="True" e1_name="GH" e2_name="cyclosporin" e1_pos="4" e2_pos="28" path="4@@5@@7@@9@@11@@12@@15@@29@@28@@">GH@@@@nn@@administration@@nsubj@@alter@@dobj@@clearance@@prep_of@@compounds@@partmod@@known@@xcomp@@metabolized@@dobj@@)@@amod@@cyclosporin</pair>  
+      <pair id="DDI-DrugBank.d599.s7.p4" e1="DDI-DrugBank.d599.s7.e1" e2="DDI-DrugBank.d599.s7.e2" ddi="false" flags="True" e1_name="corticosteroids" e2_name="sex steroids" e1_pos="22" e2_pos="24" path="22@@29@@24@@">corticosteroids@@@@dep@@)@@dep@@sex steroids</pair>  
+      <pair id="DDI-DrugBank.d599.s7.p5" e1="DDI-DrugBank.d599.s7.e1" e2="DDI-DrugBank.d599.s7.e3" ddi="false" flags="True" e1_name="corticosteroids" e2_name="anticonvulsants" e1_pos="22" e2_pos="26" path="22@@29@@26@@">corticosteroids@@@@dep@@)@@dep@@anticonvulsants</pair>  
+      <pair id="DDI-DrugBank.d599.s7.p6" e1="DDI-DrugBank.d599.s7.e1" e2="DDI-DrugBank.d599.s7.e4" ddi="false" flags="True" e1_name="corticosteroids" e2_name="cyclosporin" e1_pos="22" e2_pos="28" path="22@@29@@28@@">corticosteroids@@@@dep@@)@@amod@@cyclosporin</pair>  
+      <pair id="DDI-DrugBank.d599.s7.p7" e1="DDI-DrugBank.d599.s7.e2" e2="DDI-DrugBank.d599.s7.e3" ddi="false" flags="True" e1_name="sex steroids" e2_name="anticonvulsants" e1_pos="24" e2_pos="26" path="24@@29@@26@@">sex steroids@@@@dep@@)@@dep@@anticonvulsants</pair>  
+      <pair id="DDI-DrugBank.d599.s7.p8" e1="DDI-DrugBank.d599.s7.e2" e2="DDI-DrugBank.d599.s7.e4" ddi="false" flags="True" e1_name="sex steroids" e2_name="cyclosporin" e1_pos="24" e2_pos="28" path="24@@29@@28@@">sex steroids@@@@dep@@)@@amod@@cyclosporin</pair>  
+      <pair id="DDI-DrugBank.d599.s7.p9" e1="DDI-DrugBank.d599.s7.e3" e2="DDI-DrugBank.d599.s7.e4" ddi="false" flags="True" e1_name="anticonvulsants" e2_name="cyclosporin" e1_pos="26" e2_pos="28" path="26@@29@@28@@">anticonvulsants@@@@dep@@)@@amod@@cyclosporin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d599.s8" text="Careful monitoring is advisable when GH is administered in combination with other drugs known to be metabolized by CP450 liver enzymes." new_text="Careful@@monitoring@@is@@advisable@@when@@GH@@is@@administered@@in@@combination@@with@@other@@drugs@@known@@to@@be@@metabolized@@by@@CP450@@liver@@enzymes@@.@@"> 
+      <entity id="DDI-DrugBank.d599.s8.e0" charOffset="37-38" type="drug" text="GH" position="5"/> 
+   </sentence> 
+</document>

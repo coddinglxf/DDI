@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d698"> 
+   <sentence id="DDI-DrugBank.d698.s0" text="Interactions for Vitamin B2 (Riboflavin):  Alcohol - impairs the intestinal absorption of riboflavin" new_text="Interactions@@for@@Vitamin B2@@(@@Riboflavin@@)@@:@@Alcohol@@-@@impairs@@the@@intestinal@@absorption@@of@@riboflavin@@"> 
+      <entity id="DDI-DrugBank.d698.s0.e0" charOffset="17-26" type="drug" text="Vitamin B2" position="2"/>  
+      <entity id="DDI-DrugBank.d698.s0.e1" charOffset="29-38" type="drug" text="Riboflavin" position="4"/>  
+      <entity id="DDI-DrugBank.d698.s0.e2" charOffset="43-49" type="drug" text="Alcohol" position="7"/>  
+      <entity id="DDI-DrugBank.d698.s0.e3" charOffset="90-99" type="drug" text="riboflavin" position="14"/>  
+      <pair id="DDI-DrugBank.d698.s0.p0" e1="DDI-DrugBank.d698.s0.e0" e2="DDI-DrugBank.d698.s0.e1" ddi="false" flags="True" e1_name="Vitamin B2" e2_name="Riboflavin" e1_pos="2" e2_pos="4" path="2@@5@@4@@">Vitamin B2@@@@nn@@)@@nn@@Riboflavin</pair>  
+      <pair id="DDI-DrugBank.d698.s0.p1" e1="DDI-DrugBank.d698.s0.e0" e2="DDI-DrugBank.d698.s0.e2" ddi="false" flags="True" e1_name="Vitamin B2" e2_name="Alcohol" e1_pos="2" e2_pos="7" path="2@@5@@0@@7@@">Vitamin B2@@@@nn@@)@@prep_for@@Interactions@@dep@@Alcohol</pair>  
+      <pair id="DDI-DrugBank.d698.s0.p2" e1="DDI-DrugBank.d698.s0.e0" e2="DDI-DrugBank.d698.s0.e3" ddi="false" flags="True" e1_name="Vitamin B2" e2_name="riboflavin" e1_pos="2" e2_pos="14" path="2@@5@@0@@9@@12@@14@@">Vitamin B2@@@@nn@@)@@prep_for@@Interactions@@nsubj@@impairs@@dobj@@absorption@@prep_of@@riboflavin</pair>  
+      <pair id="DDI-DrugBank.d698.s0.p3" e1="DDI-DrugBank.d698.s0.e1" e2="DDI-DrugBank.d698.s0.e2" ddi="false" flags="True" e1_name="Riboflavin" e2_name="Alcohol" e1_pos="4" e2_pos="7" path="4@@5@@0@@7@@">Riboflavin@@@@nn@@)@@prep_for@@Interactions@@dep@@Alcohol</pair>  
+      <pair id="DDI-DrugBank.d698.s0.p4" e1="DDI-DrugBank.d698.s0.e1" e2="DDI-DrugBank.d698.s0.e3" ddi="false" flags="True" e1_name="Riboflavin" e2_name="riboflavin" e1_pos="4" e2_pos="14" path="4@@5@@0@@9@@12@@14@@">Riboflavin@@@@nn@@)@@prep_for@@Interactions@@nsubj@@impairs@@dobj@@absorption@@prep_of@@riboflavin</pair>  
+      <pair id="DDI-DrugBank.d698.s0.p5" e1="DDI-DrugBank.d698.s0.e2" e2="DDI-DrugBank.d698.s0.e3" ddi="true" type="mechanism" flags="True" e1_name="Alcohol" e2_name="riboflavin" e1_pos="7" e2_pos="14" path="7@@0@@9@@12@@14@@">Alcohol@@@@dep@@Interactions@@nsubj@@impairs@@dobj@@absorption@@prep_of@@riboflavin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d698.s1" text="Probenecid - concurrent use decreases gastrointestinal absorption of riboflavin; " new_text="Probenecid@@-@@concurrent@@use@@decreases@@gastrointestinal@@absorption@@of@@riboflavin@@;@@"> 
+      <entity id="DDI-DrugBank.d698.s1.e0" charOffset="0-9" type="drug" text="Probenecid" position="0"/>  
+      <entity id="DDI-DrugBank.d698.s1.e1" charOffset="69-78" type="drug" text="riboflavin" position="8"/>  
+      <pair id="DDI-DrugBank.d698.s1.p0" e1="DDI-DrugBank.d698.s1.e0" e2="DDI-DrugBank.d698.s1.e1" ddi="true" type="mechanism" flags="True" e1_name="Probenecid" e2_name="riboflavin" e1_pos="0" e2_pos="8" path="0@@8@@">Probenecid@@@@prep_of@@riboflavin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d698.s2" text="requirements for riboflavin may be increased in patients receiving probenecid." new_text="requirements@@for@@riboflavin@@may@@be@@increased@@in@@patients@@receiving@@probenecid@@.@@"> 
+      <entity id="DDI-DrugBank.d698.s2.e0" charOffset="17-26" type="drug" text="riboflavin" position="2"/>  
+      <entity id="DDI-DrugBank.d698.s2.e1" charOffset="67-76" type="drug" text="probenecid" position="9"/>  
+      <pair id="DDI-DrugBank.d698.s2.p0" e1="DDI-DrugBank.d698.s2.e0" e2="DDI-DrugBank.d698.s2.e1" ddi="true" type="effect" flags="True" e1_name="riboflavin" e2_name="probenecid" e1_pos="2" e2_pos="9" path="2@@0@@5@@7@@8@@9@@">riboflavin@@@@prep_for@@requirements@@nsubjpass@@increased@@prep_in@@patients@@partmod@@receiving@@acomp@@probenecid</pair> 
+   </sentence> 
+</document>

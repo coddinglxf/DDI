@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d266"> 
+   <sentence id="DDI-DrugBank.d266.s0" text="In vitro studies have shown CASODEX can displace coumarin anticoagulants, such as warfarin, from their protein-binding sites." new_text="In@@vitro@@studies@@have@@shown@@CASODEX@@can@@displace@@coumarin anticoagulant@@s@@,@@such@@as@@warfarin@@,@@from@@their@@protein-binding@@sites@@.@@"> 
+      <entity id="DDI-DrugBank.d266.s0.e0" charOffset="28-34" type="brand" text="CASODEX" position="5"/>  
+      <entity id="DDI-DrugBank.d266.s0.e1" charOffset="49-70" type="group" text="coumarin anticoagulant" position="8"/>  
+      <entity id="DDI-DrugBank.d266.s0.e2" charOffset="82-89" type="drug" text="warfarin" position="13"/>  
+      <pair id="DDI-DrugBank.d266.s0.p0" e1="DDI-DrugBank.d266.s0.e0" e2="DDI-DrugBank.d266.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="CASODEX" e2_name="coumarin anticoagulant" e1_pos="5" e2_pos="8" path="5@@7@@9@@8@@">CASODEX@@@@nsubj@@displace@@dobj@@s@@amod@@coumarin anticoagulant</pair>  
+      <pair id="DDI-DrugBank.d266.s0.p1" e1="DDI-DrugBank.d266.s0.e0" e2="DDI-DrugBank.d266.s0.e2" ddi="true" type="mechanism" flags="True" e1_name="CASODEX" e2_name="warfarin" e1_pos="5" e2_pos="13" path="5@@7@@9@@13@@">CASODEX@@@@nsubj@@displace@@dobj@@s@@prep_such_as@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d266.s0.p2" e1="DDI-DrugBank.d266.s0.e1" e2="DDI-DrugBank.d266.s0.e2" ddi="false" flags="True" e1_name="coumarin anticoagulant" e2_name="warfarin" e1_pos="8" e2_pos="13" path="8@@9@@13@@">coumarin anticoagulant@@@@amod@@s@@prep_such_as@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d266.s1" text="It is recommended that if CASODEX is started in patients already receiving coumarin anticoagulants, prothrombin times should be closely monitored and adjustment of the anticoagulant dose may be necessary." new_text="It@@is@@recommended@@that@@if@@CASODEX@@is@@started@@in@@patients@@already@@receiving@@coumarin anticoagulants@@,@@prothrombin@@times@@should@@be@@closely@@monitored@@and@@adjustment@@of@@the@@anticoagulant@@dose@@may@@be@@necessary@@.@@"> 
+      <entity id="DDI-DrugBank.d266.s1.e0" charOffset="26-32" type="brand" text="CASODEX" position="5"/>  
+      <entity id="DDI-DrugBank.d266.s1.e1" charOffset="75-97" type="group" text="coumarin anticoagulants" position="12"/>  
+      <entity id="DDI-DrugBank.d266.s1.e2" charOffset="168-180" type="group" text="anticoagulant" position="24"/>  
+      <pair id="DDI-DrugBank.d266.s1.p0" e1="DDI-DrugBank.d266.s1.e0" e2="DDI-DrugBank.d266.s1.e1" ddi="true" type="advise" flags="True" e1_name="CASODEX" e2_name="coumarin anticoagulants" e1_pos="5" e2_pos="12" path="5@@7@@9@@11@@12@@">CASODEX@@@@nsubjpass@@started@@prep_in@@patients@@partmod@@receiving@@dobj@@coumarin anticoagulants</pair>  
+      <pair id="DDI-DrugBank.d266.s1.p1" e1="DDI-DrugBank.d266.s1.e0" e2="DDI-DrugBank.d266.s1.e2" ddi="true" type="advise" flags="True" e1_name="CASODEX" e2_name="anticoagulant" e1_pos="5" e2_pos="24" path="5@@7@@19@@28@@21@@25@@24@@">CASODEX@@@@nsubjpass@@started@@advcl@@monitored@@conj_and@@necessary@@nsubj@@adjustment@@prep_of@@dose@@amod@@anticoagulant</pair>  
+      <pair id="DDI-DrugBank.d266.s1.p2" e1="DDI-DrugBank.d266.s1.e1" e2="DDI-DrugBank.d266.s1.e2" ddi="false" flags="True" e1_name="coumarin anticoagulants" e2_name="anticoagulant" e1_pos="12" e2_pos="24" path="12@@11@@9@@7@@19@@28@@21@@25@@24@@">coumarin anticoagulants@@@@dobj@@receiving@@partmod@@patients@@prep_in@@started@@advcl@@monitored@@conj_and@@necessary@@nsubj@@adjustment@@prep_of@@dose@@amod@@anticoagulant</pair> 
+   </sentence> 
+</document>

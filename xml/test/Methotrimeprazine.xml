@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d756"> 
+   <sentence id="DDI-DrugBank.d756.s0" text="Dosages of concomitantly administered opioids should be reduced by approximately half, because levomepromazine amplifies the therapeutic actions and side-effects of opioids. " new_text="Dosages@@of@@concomitantly@@administered@@opioids@@should@@be@@reduced@@by@@approximately@@half@@,@@because@@levomepromazine@@amplifies@@the@@therapeutic@@actions@@and@@side-effects@@of@@opioids@@.@@"> 
+      <entity id="DDI-DrugBank.d756.s0.e0" charOffset="38-44" type="group" text="opioids" position="4"/>  
+      <entity id="DDI-DrugBank.d756.s0.e1" charOffset="95-109" type="drug" text="levomepromazine" position="13"/>  
+      <entity id="DDI-DrugBank.d756.s0.e2" charOffset="165-171" type="group" text="opioids" position="21"/>  
+      <pair id="DDI-DrugBank.d756.s0.p0" e1="DDI-DrugBank.d756.s0.e0" e2="DDI-DrugBank.d756.s0.e1" ddi="true" type="effect" flags="True" e1_name="opioids" e2_name="levomepromazine" e1_pos="4" e2_pos="13" path="4@@0@@7@@14@@13@@">opioids@@@@prep_of@@Dosages@@nsubjpass@@reduced@@advcl@@amplifies@@nsubj@@levomepromazine</pair>  
+      <pair id="DDI-DrugBank.d756.s0.p1" e1="DDI-DrugBank.d756.s0.e0" e2="DDI-DrugBank.d756.s0.e2" ddi="false" flags="True" e1_name="opioids" e2_name="opioids" e1_pos="4" e2_pos="21" path="4@@0@@7@@14@@17@@21@@">opioids@@@@prep_of@@Dosages@@nsubjpass@@reduced@@advcl@@amplifies@@dobj@@actions@@prep_of@@opioids</pair>  
+      <pair id="DDI-DrugBank.d756.s0.p2" e1="DDI-DrugBank.d756.s0.e1" e2="DDI-DrugBank.d756.s0.e2" ddi="true" type="effect" flags="True" e1_name="levomepromazine" e2_name="opioids" e1_pos="13" e2_pos="21" path="13@@14@@17@@21@@">levomepromazine@@@@nsubj@@amplifies@@dobj@@actions@@prep_of@@opioids</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d756.s1" text="Combination with tramadol (Ultram) is associated with increased risk of seizures. " new_text="Combination@@with@@tramadol@@(@@Ultram@@)@@is@@associated@@with@@increased@@risk@@of@@seizures@@.@@"> 
+      <entity id="DDI-DrugBank.d756.s1.e0" charOffset="17-24" type="drug" text="tramadol" position="2"/>  
+      <entity id="DDI-DrugBank.d756.s1.e1" charOffset="27-32" type="brand" text="Ultram" position="4"/>  
+      <pair id="DDI-DrugBank.d756.s1.p0" e1="DDI-DrugBank.d756.s1.e0" e2="DDI-DrugBank.d756.s1.e1" ddi="false" flags="True" e1_name="tramadol" e2_name="Ultram" e1_pos="2" e2_pos="4" path="2@@5@@4@@">tramadol@@@@amod@@)@@nn@@Ultram</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d756.s2" text="Additive sedative effects and confusional states may emerge if levomepromazine is given with benzodiazepines or barbiturates. " new_text="Additive@@sedative@@effects@@and@@confusional@@states@@may@@emerge@@if@@levomepromazine@@is@@given@@with@@benzodiazepines@@or@@barbiturates@@.@@"> 
+      <entity id="DDI-DrugBank.d756.s2.e0" charOffset="63-77" type="drug" text="levomepromazine" position="9"/>  
+      <entity id="DDI-DrugBank.d756.s2.e1" charOffset="93-107" type="group" text="benzodiazepines" position="13"/>  
+      <entity id="DDI-DrugBank.d756.s2.e2" charOffset="112-123" type="group" text="barbiturates" position="15"/>  
+      <pair id="DDI-DrugBank.d756.s2.p0" e1="DDI-DrugBank.d756.s2.e0" e2="DDI-DrugBank.d756.s2.e1" ddi="true" type="effect" flags="True" e1_name="levomepromazine" e2_name="benzodiazepines" e1_pos="9" e2_pos="13" path="9@@11@@13@@">levomepromazine@@@@nsubjpass@@given@@prep_with@@benzodiazepines</pair>  
+      <pair id="DDI-DrugBank.d756.s2.p1" e1="DDI-DrugBank.d756.s2.e0" e2="DDI-DrugBank.d756.s2.e2" ddi="true" type="effect" flags="True" e1_name="levomepromazine" e2_name="barbiturates" e1_pos="9" e2_pos="15" path="9@@11@@15@@">levomepromazine@@@@nsubjpass@@given@@prep_with@@barbiturates</pair>  
+      <pair id="DDI-DrugBank.d756.s2.p2" e1="DDI-DrugBank.d756.s2.e1" e2="DDI-DrugBank.d756.s2.e2" ddi="false" flags="True" e1_name="benzodiazepines" e2_name="barbiturates" e1_pos="13" e2_pos="15" path="13@@15@@">benzodiazepines@@@@conj_or@@barbiturates</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d756.s3" text="This may be avoided by using the lowest dose possible with the substances in question. " new_text="This@@may@@be@@avoided@@by@@using@@the@@lowest@@dose@@possible@@with@@the@@substances@@in@@question@@.@@"/>  
+   <sentence id="DDI-DrugBank.d756.s4" text="Exert particular caution in combining levomepromazine with other anticholinergic drugs (tricyclic antidepressants and antiparkinsonian-agents): Particularly the elderly may develop delirium, high fever, severe obstipation, even ileus and glaucoma. " new_text="Exert@@particular@@caution@@in@@combining@@levomepromazine@@with@@other@@anticholinergic drugs@@(@@tricyclic antidepressants@@and@@antiparkinsonian-agents@@)@@:@@Particularly@@the@@elderly@@may@@develop@@delirium@@,@@high@@fever@@,@@severe@@obstipation@@,@@even@@ileus@@and@@glaucoma@@.@@"> 
+      <entity id="DDI-DrugBank.d756.s4.e0" charOffset="38-52" type="drug" text="levomepromazine" position="5"/>  
+      <entity id="DDI-DrugBank.d756.s4.e1" charOffset="65-85" type="group" text="anticholinergic drugs" position="8"/>  
+      <entity id="DDI-DrugBank.d756.s4.e2" charOffset="88-112" type="group" text="tricyclic antidepressants" position="10"/>  
+      <entity id="DDI-DrugBank.d756.s4.e3" charOffset="118-140" type="group" text="antiparkinsonian-agents" position="12"/>  
+      <pair id="DDI-DrugBank.d756.s4.p0" e1="DDI-DrugBank.d756.s4.e0" e2="DDI-DrugBank.d756.s4.e1" ddi="true" type="advise" flags="True" e1_name="levomepromazine" e2_name="anticholinergic drugs" e1_pos="5" e2_pos="8" path="5@@4@@8@@">levomepromazine@@@@dobj@@combining@@prep_with@@anticholinergic drugs</pair>  
+      <pair id="DDI-DrugBank.d756.s4.p1" e1="DDI-DrugBank.d756.s4.e0" e2="DDI-DrugBank.d756.s4.e2" ddi="true" type="advise" flags="True" e1_name="levomepromazine" e2_name="tricyclic antidepressants" e1_pos="5" e2_pos="10" path="5@@4@@2@@9@@10@@">levomepromazine@@@@dobj@@combining@@prepc_in@@caution@@nsubj@@(@@iobj@@tricyclic antidepressants</pair>  
+      <pair id="DDI-DrugBank.d756.s4.p2" e1="DDI-DrugBank.d756.s4.e0" e2="DDI-DrugBank.d756.s4.e3" ddi="true" type="advise" flags="True" e1_name="levomepromazine" e2_name="antiparkinsonian-agents" e1_pos="5" e2_pos="12" path="5@@4@@2@@9@@12@@">levomepromazine@@@@dobj@@combining@@prepc_in@@caution@@nsubj@@(@@iobj@@antiparkinsonian-agents</pair>  
+      <pair id="DDI-DrugBank.d756.s4.p3" e1="DDI-DrugBank.d756.s4.e1" e2="DDI-DrugBank.d756.s4.e2" ddi="false" flags="True" e1_name="anticholinergic drugs" e2_name="tricyclic antidepressants" e1_pos="8" e2_pos="10" path="8@@4@@2@@9@@10@@">anticholinergic drugs@@@@prep_with@@combining@@prepc_in@@caution@@nsubj@@(@@iobj@@tricyclic antidepressants</pair>  
+      <pair id="DDI-DrugBank.d756.s4.p4" e1="DDI-DrugBank.d756.s4.e1" e2="DDI-DrugBank.d756.s4.e3" ddi="false" flags="True" e1_name="anticholinergic drugs" e2_name="antiparkinsonian-agents" e1_pos="8" e2_pos="12" path="8@@4@@2@@9@@12@@">anticholinergic drugs@@@@prep_with@@combining@@prepc_in@@caution@@nsubj@@(@@iobj@@antiparkinsonian-agents</pair>  
+      <pair id="DDI-DrugBank.d756.s4.p5" e1="DDI-DrugBank.d756.s4.e2" e2="DDI-DrugBank.d756.s4.e3" ddi="false" flags="True" e1_name="tricyclic antidepressants" e2_name="antiparkinsonian-agents" e1_pos="10" e2_pos="12" path="10@@12@@">tricyclic antidepressants@@@@conj_and@@antiparkinsonian-agents</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d756.s5" text="Reduce both the dose of levomepromazine and the dose of the other drug. " new_text="Reduce@@both@@the@@dose@@of@@levomepromazine@@and@@the@@dose@@of@@the@@other@@drug@@.@@"> 
+      <entity id="DDI-DrugBank.d756.s5.e0" charOffset="24-38" type="drug" text="levomepromazine" position="5"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d756.s6" text="If possible, avoid such combinations. " new_text="If@@possible@@,@@avoid@@such@@combinations@@.@@"/>  
+   <sentence id="DDI-DrugBank.d756.s7" text="Caffeine and/or stimulantes of the ephedrine/amphetamine type may counteract the specific actions of levomepromazine. " new_text="Caffeine@@and/or@@stimulantes@@of@@the@@ephedrine@@/@@amphetamine@@type@@may@@counteract@@the@@specific@@actions@@of@@levomepromazine@@.@@"> 
+      <entity id="DDI-DrugBank.d756.s7.e0" charOffset="0-7" type="drug" text="Caffeine" position="0"/>  
+      <entity id="DDI-DrugBank.d756.s7.e1" charOffset="35-43" type="drug" text="ephedrine" position="5"/>  
+      <entity id="DDI-DrugBank.d756.s7.e2" charOffset="45-55" type="drug" text="amphetamine" position="7"/>  
+      <entity id="DDI-DrugBank.d756.s7.e3" charOffset="101-115" type="drug" text="levomepromazine" position="15"/>  
+      <pair id="DDI-DrugBank.d756.s7.p0" e1="DDI-DrugBank.d756.s7.e0" e2="DDI-DrugBank.d756.s7.e1" ddi="false" flags="True" e1_name="Caffeine" e2_name="ephedrine" e1_pos="0" e2_pos="5" path="0@@2@@5@@">Caffeine@@@@amod@@stimulantes@@prep_of@@ephedrine</pair>  
+      <pair id="DDI-DrugBank.d756.s7.p1" e1="DDI-DrugBank.d756.s7.e0" e2="DDI-DrugBank.d756.s7.e2" ddi="false" flags="True" e1_name="Caffeine" e2_name="amphetamine" e1_pos="0" e2_pos="7" path="0@@2@@10@@8@@7@@">Caffeine@@@@amod@@stimulantes@@dep@@counteract@@nsubj@@type@@amod@@amphetamine</pair>  
+      <pair id="DDI-DrugBank.d756.s7.p2" e1="DDI-DrugBank.d756.s7.e0" e2="DDI-DrugBank.d756.s7.e3" ddi="true" type="effect" flags="True" e1_name="Caffeine" e2_name="levomepromazine" e1_pos="0" e2_pos="15" path="0@@2@@10@@13@@15@@">Caffeine@@@@amod@@stimulantes@@dep@@counteract@@dobj@@actions@@prep_of@@levomepromazine</pair>  
+      <pair id="DDI-DrugBank.d756.s7.p3" e1="DDI-DrugBank.d756.s7.e1" e2="DDI-DrugBank.d756.s7.e2" ddi="false" flags="True" e1_name="ephedrine" e2_name="amphetamine" e1_pos="5" e2_pos="7" path="5@@2@@10@@8@@7@@">ephedrine@@@@prep_of@@stimulantes@@dep@@counteract@@nsubj@@type@@amod@@amphetamine</pair>  
+      <pair id="DDI-DrugBank.d756.s7.p4" e1="DDI-DrugBank.d756.s7.e1" e2="DDI-DrugBank.d756.s7.e3" ddi="true" type="effect" flags="True" e1_name="ephedrine" e2_name="levomepromazine" e1_pos="5" e2_pos="15" path="5@@2@@10@@13@@15@@">ephedrine@@@@prep_of@@stimulantes@@dep@@counteract@@dobj@@actions@@prep_of@@levomepromazine</pair>  
+      <pair id="DDI-DrugBank.d756.s7.p5" e1="DDI-DrugBank.d756.s7.e2" e2="DDI-DrugBank.d756.s7.e3" ddi="true" type="effect" flags="True" e1_name="amphetamine" e2_name="levomepromazine" e1_pos="7" e2_pos="15" path="7@@8@@10@@13@@15@@">amphetamine@@@@amod@@type@@nsubj@@counteract@@dobj@@actions@@prep_of@@levomepromazine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d756.s8" text="Concomitant use of these substances should be avoided. " new_text="Concomitant@@use@@of@@these@@substances@@should@@be@@avoided@@.@@"/>  
+   <sentence id="DDI-DrugBank.d756.s9" text="Coffee and black tea should be avoided because they decrease the absorption of levomepromazine considerably. " new_text="Coffee@@and@@black@@tea@@should@@be@@avoided@@because@@they@@decrease@@the@@absorption@@of@@levomepromazine@@considerably@@.@@"> 
+      <entity id="DDI-DrugBank.d756.s9.e0" charOffset="79-93" type="drug" text="levomepromazine" position="13"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d756.s10" text="The same is true for antacids; " new_text="The@@same@@is@@true@@for@@antacids@@;@@"> 
+      <entity id="DDI-DrugBank.d756.s10.e0" charOffset="21-28" type="group" text="antacids" position="5"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d756.s11" text="these should be given 1 to 2 hours before or after oral administration of leveomepromazine." new_text="these@@should@@be@@given@@1@@to@@2@@hours@@before@@or@@after@@oral@@administration@@of@@leveomepromazine@@.@@"> 
+      <entity id="DDI-DrugBank.d756.s11.e0" charOffset="74-89" type="drug" text="leveomepromazine" position="14"/> 
+   </sentence> 
+</document>

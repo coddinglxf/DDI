@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d305"> 
+   <sentence id="DDI-DrugBank.d305.s0" text="Dantrium is metabolized by the liver, and it is theoretically possible that its metabolism may be enhanced by drugs known to induce hepatic microsomal enzymes." new_text="Dantrium@@is@@metabolized@@by@@the@@liver@@,@@and@@it@@is@@theoretically@@possible@@that@@its@@metabolism@@may@@be@@enhanced@@by@@drugs@@known@@to@@induce@@hepatic@@microsomal@@enzymes@@.@@"> 
+      <entity id="DDI-DrugBank.d305.s0.e0" charOffset="0-7" type="brand" text="Dantrium" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d305.s1" text="However, neither phenobarbital nor diazepam appears to affect Dantrium metabolism." new_text="However@@,@@neither@@phenobarbital@@nor@@diazepam@@appears@@to@@affect@@Dantrium@@metabolism@@.@@"> 
+      <entity id="DDI-DrugBank.d305.s1.e0" charOffset="17-29" type="drug" text="phenobarbital" position="3"/>  
+      <entity id="DDI-DrugBank.d305.s1.e1" charOffset="35-42" type="drug" text="diazepam" position="5"/>  
+      <entity id="DDI-DrugBank.d305.s1.e2" charOffset="62-69" type="brand" text="Dantrium" position="9"/>  
+      <pair id="DDI-DrugBank.d305.s1.p0" e1="DDI-DrugBank.d305.s1.e0" e2="DDI-DrugBank.d305.s1.e1" ddi="false" flags="True" e1_name="phenobarbital" e2_name="diazepam" e1_pos="3" e2_pos="5" path="3@@5@@">phenobarbital@@@@conj_nor@@diazepam</pair>  
+      <pair id="DDI-DrugBank.d305.s1.p1" e1="DDI-DrugBank.d305.s1.e0" e2="DDI-DrugBank.d305.s1.e2" ddi="false" flags="True" e1_name="phenobarbital" e2_name="Dantrium" e1_pos="3" e2_pos="9" path="3@@8@@10@@9@@">phenobarbital@@@@xsubj@@affect@@dobj@@metabolism@@nn@@Dantrium</pair>  
+      <pair id="DDI-DrugBank.d305.s1.p2" e1="DDI-DrugBank.d305.s1.e1" e2="DDI-DrugBank.d305.s1.e2" ddi="false" flags="True" e1_name="diazepam" e2_name="Dantrium" e1_pos="5" e2_pos="9" path="5@@8@@10@@9@@">diazepam@@@@xsubj@@affect@@dobj@@metabolism@@nn@@Dantrium</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d305.s2" text="Binding to plasma protein is not significantly altered by diazepam, diphenylhydantoin, or phenylbutazone." new_text="Binding@@to@@plasma@@protein@@is@@not@@significantly@@altered@@by@@diazepam@@,@@diphenylhydantoin@@,@@or@@phenylbutazone@@.@@"> 
+      <entity id="DDI-DrugBank.d305.s2.e0" charOffset="58-65" type="drug" text="diazepam" position="9"/>  
+      <entity id="DDI-DrugBank.d305.s2.e1" charOffset="68-84" type="drug" text="diphenylhydantoin" position="11"/>  
+      <entity id="DDI-DrugBank.d305.s2.e2" charOffset="90-103" type="drug" text="phenylbutazone" position="14"/>  
+      <pair id="DDI-DrugBank.d305.s2.p0" e1="DDI-DrugBank.d305.s2.e0" e2="DDI-DrugBank.d305.s2.e1" ddi="false" flags="True" e1_name="diazepam" e2_name="diphenylhydantoin" e1_pos="9" e2_pos="11" path="9@@11@@">diazepam@@@@conj_or@@diphenylhydantoin</pair>  
+      <pair id="DDI-DrugBank.d305.s2.p1" e1="DDI-DrugBank.d305.s2.e0" e2="DDI-DrugBank.d305.s2.e2" ddi="false" flags="True" e1_name="diazepam" e2_name="phenylbutazone" e1_pos="9" e2_pos="14" path="9@@14@@">diazepam@@@@conj_or@@phenylbutazone</pair>  
+      <pair id="DDI-DrugBank.d305.s2.p2" e1="DDI-DrugBank.d305.s2.e1" e2="DDI-DrugBank.d305.s2.e2" ddi="false" flags="True" e1_name="diphenylhydantoin" e2_name="phenylbutazone" e1_pos="11" e2_pos="14" path="11@@7@@14@@">diphenylhydantoin@@@@agent@@altered@@agent@@phenylbutazone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d305.s3" text="Binding to plasma proteins is reduced by warfarin and clotibrate and increased by tolbutamide." new_text="Binding@@to@@plasma@@proteins@@is@@reduced@@by@@warfarin@@and@@clotibrate@@and@@increased@@by@@tolbutamide@@.@@"> 
+      <entity id="DDI-DrugBank.d305.s3.e0" charOffset="41-48" type="drug" text="warfarin" position="7"/>  
+      <entity id="DDI-DrugBank.d305.s3.e1" charOffset="82-92" type="drug" text="tolbutamide" position="13"/>  
+      <pair id="DDI-DrugBank.d305.s3.p0" e1="DDI-DrugBank.d305.s3.e0" e2="DDI-DrugBank.d305.s3.e1" ddi="false" flags="True" e1_name="warfarin" e2_name="tolbutamide" e1_pos="7" e2_pos="13" path="7@@5@@11@@13@@">warfarin@@@@agent@@reduced@@conj_and@@increased@@prep_by@@tolbutamide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d305.s4" text="Cardiovascular collapse in patients treated simultaneously with varapamil and dantrolene sodium is rare." new_text="Cardiovascular@@collapse@@in@@patients@@treated@@simultaneously@@with@@varapamil@@and@@dantrolene sodium@@is@@rare@@.@@"> 
+      <entity id="DDI-DrugBank.d305.s4.e0" charOffset="78-94" type="drug" text="dantrolene sodium" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d305.s5" text="The combination of therapeutic doses of intravenous dantrolene sodium and verapamil in halothane a-chloralose anesthetized swine has resulted in ventricular fibrillation and cardiovascular collapse in association with marked hyperkalemia." new_text="The@@combination@@of@@therapeutic@@doses@@of@@intravenous@@dantrolene sodium@@and@@verapamil@@in@@halothane@@a-chloralose@@anesthetized@@swine@@has@@resulted@@in@@ventricular@@fibrillation@@and@@cardiovascular@@collapse@@in@@association@@with@@marked@@hyperkalemia@@.@@"> 
+      <entity id="DDI-DrugBank.d305.s5.e0" charOffset="52-68" type="drug" text="dantrolene sodium" position="7"/>  
+      <entity id="DDI-DrugBank.d305.s5.e1" charOffset="74-82" type="drug" text="verapamil" position="9"/>  
+      <entity id="DDI-DrugBank.d305.s5.e2" charOffset="87-95" type="drug" text="halothane" position="11"/>  
+      <pair id="DDI-DrugBank.d305.s5.p0" e1="DDI-DrugBank.d305.s5.e0" e2="DDI-DrugBank.d305.s5.e1" ddi="false" flags="True" e1_name="dantrolene sodium" e2_name="verapamil" e1_pos="7" e2_pos="9" path="7@@9@@">dantrolene sodium@@@@conj_and@@verapamil</pair>  
+      <pair id="DDI-DrugBank.d305.s5.p1" e1="DDI-DrugBank.d305.s5.e0" e2="DDI-DrugBank.d305.s5.e2" ddi="false" flags="True" e1_name="dantrolene sodium" e2_name="halothane" e1_pos="7" e2_pos="11" path="7@@4@@14@@11@@">dantrolene sodium@@@@prep_of@@doses@@prep_in@@swine@@amod@@halothane</pair>  
+      <pair id="DDI-DrugBank.d305.s5.p2" e1="DDI-DrugBank.d305.s5.e1" e2="DDI-DrugBank.d305.s5.e2" ddi="false" flags="True" e1_name="verapamil" e2_name="halothane" e1_pos="9" e2_pos="11" path="9@@4@@14@@11@@">verapamil@@@@prep_of@@doses@@prep_in@@swine@@amod@@halothane</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d305.s6" text="It is recommended that the combination of intravenous dantrolene sodium and calcium channel blockers, such as verapamil, not be used together during the management of malignant hyperthermia crisis until the relevance of these findings to humans is established." new_text="It@@is@@recommended@@that@@the@@combination@@of@@intravenous@@dantrolene sodium@@and@@calcium channel blockers@@,@@such@@as@@verapamil@@,@@not@@be@@used@@together@@during@@the@@management@@of@@malignant@@hyperthermia@@crisis@@until@@the@@relevance@@of@@these@@findings@@to@@humans@@is@@established@@.@@"> 
+      <entity id="DDI-DrugBank.d305.s6.e0" charOffset="54-70" type="drug" text="dantrolene sodium" position="8"/>  
+      <entity id="DDI-DrugBank.d305.s6.e1" charOffset="76-99" type="group" text="calcium channel blockers" position="10"/>  
+      <entity id="DDI-DrugBank.d305.s6.e2" charOffset="110-118" type="drug" text="verapamil" position="14"/>  
+      <pair id="DDI-DrugBank.d305.s6.p0" e1="DDI-DrugBank.d305.s6.e0" e2="DDI-DrugBank.d305.s6.e1" ddi="true" type="advise" flags="True" e1_name="dantrolene sodium" e2_name="calcium channel blockers" e1_pos="8" e2_pos="10" path="8@@10@@">dantrolene sodium@@@@conj_and@@calcium channel blockers</pair>  
+      <pair id="DDI-DrugBank.d305.s6.p1" e1="DDI-DrugBank.d305.s6.e0" e2="DDI-DrugBank.d305.s6.e2" ddi="true" type="advise" flags="True" e1_name="dantrolene sodium" e2_name="verapamil" e1_pos="8" e2_pos="14" path="8@@5@@14@@">dantrolene sodium@@@@prep_of@@combination@@prep_such_as@@verapamil</pair>  
+      <pair id="DDI-DrugBank.d305.s6.p2" e1="DDI-DrugBank.d305.s6.e1" e2="DDI-DrugBank.d305.s6.e2" ddi="false" flags="True" e1_name="calcium channel blockers" e2_name="verapamil" e1_pos="10" e2_pos="14" path="10@@5@@14@@">calcium channel blockers@@@@prep_of@@combination@@prep_such_as@@verapamil</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d305.s7" text="Administration of dantrolene may potentiate vecuronium-induced neuromuscular block." new_text="Administration@@of@@dantrolene@@may@@potentiate@@vecuronium@@-induced@@neuromuscular@@block@@.@@"> 
+      <entity id="DDI-DrugBank.d305.s7.e0" charOffset="18-27" type="drug" text="dantrolene" position="2"/>  
+      <entity id="DDI-DrugBank.d305.s7.e1" charOffset="44-53" type="drug" text="vecuronium" position="5"/>  
+      <pair id="DDI-DrugBank.d305.s7.p0" e1="DDI-DrugBank.d305.s7.e0" e2="DDI-DrugBank.d305.s7.e1" ddi="true" type="effect" flags="True" e1_name="dantrolene" e2_name="vecuronium" e1_pos="2" e2_pos="5" path="2@@0@@4@@8@@5@@">dantrolene@@@@prep_of@@Administration@@nsubj@@potentiate@@dobj@@block@@amod@@vecuronium</pair> 
+   </sentence> 
+</document>

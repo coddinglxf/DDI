@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d122"> 
+   <sentence id="DDI-DrugBank.d122.s0" text="Nephrotoxicity has been reported following concomitant administration of cephalosporins with aminoglycoside antibiotics or potent diuretics such as furosemide." new_text="Nephrotoxicity@@has@@been@@reported@@following@@concomitant@@administration@@of@@cephalosporins@@with@@aminoglycoside antibiotics@@or@@potent@@diuretics@@such@@as@@furosemide@@.@@"> 
+      <entity id="DDI-DrugBank.d122.s0.e0" charOffset="73-86" type="group" text="cephalosporins" position="8"/>  
+      <entity id="DDI-DrugBank.d122.s0.e1" charOffset="93-118" type="group" text="aminoglycoside antibiotics" position="10"/>  
+      <entity id="DDI-DrugBank.d122.s0.e2" charOffset="130-138" type="group" text="diuretics" position="13"/>  
+      <entity id="DDI-DrugBank.d122.s0.e3" charOffset="148-157" type="drug" text="furosemide" position="16"/>  
+      <pair id="DDI-DrugBank.d122.s0.p0" e1="DDI-DrugBank.d122.s0.e0" e2="DDI-DrugBank.d122.s0.e1" ddi="true" type="effect" flags="True" e1_name="cephalosporins" e2_name="aminoglycoside antibiotics" e1_pos="8" e2_pos="10" path="8@@10@@">cephalosporins@@@@prep_with@@aminoglycoside antibiotics</pair>  
+      <pair id="DDI-DrugBank.d122.s0.p1" e1="DDI-DrugBank.d122.s0.e0" e2="DDI-DrugBank.d122.s0.e2" ddi="true" type="effect" flags="True" e1_name="cephalosporins" e2_name="diuretics" e1_pos="8" e2_pos="13" path="8@@13@@">cephalosporins@@@@conj_or@@diuretics</pair>  
+      <pair id="DDI-DrugBank.d122.s0.p2" e1="DDI-DrugBank.d122.s0.e0" e2="DDI-DrugBank.d122.s0.e3" ddi="true" type="effect" flags="True" e1_name="cephalosporins" e2_name="furosemide" e1_pos="8" e2_pos="16" path="8@@13@@16@@">cephalosporins@@@@conj_or@@diuretics@@prep_such_as@@furosemide</pair>  
+      <pair id="DDI-DrugBank.d122.s0.p3" e1="DDI-DrugBank.d122.s0.e1" e2="DDI-DrugBank.d122.s0.e2" ddi="false" flags="True" e1_name="aminoglycoside antibiotics" e2_name="diuretics" e1_pos="10" e2_pos="13" path="10@@8@@13@@">aminoglycoside antibiotics@@@@prep_with@@cephalosporins@@conj_or@@diuretics</pair>  
+      <pair id="DDI-DrugBank.d122.s0.p4" e1="DDI-DrugBank.d122.s0.e1" e2="DDI-DrugBank.d122.s0.e3" ddi="false" flags="True" e1_name="aminoglycoside antibiotics" e2_name="furosemide" e1_pos="10" e2_pos="16" path="10@@8@@13@@16@@">aminoglycoside antibiotics@@@@prep_with@@cephalosporins@@conj_or@@diuretics@@prep_such_as@@furosemide</pair>  
+      <pair id="DDI-DrugBank.d122.s0.p5" e1="DDI-DrugBank.d122.s0.e2" e2="DDI-DrugBank.d122.s0.e3" ddi="false" flags="True" e1_name="diuretics" e2_name="furosemide" e1_pos="13" e2_pos="16" path="13@@16@@">diuretics@@@@prep_such_as@@furosemide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d122.s1" text="Renal function should be carefully monitored, especially if higher dosages of the aminoglycosides are to be administered or if therapy is prolonged, because of the potential nephrotoxicity and ototoxicity of aminoglycosidic antibiotics." new_text="Renal@@function@@should@@be@@carefully@@monitored@@,@@especially@@if@@higher@@dosages@@of@@the@@aminoglycosides@@are@@to@@be@@administered@@or@@if@@therapy@@is@@prolonged@@,@@because@@of@@the@@potential@@nephrotoxicity@@and@@ototoxicity@@of@@aminoglycosidic antibiotics@@.@@"> 
+      <entity id="DDI-DrugBank.d122.s1.e0" charOffset="82-96" type="group" text="aminoglycosides" position="13"/>  
+      <entity id="DDI-DrugBank.d122.s1.e1" charOffset="208-234" type="group" text="aminoglycosidic antibiotics" position="32"/>  
+      <pair id="DDI-DrugBank.d122.s1.p0" e1="DDI-DrugBank.d122.s1.e0" e2="DDI-DrugBank.d122.s1.e1" ddi="false" flags="True" e1_name="aminoglycosides" e2_name="aminoglycosidic antibiotics" e1_pos="13" e2_pos="32" path="13@@10@@14@@22@@32@@">aminoglycosides@@@@prep_of@@dosages@@nsubj@@are@@conj_or@@prolonged@@prep_of@@aminoglycosidic antibiotics</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d122.s2" text="Nephrotoxicity and ototoxicity were not noted when ceftazidime was given alone in clinical trials." new_text="Nephrotoxicity@@and@@ototoxicity@@were@@not@@noted@@when@@ceftazidime@@was@@given@@alone@@in@@clinical@@trials@@.@@"> 
+      <entity id="DDI-DrugBank.d122.s2.e0" charOffset="51-61" type="drug" text="ceftazidime" position="7"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d122.s3" text="Chloramphenicol has been shown to be antagonistic to beta-lactam antibiotics, including ceftazidime, based on in vitro studies and time kill curves with enteric gram-negative bacilli." new_text="Chloramphenicol@@has@@been@@shown@@to@@be@@antagonistic@@to@@beta-lactam antibiotics@@,@@including@@ceftazidime@@,@@based@@on@@in@@vitro@@studies@@and@@time@@kill@@curves@@with@@enteric@@gram-negative@@bacilli@@.@@"> 
+      <entity id="DDI-DrugBank.d122.s3.e0" charOffset="0-14" type="drug" text="Chloramphenicol" position="0"/>  
+      <entity id="DDI-DrugBank.d122.s3.e1" charOffset="53-75" type="group" text="beta-lactam antibiotics" position="8"/>  
+      <entity id="DDI-DrugBank.d122.s3.e2" charOffset="88-98" type="drug" text="ceftazidime" position="11"/>  
+      <pair id="DDI-DrugBank.d122.s3.p0" e1="DDI-DrugBank.d122.s3.e0" e2="DDI-DrugBank.d122.s3.e1" ddi="true" type="effect" flags="True" e1_name="Chloramphenicol" e2_name="beta-lactam antibiotics" e1_pos="0" e2_pos="8" path="0@@6@@8@@">Chloramphenicol@@@@xsubj@@antagonistic@@prep_to@@beta-lactam antibiotics</pair>  
+      <pair id="DDI-DrugBank.d122.s3.p1" e1="DDI-DrugBank.d122.s3.e0" e2="DDI-DrugBank.d122.s3.e2" ddi="true" type="effect" flags="True" e1_name="Chloramphenicol" e2_name="ceftazidime" e1_pos="0" e2_pos="11" path="0@@6@@11@@">Chloramphenicol@@@@xsubj@@antagonistic@@prep_including@@ceftazidime</pair>  
+      <pair id="DDI-DrugBank.d122.s3.p2" e1="DDI-DrugBank.d122.s3.e1" e2="DDI-DrugBank.d122.s3.e2" ddi="false" flags="True" e1_name="beta-lactam antibiotics" e2_name="ceftazidime" e1_pos="8" e2_pos="11" path="8@@6@@11@@">beta-lactam antibiotics@@@@prep_to@@antagonistic@@prep_including@@ceftazidime</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d122.s4" text="Due to the possibility of antagonism in vivo, particularly when bactericidal activity is desired, this drug combination should be avoided." new_text="Due@@to@@the@@possibility@@of@@antagonism@@in@@vivo@@,@@particularly@@when@@bactericidal@@activity@@is@@desired@@,@@this@@drug@@combination@@should@@be@@avoided@@.@@"/>  
+   <sentence id="DDI-DrugBank.d122.s5" text="Drug/Laboratory Test Interactions The administration of ceftazidime may result in a false-positive reaction for glucose in the urine when using CLINITEST  tablets, Benedicts solution, or Fehlings solution." new_text="Drug/Laboratory@@Test@@Interactions@@The@@administration@@of@@ceftazidime@@may@@result@@in@@a@@false-positive@@reaction@@for@@glucose@@in@@the@@urine@@when@@using@@CLINITEST@@@@tablets@@,@@Benedicts@@solution@@,@@or@@Fehlings@@solution@@.@@"> 
+      <entity id="DDI-DrugBank.d122.s5.e0" charOffset="56-66" type="drug" text="ceftazidime" position="6"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d122.s6" text="It is recommended that glucose tests based on enzymatic glucose oxidase reactions (such as CLINISTIX  or TES-TAPE ) be used." new_text="It@@is@@recommended@@that@@glucose@@tests@@based@@on@@enzymatic@@glucose@@oxidase@@reactions@@(such@@as@@CLINISTIX@@@@or@@TES-TAPE@@)@@be@@used@@.@@"/> 
+</document>

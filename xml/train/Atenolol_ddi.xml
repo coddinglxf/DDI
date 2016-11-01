@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d73"> 
+   <sentence id="DDI-DrugBank.d73.s0" text="Catecholamine-depleting drugs (eg, reserpine) may have an additive effect when given with beta-blocking agents." new_text="Catecholamine-depleting@@drugs@@(eg@@,@@reserpine@@)@@may@@have@@an@@additive@@effect@@when@@given@@with@@beta-blocking agent@@s@@.@@"> 
+      <entity id="DDI-DrugBank.d73.s0.e0" charOffset="35-43" type="drug" text="reserpine" position="4"/>  
+      <entity id="DDI-DrugBank.d73.s0.e1" charOffset="90-108" type="group" text="beta-blocking agent" position="14"/>  
+      <pair id="DDI-DrugBank.d73.s0.p0" e1="DDI-DrugBank.d73.s0.e0" e2="DDI-DrugBank.d73.s0.e1" ddi="true" type="effect" flags="True" e1_name="reserpine" e2_name="beta-blocking agent" e1_pos="4" e2_pos="14" path="4@@5@@7@@12@@15@@14@@">reserpine@@@@amod@@)@@nsubj@@have@@advcl@@given@@prep_with@@s@@amod@@beta-blocking agent</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d73.s1" text="Patients treated with TENORMIN plus a catecholamine depletor should therefore be closely observed for evidence of hypotension and/or marked bradycardia which may produce vertigo, syncope, or postural hypotension." new_text="Patients@@treated@@with@@TENORMIN@@plus@@a@@catecholamine@@depletor@@should@@therefore@@be@@closely@@observed@@for@@evidence@@of@@hypotension@@and/or@@marked@@bradycardia@@which@@may@@produce@@vertigo@@,@@syncope@@,@@or@@postural@@hypotension@@.@@"> 
+      <entity id="DDI-DrugBank.d73.s1.e0" charOffset="22-29" type="brand" text="TENORMIN" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d73.s2" text="Calcium channel blockers may also have an additive effect when given with TENORMIN ." new_text="Calcium channel blockers@@may@@also@@have@@an@@additive@@effect@@when@@given@@with@@TENORMIN@@.@@"> 
+      <entity id="DDI-DrugBank.d73.s2.e0" charOffset="0-23" type="group" text="Calcium channel blockers" position="0"/>  
+      <entity id="DDI-DrugBank.d73.s2.e1" charOffset="74-81" type="brand" text="TENORMIN" position="10"/>  
+      <pair id="DDI-DrugBank.d73.s2.p0" e1="DDI-DrugBank.d73.s2.e0" e2="DDI-DrugBank.d73.s2.e1" ddi="true" type="effect" flags="True" e1_name="Calcium channel blockers" e2_name="TENORMIN" e1_pos="0" e2_pos="10" path="0@@3@@8@@10@@">Calcium channel blockers@@@@nsubj@@have@@advcl@@given@@prep_with@@TENORMIN</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d73.s3" text="Beta blockers may exacerbate the rebound hypertension which can follow the withdrawal of clonidine." new_text="Beta blockers@@may@@exacerbate@@the@@rebound@@hypertension@@which@@can@@follow@@the@@withdrawal@@of@@clonidine@@.@@"> 
+      <entity id="DDI-DrugBank.d73.s3.e0" charOffset="0-12" type="group" text="Beta blockers" position="0"/>  
+      <entity id="DDI-DrugBank.d73.s3.e1" charOffset="89-97" type="drug" text="clonidine" position="12"/>  
+      <pair id="DDI-DrugBank.d73.s3.p0" e1="DDI-DrugBank.d73.s3.e0" e2="DDI-DrugBank.d73.s3.e1" ddi="true" type="effect" flags="True" e1_name="Beta blockers" e2_name="clonidine" e1_pos="0" e2_pos="12" path="0@@2@@5@@8@@10@@12@@">Beta blockers@@@@nsubj@@exacerbate@@dobj@@hypertension@@rcmod@@follow@@dobj@@withdrawal@@prep_of@@clonidine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d73.s4" text="If the two drugs are coadministered, the beta blocker should be withdrawn several days before the gradual withdrawal of clonidine." new_text="If@@the@@two@@drugs@@are@@coadministered@@,@@the@@beta blocker@@should@@be@@withdrawn@@several@@days@@before@@the@@gradual@@withdrawal@@of@@clonidine@@.@@"> 
+      <entity id="DDI-DrugBank.d73.s4.e0" charOffset="41-52" type="group" text="beta blocker" position="8"/>  
+      <entity id="DDI-DrugBank.d73.s4.e1" charOffset="120-128" type="drug" text="clonidine" position="19"/>  
+      <pair id="DDI-DrugBank.d73.s4.p0" e1="DDI-DrugBank.d73.s4.e0" e2="DDI-DrugBank.d73.s4.e1" ddi="true" type="advise" flags="True" e1_name="beta blocker" e2_name="clonidine" e1_pos="8" e2_pos="19" path="8@@11@@17@@19@@">beta blocker@@@@nsubjpass@@withdrawn@@prep_before@@withdrawal@@prep_of@@clonidine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d73.s5" text="If replacing clonidine by beta-blocker therapy, the introduction of beta blockers should be delayed for several days after clonidine administration has stopped." new_text="If@@replacing@@clonidine@@by@@beta-blocker@@therapy@@,@@the@@introduction@@of@@beta blockers@@should@@be@@delayed@@for@@several@@days@@after@@clonidine@@administration@@has@@stopped@@.@@"> 
+      <entity id="DDI-DrugBank.d73.s5.e0" charOffset="13-21" type="drug" text="clonidine" position="2"/>  
+      <entity id="DDI-DrugBank.d73.s5.e1" charOffset="26-37" type="group" text="beta-blocker" position="4"/>  
+      <entity id="DDI-DrugBank.d73.s5.e2" charOffset="68-80" type="group" text="beta blockers" position="10"/>  
+      <entity id="DDI-DrugBank.d73.s5.e3" charOffset="123-131" type="drug" text="clonidine" position="18"/>  
+      <pair id="DDI-DrugBank.d73.s5.p0" e1="DDI-DrugBank.d73.s5.e0" e2="DDI-DrugBank.d73.s5.e1" ddi="false" flags="True" e1_name="clonidine" e2_name="beta-blocker" e1_pos="2" e2_pos="4" path="2@@1@@5@@4@@">clonidine@@@@dobj@@replacing@@prep_by@@therapy@@nn@@beta-blocker</pair>  
+      <pair id="DDI-DrugBank.d73.s5.p1" e1="DDI-DrugBank.d73.s5.e0" e2="DDI-DrugBank.d73.s5.e2" ddi="false" flags="True" e1_name="clonidine" e2_name="beta blockers" e1_pos="2" e2_pos="10" path="2@@1@@13@@8@@10@@">clonidine@@@@dobj@@replacing@@advcl@@delayed@@nsubjpass@@introduction@@prep_of@@beta blockers</pair>  
+      <pair id="DDI-DrugBank.d73.s5.p2" e1="DDI-DrugBank.d73.s5.e0" e2="DDI-DrugBank.d73.s5.e3" ddi="false" flags="True" e1_name="clonidine" e2_name="clonidine" e1_pos="2" e2_pos="18" path="2@@1@@13@@21@@19@@18@@">clonidine@@@@dobj@@replacing@@advcl@@delayed@@advcl@@stopped@@nsubj@@administration@@amod@@clonidine</pair>  
+      <pair id="DDI-DrugBank.d73.s5.p3" e1="DDI-DrugBank.d73.s5.e1" e2="DDI-DrugBank.d73.s5.e2" ddi="false" flags="True" e1_name="beta-blocker" e2_name="beta blockers" e1_pos="4" e2_pos="10" path="4@@5@@1@@13@@8@@10@@">beta-blocker@@@@nn@@therapy@@prep_by@@replacing@@advcl@@delayed@@nsubjpass@@introduction@@prep_of@@beta blockers</pair>  
+      <pair id="DDI-DrugBank.d73.s5.p4" e1="DDI-DrugBank.d73.s5.e1" e2="DDI-DrugBank.d73.s5.e3" ddi="false" flags="True" e1_name="beta-blocker" e2_name="clonidine" e1_pos="4" e2_pos="18" path="4@@5@@1@@13@@21@@19@@18@@">beta-blocker@@@@nn@@therapy@@prep_by@@replacing@@advcl@@delayed@@advcl@@stopped@@nsubj@@administration@@amod@@clonidine</pair>  
+      <pair id="DDI-DrugBank.d73.s5.p5" e1="DDI-DrugBank.d73.s5.e2" e2="DDI-DrugBank.d73.s5.e3" ddi="true" type="advise" flags="True" e1_name="beta blockers" e2_name="clonidine" e1_pos="10" e2_pos="18" path="10@@8@@13@@21@@19@@18@@">beta blockers@@@@prep_of@@introduction@@nsubjpass@@delayed@@advcl@@stopped@@nsubj@@administration@@amod@@clonidine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d73.s6" text="Concomitant use of prostaglandin synthase inhibiting drugs, eg, indomethacin, may decrease the hypotensive effects of beta blockers." new_text="Concomitant@@use@@of@@prostaglandin@@synthase@@inhibiting@@drugs@@,@@eg@@,@@indomethacin@@,@@may@@decrease@@the@@hypotensive@@effects@@of@@beta blockers@@.@@"> 
+      <entity id="DDI-DrugBank.d73.s6.e0" charOffset="64-75" type="drug" text="indomethacin" position="10"/>  
+      <entity id="DDI-DrugBank.d73.s6.e1" charOffset="118-130" type="group" text="beta blockers" position="18"/>  
+      <pair id="DDI-DrugBank.d73.s6.p0" e1="DDI-DrugBank.d73.s6.e0" e2="DDI-DrugBank.d73.s6.e1" ddi="true" type="effect" flags="True" e1_name="indomethacin" e2_name="beta blockers" e1_pos="10" e2_pos="18" path="10@@8@@1@@13@@16@@18@@">indomethacin@@@@appos@@eg@@appos@@use@@nsubj@@decrease@@dobj@@effects@@prep_of@@beta blockers</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d73.s7" text="Information on concurrent usage of atenolol and aspirin is limited." new_text="Information@@on@@concurrent@@usage@@of@@atenolol@@and@@aspirin@@is@@limited@@.@@"> 
+      <entity id="DDI-DrugBank.d73.s7.e0" charOffset="35-42" type="drug" text="atenolol" position="5"/>  
+      <entity id="DDI-DrugBank.d73.s7.e1" charOffset="48-54" type="brand" text="aspirin" position="7"/>  
+      <pair id="DDI-DrugBank.d73.s7.p0" e1="DDI-DrugBank.d73.s7.e0" e2="DDI-DrugBank.d73.s7.e1" ddi="false" flags="True" e1_name="atenolol" e2_name="aspirin" e1_pos="5" e2_pos="7" path="5@@7@@">atenolol@@@@conj_and@@aspirin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d73.s8" text="Data from several studies, ie, TIMI-II, ISIS-2, currently do not suggest any clinical interaction between aspirin and beta blockers in the acute myocardial infarction setting." new_text="Data@@from@@several@@studies@@,@@ie@@,@@TIMI-II@@,@@ISIS-2@@,@@currently@@do@@not@@suggest@@any@@clinical@@interaction@@between@@aspirin@@and@@beta blockers@@in@@the@@acute@@myocardial@@infarction@@setting@@.@@"> 
+      <entity id="DDI-DrugBank.d73.s8.e0" charOffset="106-112" type="brand" text="aspirin" position="19"/>  
+      <entity id="DDI-DrugBank.d73.s8.e1" charOffset="118-130" type="group" text="beta blockers" position="21"/>  
+      <pair id="DDI-DrugBank.d73.s8.p0" e1="DDI-DrugBank.d73.s8.e0" e2="DDI-DrugBank.d73.s8.e1" ddi="false" flags="True" e1_name="aspirin" e2_name="beta blockers" e1_pos="19" e2_pos="21" path="19@@21@@">aspirin@@@@conj_and@@beta blockers</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d73.s9" text="While taking beta blockers, patients with a history of anaphylactic reaction to a variety of allergens may have a more severe reaction on repeated challenge, either accidental, diagnostic or therapeutic." new_text="While@@taking@@beta blockers@@,@@patients@@with@@a@@history@@of@@anaphylactic@@reaction@@to@@a@@variety@@of@@allergens@@may@@have@@a@@more@@severe@@reaction@@on@@repeated@@challenge@@,@@either@@accidental@@,@@diagnostic@@or@@therapeutic@@.@@"> 
+      <entity id="DDI-DrugBank.d73.s9.e0" charOffset="13-25" type="group" text="beta blockers" position="2"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d73.s10" text="Such patients may be unresponsive to the usual doses of epinephrine used to treat the allergic reaction." new_text="Such@@patients@@may@@be@@unresponsive@@to@@the@@usual@@doses@@of@@epinephrine@@used@@to@@treat@@the@@allergic@@reaction@@.@@"> 
+      <entity id="DDI-DrugBank.d73.s10.e0" charOffset="56-66" type="drug" text="epinephrine" position="10"/> 
+   </sentence> 
+</document>

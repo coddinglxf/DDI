@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d90"> 
+   <sentence id="DDI-MedLine.d90.s0" text="Interaction of gentamycin and atracurium in anaesthetised horses.
+" new_text="Interaction@@of@@gentamycin@@and@@atracurium@@in@@anaesthetised@@horses@@.@@"> 
+      <entity id="DDI-MedLine.d90.s0.e0" charOffset="15-24" type="drug" text="gentamycin" position="2"/>  
+      <entity id="DDI-MedLine.d90.s0.e1" charOffset="30-39" type="drug" text="atracurium" position="4"/>  
+      <pair id="DDI-MedLine.d90.s0.p0" e1="DDI-MedLine.d90.s0.e0" e2="DDI-MedLine.d90.s0.e1" ddi="true" type="int" flags="True" e1_name="gentamycin" e2_name="atracurium" e1_pos="2" e2_pos="4" path="2@@4@@">gentamycin@@@@conj_and@@atracurium</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d90.s1" text="Evoked hind limb digital extensor tension (hoof twitch) was maintained at 40% of baseline for 1 h by atracurium infusion in 7 horses anaesthetised with halothane. " new_text="Evoked@@hind@@limb@@digital@@extensor@@tension@@(hoof@@twitch)@@was@@maintained@@at@@40%@@of@@baseline@@for@@1@@h@@by@@atracurium@@infusion@@in@@7@@horses@@anaesthetised@@with@@halothane@@.@@"> 
+      <entity id="DDI-MedLine.d90.s1.e0" charOffset="101-110" type="drug" text="atracurium" position="18"/>  
+      <entity id="DDI-MedLine.d90.s1.e1" charOffset="152-160" type="drug" text="halothane" position="25"/>  
+      <pair id="DDI-MedLine.d90.s1.p0" e1="DDI-MedLine.d90.s1.e0" e2="DDI-MedLine.d90.s1.e1" ddi="false" flags="True" e1_name="atracurium" e2_name="halothane" e1_pos="18" e2_pos="25" path="18@@19@@22@@23@@25@@">atracurium@@@@nn@@infusion@@prep_in@@horses@@partmod@@anaesthetised@@prep_with@@halothane</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d90.s2" text="After 1 h, atracurium was discontinued and hoof twitch allowed to recover to 75%. " new_text="After@@1@@h@@,@@atracurium@@was@@discontinued@@and@@hoof@@twitch@@allowed@@to@@recover@@to@@75%@@.@@"> 
+      <entity id="DDI-MedLine.d90.s2.e0" charOffset="11-20" type="drug" text="atracurium" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d90.s3" text="Atracurium was again given by infusion to maintain 40% twitch for a second hour, then 2 mg gentamycin/kg bwt were given i.v. " new_text="Atracurium@@was@@again@@given@@by@@infusion@@to@@maintain@@40%@@twitch@@for@@a@@second@@hour@@,@@then@@2@@mg@@gentamycin@@/kg@@bwt@@were@@given@@i.v@@.@@"> 
+      <entity id="DDI-MedLine.d90.s3.e0" charOffset="0-9" type="drug" text="Atracurium" position="0"/>  
+      <entity id="DDI-MedLine.d90.s3.e1" charOffset="91-100" type="drug" text="gentamycin" position="18"/>  
+      <pair id="DDI-MedLine.d90.s3.p0" e1="DDI-MedLine.d90.s3.e0" e2="DDI-MedLine.d90.s3.e1" ddi="false" flags="True" e1_name="Atracurium" e2_name="gentamycin" e1_pos="0" e2_pos="18" path="0@@3@@22@@19@@18@@">Atracurium@@@@nsubjpass@@given@@parataxis@@given@@nsubjpass@@/kg@@nn@@gentamycin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d90.s4" text="Atracurium infusion was continued for a third hour, and then hoof twitch was again allowed to recover spontaneously to 75%. " new_text="Atracurium@@infusion@@was@@continued@@for@@a@@third@@hour@@,@@and@@then@@hoof@@twitch@@was@@again@@allowed@@to@@recover@@spontaneously@@to@@75%@@.@@"> 
+      <entity id="DDI-MedLine.d90.s4.e0" charOffset="0-9" type="drug" text="Atracurium" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d90.s5" text="Gentamycin reduced twitch strength from 40 +/- 1% (mean +/- sem) to 29 +/- 4% within 7.0 +/- 1.5 min (P = 0.02). " new_text="Gentamycin@@reduced@@twitch@@strength@@from@@40@@+/-@@1%@@(mean@@+/-@@sem)@@to@@29@@+/-@@4%@@within@@7.0@@+/-@@1.5@@min@@(P@@=@@0.02)@@.@@"> 
+      <entity id="DDI-MedLine.d90.s5.e0" charOffset="0-9" type="drug" text="Gentamycin" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d90.s6" text="Twitch gradually returned to pre-gentamycin strength over the course of the next hour. " new_text="Twitch@@gradually@@returned@@to@@pre-@@gentamycin@@strength@@over@@the@@course@@of@@the@@next@@hour@@.@@"> 
+      <entity id="DDI-MedLine.d90.s6.e0" charOffset="33-42" type="drug" text="gentamycin" position="5"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d90.s7" text="Recovery of hoof twitch from 50% to 75% took 7.7 +/- 0.7 min for atracurium alone and 11.5 +/- 2.7 min for atracurium plus gentamycin (P = 0.03). " new_text="Recovery@@of@@hoof@@twitch@@from@@50%@@to@@75%@@took@@7.7@@+/-@@0.7@@min@@for@@atracurium@@alone@@and@@11.5@@+/-@@2.7@@min@@for@@atracurium@@plus@@gentamycin@@(P@@=@@0.03)@@.@@"> 
+      <entity id="DDI-MedLine.d90.s7.e0" charOffset="65-74" type="drug" text="atracurium" position="14"/>  
+      <entity id="DDI-MedLine.d90.s7.e1" charOffset="107-116" type="drug" text="atracurium" position="22"/>  
+      <entity id="DDI-MedLine.d90.s7.e2" charOffset="123-132" type="drug" text="gentamycin" position="24"/>  
+      <pair id="DDI-MedLine.d90.s7.p0" e1="DDI-MedLine.d90.s7.e0" e2="DDI-MedLine.d90.s7.e1" ddi="false" flags="True" e1_name="atracurium" e2_name="atracurium" e1_pos="14" e2_pos="22" path="14@@8@@25@@22@@">atracurium@@@@prep_for@@took@@prep_for@@(P@@nn@@atracurium</pair>  
+      <pair id="DDI-MedLine.d90.s7.p1" e1="DDI-MedLine.d90.s7.e0" e2="DDI-MedLine.d90.s7.e2" ddi="false" flags="True" e1_name="atracurium" e2_name="gentamycin" e1_pos="14" e2_pos="24" path="14@@8@@25@@24@@">atracurium@@@@prep_for@@took@@prep_for@@(P@@nn@@gentamycin</pair>  
+      <pair id="DDI-MedLine.d90.s7.p2" e1="DDI-MedLine.d90.s7.e1" e2="DDI-MedLine.d90.s7.e2" ddi="true" type="effect" flags="True" e1_name="atracurium" e2_name="gentamycin" e1_pos="22" e2_pos="24" path="22@@24@@">atracurium@@@@conj_plus@@gentamycin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d90.s8" text="Recovery from 50% twitch to 75% fade recovery took 13.8 +/- 0.8 min for atracurium alone and 13.7 +/- 1.2 min for atracurium plus gentamycin. " new_text="Recovery@@from@@50%@@twitch@@to@@75%@@fade@@recovery@@took@@13.8@@+/-@@0.8@@min@@for@@atracurium@@alone@@and@@13.7@@+/-@@1.2@@min@@for@@atracurium@@plus@@gentamycin@@.@@"> 
+      <entity id="DDI-MedLine.d90.s8.e0" charOffset="72-81" type="drug" text="atracurium" position="14"/>  
+      <entity id="DDI-MedLine.d90.s8.e1" charOffset="114-123" type="drug" text="atracurium" position="22"/>  
+      <entity id="DDI-MedLine.d90.s8.e2" charOffset="130-139" type="drug" text="gentamycin" position="24"/>  
+      <pair id="DDI-MedLine.d90.s8.p0" e1="DDI-MedLine.d90.s8.e0" e2="DDI-MedLine.d90.s8.e1" ddi="false" flags="True" e1_name="atracurium" e2_name="atracurium" e1_pos="14" e2_pos="22" path="14@@8@@22@@">atracurium@@@@prep_for@@took@@prep_for@@atracurium</pair>  
+      <pair id="DDI-MedLine.d90.s8.p1" e1="DDI-MedLine.d90.s8.e0" e2="DDI-MedLine.d90.s8.e2" ddi="false" flags="True" e1_name="atracurium" e2_name="gentamycin" e1_pos="14" e2_pos="24" path="14@@8@@24@@">atracurium@@@@prep_for@@took@@prep_for@@gentamycin</pair>  
+      <pair id="DDI-MedLine.d90.s8.p2" e1="DDI-MedLine.d90.s8.e1" e2="DDI-MedLine.d90.s8.e2" ddi="true" type="effect" flags="True" e1_name="atracurium" e2_name="gentamycin" e1_pos="22" e2_pos="24" path="22@@24@@">atracurium@@@@conj_plus@@gentamycin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d90.s9" text="At 75% recovery of fade, hoof twitch was 87 +/- 3% for atracurium alone and 82 +/- 4% for atracurium plus gentamycin. " new_text="At@@75%@@recovery@@of@@fade@@,@@hoof@@twitch@@was@@87@@+/-@@3%@@for@@atracurium@@alone@@and@@82@@+/-@@4%@@for@@atracurium@@plus@@gentamycin@@.@@"> 
+      <entity id="DDI-MedLine.d90.s9.e0" charOffset="55-64" type="drug" text="atracurium" position="13"/>  
+      <entity id="DDI-MedLine.d90.s9.e1" charOffset="90-99" type="drug" text="atracurium" position="20"/>  
+      <entity id="DDI-MedLine.d90.s9.e2" charOffset="106-115" type="drug" text="gentamycin" position="22"/>  
+      <pair id="DDI-MedLine.d90.s9.p0" e1="DDI-MedLine.d90.s9.e0" e2="DDI-MedLine.d90.s9.e1" ddi="false" flags="True" e1_name="atracurium" e2_name="atracurium" e1_pos="13" e2_pos="20" path="13@@10@@17@@20@@">atracurium@@@@prep_for@@+/-@@conj_and@@+/-@@prep_for@@atracurium</pair>  
+      <pair id="DDI-MedLine.d90.s9.p1" e1="DDI-MedLine.d90.s9.e0" e2="DDI-MedLine.d90.s9.e2" ddi="false" flags="True" e1_name="atracurium" e2_name="gentamycin" e1_pos="13" e2_pos="22" path="13@@10@@17@@22@@">atracurium@@@@prep_for@@+/-@@conj_and@@+/-@@prep_for@@gentamycin</pair>  
+      <pair id="DDI-MedLine.d90.s9.p2" e1="DDI-MedLine.d90.s9.e1" e2="DDI-MedLine.d90.s9.e2" ddi="true" type="effect" flags="True" e1_name="atracurium" e2_name="gentamycin" e1_pos="20" e2_pos="22" path="20@@22@@">atracurium@@@@conj_plus@@gentamycin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d90.s10" text="Reversal of the block with edrophonium and subsequent recovery of the horses from anaesthesia were uneventful. " new_text="Reversal@@of@@the@@block@@with@@edrophonium@@and@@subsequent@@recovery@@of@@the@@horses@@from@@anaesthesia@@were@@uneventful@@.@@"> 
+      <entity id="DDI-MedLine.d90.s10.e0" charOffset="27-37" type="drug" text="edrophonium" position="5"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d90.s11" text="It was concluded that, although gentamycin did augment the neuromuscular blockade of atracurium, the effect was minimal." new_text="It@@was@@concluded@@that@@,@@although@@gentamycin@@did@@augment@@the@@neuromuscular@@blockade@@of@@atracurium@@,@@the@@effect@@was@@minimal@@.@@"> 
+      <entity id="DDI-MedLine.d90.s11.e0" charOffset="32-41" type="drug" text="gentamycin" position="6"/>  
+      <entity id="DDI-MedLine.d90.s11.e1" charOffset="85-94" type="drug" text="atracurium" position="13"/>  
+      <pair id="DDI-MedLine.d90.s11.p0" e1="DDI-MedLine.d90.s11.e0" e2="DDI-MedLine.d90.s11.e1" ddi="true" type="effect" flags="True" e1_name="gentamycin" e2_name="atracurium" e1_pos="6" e2_pos="13" path="6@@8@@11@@13@@">gentamycin@@@@nsubj@@augment@@dobj@@blockade@@prep_of@@atracurium</pair> 
+   </sentence> 
+</document>

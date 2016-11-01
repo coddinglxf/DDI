@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d85"> 
+   <sentence id="DDI-DrugBank.d85.s0" text="The use of NSAIDs in patients who are receiving ACE inhibitors may potentiate renal disease states." new_text="The@@use@@of@@NSAIDs@@in@@patients@@who@@are@@receiving@@ACE inhibitors@@may@@potentiate@@renal@@disease@@states@@.@@"> 
+      <entity id="DDI-DrugBank.d85.s0.e0" charOffset="11-16" type="group" text="NSAIDs" position="3"/>  
+      <entity id="DDI-DrugBank.d85.s0.e1" charOffset="48-61" type="group" text="ACE inhibitors" position="9"/>  
+      <pair id="DDI-DrugBank.d85.s0.p0" e1="DDI-DrugBank.d85.s0.e0" e2="DDI-DrugBank.d85.s0.e1" ddi="true" type="effect" flags="True" e1_name="NSAIDs" e2_name="ACE inhibitors" e1_pos="3" e2_pos="9" path="3@@5@@8@@9@@">NSAIDs@@@@prep_in@@patients@@rcmod@@receiving@@dobj@@ACE inhibitors</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d85.s1" text="In vitro studies have shown that naproxen anion, because of its affinity for protein, may displace from their binding sites other drugs which are also albumin-bound ." new_text="In@@vitro@@studies@@have@@shown@@that@@naproxen@@anion@@,@@because@@of@@its@@affinity@@for@@protein@@,@@may@@displace@@from@@their@@binding@@sites@@other@@drugs@@which@@are@@also@@albumin-bound@@.@@"> 
+      <entity id="DDI-DrugBank.d85.s1.e0" charOffset="33-40" type="drug" text="naproxen" position="6"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d85.s2" text="Theoretically, the naproxen anion itself could likewise be displaced." new_text="Theoretically@@,@@the@@naproxen@@anion@@itself@@could@@likewise@@be@@displaced@@.@@"> 
+      <entity id="DDI-DrugBank.d85.s2.e0" charOffset="19-26" type="drug" text="naproxen" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d85.s3" text="Short-term controlled studies failed to show that taking the drug significantly affects prothrombin times when administered to individuals on coumarin-type anticoagulants." new_text="Short-term@@controlled@@studies@@failed@@to@@show@@that@@taking@@the@@drug@@significantly@@affects@@prothrombin@@times@@when@@administered@@to@@individuals@@on@@coumarin-type anticoagulants@@.@@"> 
+      <entity id="DDI-DrugBank.d85.s3.e0" charOffset="142-169" type="group" text="coumarin-type anticoagulants" position="19"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d85.s4" text="Caution is advised nonetheless, since interactions have been seen with other nonsteroidal agents of this class." new_text="Caution@@is@@advised@@nonetheless@@,@@since@@interactions@@have@@been@@seen@@with@@other@@nonsteroidal@@agents@@of@@this@@class@@.@@"/>  
+   <sentence id="DDI-DrugBank.d85.s5" text="Similarly, patients receiving the drug and a hydantoin, sulfonamide or sulfonylurea should be observed for signs of toxicity to these drugs." new_text="Similarly@@,@@patients@@receiving@@the@@drug@@and@@a@@hydantoin@@,@@sulfonamide@@or@@sulfonylurea@@should@@be@@observed@@for@@signs@@of@@toxicity@@to@@these@@drugs@@.@@"> 
+      <entity id="DDI-DrugBank.d85.s5.e0" charOffset="45-53" type="group" text="hydantoin" position="8"/>  
+      <entity id="DDI-DrugBank.d85.s5.e1" charOffset="56-66" type="group" text="sulfonamide" position="10"/>  
+      <entity id="DDI-DrugBank.d85.s5.e2" charOffset="71-82" type="group" text="sulfonylurea" position="12"/>  
+      <pair id="DDI-DrugBank.d85.s5.p0" e1="DDI-DrugBank.d85.s5.e0" e2="DDI-DrugBank.d85.s5.e1" ddi="false" flags="True" e1_name="hydantoin" e2_name="sulfonamide" e1_pos="8" e2_pos="10" path="8@@10@@">hydantoin@@@@conj_or@@sulfonamide</pair>  
+      <pair id="DDI-DrugBank.d85.s5.p1" e1="DDI-DrugBank.d85.s5.e0" e2="DDI-DrugBank.d85.s5.e2" ddi="false" flags="True" e1_name="hydantoin" e2_name="sulfonylurea" e1_pos="8" e2_pos="12" path="8@@12@@">hydantoin@@@@conj_or@@sulfonylurea</pair>  
+      <pair id="DDI-DrugBank.d85.s5.p2" e1="DDI-DrugBank.d85.s5.e1" e2="DDI-DrugBank.d85.s5.e2" ddi="false" flags="True" e1_name="sulfonamide" e2_name="sulfonylurea" e1_pos="10" e2_pos="12" path="10@@5@@12@@">sulfonamide@@@@conj_and@@drug@@conj_and@@sulfonylurea</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d85.s6" text="Concomitant administration of naproxen and aspirin is not recommended because naproxen is displaced from its binding sites during the concomitant administration of aspirin, resulting in lower plasma concentrations and peak plasma levels." new_text="Concomitant@@administration@@of@@naproxen@@and@@aspirin@@is@@not@@recommended@@because@@naproxen@@is@@displaced@@from@@its@@binding@@sites@@during@@the@@concomitant@@administration@@of@@aspirin@@,@@resulting@@in@@lower@@plasma@@concentrations@@and@@peak@@plasma@@levels@@.@@"> 
+      <entity id="DDI-DrugBank.d85.s6.e0" charOffset="30-37" type="drug" text="naproxen" position="3"/>  
+      <entity id="DDI-DrugBank.d85.s6.e1" charOffset="43-49" type="brand" text="aspirin" position="5"/>  
+      <entity id="DDI-DrugBank.d85.s6.e2" charOffset="78-85" type="drug" text="naproxen" position="10"/>  
+      <entity id="DDI-DrugBank.d85.s6.e3" charOffset="164-170" type="brand" text="aspirin" position="22"/>  
+      <pair id="DDI-DrugBank.d85.s6.p0" e1="DDI-DrugBank.d85.s6.e0" e2="DDI-DrugBank.d85.s6.e1" ddi="true" type="advise" flags="True" e1_name="naproxen" e2_name="aspirin" e1_pos="3" e2_pos="5" path="3@@5@@">naproxen@@@@conj_and@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d85.s6.p1" e1="DDI-DrugBank.d85.s6.e0" e2="DDI-DrugBank.d85.s6.e2" ddi="false" flags="True" e1_name="naproxen" e2_name="naproxen" e1_pos="3" e2_pos="10" path="3@@1@@8@@12@@10@@">naproxen@@@@prep_of@@administration@@nsubjpass@@recommended@@advcl@@displaced@@nsubjpass@@naproxen</pair>  
+      <pair id="DDI-DrugBank.d85.s6.p2" e1="DDI-DrugBank.d85.s6.e0" e2="DDI-DrugBank.d85.s6.e3" ddi="false" flags="True" e1_name="naproxen" e2_name="aspirin" e1_pos="3" e2_pos="22" path="3@@1@@8@@12@@20@@22@@">naproxen@@@@prep_of@@administration@@nsubjpass@@recommended@@advcl@@displaced@@prep_during@@administration@@prep_of@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d85.s6.p3" e1="DDI-DrugBank.d85.s6.e1" e2="DDI-DrugBank.d85.s6.e2" ddi="false" flags="True" e1_name="aspirin" e2_name="naproxen" e1_pos="5" e2_pos="10" path="5@@1@@8@@12@@10@@">aspirin@@@@prep_of@@administration@@nsubjpass@@recommended@@advcl@@displaced@@nsubjpass@@naproxen</pair>  
+      <pair id="DDI-DrugBank.d85.s6.p4" e1="DDI-DrugBank.d85.s6.e1" e2="DDI-DrugBank.d85.s6.e3" ddi="false" flags="True" e1_name="aspirin" e2_name="aspirin" e1_pos="5" e2_pos="22" path="5@@1@@8@@12@@20@@22@@">aspirin@@@@prep_of@@administration@@nsubjpass@@recommended@@advcl@@displaced@@prep_during@@administration@@prep_of@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d85.s6.p5" e1="DDI-DrugBank.d85.s6.e2" e2="DDI-DrugBank.d85.s6.e3" ddi="true" type="advise" flags="True" e1_name="naproxen" e2_name="aspirin" e1_pos="10" e2_pos="22" path="10@@12@@20@@22@@">naproxen@@@@nsubjpass@@displaced@@prep_during@@administration@@prep_of@@aspirin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d85.s7" text="The natriuretic effect of furosemide has been reported to be inhibited by some drugs of this class." new_text="The@@natriuretic@@effect@@of@@furosemide@@has@@been@@reported@@to@@be@@inhibited@@by@@some@@drugs@@of@@this@@class@@.@@"> 
+      <entity id="DDI-DrugBank.d85.s7.e0" charOffset="26-35" type="drug" text="furosemide" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d85.s8" text="Inhibition of renal lithium clearance leading to increases in plasma lithium concentrations has also been reported." new_text="Inhibition@@of@@renal@@lithium@@clearance@@leading@@to@@increases@@in@@plasma@@lithium@@concentrations@@has@@also@@been@@reported@@.@@"> 
+      <entity id="DDI-DrugBank.d85.s8.e0" charOffset="20-26" type="drug" text="lithium" position="3"/>  
+      <entity id="DDI-DrugBank.d85.s8.e1" charOffset="69-75" type="drug" text="lithium" position="10"/>  
+      <pair id="DDI-DrugBank.d85.s8.p0" e1="DDI-DrugBank.d85.s8.e0" e2="DDI-DrugBank.d85.s8.e1" ddi="false" flags="True" e1_name="lithium" e2_name="lithium" e1_pos="3" e2_pos="10" path="3@@4@@5@@7@@11@@10@@">lithium@@@@nn@@clearance@@partmod@@leading@@prep_to@@increases@@prep_in@@concentrations@@nn@@lithium</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d85.s9" text="Naproxen and other NSAIDs can reduce the antihypertensive effect of propranolol and other beta-blockers." new_text="Naproxen@@and@@other@@NSAIDs@@can@@reduce@@the@@antihypertensive@@effect@@of@@propranolol@@and@@other@@beta-blockers@@.@@"> 
+      <entity id="DDI-DrugBank.d85.s9.e0" charOffset="0-7" type="drug" text="Naproxen" position="0"/>  
+      <entity id="DDI-DrugBank.d85.s9.e1" charOffset="19-24" type="group" text="NSAIDs" position="3"/>  
+      <entity id="DDI-DrugBank.d85.s9.e2" charOffset="68-78" type="drug" text="propranolol" position="10"/>  
+      <entity id="DDI-DrugBank.d85.s9.e3" charOffset="90-102" type="group" text="beta-blockers" position="13"/>  
+      <pair id="DDI-DrugBank.d85.s9.p0" e1="DDI-DrugBank.d85.s9.e0" e2="DDI-DrugBank.d85.s9.e1" ddi="false" flags="True" e1_name="Naproxen" e2_name="NSAIDs" e1_pos="0" e2_pos="3" path="0@@3@@">Naproxen@@@@conj_and@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d85.s9.p1" e1="DDI-DrugBank.d85.s9.e0" e2="DDI-DrugBank.d85.s9.e2" ddi="true" type="effect" flags="True" e1_name="Naproxen" e2_name="propranolol" e1_pos="0" e2_pos="10" path="0@@5@@8@@13@@10@@">Naproxen@@@@nsubj@@reduce@@dobj@@effect@@prep_of@@beta-blockers@@amod@@propranolol</pair>  
+      <pair id="DDI-DrugBank.d85.s9.p2" e1="DDI-DrugBank.d85.s9.e0" e2="DDI-DrugBank.d85.s9.e3" ddi="true" type="effect" flags="True" e1_name="Naproxen" e2_name="beta-blockers" e1_pos="0" e2_pos="13" path="0@@5@@8@@13@@">Naproxen@@@@nsubj@@reduce@@dobj@@effect@@prep_of@@beta-blockers</pair>  
+      <pair id="DDI-DrugBank.d85.s9.p3" e1="DDI-DrugBank.d85.s9.e1" e2="DDI-DrugBank.d85.s9.e2" ddi="true" type="effect" flags="True" e1_name="NSAIDs" e2_name="propranolol" e1_pos="3" e2_pos="10" path="3@@5@@8@@13@@10@@">NSAIDs@@@@nsubj@@reduce@@dobj@@effect@@prep_of@@beta-blockers@@amod@@propranolol</pair>  
+      <pair id="DDI-DrugBank.d85.s9.p4" e1="DDI-DrugBank.d85.s9.e1" e2="DDI-DrugBank.d85.s9.e3" ddi="true" type="effect" flags="True" e1_name="NSAIDs" e2_name="beta-blockers" e1_pos="3" e2_pos="13" path="3@@5@@8@@13@@">NSAIDs@@@@nsubj@@reduce@@dobj@@effect@@prep_of@@beta-blockers</pair>  
+      <pair id="DDI-DrugBank.d85.s9.p5" e1="DDI-DrugBank.d85.s9.e2" e2="DDI-DrugBank.d85.s9.e3" ddi="false" flags="True" e1_name="propranolol" e2_name="beta-blockers" e1_pos="10" e2_pos="13" path="10@@13@@">propranolol@@@@amod@@beta-blockers</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d85.s10" text="Probenecid given concurrently increases naproxen anion plasma levels and extends its plasma half-life significantly." new_text="Probenecid@@given@@concurrently@@increases@@naproxen@@anion@@plasma@@levels@@and@@extends@@its@@plasma@@half-life@@significantly@@.@@"> 
+      <entity id="DDI-DrugBank.d85.s10.e0" charOffset="0-9" type="drug" text="Probenecid" position="0"/>  
+      <entity id="DDI-DrugBank.d85.s10.e1" charOffset="40-47" type="drug" text="naproxen" position="4"/>  
+      <pair id="DDI-DrugBank.d85.s10.p0" e1="DDI-DrugBank.d85.s10.e0" e2="DDI-DrugBank.d85.s10.e1" ddi="true" type="mechanism" flags="True" e1_name="Probenecid" e2_name="naproxen" e1_pos="0" e2_pos="4" path="0@@3@@7@@4@@">Probenecid@@@@nsubj@@increases@@dobj@@levels@@nn@@naproxen</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d85.s11" text="Caution should be used if naproxen is administered concomitantly with methotrexate." new_text="Caution@@should@@be@@used@@if@@naproxen@@is@@administered@@concomitantly@@with@@methotrexate@@.@@"> 
+      <entity id="DDI-DrugBank.d85.s11.e0" charOffset="26-33" type="drug" text="naproxen" position="5"/>  
+      <entity id="DDI-DrugBank.d85.s11.e1" charOffset="70-81" type="drug" text="methotrexate" position="10"/>  
+      <pair id="DDI-DrugBank.d85.s11.p0" e1="DDI-DrugBank.d85.s11.e0" e2="DDI-DrugBank.d85.s11.e1" ddi="true" type="advise" flags="True" e1_name="naproxen" e2_name="methotrexate" e1_pos="5" e2_pos="10" path="5@@7@@10@@">naproxen@@@@nsubjpass@@administered@@prep_with@@methotrexate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d85.s12" text="Naproxen, naproxen sodium and other NSAIDs have been reported to reduce the tubular secretion of methotrexate in an animal model, possibly increasing the toxicity of methotrexate." new_text="Naproxen@@,@@naproxen sodium@@and@@other@@NSAIDs@@have@@been@@reported@@to@@reduce@@the@@tubular@@secretion@@of@@methotrexate@@in@@an@@animal@@model@@,@@possibly@@increasing@@the@@toxicity@@of@@methotrexate@@.@@"> 
+      <entity id="DDI-DrugBank.d85.s12.e0" charOffset="0-7" type="drug" text="Naproxen" position="0"/>  
+      <entity id="DDI-DrugBank.d85.s12.e1" charOffset="10-24" type="drug" text="naproxen sodium" position="2"/>  
+      <entity id="DDI-DrugBank.d85.s12.e2" charOffset="36-41" type="group" text="NSAIDs" position="5"/>  
+      <entity id="DDI-DrugBank.d85.s12.e3" charOffset="97-108" type="drug" text="methotrexate" position="15"/>  
+      <entity id="DDI-DrugBank.d85.s12.e4" charOffset="166-177" type="drug" text="methotrexate" position="26"/>  
+      <pair id="DDI-DrugBank.d85.s12.p0" e1="DDI-DrugBank.d85.s12.e0" e2="DDI-DrugBank.d85.s12.e1" ddi="false" flags="True" e1_name="Naproxen" e2_name="naproxen sodium" e1_pos="0" e2_pos="2" path="0@@2@@">Naproxen@@@@nn@@naproxen sodium</pair>  
+      <pair id="DDI-DrugBank.d85.s12.p1" e1="DDI-DrugBank.d85.s12.e0" e2="DDI-DrugBank.d85.s12.e2" ddi="false" flags="True" e1_name="Naproxen" e2_name="NSAIDs" e1_pos="0" e2_pos="5" path="0@@2@@5@@">Naproxen@@@@nn@@naproxen sodium@@nn@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d85.s12.p2" e1="DDI-DrugBank.d85.s12.e0" e2="DDI-DrugBank.d85.s12.e3" ddi="true" type="mechanism" flags="True" e1_name="Naproxen" e2_name="methotrexate" e1_pos="0" e2_pos="15" path="0@@2@@5@@10@@13@@15@@">Naproxen@@@@nn@@naproxen sodium@@nn@@NSAIDs@@xsubj@@reduce@@dobj@@secretion@@prep_of@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d85.s12.p3" e1="DDI-DrugBank.d85.s12.e0" e2="DDI-DrugBank.d85.s12.e4" ddi="false" flags="True" e1_name="Naproxen" e2_name="methotrexate" e1_pos="0" e2_pos="26" path="0@@2@@5@@10@@22@@24@@26@@">Naproxen@@@@nn@@naproxen sodium@@nn@@NSAIDs@@xsubj@@reduce@@partmod@@increasing@@dobj@@toxicity@@prep_of@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d85.s12.p4" e1="DDI-DrugBank.d85.s12.e1" e2="DDI-DrugBank.d85.s12.e2" ddi="false" flags="True" e1_name="naproxen sodium" e2_name="NSAIDs" e1_pos="2" e2_pos="5" path="2@@5@@">naproxen sodium@@@@nn@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d85.s12.p5" e1="DDI-DrugBank.d85.s12.e1" e2="DDI-DrugBank.d85.s12.e3" ddi="true" type="mechanism" flags="True" e1_name="naproxen sodium" e2_name="methotrexate" e1_pos="2" e2_pos="15" path="2@@5@@10@@13@@15@@">naproxen sodium@@@@nn@@NSAIDs@@xsubj@@reduce@@dobj@@secretion@@prep_of@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d85.s12.p6" e1="DDI-DrugBank.d85.s12.e1" e2="DDI-DrugBank.d85.s12.e4" ddi="false" flags="True" e1_name="naproxen sodium" e2_name="methotrexate" e1_pos="2" e2_pos="26" path="2@@5@@10@@22@@24@@26@@">naproxen sodium@@@@nn@@NSAIDs@@xsubj@@reduce@@partmod@@increasing@@dobj@@toxicity@@prep_of@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d85.s12.p7" e1="DDI-DrugBank.d85.s12.e2" e2="DDI-DrugBank.d85.s12.e3" ddi="true" type="mechanism" flags="True" e1_name="NSAIDs" e2_name="methotrexate" e1_pos="5" e2_pos="15" path="5@@10@@13@@15@@">NSAIDs@@@@xsubj@@reduce@@dobj@@secretion@@prep_of@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d85.s12.p8" e1="DDI-DrugBank.d85.s12.e2" e2="DDI-DrugBank.d85.s12.e4" ddi="false" flags="True" e1_name="NSAIDs" e2_name="methotrexate" e1_pos="5" e2_pos="26" path="5@@10@@22@@24@@26@@">NSAIDs@@@@xsubj@@reduce@@partmod@@increasing@@dobj@@toxicity@@prep_of@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d85.s12.p9" e1="DDI-DrugBank.d85.s12.e3" e2="DDI-DrugBank.d85.s12.e4" ddi="false" flags="True" e1_name="methotrexate" e2_name="methotrexate" e1_pos="15" e2_pos="26" path="15@@13@@10@@22@@24@@26@@">methotrexate@@@@prep_of@@secretion@@dobj@@reduce@@partmod@@increasing@@dobj@@toxicity@@prep_of@@methotrexate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d85.s13" text="Drug/Laboratory Test Interactions Naproxen may decrease platelet aggregation and prolong bleeding time." new_text="Drug/Laboratory@@Test@@Interactions@@Naproxen@@may@@decrease@@platelet@@aggregation@@and@@prolong@@bleeding@@time@@.@@"> 
+      <entity id="DDI-DrugBank.d85.s13.e0" charOffset="34-41" type="drug" text="Naproxen" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d85.s14" text="This effect should be kept in mind when bleeding times are determined." new_text="This@@effect@@should@@be@@kept@@in@@mind@@when@@bleeding@@times@@are@@determined@@.@@"/>  
+   <sentence id="DDI-DrugBank.d85.s15" text="The administration of naproxen may result in increased urinary values for 17-ketogenic steroids because of an interaction between the drug and/or its metabolites with m-dinitrobenzene used in this assay." new_text="The@@administration@@of@@naproxen@@may@@result@@in@@increased@@urinary@@values@@for@@17-ketogenic@@steroids@@because@@of@@an@@interaction@@between@@the@@drug@@and/or@@its@@metabolites@@with@@m-dinitrobenzene@@used@@in@@this@@assay@@.@@"> 
+      <entity id="DDI-DrugBank.d85.s15.e0" charOffset="22-29" type="drug" text="naproxen" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d85.s16" text="Although 17-hydroxy-corticosteroid measurements (Porter-Silber test) do not appear to be artifactually altered, it is suggested that therapy with naproxen be temporarily discontinued 72 hours before adrenal function tests are performed if the Porter-Silber test is to be used." new_text="Although@@17-hydroxy-corticosteroid@@measurements@@(Porter-Silber@@test)@@do@@not@@appear@@to@@be@@artifactually@@altered@@,@@it@@is@@suggested@@that@@therapy@@with@@naproxen@@be@@temporarily@@discontinued@@72@@hours@@before@@adrenal@@function@@tests@@are@@performed@@if@@the@@Porter-Silber@@test@@is@@to@@be@@used@@.@@"> 
+      <entity id="DDI-DrugBank.d85.s16.e0" charOffset="146-153" type="drug" text="naproxen" position="19"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d85.s17" text="Naproxen may interfere with some urinary assays of 5-hydroxy indoleacetic acid (5HIAA)." new_text="Naproxen@@may@@interfere@@with@@some@@urinary@@assays@@of@@5-hydroxy@@indoleacetic@@acid@@(5HIAA)@@.@@"> 
+      <entity id="DDI-DrugBank.d85.s17.e0" charOffset="0-7" type="drug" text="Naproxen" position="0"/> 
+   </sentence> 
+</document>

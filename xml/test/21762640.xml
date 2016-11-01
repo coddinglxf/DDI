@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d166"> 
+   <sentence id="DDI-MedLine.d166.s0" text="Improved parathyroid hormone control by cinacalcet is associated with reduction in darbepoetin requirement in patients with end-stage renal disease.
+" new_text="Improved@@parathyroid@@hormone@@control@@by@@cinacalcet@@is@@associated@@with@@reduction@@in@@darbepoetin@@requirement@@in@@patients@@with@@end-stage@@renal@@disease@@.@@"> 
+      <entity id="DDI-MedLine.d166.s0.e0" charOffset="40-49" type="drug" text="cinacalcet" position="5"/>  
+      <entity id="DDI-MedLine.d166.s0.e1" charOffset="83-93" type="drug" text="darbepoetin" position="11"/>  
+      <pair id="DDI-MedLine.d166.s0.p0" e1="DDI-MedLine.d166.s0.e0" e2="DDI-MedLine.d166.s0.e1" ddi="false" flags="True" e1_name="cinacalcet" e2_name="darbepoetin" e1_pos="5" e2_pos="11" path="5@@3@@7@@9@@12@@11@@">cinacalcet@@@@prep_by@@control@@nsubjpass@@associated@@prep_with@@reduction@@prep_in@@requirement@@nn@@darbepoetin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d166.s1" text="Uncontrolled hy-per-parathyroidism causes bone marrow fibrosis, leading to erythropoietin (EPO) resistance. " new_text="Uncontrolled@@hy-per-parathyroidism@@causes@@bone@@marrow@@fibrosis@@,@@leading@@to@@erythropoietin@@(@@EPO@@)@@resistance@@.@@"> 
+      <entity id="DDI-MedLine.d166.s1.e0" charOffset="75-88" type="drug" text="erythropoietin" position="9"/>  
+      <entity id="DDI-MedLine.d166.s1.e1" charOffset="91-93" type="drug" text="EPO" position="11"/>  
+      <pair id="DDI-MedLine.d166.s1.p0" e1="DDI-MedLine.d166.s1.e0" e2="DDI-MedLine.d166.s1.e1" ddi="false" flags="True" e1_name="erythropoietin" e2_name="EPO" e1_pos="9" e2_pos="11" path="9@@13@@11@@">erythropoietin@@@@nn@@resistance@@nn@@EPO</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d166.s2" text="Medical treatment with cinacalcet is effective in reducing plasma parathyroid hormone (PTH) levels, but its effect on darbepoetin dosing is unknown. " new_text="Medical@@treatment@@with@@cinacalcet@@is@@effective@@in@@reducing@@plasma@@parathyroid@@hormone@@(PTH)@@levels@@,@@but@@its@@effect@@on@@darbepoetin@@dosing@@is@@unknown@@.@@"> 
+      <entity id="DDI-MedLine.d166.s2.e0" charOffset="23-32" type="drug" text="cinacalcet" position="3"/>  
+      <entity id="DDI-MedLine.d166.s2.e1" charOffset="118-128" type="drug" text="darbepoetin" position="18"/>  
+      <pair id="DDI-MedLine.d166.s2.p0" e1="DDI-MedLine.d166.s2.e0" e2="DDI-MedLine.d166.s2.e1" ddi="false" flags="True" e1_name="cinacalcet" e2_name="darbepoetin" e1_pos="3" e2_pos="18" path="3@@1@@5@@21@@16@@19@@18@@">cinacalcet@@@@prep_with@@treatment@@nsubj@@effective@@conj_but@@unknown@@nsubj@@effect@@prep_on@@dosing@@nn@@darbepoetin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d166.s3" text="METHODS AND AIMS: We conducted a retrospective cohort study of 40 end-stage renal disease (ESRD) patients (age: 55    14; mean    SD; 21:male) who had at least 12 months of cinacalcet therapy. " new_text="METHODS@@AND@@AIMS@@:@@We@@conducted@@a@@retrospective@@cohort@@study@@of@@40@@end-stage@@renal@@disease@@(ESRD)@@patients@@(age@@:@@55@@@@@@@@14;@@mean@@@@@@@@SD;@@21:male)@@who@@had@@at@@least@@12@@months@@of@@cinacalcet@@therapy@@.@@"> 
+      <entity id="DDI-MedLine.d166.s3.e0" charOffset="173-182" type="drug" text="cinacalcet" position="37"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d166.s4" text="The distribution of renal replacement therapies were: 14 peritoneal dialysis, 18 conventional hemodialysis and 8 nocturnal hemodialysis. " new_text="The@@distribution@@of@@renal@@replacement@@therapies@@were@@:@@14@@peritoneal@@dialysis@@,@@18@@conventional@@hemodialysis@@and@@8@@nocturnal@@hemodialysis@@.@@"/>  
+   <sentence id="DDI-MedLine.d166.s5" text="Standard dialysis related biochemical indices and medications used were recorded. " new_text="Standard@@dialysis@@related@@biochemical@@indices@@and@@medications@@used@@were@@recorded@@.@@"/>  
+   <sentence id="DDI-MedLine.d166.s6" text="The primary objective of the study was to ascertain the difference in darbepoetin responsiveness before and after 12 months of cinacalcet therapy. " new_text="The@@primary@@objective@@of@@the@@study@@was@@to@@ascertain@@the@@difference@@in@@darbepoetin@@responsiveness@@before@@and@@after@@12@@months@@of@@cinacalcet@@therapy@@.@@"> 
+      <entity id="DDI-MedLine.d166.s6.e0" charOffset="70-80" type="drug" text="darbepoetin" position="12"/>  
+      <entity id="DDI-MedLine.d166.s6.e1" charOffset="127-136" type="drug" text="cinacalcet" position="20"/>  
+      <pair id="DDI-MedLine.d166.s6.p0" e1="DDI-MedLine.d166.s6.e0" e2="DDI-MedLine.d166.s6.e1" ddi="false" flags="True" e1_name="darbepoetin" e2_name="cinacalcet" e1_pos="12" e2_pos="20" path="12@@13@@10@@8@@18@@21@@20@@">darbepoetin@@@@nn@@responsiveness@@prep_in@@difference@@dobj@@ascertain@@prep_before@@months@@prep_of@@therapy@@amod@@cinacalcet</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d166.s7" text="Our secondary objective was to determine if there was a relationship between the changes in PTH and darbepoetin requirement." new_text="Our@@secondary@@objective@@was@@to@@determine@@if@@there@@was@@a@@relationship@@between@@the@@changes@@in@@PTH@@and@@darbepoetin@@requirement@@.@@"> 
+      <entity id="DDI-MedLine.d166.s7.e0" charOffset="100-110" type="drug" text="darbepoetin" position="17"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d166.s8" text="Overall, PTH levels decreased from 197.5 (151.8; 249.2) to 66.1 (41.2; 136.5) (median (25th;75th percentile)) pmol/l; " new_text="Overall@@,@@PTH@@levels@@decreased@@from@@197.5@@(151.8;@@249.2)@@to@@66.1@@(41.2;@@136.5)@@(median@@(25th;75th@@percentile))@@pmol/l;@@"/>  
+   <sentence id="DDI-MedLine.d166.s9" text="p &amp;lt; " new_text="p@@&amp;lt;@@"/>  
+   <sentence id="DDI-MedLine.d166.s10" text="0.001. " new_text="0.001@@.@@"/>  
+   <sentence id="DDI-MedLine.d166.s11" text="Cinacalcet dose increased from 30.0   6 to 63   25 mg/day, p &lt;" new_text="Cinacalcet@@dose@@increased@@from@@30.0@@@@@@6@@to@@63@@@@@@25@@mg/day@@,@@p@@&lt;@@"> 
+      <entity id="DDI-MedLine.d166.s11.e0" charOffset="0-9" type="drug" text="Cinacalcet" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d166.s12" text="0.05. " new_text="0.05@@.@@"/>  
+   <sentence id="DDI-MedLine.d166.s13" text="Hemoglobin remained unchanged (116   13 to 116   13 g/l), while darbepoetin requirement decreased from 40 (20; 60) to 24 (19; 59)   g/week, p = 0.02." new_text="Hemoglobin@@remained@@unchanged@@(116@@@@@@13@@to@@116@@@@@@13@@g/l)@@,@@while@@darbepoetin@@requirement@@decreased@@from@@40@@(20;@@60)@@to@@24@@(19;@@59)@@@@@@g/week@@,@@p@@=@@0.02@@.@@"> 
+      <entity id="DDI-MedLine.d166.s13.e0" charOffset="64-74" type="drug" text="darbepoetin" position="15"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d166.s14" text="The remainder of the dialysis-related biochemistry (electrolytes, calcium, phosphate, iron status) and vitamin D use remained unchanged. " new_text="The@@remainder@@of@@the@@dialysis-related@@biochemistry@@(electrolytes@@,@@calcium@@,@@phosphate@@,@@iron@@status)@@and@@vitamin@@D@@use@@remained@@unchanged@@.@@"/>  
+   <sentence id="DDI-MedLine.d166.s15" text="A reduction in PTH level of greater than 30% was experienced by 82.5% (33/40) of our cohort. " new_text="A@@reduction@@in@@PTH@@level@@of@@greater@@than@@30%@@was@@experienced@@by@@82.5%@@(33/40)@@of@@our@@cohort@@.@@"/>  
+   <sentence id="DDI-MedLine.d166.s16" text="Among the responders, the fall in PTH and reduction darbepoetin requirement were related (R = -0.48, p = 0.004). " new_text="Among@@the@@responders@@,@@the@@fall@@in@@PTH@@and@@reduction@@darbepoetin@@requirement@@were@@related@@(R@@=@@-0.48@@,@@p@@=@@0.004)@@.@@"> 
+      <entity id="DDI-MedLine.d166.s16.e0" charOffset="52-62" type="drug" text="darbepoetin" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d166.s17" text="Reduction of PTH by cinacalcet is associated with a decrease in darbepoetin requirement. " new_text="Reduction@@of@@PTH@@by@@cinacalcet@@is@@associated@@with@@a@@decrease@@in@@darbepoetin@@requirement@@.@@"> 
+      <entity id="DDI-MedLine.d166.s17.e0" charOffset="20-29" type="drug" text="cinacalcet" position="4"/>  
+      <entity id="DDI-MedLine.d166.s17.e1" charOffset="64-74" type="drug" text="darbepoetin" position="11"/>  
+      <pair id="DDI-MedLine.d166.s17.p0" e1="DDI-MedLine.d166.s17.e0" e2="DDI-MedLine.d166.s17.e1" ddi="true" type="effect" flags="True" e1_name="cinacalcet" e2_name="darbepoetin" e1_pos="4" e2_pos="11" path="4@@2@@0@@6@@9@@12@@11@@">cinacalcet@@@@prep_by@@PTH@@prep_of@@Reduction@@nsubjpass@@associated@@prep_with@@decrease@@prep_in@@requirement@@nn@@darbepoetin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d166.s18" text="The interface between bone and bone marrow in uremia represents a critical step in red blood cell production which merits further investigation." new_text="The@@interface@@between@@bone@@and@@bone@@marrow@@in@@uremia@@represents@@a@@critical@@step@@in@@red@@blood@@cell@@production@@which@@merits@@further@@investigation@@.@@"/> 
+</document>

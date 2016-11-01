@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d36"> 
+   <sentence id="DDI-MedLine.d36.s0" text="Carbamazepine overdose recognized by a tricyclic antidepressant assay.
+" new_text="Carbamazepine@@overdose@@recognized@@by@@a@@tricyclic antidepressant@@assay@@.@@"> 
+      <entity id="DDI-MedLine.d36.s0.e0" charOffset="0-12" type="drug" text="Carbamazepine" position="0"/>  
+      <entity id="DDI-MedLine.d36.s0.e1" charOffset="39-62" type="group" text="tricyclic antidepressant" position="5"/>  
+      <pair id="DDI-MedLine.d36.s0.p0" e1="DDI-MedLine.d36.s0.e0" e2="DDI-MedLine.d36.s0.e1" ddi="false" flags="True" e1_name="Carbamazepine" e2_name="tricyclic antidepressant" e1_pos="0" e2_pos="5" path="0@@1@@2@@6@@5@@">Carbamazepine@@@@amod@@overdose@@nsubj@@recognized@@prep_by@@assay@@amod@@tricyclic antidepressant</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d36.s1" text="Altered mental status in an adolescent presents a diagnostic challenge, and the clinician depends on clinical evaluation and laboratory studies to determine therapy and prognosis. " new_text="Altered@@mental@@status@@in@@an@@adolescent@@presents@@a@@diagnostic@@challenge@@,@@and@@the@@clinician@@depends@@on@@clinical@@evaluation@@and@@laboratory@@studies@@to@@determine@@therapy@@and@@prognosis@@.@@"/>  
+   <sentence id="DDI-MedLine.d36.s2" text="We report the case of an adolescent with altered consciousness caused by carbamazepine overdose with a positive tricyclic antidepressant level to alert clinicians to the cross-reactivity of carbamazepine with a toxicology screen for tricyclic antidepressants." new_text="We@@report@@the@@case@@of@@an@@adolescent@@with@@altered@@consciousness@@caused@@by@@carbamazepine@@overdose@@with@@a@@positive@@tricyclic antidepressant@@level@@to@@alert@@clinicians@@to@@the@@cross-reactivity@@of@@carbamazepine@@with@@a@@toxicology@@screen@@for@@tricyclic antidepressants@@.@@"> 
+      <entity id="DDI-MedLine.d36.s2.e0" charOffset="73-85" type="drug" text="carbamazepine" position="12"/>  
+      <entity id="DDI-MedLine.d36.s2.e1" charOffset="112-135" type="group" text="tricyclic antidepressant" position="17"/>  
+      <entity id="DDI-MedLine.d36.s2.e2" charOffset="190-202" type="drug" text="carbamazepine" position="26"/>  
+      <entity id="DDI-MedLine.d36.s2.e3" charOffset="233-257" type="group" text="tricyclic antidepressants" position="32"/>  
+      <pair id="DDI-MedLine.d36.s2.p0" e1="DDI-MedLine.d36.s2.e0" e2="DDI-MedLine.d36.s2.e1" ddi="true" type="effect" flags="True" e1_name="carbamazepine" e2_name="tricyclic antidepressant" e1_pos="12" e2_pos="17" path="12@@13@@18@@17@@">carbamazepine@@@@amod@@overdose@@prep_with@@level@@nn@@tricyclic antidepressant</pair>  
+      <pair id="DDI-MedLine.d36.s2.p1" e1="DDI-MedLine.d36.s2.e0" e2="DDI-MedLine.d36.s2.e2" ddi="false" flags="True" e1_name="carbamazepine" e2_name="carbamazepine" e1_pos="12" e2_pos="26" path="12@@13@@10@@20@@24@@26@@">carbamazepine@@@@amod@@overdose@@agent@@caused@@xcomp@@alert@@prep_to@@cross-reactivity@@prep_of@@carbamazepine</pair>  
+      <pair id="DDI-MedLine.d36.s2.p2" e1="DDI-MedLine.d36.s2.e0" e2="DDI-MedLine.d36.s2.e3" ddi="false" flags="True" e1_name="carbamazepine" e2_name="tricyclic antidepressants" e1_pos="12" e2_pos="32" path="12@@13@@10@@20@@30@@32@@">carbamazepine@@@@amod@@overdose@@agent@@caused@@xcomp@@alert@@prep_with@@screen@@prep_for@@tricyclic antidepressants</pair>  
+      <pair id="DDI-MedLine.d36.s2.p3" e1="DDI-MedLine.d36.s2.e1" e2="DDI-MedLine.d36.s2.e2" ddi="false" flags="True" e1_name="tricyclic antidepressant" e2_name="carbamazepine" e1_pos="17" e2_pos="26" path="17@@18@@13@@10@@20@@24@@26@@">tricyclic antidepressant@@@@nn@@level@@prep_with@@overdose@@agent@@caused@@xcomp@@alert@@prep_to@@cross-reactivity@@prep_of@@carbamazepine</pair>  
+      <pair id="DDI-MedLine.d36.s2.p4" e1="DDI-MedLine.d36.s2.e1" e2="DDI-MedLine.d36.s2.e3" ddi="false" flags="True" e1_name="tricyclic antidepressant" e2_name="tricyclic antidepressants" e1_pos="17" e2_pos="32" path="17@@18@@13@@10@@20@@30@@32@@">tricyclic antidepressant@@@@nn@@level@@prep_with@@overdose@@agent@@caused@@xcomp@@alert@@prep_with@@screen@@prep_for@@tricyclic antidepressants</pair>  
+      <pair id="DDI-MedLine.d36.s2.p5" e1="DDI-MedLine.d36.s2.e2" e2="DDI-MedLine.d36.s2.e3" ddi="true" type="advise" flags="True" e1_name="carbamazepine" e2_name="tricyclic antidepressants" e1_pos="26" e2_pos="32" path="26@@24@@20@@30@@32@@">carbamazepine@@@@prep_of@@cross-reactivity@@prep_to@@alert@@prep_with@@screen@@prep_for@@tricyclic antidepressants</pair> 
+   </sentence> 
+</document>

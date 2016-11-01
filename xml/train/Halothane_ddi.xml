@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d74"> 
+   <sentence id="DDI-DrugBank.d74.s0" text="FLUOTHANE augments the action of non-depolarising muscle relaxants and the muscle relaxant effects of aminoglycosides." new_text="FLUOTHANE@@augments@@the@@action@@of@@non-depolarising muscle relaxant@@s@@and@@the@@muscle@@relaxant@@effects@@of@@aminoglycosides@@.@@"> 
+      <entity id="DDI-DrugBank.d74.s0.e0" charOffset="0-8" type="brand" text="FLUOTHANE" position="0"/>  
+      <entity id="DDI-DrugBank.d74.s0.e1" charOffset="33-64" type="group" text="non-depolarising muscle relaxant" position="5"/>  
+      <entity id="DDI-DrugBank.d74.s0.e2" charOffset="102-116" type="group" text="aminoglycosides" position="13"/>  
+      <pair id="DDI-DrugBank.d74.s0.p0" e1="DDI-DrugBank.d74.s0.e0" e2="DDI-DrugBank.d74.s0.e1" ddi="true" type="effect" flags="True" e1_name="FLUOTHANE" e2_name="non-depolarising muscle relaxant" e1_pos="0" e2_pos="5" path="0@@1@@3@@6@@5@@">FLUOTHANE@@@@nsubj@@augments@@dobj@@action@@prep_of@@s@@amod@@non-depolarising muscle relaxant</pair>  
+      <pair id="DDI-DrugBank.d74.s0.p1" e1="DDI-DrugBank.d74.s0.e0" e2="DDI-DrugBank.d74.s0.e2" ddi="true" type="effect" flags="True" e1_name="FLUOTHANE" e2_name="aminoglycosides" e1_pos="0" e2_pos="13" path="0@@1@@11@@13@@">FLUOTHANE@@@@nsubj@@augments@@dobj@@effects@@prep_of@@aminoglycosides</pair>  
+      <pair id="DDI-DrugBank.d74.s0.p2" e1="DDI-DrugBank.d74.s0.e1" e2="DDI-DrugBank.d74.s0.e2" ddi="false" flags="True" e1_name="non-depolarising muscle relaxant" e2_name="aminoglycosides" e1_pos="5" e2_pos="13" path="5@@6@@3@@11@@13@@">non-depolarising muscle relaxant@@@@amod@@s@@prep_of@@action@@conj_and@@effects@@prep_of@@aminoglycosides</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d74.s1" text="FLUOTHANE may augment the hypotension caused by the ganglionic-blocking effect of tubocurarine." new_text="FLUOTHANE@@may@@augment@@the@@hypotension@@caused@@by@@the@@ganglionic-blocking@@effect@@of@@tubocurarine@@.@@"> 
+      <entity id="DDI-DrugBank.d74.s1.e0" charOffset="0-8" type="brand" text="FLUOTHANE" position="0"/>  
+      <entity id="DDI-DrugBank.d74.s1.e1" charOffset="82-93" type="drug" text="tubocurarine" position="11"/>  
+      <pair id="DDI-DrugBank.d74.s1.p0" e1="DDI-DrugBank.d74.s1.e0" e2="DDI-DrugBank.d74.s1.e1" ddi="true" type="effect" flags="True" e1_name="FLUOTHANE" e2_name="tubocurarine" e1_pos="0" e2_pos="11" path="0@@2@@4@@5@@9@@11@@">FLUOTHANE@@@@nsubj@@augment@@dobj@@hypotension@@partmod@@caused@@agent@@effect@@prep_of@@tubocurarine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d74.s2" text="Caution should be exercised during the administration of adrenaline to patients anaesthetised with FLUOTHANE as arrhythmias may be precipitated." new_text="Caution@@should@@be@@exercised@@during@@the@@administration@@of@@adrenaline@@to@@patients@@anaesthetised@@with@@FLUOTHANE@@as@@arrhythmias@@may@@be@@precipitated@@.@@"> 
+      <entity id="DDI-DrugBank.d74.s2.e0" charOffset="57-66" type="drug" text="adrenaline" position="8"/>  
+      <entity id="DDI-DrugBank.d74.s2.e1" charOffset="99-107" type="brand" text="FLUOTHANE" position="13"/>  
+      <pair id="DDI-DrugBank.d74.s2.p0" e1="DDI-DrugBank.d74.s2.e0" e2="DDI-DrugBank.d74.s2.e1" ddi="true" type="advise" flags="True" e1_name="adrenaline" e2_name="FLUOTHANE" e1_pos="8" e2_pos="13" path="8@@6@@3@@10@@11@@13@@">adrenaline@@@@prep_of@@administration@@prep_during@@exercised@@prep_to@@patients@@partmod@@anaesthetised@@prep_with@@FLUOTHANE</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d74.s3" text="For this reason the dose of adrenaline should be restricted and an antiarrhythmic agent administered as appropriate." new_text="For@@this@@reason@@the@@dose@@of@@adrenaline@@should@@be@@restricted@@and@@an@@antiarrhythmic agent@@administered@@as@@appropriate@@.@@"> 
+      <entity id="DDI-DrugBank.d74.s3.e0" charOffset="28-37" type="drug" text="adrenaline" position="6"/>  
+      <entity id="DDI-DrugBank.d74.s3.e1" charOffset="67-86" type="group" text="antiarrhythmic agent" position="12"/>  
+      <pair id="DDI-DrugBank.d74.s3.p0" e1="DDI-DrugBank.d74.s3.e0" e2="DDI-DrugBank.d74.s3.e1" ddi="false" flags="True" e1_name="adrenaline" e2_name="antiarrhythmic agent" e1_pos="6" e2_pos="12" path="6@@4@@9@@13@@12@@">adrenaline@@@@prep_of@@dose@@nsubjpass@@restricted@@conj_and@@administered@@nsubj@@antiarrhythmic agent</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d74.s4" text="Caution should also be applied for other sympathomimetics, and for aminophylline and theophylline and tricyclic antidepressants, which may also precipitate arrhythmias." new_text="Caution@@should@@also@@be@@applied@@for@@other@@sympathomimetics@@,@@and@@for@@aminophylline@@and@@theophylline@@and@@tricyclic antidepressants@@,@@which@@may@@also@@precipitate@@arrhythmias@@.@@"> 
+      <entity id="DDI-DrugBank.d74.s4.e0" charOffset="41-56" type="group" text="sympathomimetics" position="7"/>  
+      <entity id="DDI-DrugBank.d74.s4.e1" charOffset="67-79" type="drug" text="aminophylline" position="11"/>  
+      <entity id="DDI-DrugBank.d74.s4.e2" charOffset="85-96" type="drug" text="theophylline" position="13"/>  
+      <entity id="DDI-DrugBank.d74.s4.e3" charOffset="102-126" type="group" text="tricyclic antidepressants" position="15"/>  
+      <pair id="DDI-DrugBank.d74.s4.p0" e1="DDI-DrugBank.d74.s4.e0" e2="DDI-DrugBank.d74.s4.e1" ddi="false" flags="True" e1_name="sympathomimetics" e2_name="aminophylline" e1_pos="7" e2_pos="11" path="7@@11@@">sympathomimetics@@@@conj_and@@aminophylline</pair>  
+      <pair id="DDI-DrugBank.d74.s4.p1" e1="DDI-DrugBank.d74.s4.e0" e2="DDI-DrugBank.d74.s4.e2" ddi="false" flags="True" e1_name="sympathomimetics" e2_name="theophylline" e1_pos="7" e2_pos="13" path="7@@13@@">sympathomimetics@@@@conj_and@@theophylline</pair>  
+      <pair id="DDI-DrugBank.d74.s4.p2" e1="DDI-DrugBank.d74.s4.e0" e2="DDI-DrugBank.d74.s4.e3" ddi="false" flags="True" e1_name="sympathomimetics" e2_name="tricyclic antidepressants" e1_pos="7" e2_pos="15" path="7@@15@@">sympathomimetics@@@@conj_and@@tricyclic antidepressants</pair>  
+      <pair id="DDI-DrugBank.d74.s4.p3" e1="DDI-DrugBank.d74.s4.e1" e2="DDI-DrugBank.d74.s4.e2" ddi="false" flags="True" e1_name="aminophylline" e2_name="theophylline" e1_pos="11" e2_pos="13" path="11@@13@@">aminophylline@@@@conj_and@@theophylline</pair>  
+      <pair id="DDI-DrugBank.d74.s4.p4" e1="DDI-DrugBank.d74.s4.e1" e2="DDI-DrugBank.d74.s4.e3" ddi="false" flags="True" e1_name="aminophylline" e2_name="tricyclic antidepressants" e1_pos="11" e2_pos="15" path="11@@15@@">aminophylline@@@@conj_and@@tricyclic antidepressants</pair>  
+      <pair id="DDI-DrugBank.d74.s4.p5" e1="DDI-DrugBank.d74.s4.e2" e2="DDI-DrugBank.d74.s4.e3" ddi="false" flags="True" e1_name="theophylline" e2_name="tricyclic antidepressants" e1_pos="13" e2_pos="15" path="13@@7@@15@@">theophylline@@@@conj_and@@sympathomimetics@@conj_and@@tricyclic antidepressants</pair> 
+   </sentence> 
+</document>

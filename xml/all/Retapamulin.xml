@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d654"> 
+   <sentence id="DDI-DrugBank.d654.s0" text="Co-administration of oral ketoconazole 200 mg twice daily increased retapamulin geometric mean AUC(0-24) and Cmax by 81% after topical application of retapamulin ointment, 1% on the abraded skin of healthy adult males. " new_text="Co-administration@@of@@oral@@ketoconazole@@200@@mg@@twice@@daily@@increased@@retapamulin@@geometric@@mean@@AUC(0-24)@@and@@Cmax@@by@@81%@@after@@topical@@application@@of@@retapamulin@@ointment@@,@@1%@@on@@the@@abraded@@skin@@of@@healthy@@adult@@males@@.@@"> 
+      <entity id="DDI-DrugBank.d654.s0.e0" charOffset="26-37" type="drug" text="ketoconazole" position="3"/>  
+      <entity id="DDI-DrugBank.d654.s0.e1" charOffset="68-78" type="drug" text="retapamulin" position="9"/>  
+      <entity id="DDI-DrugBank.d654.s0.e2" charOffset="150-160" type="drug" text="retapamulin" position="21"/>  
+      <pair id="DDI-DrugBank.d654.s0.p0" e1="DDI-DrugBank.d654.s0.e0" e2="DDI-DrugBank.d654.s0.e1" ddi="false" flags="True" e1_name="ketoconazole" e2_name="retapamulin" e1_pos="3" e2_pos="9" path="3@@0@@8@@11@@10@@9@@">ketoconazole@@@@prep_of@@Co-administration@@nsubj@@increased@@ccomp@@mean@@nsubj@@geometric@@nn@@retapamulin</pair>  
+      <pair id="DDI-DrugBank.d654.s0.p1" e1="DDI-DrugBank.d654.s0.e0" e2="DDI-DrugBank.d654.s0.e2" ddi="true" type="mechanism" flags="True" e1_name="ketoconazole" e2_name="retapamulin" e1_pos="3" e2_pos="21" path="3@@0@@8@@11@@19@@22@@21@@">ketoconazole@@@@prep_of@@Co-administration@@nsubj@@increased@@ccomp@@mean@@prep_after@@application@@prep_of@@ointment@@nn@@retapamulin</pair>  
+      <pair id="DDI-DrugBank.d654.s0.p2" e1="DDI-DrugBank.d654.s0.e1" e2="DDI-DrugBank.d654.s0.e2" ddi="false" flags="True" e1_name="retapamulin" e2_name="retapamulin" e1_pos="9" e2_pos="21" path="9@@10@@11@@19@@22@@21@@">retapamulin@@@@nn@@geometric@@nsubj@@mean@@prep_after@@application@@prep_of@@ointment@@nn@@retapamulin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d654.s1" text="Due to low systemic exposure to retapamulin following topical application in patients, dosage adjustments for retapamulin are unnecessary when co-administered with CYP3A4 inhibitors, such as ketoconazole. " new_text="Due@@to@@low@@systemic@@exposure@@to@@retapamulin@@following@@topical@@application@@in@@patients@@,@@dosage@@adjustments@@for@@retapamulin@@are@@unnecessary@@when@@co-administered@@with@@CYP3A4@@inhibitors@@,@@such@@as@@ketoconazole@@.@@"> 
+      <entity id="DDI-DrugBank.d654.s1.e0" charOffset="32-42" type="drug" text="retapamulin" position="6"/>  
+      <entity id="DDI-DrugBank.d654.s1.e1" charOffset="110-120" type="drug" text="retapamulin" position="16"/>  
+      <entity id="DDI-DrugBank.d654.s1.e2" charOffset="191-202" type="drug" text="ketoconazole" position="27"/>  
+      <pair id="DDI-DrugBank.d654.s1.p0" e1="DDI-DrugBank.d654.s1.e0" e2="DDI-DrugBank.d654.s1.e1" ddi="false" flags="True" e1_name="retapamulin" e2_name="retapamulin" e1_pos="6" e2_pos="16" path="6@@4@@18@@14@@16@@">retapamulin@@@@prep_to@@exposure@@prep_due_to@@unnecessary@@nsubj@@adjustments@@prep_for@@retapamulin</pair>  
+      <pair id="DDI-DrugBank.d654.s1.p1" e1="DDI-DrugBank.d654.s1.e0" e2="DDI-DrugBank.d654.s1.e2" ddi="false" flags="True" e1_name="retapamulin" e2_name="ketoconazole" e1_pos="6" e2_pos="27" path="6@@4@@18@@20@@23@@27@@">retapamulin@@@@prep_to@@exposure@@prep_due_to@@unnecessary@@ccomp@@co-administered@@prep_with@@inhibitors@@prep_such_as@@ketoconazole</pair>  
+      <pair id="DDI-DrugBank.d654.s1.p2" e1="DDI-DrugBank.d654.s1.e1" e2="DDI-DrugBank.d654.s1.e2" ddi="false" flags="True" e1_name="retapamulin" e2_name="ketoconazole" e1_pos="16" e2_pos="27" path="16@@14@@18@@20@@23@@27@@">retapamulin@@@@prep_for@@adjustments@@nsubj@@unnecessary@@ccomp@@co-administered@@prep_with@@inhibitors@@prep_such_as@@ketoconazole</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d654.s2" text="Based on in vitro P450 inhibition studies and the low systemic exposure observed following topical application of ALTABAX, retapamulin is unlikely to affect the metabolism of other P450 substrates. " new_text="Based@@on@@in@@vitro@@P450@@inhibition@@studies@@and@@the@@low@@systemic@@exposure@@observed@@following@@topical@@application@@of@@ALTABAX@@,@@retapamulin@@is@@unlikely@@to@@affect@@the@@metabolism@@of@@other@@P450@@substrates@@.@@"> 
+      <entity id="DDI-DrugBank.d654.s2.e0" charOffset="114-120" type="brand" text="ALTABAX" position="17"/>  
+      <entity id="DDI-DrugBank.d654.s2.e1" charOffset="123-133" type="drug" text="retapamulin" position="19"/>  
+      <pair id="DDI-DrugBank.d654.s2.p0" e1="DDI-DrugBank.d654.s2.e0" e2="DDI-DrugBank.d654.s2.e1" ddi="false" flags="True" e1_name="ALTABAX" e2_name="retapamulin" e1_pos="17" e2_pos="19" path="17@@15@@12@@11@@21@@19@@">ALTABAX@@@@prep_of@@application@@prep_following@@observed@@partmod@@exposure@@pobj@@unlikely@@nsubj@@retapamulin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d654.s3" text="The effect of concurrent application of ALTABAX and other topical products to the same area of skin has not been studied." new_text="The@@effect@@of@@concurrent@@application@@of@@ALTABAX@@and@@other@@topical@@products@@to@@the@@same@@area@@of@@skin@@has@@not@@been@@studied@@.@@"> 
+      <entity id="DDI-DrugBank.d654.s3.e0" charOffset="40-46" type="brand" text="ALTABAX" position="6"/> 
+   </sentence> 
+</document>

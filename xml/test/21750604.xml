@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d190"> 
+   <sentence id="DDI-MedLine.d190.s0" text="Glycosidic enzymes enhance retinal transduction following intravitreal delivery of AAV2.
+" new_text="Glycosidic@@enzymes@@enhance@@retinal@@transduction@@following@@intravitreal@@delivery@@of@@AAV2@@.@@"> 
+      <entity id="DDI-MedLine.d190.s0.e0" charOffset="83-86" type="drug_n" text="AAV2" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d190.s1" text="To determine whether the co-injection of extracellular matrix degrading enzymes improves retinal transduction following intravitreal delivery of adeno-associated virus-2 (AAV2)." new_text="To@@determine@@whether@@the@@co-injection@@of@@extracellular@@matrix@@degrading@@enzymes@@improves@@retinal@@transduction@@following@@intravitreal@@delivery@@of@@adeno-associated virus-2@@(@@AAV2@@)@@.@@"> 
+      <entity id="DDI-MedLine.d190.s1.e0" charOffset="145-168" type="drug_n" text="adeno-associated virus-2" position="17"/>  
+      <entity id="DDI-MedLine.d190.s1.e1" charOffset="171-174" type="drug_n" text="AAV2" position="19"/>  
+      <pair id="DDI-MedLine.d190.s1.p0" e1="DDI-MedLine.d190.s1.e0" e2="DDI-MedLine.d190.s1.e1" ddi="false" flags="True" e1_name="adeno-associated virus-2" e2_name="AAV2" e1_pos="17" e2_pos="19" path="17@@20@@19@@">adeno-associated virus-2@@@@amod@@)@@nn@@AAV2</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d190.s2" text="AAV2 containing cDNA encoding enhanced green fluorescent protein (GFP), under the control of a chicken   -actin promoter, was delivered by intravitreal injection to adult mice in conjunction with enzymes including collagenase, hyaluronan lyase, heparinase III, or chondroitin ABC lyase. " new_text="AAV2@@containing@@cDNA@@encoding@@enhanced@@green@@fluorescent@@protein@@(GFP)@@,@@under@@the@@control@@of@@a@@chicken@@@@@@-actin@@promoter@@,@@was@@delivered@@by@@intravitreal@@injection@@to@@adult@@mice@@in@@conjunction@@with@@enzymes@@including@@collagenase@@,@@hyaluronan lyase@@,@@heparinase III@@,@@or@@chondroitin ABC lyase@@.@@"> 
+      <entity id="DDI-MedLine.d190.s2.e0" charOffset="0-3" type="drug_n" text="AAV2" position="0"/>  
+      <entity id="DDI-MedLine.d190.s2.e1" charOffset="214-224" type="drug_n" text="collagenase" position="34"/>  
+      <entity id="DDI-MedLine.d190.s2.e2" charOffset="227-242" type="drug_n" text="hyaluronan lyase" position="36"/>  
+      <entity id="DDI-MedLine.d190.s2.e3" charOffset="245-258" type="drug_n" text="heparinase III" position="38"/>  
+      <entity id="DDI-MedLine.d190.s2.e4" charOffset="264-284" type="drug_n" text="chondroitin ABC lyase" position="41"/>  
+      <pair id="DDI-MedLine.d190.s2.p0" e1="DDI-MedLine.d190.s2.e0" e2="DDI-MedLine.d190.s2.e1" ddi="false" flags="True" e1_name="AAV2" e2_name="collagenase" e1_pos="0" e2_pos="34" path="0@@22@@32@@34@@">AAV2@@@@nsubjpass@@delivered@@prep_with@@enzymes@@prep_including@@collagenase</pair>  
+      <pair id="DDI-MedLine.d190.s2.p1" e1="DDI-MedLine.d190.s2.e0" e2="DDI-MedLine.d190.s2.e2" ddi="false" flags="True" e1_name="AAV2" e2_name="hyaluronan lyase" e1_pos="0" e2_pos="36" path="0@@22@@32@@36@@">AAV2@@@@nsubjpass@@delivered@@prep_with@@enzymes@@prep_including@@hyaluronan lyase</pair>  
+      <pair id="DDI-MedLine.d190.s2.p2" e1="DDI-MedLine.d190.s2.e0" e2="DDI-MedLine.d190.s2.e3" ddi="false" flags="True" e1_name="AAV2" e2_name="heparinase III" e1_pos="0" e2_pos="38" path="0@@22@@32@@38@@">AAV2@@@@nsubjpass@@delivered@@prep_with@@enzymes@@prep_including@@heparinase III</pair>  
+      <pair id="DDI-MedLine.d190.s2.p3" e1="DDI-MedLine.d190.s2.e0" e2="DDI-MedLine.d190.s2.e4" ddi="false" flags="True" e1_name="AAV2" e2_name="chondroitin ABC lyase" e1_pos="0" e2_pos="41" path="0@@22@@32@@41@@">AAV2@@@@nsubjpass@@delivered@@prep_with@@enzymes@@prep_including@@chondroitin ABC lyase</pair>  
+      <pair id="DDI-MedLine.d190.s2.p4" e1="DDI-MedLine.d190.s2.e1" e2="DDI-MedLine.d190.s2.e2" ddi="false" flags="True" e1_name="collagenase" e2_name="hyaluronan lyase" e1_pos="34" e2_pos="36" path="34@@36@@">collagenase@@@@conj_or@@hyaluronan lyase</pair>  
+      <pair id="DDI-MedLine.d190.s2.p5" e1="DDI-MedLine.d190.s2.e1" e2="DDI-MedLine.d190.s2.e3" ddi="false" flags="True" e1_name="collagenase" e2_name="heparinase III" e1_pos="34" e2_pos="38" path="34@@38@@">collagenase@@@@conj_or@@heparinase III</pair>  
+      <pair id="DDI-MedLine.d190.s2.p6" e1="DDI-MedLine.d190.s2.e1" e2="DDI-MedLine.d190.s2.e4" ddi="false" flags="True" e1_name="collagenase" e2_name="chondroitin ABC lyase" e1_pos="34" e2_pos="41" path="34@@41@@">collagenase@@@@conj_or@@chondroitin ABC lyase</pair>  
+      <pair id="DDI-MedLine.d190.s2.p7" e1="DDI-MedLine.d190.s2.e2" e2="DDI-MedLine.d190.s2.e3" ddi="false" flags="True" e1_name="hyaluronan lyase" e2_name="heparinase III" e1_pos="36" e2_pos="38" path="36@@32@@38@@">hyaluronan lyase@@@@prep_including@@enzymes@@prep_including@@heparinase III</pair>  
+      <pair id="DDI-MedLine.d190.s2.p8" e1="DDI-MedLine.d190.s2.e2" e2="DDI-MedLine.d190.s2.e4" ddi="false" flags="True" e1_name="hyaluronan lyase" e2_name="chondroitin ABC lyase" e1_pos="36" e2_pos="41" path="36@@32@@41@@">hyaluronan lyase@@@@prep_including@@enzymes@@prep_including@@chondroitin ABC lyase</pair>  
+      <pair id="DDI-MedLine.d190.s2.p9" e1="DDI-MedLine.d190.s2.e3" e2="DDI-MedLine.d190.s2.e4" ddi="false" flags="True" e1_name="heparinase III" e2_name="chondroitin ABC lyase" e1_pos="38" e2_pos="41" path="38@@32@@41@@">heparinase III@@@@prep_including@@enzymes@@prep_including@@chondroitin ABC lyase</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d190.s3" text="Two weeks later, retinal flatmounts were examined for GFP expression using confocal microscopy. " new_text="Two@@weeks@@later@@,@@retinal@@flatmounts@@were@@examined@@for@@GFP@@expression@@using@@confocal@@microscopy@@.@@"/>  
+   <sentence id="DDI-MedLine.d190.s4" text="Without the addition of enzymes, transduction was limited to occasional cells in the retinal ganglion cell layer. " new_text="Without@@the@@addition@@of@@enzymes@@,@@transduction@@was@@limited@@to@@occasional@@cells@@in@@the@@retinal@@ganglion@@cell@@layer@@.@@"/>  
+   <sentence id="DDI-MedLine.d190.s5" text="The addition of heparinase III or chondroitin ABC lyase greatly enhanced transduction of the retinal ganglion cell layer and increased the depth of transduction into the outer retina. " new_text="The@@addition@@of@@heparinase III@@or@@chondroitin ABC lyase@@greatly@@enhanced@@transduction@@of@@the@@retinal@@ganglion@@cell@@layer@@and@@increased@@the@@depth@@of@@transduction@@into@@the@@outer@@retina@@.@@"> 
+      <entity id="DDI-MedLine.d190.s5.e0" charOffset="16-29" type="drug_n" text="heparinase III" position="3"/>  
+      <entity id="DDI-MedLine.d190.s5.e1" charOffset="34-54" type="drug_n" text="chondroitin ABC lyase" position="5"/>  
+      <pair id="DDI-MedLine.d190.s5.p0" e1="DDI-MedLine.d190.s5.e0" e2="DDI-MedLine.d190.s5.e1" ddi="false" flags="True" e1_name="heparinase III" e2_name="chondroitin ABC lyase" e1_pos="3" e2_pos="5" path="3@@5@@">heparinase III@@@@conj_or@@chondroitin ABC lyase</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d190.s6" text="Hyaluronan lyase had a limited effect and collagenase was ineffective. " new_text="Hyaluronan lyase@@had@@a@@limited@@effect@@and@@collagenase@@was@@ineffective@@.@@"> 
+      <entity id="DDI-MedLine.d190.s6.e0" charOffset="0-15" type="drug_n" text="Hyaluronan lyase" position="0"/>  
+      <entity id="DDI-MedLine.d190.s6.e1" charOffset="42-52" type="drug_n" text="collagenase" position="6"/>  
+      <pair id="DDI-MedLine.d190.s6.p0" e1="DDI-MedLine.d190.s6.e0" e2="DDI-MedLine.d190.s6.e1" ddi="false" flags="True" e1_name="Hyaluronan lyase" e2_name="collagenase" e1_pos="0" e2_pos="6" path="0@@1@@6@@">Hyaluronan lyase@@@@nsubj@@had@@dobj@@collagenase</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d190.s7" text="Electroretinograms survived with higher concentrations of heparinase III and chondroitin ABC lyase than were required for optimal retinal transduction. " new_text="Electroretinograms@@survived@@with@@higher@@concentrations@@of@@heparinase III@@and@@chondroitin ABC lyase@@than@@were@@required@@for@@optimal@@retinal@@transduction@@.@@"> 
+      <entity id="DDI-MedLine.d190.s7.e0" charOffset="58-71" type="drug_n" text="heparinase III" position="6"/>  
+      <entity id="DDI-MedLine.d190.s7.e1" charOffset="77-97" type="drug_n" text="chondroitin ABC lyase" position="8"/>  
+      <pair id="DDI-MedLine.d190.s7.p0" e1="DDI-MedLine.d190.s7.e0" e2="DDI-MedLine.d190.s7.e1" ddi="false" flags="True" e1_name="heparinase III" e2_name="chondroitin ABC lyase" e1_pos="6" e2_pos="8" path="6@@8@@">heparinase III@@@@conj_and@@chondroitin ABC lyase</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d190.s8" text="AAV2-mediated retinal transduction is improved by co-injection of heparinase III or chondroitin ABC lyase. " new_text="AAV2@@-mediated@@retinal@@transduction@@is@@improved@@by@@co-injection@@of@@heparinase III@@or@@chondroitin ABC lyase@@.@@"> 
+      <entity id="DDI-MedLine.d190.s8.e0" charOffset="0-3" type="drug_n" text="AAV2" position="0"/>  
+      <entity id="DDI-MedLine.d190.s8.e1" charOffset="66-79" type="drug_n" text="heparinase III" position="9"/>  
+      <entity id="DDI-MedLine.d190.s8.e2" charOffset="84-104" type="drug_n" text="chondroitin ABC lyase" position="11"/>  
+      <pair id="DDI-MedLine.d190.s8.p0" e1="DDI-MedLine.d190.s8.e0" e2="DDI-MedLine.d190.s8.e1" ddi="true" type="effect" flags="True" e1_name="AAV2" e2_name="heparinase III" e1_pos="0" e2_pos="9" path="0@@3@@5@@7@@9@@">AAV2@@@@num@@transduction@@nsubjpass@@improved@@agent@@co-injection@@prep_of@@heparinase III</pair>  
+      <pair id="DDI-MedLine.d190.s8.p1" e1="DDI-MedLine.d190.s8.e0" e2="DDI-MedLine.d190.s8.e2" ddi="true" type="effect" flags="True" e1_name="AAV2" e2_name="chondroitin ABC lyase" e1_pos="0" e2_pos="11" path="0@@3@@5@@7@@11@@">AAV2@@@@num@@transduction@@nsubjpass@@improved@@agent@@co-injection@@prep_of@@chondroitin ABC lyase</pair>  
+      <pair id="DDI-MedLine.d190.s8.p2" e1="DDI-MedLine.d190.s8.e1" e2="DDI-MedLine.d190.s8.e2" ddi="false" flags="True" e1_name="heparinase III" e2_name="chondroitin ABC lyase" e1_pos="9" e2_pos="11" path="9@@11@@">heparinase III@@@@conj_or@@chondroitin ABC lyase</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d190.s9" text="Improved transduction efficiency may allow intravitreal injection to become the preferred route for delivering gene therapy to both the inner and outer retina." new_text="Improved@@transduction@@efficiency@@may@@allow@@intravitreal@@injection@@to@@become@@the@@preferred@@route@@for@@delivering@@gene@@therapy@@to@@both@@the@@inner@@and@@outer@@retina@@.@@"/> 
+</document>

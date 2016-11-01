@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d528"> 
+   <sentence id="DDI-DrugBank.d528.s0" text="Acetaminophen and methotrexate - L-methionine may decrease hepatic toxicity in those with acetaminophen overdosage or in those taking methotrexate." new_text="Acetaminophen@@and@@methotrexate@@-@@L-methionine@@may@@decrease@@hepatic@@toxicity@@in@@those@@with@@acetaminophen@@overdosage@@or@@in@@those@@taking@@methotrexate@@.@@"> 
+      <entity id="DDI-DrugBank.d528.s0.e0" charOffset="0-12" type="drug" text="Acetaminophen" position="0"/>  
+      <entity id="DDI-DrugBank.d528.s0.e1" charOffset="18-29" type="drug" text="methotrexate" position="2"/>  
+      <entity id="DDI-DrugBank.d528.s0.e2" charOffset="33-44" type="drug" text="L-methionine" position="4"/>  
+      <entity id="DDI-DrugBank.d528.s0.e3" charOffset="90-102" type="drug" text="acetaminophen" position="12"/>  
+      <entity id="DDI-DrugBank.d528.s0.e4" charOffset="134-145" type="drug" text="methotrexate" position="18"/>  
+      <pair id="DDI-DrugBank.d528.s0.p0" e1="DDI-DrugBank.d528.s0.e0" e2="DDI-DrugBank.d528.s0.e1" ddi="false" flags="True" e1_name="Acetaminophen" e2_name="methotrexate" e1_pos="0" e2_pos="2" path="0@@2@@">Acetaminophen@@@@conj_and@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d528.s0.p1" e1="DDI-DrugBank.d528.s0.e0" e2="DDI-DrugBank.d528.s0.e2" ddi="false" flags="True" e1_name="Acetaminophen" e2_name="L-methionine" e1_pos="0" e2_pos="4" path="0@@6@@4@@">Acetaminophen@@@@dep@@decrease@@nsubj@@L-methionine</pair>  
+      <pair id="DDI-DrugBank.d528.s0.p2" e1="DDI-DrugBank.d528.s0.e0" e2="DDI-DrugBank.d528.s0.e3" ddi="false" flags="True" e1_name="Acetaminophen" e2_name="acetaminophen" e1_pos="0" e2_pos="12" path="0@@6@@10@@13@@12@@">Acetaminophen@@@@dep@@decrease@@prep_in@@those@@prep_with@@overdosage@@nn@@acetaminophen</pair>  
+      <pair id="DDI-DrugBank.d528.s0.p3" e1="DDI-DrugBank.d528.s0.e0" e2="DDI-DrugBank.d528.s0.e4" ddi="false" flags="True" e1_name="Acetaminophen" e2_name="methotrexate" e1_pos="0" e2_pos="18" path="0@@6@@17@@18@@">Acetaminophen@@@@dep@@decrease@@prep_in@@taking@@dobj@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d528.s0.p4" e1="DDI-DrugBank.d528.s0.e1" e2="DDI-DrugBank.d528.s0.e2" ddi="false" flags="True" e1_name="methotrexate" e2_name="L-methionine" e1_pos="2" e2_pos="4" path="2@@0@@6@@4@@">methotrexate@@@@conj_and@@Acetaminophen@@dep@@decrease@@nsubj@@L-methionine</pair>  
+      <pair id="DDI-DrugBank.d528.s0.p5" e1="DDI-DrugBank.d528.s0.e1" e2="DDI-DrugBank.d528.s0.e3" ddi="false" flags="True" e1_name="methotrexate" e2_name="acetaminophen" e1_pos="2" e2_pos="12" path="2@@0@@6@@10@@13@@12@@">methotrexate@@@@conj_and@@Acetaminophen@@dep@@decrease@@prep_in@@those@@prep_with@@overdosage@@nn@@acetaminophen</pair>  
+      <pair id="DDI-DrugBank.d528.s0.p6" e1="DDI-DrugBank.d528.s0.e1" e2="DDI-DrugBank.d528.s0.e4" ddi="false" flags="True" e1_name="methotrexate" e2_name="methotrexate" e1_pos="2" e2_pos="18" path="2@@0@@6@@17@@18@@">methotrexate@@@@conj_and@@Acetaminophen@@dep@@decrease@@prep_in@@taking@@dobj@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d528.s0.p7" e1="DDI-DrugBank.d528.s0.e2" e2="DDI-DrugBank.d528.s0.e3" ddi="true" type="effect" flags="True" e1_name="L-methionine" e2_name="acetaminophen" e1_pos="4" e2_pos="12" path="4@@6@@10@@13@@12@@">L-methionine@@@@nsubj@@decrease@@prep_in@@those@@prep_with@@overdosage@@nn@@acetaminophen</pair>  
+      <pair id="DDI-DrugBank.d528.s0.p8" e1="DDI-DrugBank.d528.s0.e2" e2="DDI-DrugBank.d528.s0.e4" ddi="true" type="effect" flags="True" e1_name="L-methionine" e2_name="methotrexate" e1_pos="4" e2_pos="18" path="4@@6@@17@@18@@">L-methionine@@@@nsubj@@decrease@@prep_in@@taking@@dobj@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d528.s0.p9" e1="DDI-DrugBank.d528.s0.e3" e2="DDI-DrugBank.d528.s0.e4" ddi="false" flags="True" e1_name="acetaminophen" e2_name="methotrexate" e1_pos="12" e2_pos="18" path="12@@13@@10@@17@@18@@">acetaminophen@@@@nn@@overdosage@@prep_with@@those@@conj_or@@taking@@dobj@@methotrexate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d528.s1" text="Theoretically, it may decrease hepatic toxicity in the case of other potential hepatotoxic drugs, as well." new_text="Theoretically@@,@@it@@may@@decrease@@hepatic@@toxicity@@in@@the@@case@@of@@other@@potential@@hepatotoxic@@drugs@@,@@as@@well@@.@@"/>  
+   <sentence id="DDI-DrugBank.d528.s2" text="Gentamicin - Methionine may protect against the ototoxic effects of gentamicin." new_text="Gentamicin@@-@@Methionine@@may@@protect@@against@@the@@ototoxic@@effects@@of@@gentamicin@@.@@"> 
+      <entity id="DDI-DrugBank.d528.s2.e0" charOffset="0-9" type="drug" text="Gentamicin" position="0"/>  
+      <entity id="DDI-DrugBank.d528.s2.e1" charOffset="13-22" type="drug" text="Methionine" position="2"/>  
+      <entity id="DDI-DrugBank.d528.s2.e2" charOffset="68-77" type="drug" text="gentamicin" position="10"/>  
+      <pair id="DDI-DrugBank.d528.s2.p0" e1="DDI-DrugBank.d528.s2.e0" e2="DDI-DrugBank.d528.s2.e1" ddi="false" flags="True" e1_name="Gentamicin" e2_name="Methionine" e1_pos="0" e2_pos="2" path="0@@4@@2@@">Gentamicin@@@@dep@@protect@@nsubj@@Methionine</pair>  
+      <pair id="DDI-DrugBank.d528.s2.p1" e1="DDI-DrugBank.d528.s2.e0" e2="DDI-DrugBank.d528.s2.e2" ddi="false" flags="True" e1_name="Gentamicin" e2_name="gentamicin" e1_pos="0" e2_pos="10" path="0@@4@@8@@10@@">Gentamicin@@@@dep@@protect@@prep_against@@effects@@prep_of@@gentamicin</pair>  
+      <pair id="DDI-DrugBank.d528.s2.p2" e1="DDI-DrugBank.d528.s2.e1" e2="DDI-DrugBank.d528.s2.e2" ddi="true" type="effect" flags="True" e1_name="Methionine" e2_name="gentamicin" e1_pos="2" e2_pos="10" path="2@@4@@8@@10@@">Methionine@@@@nsubj@@protect@@prep_against@@effects@@prep_of@@gentamicin</pair> 
+   </sentence> 
+</document>

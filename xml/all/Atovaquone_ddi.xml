@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d424"> 
+   <sentence id="DDI-DrugBank.d424.s0" text="Atovaquone is highly bound to plasma protein (99.9%)." new_text="Atovaquone@@is@@highly@@bound@@to@@plasma@@protein@@(99.9%)@@.@@"> 
+      <entity id="DDI-DrugBank.d424.s0.e0" charOffset="0-9" type="drug" text="Atovaquone" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d424.s1" text="Therefore, caution should be used when administering MEPRON concurrently with other highly plasma protein- bound drugs with narrow therapeutic indices, as competition for binding sites may occur." new_text="Therefore@@,@@caution@@should@@be@@used@@when@@administering@@MEPRON@@concurrently@@with@@other@@highly@@plasma@@protein-@@bound@@drugs@@with@@narrow@@therapeutic@@indices@@,@@as@@competition@@for@@binding@@sites@@may@@occur@@.@@"> 
+      <entity id="DDI-DrugBank.d424.s1.e0" charOffset="53-58" type="brand" text="MEPRON" position="8"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d424.s2" text="The extent of plasma protein binding of atovaquone in human plasma is not affected by the presence of therapeutic concentrations of phenytoin (15 mcg/ mL), nor is the binding of phenytoin affected by the presence of atovaquone." new_text="The@@extent@@of@@plasma@@protein@@binding@@of@@atovaquone@@in@@human@@plasma@@is@@not@@affected@@by@@the@@presence@@of@@therapeutic@@concentrations@@of@@phenytoin@@(15@@mcg/@@mL)@@,@@nor@@is@@the@@binding@@of@@phenytoin@@affected@@by@@the@@presence@@of@@atovaquone@@.@@"> 
+      <entity id="DDI-DrugBank.d424.s2.e0" charOffset="40-49" type="drug" text="atovaquone" position="7"/>  
+      <entity id="DDI-DrugBank.d424.s2.e1" charOffset="132-140" type="drug" text="phenytoin" position="21"/>  
+      <entity id="DDI-DrugBank.d424.s2.e2" charOffset="178-186" type="drug" text="phenytoin" position="31"/>  
+      <entity id="DDI-DrugBank.d424.s2.e3" charOffset="216-225" type="drug" text="atovaquone" position="37"/>  
+      <pair id="DDI-DrugBank.d424.s2.p0" e1="DDI-DrugBank.d424.s2.e0" e2="DDI-DrugBank.d424.s2.e1" ddi="false" flags="True" e1_name="atovaquone" e2_name="phenytoin" e1_pos="7" e2_pos="21" path="7@@4@@1@@13@@16@@19@@24@@21@@">atovaquone@@@@prep_of@@protein@@prep_of@@extent@@nsubjpass@@affected@@agent@@presence@@prep_of@@concentrations@@prep_of@@mL)@@nn@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d424.s2.p1" e1="DDI-DrugBank.d424.s2.e0" e2="DDI-DrugBank.d424.s2.e2" ddi="false" flags="True" e1_name="atovaquone" e2_name="phenytoin" e1_pos="7" e2_pos="31" path="7@@4@@1@@32@@29@@31@@">atovaquone@@@@prep_of@@protein@@prep_of@@extent@@nsubjpass@@affected@@attr@@binding@@prep_of@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d424.s2.p2" e1="DDI-DrugBank.d424.s2.e0" e2="DDI-DrugBank.d424.s2.e3" ddi="false" flags="True" e1_name="atovaquone" e2_name="atovaquone" e1_pos="7" e2_pos="37" path="7@@4@@1@@32@@35@@37@@">atovaquone@@@@prep_of@@protein@@prep_of@@extent@@nsubjpass@@affected@@agent@@presence@@prep_of@@atovaquone</pair>  
+      <pair id="DDI-DrugBank.d424.s2.p3" e1="DDI-DrugBank.d424.s2.e1" e2="DDI-DrugBank.d424.s2.e2" ddi="false" flags="True" e1_name="phenytoin" e2_name="phenytoin" e1_pos="21" e2_pos="31" path="21@@24@@19@@16@@13@@32@@29@@31@@">phenytoin@@@@nn@@mL)@@prep_of@@concentrations@@prep_of@@presence@@agent@@affected@@conj_nor@@affected@@attr@@binding@@prep_of@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d424.s2.p4" e1="DDI-DrugBank.d424.s2.e1" e2="DDI-DrugBank.d424.s2.e3" ddi="false" flags="True" e1_name="phenytoin" e2_name="atovaquone" e1_pos="21" e2_pos="37" path="21@@24@@19@@16@@13@@32@@35@@37@@">phenytoin@@@@nn@@mL)@@prep_of@@concentrations@@prep_of@@presence@@agent@@affected@@conj_nor@@affected@@agent@@presence@@prep_of@@atovaquone</pair>  
+      <pair id="DDI-DrugBank.d424.s2.p5" e1="DDI-DrugBank.d424.s2.e2" e2="DDI-DrugBank.d424.s2.e3" ddi="false" flags="True" e1_name="phenytoin" e2_name="atovaquone" e1_pos="31" e2_pos="37" path="31@@29@@32@@35@@37@@">phenytoin@@@@prep_of@@binding@@attr@@affected@@agent@@presence@@prep_of@@atovaquone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d424.s3" text="Rifampin: Coadministration of rifampin and MEPRON Suspension results in a significant decrease in average steady- state plasma atovaquone concentrations." new_text="Rifampin@@:@@Coadministration@@of@@rifampin@@and@@MEPRON@@Suspension@@results@@in@@a@@significant@@decrease@@in@@average@@steady-@@state@@plasma@@atovaquone@@concentrations@@.@@"> 
+      <entity id="DDI-DrugBank.d424.s3.e0" charOffset="0-7" type="drug" text="Rifampin" position="0"/>  
+      <entity id="DDI-DrugBank.d424.s3.e1" charOffset="30-37" type="drug" text="rifampin" position="4"/>  
+      <entity id="DDI-DrugBank.d424.s3.e2" charOffset="43-48" type="brand" text="MEPRON" position="6"/>  
+      <entity id="DDI-DrugBank.d424.s3.e3" charOffset="127-136" type="drug" text="atovaquone" position="18"/>  
+      <pair id="DDI-DrugBank.d424.s3.p0" e1="DDI-DrugBank.d424.s3.e0" e2="DDI-DrugBank.d424.s3.e1" ddi="false" flags="True" e1_name="Rifampin" e2_name="rifampin" e1_pos="0" e2_pos="4" path="0@@2@@8@@4@@">Rifampin@@@@dep@@Coadministration@@prep_of@@results@@nn@@rifampin</pair>  
+      <pair id="DDI-DrugBank.d424.s3.p1" e1="DDI-DrugBank.d424.s3.e0" e2="DDI-DrugBank.d424.s3.e2" ddi="false" flags="True" e1_name="Rifampin" e2_name="MEPRON" e1_pos="0" e2_pos="6" path="0@@2@@8@@6@@">Rifampin@@@@dep@@Coadministration@@prep_of@@results@@nn@@MEPRON</pair>  
+      <pair id="DDI-DrugBank.d424.s3.p2" e1="DDI-DrugBank.d424.s3.e0" e2="DDI-DrugBank.d424.s3.e3" ddi="false" flags="True" e1_name="Rifampin" e2_name="atovaquone" e1_pos="0" e2_pos="18" path="0@@2@@8@@12@@19@@18@@">Rifampin@@@@dep@@Coadministration@@prep_of@@results@@prep_in@@decrease@@prep_in@@concentrations@@amod@@atovaquone</pair>  
+      <pair id="DDI-DrugBank.d424.s3.p3" e1="DDI-DrugBank.d424.s3.e1" e2="DDI-DrugBank.d424.s3.e2" ddi="true" type="mechanism" flags="True" e1_name="rifampin" e2_name="MEPRON" e1_pos="4" e2_pos="6" path="4@@6@@">rifampin@@@@conj_and@@MEPRON</pair>  
+      <pair id="DDI-DrugBank.d424.s3.p4" e1="DDI-DrugBank.d424.s3.e1" e2="DDI-DrugBank.d424.s3.e3" ddi="false" flags="True" e1_name="rifampin" e2_name="atovaquone" e1_pos="4" e2_pos="18" path="4@@8@@12@@19@@18@@">rifampin@@@@nn@@results@@prep_in@@decrease@@prep_in@@concentrations@@amod@@atovaquone</pair>  
+      <pair id="DDI-DrugBank.d424.s3.p5" e1="DDI-DrugBank.d424.s3.e2" e2="DDI-DrugBank.d424.s3.e3" ddi="false" flags="True" e1_name="MEPRON" e2_name="atovaquone" e1_pos="6" e2_pos="18" path="6@@8@@12@@19@@18@@">MEPRON@@@@nn@@results@@prep_in@@decrease@@prep_in@@concentrations@@amod@@atovaquone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d424.s4" text="Alternatives to rifampin should be considered during the course of PCP treatment with MEPRON." new_text="Alternatives@@to@@rifampin@@should@@be@@considered@@during@@the@@course@@of@@PCP@@treatment@@with@@MEPRON@@.@@"> 
+      <entity id="DDI-DrugBank.d424.s4.e0" charOffset="16-23" type="drug" text="rifampin" position="2"/>  
+      <entity id="DDI-DrugBank.d424.s4.e1" charOffset="86-91" type="brand" text="MEPRON" position="13"/>  
+      <pair id="DDI-DrugBank.d424.s4.p0" e1="DDI-DrugBank.d424.s4.e0" e2="DDI-DrugBank.d424.s4.e1" ddi="true" type="advise" flags="True" e1_name="rifampin" e2_name="MEPRON" e1_pos="2" e2_pos="13" path="2@@0@@5@@13@@">rifampin@@@@prep_to@@Alternatives@@nsubjpass@@considered@@prep_with@@MEPRON</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d424.s5" text="Rifabutin, another rifamycin, is structurally similar to rifampin and may possibly have some of the same drug interactions as rifampin." new_text="Rifabutin@@,@@another@@rifamycin@@,@@is@@structurally@@similar@@to@@rifampin@@and@@may@@possibly@@have@@some@@of@@the@@same@@drug@@interactions@@as@@rifampin@@.@@"> 
+      <entity id="DDI-DrugBank.d424.s5.e0" charOffset="0-8" type="drug" text="Rifabutin" position="0"/>  
+      <entity id="DDI-DrugBank.d424.s5.e1" charOffset="19-27" type="drug" text="rifamycin" position="3"/>  
+      <entity id="DDI-DrugBank.d424.s5.e2" charOffset="57-64" type="drug" text="rifampin" position="9"/>  
+      <entity id="DDI-DrugBank.d424.s5.e3" charOffset="126-133" type="drug" text="rifampin" position="21"/>  
+      <pair id="DDI-DrugBank.d424.s5.p0" e1="DDI-DrugBank.d424.s5.e0" e2="DDI-DrugBank.d424.s5.e1" ddi="false" flags="True" e1_name="Rifabutin" e2_name="rifamycin" e1_pos="0" e2_pos="3" path="0@@3@@">Rifabutin@@@@appos@@rifamycin</pair>  
+      <pair id="DDI-DrugBank.d424.s5.p1" e1="DDI-DrugBank.d424.s5.e0" e2="DDI-DrugBank.d424.s5.e2" ddi="false" flags="True" e1_name="Rifabutin" e2_name="rifampin" e1_pos="0" e2_pos="9" path="0@@7@@9@@">Rifabutin@@@@nsubj@@similar@@prep_to@@rifampin</pair>  
+      <pair id="DDI-DrugBank.d424.s5.p2" e1="DDI-DrugBank.d424.s5.e0" e2="DDI-DrugBank.d424.s5.e3" ddi="false" flags="True" e1_name="Rifabutin" e2_name="rifampin" e1_pos="0" e2_pos="21" path="0@@13@@14@@19@@21@@">Rifabutin@@@@nsubj@@have@@dobj@@some@@prep_of@@interactions@@prep_as@@rifampin</pair>  
+      <pair id="DDI-DrugBank.d424.s5.p3" e1="DDI-DrugBank.d424.s5.e1" e2="DDI-DrugBank.d424.s5.e2" ddi="false" flags="True" e1_name="rifamycin" e2_name="rifampin" e1_pos="3" e2_pos="9" path="3@@0@@7@@9@@">rifamycin@@@@appos@@Rifabutin@@nsubj@@similar@@prep_to@@rifampin</pair>  
+      <pair id="DDI-DrugBank.d424.s5.p4" e1="DDI-DrugBank.d424.s5.e1" e2="DDI-DrugBank.d424.s5.e3" ddi="false" flags="True" e1_name="rifamycin" e2_name="rifampin" e1_pos="3" e2_pos="21" path="3@@0@@13@@14@@19@@21@@">rifamycin@@@@appos@@Rifabutin@@nsubj@@have@@dobj@@some@@prep_of@@interactions@@prep_as@@rifampin</pair>  
+      <pair id="DDI-DrugBank.d424.s5.p5" e1="DDI-DrugBank.d424.s5.e2" e2="DDI-DrugBank.d424.s5.e3" ddi="false" flags="True" e1_name="rifampin" e2_name="rifampin" e1_pos="9" e2_pos="21" path="9@@7@@13@@14@@19@@21@@">rifampin@@@@prep_to@@similar@@conj_and@@have@@dobj@@some@@prep_of@@interactions@@prep_as@@rifampin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d424.s6" text="No interaction trials have been conducted with MEPRON and rifabutin." new_text="No@@interaction@@trials@@have@@been@@conducted@@with@@MEPRON@@and@@rifabutin@@.@@"> 
+      <entity id="DDI-DrugBank.d424.s6.e0" charOffset="47-52" type="brand" text="MEPRON" position="7"/>  
+      <entity id="DDI-DrugBank.d424.s6.e1" charOffset="58-66" type="drug" text="rifabutin" position="9"/>  
+      <pair id="DDI-DrugBank.d424.s6.p0" e1="DDI-DrugBank.d424.s6.e0" e2="DDI-DrugBank.d424.s6.e1" ddi="false" flags="True" e1_name="MEPRON" e2_name="rifabutin" e1_pos="7" e2_pos="9" path="7@@9@@">MEPRON@@@@conj_and@@rifabutin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d424.s7" text="Drug/ Laboratory Test Interactions: It is not known if MEPRON interferes with clinical laboratory test or assay results." new_text="Drug/@@Laboratory@@Test@@Interactions@@:@@It@@is@@not@@known@@if@@MEPRON@@interferes@@with@@clinical@@laboratory@@test@@or@@assay@@results@@.@@"> 
+      <entity id="DDI-DrugBank.d424.s7.e0" charOffset="55-60" type="brand" text="MEPRON" position="10"/> 
+   </sentence> 
+</document>

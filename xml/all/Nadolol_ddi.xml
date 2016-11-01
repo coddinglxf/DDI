@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d204"> 
+   <sentence id="DDI-DrugBank.d204.s0" text="When administered concurrently, the following drugs may interact with beta-adrenergic receptor blocking agents: Anesthetics, general: exaggeration of the hypotension induced by general anesthetics." new_text="When@@administered@@concurrently@@,@@the@@following@@drugs@@may@@interact@@with@@beta-adrenergic receptor blocking agents@@:@@Anesthetics@@,@@general@@:@@exaggeration@@of@@the@@hypotension@@induced@@by@@general@@anesthetics@@.@@"> 
+      <entity id="DDI-DrugBank.d204.s0.e0" charOffset="70-109" type="group" text="beta-adrenergic receptor blocking agents" position="10"/>  
+      <entity id="DDI-DrugBank.d204.s0.e1" charOffset="112-122" type="group" text="Anesthetics" position="12"/>  
+      <entity id="DDI-DrugBank.d204.s0.e2" charOffset="185-195" type="group" text="anesthetics" position="23"/>  
+      <pair id="DDI-DrugBank.d204.s0.p0" e1="DDI-DrugBank.d204.s0.e0" e2="DDI-DrugBank.d204.s0.e1" ddi="true" type="int" flags="True" e1_name="beta-adrenergic receptor blocking agents" e2_name="Anesthetics" e1_pos="10" e2_pos="12" path="10@@12@@">beta-adrenergic receptor blocking agents@@@@dep@@Anesthetics</pair>  
+      <pair id="DDI-DrugBank.d204.s0.p1" e1="DDI-DrugBank.d204.s0.e0" e2="DDI-DrugBank.d204.s0.e2" ddi="false" flags="True" e1_name="beta-adrenergic receptor blocking agents" e2_name="anesthetics" e1_pos="10" e2_pos="23" path="10@@12@@14@@16@@19@@20@@23@@">beta-adrenergic receptor blocking agents@@@@dep@@Anesthetics@@amod@@general@@dep@@exaggeration@@prep_of@@hypotension@@partmod@@induced@@agent@@anesthetics</pair>  
+      <pair id="DDI-DrugBank.d204.s0.p2" e1="DDI-DrugBank.d204.s0.e1" e2="DDI-DrugBank.d204.s0.e2" ddi="false" flags="True" e1_name="Anesthetics" e2_name="anesthetics" e1_pos="12" e2_pos="23" path="12@@14@@16@@19@@20@@23@@">Anesthetics@@@@amod@@general@@dep@@exaggeration@@prep_of@@hypotension@@partmod@@induced@@agent@@anesthetics</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d204.s1" text="Antidiabetic drugs (oral agents and insulin): hypoglycemia or hyperglycemia;" new_text="Antidiabetic drugs@@(oral@@agents@@and@@insulin@@)@@:@@hypoglycemia@@or@@hyperglycemia;@@"> 
+      <entity id="DDI-DrugBank.d204.s1.e0" charOffset="0-17" type="group" text="Antidiabetic drugs" position="0"/>  
+      <entity id="DDI-DrugBank.d204.s1.e1" charOffset="36-42" type="drug" text="insulin" position="4"/>  
+      <pair id="DDI-DrugBank.d204.s1.p0" e1="DDI-DrugBank.d204.s1.e0" e2="DDI-DrugBank.d204.s1.e1" ddi="false" flags="True" e1_name="Antidiabetic drugs" e2_name="insulin" e1_pos="0" e2_pos="4" path="0@@2@@5@@4@@">Antidiabetic drugs@@@@amod@@agents@@conj_and@@)@@nn@@insulin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d204.s2" text="adjust dosage of antidiabetic drug accordingly." new_text="adjust@@dosage@@of@@antidiabetic drug@@accordingly@@.@@"> 
+      <entity id="DDI-DrugBank.d204.s2.e0" charOffset="17-33" type="group" text="antidiabetic drug" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d204.s3" text="Catecholamine-depleting drugs (e.g., reserpine): additive effect;" new_text="Catecholamine-depleting@@drugs@@(e.g.@@,@@reserpine@@)@@:@@additive@@effect;@@"> 
+      <entity id="DDI-DrugBank.d204.s3.e0" charOffset="37-45" type="drug" text="reserpine" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d204.s4" text="monitor closely for evidence of hypotension and/or excessive bradycardia (e.g., vertigo, syncope, postural hypotension)." new_text="monitor@@closely@@for@@evidence@@of@@hypotension@@and/or@@excessive@@bradycardia@@(e.g.@@,@@vertigo@@,@@syncope@@,@@postural@@hypotension)@@.@@"/>  
+   <sentence id="DDI-DrugBank.d204.s5" text="Response to Treatment for Anaphylactic Reaction: While taking beta-blockers, patients with a history of severe anaphylactic reaction to a variety of allergens may be more reactive to repeated challenge, either accidental, diagnostic, or therapeutic." new_text="Response@@to@@Treatment@@for@@Anaphylactic@@Reaction@@:@@While@@taking@@beta-blockers@@,@@patients@@with@@a@@history@@of@@severe@@anaphylactic@@reaction@@to@@a@@variety@@of@@allergens@@may@@be@@more@@reactive@@to@@repeated@@challenge@@,@@either@@accidental@@,@@diagnostic@@,@@or@@therapeutic@@.@@"> 
+      <entity id="DDI-DrugBank.d204.s5.e0" charOffset="62-74" type="group" text="beta-blockers" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d204.s6" text="Such patients may be unresponsive to the usual doses of epinephrine used to treat allergic reaction." new_text="Such@@patients@@may@@be@@unresponsive@@to@@the@@usual@@doses@@of@@epinephrine@@used@@to@@treat@@allergic@@reaction@@.@@"> 
+      <entity id="DDI-DrugBank.d204.s6.e0" charOffset="56-66" type="drug" text="epinephrine" position="10"/> 
+   </sentence> 
+</document>

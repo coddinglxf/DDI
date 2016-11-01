@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d518"> 
+   <sentence id="DDI-DrugBank.d518.s0" text="Prolonged recovery time may occur if barbiturates and/or narcotics are used concurrently with ketamine." new_text="Prolonged@@recovery@@time@@may@@occur@@if@@barbiturates@@and/or@@narcotics@@are@@used@@concurrently@@with@@ketamine@@.@@"> 
+      <entity id="DDI-DrugBank.d518.s0.e0" charOffset="37-48" type="group" text="barbiturates" position="6"/>  
+      <entity id="DDI-DrugBank.d518.s0.e1" charOffset="57-65" type="group" text="narcotics" position="8"/>  
+      <entity id="DDI-DrugBank.d518.s0.e2" charOffset="94-101" type="drug" text="ketamine" position="13"/>  
+      <pair id="DDI-DrugBank.d518.s0.p0" e1="DDI-DrugBank.d518.s0.e0" e2="DDI-DrugBank.d518.s0.e1" ddi="false" flags="True" e1_name="barbiturates" e2_name="narcotics" e1_pos="6" e2_pos="8" path="6@@8@@">barbiturates@@@@amod@@narcotics</pair>  
+      <pair id="DDI-DrugBank.d518.s0.p1" e1="DDI-DrugBank.d518.s0.e0" e2="DDI-DrugBank.d518.s0.e2" ddi="true" type="effect" flags="True" e1_name="barbiturates" e2_name="ketamine" e1_pos="6" e2_pos="13" path="6@@8@@10@@13@@">barbiturates@@@@amod@@narcotics@@nsubjpass@@used@@prep_with@@ketamine</pair>  
+      <pair id="DDI-DrugBank.d518.s0.p2" e1="DDI-DrugBank.d518.s0.e1" e2="DDI-DrugBank.d518.s0.e2" ddi="true" type="effect" flags="True" e1_name="narcotics" e2_name="ketamine" e1_pos="8" e2_pos="13" path="8@@10@@13@@">narcotics@@@@nsubjpass@@used@@prep_with@@ketamine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d518.s1" text="Ketamine is clinically compatible with the commonly used general and local anesthetic agents when an adequate respiratory exchange is maintained." new_text="Ketamine@@is@@clinically@@compatible@@with@@the@@commonly@@used@@general@@and@@local@@anesthetic agents@@when@@an@@adequate@@respiratory@@exchange@@is@@maintained@@.@@"> 
+      <entity id="DDI-DrugBank.d518.s1.e0" charOffset="0-7" type="drug" text="Ketamine" position="0"/>  
+      <entity id="DDI-DrugBank.d518.s1.e1" charOffset="75-91" type="group" text="anesthetic agents" position="11"/>  
+      <pair id="DDI-DrugBank.d518.s1.p0" e1="DDI-DrugBank.d518.s1.e0" e2="DDI-DrugBank.d518.s1.e1" ddi="false" flags="True" e1_name="Ketamine" e2_name="anesthetic agents" e1_pos="0" e2_pos="11" path="0@@3@@11@@">Ketamine@@@@nsubj@@compatible@@prep_with@@anesthetic agents</pair> 
+   </sentence> 
+</document>

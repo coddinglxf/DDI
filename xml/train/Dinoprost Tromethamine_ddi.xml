@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d181"> 
+   <sentence id="DDI-DrugBank.d181.s0" text="Oxytocin or other oxytocics (concurrent use with dinoprost may result in uterine hypertonus, possibly causing uterine rupture or cervical laceration, especially in the absence of adequate cervical dilatation;" new_text="Oxytocin@@or@@other@@oxytocics@@(concurrent@@use@@with@@dinoprost@@may@@result@@in@@uterine@@hypertonus@@,@@possibly@@causing@@uterine@@rupture@@or@@cervical@@laceration@@,@@especially@@in@@the@@absence@@of@@adequate@@cervical@@dilatation;@@"> 
+      <entity id="DDI-DrugBank.d181.s0.e0" charOffset="0-7" type="drug" text="Oxytocin" position="0"/>  
+      <entity id="DDI-DrugBank.d181.s0.e1" charOffset="18-26" type="group" text="oxytocics" position="3"/>  
+      <entity id="DDI-DrugBank.d181.s0.e2" charOffset="49-57" type="drug" text="dinoprost" position="7"/>  
+      <pair id="DDI-DrugBank.d181.s0.p0" e1="DDI-DrugBank.d181.s0.e0" e2="DDI-DrugBank.d181.s0.e1" ddi="false" flags="True" e1_name="Oxytocin" e2_name="oxytocics" e1_pos="0" e2_pos="3" path="0@@4@@3@@">Oxytocin@@@@nn@@(concurrent@@nn@@oxytocics</pair>  
+      <pair id="DDI-DrugBank.d181.s0.p1" e1="DDI-DrugBank.d181.s0.e0" e2="DDI-DrugBank.d181.s0.e2" ddi="true" type="effect" flags="True" e1_name="Oxytocin" e2_name="dinoprost" e1_pos="0" e2_pos="7" path="0@@4@@5@@9@@7@@">Oxytocin@@@@nn@@(concurrent@@nsubj@@use@@advcl@@result@@nsubj@@dinoprost</pair>  
+      <pair id="DDI-DrugBank.d181.s0.p2" e1="DDI-DrugBank.d181.s0.e1" e2="DDI-DrugBank.d181.s0.e2" ddi="true" type="effect" flags="True" e1_name="oxytocics" e2_name="dinoprost" e1_pos="3" e2_pos="7" path="3@@4@@5@@9@@7@@">oxytocics@@@@nn@@(concurrent@@nsubj@@use@@advcl@@result@@nsubj@@dinoprost</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d181.s1" text="although combinations are sometimes used for therapeutic advantage, when used concurrently, patient should be closely monitored." new_text="although@@combinations@@are@@sometimes@@used@@for@@therapeutic@@advantage@@,@@when@@used@@concurrently@@,@@patient@@should@@be@@closely@@monitored@@.@@"/> 
+</document>

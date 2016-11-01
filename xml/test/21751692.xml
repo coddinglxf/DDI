@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d199"> 
+   <sentence id="DDI-MedLine.d199.s0" text="Prevention of emergence agitation in seven children receiving low-dose ketamine and propofol total intravenous anesthesia.
+" new_text="Prevention@@of@@emergence@@agitation@@in@@seven@@children@@receiving@@low-dose@@ketamine@@and@@propofol@@total@@intravenous@@anesthesia@@.@@"> 
+      <entity id="DDI-MedLine.d199.s0.e0" charOffset="71-78" type="drug" text="ketamine" position="9"/>  
+      <entity id="DDI-MedLine.d199.s0.e1" charOffset="84-91" type="drug" text="propofol" position="11"/>  
+      <pair id="DDI-MedLine.d199.s0.p0" e1="DDI-MedLine.d199.s0.e0" e2="DDI-MedLine.d199.s0.e1" ddi="false" flags="True" e1_name="ketamine" e2_name="propofol" e1_pos="9" e2_pos="11" path="9@@11@@">ketamine@@@@conj_and@@propofol</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d199.s1" text="Emergence agitation (EA) can be a distressing side effect of pediatric anesthesia. " new_text="Emergence@@agitation@@(EA)@@can@@be@@a@@distressing@@side@@effect@@of@@pediatric@@anesthesia@@.@@"/>  
+   <sentence id="DDI-MedLine.d199.s2" text="We retrospectively reviewed the records of 7 pediatric oncology patients who received low-dose ketamine in conjunction with propofol for total intravenous anesthesia (TIVA) repeatedly for radiation therapy. " new_text="We@@retrospectively@@reviewed@@the@@records@@of@@7@@pediatric@@oncology@@patients@@who@@received@@low-dose@@ketamine@@in@@conjunction@@with@@propofol@@for@@total@@intravenous@@anesthesia@@(TIVA)@@repeatedly@@for@@radiation@@therapy@@.@@"> 
+      <entity id="DDI-MedLine.d199.s2.e0" charOffset="95-102" type="drug" text="ketamine" position="13"/>  
+      <entity id="DDI-MedLine.d199.s2.e1" charOffset="124-131" type="drug" text="propofol" position="17"/>  
+      <pair id="DDI-MedLine.d199.s2.p0" e1="DDI-MedLine.d199.s2.e0" e2="DDI-MedLine.d199.s2.e1" ddi="false" flags="True" e1_name="ketamine" e2_name="propofol" e1_pos="13" e2_pos="17" path="13@@11@@17@@">ketamine@@@@dobj@@received@@prep_with@@propofol</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d199.s3" text="EA signs were observed in all 7 patients in association with propofol TIVA but did not recur in any of 123 subsequent anesthetics sessions during which low-dose ketamine was added to propofol. " new_text="EA@@signs@@were@@observed@@in@@all@@7@@patients@@in@@association@@with@@propofol@@TIVA@@but@@did@@not@@recur@@in@@any@@of@@123@@subsequent@@anesthetics@@sessions@@during@@which@@low-dose@@ketamine@@was@@added@@to@@propofol@@.@@"> 
+      <entity id="DDI-MedLine.d199.s3.e0" charOffset="61-68" type="drug" text="propofol" position="11"/>  
+      <entity id="DDI-MedLine.d199.s3.e1" charOffset="161-168" type="drug" text="ketamine" position="27"/>  
+      <entity id="DDI-MedLine.d199.s3.e2" charOffset="183-190" type="drug" text="propofol" position="31"/>  
+      <pair id="DDI-MedLine.d199.s3.p0" e1="DDI-MedLine.d199.s3.e0" e2="DDI-MedLine.d199.s3.e1" ddi="false" flags="True" e1_name="propofol" e2_name="ketamine" e1_pos="11" e2_pos="27" path="11@@12@@3@@16@@18@@23@@29@@27@@">propofol@@@@amod@@TIVA@@prep_with@@observed@@conj_but@@recur@@prep_in@@any@@prep_of@@sessions@@rcmod@@added@@nsubjpass@@ketamine</pair>  
+      <pair id="DDI-MedLine.d199.s3.p1" e1="DDI-MedLine.d199.s3.e0" e2="DDI-MedLine.d199.s3.e2" ddi="false" flags="True" e1_name="propofol" e2_name="propofol" e1_pos="11" e2_pos="31" path="11@@12@@3@@16@@18@@23@@29@@31@@">propofol@@@@amod@@TIVA@@prep_with@@observed@@conj_but@@recur@@prep_in@@any@@prep_of@@sessions@@rcmod@@added@@xcomp@@propofol</pair>  
+      <pair id="DDI-MedLine.d199.s3.p2" e1="DDI-MedLine.d199.s3.e1" e2="DDI-MedLine.d199.s3.e2" ddi="false" flags="True" e1_name="ketamine" e2_name="propofol" e1_pos="27" e2_pos="31" path="27@@31@@">ketamine@@@@xsubj@@propofol</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d199.s4" text="Based on this experience, we suggest that low-dose ketamine added to propofol may be associated with prevention of EA in children with a history of EA with propofol TIVA." new_text="Based@@on@@this@@experience@@,@@we@@suggest@@that@@low-dose@@ketamine@@added@@to@@propofol@@may@@be@@associated@@with@@prevention@@of@@EA@@in@@children@@with@@a@@history@@of@@EA@@with@@propofol@@TIVA@@.@@"> 
+      <entity id="DDI-MedLine.d199.s4.e0" charOffset="51-58" type="drug" text="ketamine" position="9"/>  
+      <entity id="DDI-MedLine.d199.s4.e1" charOffset="69-76" type="drug" text="propofol" position="12"/>  
+      <entity id="DDI-MedLine.d199.s4.e2" charOffset="156-163" type="drug" text="propofol" position="28"/>  
+      <pair id="DDI-MedLine.d199.s4.p0" e1="DDI-MedLine.d199.s4.e0" e2="DDI-MedLine.d199.s4.e1" ddi="true" type="effect" flags="True" e1_name="ketamine" e2_name="propofol" e1_pos="9" e2_pos="12" path="9@@10@@12@@">ketamine@@@@partmod@@added@@xcomp@@propofol</pair>  
+      <pair id="DDI-MedLine.d199.s4.p1" e1="DDI-MedLine.d199.s4.e0" e2="DDI-MedLine.d199.s4.e2" ddi="false" flags="True" e1_name="ketamine" e2_name="propofol" e1_pos="9" e2_pos="28" path="9@@15@@29@@28@@">ketamine@@@@nsubjpass@@associated@@prep_with@@TIVA@@amod@@propofol</pair>  
+      <pair id="DDI-MedLine.d199.s4.p2" e1="DDI-MedLine.d199.s4.e1" e2="DDI-MedLine.d199.s4.e2" ddi="false" flags="True" e1_name="propofol" e2_name="propofol" e1_pos="12" e2_pos="28" path="12@@10@@9@@15@@29@@28@@">propofol@@@@xcomp@@added@@partmod@@ketamine@@nsubjpass@@associated@@prep_with@@TIVA@@amod@@propofol</pair> 
+   </sentence> 
+</document>

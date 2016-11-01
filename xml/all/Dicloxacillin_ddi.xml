@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d517"> 
+   <sentence id="DDI-DrugBank.d517.s0" text="Tetracycline, a bacteriostatic antibiotic, may antagonize the bactercidal effect of penicillin and concurrent use of these drugs should be avoided." new_text="Tetracycline@@,@@a@@bacteriostatic antibiotic@@,@@may@@antagonize@@the@@bactercidal@@effect@@of@@penicillin@@and@@concurrent@@use@@of@@these@@drugs@@should@@be@@avoided@@.@@"> 
+      <entity id="DDI-DrugBank.d517.s0.e0" charOffset="0-11" type="drug" text="Tetracycline" position="0"/>  
+      <entity id="DDI-DrugBank.d517.s0.e1" charOffset="16-40" type="group" text="bacteriostatic antibiotic" position="3"/>  
+      <entity id="DDI-DrugBank.d517.s0.e2" charOffset="84-93" type="drug" text="penicillin" position="11"/>  
+      <pair id="DDI-DrugBank.d517.s0.p0" e1="DDI-DrugBank.d517.s0.e0" e2="DDI-DrugBank.d517.s0.e1" ddi="false" flags="True" e1_name="Tetracycline" e2_name="bacteriostatic antibiotic" e1_pos="0" e2_pos="3" path="0@@3@@">Tetracycline@@@@appos@@bacteriostatic antibiotic</pair>  
+      <pair id="DDI-DrugBank.d517.s0.p1" e1="DDI-DrugBank.d517.s0.e0" e2="DDI-DrugBank.d517.s0.e2" ddi="true" type="effect" flags="True" e1_name="Tetracycline" e2_name="penicillin" e1_pos="0" e2_pos="11" path="0@@6@@9@@11@@">Tetracycline@@@@nsubj@@antagonize@@dobj@@effect@@prep_of@@penicillin</pair>  
+      <pair id="DDI-DrugBank.d517.s0.p2" e1="DDI-DrugBank.d517.s0.e1" e2="DDI-DrugBank.d517.s0.e2" ddi="false" flags="True" e1_name="bacteriostatic antibiotic" e2_name="penicillin" e1_pos="3" e2_pos="11" path="3@@0@@6@@9@@11@@">bacteriostatic antibiotic@@@@appos@@Tetracycline@@nsubj@@antagonize@@dobj@@effect@@prep_of@@penicillin</pair> 
+   </sentence> 
+</document>

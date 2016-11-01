@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d354"> 
+   <sentence id="DDI-DrugBank.d354.s0" text="Tizoxanide is highly bound to plasma protein ( 99.9%)." new_text="Tizoxanide@@is@@highly@@bound@@to@@plasma@@protein@@(@@99.9%)@@.@@"> 
+      <entity id="DDI-DrugBank.d354.s0.e0" charOffset="0-9" type="drug" text="Tizoxanide" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d354.s1" text="Therefore, caution should be used when administering nitazoxanide concurrently with other highly plasma protein-bound drugs with narrow therapeutic indices, as competition for binding sites may occur (e.g., warfarin)." new_text="Therefore@@,@@caution@@should@@be@@used@@when@@administering@@nitazoxanide@@concurrently@@with@@other@@highly@@plasma@@protein-bound@@drugs@@with@@narrow@@therapeutic@@indices@@,@@as@@competition@@for@@binding@@sites@@may@@occur@@(e.g.@@,@@warfarin@@)@@.@@"> 
+      <entity id="DDI-DrugBank.d354.s1.e0" charOffset="53-64" type="drug" text="nitazoxanide" position="8"/>  
+      <entity id="DDI-DrugBank.d354.s1.e1" charOffset="207-214" type="drug" text="warfarin" position="30"/>  
+      <pair id="DDI-DrugBank.d354.s1.p0" e1="DDI-DrugBank.d354.s1.e0" e2="DDI-DrugBank.d354.s1.e1" ddi="true" type="mechanism" flags="True" e1_name="nitazoxanide" e2_name="warfarin" e1_pos="8" e2_pos="30" path="8@@9@@7@@27@@31@@30@@">nitazoxanide@@@@amod@@concurrently@@dobj@@administering@@csubj@@occur@@dobj@@)@@dep@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d354.s2" text="In vitro metabolism studies have demonstrated that tizoxanide has no significant inhibitory effect on cytochrome P450 enzymes." new_text="In@@vitro@@metabolism@@studies@@have@@demonstrated@@that@@tizoxanide@@has@@no@@significant@@inhibitory@@effect@@on@@cytochrome@@P450@@enzymes@@.@@"> 
+      <entity id="DDI-DrugBank.d354.s2.e0" charOffset="51-60" type="drug" text="tizoxanide" position="7"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d354.s3" text="Although no drug-drug interaction studies have been conducted in vivo, it is expected that no significant interaction would occur when nitazoxanide is co-administered with drugs that either are metabolized by or inhibit cytochrome P450 enzymes." new_text="Although@@no@@drug-drug@@interaction@@studies@@have@@been@@conducted@@in@@vivo@@,@@it@@is@@expected@@that@@no@@significant@@interaction@@would@@occur@@when@@nitazoxanide@@is@@co-administered@@with@@drugs@@that@@either@@are@@metabolized@@by@@or@@inhibit@@cytochrome@@P450@@enzymes@@.@@"> 
+      <entity id="DDI-DrugBank.d354.s3.e0" charOffset="135-146" type="drug" text="nitazoxanide" position="21"/> 
+   </sentence> 
+</document>

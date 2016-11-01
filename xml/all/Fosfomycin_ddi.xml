@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d199"> 
+   <sentence id="DDI-DrugBank.d199.s0" text="Metoclopramide: When coadministered with MONUROL, metoclopramide, a drug which increases gastrointestinal motility, lowers the serum concentration and urinary excretion of fosfomycin." new_text="Metoclopramide@@:@@When@@coadministered@@with@@MONUROL@@,@@metoclopramide@@,@@a@@drug@@which@@increases@@gastrointestinal@@motility@@,@@lowers@@the@@serum@@concentration@@and@@urinary@@excretion@@of@@fosfomycin@@.@@"> 
+      <entity id="DDI-DrugBank.d199.s0.e0" charOffset="0-13" type="drug" text="Metoclopramide" position="0"/>  
+      <entity id="DDI-DrugBank.d199.s0.e1" charOffset="41-47" type="brand" text="MONUROL" position="5"/>  
+      <entity id="DDI-DrugBank.d199.s0.e2" charOffset="50-63" type="drug" text="metoclopramide" position="7"/>  
+      <entity id="DDI-DrugBank.d199.s0.e3" charOffset="172-181" type="drug" text="fosfomycin" position="24"/>  
+      <pair id="DDI-DrugBank.d199.s0.p0" e1="DDI-DrugBank.d199.s0.e0" e2="DDI-DrugBank.d199.s0.e1" ddi="false" flags="True" e1_name="Metoclopramide" e2_name="MONUROL" e1_pos="0" e2_pos="5" path="0@@3@@5@@">Metoclopramide@@@@rcmod@@coadministered@@prep_with@@MONUROL</pair>  
+      <pair id="DDI-DrugBank.d199.s0.p1" e1="DDI-DrugBank.d199.s0.e0" e2="DDI-DrugBank.d199.s0.e2" ddi="false" flags="True" e1_name="Metoclopramide" e2_name="metoclopramide" e1_pos="0" e2_pos="7" path="0@@3@@7@@">Metoclopramide@@@@rcmod@@coadministered@@advmod@@metoclopramide</pair>  
+      <pair id="DDI-DrugBank.d199.s0.p2" e1="DDI-DrugBank.d199.s0.e0" e2="DDI-DrugBank.d199.s0.e3" ddi="false" flags="True" e1_name="Metoclopramide" e2_name="fosfomycin" e1_pos="0" e2_pos="24" path="0@@16@@19@@24@@">Metoclopramide@@@@nsubj@@lowers@@dobj@@concentration@@prep_of@@fosfomycin</pair>  
+      <pair id="DDI-DrugBank.d199.s0.p3" e1="DDI-DrugBank.d199.s0.e1" e2="DDI-DrugBank.d199.s0.e2" ddi="true" type="mechanism" flags="True" e1_name="MONUROL" e2_name="metoclopramide" e1_pos="5" e2_pos="7" path="5@@3@@7@@">MONUROL@@@@prep_with@@coadministered@@advmod@@metoclopramide</pair>  
+      <pair id="DDI-DrugBank.d199.s0.p4" e1="DDI-DrugBank.d199.s0.e1" e2="DDI-DrugBank.d199.s0.e3" ddi="false" flags="True" e1_name="MONUROL" e2_name="fosfomycin" e1_pos="5" e2_pos="24" path="5@@3@@0@@16@@19@@24@@">MONUROL@@@@prep_with@@coadministered@@rcmod@@Metoclopramide@@nsubj@@lowers@@dobj@@concentration@@prep_of@@fosfomycin</pair>  
+      <pair id="DDI-DrugBank.d199.s0.p5" e1="DDI-DrugBank.d199.s0.e2" e2="DDI-DrugBank.d199.s0.e3" ddi="false" flags="True" e1_name="metoclopramide" e2_name="fosfomycin" e1_pos="7" e2_pos="24" path="7@@3@@0@@16@@19@@24@@">metoclopramide@@@@advmod@@coadministered@@rcmod@@Metoclopramide@@nsubj@@lowers@@dobj@@concentration@@prep_of@@fosfomycin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d199.s1" text="Other drugs that increase gastrointestinal motility may produce similar effects." new_text="Other@@drugs@@that@@increase@@gastrointestinal@@motility@@may@@produce@@similar@@effects@@.@@"/>  
+   <sentence id="DDI-DrugBank.d199.s2" text="Cimetidine: Cimetidine does not affect the pharmacokinetics of fosfomycin when coadministered with MONUROL." new_text="Cimetidine@@:@@Cimetidine@@does@@not@@affect@@the@@pharmacokinetics@@of@@fosfomycin@@when@@coadministered@@with@@MONUROL@@.@@"> 
+      <entity id="DDI-DrugBank.d199.s2.e0" charOffset="0-9" type="drug" text="Cimetidine" position="0"/>  
+      <entity id="DDI-DrugBank.d199.s2.e1" charOffset="12-21" type="drug" text="Cimetidine" position="2"/>  
+      <entity id="DDI-DrugBank.d199.s2.e2" charOffset="63-72" type="drug" text="fosfomycin" position="9"/>  
+      <entity id="DDI-DrugBank.d199.s2.e3" charOffset="99-105" type="brand" text="MONUROL" position="13"/>  
+      <pair id="DDI-DrugBank.d199.s2.p0" e1="DDI-DrugBank.d199.s2.e0" e2="DDI-DrugBank.d199.s2.e1" ddi="false" flags="True" e1_name="Cimetidine" e2_name="Cimetidine" e1_pos="0" e2_pos="2" path="0@@5@@2@@">Cimetidine@@@@dep@@affect@@nsubj@@Cimetidine</pair>  
+      <pair id="DDI-DrugBank.d199.s2.p1" e1="DDI-DrugBank.d199.s2.e0" e2="DDI-DrugBank.d199.s2.e2" ddi="false" flags="True" e1_name="Cimetidine" e2_name="fosfomycin" e1_pos="0" e2_pos="9" path="0@@5@@7@@9@@">Cimetidine@@@@dep@@affect@@dobj@@pharmacokinetics@@prep_of@@fosfomycin</pair>  
+      <pair id="DDI-DrugBank.d199.s2.p2" e1="DDI-DrugBank.d199.s2.e0" e2="DDI-DrugBank.d199.s2.e3" ddi="false" flags="True" e1_name="Cimetidine" e2_name="MONUROL" e1_pos="0" e2_pos="13" path="0@@5@@11@@13@@">Cimetidine@@@@dep@@affect@@advcl@@coadministered@@prep_with@@MONUROL</pair>  
+      <pair id="DDI-DrugBank.d199.s2.p3" e1="DDI-DrugBank.d199.s2.e1" e2="DDI-DrugBank.d199.s2.e2" ddi="false" flags="True" e1_name="Cimetidine" e2_name="fosfomycin" e1_pos="2" e2_pos="9" path="2@@5@@7@@9@@">Cimetidine@@@@nsubj@@affect@@dobj@@pharmacokinetics@@prep_of@@fosfomycin</pair>  
+      <pair id="DDI-DrugBank.d199.s2.p4" e1="DDI-DrugBank.d199.s2.e1" e2="DDI-DrugBank.d199.s2.e3" ddi="false" flags="True" e1_name="Cimetidine" e2_name="MONUROL" e1_pos="2" e2_pos="13" path="2@@5@@11@@13@@">Cimetidine@@@@nsubj@@affect@@advcl@@coadministered@@prep_with@@MONUROL</pair>  
+      <pair id="DDI-DrugBank.d199.s2.p5" e1="DDI-DrugBank.d199.s2.e2" e2="DDI-DrugBank.d199.s2.e3" ddi="false" flags="True" e1_name="fosfomycin" e2_name="MONUROL" e1_pos="9" e2_pos="13" path="9@@7@@5@@11@@13@@">fosfomycin@@@@prep_of@@pharmacokinetics@@dobj@@affect@@advcl@@coadministered@@prep_with@@MONUROL</pair> 
+   </sentence> 
+</document>

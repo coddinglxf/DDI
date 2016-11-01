@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d88"> 
+   <sentence id="DDI-MedLine.d88.s0" text="The effects of chlordiazepoxide, amphetamine and cocaine on bar-press behavior in normal and genetically nervous dogs.
+" new_text="The@@effects@@of@@chlordiazepoxide@@,@@amphetamine@@and@@cocaine@@on@@bar-press@@behavior@@in@@normal@@and@@genetically@@nervous@@dogs@@.@@"> 
+      <entity id="DDI-MedLine.d88.s0.e0" charOffset="15-30" type="drug" text="chlordiazepoxide" position="3"/>  
+      <entity id="DDI-MedLine.d88.s0.e1" charOffset="33-43" type="drug" text="amphetamine" position="5"/>  
+      <entity id="DDI-MedLine.d88.s0.e2" charOffset="49-55" type="drug" text="cocaine" position="7"/>  
+      <pair id="DDI-MedLine.d88.s0.p0" e1="DDI-MedLine.d88.s0.e0" e2="DDI-MedLine.d88.s0.e1" ddi="false" flags="True" e1_name="chlordiazepoxide" e2_name="amphetamine" e1_pos="3" e2_pos="5" path="3@@5@@">chlordiazepoxide@@@@conj_and@@amphetamine</pair>  
+      <pair id="DDI-MedLine.d88.s0.p1" e1="DDI-MedLine.d88.s0.e0" e2="DDI-MedLine.d88.s0.e2" ddi="false" flags="True" e1_name="chlordiazepoxide" e2_name="cocaine" e1_pos="3" e2_pos="7" path="3@@7@@">chlordiazepoxide@@@@conj_and@@cocaine</pair>  
+      <pair id="DDI-MedLine.d88.s0.p2" e1="DDI-MedLine.d88.s0.e1" e2="DDI-MedLine.d88.s0.e2" ddi="false" flags="True" e1_name="amphetamine" e2_name="cocaine" e1_pos="5" e2_pos="7" path="5@@1@@7@@">amphetamine@@@@prep_of@@effects@@prep_of@@cocaine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d88.s1" text="Studies on two strains of pointer dogs have demonstrated that administration of a benzodiazepine (chlordiazepoxide) facilitates acquisition of goal-directed behavior in &quot;genetically nervous&quot;" new_text="Studies@@on@@two@@strains@@of@@pointer@@dogs@@have@@demonstrated@@that@@administration@@of@@a@@benzodiazepine@@(@@chlordiazepoxide@@)@@facilitates@@acquisition@@of@@goal-directed@@behavior@@in@@&quot;genetically@@nervous&quot;@@"> 
+      <entity id="DDI-MedLine.d88.s1.e0" charOffset="82-95" type="group" text="benzodiazepine" position="13"/>  
+      <entity id="DDI-MedLine.d88.s1.e1" charOffset="98-113" type="drug" text="chlordiazepoxide" position="15"/>  
+      <pair id="DDI-MedLine.d88.s1.p0" e1="DDI-MedLine.d88.s1.e0" e2="DDI-MedLine.d88.s1.e1" ddi="false" flags="True" e1_name="benzodiazepine" e2_name="chlordiazepoxide" e1_pos="13" e2_pos="15" path="13@@16@@15@@">benzodiazepine@@@@amod@@)@@nn@@chlordiazepoxide</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d88.s2" text="subjects. " new_text="subjects@@.@@"/>  
+   <sentence id="DDI-MedLine.d88.s3" text="Continued admistration of the drug is required to maintain barpress response in this strain of dogs. " new_text="Continued@@admistration@@of@@the@@drug@@is@@required@@to@@maintain@@barpress@@response@@in@@this@@strain@@of@@dogs@@.@@"/>  
+   <sentence id="DDI-MedLine.d88.s4" text="The concomitant administration of either cocaine or amphetamine, compounds which inhibit neuronal reuptake of norepinephrine, disrupts the behavioral response of the genetically nervous E-strain subjects to a far greater extent than the stable A-strain subjects. " new_text="The@@concomitant@@administration@@of@@either@@cocaine@@or@@amphetamine@@,@@compounds@@which@@inhibit@@neuronal@@reuptake@@of@@norepinephrine@@,@@disrupts@@the@@behavioral@@response@@of@@the@@genetically@@nervous@@E-strain@@subjects@@to@@a@@far@@greater@@extent@@than@@the@@stable@@A-strain@@subjects@@.@@"> 
+      <entity id="DDI-MedLine.d88.s4.e0" charOffset="41-47" type="drug" text="cocaine" position="5"/>  
+      <entity id="DDI-MedLine.d88.s4.e1" charOffset="52-62" type="drug" text="amphetamine" position="7"/>  
+      <pair id="DDI-MedLine.d88.s4.p0" e1="DDI-MedLine.d88.s4.e0" e2="DDI-MedLine.d88.s4.e1" ddi="false" flags="True" e1_name="cocaine" e2_name="amphetamine" e1_pos="5" e2_pos="7" path="5@@7@@">cocaine@@@@conj_or@@amphetamine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d88.s5" text="It is also shown that after 14 days of daily administration of chlordiazepoxide, withdrawal of the drug not only re-results in almost complete loss of bar-press response in the E-strain subjects but also results in a temporary decrease in the acquired behavioral response of the stable A-strain subjects." new_text="It@@is@@also@@shown@@that@@after@@14@@days@@of@@daily@@administration@@of@@chlordiazepoxide@@,@@withdrawal@@of@@the@@drug@@not@@only@@re-results@@in@@almost@@complete@@loss@@of@@bar-press@@response@@in@@the@@E-strain@@subjects@@but@@also@@results@@in@@a@@temporary@@decrease@@in@@the@@acquired@@behavioral@@response@@of@@the@@stable@@A-strain@@subjects@@.@@"> 
+      <entity id="DDI-MedLine.d88.s5.e0" charOffset="63-78" type="drug" text="chlordiazepoxide" position="12"/> 
+   </sentence> 
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d699"> 
+   <sentence id="DDI-DrugBank.d699.s0" text="Mequitazine can interact with CNS depressant, antichlolinergic, TCA, MAOIs, and alcohol." new_text="Mequitazine@@can@@interact@@with@@CNS depressant@@,@@antichlolinergic@@,@@TCA@@,@@MAOIs@@,@@and@@alcohol@@.@@"> 
+      <entity id="DDI-DrugBank.d699.s0.e0" charOffset="0-10" type="drug" text="Mequitazine" position="0"/>  
+      <entity id="DDI-DrugBank.d699.s0.e1" charOffset="30-43" type="group" text="CNS depressant" position="4"/>  
+      <entity id="DDI-DrugBank.d699.s0.e2" charOffset="46-61" type="group" text="antichlolinergic" position="6"/>  
+      <entity id="DDI-DrugBank.d699.s0.e3" charOffset="64-66" type="group" text="TCA" position="8"/>  
+      <entity id="DDI-DrugBank.d699.s0.e4" charOffset="69-73" type="group" text="MAOIs" position="10"/>  
+      <entity id="DDI-DrugBank.d699.s0.e5" charOffset="80-86" type="drug" text="alcohol" position="13"/>  
+      <pair id="DDI-DrugBank.d699.s0.p0" e1="DDI-DrugBank.d699.s0.e0" e2="DDI-DrugBank.d699.s0.e1" ddi="true" type="int" flags="True" e1_name="Mequitazine" e2_name="CNS depressant" e1_pos="0" e2_pos="4" path="0@@2@@4@@">Mequitazine@@@@nsubj@@interact@@prep_with@@CNS depressant</pair>  
+      <pair id="DDI-DrugBank.d699.s0.p1" e1="DDI-DrugBank.d699.s0.e0" e2="DDI-DrugBank.d699.s0.e2" ddi="true" type="int" flags="True" e1_name="Mequitazine" e2_name="antichlolinergic" e1_pos="0" e2_pos="6" path="0@@2@@6@@">Mequitazine@@@@nsubj@@interact@@prep_with@@antichlolinergic</pair>  
+      <pair id="DDI-DrugBank.d699.s0.p2" e1="DDI-DrugBank.d699.s0.e0" e2="DDI-DrugBank.d699.s0.e3" ddi="true" type="int" flags="True" e1_name="Mequitazine" e2_name="TCA" e1_pos="0" e2_pos="8" path="0@@2@@8@@">Mequitazine@@@@nsubj@@interact@@prep_with@@TCA</pair>  
+      <pair id="DDI-DrugBank.d699.s0.p3" e1="DDI-DrugBank.d699.s0.e0" e2="DDI-DrugBank.d699.s0.e4" ddi="true" type="int" flags="True" e1_name="Mequitazine" e2_name="MAOIs" e1_pos="0" e2_pos="10" path="0@@2@@10@@">Mequitazine@@@@nsubj@@interact@@prep_with@@MAOIs</pair>  
+      <pair id="DDI-DrugBank.d699.s0.p4" e1="DDI-DrugBank.d699.s0.e0" e2="DDI-DrugBank.d699.s0.e5" ddi="true" type="int" flags="True" e1_name="Mequitazine" e2_name="alcohol" e1_pos="0" e2_pos="13" path="0@@2@@13@@">Mequitazine@@@@nsubj@@interact@@prep_with@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d699.s0.p5" e1="DDI-DrugBank.d699.s0.e1" e2="DDI-DrugBank.d699.s0.e2" ddi="false" flags="True" e1_name="CNS depressant" e2_name="antichlolinergic" e1_pos="4" e2_pos="6" path="4@@6@@">CNS depressant@@@@conj_and@@antichlolinergic</pair>  
+      <pair id="DDI-DrugBank.d699.s0.p6" e1="DDI-DrugBank.d699.s0.e1" e2="DDI-DrugBank.d699.s0.e3" ddi="false" flags="True" e1_name="CNS depressant" e2_name="TCA" e1_pos="4" e2_pos="8" path="4@@8@@">CNS depressant@@@@conj_and@@TCA</pair>  
+      <pair id="DDI-DrugBank.d699.s0.p7" e1="DDI-DrugBank.d699.s0.e1" e2="DDI-DrugBank.d699.s0.e4" ddi="false" flags="True" e1_name="CNS depressant" e2_name="MAOIs" e1_pos="4" e2_pos="10" path="4@@10@@">CNS depressant@@@@conj_and@@MAOIs</pair>  
+      <pair id="DDI-DrugBank.d699.s0.p8" e1="DDI-DrugBank.d699.s0.e1" e2="DDI-DrugBank.d699.s0.e5" ddi="false" flags="True" e1_name="CNS depressant" e2_name="alcohol" e1_pos="4" e2_pos="13" path="4@@13@@">CNS depressant@@@@conj_and@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d699.s0.p9" e1="DDI-DrugBank.d699.s0.e2" e2="DDI-DrugBank.d699.s0.e3" ddi="false" flags="True" e1_name="antichlolinergic" e2_name="TCA" e1_pos="6" e2_pos="8" path="6@@2@@8@@">antichlolinergic@@@@prep_with@@interact@@prep_with@@TCA</pair>  
+      <pair id="DDI-DrugBank.d699.s0.p10" e1="DDI-DrugBank.d699.s0.e2" e2="DDI-DrugBank.d699.s0.e4" ddi="false" flags="True" e1_name="antichlolinergic" e2_name="MAOIs" e1_pos="6" e2_pos="10" path="6@@2@@10@@">antichlolinergic@@@@prep_with@@interact@@prep_with@@MAOIs</pair>  
+      <pair id="DDI-DrugBank.d699.s0.p11" e1="DDI-DrugBank.d699.s0.e2" e2="DDI-DrugBank.d699.s0.e5" ddi="false" flags="True" e1_name="antichlolinergic" e2_name="alcohol" e1_pos="6" e2_pos="13" path="6@@2@@13@@">antichlolinergic@@@@prep_with@@interact@@prep_with@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d699.s0.p12" e1="DDI-DrugBank.d699.s0.e3" e2="DDI-DrugBank.d699.s0.e4" ddi="false" flags="True" e1_name="TCA" e2_name="MAOIs" e1_pos="8" e2_pos="10" path="8@@2@@10@@">TCA@@@@prep_with@@interact@@prep_with@@MAOIs</pair>  
+      <pair id="DDI-DrugBank.d699.s0.p13" e1="DDI-DrugBank.d699.s0.e3" e2="DDI-DrugBank.d699.s0.e5" ddi="false" flags="True" e1_name="TCA" e2_name="alcohol" e1_pos="8" e2_pos="13" path="8@@2@@13@@">TCA@@@@prep_with@@interact@@prep_with@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d699.s0.p14" e1="DDI-DrugBank.d699.s0.e4" e2="DDI-DrugBank.d699.s0.e5" ddi="false" flags="True" e1_name="MAOIs" e2_name="alcohol" e1_pos="10" e2_pos="13" path="10@@2@@13@@">MAOIs@@@@prep_with@@interact@@prep_with@@alcohol</pair> 
+   </sentence> 
+</document>

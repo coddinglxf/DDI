@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d48"> 
+   <sentence id="DDI-MedLine.d48.s0" text="Modification of surface histidine residues abolishes the cytotoxic activity of Clostridium difficile toxin A.
+" new_text="Modification@@of@@surface@@histidine@@residues@@abolishes@@the@@cytotoxic@@activity@@of@@Clostridium difficile toxin A@@.@@"> 
+      <entity id="DDI-MedLine.d48.s0.e0" charOffset="79-107" type="drug_n" text="Clostridium difficile toxin A" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d48.s1" text="Clostridium difficile toxin A displays both cytotoxic and enterotoxic activities. " new_text="Clostridium difficile toxin A@@displays@@both@@cytotoxic@@and@@enterotoxic@@activities@@.@@"> 
+      <entity id="DDI-MedLine.d48.s1.e0" charOffset="0-28" type="drug_n" text="Clostridium difficile toxin A" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d48.s2" text="It has recently been demonstrated that toxin A exerts its cytotoxic effect by the glucosylation of the small GTP-binding proteins of the Rho family. " new_text="It@@has@@recently@@been@@demonstrated@@that@@toxin A@@exerts@@its@@cytotoxic@@effect@@by@@the@@glucosylation@@of@@the@@small@@GTP-binding@@proteins@@of@@the@@Rho@@family@@.@@"> 
+      <entity id="DDI-MedLine.d48.s2.e0" charOffset="39-45" type="drug_n" text="toxin A" position="6"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d48.s3" text="Diethyl pyrocarbonate, at pH 7.0, was used to chemically modify exposed histidine residues on toxin A. " new_text="Diethyl pyrocarbonate@@,@@at@@pH@@7.0@@,@@was@@used@@to@@chemically@@modify@@exposed@@histidine@@residues@@on@@toxin A@@.@@"> 
+      <entity id="DDI-MedLine.d48.s3.e0" charOffset="0-20" type="drug_n" text="Diethyl pyrocarbonate" position="0"/>  
+      <entity id="DDI-MedLine.d48.s3.e1" charOffset="94-100" type="drug_n" text="toxin A" position="15"/>  
+      <pair id="DDI-MedLine.d48.s3.p0" e1="DDI-MedLine.d48.s3.e0" e2="DDI-MedLine.d48.s3.e1" ddi="false" flags="True" e1_name="Diethyl pyrocarbonate" e2_name="toxin A" e1_pos="0" e2_pos="15" path="0@@7@@10@@13@@15@@">Diethyl pyrocarbonate@@@@advmod@@used@@xcomp@@modify@@dobj@@residues@@prep_on@@toxin A</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d48.s4" text="Modification of toxin A with diethyl pyrocarbonate abolished both its cytotoxic activity and the ability of the toxin to bind Zn-Sepharose gel. " new_text="Modification@@of@@toxin A@@with@@diethyl pyrocarbonate@@abolished@@both@@its@@cytotoxic@@activity@@and@@the@@ability@@of@@the@@toxin@@to@@bind@@Zn-Sepharose@@gel@@.@@"> 
+      <entity id="DDI-MedLine.d48.s4.e0" charOffset="16-22" type="drug_n" text="toxin A" position="2"/>  
+      <entity id="DDI-MedLine.d48.s4.e1" charOffset="29-49" type="drug_n" text="diethyl pyrocarbonate" position="4"/>  
+      <pair id="DDI-MedLine.d48.s4.p0" e1="DDI-MedLine.d48.s4.e0" e2="DDI-MedLine.d48.s4.e1" ddi="false" flags="True" e1_name="toxin A" e2_name="diethyl pyrocarbonate" e1_pos="2" e2_pos="4" path="2@@4@@">toxin A@@@@prep_with@@diethyl pyrocarbonate</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d48.s5" text="Treatment of toxin A with [(14)C]-diethyl pyrocarbonate revealed concentration dependent labelling of histidine residues on the toxin molecules. " new_text="Treatment@@of@@toxin A@@with@@[(14)C]-@@diethyl pyrocarbonate@@revealed@@concentration@@dependent@@labelling@@of@@histidine@@residues@@on@@the@@toxin@@molecules@@.@@"> 
+      <entity id="DDI-MedLine.d48.s5.e0" charOffset="13-19" type="drug_n" text="toxin A" position="2"/>  
+      <entity id="DDI-MedLine.d48.s5.e1" charOffset="34-54" type="drug_n" text="diethyl pyrocarbonate" position="5"/>  
+      <pair id="DDI-MedLine.d48.s5.p0" e1="DDI-MedLine.d48.s5.e0" e2="DDI-MedLine.d48.s5.e1" ddi="false" flags="True" e1_name="toxin A" e2_name="diethyl pyrocarbonate" e1_pos="2" e2_pos="5" path="2@@5@@">toxin A@@@@prep_with@@diethyl pyrocarbonate</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d48.s6" text="The effects of diethyl pyrocarbonate could be reversed by hydroxylamine treatment. " new_text="The@@effects@@of@@diethyl pyrocarbonate@@could@@be@@reversed@@by@@hydroxylamine@@treatment@@.@@"> 
+      <entity id="DDI-MedLine.d48.s6.e0" charOffset="15-35" type="drug_n" text="diethyl pyrocarbonate" position="3"/>  
+      <entity id="DDI-MedLine.d48.s6.e1" charOffset="58-70" type="drug_n" text="hydroxylamine" position="8"/>  
+      <pair id="DDI-MedLine.d48.s6.p0" e1="DDI-MedLine.d48.s6.e0" e2="DDI-MedLine.d48.s6.e1" ddi="false" flags="True" e1_name="diethyl pyrocarbonate" e2_name="hydroxylamine" e1_pos="3" e2_pos="8" path="3@@1@@6@@9@@8@@">diethyl pyrocarbonate@@@@prep_of@@effects@@nsubjpass@@reversed@@agent@@treatment@@amod@@hydroxylamine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d48.s7" text="These data suggest the modified histidine residues on toxin A are critical to its cytotoxic activity. " new_text="These@@data@@suggest@@the@@modified@@histidine@@residues@@on@@toxin A@@are@@critical@@to@@its@@cytotoxic@@activity@@.@@"> 
+      <entity id="DDI-MedLine.d48.s7.e0" charOffset="54-60" type="drug_n" text="toxin A" position="8"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d48.s8" text="Histidine modification had no effect on the glucosyl transferase enzyme activity of toxin A. " new_text="Histidine@@modification@@had@@no@@effect@@on@@the@@glucosyl@@transferase@@enzyme@@activity@@of@@toxin A@@.@@"> 
+      <entity id="DDI-MedLine.d48.s8.e0" charOffset="84-90" type="drug_n" text="toxin A" position="12"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d48.s9" text="However, modification abolished the 'cold' binding of toxin to bovine thyroglobulin in an ELISA and reduced ligand binding activity in a rabbit erythrocyte haemagglutination assay. " new_text="However@@,@@modification@@abolished@@the@@'cold'@@binding@@of@@toxin@@to@@bovine@@thyroglobulin@@in@@an@@ELISA@@and@@reduced@@ligand@@binding@@activity@@in@@a@@rabbit@@erythrocyte@@haemagglutination@@assay@@.@@"/>  
+   <sentence id="DDI-MedLine.d48.s10" text="The data suggest that the histidine residues may be crucial to the receptor-binding activity of toxin A. " new_text="The@@data@@suggest@@that@@the@@histidine@@residues@@may@@be@@crucial@@to@@the@@receptor-binding@@activity@@of@@toxin A@@.@@"> 
+      <entity id="DDI-MedLine.d48.s10.e0" charOffset="96-102" type="drug_n" text="toxin A" position="15"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d48.s11" text="Exposed histidines on toxin A are available for zinc chelation, and these have been exploited in the development of a novel purification protocol for toxin A using zinc-chelating chromatography." new_text="Exposed@@histidines@@on@@toxin A@@are@@available@@for@@zinc@@chelation@@,@@and@@these@@have@@been@@exploited@@in@@the@@development@@of@@a@@novel@@purification@@protocol@@for@@toxin A@@using@@zinc@@-chelating@@chromatography@@.@@"> 
+      <entity id="DDI-MedLine.d48.s11.e0" charOffset="22-28" type="drug_n" text="toxin A" position="3"/>  
+      <entity id="DDI-MedLine.d48.s11.e1" charOffset="48-51" type="drug" text="zinc" position="7"/>  
+      <entity id="DDI-MedLine.d48.s11.e2" charOffset="150-156" type="drug_n" text="toxin A" position="24"/>  
+      <entity id="DDI-MedLine.d48.s11.e3" charOffset="164-167" type="drug" text="zinc" position="26"/>  
+      <pair id="DDI-MedLine.d48.s11.p0" e1="DDI-MedLine.d48.s11.e0" e2="DDI-MedLine.d48.s11.e1" ddi="false" flags="True" e1_name="toxin A" e2_name="zinc" e1_pos="3" e2_pos="7" path="3@@1@@5@@8@@7@@">toxin A@@@@prep_on@@histidines@@nsubj@@available@@prep_for@@chelation@@nn@@zinc</pair>  
+      <pair id="DDI-MedLine.d48.s11.p1" e1="DDI-MedLine.d48.s11.e0" e2="DDI-MedLine.d48.s11.e2" ddi="false" flags="True" e1_name="toxin A" e2_name="toxin A" e1_pos="3" e2_pos="24" path="3@@1@@5@@14@@17@@22@@24@@">toxin A@@@@prep_on@@histidines@@nsubj@@available@@conj_and@@exploited@@prep_in@@development@@prep_of@@protocol@@prep_for@@toxin A</pair>  
+      <pair id="DDI-MedLine.d48.s11.p2" e1="DDI-MedLine.d48.s11.e0" e2="DDI-MedLine.d48.s11.e3" ddi="false" flags="True" e1_name="toxin A" e2_name="zinc" e1_pos="3" e2_pos="26" path="3@@1@@5@@14@@25@@27@@26@@">toxin A@@@@prep_on@@histidines@@nsubj@@available@@conj_and@@exploited@@xcomp@@using@@dobj@@-chelating@@nn@@zinc</pair>  
+      <pair id="DDI-MedLine.d48.s11.p3" e1="DDI-MedLine.d48.s11.e1" e2="DDI-MedLine.d48.s11.e2" ddi="false" flags="True" e1_name="zinc" e2_name="toxin A" e1_pos="7" e2_pos="24" path="7@@8@@5@@14@@17@@22@@24@@">zinc@@@@nn@@chelation@@prep_for@@available@@conj_and@@exploited@@prep_in@@development@@prep_of@@protocol@@prep_for@@toxin A</pair>  
+      <pair id="DDI-MedLine.d48.s11.p4" e1="DDI-MedLine.d48.s11.e1" e2="DDI-MedLine.d48.s11.e3" ddi="false" flags="True" e1_name="zinc" e2_name="zinc" e1_pos="7" e2_pos="26" path="7@@8@@5@@14@@25@@27@@26@@">zinc@@@@nn@@chelation@@prep_for@@available@@conj_and@@exploited@@xcomp@@using@@dobj@@-chelating@@nn@@zinc</pair>  
+      <pair id="DDI-MedLine.d48.s11.p5" e1="DDI-MedLine.d48.s11.e2" e2="DDI-MedLine.d48.s11.e3" ddi="false" flags="True" e1_name="toxin A" e2_name="zinc" e1_pos="24" e2_pos="26" path="24@@22@@17@@14@@25@@27@@26@@">toxin A@@@@prep_for@@protocol@@prep_of@@development@@prep_in@@exploited@@xcomp@@using@@dobj@@-chelating@@nn@@zinc</pair> 
+   </sentence> 
+</document>

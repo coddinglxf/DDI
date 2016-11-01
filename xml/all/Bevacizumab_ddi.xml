@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d312"> 
+   <sentence id="DDI-DrugBank.d312.s0" text="No formal drug interaction studies with anti-neoplastic agents have been conducted." new_text="No@@formal@@drug@@interaction@@studies@@with@@anti-neoplastic agents@@have@@been@@conducted@@.@@"> 
+      <entity id="DDI-DrugBank.d312.s0.e0" charOffset="40-61" type="group" text="anti-neoplastic agents" position="6"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d312.s1" text="In Study 1, patients with colorectal cancer were given irinotecan/5-FU/leucovorin (bolus-IFL) with or without AVASTIN." new_text="In@@Study@@1@@,@@patients@@with@@colorectal@@cancer@@were@@given@@irinotecan@@/@@5-FU@@/@@leucovorin@@(bolus-IFL)@@with@@or@@without@@AVASTIN@@.@@"> 
+      <entity id="DDI-DrugBank.d312.s1.e0" charOffset="55-64" type="drug" text="irinotecan" position="10"/>  
+      <entity id="DDI-DrugBank.d312.s1.e1" charOffset="66-69" type="drug" text="5-FU" position="12"/>  
+      <entity id="DDI-DrugBank.d312.s1.e2" charOffset="71-80" type="drug" text="leucovorin" position="14"/>  
+      <entity id="DDI-DrugBank.d312.s1.e3" charOffset="110-116" type="brand" text="AVASTIN" position="19"/>  
+      <pair id="DDI-DrugBank.d312.s1.p0" e1="DDI-DrugBank.d312.s1.e0" e2="DDI-DrugBank.d312.s1.e1" ddi="false" flags="True" e1_name="irinotecan" e2_name="5-FU" e1_pos="10" e2_pos="12" path="10@@12@@">irinotecan@@@@dep@@5-FU</pair>  
+      <pair id="DDI-DrugBank.d312.s1.p1" e1="DDI-DrugBank.d312.s1.e0" e2="DDI-DrugBank.d312.s1.e2" ddi="false" flags="True" e1_name="irinotecan" e2_name="leucovorin" e1_pos="10" e2_pos="14" path="10@@9@@15@@14@@">irinotecan@@@@iobj@@given@@dobj@@(bolus-IFL)@@amod@@leucovorin</pair>  
+      <pair id="DDI-DrugBank.d312.s1.p2" e1="DDI-DrugBank.d312.s1.e0" e2="DDI-DrugBank.d312.s1.e3" ddi="false" flags="True" e1_name="irinotecan" e2_name="AVASTIN" e1_pos="10" e2_pos="19" path="10@@9@@19@@">irinotecan@@@@iobj@@given@@prep_without@@AVASTIN</pair>  
+      <pair id="DDI-DrugBank.d312.s1.p3" e1="DDI-DrugBank.d312.s1.e1" e2="DDI-DrugBank.d312.s1.e2" ddi="false" flags="True" e1_name="5-FU" e2_name="leucovorin" e1_pos="12" e2_pos="14" path="12@@10@@9@@15@@14@@">5-FU@@@@dep@@irinotecan@@iobj@@given@@dobj@@(bolus-IFL)@@amod@@leucovorin</pair>  
+      <pair id="DDI-DrugBank.d312.s1.p4" e1="DDI-DrugBank.d312.s1.e1" e2="DDI-DrugBank.d312.s1.e3" ddi="false" flags="True" e1_name="5-FU" e2_name="AVASTIN" e1_pos="12" e2_pos="19" path="12@@10@@9@@19@@">5-FU@@@@dep@@irinotecan@@iobj@@given@@prep_without@@AVASTIN</pair>  
+      <pair id="DDI-DrugBank.d312.s1.p5" e1="DDI-DrugBank.d312.s1.e2" e2="DDI-DrugBank.d312.s1.e3" ddi="false" flags="True" e1_name="leucovorin" e2_name="AVASTIN" e1_pos="14" e2_pos="19" path="14@@15@@9@@19@@">leucovorin@@@@amod@@(bolus-IFL)@@dobj@@given@@prep_without@@AVASTIN</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d312.s2" text="Irinotecan concentrations were similar in patients receiving bolus-IFL alone and in combination with AVASTIN." new_text="Irinotecan@@concentrations@@were@@similar@@in@@patients@@receiving@@bolus-IFL@@alone@@and@@in@@combination@@with@@AVASTIN@@.@@"> 
+      <entity id="DDI-DrugBank.d312.s2.e0" charOffset="0-9" type="drug" text="Irinotecan" position="0"/>  
+      <entity id="DDI-DrugBank.d312.s2.e1" charOffset="101-107" type="brand" text="AVASTIN" position="13"/>  
+      <pair id="DDI-DrugBank.d312.s2.p0" e1="DDI-DrugBank.d312.s2.e0" e2="DDI-DrugBank.d312.s2.e1" ddi="false" flags="True" e1_name="Irinotecan" e2_name="AVASTIN" e1_pos="0" e2_pos="13" path="0@@1@@3@@5@@6@@13@@">Irinotecan@@@@nn@@concentrations@@nsubj@@similar@@prep_in@@patients@@partmod@@receiving@@prep_with@@AVASTIN</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d312.s3" text="The concentrations of SN38, the active metabolite of irinotecan, were on average 33% higher in patients receiving bolus-IFL in combination with AVASTIN when compared with bolus-IFL alone." new_text="The@@concentrations@@of@@SN38@@,@@the@@active@@metabolite@@of@@irinotecan@@,@@were@@on@@average@@33%@@higher@@in@@patients@@receiving@@bolus-IFL@@in@@combination@@with@@AVASTIN@@when@@compared@@with@@bolus-IFL@@alone@@.@@"> 
+      <entity id="DDI-DrugBank.d312.s3.e0" charOffset="22-25" type="drug_n" text="SN38" position="3"/>  
+      <entity id="DDI-DrugBank.d312.s3.e1" charOffset="53-62" type="drug" text="irinotecan" position="9"/>  
+      <entity id="DDI-DrugBank.d312.s3.e2" charOffset="144-150" type="brand" text="AVASTIN" position="23"/>  
+      <pair id="DDI-DrugBank.d312.s3.p0" e1="DDI-DrugBank.d312.s3.e0" e2="DDI-DrugBank.d312.s3.e1" ddi="false" flags="True" e1_name="SN38" e2_name="irinotecan" e1_pos="3" e2_pos="9" path="3@@1@@7@@9@@">SN38@@@@prep_of@@concentrations@@appos@@metabolite@@prep_of@@irinotecan</pair>  
+      <pair id="DDI-DrugBank.d312.s3.p1" e1="DDI-DrugBank.d312.s3.e0" e2="DDI-DrugBank.d312.s3.e2" ddi="false" flags="True" e1_name="SN38" e2_name="AVASTIN" e1_pos="3" e2_pos="23" path="3@@1@@11@@17@@18@@23@@">SN38@@@@prep_of@@concentrations@@nsubj@@were@@prep_in@@patients@@partmod@@receiving@@prep_with@@AVASTIN</pair>  
+      <pair id="DDI-DrugBank.d312.s3.p2" e1="DDI-DrugBank.d312.s3.e1" e2="DDI-DrugBank.d312.s3.e2" ddi="false" flags="True" e1_name="irinotecan" e2_name="AVASTIN" e1_pos="9" e2_pos="23" path="9@@7@@1@@11@@17@@18@@23@@">irinotecan@@@@prep_of@@metabolite@@appos@@concentrations@@nsubj@@were@@prep_in@@patients@@partmod@@receiving@@prep_with@@AVASTIN</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d312.s4" text="In Study 1, patients receiving bolus-IFL plus AVASTIN had a higher incidence of Grade 3-4 diarrhea and neutropenia." new_text="In@@Study@@1@@,@@patients@@receiving@@bolus-IFL@@plus@@AVASTIN@@had@@a@@higher@@incidence@@of@@Grade@@3-4@@diarrhea@@and@@neutropenia@@.@@"> 
+      <entity id="DDI-DrugBank.d312.s4.e0" charOffset="46-52" type="brand" text="AVASTIN" position="8"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d312.s5" text="Due to high inter-patient variability and limited sampling, the extent of the increase in SN38 levels in patients receiving concurrent irinotecan and AVASTIN is uncertain." new_text="Due@@to@@high@@inter-patient@@variability@@and@@limited@@sampling@@,@@the@@extent@@of@@the@@increase@@in@@SN38@@levels@@in@@patients@@receiving@@concurrent@@irinotecan@@and@@AVASTIN@@is@@uncertain@@.@@"> 
+      <entity id="DDI-DrugBank.d312.s5.e0" charOffset="90-93" type="drug_n" text="SN38" position="15"/>  
+      <entity id="DDI-DrugBank.d312.s5.e1" charOffset="135-144" type="drug" text="irinotecan" position="21"/>  
+      <entity id="DDI-DrugBank.d312.s5.e2" charOffset="150-156" type="brand" text="AVASTIN" position="23"/>  
+      <pair id="DDI-DrugBank.d312.s5.p0" e1="DDI-DrugBank.d312.s5.e0" e2="DDI-DrugBank.d312.s5.e1" ddi="false" flags="True" e1_name="SN38" e2_name="irinotecan" e1_pos="15" e2_pos="21" path="15@@16@@18@@19@@21@@">SN38@@@@num@@levels@@prep_in@@patients@@partmod@@receiving@@dobj@@irinotecan</pair>  
+      <pair id="DDI-DrugBank.d312.s5.p1" e1="DDI-DrugBank.d312.s5.e0" e2="DDI-DrugBank.d312.s5.e2" ddi="false" flags="True" e1_name="SN38" e2_name="AVASTIN" e1_pos="15" e2_pos="23" path="15@@16@@18@@19@@23@@">SN38@@@@num@@levels@@prep_in@@patients@@partmod@@receiving@@dobj@@AVASTIN</pair>  
+      <pair id="DDI-DrugBank.d312.s5.p2" e1="DDI-DrugBank.d312.s5.e1" e2="DDI-DrugBank.d312.s5.e2" ddi="false" flags="True" e1_name="irinotecan" e2_name="AVASTIN" e1_pos="21" e2_pos="23" path="21@@23@@">irinotecan@@@@conj_and@@AVASTIN</pair> 
+   </sentence> 
+</document>

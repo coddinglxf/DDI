@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d55"> 
+   <sentence id="DDI-DrugBank.d55.s0" text="Isoproterenol hydrochloride injection and epinephrine should not be administered simultaneously because both drugs are direct cardiac stimulants and their combined effects may induce serious arrhythmias." new_text="Isoproterenol hydrochloride@@injection@@and@@epinephrine@@should@@not@@be@@administered@@simultaneously@@because@@both@@drugs@@are@@direct@@cardiac@@stimulants@@and@@their@@combined@@effects@@may@@induce@@serious@@arrhythmias@@.@@"> 
+      <entity id="DDI-DrugBank.d55.s0.e0" charOffset="0-26" type="drug" text="Isoproterenol hydrochloride" position="0"/>  
+      <entity id="DDI-DrugBank.d55.s0.e1" charOffset="42-52" type="drug" text="epinephrine" position="3"/>  
+      <pair id="DDI-DrugBank.d55.s0.p0" e1="DDI-DrugBank.d55.s0.e0" e2="DDI-DrugBank.d55.s0.e1" ddi="true" type="advise" flags="True" e1_name="Isoproterenol hydrochloride" e2_name="epinephrine" e1_pos="0" e2_pos="3" path="0@@1@@3@@">Isoproterenol hydrochloride@@@@nn@@injection@@conj_and@@epinephrine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d55.s1" text="The drugs may, however, be administered alternately provided a proper interval has elapsed between doses." new_text="The@@drugs@@may@@,@@however@@,@@be@@administered@@alternately@@provided@@a@@proper@@interval@@has@@elapsed@@between@@doses@@.@@"/>  
+   <sentence id="DDI-DrugBank.d55.s2" text="ISUPREL should be used with caution, if at all, when potent inhalational anesthetics such as halothane are employed because of potential to sensitize the myocardium to effects of sympathomimetic amines." new_text="ISUPREL@@should@@be@@used@@with@@caution@@,@@if@@at@@all@@,@@when@@potent@@inhalational@@anesthetics@@such@@as@@halothane@@are@@employed@@because@@of@@potential@@to@@sensitize@@the@@myocardium@@to@@effects@@of@@sympathomimetic amines@@.@@"> 
+      <entity id="DDI-DrugBank.d55.s2.e0" charOffset="0-6" type="brand" text="ISUPREL" position="0"/>  
+      <entity id="DDI-DrugBank.d55.s2.e1" charOffset="73-83" type="group" text="anesthetics" position="14"/>  
+      <entity id="DDI-DrugBank.d55.s2.e2" charOffset="93-101" type="drug" text="halothane" position="17"/>  
+      <entity id="DDI-DrugBank.d55.s2.e3" charOffset="179-200" type="group" text="sympathomimetic amines" position="30"/>  
+      <pair id="DDI-DrugBank.d55.s2.p0" e1="DDI-DrugBank.d55.s2.e0" e2="DDI-DrugBank.d55.s2.e1" ddi="true" type="advise" flags="True" e1_name="ISUPREL" e2_name="anesthetics" e1_pos="0" e2_pos="14" path="0@@3@@5@@19@@14@@">ISUPREL@@@@nsubjpass@@used@@prep_with@@caution@@rcmod@@employed@@nsubjpass@@anesthetics</pair>  
+      <pair id="DDI-DrugBank.d55.s2.p1" e1="DDI-DrugBank.d55.s2.e0" e2="DDI-DrugBank.d55.s2.e2" ddi="true" type="advise" flags="True" e1_name="ISUPREL" e2_name="halothane" e1_pos="0" e2_pos="17" path="0@@3@@5@@19@@14@@17@@">ISUPREL@@@@nsubjpass@@used@@prep_with@@caution@@rcmod@@employed@@nsubjpass@@anesthetics@@prep_such_as@@halothane</pair>  
+      <pair id="DDI-DrugBank.d55.s2.p2" e1="DDI-DrugBank.d55.s2.e0" e2="DDI-DrugBank.d55.s2.e3" ddi="false" flags="True" e1_name="ISUPREL" e2_name="sympathomimetic amines" e1_pos="0" e2_pos="30" path="0@@3@@5@@19@@24@@28@@30@@">ISUPREL@@@@nsubjpass@@used@@prep_with@@caution@@rcmod@@employed@@xcomp@@sensitize@@prep_to@@effects@@prep_of@@sympathomimetic amines</pair>  
+      <pair id="DDI-DrugBank.d55.s2.p3" e1="DDI-DrugBank.d55.s2.e1" e2="DDI-DrugBank.d55.s2.e2" ddi="false" flags="True" e1_name="anesthetics" e2_name="halothane" e1_pos="14" e2_pos="17" path="14@@17@@">anesthetics@@@@prep_such_as@@halothane</pair>  
+      <pair id="DDI-DrugBank.d55.s2.p4" e1="DDI-DrugBank.d55.s2.e1" e2="DDI-DrugBank.d55.s2.e3" ddi="false" flags="True" e1_name="anesthetics" e2_name="sympathomimetic amines" e1_pos="14" e2_pos="30" path="14@@24@@28@@30@@">anesthetics@@@@xsubj@@sensitize@@prep_to@@effects@@prep_of@@sympathomimetic amines</pair>  
+      <pair id="DDI-DrugBank.d55.s2.p5" e1="DDI-DrugBank.d55.s2.e2" e2="DDI-DrugBank.d55.s2.e3" ddi="false" flags="True" e1_name="halothane" e2_name="sympathomimetic amines" e1_pos="17" e2_pos="30" path="17@@14@@24@@28@@30@@">halothane@@@@prep_such_as@@anesthetics@@xsubj@@sensitize@@prep_to@@effects@@prep_of@@sympathomimetic amines</pair> 
+   </sentence> 
+</document>

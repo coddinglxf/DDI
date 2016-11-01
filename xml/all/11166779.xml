@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d44"> 
+   <sentence id="DDI-MedLine.d44.s0" text="Effects of etofibrate upon the metabolism of chylomicron-like emulsions in patients with coronary artery disease.
+" new_text="Effects@@of@@etofibrate@@upon@@the@@metabolism@@of@@chylomicron-like@@emulsions@@in@@patients@@with@@coronary@@artery@@disease@@.@@"> 
+      <entity id="DDI-MedLine.d44.s0.e0" charOffset="11-20" type="drug" text="etofibrate" position="2"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d44.s1" text="Slow chylomicron intravascular catabolism has been associated with coronary artery disease and screening for drugs that can speed-up this process can be important. " new_text="Slow@@chylomicron@@intravascular@@catabolism@@has@@been@@associated@@with@@coronary@@artery@@disease@@and@@screening@@for@@drugs@@that@@can@@speed-up@@this@@process@@can@@be@@important@@.@@"/>  
+   <sentence id="DDI-MedLine.d44.s2" text="In this study, the effects of etofibrate upon chylomicron metabolism was tested by determination of the plasma kinetics of a chylomicron-like emulsion model in 12 patients with coronary artery disease, aged 59+/-11 years, (total cholesterol: 240+/-41 mg/dl; triglycerides: 188+/-42 mg/dl) submitted to a randomized, crossover, double-blind, placebo-controlled study with administration of 1 g per day etofibrate or placebo for 1-month. " new_text="In@@this@@study@@,@@the@@effects@@of@@etofibrate@@upon@@chylomicron@@metabolism@@was@@tested@@by@@determination@@of@@the@@plasma@@kinetics@@of@@a@@chylomicron-like@@emulsion@@model@@in@@12@@patients@@with@@coronary@@artery@@disease@@,@@aged@@59+/-11@@years@@,@@(total@@cholesterol@@:@@240+/-41@@mg/dl;@@triglycerides@@:@@188+/-42@@mg/dl)@@submitted@@to@@a@@randomized@@,@@crossover@@,@@double-blind@@,@@placebo-controlled@@study@@with@@administration@@of@@1@@g@@per@@day@@etofibrate@@or@@placebo@@for@@1-month@@.@@"> 
+      <entity id="DDI-MedLine.d44.s2.e0" charOffset="30-39" type="drug" text="etofibrate" position="7"/>  
+      <entity id="DDI-MedLine.d44.s2.e1" charOffset="401-410" type="drug" text="etofibrate" position="63"/>  
+      <pair id="DDI-MedLine.d44.s2.p0" e1="DDI-MedLine.d44.s2.e0" e2="DDI-MedLine.d44.s2.e1" ddi="false" flags="True" e1_name="etofibrate" e2_name="etofibrate" e1_pos="7" e2_pos="63" path="7@@5@@12@@30@@32@@34@@41@@44@@45@@55@@57@@60@@63@@">etofibrate@@@@prep_of@@effects@@nsubjpass@@tested@@prep_with@@disease@@partmod@@aged@@dobj@@years@@dep@@triglycerides@@dep@@mg/dl)@@partmod@@submitted@@prep_to@@study@@prep_with@@administration@@prep_of@@g@@prep_per@@etofibrate</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d44.s3" text="A 1-month washout period was inserted between the treatment periods. " new_text="A@@1-month@@washout@@period@@was@@inserted@@between@@the@@treatment@@periods@@.@@"/>  
+   <sentence id="DDI-MedLine.d44.s4" text="Patients were intravenously injected a chylomicron-like emulsion doubly labeled with 14C-cholesteryl oleate and 3H-triolein at baseline and after treatments. " new_text="Patients@@were@@intravenously@@injected@@a@@chylomicron-like@@emulsion@@doubly@@labeled@@with@@14C-cholesteryl@@oleate@@and@@3H-triolein@@at@@baseline@@and@@after@@treatments@@.@@"/>  
+   <sentence id="DDI-MedLine.d44.s5" text="After etofibrate treatment, there was decrease of total cholesterol and triglyceride plasma levels and a trend to increase high-density lipoprotein cholesterol plasma levels. " new_text="After@@etofibrate@@treatment@@,@@there@@was@@decrease@@of@@total@@cholesterol@@and@@triglyceride@@plasma@@levels@@and@@a@@trend@@to@@increase@@high-density@@lipoprotein@@cholesterol@@plasma@@levels@@.@@"> 
+      <entity id="DDI-MedLine.d44.s5.e0" charOffset="6-15" type="drug" text="etofibrate" position="1"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d44.s6" text="Etofibrate elicited 62% enhancement of post-heparin lipolytic activity and 100% increase of 3H-triglyceride fractional clearance rate compared with placebo treatment. " new_text="Etofibrate@@elicited@@62%@@enhancement@@of@@post-@@heparin@@lipolytic@@activity@@and@@100%@@increase@@of@@3H-triglyceride@@fractional@@clearance@@rate@@compared@@with@@placebo@@treatment@@.@@"> 
+      <entity id="DDI-MedLine.d44.s6.e0" charOffset="0-9" type="drug" text="Etofibrate" position="0"/>  
+      <entity id="DDI-MedLine.d44.s6.e1" charOffset="44-50" type="drug" text="heparin" position="6"/>  
+      <pair id="DDI-MedLine.d44.s6.p0" e1="DDI-MedLine.d44.s6.e0" e2="DDI-MedLine.d44.s6.e1" ddi="true" type="effect" flags="True" e1_name="Etofibrate" e2_name="heparin" e1_pos="0" e2_pos="6" path="0@@1@@3@@8@@6@@">Etofibrate@@@@nsubj@@elicited@@dobj@@enhancement@@prep_of@@activity@@amod@@heparin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d44.s7" text="14C-cholesterol ester fractional clearance rate was 260% greater after etofibrate than after placebo. " new_text="14C-cholesterol@@ester@@fractional@@clearance@@rate@@was@@260%@@greater@@after@@etofibrate@@than@@after@@placebo@@.@@"> 
+      <entity id="DDI-MedLine.d44.s7.e0" charOffset="71-80" type="drug" text="etofibrate" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d44.s8" text="Therefore, a potent effect of etofibrate on both chylomicron lipolysis and remnant removal was achieved, indicating that this drug can be used to improve this metabolism in future prospective studies." new_text="Therefore@@,@@a@@potent@@effect@@of@@etofibrate@@on@@both@@chylomicron@@lipolysis@@and@@remnant@@removal@@was@@achieved@@,@@indicating@@that@@this@@drug@@can@@be@@used@@to@@improve@@this@@metabolism@@in@@future@@prospective@@studies@@.@@"> 
+      <entity id="DDI-MedLine.d44.s8.e0" charOffset="30-39" type="drug" text="etofibrate" position="6"/> 
+   </sentence> 
+</document>

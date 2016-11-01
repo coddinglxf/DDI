@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d351"> 
+   <sentence id="DDI-DrugBank.d351.s0" text="Probenecid: As with other b-lactam antibiotics, renal excretion of loracarbef is inhibited by probenecid and resulted in an approximate 80% increase in the AUC for loracarbef." new_text="Probenecid@@:@@As@@with@@other@@b-lactam antibiotics@@,@@renal@@excretion@@of@@loracarbef@@is@@inhibited@@by@@probenecid@@and@@resulted@@in@@an@@approximate@@80%@@increase@@in@@the@@AUC@@for@@loracarbef@@.@@"> 
+      <entity id="DDI-DrugBank.d351.s0.e0" charOffset="0-9" type="drug" text="Probenecid" position="0"/>  
+      <entity id="DDI-DrugBank.d351.s0.e1" charOffset="26-45" type="group" text="b-lactam antibiotics" position="5"/>  
+      <entity id="DDI-DrugBank.d351.s0.e2" charOffset="67-76" type="drug" text="loracarbef" position="10"/>  
+      <entity id="DDI-DrugBank.d351.s0.e3" charOffset="94-103" type="drug" text="probenecid" position="14"/>  
+      <entity id="DDI-DrugBank.d351.s0.e4" charOffset="164-173" type="drug" text="loracarbef" position="26"/>  
+      <pair id="DDI-DrugBank.d351.s0.p0" e1="DDI-DrugBank.d351.s0.e0" e2="DDI-DrugBank.d351.s0.e1" ddi="false" flags="True" e1_name="Probenecid" e2_name="b-lactam antibiotics" e1_pos="0" e2_pos="5" path="0@@12@@2@@3@@5@@">Probenecid@@@@dep@@inhibited@@prep@@As@@pcomp@@with@@pobj@@b-lactam antibiotics</pair>  
+      <pair id="DDI-DrugBank.d351.s0.p1" e1="DDI-DrugBank.d351.s0.e0" e2="DDI-DrugBank.d351.s0.e2" ddi="false" flags="True" e1_name="Probenecid" e2_name="loracarbef" e1_pos="0" e2_pos="10" path="0@@12@@8@@10@@">Probenecid@@@@dep@@inhibited@@nsubjpass@@excretion@@prep_of@@loracarbef</pair>  
+      <pair id="DDI-DrugBank.d351.s0.p2" e1="DDI-DrugBank.d351.s0.e0" e2="DDI-DrugBank.d351.s0.e3" ddi="false" flags="True" e1_name="Probenecid" e2_name="probenecid" e1_pos="0" e2_pos="14" path="0@@12@@14@@">Probenecid@@@@dep@@inhibited@@agent@@probenecid</pair>  
+      <pair id="DDI-DrugBank.d351.s0.p3" e1="DDI-DrugBank.d351.s0.e0" e2="DDI-DrugBank.d351.s0.e4" ddi="false" flags="True" e1_name="Probenecid" e2_name="loracarbef" e1_pos="0" e2_pos="26" path="0@@16@@26@@">Probenecid@@@@dep@@resulted@@prep_for@@loracarbef</pair>  
+      <pair id="DDI-DrugBank.d351.s0.p4" e1="DDI-DrugBank.d351.s0.e1" e2="DDI-DrugBank.d351.s0.e2" ddi="false" flags="True" e1_name="b-lactam antibiotics" e2_name="loracarbef" e1_pos="5" e2_pos="10" path="5@@3@@2@@12@@8@@10@@">b-lactam antibiotics@@@@pobj@@with@@pcomp@@As@@prep@@inhibited@@nsubjpass@@excretion@@prep_of@@loracarbef</pair>  
+      <pair id="DDI-DrugBank.d351.s0.p5" e1="DDI-DrugBank.d351.s0.e1" e2="DDI-DrugBank.d351.s0.e3" ddi="true" type="mechanism" flags="True" e1_name="b-lactam antibiotics" e2_name="probenecid" e1_pos="5" e2_pos="14" path="5@@3@@2@@12@@14@@">b-lactam antibiotics@@@@pobj@@with@@pcomp@@As@@prep@@inhibited@@agent@@probenecid</pair>  
+      <pair id="DDI-DrugBank.d351.s0.p6" e1="DDI-DrugBank.d351.s0.e1" e2="DDI-DrugBank.d351.s0.e4" ddi="false" flags="True" e1_name="b-lactam antibiotics" e2_name="loracarbef" e1_pos="5" e2_pos="26" path="5@@3@@2@@12@@16@@26@@">b-lactam antibiotics@@@@pobj@@with@@pcomp@@As@@prep@@inhibited@@conj_and@@resulted@@prep_for@@loracarbef</pair>  
+      <pair id="DDI-DrugBank.d351.s0.p7" e1="DDI-DrugBank.d351.s0.e2" e2="DDI-DrugBank.d351.s0.e3" ddi="true" type="mechanism" flags="True" e1_name="loracarbef" e2_name="probenecid" e1_pos="10" e2_pos="14" path="10@@8@@12@@14@@">loracarbef@@@@prep_of@@excretion@@nsubjpass@@inhibited@@agent@@probenecid</pair>  
+      <pair id="DDI-DrugBank.d351.s0.p8" e1="DDI-DrugBank.d351.s0.e2" e2="DDI-DrugBank.d351.s0.e4" ddi="false" flags="True" e1_name="loracarbef" e2_name="loracarbef" e1_pos="10" e2_pos="26" path="10@@8@@16@@26@@">loracarbef@@@@prep_of@@excretion@@nsubjpass@@resulted@@prep_for@@loracarbef</pair>  
+      <pair id="DDI-DrugBank.d351.s0.p9" e1="DDI-DrugBank.d351.s0.e3" e2="DDI-DrugBank.d351.s0.e4" ddi="false" flags="True" e1_name="probenecid" e2_name="loracarbef" e1_pos="14" e2_pos="26" path="14@@12@@16@@26@@">probenecid@@@@agent@@inhibited@@conj_and@@resulted@@prep_for@@loracarbef</pair> 
+   </sentence> 
+</document>

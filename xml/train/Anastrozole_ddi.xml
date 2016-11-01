@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d195"> 
+   <sentence id="DDI-DrugBank.d195.s0" text="Anastrozole inhibited in vitro metabolic reactions catalyzed by cytochromes P450 1A2, 2C8/9, and 3A4 but only at relatively high concentrations." new_text="Anastrozole@@inhibited@@in@@vitro@@metabolic@@reactions@@catalyzed@@by@@cytochromes@@P450@@1A2@@,@@2C8/9@@,@@and@@3A4@@but@@only@@at@@relatively@@high@@concentrations@@.@@"> 
+      <entity id="DDI-DrugBank.d195.s0.e0" charOffset="0-10" type="drug" text="Anastrozole" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d195.s1" text="Anastrozole did not inhibit P450 2A6 or the polymorphic P450 2D6 in human liver microsomes." new_text="Anastrozole@@did@@not@@inhibit@@P450@@2A6@@or@@the@@polymorphic@@P450@@2D6@@in@@human@@liver@@microsomes@@.@@"> 
+      <entity id="DDI-DrugBank.d195.s1.e0" charOffset="0-10" type="drug" text="Anastrozole" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d195.s2" text="Anastrozole did not alter the pharmacokinetics of antipyrine." new_text="Anastrozole@@did@@not@@alter@@the@@pharmacokinetics@@of@@antipyrine@@.@@"> 
+      <entity id="DDI-DrugBank.d195.s2.e0" charOffset="0-10" type="drug" text="Anastrozole" position="0"/>  
+      <entity id="DDI-DrugBank.d195.s2.e1" charOffset="50-59" type="drug" text="antipyrine" position="7"/>  
+      <pair id="DDI-DrugBank.d195.s2.p0" e1="DDI-DrugBank.d195.s2.e0" e2="DDI-DrugBank.d195.s2.e1" ddi="false" flags="True" e1_name="Anastrozole" e2_name="antipyrine" e1_pos="0" e2_pos="7" path="0@@3@@5@@7@@">Anastrozole@@@@nsubj@@alter@@dobj@@pharmacokinetics@@prep_of@@antipyrine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d195.s3" text="Although there have been no formal interaction studies other than with antipyrine, based on these in vivo and in vitro studies, it is unlikely that co-administration of a 1 mg dose of ARIMIDEX with other drugs will result in clinically significant drug inhibition of cytochrome P450-mediated metabolism of the other drugs." new_text="Although@@there@@have@@been@@no@@formal@@interaction@@studies@@other@@than@@with@@antipyrine@@,@@based@@on@@these@@in@@vivo@@and@@in@@vitro@@studies@@,@@it@@is@@unlikely@@that@@co-administration@@of@@a@@1@@mg@@dose@@of@@ARIMIDEX@@with@@other@@drugs@@will@@result@@in@@clinically@@significant@@drug@@inhibition@@of@@cytochrome@@P450-mediated@@metabolism@@of@@the@@other@@drugs@@.@@"> 
+      <entity id="DDI-DrugBank.d195.s3.e0" charOffset="71-80" type="drug" text="antipyrine" position="11"/>  
+      <entity id="DDI-DrugBank.d195.s3.e1" charOffset="184-191" type="brand" text="ARIMIDEX" position="34"/>  
+      <pair id="DDI-DrugBank.d195.s3.p0" e1="DDI-DrugBank.d195.s3.e0" e2="DDI-DrugBank.d195.s3.e1" ddi="false" flags="True" e1_name="antipyrine" e2_name="ARIMIDEX" e1_pos="11" e2_pos="34" path="11@@21@@8@@7@@24@@39@@27@@32@@34@@">antipyrine@@@@prep_with@@studies@@prep_than@@other@@advmod@@studies@@advcl@@is@@ccomp@@result@@nsubj@@co-administration@@prep_of@@dose@@prep_of@@ARIMIDEX</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d195.s4" text="An interaction study with warfarin showed no clinically significant effect of anastrozole on warfarin pharmacokinetics or anticoagulant activity." new_text="An@@interaction@@study@@with@@warfarin@@showed@@no@@clinically@@significant@@effect@@of@@anastrozole@@on@@warfarin@@pharmacokinetics@@or@@anticoagulant@@activity@@.@@"> 
+      <entity id="DDI-DrugBank.d195.s4.e0" charOffset="26-33" type="drug" text="warfarin" position="4"/>  
+      <entity id="DDI-DrugBank.d195.s4.e1" charOffset="78-88" type="drug" text="anastrozole" position="11"/>  
+      <entity id="DDI-DrugBank.d195.s4.e2" charOffset="93-100" type="drug" text="warfarin" position="13"/>  
+      <pair id="DDI-DrugBank.d195.s4.p0" e1="DDI-DrugBank.d195.s4.e0" e2="DDI-DrugBank.d195.s4.e1" ddi="false" flags="True" e1_name="warfarin" e2_name="anastrozole" e1_pos="4" e2_pos="11" path="4@@2@@5@@9@@11@@">warfarin@@@@prep_with@@study@@nsubj@@showed@@dobj@@effect@@prep_of@@anastrozole</pair>  
+      <pair id="DDI-DrugBank.d195.s4.p1" e1="DDI-DrugBank.d195.s4.e0" e2="DDI-DrugBank.d195.s4.e2" ddi="false" flags="True" e1_name="warfarin" e2_name="warfarin" e1_pos="4" e2_pos="13" path="4@@2@@5@@14@@13@@">warfarin@@@@prep_with@@study@@nsubj@@showed@@prep_on@@pharmacokinetics@@nn@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d195.s4.p2" e1="DDI-DrugBank.d195.s4.e1" e2="DDI-DrugBank.d195.s4.e2" ddi="false" flags="True" e1_name="anastrozole" e2_name="warfarin" e1_pos="11" e2_pos="13" path="11@@9@@5@@14@@13@@">anastrozole@@@@prep_of@@effect@@dobj@@showed@@prep_on@@pharmacokinetics@@nn@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d195.s5" text="At a median follow-up of 33 months, the combination of ARIMIDEX and tamoxifen did not demonstrate any efficacy benefit when compared with tamoxifen in all patients as well as in the hormone receptor-positive subpopulation." new_text="At@@a@@median@@follow-up@@of@@33@@months@@,@@the@@combination@@of@@ARIMIDEX@@and@@tamoxifen@@did@@not@@demonstrate@@any@@efficacy@@benefit@@when@@compared@@with@@tamoxifen@@in@@all@@patients@@as@@well@@as@@in@@the@@hormone@@receptor-positive@@subpopulation@@.@@"> 
+      <entity id="DDI-DrugBank.d195.s5.e0" charOffset="55-62" type="brand" text="ARIMIDEX" position="11"/>  
+      <entity id="DDI-DrugBank.d195.s5.e1" charOffset="68-76" type="drug" text="tamoxifen" position="13"/>  
+      <entity id="DDI-DrugBank.d195.s5.e2" charOffset="138-146" type="drug" text="tamoxifen" position="23"/>  
+      <pair id="DDI-DrugBank.d195.s5.p0" e1="DDI-DrugBank.d195.s5.e0" e2="DDI-DrugBank.d195.s5.e1" ddi="false" flags="True" e1_name="ARIMIDEX" e2_name="tamoxifen" e1_pos="11" e2_pos="13" path="11@@13@@">ARIMIDEX@@@@conj_and@@tamoxifen</pair>  
+      <pair id="DDI-DrugBank.d195.s5.p1" e1="DDI-DrugBank.d195.s5.e0" e2="DDI-DrugBank.d195.s5.e2" ddi="false" flags="True" e1_name="ARIMIDEX" e2_name="tamoxifen" e1_pos="11" e2_pos="23" path="11@@9@@16@@21@@23@@">ARIMIDEX@@@@prep_of@@combination@@nsubj@@demonstrate@@advcl@@compared@@prep_with@@tamoxifen</pair>  
+      <pair id="DDI-DrugBank.d195.s5.p2" e1="DDI-DrugBank.d195.s5.e1" e2="DDI-DrugBank.d195.s5.e2" ddi="false" flags="True" e1_name="tamoxifen" e2_name="tamoxifen" e1_pos="13" e2_pos="23" path="13@@9@@16@@21@@23@@">tamoxifen@@@@prep_of@@combination@@nsubj@@demonstrate@@advcl@@compared@@prep_with@@tamoxifen</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d195.s6" text="This treatment arm was discontinued from the trial." new_text="This@@treatment@@arm@@was@@discontinued@@from@@the@@trial@@.@@"/>  
+   <sentence id="DDI-DrugBank.d195.s7" text="Based on clinical and pharmacokinetic results from the ATAC trial, tamoxifen should not be administered with anastrozole (see CLINICAL PHARMACOLOGY   Drug Interactions and CLINICAL PHARMACOLOGY - Clinical Studies - Adjuvant Treatment of Breast Cancer in Postmenopausal Women subsections)." new_text="Based@@on@@clinical@@and@@pharmacokinetic@@results@@from@@the@@ATAC@@trial@@,@@tamoxifen@@should@@not@@be@@administered@@with@@anastrozole@@(see@@CLINICAL@@PHARMACOLOGY@@@@@@Drug@@Interactions@@and@@CLINICAL@@PHARMACOLOGY@@-@@Clinical@@Studies@@-@@Adjuvant@@Treatment@@of@@Breast@@Cancer@@in@@Postmenopausal@@Women@@subsections)@@.@@"> 
+      <entity id="DDI-DrugBank.d195.s7.e0" charOffset="67-75" type="drug" text="tamoxifen" position="11"/>  
+      <entity id="DDI-DrugBank.d195.s7.e1" charOffset="109-119" type="drug" text="anastrozole" position="17"/>  
+      <pair id="DDI-DrugBank.d195.s7.p0" e1="DDI-DrugBank.d195.s7.e0" e2="DDI-DrugBank.d195.s7.e1" ddi="true" type="advise" flags="True" e1_name="tamoxifen" e2_name="anastrozole" e1_pos="11" e2_pos="17" path="11@@15@@16@@18@@17@@">tamoxifen@@@@nsubjpass@@administered@@prep@@with@@dep@@(see@@amod@@anastrozole</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d195.s8" text="Co-administration of anastrozole and tamoxifen resulted in a reduction of anastrozole plasma levels by 27% compared with those achieved with anastrozole alone." new_text="Co-administration@@of@@anastrozole@@and@@tamoxifen@@resulted@@in@@a@@reduction@@of@@anastrozole@@plasma@@levels@@by@@27%@@compared@@with@@those@@achieved@@with@@anastrozole@@alone@@.@@"> 
+      <entity id="DDI-DrugBank.d195.s8.e0" charOffset="21-31" type="drug" text="anastrozole" position="2"/>  
+      <entity id="DDI-DrugBank.d195.s8.e1" charOffset="37-45" type="drug" text="tamoxifen" position="4"/>  
+      <entity id="DDI-DrugBank.d195.s8.e2" charOffset="74-84" type="drug" text="anastrozole" position="10"/>  
+      <entity id="DDI-DrugBank.d195.s8.e3" charOffset="141-151" type="drug" text="anastrozole" position="20"/>  
+      <pair id="DDI-DrugBank.d195.s8.p0" e1="DDI-DrugBank.d195.s8.e0" e2="DDI-DrugBank.d195.s8.e1" ddi="true" type="mechanism" flags="True" e1_name="anastrozole" e2_name="tamoxifen" e1_pos="2" e2_pos="4" path="2@@4@@">anastrozole@@@@conj_and@@tamoxifen</pair>  
+      <pair id="DDI-DrugBank.d195.s8.p1" e1="DDI-DrugBank.d195.s8.e0" e2="DDI-DrugBank.d195.s8.e2" ddi="false" flags="True" e1_name="anastrozole" e2_name="anastrozole" e1_pos="2" e2_pos="10" path="2@@0@@5@@8@@12@@10@@">anastrozole@@@@prep_of@@Co-administration@@nsubj@@resulted@@prep_in@@reduction@@prep_of@@levels@@amod@@anastrozole</pair>  
+      <pair id="DDI-DrugBank.d195.s8.p2" e1="DDI-DrugBank.d195.s8.e0" e2="DDI-DrugBank.d195.s8.e3" ddi="false" flags="True" e1_name="anastrozole" e2_name="anastrozole" e1_pos="2" e2_pos="20" path="2@@0@@5@@17@@18@@20@@">anastrozole@@@@prep_of@@Co-administration@@nsubj@@resulted@@pobj@@those@@partmod@@achieved@@prep_with@@anastrozole</pair>  
+      <pair id="DDI-DrugBank.d195.s8.p3" e1="DDI-DrugBank.d195.s8.e1" e2="DDI-DrugBank.d195.s8.e2" ddi="false" flags="True" e1_name="tamoxifen" e2_name="anastrozole" e1_pos="4" e2_pos="10" path="4@@0@@5@@8@@12@@10@@">tamoxifen@@@@prep_of@@Co-administration@@nsubj@@resulted@@prep_in@@reduction@@prep_of@@levels@@amod@@anastrozole</pair>  
+      <pair id="DDI-DrugBank.d195.s8.p4" e1="DDI-DrugBank.d195.s8.e1" e2="DDI-DrugBank.d195.s8.e3" ddi="false" flags="True" e1_name="tamoxifen" e2_name="anastrozole" e1_pos="4" e2_pos="20" path="4@@0@@5@@17@@18@@20@@">tamoxifen@@@@prep_of@@Co-administration@@nsubj@@resulted@@pobj@@those@@partmod@@achieved@@prep_with@@anastrozole</pair>  
+      <pair id="DDI-DrugBank.d195.s8.p5" e1="DDI-DrugBank.d195.s8.e2" e2="DDI-DrugBank.d195.s8.e3" ddi="false" flags="True" e1_name="anastrozole" e2_name="anastrozole" e1_pos="10" e2_pos="20" path="10@@12@@8@@5@@17@@18@@20@@">anastrozole@@@@amod@@levels@@prep_of@@reduction@@prep_in@@resulted@@pobj@@those@@partmod@@achieved@@prep_with@@anastrozole</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d195.s9" text="Estrogen-containing therapies should not be used with ARIMIDEX as they may diminish its pharmacologic action." new_text="Estrogen@@-containing@@therapies@@should@@not@@be@@used@@with@@ARIMIDEX@@as@@they@@may@@diminish@@its@@pharmacologic@@action@@.@@"> 
+      <entity id="DDI-DrugBank.d195.s9.e0" charOffset="0-7" type="group" text="Estrogen" position="0"/>  
+      <entity id="DDI-DrugBank.d195.s9.e1" charOffset="54-61" type="brand" text="ARIMIDEX" position="8"/>  
+      <pair id="DDI-DrugBank.d195.s9.p0" e1="DDI-DrugBank.d195.s9.e0" e2="DDI-DrugBank.d195.s9.e1" ddi="true" type="advise" flags="True" e1_name="Estrogen" e2_name="ARIMIDEX" e1_pos="0" e2_pos="8" path="0@@2@@6@@8@@">Estrogen@@@@amod@@therapies@@nsubjpass@@used@@prep_with@@ARIMIDEX</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d195.s10" text="Drug/Laboratory Test Interactions No clinically significant changes in the results of clinical laboratory tests have been observed" new_text="Drug/Laboratory@@Test@@Interactions@@No@@clinically@@significant@@changes@@in@@the@@results@@of@@clinical@@laboratory@@tests@@have@@been@@observed@@"/>  
+   <sentence id="DDI-DrugBank.d195.s11" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d195.s12" text="" new_text=""/> 
+</document>

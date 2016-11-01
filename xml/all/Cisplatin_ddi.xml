@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d145"> 
+   <sentence id="DDI-DrugBank.d145.s0" text="Plasma levels of anticonvulsant agents may become subtherapeutic during cisplatin therapy." new_text="Plasma@@levels@@of@@anticonvulsant agents@@may@@become@@subtherapeutic@@during@@cisplatin@@therapy@@.@@"> 
+      <entity id="DDI-DrugBank.d145.s0.e0" charOffset="17-37" type="group" text="anticonvulsant agents" position="3"/>  
+      <entity id="DDI-DrugBank.d145.s0.e1" charOffset="72-80" type="drug" text="cisplatin" position="8"/>  
+      <pair id="DDI-DrugBank.d145.s0.p0" e1="DDI-DrugBank.d145.s0.e0" e2="DDI-DrugBank.d145.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="anticonvulsant agents" e2_name="cisplatin" e1_pos="3" e2_pos="8" path="3@@1@@6@@9@@8@@">anticonvulsant agents@@@@prep_of@@levels@@nsubj@@subtherapeutic@@prep_during@@therapy@@nn@@cisplatin</pair> 
+   </sentence> 
+</document>

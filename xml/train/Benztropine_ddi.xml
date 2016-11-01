@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d390"> 
+   <sentence id="DDI-DrugBank.d390.s0" text="Antipsychotic drugs such as phenothiazines or haloperidol;" new_text="Antipsychotic drugs@@such@@as@@phenothiazines@@or@@haloperidol@@;@@"> 
+      <entity id="DDI-DrugBank.d390.s0.e0" charOffset="0-18" type="group" text="Antipsychotic drugs" position="0"/>  
+      <entity id="DDI-DrugBank.d390.s0.e1" charOffset="28-41" type="group" text="phenothiazines" position="3"/>  
+      <entity id="DDI-DrugBank.d390.s0.e2" charOffset="46-56" type="drug" text="haloperidol" position="5"/>  
+      <pair id="DDI-DrugBank.d390.s0.p0" e1="DDI-DrugBank.d390.s0.e0" e2="DDI-DrugBank.d390.s0.e1" ddi="false" flags="True" e1_name="Antipsychotic drugs" e2_name="phenothiazines" e1_pos="0" e2_pos="3" path="0@@3@@">Antipsychotic drugs@@@@prep_such_as@@phenothiazines</pair>  
+      <pair id="DDI-DrugBank.d390.s0.p1" e1="DDI-DrugBank.d390.s0.e0" e2="DDI-DrugBank.d390.s0.e2" ddi="false" flags="True" e1_name="Antipsychotic drugs" e2_name="haloperidol" e1_pos="0" e2_pos="5" path="0@@5@@">Antipsychotic drugs@@@@prep_such_as@@haloperidol</pair>  
+      <pair id="DDI-DrugBank.d390.s0.p2" e1="DDI-DrugBank.d390.s0.e1" e2="DDI-DrugBank.d390.s0.e2" ddi="false" flags="True" e1_name="phenothiazines" e2_name="haloperidol" e1_pos="3" e2_pos="5" path="3@@5@@">phenothiazines@@@@conj_or@@haloperidol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d390.s1" text="tricyclic antidepressants." new_text="tricyclic antidepressants@@.@@"> 
+      <entity id="DDI-DrugBank.d390.s1.e0" charOffset="0-24" type="group" text="tricyclic antidepressants" position="0"/> 
+   </sentence> 
+</document>

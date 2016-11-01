@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d575"> 
+   <sentence id="DDI-DrugBank.d575.s0" text="In a study in which 34 different drugs were tested, therapeutically relevant concentrations of tolbutamide, sodium salicylate and sulfamethizole displaced protein-bound teniposide in fresh human serum to a small but significant extent. " new_text="In@@a@@study@@in@@which@@34@@different@@drugs@@were@@tested@@,@@therapeutically@@relevant@@concentrations@@of@@tolbutamide@@,@@sodium salicylate@@and@@sulfamethizole@@displaced@@protein-bound@@teniposide@@in@@fresh@@human@@serum@@to@@a@@small@@but@@significant@@extent@@.@@"> 
+      <entity id="DDI-DrugBank.d575.s0.e0" charOffset="95-105" type="drug" text="tolbutamide" position="15"/>  
+      <entity id="DDI-DrugBank.d575.s0.e1" charOffset="108-124" type="drug" text="sodium salicylate" position="17"/>  
+      <entity id="DDI-DrugBank.d575.s0.e2" charOffset="130-143" type="drug" text="sulfamethizole" position="19"/>  
+      <entity id="DDI-DrugBank.d575.s0.e3" charOffset="169-178" type="drug" text="teniposide" position="22"/>  
+      <pair id="DDI-DrugBank.d575.s0.p0" e1="DDI-DrugBank.d575.s0.e0" e2="DDI-DrugBank.d575.s0.e1" ddi="false" flags="True" e1_name="tolbutamide" e2_name="sodium salicylate" e1_pos="15" e2_pos="17" path="15@@17@@">tolbutamide@@@@conj_and@@sodium salicylate</pair>  
+      <pair id="DDI-DrugBank.d575.s0.p1" e1="DDI-DrugBank.d575.s0.e0" e2="DDI-DrugBank.d575.s0.e2" ddi="false" flags="True" e1_name="tolbutamide" e2_name="sulfamethizole" e1_pos="15" e2_pos="19" path="15@@19@@">tolbutamide@@@@conj_and@@sulfamethizole</pair>  
+      <pair id="DDI-DrugBank.d575.s0.p2" e1="DDI-DrugBank.d575.s0.e0" e2="DDI-DrugBank.d575.s0.e3" ddi="true" type="mechanism" flags="True" e1_name="tolbutamide" e2_name="teniposide" e1_pos="15" e2_pos="22" path="15@@13@@20@@22@@">tolbutamide@@@@prep_of@@concentrations@@nsubj@@displaced@@dobj@@teniposide</pair>  
+      <pair id="DDI-DrugBank.d575.s0.p3" e1="DDI-DrugBank.d575.s0.e1" e2="DDI-DrugBank.d575.s0.e2" ddi="false" flags="True" e1_name="sodium salicylate" e2_name="sulfamethizole" e1_pos="17" e2_pos="19" path="17@@13@@19@@">sodium salicylate@@@@prep_of@@concentrations@@prep_of@@sulfamethizole</pair>  
+      <pair id="DDI-DrugBank.d575.s0.p4" e1="DDI-DrugBank.d575.s0.e1" e2="DDI-DrugBank.d575.s0.e3" ddi="true" type="mechanism" flags="True" e1_name="sodium salicylate" e2_name="teniposide" e1_pos="17" e2_pos="22" path="17@@13@@20@@22@@">sodium salicylate@@@@prep_of@@concentrations@@nsubj@@displaced@@dobj@@teniposide</pair>  
+      <pair id="DDI-DrugBank.d575.s0.p5" e1="DDI-DrugBank.d575.s0.e2" e2="DDI-DrugBank.d575.s0.e3" ddi="true" type="mechanism" flags="True" e1_name="sulfamethizole" e2_name="teniposide" e1_pos="19" e2_pos="22" path="19@@13@@20@@22@@">sulfamethizole@@@@prep_of@@concentrations@@nsubj@@displaced@@dobj@@teniposide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d575.s1" text="Because of the extremely high binding of teniposide to plasma proteins, these small decreases in binding could cause substantial increases in free drug levels in plasma which could result in potentiation of drug toxicity. " new_text="Because@@of@@the@@extremely@@high@@binding@@of@@teniposide@@to@@plasma@@proteins@@,@@these@@small@@decreases@@in@@binding@@could@@cause@@substantial@@increases@@in@@free@@drug@@levels@@in@@plasma@@which@@could@@result@@in@@potentiation@@of@@drug@@toxicity@@.@@"> 
+      <entity id="DDI-DrugBank.d575.s1.e0" charOffset="41-50" type="drug" text="teniposide" position="7"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d575.s2" text="Therefore, caution should be used in administering VUMON (teniposide injection) to patients receiving these other agents. " new_text="Therefore@@,@@caution@@should@@be@@used@@in@@administering@@VUMON@@(@@teniposide@@injection)@@to@@patients@@receiving@@these@@other@@agents@@.@@"> 
+      <entity id="DDI-DrugBank.d575.s2.e0" charOffset="51-55" type="brand" text="VUMON" position="8"/>  
+      <entity id="DDI-DrugBank.d575.s2.e1" charOffset="58-67" type="drug" text="teniposide" position="10"/>  
+      <pair id="DDI-DrugBank.d575.s2.p0" e1="DDI-DrugBank.d575.s2.e0" e2="DDI-DrugBank.d575.s2.e1" ddi="false" flags="True" e1_name="VUMON" e2_name="teniposide" e1_pos="8" e2_pos="10" path="8@@9@@14@@10@@">VUMON@@@@nn@@(@@nsubj@@receiving@@dep@@teniposide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d575.s3" text="There was no change in the plasma kinetics of teniposide when coadministered with methotrexate. " new_text="There@@was@@no@@change@@in@@the@@plasma@@kinetics@@of@@teniposide@@when@@coadministered@@with@@methotrexate@@.@@"> 
+      <entity id="DDI-DrugBank.d575.s3.e0" charOffset="46-55" type="drug" text="teniposide" position="9"/>  
+      <entity id="DDI-DrugBank.d575.s3.e1" charOffset="82-93" type="drug" text="methotrexate" position="13"/>  
+      <pair id="DDI-DrugBank.d575.s3.p0" e1="DDI-DrugBank.d575.s3.e0" e2="DDI-DrugBank.d575.s3.e1" ddi="false" flags="True" e1_name="teniposide" e2_name="methotrexate" e1_pos="9" e2_pos="13" path="9@@7@@3@@1@@11@@13@@">teniposide@@@@prep_of@@kinetics@@prep_in@@change@@nsubj@@was@@advcl@@coadministered@@prep_with@@methotrexate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d575.s4" text="However, the plasma clearance of methotrexate was slightly increased. " new_text="However@@,@@the@@plasma@@clearance@@of@@methotrexate@@was@@slightly@@increased@@.@@"> 
+      <entity id="DDI-DrugBank.d575.s4.e0" charOffset="33-44" type="drug" text="methotrexate" position="6"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d575.s5" text="An increase in intracellular levels of methotrexate was observed in vitro in the presence of teniposide." new_text="An@@increase@@in@@intracellular@@levels@@of@@methotrexate@@was@@observed@@in@@vitro@@in@@the@@presence@@of@@teniposide@@.@@"> 
+      <entity id="DDI-DrugBank.d575.s5.e0" charOffset="39-50" type="drug" text="methotrexate" position="6"/>  
+      <entity id="DDI-DrugBank.d575.s5.e1" charOffset="93-102" type="drug" text="teniposide" position="15"/>  
+      <pair id="DDI-DrugBank.d575.s5.p0" e1="DDI-DrugBank.d575.s5.e0" e2="DDI-DrugBank.d575.s5.e1" ddi="true" type="mechanism" flags="True" e1_name="methotrexate" e2_name="teniposide" e1_pos="6" e2_pos="15" path="6@@4@@1@@8@@10@@13@@15@@">methotrexate@@@@prep_of@@levels@@prep_in@@increase@@nsubjpass@@observed@@prep_in@@vitro@@prep_in@@presence@@prep_of@@teniposide</pair> 
+   </sentence> 
+</document>

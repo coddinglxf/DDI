@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d370"> 
+   <sentence id="DDI-DrugBank.d370.s0" text="As DIFFERIN Gel has the potential to produce local irritation in some patients, concomitant use of other potentially irritating topical products (medicated or abrasive soaps and cleansers, soaps and cosmetics that have a strong drying effect, and products with high concentrations of alcohol, astringents, spices or lime) should be approached with caution." new_text="As@@DIFFERIN@@Gel@@has@@the@@potential@@to@@produce@@local@@irritation@@in@@some@@patients@@,@@concomitant@@use@@of@@other@@potentially@@irritating@@topical@@products@@(medicated@@or@@abrasive@@soaps@@and@@cleansers@@,@@soaps@@and@@cosmetics@@that@@have@@a@@strong@@drying@@effect@@,@@and@@products@@with@@high@@concentrations@@of@@alcohol@@,@@astringents@@,@@spices@@or@@lime)@@should@@be@@approached@@with@@caution@@.@@"> 
+      <entity id="DDI-DrugBank.d370.s0.e0" charOffset="3-10" type="brand" text="DIFFERIN" position="1"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d370.s1" text="Particular caution should be exercised in using preparations containing sulfur, resorcinol, or salicylic acid in combination with DIFFERIN Gel." new_text="Particular@@caution@@should@@be@@exercised@@in@@using@@preparations@@containing@@sulfur@@,@@resorcinol@@,@@or@@salicylic acid@@in@@combination@@with@@DIFFERIN@@Gel@@.@@"> 
+      <entity id="DDI-DrugBank.d370.s1.e0" charOffset="72-77" type="drug" text="sulfur" position="9"/>  
+      <entity id="DDI-DrugBank.d370.s1.e1" charOffset="80-89" type="drug" text="resorcinol" position="11"/>  
+      <entity id="DDI-DrugBank.d370.s1.e2" charOffset="95-108" type="drug" text="salicylic acid" position="14"/>  
+      <entity id="DDI-DrugBank.d370.s1.e3" charOffset="130-137" type="brand" text="DIFFERIN" position="18"/>  
+      <pair id="DDI-DrugBank.d370.s1.p0" e1="DDI-DrugBank.d370.s1.e0" e2="DDI-DrugBank.d370.s1.e1" ddi="false" flags="True" e1_name="sulfur" e2_name="resorcinol" e1_pos="9" e2_pos="11" path="9@@11@@">sulfur@@@@conj_or@@resorcinol</pair>  
+      <pair id="DDI-DrugBank.d370.s1.p1" e1="DDI-DrugBank.d370.s1.e0" e2="DDI-DrugBank.d370.s1.e2" ddi="false" flags="True" e1_name="sulfur" e2_name="salicylic acid" e1_pos="9" e2_pos="14" path="9@@14@@">sulfur@@@@conj_or@@salicylic acid</pair>  
+      <pair id="DDI-DrugBank.d370.s1.p2" e1="DDI-DrugBank.d370.s1.e0" e2="DDI-DrugBank.d370.s1.e3" ddi="false" flags="True" e1_name="sulfur" e2_name="DIFFERIN" e1_pos="9" e2_pos="18" path="9@@8@@16@@19@@18@@">sulfur@@@@dobj@@containing@@prep_in@@combination@@prep_with@@Gel@@nn@@DIFFERIN</pair>  
+      <pair id="DDI-DrugBank.d370.s1.p3" e1="DDI-DrugBank.d370.s1.e1" e2="DDI-DrugBank.d370.s1.e2" ddi="false" flags="True" e1_name="resorcinol" e2_name="salicylic acid" e1_pos="11" e2_pos="14" path="11@@8@@14@@">resorcinol@@@@dobj@@containing@@dobj@@salicylic acid</pair>  
+      <pair id="DDI-DrugBank.d370.s1.p4" e1="DDI-DrugBank.d370.s1.e1" e2="DDI-DrugBank.d370.s1.e3" ddi="false" flags="True" e1_name="resorcinol" e2_name="DIFFERIN" e1_pos="11" e2_pos="18" path="11@@8@@16@@19@@18@@">resorcinol@@@@dobj@@containing@@prep_in@@combination@@prep_with@@Gel@@nn@@DIFFERIN</pair>  
+      <pair id="DDI-DrugBank.d370.s1.p5" e1="DDI-DrugBank.d370.s1.e2" e2="DDI-DrugBank.d370.s1.e3" ddi="false" flags="True" e1_name="salicylic acid" e2_name="DIFFERIN" e1_pos="14" e2_pos="18" path="14@@8@@16@@19@@18@@">salicylic acid@@@@dobj@@containing@@prep_in@@combination@@prep_with@@Gel@@nn@@DIFFERIN</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d370.s2" text="If these preparations have been used it is advisable not to start therapy with DIFFERIN Gel until the effects of such preparations in the skin have subsided." new_text="If@@these@@preparations@@have@@been@@used@@it@@is@@advisable@@not@@to@@start@@therapy@@with@@DIFFERIN@@Gel@@until@@the@@effects@@of@@such@@preparations@@in@@the@@skin@@have@@subsided@@.@@"> 
+      <entity id="DDI-DrugBank.d370.s2.e0" charOffset="79-86" type="brand" text="DIFFERIN" position="14"/> 
+   </sentence> 
+</document>

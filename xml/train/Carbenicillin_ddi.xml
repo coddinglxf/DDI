@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d545"> 
+   <sentence id="DDI-DrugBank.d545.s0" text="Geocillin (carbenicillin indanyl sodium) blood levels may be increased and prolonged by concurrent administration of probenecid." new_text="Geocillin@@(@@carbenicillin indanyl sodium@@)@@blood@@levels@@may@@be@@increased@@and@@prolonged@@by@@concurrent@@administration@@of@@probenecid@@.@@"> 
+      <entity id="DDI-DrugBank.d545.s0.e0" charOffset="0-8" type="brand" text="Geocillin" position="0"/>  
+      <entity id="DDI-DrugBank.d545.s0.e1" charOffset="11-38" type="drug" text="carbenicillin indanyl sodium" position="2"/>  
+      <entity id="DDI-DrugBank.d545.s0.e2" charOffset="117-126" type="drug" text="probenecid" position="15"/>  
+      <pair id="DDI-DrugBank.d545.s0.p0" e1="DDI-DrugBank.d545.s0.e0" e2="DDI-DrugBank.d545.s0.e1" ddi="false" flags="True" e1_name="Geocillin" e2_name="carbenicillin indanyl sodium" e1_pos="0" e2_pos="2" path="0@@1@@2@@">Geocillin@@@@nn@@(@@nsubj@@carbenicillin indanyl sodium</pair>  
+      <pair id="DDI-DrugBank.d545.s0.p1" e1="DDI-DrugBank.d545.s0.e0" e2="DDI-DrugBank.d545.s0.e2" ddi="true" type="mechanism" flags="True" e1_name="Geocillin" e2_name="probenecid" e1_pos="0" e2_pos="15" path="0@@1@@2@@8@@13@@15@@">Geocillin@@@@nn@@(@@nsubj@@carbenicillin indanyl sodium@@ccomp@@increased@@prep_by@@administration@@prep_of@@probenecid</pair>  
+      <pair id="DDI-DrugBank.d545.s0.p2" e1="DDI-DrugBank.d545.s0.e1" e2="DDI-DrugBank.d545.s0.e2" ddi="true" type="mechanism" flags="True" e1_name="carbenicillin indanyl sodium" e2_name="probenecid" e1_pos="2" e2_pos="15" path="2@@8@@13@@15@@">carbenicillin indanyl sodium@@@@ccomp@@increased@@prep_by@@administration@@prep_of@@probenecid</pair> 
+   </sentence> 
+</document>

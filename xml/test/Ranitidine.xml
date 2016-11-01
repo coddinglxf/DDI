@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d590"> 
+   <sentence id="DDI-DrugBank.d590.s0" text="Coadministration of TRITEC with clarithromycin resulted in increased plasma ranitidine concentrations (57%), increased plasma bismuth trough concentrations (48%), and increased 14- hydroxy- clarithromycin plasma concentrations (31%). " new_text="Coadministration@@of@@TRITEC@@with@@clarithromycin@@resulted@@in@@increased@@plasma@@ranitidine@@concentrations@@(57%)@@,@@increased@@plasma@@bismuth@@trough@@concentrations@@(48%)@@,@@and@@increased@@14- hydroxy- clarithromycin@@plasma@@concentrations@@(31%)@@.@@"> 
+      <entity id="DDI-DrugBank.d590.s0.e0" charOffset="20-25" type="brand" text="TRITEC" position="2"/>  
+      <entity id="DDI-DrugBank.d590.s0.e1" charOffset="32-45" type="drug" text="clarithromycin" position="4"/>  
+      <entity id="DDI-DrugBank.d590.s0.e2" charOffset="76-85" type="drug" text="ranitidine" position="9"/>  
+      <entity id="DDI-DrugBank.d590.s0.e3" charOffset="177-203" type="drug_n" text="14- hydroxy- clarithromycin" position="22"/>  
+      <pair id="DDI-DrugBank.d590.s0.p0" e1="DDI-DrugBank.d590.s0.e0" e2="DDI-DrugBank.d590.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="TRITEC" e2_name="clarithromycin" e1_pos="2" e2_pos="4" path="2@@4@@">TRITEC@@@@prep_with@@clarithromycin</pair>  
+      <pair id="DDI-DrugBank.d590.s0.p1" e1="DDI-DrugBank.d590.s0.e0" e2="DDI-DrugBank.d590.s0.e2" ddi="false" flags="True" e1_name="TRITEC" e2_name="ranitidine" e1_pos="2" e2_pos="9" path="2@@0@@5@@10@@9@@">TRITEC@@@@prep_of@@Coadministration@@nsubj@@resulted@@prep_in@@concentrations@@nn@@ranitidine</pair>  
+      <pair id="DDI-DrugBank.d590.s0.p2" e1="DDI-DrugBank.d590.s0.e0" e2="DDI-DrugBank.d590.s0.e3" ddi="false" flags="True" e1_name="TRITEC" e2_name="14- hydroxy- clarithromycin" e1_pos="2" e2_pos="22" path="2@@0@@21@@24@@22@@">TRITEC@@@@prep_of@@Coadministration@@nsubj@@increased@@iobj@@concentrations@@amod@@14- hydroxy- clarithromycin</pair>  
+      <pair id="DDI-DrugBank.d590.s0.p3" e1="DDI-DrugBank.d590.s0.e1" e2="DDI-DrugBank.d590.s0.e2" ddi="false" flags="True" e1_name="clarithromycin" e2_name="ranitidine" e1_pos="4" e2_pos="9" path="4@@2@@0@@5@@10@@9@@">clarithromycin@@@@prep_with@@TRITEC@@prep_of@@Coadministration@@nsubj@@resulted@@prep_in@@concentrations@@nn@@ranitidine</pair>  
+      <pair id="DDI-DrugBank.d590.s0.p4" e1="DDI-DrugBank.d590.s0.e1" e2="DDI-DrugBank.d590.s0.e3" ddi="false" flags="True" e1_name="clarithromycin" e2_name="14- hydroxy- clarithromycin" e1_pos="4" e2_pos="22" path="4@@2@@0@@21@@24@@22@@">clarithromycin@@@@prep_with@@TRITEC@@prep_of@@Coadministration@@nsubj@@increased@@iobj@@concentrations@@amod@@14- hydroxy- clarithromycin</pair>  
+      <pair id="DDI-DrugBank.d590.s0.p5" e1="DDI-DrugBank.d590.s0.e2" e2="DDI-DrugBank.d590.s0.e3" ddi="false" flags="True" e1_name="ranitidine" e2_name="14- hydroxy- clarithromycin" e1_pos="9" e2_pos="22" path="9@@10@@5@@21@@24@@22@@">ranitidine@@@@nn@@concentrations@@prep_in@@resulted@@conj_and@@increased@@iobj@@concentrations@@amod@@14- hydroxy- clarithromycin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d590.s1" text="Coadministration with aspirin results in a slight decrease in the rate of salicylate absorption that is clinically unimportant. " new_text="Coadministration@@with@@aspirin@@results@@in@@a@@slight@@decrease@@in@@the@@rate@@of@@salicylate@@absorption@@that@@is@@clinically@@unimportant@@.@@"> 
+      <entity id="DDI-DrugBank.d590.s1.e0" charOffset="22-28" type="brand" text="aspirin" position="2"/>  
+      <entity id="DDI-DrugBank.d590.s1.e1" charOffset="74-83" type="group" text="salicylate" position="12"/>  
+      <pair id="DDI-DrugBank.d590.s1.p0" e1="DDI-DrugBank.d590.s1.e0" e2="DDI-DrugBank.d590.s1.e1" ddi="false" flags="True" e1_name="aspirin" e2_name="salicylate" e1_pos="2" e2_pos="12" path="2@@0@@3@@7@@10@@13@@12@@">aspirin@@@@prep_with@@Coadministration@@nsubj@@results@@prep_in@@decrease@@prep_in@@rate@@prep_of@@absorption@@nn@@salicylate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d590.s2" text="Coadministration with a high dose of antacid (170 mEq) results in a 28% decrease in plasma concentrations of ranitidine and may decrease plasma concentrations of bismuth from TRITEC. " new_text="Coadministration@@with@@a@@high@@dose@@of@@antacid@@(170@@mEq)@@results@@in@@a@@28%@@decrease@@in@@plasma@@concentrations@@of@@ranitidine@@and@@may@@decrease@@plasma@@concentrations@@of@@bismuth@@from@@TRITEC@@.@@"> 
+      <entity id="DDI-DrugBank.d590.s2.e0" charOffset="37-43" type="group" text="antacid" position="6"/>  
+      <entity id="DDI-DrugBank.d590.s2.e1" charOffset="109-118" type="drug" text="ranitidine" position="18"/>  
+      <entity id="DDI-DrugBank.d590.s2.e2" charOffset="175-180" type="brand" text="TRITEC" position="27"/>  
+      <pair id="DDI-DrugBank.d590.s2.p0" e1="DDI-DrugBank.d590.s2.e0" e2="DDI-DrugBank.d590.s2.e1" ddi="true" type="mechanism" flags="True" e1_name="antacid" e2_name="ranitidine" e1_pos="6" e2_pos="18" path="6@@4@@0@@8@@16@@18@@">antacid@@@@prep_of@@dose@@prep_with@@Coadministration@@nsubj@@mEq)@@prep_in@@concentrations@@prep_of@@ranitidine</pair>  
+      <pair id="DDI-DrugBank.d590.s2.p1" e1="DDI-DrugBank.d590.s2.e0" e2="DDI-DrugBank.d590.s2.e2" ddi="true" type="mechanism" flags="True" e1_name="antacid" e2_name="TRITEC" e1_pos="6" e2_pos="27" path="6@@4@@0@@21@@27@@">antacid@@@@prep_of@@dose@@prep_with@@Coadministration@@nsubj@@decrease@@prep_from@@TRITEC</pair>  
+      <pair id="DDI-DrugBank.d590.s2.p2" e1="DDI-DrugBank.d590.s2.e1" e2="DDI-DrugBank.d590.s2.e2" ddi="false" flags="True" e1_name="ranitidine" e2_name="TRITEC" e1_pos="18" e2_pos="27" path="18@@16@@8@@21@@27@@">ranitidine@@@@prep_of@@concentrations@@prep_in@@mEq)@@conj_and@@decrease@@prep_from@@TRITEC</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d590.s3" text="These effects are clinically insignificant. " new_text="These@@effects@@are@@clinically@@insignificant@@.@@"/>  
+   <sentence id="DDI-DrugBank.d590.s4" text="For information on drug interactions associated with ranitidine, refer to the ZANTAC     package insert." new_text="For@@information@@on@@drug@@interactions@@associated@@with@@ranitidine@@,@@refer@@to@@the@@ZANTAC@@package@@insert@@.@@"> 
+      <entity id="DDI-DrugBank.d590.s4.e0" charOffset="53-62" type="drug" text="ranitidine" position="7"/>  
+      <entity id="DDI-DrugBank.d590.s4.e1" charOffset="78-83" type="brand" text="ZANTAC" position="12"/>  
+      <pair id="DDI-DrugBank.d590.s4.p0" e1="DDI-DrugBank.d590.s4.e0" e2="DDI-DrugBank.d590.s4.e1" ddi="false" flags="True" e1_name="ranitidine" e2_name="ZANTAC" e1_pos="7" e2_pos="12" path="7@@5@@4@@1@@9@@14@@12@@">ranitidine@@@@prep_with@@associated@@partmod@@interactions@@prep_on@@information@@prep_for@@refer@@prep_to@@insert@@nn@@ZANTAC</pair> 
+   </sentence> 
+</document>

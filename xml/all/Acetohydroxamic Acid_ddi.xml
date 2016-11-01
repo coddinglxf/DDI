@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d117"> 
+   <sentence id="DDI-DrugBank.d117.s0" text="Concomitant use with iron supplements may result in the reduced absorption of iron." new_text="Concomitant@@use@@with@@iron supplement@@s@@may@@result@@in@@the@@reduced@@absorption@@of@@iron@@.@@"> 
+      <entity id="DDI-DrugBank.d117.s0.e0" charOffset="21-35" type="group" text="iron supplement" position="3"/>  
+      <entity id="DDI-DrugBank.d117.s0.e1" charOffset="78-81" type="drug" text="iron" position="12"/>  
+      <pair id="DDI-DrugBank.d117.s0.p0" e1="DDI-DrugBank.d117.s0.e0" e2="DDI-DrugBank.d117.s0.e1" ddi="false" flags="True" e1_name="iron supplement" e2_name="iron" e1_pos="3" e2_pos="12" path="3@@4@@1@@6@@10@@12@@">iron supplement@@@@amod@@s@@prep_with@@use@@nsubj@@result@@prep_in@@absorption@@prep_of@@iron</pair> 
+   </sentence> 
+</document>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d387"> 
+   <sentence id="DDI-DrugBank.d387.s0" text="Potential drug interactions for doxylamine include, increased sedation if doxylamine is combined with other CNS depressant drugs." new_text="Potential@@drug@@interactions@@for@@doxylamine@@include@@,@@increased@@sedation@@if@@doxylamine@@is@@combined@@with@@other@@CNS depressant drugs@@.@@"> 
+      <entity id="DDI-DrugBank.d387.s0.e0" charOffset="32-41" type="drug" text="doxylamine" position="4"/>  
+      <entity id="DDI-DrugBank.d387.s0.e1" charOffset="74-83" type="drug" text="doxylamine" position="10"/>  
+      <entity id="DDI-DrugBank.d387.s0.e2" charOffset="108-127" type="group" text="CNS depressant drugs" position="15"/>  
+      <pair id="DDI-DrugBank.d387.s0.p0" e1="DDI-DrugBank.d387.s0.e0" e2="DDI-DrugBank.d387.s0.e1" ddi="false" flags="True" e1_name="doxylamine" e2_name="doxylamine" e1_pos="4" e2_pos="10" path="4@@2@@5@@8@@12@@10@@">doxylamine@@@@prep_for@@interactions@@nsubj@@include@@dobj@@sedation@@dep@@combined@@nsubjpass@@doxylamine</pair>  
+      <pair id="DDI-DrugBank.d387.s0.p1" e1="DDI-DrugBank.d387.s0.e0" e2="DDI-DrugBank.d387.s0.e2" ddi="false" flags="True" e1_name="doxylamine" e2_name="CNS depressant drugs" e1_pos="4" e2_pos="15" path="4@@2@@5@@8@@12@@15@@">doxylamine@@@@prep_for@@interactions@@nsubj@@include@@dobj@@sedation@@dep@@combined@@prep_with@@CNS depressant drugs</pair>  
+      <pair id="DDI-DrugBank.d387.s0.p2" e1="DDI-DrugBank.d387.s0.e1" e2="DDI-DrugBank.d387.s0.e2" ddi="true" type="effect" flags="True" e1_name="doxylamine" e2_name="CNS depressant drugs" e1_pos="10" e2_pos="15" path="10@@12@@15@@">doxylamine@@@@nsubjpass@@combined@@prep_with@@CNS depressant drugs</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d387.s1" text="Antihistamines may partially counteract the anticoagulation effects of heparin or warfarin." new_text="Antihistamines@@may@@partially@@counteract@@the@@anticoagulation@@effects@@of@@heparin@@or@@warfarin@@.@@"> 
+      <entity id="DDI-DrugBank.d387.s1.e0" charOffset="0-13" type="group" text="Antihistamines" position="0"/>  
+      <entity id="DDI-DrugBank.d387.s1.e1" charOffset="71-77" type="drug" text="heparin" position="8"/>  
+      <entity id="DDI-DrugBank.d387.s1.e2" charOffset="82-89" type="drug" text="warfarin" position="10"/>  
+      <pair id="DDI-DrugBank.d387.s1.p0" e1="DDI-DrugBank.d387.s1.e0" e2="DDI-DrugBank.d387.s1.e1" ddi="true" type="effect" flags="True" e1_name="Antihistamines" e2_name="heparin" e1_pos="0" e2_pos="8" path="0@@3@@6@@8@@">Antihistamines@@@@nsubj@@counteract@@dobj@@effects@@prep_of@@heparin</pair>  
+      <pair id="DDI-DrugBank.d387.s1.p1" e1="DDI-DrugBank.d387.s1.e0" e2="DDI-DrugBank.d387.s1.e2" ddi="true" type="effect" flags="True" e1_name="Antihistamines" e2_name="warfarin" e1_pos="0" e2_pos="10" path="0@@3@@6@@10@@">Antihistamines@@@@nsubj@@counteract@@dobj@@effects@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d387.s1.p2" e1="DDI-DrugBank.d387.s1.e1" e2="DDI-DrugBank.d387.s1.e2" ddi="false" flags="True" e1_name="heparin" e2_name="warfarin" e1_pos="8" e2_pos="10" path="8@@10@@">heparin@@@@conj_or@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d387.s2" text="Doxylamine may enhance the effects of epinephrine." new_text="Doxylamine@@may@@enhance@@the@@effects@@of@@epinephrine@@.@@"> 
+      <entity id="DDI-DrugBank.d387.s2.e0" charOffset="0-9" type="drug" text="Doxylamine" position="0"/>  
+      <entity id="DDI-DrugBank.d387.s2.e1" charOffset="38-48" type="drug" text="epinephrine" position="6"/>  
+      <pair id="DDI-DrugBank.d387.s2.p0" e1="DDI-DrugBank.d387.s2.e0" e2="DDI-DrugBank.d387.s2.e1" ddi="true" type="effect" flags="True" e1_name="Doxylamine" e2_name="epinephrine" e1_pos="0" e2_pos="6" path="0@@2@@4@@6@@">Doxylamine@@@@nsubj@@enhance@@dobj@@effects@@prep_of@@epinephrine</pair> 
+   </sentence> 
+</document>

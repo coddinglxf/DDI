@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d407"> 
+   <sentence id="DDI-DrugBank.d407.s0" text="Drug/Laboratory Interactions No formal drug interaction studies have been performed with Campath." new_text="Drug/Laboratory@@Interactions@@No@@formal@@drug@@interaction@@studies@@have@@been@@performed@@with@@Campath@@.@@"> 
+      <entity id="DDI-DrugBank.d407.s0.e0" charOffset="89-95" type="brand" text="Campath" position="11"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d407.s1" text="An immune response to Campath may interfere with subsequent diagnostic serum tests that utilize antibodies" new_text="An@@immune@@response@@to@@Campath@@may@@interfere@@with@@subsequent@@diagnostic@@serum@@tests@@that@@utilize@@antibodies@@"> 
+      <entity id="DDI-DrugBank.d407.s1.e0" charOffset="22-28" type="brand" text="Campath" position="4"/>  
+      <entity id="DDI-DrugBank.d407.s1.e1" charOffset="96-105" type="group" text="antibodies" position="14"/>  
+      <pair id="DDI-DrugBank.d407.s1.p0" e1="DDI-DrugBank.d407.s1.e0" e2="DDI-DrugBank.d407.s1.e1" ddi="false" flags="True" e1_name="Campath" e2_name="antibodies" e1_pos="4" e2_pos="14" path="4@@2@@6@@11@@13@@14@@">Campath@@@@prep_to@@response@@nsubj@@interfere@@prep_with@@tests@@rcmod@@utilize@@dobj@@antibodies</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d407.s2" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d407.s3" text="" new_text=""/> 
+</document>

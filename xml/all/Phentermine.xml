@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d750"> 
+   <sentence id="DDI-DrugBank.d750.s0" text="Concomitant use of alcohol with phentermine hydrochloride may result in an adverse drug interaction." new_text="Concomitant@@use@@of@@alcohol@@with@@phentermine hydrochloride@@may@@result@@in@@an@@adverse@@drug@@interaction@@.@@"> 
+      <entity id="DDI-DrugBank.d750.s0.e0" charOffset="19-25" type="drug" text="alcohol" position="3"/>  
+      <entity id="DDI-DrugBank.d750.s0.e1" charOffset="32-56" type="drug" text="phentermine hydrochloride" position="5"/>  
+      <pair id="DDI-DrugBank.d750.s0.p0" e1="DDI-DrugBank.d750.s0.e0" e2="DDI-DrugBank.d750.s0.e1" ddi="true" type="int" flags="True" e1_name="alcohol" e2_name="phentermine hydrochloride" e1_pos="3" e2_pos="5" path="3@@5@@">alcohol@@@@prep_with@@phentermine hydrochloride</pair> 
+   </sentence> 
+</document>

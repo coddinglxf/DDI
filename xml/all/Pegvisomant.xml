@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d744"> 
+   <sentence id="DDI-DrugBank.d744.s0" text="Acromegalic patients with diabetes mellitus being treated with insulin and/or oral hypoglycemic agents may require dose reductions of these therapeutic agents after the initiation of therapy with SOMAVERT. " new_text="Acromegalic@@patients@@with@@diabetes@@mellitus@@being@@treated@@with@@insulin@@and/or@@oral@@hypoglycemic@@agents@@may@@require@@dose@@reductions@@of@@these@@therapeutic@@agents@@after@@the@@initiation@@of@@therapy@@with@@SOMAVERT@@.@@"> 
+      <entity id="DDI-DrugBank.d744.s0.e0" charOffset="63-69" type="drug" text="insulin" position="8"/>  
+      <entity id="DDI-DrugBank.d744.s0.e1" charOffset="83-94" type="group" text="hypoglycemic" position="11"/>  
+      <entity id="DDI-DrugBank.d744.s0.e2" charOffset="196-203" type="brand" text="SOMAVERT" position="27"/>  
+      <pair id="DDI-DrugBank.d744.s0.p0" e1="DDI-DrugBank.d744.s0.e0" e2="DDI-DrugBank.d744.s0.e1" ddi="false" flags="True" e1_name="insulin" e2_name="hypoglycemic" e1_pos="8" e2_pos="11" path="8@@6@@4@@1@@9@@14@@12@@11@@">insulin@@@@prep_with@@treated@@partmod@@mellitus@@prep_with@@patients@@nsubj@@and/or@@ccomp@@require@@nsubj@@agents@@amod@@hypoglycemic</pair>  
+      <pair id="DDI-DrugBank.d744.s0.p1" e1="DDI-DrugBank.d744.s0.e0" e2="DDI-DrugBank.d744.s0.e2" ddi="true" type="advise" flags="True" e1_name="insulin" e2_name="SOMAVERT" e1_pos="8" e2_pos="27" path="8@@6@@4@@1@@9@@14@@27@@">insulin@@@@prep_with@@treated@@partmod@@mellitus@@prep_with@@patients@@nsubj@@and/or@@ccomp@@require@@prep_with@@SOMAVERT</pair>  
+      <pair id="DDI-DrugBank.d744.s0.p2" e1="DDI-DrugBank.d744.s0.e1" e2="DDI-DrugBank.d744.s0.e2" ddi="true" type="advise" flags="True" e1_name="hypoglycemic" e2_name="SOMAVERT" e1_pos="11" e2_pos="27" path="11@@12@@14@@27@@">hypoglycemic@@@@amod@@agents@@nsubj@@require@@prep_with@@SOMAVERT</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d744.s1" text="In clinical studies, patients on opioids often needed higher serum pegvisomant concentrations to achieve appropriate IGF-I suppression compared with patients not receiving opioids. " new_text="In@@clinical@@studies@@,@@patients@@on@@opioids@@often@@needed@@higher@@serum@@pegvisomant@@concentrations@@to@@achieve@@appropriate@@IGF-I@@suppression@@compared@@with@@patients@@not@@receiving@@opioids@@.@@"> 
+      <entity id="DDI-DrugBank.d744.s1.e0" charOffset="33-39" type="group" text="opioids" position="6"/>  
+      <entity id="DDI-DrugBank.d744.s1.e1" charOffset="67-77" type="drug" text="pegvisomant" position="11"/>  
+      <entity id="DDI-DrugBank.d744.s1.e2" charOffset="172-178" type="group" text="opioids" position="23"/>  
+      <pair id="DDI-DrugBank.d744.s1.p0" e1="DDI-DrugBank.d744.s1.e0" e2="DDI-DrugBank.d744.s1.e1" ddi="true" type="mechanism" flags="True" e1_name="opioids" e2_name="pegvisomant" e1_pos="6" e2_pos="11" path="6@@4@@8@@12@@11@@">opioids@@@@prep_on@@patients@@nsubj@@needed@@dobj@@concentrations@@nn@@pegvisomant</pair>  
+      <pair id="DDI-DrugBank.d744.s1.p1" e1="DDI-DrugBank.d744.s1.e0" e2="DDI-DrugBank.d744.s1.e2" ddi="false" flags="True" e1_name="opioids" e2_name="opioids" e1_pos="6" e2_pos="23" path="6@@4@@14@@20@@22@@23@@">opioids@@@@prep_on@@patients@@xsubj@@achieve@@pobj@@patients@@dep@@receiving@@dobj@@opioids</pair>  
+      <pair id="DDI-DrugBank.d744.s1.p2" e1="DDI-DrugBank.d744.s1.e1" e2="DDI-DrugBank.d744.s1.e2" ddi="false" flags="True" e1_name="pegvisomant" e2_name="opioids" e1_pos="11" e2_pos="23" path="11@@12@@8@@14@@20@@22@@23@@">pegvisomant@@@@nn@@concentrations@@dobj@@needed@@xcomp@@achieve@@pobj@@patients@@dep@@receiving@@dobj@@opioids</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d744.s2" text="The mechanism of this interaction is not known." new_text="The@@mechanism@@of@@this@@interaction@@is@@not@@known@@.@@"/> 
+</document>

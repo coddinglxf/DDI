@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d285"> 
+   <sentence id="DDI-DrugBank.d285.s0" text="Reduced efficacy and increased incidence of breakthrough bleeding and menstrual irregularities have been associated with concomitant use of rifampin." new_text="Reduced@@efficacy@@and@@increased@@incidence@@of@@breakthrough@@bleeding@@and@@menstrual@@irregularities@@have@@been@@associated@@with@@concomitant@@use@@of@@rifampin@@.@@"> 
+      <entity id="DDI-DrugBank.d285.s0.e0" charOffset="140-147" type="drug" text="rifampin" position="18"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d285.s1" text="A similar association, though less marked, has been suggested with barbiturates, phenyl-butazone, phenytoin sodium, carbamazepine and possibly with griseofulvin, ampicillin, and tetracyclines (72)" new_text="A@@similar@@association@@,@@though@@less@@marked@@,@@has@@been@@suggested@@with@@barbiturates@@,@@phenyl-butazone@@,@@phenytoin sodium@@,@@carbamazepine@@and@@possibly@@with@@griseofulvin@@,@@ampicillin@@,@@and@@tetracyclines@@(72)@@"> 
+      <entity id="DDI-DrugBank.d285.s1.e0" charOffset="67-78" type="group" text="barbiturates" position="12"/>  
+      <entity id="DDI-DrugBank.d285.s1.e1" charOffset="98-113" type="drug" text="phenytoin sodium" position="16"/>  
+      <entity id="DDI-DrugBank.d285.s1.e2" charOffset="116-128" type="drug" text="carbamazepine" position="18"/>  
+      <entity id="DDI-DrugBank.d285.s1.e3" charOffset="148-159" type="drug" text="griseofulvin" position="22"/>  
+      <entity id="DDI-DrugBank.d285.s1.e4" charOffset="162-171" type="drug" text="ampicillin" position="24"/>  
+      <entity id="DDI-DrugBank.d285.s1.e5" charOffset="178-190" type="group" text="tetracyclines" position="27"/>  
+      <pair id="DDI-DrugBank.d285.s1.p0" e1="DDI-DrugBank.d285.s1.e0" e2="DDI-DrugBank.d285.s1.e1" ddi="false" flags="True" e1_name="barbiturates" e2_name="phenytoin sodium" e1_pos="12" e2_pos="16" path="12@@16@@">barbiturates@@@@conj_and@@phenytoin sodium</pair>  
+      <pair id="DDI-DrugBank.d285.s1.p1" e1="DDI-DrugBank.d285.s1.e0" e2="DDI-DrugBank.d285.s1.e2" ddi="false" flags="True" e1_name="barbiturates" e2_name="carbamazepine" e1_pos="12" e2_pos="18" path="12@@18@@">barbiturates@@@@conj_and@@carbamazepine</pair>  
+      <pair id="DDI-DrugBank.d285.s1.p2" e1="DDI-DrugBank.d285.s1.e0" e2="DDI-DrugBank.d285.s1.e3" ddi="false" flags="True" e1_name="barbiturates" e2_name="griseofulvin" e1_pos="12" e2_pos="22" path="12@@22@@">barbiturates@@@@dep@@griseofulvin</pair>  
+      <pair id="DDI-DrugBank.d285.s1.p3" e1="DDI-DrugBank.d285.s1.e0" e2="DDI-DrugBank.d285.s1.e4" ddi="false" flags="True" e1_name="barbiturates" e2_name="ampicillin" e1_pos="12" e2_pos="24" path="12@@22@@24@@">barbiturates@@@@dep@@griseofulvin@@appos@@ampicillin</pair>  
+      <pair id="DDI-DrugBank.d285.s1.p4" e1="DDI-DrugBank.d285.s1.e0" e2="DDI-DrugBank.d285.s1.e5" ddi="false" flags="True" e1_name="barbiturates" e2_name="tetracyclines" e1_pos="12" e2_pos="27" path="12@@10@@27@@">barbiturates@@@@prep_with@@suggested@@conj_and@@tetracyclines</pair>  
+      <pair id="DDI-DrugBank.d285.s1.p5" e1="DDI-DrugBank.d285.s1.e1" e2="DDI-DrugBank.d285.s1.e2" ddi="false" flags="True" e1_name="phenytoin sodium" e2_name="carbamazepine" e1_pos="16" e2_pos="18" path="16@@10@@18@@">phenytoin sodium@@@@prep_with@@suggested@@prep_with@@carbamazepine</pair>  
+      <pair id="DDI-DrugBank.d285.s1.p6" e1="DDI-DrugBank.d285.s1.e1" e2="DDI-DrugBank.d285.s1.e3" ddi="false" flags="True" e1_name="phenytoin sodium" e2_name="griseofulvin" e1_pos="16" e2_pos="22" path="16@@12@@22@@">phenytoin sodium@@@@conj_and@@barbiturates@@dep@@griseofulvin</pair>  
+      <pair id="DDI-DrugBank.d285.s1.p7" e1="DDI-DrugBank.d285.s1.e1" e2="DDI-DrugBank.d285.s1.e4" ddi="false" flags="True" e1_name="phenytoin sodium" e2_name="ampicillin" e1_pos="16" e2_pos="24" path="16@@12@@22@@24@@">phenytoin sodium@@@@conj_and@@barbiturates@@dep@@griseofulvin@@appos@@ampicillin</pair>  
+      <pair id="DDI-DrugBank.d285.s1.p8" e1="DDI-DrugBank.d285.s1.e1" e2="DDI-DrugBank.d285.s1.e5" ddi="false" flags="True" e1_name="phenytoin sodium" e2_name="tetracyclines" e1_pos="16" e2_pos="27" path="16@@10@@27@@">phenytoin sodium@@@@prep_with@@suggested@@conj_and@@tetracyclines</pair>  
+      <pair id="DDI-DrugBank.d285.s1.p9" e1="DDI-DrugBank.d285.s1.e2" e2="DDI-DrugBank.d285.s1.e3" ddi="false" flags="True" e1_name="carbamazepine" e2_name="griseofulvin" e1_pos="18" e2_pos="22" path="18@@12@@22@@">carbamazepine@@@@conj_and@@barbiturates@@dep@@griseofulvin</pair>  
+      <pair id="DDI-DrugBank.d285.s1.p10" e1="DDI-DrugBank.d285.s1.e2" e2="DDI-DrugBank.d285.s1.e4" ddi="false" flags="True" e1_name="carbamazepine" e2_name="ampicillin" e1_pos="18" e2_pos="24" path="18@@12@@22@@24@@">carbamazepine@@@@conj_and@@barbiturates@@dep@@griseofulvin@@appos@@ampicillin</pair>  
+      <pair id="DDI-DrugBank.d285.s1.p11" e1="DDI-DrugBank.d285.s1.e2" e2="DDI-DrugBank.d285.s1.e5" ddi="false" flags="True" e1_name="carbamazepine" e2_name="tetracyclines" e1_pos="18" e2_pos="27" path="18@@10@@27@@">carbamazepine@@@@prep_with@@suggested@@conj_and@@tetracyclines</pair>  
+      <pair id="DDI-DrugBank.d285.s1.p12" e1="DDI-DrugBank.d285.s1.e3" e2="DDI-DrugBank.d285.s1.e4" ddi="false" flags="True" e1_name="griseofulvin" e2_name="ampicillin" e1_pos="22" e2_pos="24" path="22@@24@@">griseofulvin@@@@appos@@ampicillin</pair>  
+      <pair id="DDI-DrugBank.d285.s1.p13" e1="DDI-DrugBank.d285.s1.e3" e2="DDI-DrugBank.d285.s1.e5" ddi="false" flags="True" e1_name="griseofulvin" e2_name="tetracyclines" e1_pos="22" e2_pos="27" path="22@@12@@10@@27@@">griseofulvin@@@@dep@@barbiturates@@prep_with@@suggested@@conj_and@@tetracyclines</pair>  
+      <pair id="DDI-DrugBank.d285.s1.p14" e1="DDI-DrugBank.d285.s1.e4" e2="DDI-DrugBank.d285.s1.e5" ddi="false" flags="True" e1_name="ampicillin" e2_name="tetracyclines" e1_pos="24" e2_pos="27" path="24@@22@@12@@10@@27@@">ampicillin@@@@appos@@griseofulvin@@dep@@barbiturates@@prep_with@@suggested@@conj_and@@tetracyclines</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d285.s2" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d285.s3" text="" new_text=""/>  
+   <sentence id="DDI-DrugBank.d285.s4" text="" new_text=""/> 
+</document>

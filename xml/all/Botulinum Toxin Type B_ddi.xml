@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d323"> 
+   <sentence id="DDI-DrugBank.d323.s0" text="Co-administration of MYOBLOC and aminoglycosides or other agents interfering with neuromuscular transmission (e.g., curare-like compounds) should only be performed with caution as the effect of the toxin may be potentiated." new_text="Co-administration@@of@@MYOBLOC@@and@@aminoglycosides@@or@@other@@agents@@interfering@@with@@neuromuscular@@transmission@@(e.g.@@,@@curare-like compounds@@)@@should@@only@@be@@performed@@with@@caution@@as@@the@@effect@@of@@the@@toxin@@may@@be@@potentiated@@.@@"> 
+      <entity id="DDI-DrugBank.d323.s0.e0" charOffset="21-27" type="brand" text="MYOBLOC" position="2"/>  
+      <entity id="DDI-DrugBank.d323.s0.e1" charOffset="33-47" type="group" text="aminoglycosides" position="4"/>  
+      <entity id="DDI-DrugBank.d323.s0.e2" charOffset="116-136" type="group" text="curare-like compounds" position="14"/>  
+      <entity id="DDI-DrugBank.d323.s0.e3" charOffset="198-202" type="drug" text="toxin" position="27"/>  
+      <pair id="DDI-DrugBank.d323.s0.p0" e1="DDI-DrugBank.d323.s0.e0" e2="DDI-DrugBank.d323.s0.e1" ddi="true" type="advise" flags="True" e1_name="MYOBLOC" e2_name="aminoglycosides" e1_pos="2" e2_pos="4" path="2@@0@@4@@">MYOBLOC@@@@prep_of@@Co-administration@@conj_and@@aminoglycosides</pair>  
+      <pair id="DDI-DrugBank.d323.s0.p1" e1="DDI-DrugBank.d323.s0.e0" e2="DDI-DrugBank.d323.s0.e2" ddi="true" type="advise" flags="True" e1_name="MYOBLOC" e2_name="curare-like compounds" e1_pos="2" e2_pos="14" path="2@@0@@8@@19@@15@@14@@">MYOBLOC@@@@prep_of@@Co-administration@@nsubj@@interfering@@partmod@@performed@@nsubjpass@@)@@amod@@curare-like compounds</pair>  
+      <pair id="DDI-DrugBank.d323.s0.p2" e1="DDI-DrugBank.d323.s0.e0" e2="DDI-DrugBank.d323.s0.e3" ddi="false" flags="True" e1_name="MYOBLOC" e2_name="toxin" e1_pos="2" e2_pos="27" path="2@@0@@8@@19@@30@@24@@27@@">MYOBLOC@@@@prep_of@@Co-administration@@nsubj@@interfering@@partmod@@performed@@advcl@@potentiated@@nsubjpass@@effect@@prep_of@@toxin</pair>  
+      <pair id="DDI-DrugBank.d323.s0.p3" e1="DDI-DrugBank.d323.s0.e1" e2="DDI-DrugBank.d323.s0.e2" ddi="false" flags="True" e1_name="aminoglycosides" e2_name="curare-like compounds" e1_pos="4" e2_pos="14" path="4@@8@@19@@15@@14@@">aminoglycosides@@@@nsubj@@interfering@@partmod@@performed@@nsubjpass@@)@@amod@@curare-like compounds</pair>  
+      <pair id="DDI-DrugBank.d323.s0.p4" e1="DDI-DrugBank.d323.s0.e1" e2="DDI-DrugBank.d323.s0.e3" ddi="false" flags="True" e1_name="aminoglycosides" e2_name="toxin" e1_pos="4" e2_pos="27" path="4@@8@@19@@30@@24@@27@@">aminoglycosides@@@@nsubj@@interfering@@partmod@@performed@@advcl@@potentiated@@nsubjpass@@effect@@prep_of@@toxin</pair>  
+      <pair id="DDI-DrugBank.d323.s0.p5" e1="DDI-DrugBank.d323.s0.e2" e2="DDI-DrugBank.d323.s0.e3" ddi="false" flags="True" e1_name="curare-like compounds" e2_name="toxin" e1_pos="14" e2_pos="27" path="14@@15@@19@@30@@24@@27@@">curare-like compounds@@@@amod@@)@@nsubjpass@@performed@@advcl@@potentiated@@nsubjpass@@effect@@prep_of@@toxin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d323.s1" text="The effect of administering different botulinum neurotoxin serotypes at the same time or within less than 4 months of each other is unknown." new_text="The@@effect@@of@@administering@@different@@botulinum neurotoxin@@serotypes@@at@@the@@same@@time@@or@@within@@less@@than@@4@@months@@of@@each@@other@@is@@unknown@@.@@"> 
+      <entity id="DDI-DrugBank.d323.s1.e0" charOffset="38-57" type="group" text="botulinum neurotoxin" position="5"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d323.s2" text="However, neuromuscular paralysis may be potentiated by co-administration or overlapping administration of different botulinum toxin serotypes." new_text="However@@,@@neuromuscular@@paralysis@@may@@be@@potentiated@@by@@co-administration@@or@@overlapping@@administration@@of@@different@@botulinum toxin@@serotypes@@.@@"> 
+      <entity id="DDI-DrugBank.d323.s2.e0" charOffset="116-130" type="group" text="botulinum toxin" position="14"/> 
+   </sentence> 
+</document>

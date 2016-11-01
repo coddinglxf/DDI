@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d228"> 
+   <sentence id="DDI-DrugBank.d228.s0" text="Oral doses of Antizol (10-20 mg/kg), via alcohol dehydrogenase inhibition, significantly reduced the rate of elimination of ethanol (by approximately 40%) given to healthy volunteers in moderate doses." new_text="Oral@@doses@@of@@Antizol@@(10-20@@mg/kg)@@,@@via@@alcohol@@dehydrogenase@@inhibition@@,@@significantly@@reduced@@the@@rate@@of@@elimination@@of@@ethanol@@(by@@approximately@@40%)@@given@@to@@healthy@@volunteers@@in@@moderate@@doses@@.@@"> 
+      <entity id="DDI-DrugBank.d228.s0.e0" charOffset="14-20" type="brand" text="Antizol" position="3"/>  
+      <entity id="DDI-DrugBank.d228.s0.e1" charOffset="124-130" type="drug" text="ethanol" position="19"/>  
+      <pair id="DDI-DrugBank.d228.s0.p0" e1="DDI-DrugBank.d228.s0.e0" e2="DDI-DrugBank.d228.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="Antizol" e2_name="ethanol" e1_pos="3" e2_pos="19" path="3@@5@@1@@13@@15@@17@@20@@19@@">Antizol@@@@nn@@mg/kg)@@prep_of@@doses@@nsubj@@reduced@@iobj@@rate@@prep_of@@elimination@@prep_of@@(by@@nn@@ethanol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d228.s1" text="Similarly, ethanol decreased the rate of elimination of Antizol (by approximately 50%) by the same mechanism." new_text="Similarly@@,@@ethanol@@decreased@@the@@rate@@of@@elimination@@of@@Antizol@@(by@@approximately@@50%)@@by@@the@@same@@mechanism@@.@@"> 
+      <entity id="DDI-DrugBank.d228.s1.e0" charOffset="11-17" type="drug" text="ethanol" position="2"/>  
+      <entity id="DDI-DrugBank.d228.s1.e1" charOffset="56-62" type="brand" text="Antizol" position="9"/>  
+      <pair id="DDI-DrugBank.d228.s1.p0" e1="DDI-DrugBank.d228.s1.e0" e2="DDI-DrugBank.d228.s1.e1" ddi="true" type="mechanism" flags="True" e1_name="ethanol" e2_name="Antizol" e1_pos="2" e2_pos="9" path="2@@3@@10@@5@@7@@9@@">ethanol@@@@nsubj@@decreased@@ccomp@@(by@@nsubj@@rate@@prep_of@@elimination@@prep_of@@Antizol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d228.s2" text="Reciprocal interactions may occur with concomitant use of Antizol and drugs that increase or inhibit the cytochrome P450 system (e.g., phenytoin, carbamazepine, cimetidine, ketoconazole), though this has not been studied" new_text="Reciprocal@@interactions@@may@@occur@@with@@concomitant@@use@@of@@Antizol@@and@@drugs@@that@@increase@@or@@inhibit@@the@@cytochrome@@P450@@system@@(e.g.@@,@@phenytoin@@,@@carbamazepine@@,@@cimetidine@@,@@ketoconazole@@)@@,@@though@@this@@has@@not@@been@@studied@@"> 
+      <entity id="DDI-DrugBank.d228.s2.e0" charOffset="58-64" type="brand" text="Antizol" position="8"/>  
+      <entity id="DDI-DrugBank.d228.s2.e1" charOffset="135-143" type="drug" text="phenytoin" position="21"/>  
+      <entity id="DDI-DrugBank.d228.s2.e2" charOffset="146-158" type="drug" text="carbamazepine" position="23"/>  
+      <entity id="DDI-DrugBank.d228.s2.e3" charOffset="161-170" type="drug" text="cimetidine" position="25"/>  
+      <entity id="DDI-DrugBank.d228.s2.e4" charOffset="173-184" type="drug" text="ketoconazole" position="27"/>  
+      <pair id="DDI-DrugBank.d228.s2.p0" e1="DDI-DrugBank.d228.s2.e0" e2="DDI-DrugBank.d228.s2.e1" ddi="true" type="mechanism" flags="True" e1_name="Antizol" e2_name="phenytoin" e1_pos="8" e2_pos="21" path="8@@6@@10@@12@@28@@21@@">Antizol@@@@prep_of@@use@@conj_and@@drugs@@rcmod@@increase@@dobj@@)@@dep@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d228.s2.p1" e1="DDI-DrugBank.d228.s2.e0" e2="DDI-DrugBank.d228.s2.e2" ddi="true" type="mechanism" flags="True" e1_name="Antizol" e2_name="carbamazepine" e1_pos="8" e2_pos="23" path="8@@6@@10@@12@@28@@23@@">Antizol@@@@prep_of@@use@@conj_and@@drugs@@rcmod@@increase@@dobj@@)@@dep@@carbamazepine</pair>  
+      <pair id="DDI-DrugBank.d228.s2.p2" e1="DDI-DrugBank.d228.s2.e0" e2="DDI-DrugBank.d228.s2.e3" ddi="true" type="mechanism" flags="True" e1_name="Antizol" e2_name="cimetidine" e1_pos="8" e2_pos="25" path="8@@6@@10@@12@@28@@25@@">Antizol@@@@prep_of@@use@@conj_and@@drugs@@rcmod@@increase@@dobj@@)@@amod@@cimetidine</pair>  
+      <pair id="DDI-DrugBank.d228.s2.p3" e1="DDI-DrugBank.d228.s2.e0" e2="DDI-DrugBank.d228.s2.e4" ddi="true" type="mechanism" flags="True" e1_name="Antizol" e2_name="ketoconazole" e1_pos="8" e2_pos="27" path="8@@6@@10@@12@@28@@27@@">Antizol@@@@prep_of@@use@@conj_and@@drugs@@rcmod@@increase@@dobj@@)@@amod@@ketoconazole</pair>  
+      <pair id="DDI-DrugBank.d228.s2.p4" e1="DDI-DrugBank.d228.s2.e1" e2="DDI-DrugBank.d228.s2.e2" ddi="false" flags="True" e1_name="phenytoin" e2_name="carbamazepine" e1_pos="21" e2_pos="23" path="21@@28@@23@@">phenytoin@@@@dep@@)@@dep@@carbamazepine</pair>  
+      <pair id="DDI-DrugBank.d228.s2.p5" e1="DDI-DrugBank.d228.s2.e1" e2="DDI-DrugBank.d228.s2.e3" ddi="false" flags="True" e1_name="phenytoin" e2_name="cimetidine" e1_pos="21" e2_pos="25" path="21@@28@@25@@">phenytoin@@@@dep@@)@@amod@@cimetidine</pair>  
+      <pair id="DDI-DrugBank.d228.s2.p6" e1="DDI-DrugBank.d228.s2.e1" e2="DDI-DrugBank.d228.s2.e4" ddi="false" flags="True" e1_name="phenytoin" e2_name="ketoconazole" e1_pos="21" e2_pos="27" path="21@@28@@27@@">phenytoin@@@@dep@@)@@amod@@ketoconazole</pair>  
+      <pair id="DDI-DrugBank.d228.s2.p7" e1="DDI-DrugBank.d228.s2.e2" e2="DDI-DrugBank.d228.s2.e3" ddi="false" flags="True" e1_name="carbamazepine" e2_name="cimetidine" e1_pos="23" e2_pos="25" path="23@@28@@25@@">carbamazepine@@@@dep@@)@@amod@@cimetidine</pair>  
+      <pair id="DDI-DrugBank.d228.s2.p8" e1="DDI-DrugBank.d228.s2.e2" e2="DDI-DrugBank.d228.s2.e4" ddi="false" flags="True" e1_name="carbamazepine" e2_name="ketoconazole" e1_pos="23" e2_pos="27" path="23@@28@@27@@">carbamazepine@@@@dep@@)@@amod@@ketoconazole</pair>  
+      <pair id="DDI-DrugBank.d228.s2.p9" e1="DDI-DrugBank.d228.s2.e3" e2="DDI-DrugBank.d228.s2.e4" ddi="false" flags="True" e1_name="cimetidine" e2_name="ketoconazole" e1_pos="25" e2_pos="27" path="25@@28@@27@@">cimetidine@@@@amod@@)@@amod@@ketoconazole</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d228.s3" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d228.s4" text="" new_text=""/> 
+</document>

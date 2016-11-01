@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d579"> 
+   <sentence id="DDI-DrugBank.d579.s0" text="Patients receiving antibiotics and sulfonamides generally should not be treated with ganglion blockers.  " new_text="Patients@@receiving@@antibiotics@@and@@sulfonamides@@generally@@should@@not@@be@@treated@@with@@ganglion blockers@@.@@"> 
+      <entity id="DDI-DrugBank.d579.s0.e0" charOffset="19-29" type="group" text="antibiotics" position="2"/>  
+      <entity id="DDI-DrugBank.d579.s0.e1" charOffset="35-46" type="group" text="sulfonamides" position="4"/>  
+      <entity id="DDI-DrugBank.d579.s0.e2" charOffset="85-101" type="group" text="ganglion blockers" position="11"/>  
+      <pair id="DDI-DrugBank.d579.s0.p0" e1="DDI-DrugBank.d579.s0.e0" e2="DDI-DrugBank.d579.s0.e1" ddi="false" flags="True" e1_name="antibiotics" e2_name="sulfonamides" e1_pos="2" e2_pos="4" path="2@@4@@">antibiotics@@@@conj_and@@sulfonamides</pair>  
+      <pair id="DDI-DrugBank.d579.s0.p1" e1="DDI-DrugBank.d579.s0.e0" e2="DDI-DrugBank.d579.s0.e2" ddi="true" type="advise" flags="True" e1_name="antibiotics" e2_name="ganglion blockers" e1_pos="2" e2_pos="11" path="2@@1@@0@@9@@11@@">antibiotics@@@@dobj@@receiving@@partmod@@Patients@@nsubjpass@@treated@@prep_with@@ganglion blockers</pair>  
+      <pair id="DDI-DrugBank.d579.s0.p2" e1="DDI-DrugBank.d579.s0.e1" e2="DDI-DrugBank.d579.s0.e2" ddi="true" type="advise" flags="True" e1_name="sulfonamides" e2_name="ganglion blockers" e1_pos="4" e2_pos="11" path="4@@1@@0@@9@@11@@">sulfonamides@@@@dobj@@receiving@@partmod@@Patients@@nsubjpass@@treated@@prep_with@@ganglion blockers</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d579.s1" text="The action of Mecamylamine may be potentiated by anesthesia, other antihypertensive drugs and alcohol." new_text="The@@action@@of@@Mecamylamine@@may@@be@@potentiated@@by@@anesthesia@@,@@other@@antihypertensive drugs@@and@@alcohol@@.@@"> 
+      <entity id="DDI-DrugBank.d579.s1.e0" charOffset="14-25" type="drug" text="Mecamylamine" position="3"/>  
+      <entity id="DDI-DrugBank.d579.s1.e1" charOffset="67-88" type="group" text="antihypertensive drugs" position="11"/>  
+      <entity id="DDI-DrugBank.d579.s1.e2" charOffset="94-100" type="drug" text="alcohol" position="13"/>  
+      <pair id="DDI-DrugBank.d579.s1.p0" e1="DDI-DrugBank.d579.s1.e0" e2="DDI-DrugBank.d579.s1.e1" ddi="true" type="effect" flags="True" e1_name="Mecamylamine" e2_name="antihypertensive drugs" e1_pos="3" e2_pos="11" path="3@@1@@6@@11@@">Mecamylamine@@@@prep_of@@action@@nsubjpass@@potentiated@@agent@@antihypertensive drugs</pair>  
+      <pair id="DDI-DrugBank.d579.s1.p1" e1="DDI-DrugBank.d579.s1.e0" e2="DDI-DrugBank.d579.s1.e2" ddi="true" type="effect" flags="True" e1_name="Mecamylamine" e2_name="alcohol" e1_pos="3" e2_pos="13" path="3@@1@@6@@13@@">Mecamylamine@@@@prep_of@@action@@nsubjpass@@potentiated@@agent@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d579.s1.p2" e1="DDI-DrugBank.d579.s1.e1" e2="DDI-DrugBank.d579.s1.e2" ddi="false" flags="True" e1_name="antihypertensive drugs" e2_name="alcohol" e1_pos="11" e2_pos="13" path="11@@6@@13@@">antihypertensive drugs@@@@agent@@potentiated@@agent@@alcohol</pair> 
+   </sentence> 
+</document>

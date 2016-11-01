@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d631"> 
+   <sentence id="DDI-DrugBank.d631.s0" text="Pyrimethamine may be used with sulfonamides, quinine and other antimalarials, and with other antibiotics. " new_text="Pyrimethamine@@may@@be@@used@@with@@sulfonamides@@,@@quinine@@and@@other@@antimalarials@@,@@and@@with@@other@@antibiotics@@.@@"> 
+      <entity id="DDI-DrugBank.d631.s0.e0" charOffset="0-12" type="drug" text="Pyrimethamine" position="0"/>  
+      <entity id="DDI-DrugBank.d631.s0.e1" charOffset="31-42" type="group" text="sulfonamides" position="5"/>  
+      <entity id="DDI-DrugBank.d631.s0.e2" charOffset="45-51" type="drug" text="quinine" position="7"/>  
+      <entity id="DDI-DrugBank.d631.s0.e3" charOffset="63-75" type="group" text="antimalarials" position="10"/>  
+      <entity id="DDI-DrugBank.d631.s0.e4" charOffset="93-103" type="group" text="antibiotics" position="15"/>  
+      <pair id="DDI-DrugBank.d631.s0.p0" e1="DDI-DrugBank.d631.s0.e0" e2="DDI-DrugBank.d631.s0.e1" ddi="false" flags="True" e1_name="Pyrimethamine" e2_name="sulfonamides" e1_pos="0" e2_pos="5" path="0@@3@@5@@">Pyrimethamine@@@@nsubjpass@@used@@prep_with@@sulfonamides</pair>  
+      <pair id="DDI-DrugBank.d631.s0.p1" e1="DDI-DrugBank.d631.s0.e0" e2="DDI-DrugBank.d631.s0.e2" ddi="false" flags="True" e1_name="Pyrimethamine" e2_name="quinine" e1_pos="0" e2_pos="7" path="0@@3@@7@@">Pyrimethamine@@@@nsubjpass@@used@@prep_with@@quinine</pair>  
+      <pair id="DDI-DrugBank.d631.s0.p2" e1="DDI-DrugBank.d631.s0.e0" e2="DDI-DrugBank.d631.s0.e3" ddi="false" flags="True" e1_name="Pyrimethamine" e2_name="antimalarials" e1_pos="0" e2_pos="10" path="0@@3@@10@@">Pyrimethamine@@@@nsubjpass@@used@@prep_with@@antimalarials</pair>  
+      <pair id="DDI-DrugBank.d631.s0.p3" e1="DDI-DrugBank.d631.s0.e0" e2="DDI-DrugBank.d631.s0.e4" ddi="false" flags="True" e1_name="Pyrimethamine" e2_name="antibiotics" e1_pos="0" e2_pos="15" path="0@@3@@15@@">Pyrimethamine@@@@nsubjpass@@used@@prep_with@@antibiotics</pair>  
+      <pair id="DDI-DrugBank.d631.s0.p4" e1="DDI-DrugBank.d631.s0.e1" e2="DDI-DrugBank.d631.s0.e2" ddi="false" flags="True" e1_name="sulfonamides" e2_name="quinine" e1_pos="5" e2_pos="7" path="5@@7@@">sulfonamides@@@@conj_and@@quinine</pair>  
+      <pair id="DDI-DrugBank.d631.s0.p5" e1="DDI-DrugBank.d631.s0.e1" e2="DDI-DrugBank.d631.s0.e3" ddi="false" flags="True" e1_name="sulfonamides" e2_name="antimalarials" e1_pos="5" e2_pos="10" path="5@@10@@">sulfonamides@@@@conj_and@@antimalarials</pair>  
+      <pair id="DDI-DrugBank.d631.s0.p6" e1="DDI-DrugBank.d631.s0.e1" e2="DDI-DrugBank.d631.s0.e4" ddi="false" flags="True" e1_name="sulfonamides" e2_name="antibiotics" e1_pos="5" e2_pos="15" path="5@@15@@">sulfonamides@@@@conj_and@@antibiotics</pair>  
+      <pair id="DDI-DrugBank.d631.s0.p7" e1="DDI-DrugBank.d631.s0.e2" e2="DDI-DrugBank.d631.s0.e3" ddi="false" flags="True" e1_name="quinine" e2_name="antimalarials" e1_pos="7" e2_pos="10" path="7@@3@@10@@">quinine@@@@prep_with@@used@@prep_with@@antimalarials</pair>  
+      <pair id="DDI-DrugBank.d631.s0.p8" e1="DDI-DrugBank.d631.s0.e2" e2="DDI-DrugBank.d631.s0.e4" ddi="false" flags="True" e1_name="quinine" e2_name="antibiotics" e1_pos="7" e2_pos="15" path="7@@3@@15@@">quinine@@@@prep_with@@used@@prep_with@@antibiotics</pair>  
+      <pair id="DDI-DrugBank.d631.s0.p9" e1="DDI-DrugBank.d631.s0.e3" e2="DDI-DrugBank.d631.s0.e4" ddi="false" flags="True" e1_name="antimalarials" e2_name="antibiotics" e1_pos="10" e2_pos="15" path="10@@3@@15@@">antimalarials@@@@prep_with@@used@@prep_with@@antibiotics</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d631.s1" text="If signs of folate deficiency develop, pyrimethamine should be discontinued. " new_text="If@@signs@@of@@folate@@deficiency@@develop@@,@@pyrimethamine@@should@@be@@discontinued@@.@@"> 
+      <entity id="DDI-DrugBank.d631.s1.e0" charOffset="39-51" type="drug" text="pyrimethamine" position="7"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d631.s2" text="Folinic acid (leucovorin) should be administered until normal hematopoiesis is restored. " new_text="Folinic acid@@(@@leucovorin@@)@@should@@be@@administered@@until@@normal@@hematopoiesis@@is@@restored@@.@@"> 
+      <entity id="DDI-DrugBank.d631.s2.e0" charOffset="0-11" type="drug" text="Folinic acid" position="0"/>  
+      <entity id="DDI-DrugBank.d631.s2.e1" charOffset="14-23" type="drug" text="leucovorin" position="2"/>  
+      <pair id="DDI-DrugBank.d631.s2.p0" e1="DDI-DrugBank.d631.s2.e0" e2="DDI-DrugBank.d631.s2.e1" ddi="false" flags="True" e1_name="Folinic acid" e2_name="leucovorin" e1_pos="0" e2_pos="2" path="0@@3@@2@@">Folinic acid@@@@amod@@)@@nn@@leucovorin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d631.s3" text="Mild hepatotoxicity has been reported in some patients when lorazepam and pyrimethamine were administered concomitantly." new_text="Mild@@hepatotoxicity@@has@@been@@reported@@in@@some@@patients@@when@@lorazepam@@and@@pyrimethamine@@were@@administered@@concomitantly@@.@@"> 
+      <entity id="DDI-DrugBank.d631.s3.e0" charOffset="60-68" type="drug" text="lorazepam" position="9"/>  
+      <entity id="DDI-DrugBank.d631.s3.e1" charOffset="74-86" type="drug" text="pyrimethamine" position="11"/>  
+      <pair id="DDI-DrugBank.d631.s3.p0" e1="DDI-DrugBank.d631.s3.e0" e2="DDI-DrugBank.d631.s3.e1" ddi="true" type="effect" flags="True" e1_name="lorazepam" e2_name="pyrimethamine" e1_pos="9" e2_pos="11" path="9@@11@@">lorazepam@@@@conj_and@@pyrimethamine</pair> 
+   </sentence> 
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d666"> 
+   <sentence id="DDI-DrugBank.d666.s0" text="Catecholamine-depleting drugs (e.g., reserpine) may have an additive effect when given with beta-blocking agents. " new_text="Catecholamine-depleting@@drugs@@(e.g.@@,@@reserpine@@)@@may@@have@@an@@additive@@effect@@when@@given@@with@@beta-blocking agents@@.@@"> 
+      <entity id="DDI-DrugBank.d666.s0.e0" charOffset="37-45" type="drug" text="reserpine" position="4"/>  
+      <entity id="DDI-DrugBank.d666.s0.e1" charOffset="92-111" type="group" text="beta-blocking agents" position="14"/>  
+      <pair id="DDI-DrugBank.d666.s0.p0" e1="DDI-DrugBank.d666.s0.e0" e2="DDI-DrugBank.d666.s0.e1" ddi="true" type="effect" flags="True" e1_name="reserpine" e2_name="beta-blocking agents" e1_pos="4" e2_pos="14" path="4@@5@@7@@12@@14@@">reserpine@@@@amod@@)@@nsubj@@have@@advcl@@given@@prep_with@@beta-blocking agents</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d666.s1" text="Patients receiving pindolol plus a catecholamine-depleting agent should, therefore, be closely observed for evidence of hypotension and/or marked bradycardia which may produce vertigo, syncope, or postural hypotension. " new_text="Patients@@receiving@@pindolol@@plus@@a@@catecholamine-depleting@@agent@@should@@,@@therefore@@,@@be@@closely@@observed@@for@@evidence@@of@@hypotension@@and/or@@marked@@bradycardia@@which@@may@@produce@@vertigo@@,@@syncope@@,@@or@@postural@@hypotension@@.@@"> 
+      <entity id="DDI-DrugBank.d666.s1.e0" charOffset="19-26" type="drug" text="pindolol" position="2"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d666.s2" text="Pindolol has been used with a variety of antihypertensive agents, including hydrochlorothiazide, hydralazine, and guanethidine without unexpected adverse interactions. " new_text="Pindolol@@has@@been@@used@@with@@a@@variety@@of@@antihypertensive agents@@,@@including@@hydrochlorothiazide@@,@@hydralazine@@,@@and@@guanethidine@@without@@unexpected@@adverse@@interactions@@.@@"> 
+      <entity id="DDI-DrugBank.d666.s2.e0" charOffset="0-7" type="drug" text="Pindolol" position="0"/>  
+      <entity id="DDI-DrugBank.d666.s2.e1" charOffset="41-63" type="group" text="antihypertensive agents" position="8"/>  
+      <entity id="DDI-DrugBank.d666.s2.e2" charOffset="76-94" type="drug" text="hydrochlorothiazide" position="11"/>  
+      <entity id="DDI-DrugBank.d666.s2.e3" charOffset="97-107" type="drug" text="hydralazine" position="13"/>  
+      <entity id="DDI-DrugBank.d666.s2.e4" charOffset="114-125" type="drug" text="guanethidine" position="16"/>  
+      <pair id="DDI-DrugBank.d666.s2.p0" e1="DDI-DrugBank.d666.s2.e0" e2="DDI-DrugBank.d666.s2.e1" ddi="false" flags="True" e1_name="Pindolol" e2_name="antihypertensive agents" e1_pos="0" e2_pos="8" path="0@@3@@6@@8@@">Pindolol@@@@nsubjpass@@used@@prep_with@@variety@@prep_of@@antihypertensive agents</pair>  
+      <pair id="DDI-DrugBank.d666.s2.p1" e1="DDI-DrugBank.d666.s2.e0" e2="DDI-DrugBank.d666.s2.e2" ddi="false" flags="True" e1_name="Pindolol" e2_name="hydrochlorothiazide" e1_pos="0" e2_pos="11" path="0@@3@@6@@11@@">Pindolol@@@@nsubjpass@@used@@prep_with@@variety@@prep_including@@hydrochlorothiazide</pair>  
+      <pair id="DDI-DrugBank.d666.s2.p2" e1="DDI-DrugBank.d666.s2.e0" e2="DDI-DrugBank.d666.s2.e3" ddi="false" flags="True" e1_name="Pindolol" e2_name="hydralazine" e1_pos="0" e2_pos="13" path="0@@3@@6@@13@@">Pindolol@@@@nsubjpass@@used@@prep_with@@variety@@prep_including@@hydralazine</pair>  
+      <pair id="DDI-DrugBank.d666.s2.p3" e1="DDI-DrugBank.d666.s2.e0" e2="DDI-DrugBank.d666.s2.e4" ddi="false" flags="True" e1_name="Pindolol" e2_name="guanethidine" e1_pos="0" e2_pos="16" path="0@@3@@6@@16@@">Pindolol@@@@nsubjpass@@used@@prep_with@@variety@@prep_including@@guanethidine</pair>  
+      <pair id="DDI-DrugBank.d666.s2.p4" e1="DDI-DrugBank.d666.s2.e1" e2="DDI-DrugBank.d666.s2.e2" ddi="false" flags="True" e1_name="antihypertensive agents" e2_name="hydrochlorothiazide" e1_pos="8" e2_pos="11" path="8@@6@@11@@">antihypertensive agents@@@@prep_of@@variety@@prep_including@@hydrochlorothiazide</pair>  
+      <pair id="DDI-DrugBank.d666.s2.p5" e1="DDI-DrugBank.d666.s2.e1" e2="DDI-DrugBank.d666.s2.e3" ddi="false" flags="True" e1_name="antihypertensive agents" e2_name="hydralazine" e1_pos="8" e2_pos="13" path="8@@6@@13@@">antihypertensive agents@@@@prep_of@@variety@@prep_including@@hydralazine</pair>  
+      <pair id="DDI-DrugBank.d666.s2.p6" e1="DDI-DrugBank.d666.s2.e1" e2="DDI-DrugBank.d666.s2.e4" ddi="false" flags="True" e1_name="antihypertensive agents" e2_name="guanethidine" e1_pos="8" e2_pos="16" path="8@@6@@16@@">antihypertensive agents@@@@prep_of@@variety@@prep_including@@guanethidine</pair>  
+      <pair id="DDI-DrugBank.d666.s2.p7" e1="DDI-DrugBank.d666.s2.e2" e2="DDI-DrugBank.d666.s2.e3" ddi="false" flags="True" e1_name="hydrochlorothiazide" e2_name="hydralazine" e1_pos="11" e2_pos="13" path="11@@13@@">hydrochlorothiazide@@@@conj_and@@hydralazine</pair>  
+      <pair id="DDI-DrugBank.d666.s2.p8" e1="DDI-DrugBank.d666.s2.e2" e2="DDI-DrugBank.d666.s2.e4" ddi="false" flags="True" e1_name="hydrochlorothiazide" e2_name="guanethidine" e1_pos="11" e2_pos="16" path="11@@16@@">hydrochlorothiazide@@@@conj_and@@guanethidine</pair>  
+      <pair id="DDI-DrugBank.d666.s2.p9" e1="DDI-DrugBank.d666.s2.e3" e2="DDI-DrugBank.d666.s2.e4" ddi="false" flags="True" e1_name="hydralazine" e2_name="guanethidine" e1_pos="13" e2_pos="16" path="13@@6@@16@@">hydralazine@@@@prep_including@@variety@@prep_including@@guanethidine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d666.s3" text="Pindolol has been shown to increase serum thioridazine levels when both drugs are co-administered. " new_text="Pindolol@@has@@been@@shown@@to@@increase@@serum@@thioridazine@@levels@@when@@both@@drugs@@are@@co-administered@@.@@"> 
+      <entity id="DDI-DrugBank.d666.s3.e0" charOffset="0-7" type="drug" text="Pindolol" position="0"/>  
+      <entity id="DDI-DrugBank.d666.s3.e1" charOffset="42-53" type="drug" text="thioridazine" position="7"/>  
+      <pair id="DDI-DrugBank.d666.s3.p0" e1="DDI-DrugBank.d666.s3.e0" e2="DDI-DrugBank.d666.s3.e1" ddi="true" type="mechanism" flags="True" e1_name="Pindolol" e2_name="thioridazine" e1_pos="0" e2_pos="7" path="0@@5@@8@@7@@">Pindolol@@@@xsubj@@increase@@dobj@@levels@@nn@@thioridazine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d666.s4" text="Pindolol levels may also be increased with this combination. " new_text="Pindolol@@levels@@may@@also@@be@@increased@@with@@this@@combination@@.@@"> 
+      <entity id="DDI-DrugBank.d666.s4.e0" charOffset="0-7" type="drug" text="Pindolol" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d666.s5" text="Risk of anaphylactic reaction: While taking beta blockers, patients with a history of severe anaphylactic reaction to a variety of allergens may be more reactive to repeated challenge, either accidental, diagnostic, or therapeutic. " new_text="Risk@@of@@anaphylactic@@reaction@@:@@While@@taking@@beta blockers@@,@@patients@@with@@a@@history@@of@@severe@@anaphylactic@@reaction@@to@@a@@variety@@of@@allergens@@may@@be@@more@@reactive@@to@@repeated@@challenge@@,@@either@@accidental@@,@@diagnostic@@,@@or@@therapeutic@@.@@"> 
+      <entity id="DDI-DrugBank.d666.s5.e0" charOffset="44-56" type="group" text="beta blockers" position="7"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d666.s6" text="Such patients may be unresponsive to the usual doses of epinephrine used to treat allergic reactions." new_text="Such@@patients@@may@@be@@unresponsive@@to@@the@@usual@@doses@@of@@epinephrine@@used@@to@@treat@@allergic@@reactions@@.@@"> 
+      <entity id="DDI-DrugBank.d666.s6.e0" charOffset="56-66" type="drug" text="epinephrine" position="10"/> 
+   </sentence> 
+</document>

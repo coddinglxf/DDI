@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d128"> 
+   <sentence id="DDI-DrugBank.d128.s0" text="May interact with wthionamide (Trecator-SC) and isoniazid (Nydrazid)." new_text="May@@interact@@with@@wthionamide@@(@@Trecator-SC@@)@@and@@isoniazid@@(@@Nydrazid@@)@@.@@"> 
+      <entity id="DDI-DrugBank.d128.s0.e0" charOffset="31-41" type="brand" text="Trecator-SC" position="5"/>  
+      <entity id="DDI-DrugBank.d128.s0.e1" charOffset="48-56" type="drug" text="isoniazid" position="8"/>  
+      <entity id="DDI-DrugBank.d128.s0.e2" charOffset="59-66" type="brand" text="Nydrazid" position="10"/>  
+      <pair id="DDI-DrugBank.d128.s0.p0" e1="DDI-DrugBank.d128.s0.e0" e2="DDI-DrugBank.d128.s0.e1" ddi="false" flags="True" e1_name="Trecator-SC" e2_name="isoniazid" e1_pos="5" e2_pos="8" path="5@@6@@11@@8@@">Trecator-SC@@@@nn@@)@@conj_and@@)@@amod@@isoniazid</pair>  
+      <pair id="DDI-DrugBank.d128.s0.p1" e1="DDI-DrugBank.d128.s0.e0" e2="DDI-DrugBank.d128.s0.e2" ddi="false" flags="True" e1_name="Trecator-SC" e2_name="Nydrazid" e1_pos="5" e2_pos="10" path="5@@6@@11@@10@@">Trecator-SC@@@@nn@@)@@conj_and@@)@@nn@@Nydrazid</pair>  
+      <pair id="DDI-DrugBank.d128.s0.p2" e1="DDI-DrugBank.d128.s0.e1" e2="DDI-DrugBank.d128.s0.e2" ddi="false" flags="True" e1_name="isoniazid" e2_name="Nydrazid" e1_pos="8" e2_pos="10" path="8@@11@@10@@">isoniazid@@@@amod@@)@@nn@@Nydrazid</pair> 
+   </sentence> 
+</document>

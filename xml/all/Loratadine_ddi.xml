@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d258"> 
+   <sentence id="DDI-DrugBank.d258.s0" text="Loratadine (10 mg once daily) has been coadministered with therapeutic doses of erythromycin, cimetidine, and ketoconazole in controlled clinical pharmacology studies in adult volunteers." new_text="Loratadine@@(10@@mg@@once@@daily)@@has@@been@@coadministered@@with@@therapeutic@@doses@@of@@erythromycin@@,@@cimetidine@@,@@and@@ketoconazole@@in@@controlled@@clinical@@pharmacology@@studies@@in@@adult@@volunteers@@.@@"> 
+      <entity id="DDI-DrugBank.d258.s0.e0" charOffset="0-9" type="drug" text="Loratadine" position="0"/>  
+      <entity id="DDI-DrugBank.d258.s0.e1" charOffset="80-91" type="drug" text="erythromycin" position="12"/>  
+      <entity id="DDI-DrugBank.d258.s0.e2" charOffset="94-103" type="drug" text="cimetidine" position="14"/>  
+      <entity id="DDI-DrugBank.d258.s0.e3" charOffset="110-121" type="drug" text="ketoconazole" position="17"/>  
+      <pair id="DDI-DrugBank.d258.s0.p0" e1="DDI-DrugBank.d258.s0.e0" e2="DDI-DrugBank.d258.s0.e1" ddi="false" flags="True" e1_name="Loratadine" e2_name="erythromycin" e1_pos="0" e2_pos="12" path="0@@2@@7@@10@@12@@">Loratadine@@@@nsubj@@mg@@advcl@@coadministered@@prep_with@@doses@@prep_of@@erythromycin</pair>  
+      <pair id="DDI-DrugBank.d258.s0.p1" e1="DDI-DrugBank.d258.s0.e0" e2="DDI-DrugBank.d258.s0.e2" ddi="false" flags="True" e1_name="Loratadine" e2_name="cimetidine" e1_pos="0" e2_pos="14" path="0@@2@@7@@10@@14@@">Loratadine@@@@nsubj@@mg@@advcl@@coadministered@@prep_with@@doses@@prep_of@@cimetidine</pair>  
+      <pair id="DDI-DrugBank.d258.s0.p2" e1="DDI-DrugBank.d258.s0.e0" e2="DDI-DrugBank.d258.s0.e3" ddi="false" flags="True" e1_name="Loratadine" e2_name="ketoconazole" e1_pos="0" e2_pos="17" path="0@@2@@7@@10@@17@@">Loratadine@@@@nsubj@@mg@@advcl@@coadministered@@prep_with@@doses@@prep_of@@ketoconazole</pair>  
+      <pair id="DDI-DrugBank.d258.s0.p3" e1="DDI-DrugBank.d258.s0.e1" e2="DDI-DrugBank.d258.s0.e2" ddi="false" flags="True" e1_name="erythromycin" e2_name="cimetidine" e1_pos="12" e2_pos="14" path="12@@14@@">erythromycin@@@@conj_and@@cimetidine</pair>  
+      <pair id="DDI-DrugBank.d258.s0.p4" e1="DDI-DrugBank.d258.s0.e1" e2="DDI-DrugBank.d258.s0.e3" ddi="false" flags="True" e1_name="erythromycin" e2_name="ketoconazole" e1_pos="12" e2_pos="17" path="12@@17@@">erythromycin@@@@conj_and@@ketoconazole</pair>  
+      <pair id="DDI-DrugBank.d258.s0.p5" e1="DDI-DrugBank.d258.s0.e2" e2="DDI-DrugBank.d258.s0.e3" ddi="false" flags="True" e1_name="cimetidine" e2_name="ketoconazole" e1_pos="14" e2_pos="17" path="14@@10@@17@@">cimetidine@@@@prep_of@@doses@@prep_of@@ketoconazole</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d258.s1" text="Although increased plasma concentrations (AUC 0-24 hrs) of loratadine and/or descarboethoxyloratadine were observed following coadministration of loratadine with each of these drugs in normal volunteers (n = 24 in each study), there were no clinically relevant changes in the safety profile of loratadine, as assessed by electrocardiographic parameters, clinical laboratory tests, vital signs, and adverse events." new_text="Although@@increased@@plasma@@concentrations@@(AUC@@0-24@@hrs)@@of@@loratadine@@and/or@@descarboethoxyloratadine@@were@@observed@@following@@coadministration@@of@@loratadine@@with@@each@@of@@these@@drugs@@in@@normal@@volunteers@@(n@@=@@24@@in@@each@@study)@@,@@there@@were@@no@@clinically@@relevant@@changes@@in@@the@@safety@@profile@@of@@loratadine@@,@@as@@assessed@@by@@electrocardiographic@@parameters@@,@@clinical@@laboratory@@tests@@,@@vital@@signs@@,@@and@@adverse@@events@@.@@"> 
+      <entity id="DDI-DrugBank.d258.s1.e0" charOffset="59-68" type="drug" text="loratadine" position="8"/>  
+      <entity id="DDI-DrugBank.d258.s1.e1" charOffset="77-100" type="drug" text="descarboethoxyloratadine" position="10"/>  
+      <entity id="DDI-DrugBank.d258.s1.e2" charOffset="146-155" type="drug" text="loratadine" position="16"/>  
+      <entity id="DDI-DrugBank.d258.s1.e3" charOffset="294-303" type="drug" text="loratadine" position="43"/>  
+      <pair id="DDI-DrugBank.d258.s1.p0" e1="DDI-DrugBank.d258.s1.e0" e2="DDI-DrugBank.d258.s1.e1" ddi="false" flags="True" e1_name="loratadine" e2_name="descarboethoxyloratadine" e1_pos="8" e2_pos="10" path="8@@10@@">loratadine@@@@amod@@descarboethoxyloratadine</pair>  
+      <pair id="DDI-DrugBank.d258.s1.p1" e1="DDI-DrugBank.d258.s1.e0" e2="DDI-DrugBank.d258.s1.e2" ddi="false" flags="True" e1_name="loratadine" e2_name="loratadine" e1_pos="8" e2_pos="16" path="8@@10@@6@@12@@14@@16@@">loratadine@@@@amod@@descarboethoxyloratadine@@prep_of@@hrs)@@nsubjpass@@observed@@prep_following@@coadministration@@prep_of@@loratadine</pair>  
+      <pair id="DDI-DrugBank.d258.s1.p2" e1="DDI-DrugBank.d258.s1.e0" e2="DDI-DrugBank.d258.s1.e3" ddi="false" flags="True" e1_name="loratadine" e2_name="loratadine" e1_pos="8" e2_pos="43" path="8@@10@@6@@12@@4@@33@@37@@41@@43@@">loratadine@@@@amod@@descarboethoxyloratadine@@prep_of@@hrs)@@nsubjpass@@observed@@ccomp@@(AUC@@advcl@@were@@nsubj@@changes@@prep_in@@profile@@prep_of@@loratadine</pair>  
+      <pair id="DDI-DrugBank.d258.s1.p3" e1="DDI-DrugBank.d258.s1.e1" e2="DDI-DrugBank.d258.s1.e2" ddi="false" flags="True" e1_name="descarboethoxyloratadine" e2_name="loratadine" e1_pos="10" e2_pos="16" path="10@@6@@12@@14@@16@@">descarboethoxyloratadine@@@@prep_of@@hrs)@@nsubjpass@@observed@@prep_following@@coadministration@@prep_of@@loratadine</pair>  
+      <pair id="DDI-DrugBank.d258.s1.p4" e1="DDI-DrugBank.d258.s1.e1" e2="DDI-DrugBank.d258.s1.e3" ddi="false" flags="True" e1_name="descarboethoxyloratadine" e2_name="loratadine" e1_pos="10" e2_pos="43" path="10@@6@@12@@4@@33@@37@@41@@43@@">descarboethoxyloratadine@@@@prep_of@@hrs)@@nsubjpass@@observed@@ccomp@@(AUC@@advcl@@were@@nsubj@@changes@@prep_in@@profile@@prep_of@@loratadine</pair>  
+      <pair id="DDI-DrugBank.d258.s1.p5" e1="DDI-DrugBank.d258.s1.e2" e2="DDI-DrugBank.d258.s1.e3" ddi="false" flags="True" e1_name="loratadine" e2_name="loratadine" e1_pos="16" e2_pos="43" path="16@@14@@12@@4@@33@@37@@41@@43@@">loratadine@@@@prep_of@@coadministration@@prep_following@@observed@@ccomp@@(AUC@@advcl@@were@@nsubj@@changes@@prep_in@@profile@@prep_of@@loratadine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d258.s2" text="There were no significant effects on QTc intervals, and no reports of sedation or syncope." new_text="There@@were@@no@@significant@@effects@@on@@QTc@@intervals@@,@@and@@no@@reports@@of@@sedation@@or@@syncope@@.@@"/>  
+   <sentence id="DDI-DrugBank.d258.s3" text="No effects on plasma concentrations of cimetidine or ketoconazole were observed." new_text="No@@effects@@on@@plasma@@concentrations@@of@@cimetidine@@or@@ketoconazole@@were@@observed@@.@@"> 
+      <entity id="DDI-DrugBank.d258.s3.e0" charOffset="39-48" type="drug" text="cimetidine" position="6"/>  
+      <entity id="DDI-DrugBank.d258.s3.e1" charOffset="53-64" type="drug" text="ketoconazole" position="8"/>  
+      <pair id="DDI-DrugBank.d258.s3.p0" e1="DDI-DrugBank.d258.s3.e0" e2="DDI-DrugBank.d258.s3.e1" ddi="false" flags="True" e1_name="cimetidine" e2_name="ketoconazole" e1_pos="6" e2_pos="8" path="6@@8@@">cimetidine@@@@conj_or@@ketoconazole</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d258.s4" text="Plasma concentrations (AUC 0-24 hrs) of erythromycin decreased 15% with coadministration of loratadine relative to that observed with erythromycin alone." new_text="Plasma@@concentrations@@(AUC@@0-24@@hrs)@@of@@erythromycin@@decreased@@15%@@with@@coadministration@@of@@loratadine@@relative@@to@@that@@observed@@with@@erythromycin@@alone@@.@@"> 
+      <entity id="DDI-DrugBank.d258.s4.e0" charOffset="40-51" type="drug" text="erythromycin" position="6"/>  
+      <entity id="DDI-DrugBank.d258.s4.e1" charOffset="92-101" type="drug" text="loratadine" position="12"/>  
+      <entity id="DDI-DrugBank.d258.s4.e2" charOffset="134-145" type="drug" text="erythromycin" position="18"/>  
+      <pair id="DDI-DrugBank.d258.s4.p0" e1="DDI-DrugBank.d258.s4.e0" e2="DDI-DrugBank.d258.s4.e1" ddi="true" type="mechanism" flags="True" e1_name="erythromycin" e2_name="loratadine" e1_pos="6" e2_pos="12" path="6@@4@@7@@8@@10@@12@@">erythromycin@@@@prep_of@@hrs)@@nsubj@@decreased@@dobj@@15%@@prep_with@@coadministration@@prep_of@@loratadine</pair>  
+      <pair id="DDI-DrugBank.d258.s4.p1" e1="DDI-DrugBank.d258.s4.e0" e2="DDI-DrugBank.d258.s4.e2" ddi="false" flags="True" e1_name="erythromycin" e2_name="erythromycin" e1_pos="6" e2_pos="18" path="6@@4@@7@@13@@16@@18@@">erythromycin@@@@prep_of@@hrs)@@nsubj@@decreased@@advmod@@relative@@prepc_to@@observed@@prep_with@@erythromycin</pair>  
+      <pair id="DDI-DrugBank.d258.s4.p2" e1="DDI-DrugBank.d258.s4.e1" e2="DDI-DrugBank.d258.s4.e2" ddi="false" flags="True" e1_name="loratadine" e2_name="erythromycin" e1_pos="12" e2_pos="18" path="12@@10@@8@@7@@13@@16@@18@@">loratadine@@@@prep_of@@coadministration@@prep_with@@15%@@dobj@@decreased@@advmod@@relative@@prepc_to@@observed@@prep_with@@erythromycin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d258.s5" text="The clinical relevance of this difference is unknown." new_text="The@@clinical@@relevance@@of@@this@@difference@@is@@unknown@@.@@"/>  
+   <sentence id="DDI-DrugBank.d258.s6" text="These above findings are summarized in TABLE 1." new_text="These@@above@@findings@@are@@summarized@@in@@TABLE@@1@@.@@"/>  
+   <sentence id="DDI-DrugBank.d258.s7" text="TABLE 1 Effects on Plasma Concentrations (AUC 0-24 hrs) of Loratadine and Descarboethoxyloratadine After 10 Days of Coadministration (Loratadine 10 mg) in Normal Volunteers" new_text="TABLE@@1@@Effects@@on@@Plasma@@Concentrations@@(AUC@@0-24@@hrs)@@of@@Loratadine@@and@@Descarboethoxyloratadine@@After@@10@@Days@@of@@Coadministration@@(@@Loratadine@@10@@mg)@@in@@Normal@@Volunteers@@"> 
+      <entity id="DDI-DrugBank.d258.s7.e0" charOffset="59-68" type="drug" text="Loratadine" position="10"/>  
+      <entity id="DDI-DrugBank.d258.s7.e1" charOffset="74-97" type="drug" text="Descarboethoxyloratadine" position="12"/>  
+      <entity id="DDI-DrugBank.d258.s7.e2" charOffset="134-143" type="drug" text="Loratadine" position="19"/>  
+      <pair id="DDI-DrugBank.d258.s7.p0" e1="DDI-DrugBank.d258.s7.e0" e2="DDI-DrugBank.d258.s7.e1" ddi="false" flags="True" e1_name="Loratadine" e2_name="Descarboethoxyloratadine" e1_pos="10" e2_pos="12" path="10@@12@@">Loratadine@@@@conj_and@@Descarboethoxyloratadine</pair>  
+      <pair id="DDI-DrugBank.d258.s7.p1" e1="DDI-DrugBank.d258.s7.e0" e2="DDI-DrugBank.d258.s7.e2" ddi="false" flags="True" e1_name="Loratadine" e2_name="Loratadine" e1_pos="10" e2_pos="19" path="10@@8@@2@@0@@19@@">Loratadine@@@@prep_of@@hrs)@@prep_on@@Effects@@dep@@TABLE@@nsubj@@Loratadine</pair>  
+      <pair id="DDI-DrugBank.d258.s7.p2" e1="DDI-DrugBank.d258.s7.e1" e2="DDI-DrugBank.d258.s7.e2" ddi="false" flags="True" e1_name="Descarboethoxyloratadine" e2_name="Loratadine" e1_pos="12" e2_pos="19" path="12@@8@@2@@0@@19@@">Descarboethoxyloratadine@@@@prep_of@@hrs)@@prep_on@@Effects@@dep@@TABLE@@nsubj@@Loratadine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d258.s8" text="Loratadine Descarboethoxyloratadine" new_text="Loratadine@@Descarboethoxyloratadine@@"> 
+      <entity id="DDI-DrugBank.d258.s8.e0" charOffset="0-9" type="drug" text="Loratadine" position="0"/>  
+      <entity id="DDI-DrugBank.d258.s8.e1" charOffset="11-34" type="drug" text="Descarboethoxyloratadine" position="1"/>  
+      <pair id="DDI-DrugBank.d258.s8.p0" e1="DDI-DrugBank.d258.s8.e0" e2="DDI-DrugBank.d258.s8.e1" ddi="false" flags="True" e1_name="Loratadine" e2_name="Descarboethoxyloratadine" e1_pos="0" e2_pos="1" path="0@@1@@">Loratadine@@@@nn@@Descarboethoxyloratadine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d258.s9" text="Erythromycin (500 mg q8h) + 40% +46%" new_text="Erythromycin@@(500@@mg@@q8h)@@+@@40%@@+46%@@"> 
+      <entity id="DDI-DrugBank.d258.s9.e0" charOffset="0-11" type="drug" text="Erythromycin" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d258.s10" text="Cimetidine (300 mg qid) +103% + 6%" new_text="Cimetidine@@(300@@mg@@qid)@@+103%@@+@@6%@@"> 
+      <entity id="DDI-DrugBank.d258.s10.e0" charOffset="0-9" type="drug" text="Cimetidine" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d258.s11" text="Ketoconazole (200 mg q12h) +307% +73%" new_text="Ketoconazole@@(200@@mg@@q12h)@@+307%@@+73%@@"> 
+      <entity id="DDI-DrugBank.d258.s11.e0" charOffset="0-11" type="drug" text="Ketoconazole" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d258.s12" text="There does not appear to be an increase in adverse events in subjects who received oral contraceptives and loratadine." new_text="There@@does@@not@@appear@@to@@be@@an@@increase@@in@@adverse@@events@@in@@subjects@@who@@received@@oral@@contraceptives@@and@@loratadine@@.@@"> 
+      <entity id="DDI-DrugBank.d258.s12.e0" charOffset="88-101" type="group" text="contraceptives" position="16"/>  
+      <entity id="DDI-DrugBank.d258.s12.e1" charOffset="107-116" type="drug" text="loratadine" position="18"/>  
+      <pair id="DDI-DrugBank.d258.s12.p0" e1="DDI-DrugBank.d258.s12.e0" e2="DDI-DrugBank.d258.s12.e1" ddi="false" flags="True" e1_name="contraceptives" e2_name="loratadine" e1_pos="16" e2_pos="18" path="16@@14@@12@@10@@7@@18@@">contraceptives@@@@dobj@@received@@rcmod@@subjects@@prep_in@@events@@prep_in@@increase@@conj_and@@loratadine</pair> 
+   </sentence> 
+</document>

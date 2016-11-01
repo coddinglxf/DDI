@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d440"> 
+   <sentence id="DDI-DrugBank.d440.s0" text="Calcium Supplements/Antacids" new_text="Calcium@@Supplements/@@Antacids@@"> 
+      <entity id="DDI-DrugBank.d440.s0.e0" charOffset="0-6" type="drug" text="Calcium" position="0"/>  
+      <entity id="DDI-DrugBank.d440.s0.e1" charOffset="20-27" type="group" text="Antacids" position="2"/>  
+      <pair id="DDI-DrugBank.d440.s0.p0" e1="DDI-DrugBank.d440.s0.e0" e2="DDI-DrugBank.d440.s0.e1" ddi="false" flags="True" e1_name="Calcium" e2_name="Antacids" e1_pos="0" e2_pos="2" path="0@@2@@">Calcium@@@@nn@@Antacids</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d440.s1" text="Products containing calcium and other multivalent cations (such as aluminum, magnesium, iron) are likely to interfere with absorption of Ibandronate." new_text="Products@@containing@@calcium@@and@@other@@multivalent@@cations@@(such@@as@@aluminum@@,@@magnesium@@,@@iron@@)@@are@@likely@@to@@interfere@@with@@absorption@@of@@Ibandronate@@.@@"> 
+      <entity id="DDI-DrugBank.d440.s1.e0" charOffset="20-26" type="drug" text="calcium" position="2"/>  
+      <entity id="DDI-DrugBank.d440.s1.e1" charOffset="67-74" type="drug" text="aluminum" position="9"/>  
+      <entity id="DDI-DrugBank.d440.s1.e2" charOffset="77-85" type="drug" text="magnesium" position="11"/>  
+      <entity id="DDI-DrugBank.d440.s1.e3" charOffset="88-91" type="drug" text="iron" position="13"/>  
+      <entity id="DDI-DrugBank.d440.s1.e4" charOffset="137-147" type="drug" text="Ibandronate" position="22"/>  
+      <pair id="DDI-DrugBank.d440.s1.p0" e1="DDI-DrugBank.d440.s1.e0" e2="DDI-DrugBank.d440.s1.e1" ddi="false" flags="True" e1_name="calcium" e2_name="aluminum" e1_pos="2" e2_pos="9" path="2@@6@@1@@14@@9@@">calcium@@@@nn@@cations@@dobj@@containing@@prep_as@@)@@nn@@aluminum</pair>  
+      <pair id="DDI-DrugBank.d440.s1.p1" e1="DDI-DrugBank.d440.s1.e0" e2="DDI-DrugBank.d440.s1.e2" ddi="false" flags="True" e1_name="calcium" e2_name="magnesium" e1_pos="2" e2_pos="11" path="2@@6@@1@@14@@11@@">calcium@@@@nn@@cations@@dobj@@containing@@prep_as@@)@@dep@@magnesium</pair>  
+      <pair id="DDI-DrugBank.d440.s1.p2" e1="DDI-DrugBank.d440.s1.e0" e2="DDI-DrugBank.d440.s1.e3" ddi="false" flags="True" e1_name="calcium" e2_name="iron" e1_pos="2" e2_pos="13" path="2@@6@@1@@14@@13@@">calcium@@@@nn@@cations@@dobj@@containing@@prep_as@@)@@dep@@iron</pair>  
+      <pair id="DDI-DrugBank.d440.s1.p3" e1="DDI-DrugBank.d440.s1.e0" e2="DDI-DrugBank.d440.s1.e4" ddi="true" type="mechanism" flags="True" e1_name="calcium" e2_name="Ibandronate" e1_pos="2" e2_pos="22" path="2@@6@@1@@0@@18@@20@@22@@">calcium@@@@nn@@cations@@dobj@@containing@@partmod@@Products@@xsubj@@interfere@@prep_with@@absorption@@prep_of@@Ibandronate</pair>  
+      <pair id="DDI-DrugBank.d440.s1.p4" e1="DDI-DrugBank.d440.s1.e1" e2="DDI-DrugBank.d440.s1.e2" ddi="false" flags="True" e1_name="aluminum" e2_name="magnesium" e1_pos="9" e2_pos="11" path="9@@14@@11@@">aluminum@@@@nn@@)@@dep@@magnesium</pair>  
+      <pair id="DDI-DrugBank.d440.s1.p5" e1="DDI-DrugBank.d440.s1.e1" e2="DDI-DrugBank.d440.s1.e3" ddi="false" flags="True" e1_name="aluminum" e2_name="iron" e1_pos="9" e2_pos="13" path="9@@14@@13@@">aluminum@@@@nn@@)@@dep@@iron</pair>  
+      <pair id="DDI-DrugBank.d440.s1.p6" e1="DDI-DrugBank.d440.s1.e1" e2="DDI-DrugBank.d440.s1.e4" ddi="true" type="mechanism" flags="True" e1_name="aluminum" e2_name="Ibandronate" e1_pos="9" e2_pos="22" path="9@@14@@1@@0@@18@@20@@22@@">aluminum@@@@nn@@)@@prep_as@@containing@@partmod@@Products@@xsubj@@interfere@@prep_with@@absorption@@prep_of@@Ibandronate</pair>  
+      <pair id="DDI-DrugBank.d440.s1.p7" e1="DDI-DrugBank.d440.s1.e2" e2="DDI-DrugBank.d440.s1.e3" ddi="false" flags="True" e1_name="magnesium" e2_name="iron" e1_pos="11" e2_pos="13" path="11@@14@@13@@">magnesium@@@@dep@@)@@dep@@iron</pair>  
+      <pair id="DDI-DrugBank.d440.s1.p8" e1="DDI-DrugBank.d440.s1.e2" e2="DDI-DrugBank.d440.s1.e4" ddi="true" type="mechanism" flags="True" e1_name="magnesium" e2_name="Ibandronate" e1_pos="11" e2_pos="22" path="11@@14@@1@@0@@18@@20@@22@@">magnesium@@@@dep@@)@@prep_as@@containing@@partmod@@Products@@xsubj@@interfere@@prep_with@@absorption@@prep_of@@Ibandronate</pair>  
+      <pair id="DDI-DrugBank.d440.s1.p9" e1="DDI-DrugBank.d440.s1.e3" e2="DDI-DrugBank.d440.s1.e4" ddi="true" type="mechanism" flags="True" e1_name="iron" e2_name="Ibandronate" e1_pos="13" e2_pos="22" path="13@@14@@1@@0@@18@@20@@22@@">iron@@@@dep@@)@@prep_as@@containing@@partmod@@Products@@xsubj@@interfere@@prep_with@@absorption@@prep_of@@Ibandronate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d440.s2" text="Ibandronate should be taken at least 60 minutes before any oral medications containing multivalent cations (including antacids, supplements or vitamins)." new_text="Ibandronate@@should@@be@@taken@@at@@least@@60@@minutes@@before@@any@@oral@@medications@@containing@@multivalent@@cations@@(including@@antacids@@,@@supplements@@or@@vitamins@@)@@.@@"> 
+      <entity id="DDI-DrugBank.d440.s2.e0" charOffset="0-10" type="drug" text="Ibandronate" position="0"/>  
+      <entity id="DDI-DrugBank.d440.s2.e1" charOffset="118-125" type="group" text="antacids" position="16"/>  
+      <entity id="DDI-DrugBank.d440.s2.e2" charOffset="143-150" type="group" text="vitamins" position="20"/>  
+      <pair id="DDI-DrugBank.d440.s2.p0" e1="DDI-DrugBank.d440.s2.e0" e2="DDI-DrugBank.d440.s2.e1" ddi="true" type="advise" flags="True" e1_name="Ibandronate" e2_name="antacids" e1_pos="0" e2_pos="16" path="0@@3@@11@@12@@15@@16@@">Ibandronate@@@@nsubjpass@@taken@@prep_before@@medications@@partmod@@containing@@xcomp@@(including@@dobj@@antacids</pair>  
+      <pair id="DDI-DrugBank.d440.s2.p1" e1="DDI-DrugBank.d440.s2.e0" e2="DDI-DrugBank.d440.s2.e2" ddi="true" type="advise" flags="True" e1_name="Ibandronate" e2_name="vitamins" e1_pos="0" e2_pos="20" path="0@@3@@11@@12@@15@@20@@">Ibandronate@@@@nsubjpass@@taken@@prep_before@@medications@@partmod@@containing@@xcomp@@(including@@dobj@@vitamins</pair>  
+      <pair id="DDI-DrugBank.d440.s2.p2" e1="DDI-DrugBank.d440.s2.e1" e2="DDI-DrugBank.d440.s2.e2" ddi="false" flags="True" e1_name="antacids" e2_name="vitamins" e1_pos="16" e2_pos="20" path="16@@20@@">antacids@@@@conj_or@@vitamins</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d440.s3" text="H2 Blockers and Proton Pump Inhibitors (PPIs)" new_text="H2 Blockers@@and@@Proton Pump Inhibitors@@(@@PPIs@@)@@"> 
+      <entity id="DDI-DrugBank.d440.s3.e0" charOffset="0-10" type="group" text="H2 Blockers" position="0"/>  
+      <entity id="DDI-DrugBank.d440.s3.e1" charOffset="16-37" type="group" text="Proton Pump Inhibitors" position="2"/>  
+      <entity id="DDI-DrugBank.d440.s3.e2" charOffset="40-43" type="group" text="PPIs" position="4"/>  
+      <pair id="DDI-DrugBank.d440.s3.p0" e1="DDI-DrugBank.d440.s3.e0" e2="DDI-DrugBank.d440.s3.e1" ddi="false" flags="True" e1_name="H2 Blockers" e2_name="Proton Pump Inhibitors" e1_pos="0" e2_pos="2" path="0@@5@@2@@">H2 Blockers@@@@conj_and@@)@@nn@@Proton Pump Inhibitors</pair>  
+      <pair id="DDI-DrugBank.d440.s3.p1" e1="DDI-DrugBank.d440.s3.e0" e2="DDI-DrugBank.d440.s3.e2" ddi="false" flags="True" e1_name="H2 Blockers" e2_name="PPIs" e1_pos="0" e2_pos="4" path="0@@5@@4@@">H2 Blockers@@@@conj_and@@)@@nn@@PPIs</pair>  
+      <pair id="DDI-DrugBank.d440.s3.p2" e1="DDI-DrugBank.d440.s3.e1" e2="DDI-DrugBank.d440.s3.e2" ddi="false" flags="True" e1_name="Proton Pump Inhibitors" e2_name="PPIs" e1_pos="2" e2_pos="4" path="2@@5@@4@@">Proton Pump Inhibitors@@@@nn@@)@@nn@@PPIs</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d440.s4" text="Of over 3500 patients enrolled in the Ibandronate osteoporosis Treatment and Prevention Studies, 15% used anti-peptic agents (primarily H2 blockers and PPIs)." new_text="Of@@over@@3500@@patients@@enrolled@@in@@the@@Ibandronate@@osteoporosis@@Treatment@@and@@Prevention@@Studies@@,@@15%@@used@@anti-peptic@@agents@@(primarily@@H2 blockers@@and@@PPIs@@)@@.@@"> 
+      <entity id="DDI-DrugBank.d440.s4.e0" charOffset="38-48" type="drug" text="Ibandronate" position="7"/>  
+      <entity id="DDI-DrugBank.d440.s4.e1" charOffset="136-146" type="group" text="H2 blockers" position="19"/>  
+      <entity id="DDI-DrugBank.d440.s4.e2" charOffset="152-155" type="group" text="PPIs" position="21"/>  
+      <pair id="DDI-DrugBank.d440.s4.p0" e1="DDI-DrugBank.d440.s4.e0" e2="DDI-DrugBank.d440.s4.e1" ddi="false" flags="True" e1_name="Ibandronate" e2_name="H2 blockers" e1_pos="7" e2_pos="19" path="7@@8@@4@@19@@">Ibandronate@@@@nn@@osteoporosis@@prep_in@@enrolled@@nsubj@@H2 blockers</pair>  
+      <pair id="DDI-DrugBank.d440.s4.p1" e1="DDI-DrugBank.d440.s4.e0" e2="DDI-DrugBank.d440.s4.e2" ddi="false" flags="True" e1_name="Ibandronate" e2_name="PPIs" e1_pos="7" e2_pos="21" path="7@@8@@4@@22@@21@@">Ibandronate@@@@nn@@osteoporosis@@prep_in@@enrolled@@nsubj@@)@@nn@@PPIs</pair>  
+      <pair id="DDI-DrugBank.d440.s4.p2" e1="DDI-DrugBank.d440.s4.e1" e2="DDI-DrugBank.d440.s4.e2" ddi="false" flags="True" e1_name="H2 blockers" e2_name="PPIs" e1_pos="19" e2_pos="21" path="19@@4@@22@@21@@">H2 blockers@@@@nsubj@@enrolled@@nsubj@@)@@nn@@PPIs</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d440.s5" text="Among these patients, the incidence of upper gastrointestinal adverse experiences in the patients treated with Ibandronate was similar to that in placebo-treated patients." new_text="Among@@these@@patients@@,@@the@@incidence@@of@@upper@@gastrointestinal@@adverse@@experiences@@in@@the@@patients@@treated@@with@@Ibandronate@@was@@similar@@to@@that@@in@@placebo-treated@@patients@@.@@"> 
+      <entity id="DDI-DrugBank.d440.s5.e0" charOffset="111-121" type="drug" text="Ibandronate" position="16"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d440.s6" text="Similarly, of over 1600 patients enrolled in a study comparing once-monthly with daily dosing regimens of ibandronate, 14% of patients used anti-peptic agents." new_text="Similarly@@,@@of@@over@@1600@@patients@@enrolled@@in@@a@@study@@comparing@@once-monthly@@with@@daily@@dosing@@regimens@@of@@ibandronate@@,@@14%@@of@@patients@@used@@anti-peptic@@agents@@.@@"> 
+      <entity id="DDI-DrugBank.d440.s6.e0" charOffset="106-116" type="drug" text="ibandronate" position="17"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d440.s7" text="Among these patients, the incidence of upper gastrointestinal adverse experiences in the patients treated with Ibandronate 150 mg once monthly was similar to that in patients treated with Ibandronate 2.5 mg once daily." new_text="Among@@these@@patients@@,@@the@@incidence@@of@@upper@@gastrointestinal@@adverse@@experiences@@in@@the@@patients@@treated@@with@@Ibandronate@@150@@mg@@once@@monthly@@was@@similar@@to@@that@@in@@patients@@treated@@with@@Ibandronate@@2.5@@mg@@once@@daily@@.@@"> 
+      <entity id="DDI-DrugBank.d440.s7.e0" charOffset="111-121" type="drug" text="Ibandronate" position="16"/>  
+      <entity id="DDI-DrugBank.d440.s7.e1" charOffset="188-198" type="drug" text="Ibandronate" position="29"/>  
+      <pair id="DDI-DrugBank.d440.s7.p0" e1="DDI-DrugBank.d440.s7.e0" e2="DDI-DrugBank.d440.s7.e1" ddi="false" flags="True" e1_name="Ibandronate" e2_name="Ibandronate" e1_pos="16" e2_pos="29" path="16@@18@@14@@22@@24@@26@@27@@29@@">Ibandronate@@@@nn@@mg@@prep_with@@treated@@advcl@@similar@@prep_to@@that@@prep_in@@patients@@partmod@@treated@@prep_with@@Ibandronate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d440.s8" text="Aspirin/Nonsteroidal Antiinflammatory Drugs (NSAIDs)" new_text="Aspirin@@/@@Nonsteroidal Antiinflammatory Drug@@s@@(@@NSAIDs@@)@@"> 
+      <entity id="DDI-DrugBank.d440.s8.e0" charOffset="0-6" type="brand" text="Aspirin" position="0"/>  
+      <entity id="DDI-DrugBank.d440.s8.e1" charOffset="8-41" type="group" text="Nonsteroidal Antiinflammatory Drug" position="2"/>  
+      <entity id="DDI-DrugBank.d440.s8.e2" charOffset="45-50" type="group" text="NSAIDs" position="5"/>  
+      <pair id="DDI-DrugBank.d440.s8.p0" e1="DDI-DrugBank.d440.s8.e0" e2="DDI-DrugBank.d440.s8.e1" ddi="false" flags="True" e1_name="Aspirin" e2_name="Nonsteroidal Antiinflammatory Drug" e1_pos="0" e2_pos="2" path="0@@6@@2@@">Aspirin@@@@dep@@)@@nsubj@@Nonsteroidal Antiinflammatory Drug</pair>  
+      <pair id="DDI-DrugBank.d440.s8.p1" e1="DDI-DrugBank.d440.s8.e0" e2="DDI-DrugBank.d440.s8.e2" ddi="false" flags="True" e1_name="Aspirin" e2_name="NSAIDs" e1_pos="0" e2_pos="5" path="0@@6@@5@@">Aspirin@@@@dep@@)@@nn@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d440.s8.p2" e1="DDI-DrugBank.d440.s8.e1" e2="DDI-DrugBank.d440.s8.e2" ddi="false" flags="True" e1_name="Nonsteroidal Antiinflammatory Drug" e2_name="NSAIDs" e1_pos="2" e2_pos="5" path="2@@6@@5@@">Nonsteroidal Antiinflammatory Drug@@@@nsubj@@)@@nn@@NSAIDs</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d440.s9" text="In the large, placebo-controlled osteoporosis Treatment Study, aspirin and nonsteroidal anti-inflammatory drugs were taken by 62% of the 2946 patients." new_text="In@@the@@large@@,@@placebo-controlled@@osteoporosis@@Treatment@@Study@@,@@aspirin@@and@@nonsteroidal anti-inflammatory drugs@@were@@taken@@by@@62%@@of@@the@@2946@@patients@@.@@"> 
+      <entity id="DDI-DrugBank.d440.s9.e0" charOffset="63-69" type="brand" text="aspirin" position="9"/>  
+      <entity id="DDI-DrugBank.d440.s9.e1" charOffset="75-110" type="group" text="nonsteroidal anti-inflammatory drugs" position="11"/>  
+      <pair id="DDI-DrugBank.d440.s9.p0" e1="DDI-DrugBank.d440.s9.e0" e2="DDI-DrugBank.d440.s9.e1" ddi="false" flags="True" e1_name="aspirin" e2_name="nonsteroidal anti-inflammatory drugs" e1_pos="9" e2_pos="11" path="9@@11@@">aspirin@@@@conj_and@@nonsteroidal anti-inflammatory drugs</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d440.s10" text="Among aspirin or NSAID users, the incidence of upper gastrointestinal adverse events in patients treated with ibandronate 2.5 mg daily (28.9%) was similar to that in placebo-treated patients (30.7%)." new_text="Among@@aspirin@@or@@NSAID@@users@@,@@the@@incidence@@of@@upper@@gastrointestinal@@adverse@@events@@in@@patients@@treated@@with@@ibandronate@@2.5@@mg@@daily@@(28.9%)@@was@@similar@@to@@that@@in@@placebo-treated@@patients@@(30.7%)@@.@@"> 
+      <entity id="DDI-DrugBank.d440.s10.e0" charOffset="6-12" type="brand" text="aspirin" position="1"/>  
+      <entity id="DDI-DrugBank.d440.s10.e1" charOffset="17-21" type="group" text="NSAID" position="3"/>  
+      <entity id="DDI-DrugBank.d440.s10.e2" charOffset="110-120" type="drug" text="ibandronate" position="17"/>  
+      <pair id="DDI-DrugBank.d440.s10.p0" e1="DDI-DrugBank.d440.s10.e0" e2="DDI-DrugBank.d440.s10.e1" ddi="false" flags="True" e1_name="aspirin" e2_name="NSAID" e1_pos="1" e2_pos="3" path="1@@3@@">aspirin@@@@conj_or@@NSAID</pair>  
+      <pair id="DDI-DrugBank.d440.s10.p1" e1="DDI-DrugBank.d440.s10.e0" e2="DDI-DrugBank.d440.s10.e2" ddi="false" flags="True" e1_name="aspirin" e2_name="ibandronate" e1_pos="1" e2_pos="17" path="1@@4@@19@@7@@12@@14@@15@@18@@17@@">aspirin@@@@nn@@users@@prep_among@@mg@@nsubj@@incidence@@prep_of@@events@@prep_in@@patients@@partmod@@treated@@prep_with@@2.5@@amod@@ibandronate</pair>  
+      <pair id="DDI-DrugBank.d440.s10.p2" e1="DDI-DrugBank.d440.s10.e1" e2="DDI-DrugBank.d440.s10.e2" ddi="false" flags="True" e1_name="NSAID" e2_name="ibandronate" e1_pos="3" e2_pos="17" path="3@@4@@19@@7@@12@@14@@15@@18@@17@@">NSAID@@@@nn@@users@@prep_among@@mg@@nsubj@@incidence@@prep_of@@events@@prep_in@@patients@@partmod@@treated@@prep_with@@2.5@@amod@@ibandronate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d440.s11" text="Similarly, in the 1-year monthly comparison study, aspirin and nonsteroidal anti-inflammatory drugs were taken by 39% of the 1602 patients." new_text="Similarly@@,@@in@@the@@1-year@@monthly@@comparison@@study@@,@@aspirin@@and@@nonsteroidal anti-inflammatory drugs@@were@@taken@@by@@39%@@of@@the@@1602@@patients@@.@@"> 
+      <entity id="DDI-DrugBank.d440.s11.e0" charOffset="51-57" type="brand" text="aspirin" position="9"/>  
+      <entity id="DDI-DrugBank.d440.s11.e1" charOffset="63-98" type="group" text="nonsteroidal anti-inflammatory drugs" position="11"/>  
+      <pair id="DDI-DrugBank.d440.s11.p0" e1="DDI-DrugBank.d440.s11.e0" e2="DDI-DrugBank.d440.s11.e1" ddi="false" flags="True" e1_name="aspirin" e2_name="nonsteroidal anti-inflammatory drugs" e1_pos="9" e2_pos="11" path="9@@11@@">aspirin@@@@conj_and@@nonsteroidal anti-inflammatory drugs</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d440.s12" text="The incidence of upper gastrointestinal events in patients concomitantly taking aspirin or NSAIDs was similar in patients taking ibandronate 2.5 mg daily (21.7%) and 150 mg once monthly (22.0%)." new_text="The@@incidence@@of@@upper@@gastrointestinal@@events@@in@@patients@@concomitantly@@taking@@aspirin@@or@@NSAIDs@@was@@similar@@in@@patients@@taking@@ibandronate@@2.5@@mg@@daily@@(21.7%)@@and@@150@@mg@@once@@monthly@@(22.0%)@@.@@"> 
+      <entity id="DDI-DrugBank.d440.s12.e0" charOffset="80-86" type="brand" text="aspirin" position="10"/>  
+      <entity id="DDI-DrugBank.d440.s12.e1" charOffset="91-96" type="group" text="NSAIDs" position="12"/>  
+      <entity id="DDI-DrugBank.d440.s12.e2" charOffset="129-139" type="drug" text="ibandronate" position="18"/>  
+      <pair id="DDI-DrugBank.d440.s12.p0" e1="DDI-DrugBank.d440.s12.e0" e2="DDI-DrugBank.d440.s12.e1" ddi="false" flags="True" e1_name="aspirin" e2_name="NSAIDs" e1_pos="10" e2_pos="12" path="10@@12@@">aspirin@@@@conj_or@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d440.s12.p1" e1="DDI-DrugBank.d440.s12.e0" e2="DDI-DrugBank.d440.s12.e2" ddi="false" flags="True" e1_name="aspirin" e2_name="ibandronate" e1_pos="10" e2_pos="18" path="10@@9@@7@@5@@1@@14@@16@@17@@20@@18@@">aspirin@@@@dobj@@taking@@partmod@@patients@@prep_in@@events@@prep_of@@incidence@@nsubj@@similar@@prep_in@@patients@@partmod@@taking@@dobj@@mg@@amod@@ibandronate</pair>  
+      <pair id="DDI-DrugBank.d440.s12.p2" e1="DDI-DrugBank.d440.s12.e1" e2="DDI-DrugBank.d440.s12.e2" ddi="false" flags="True" e1_name="NSAIDs" e2_name="ibandronate" e1_pos="12" e2_pos="18" path="12@@9@@7@@5@@1@@14@@16@@17@@20@@18@@">NSAIDs@@@@dobj@@taking@@partmod@@patients@@prep_in@@events@@prep_of@@incidence@@nsubj@@similar@@prep_in@@patients@@partmod@@taking@@dobj@@mg@@amod@@ibandronate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d440.s13" text="However, since aspirin, NSAIDs, and bisphosphonates are all associated with gastrointestinal irritation, caution should be exercised in the concomitant use of aspirin or NSAIDs with Ibandronate." new_text="However@@,@@since@@aspirin@@,@@NSAIDs@@,@@and@@bisphosphonates@@are@@all@@associated@@with@@gastrointestinal@@irritation@@,@@caution@@should@@be@@exercised@@in@@the@@concomitant@@use@@of@@aspirin@@or@@NSAIDs@@with@@Ibandronate@@.@@"> 
+      <entity id="DDI-DrugBank.d440.s13.e0" charOffset="15-21" type="brand" text="aspirin" position="3"/>  
+      <entity id="DDI-DrugBank.d440.s13.e1" charOffset="24-29" type="group" text="NSAIDs" position="5"/>  
+      <entity id="DDI-DrugBank.d440.s13.e2" charOffset="36-50" type="group" text="bisphosphonates" position="8"/>  
+      <entity id="DDI-DrugBank.d440.s13.e3" charOffset="159-165" type="brand" text="aspirin" position="25"/>  
+      <entity id="DDI-DrugBank.d440.s13.e4" charOffset="170-175" type="group" text="NSAIDs" position="27"/>  
+      <entity id="DDI-DrugBank.d440.s13.e5" charOffset="182-192" type="drug" text="Ibandronate" position="29"/>  
+      <pair id="DDI-DrugBank.d440.s13.p0" e1="DDI-DrugBank.d440.s13.e0" e2="DDI-DrugBank.d440.s13.e1" ddi="false" flags="True" e1_name="aspirin" e2_name="NSAIDs" e1_pos="3" e2_pos="5" path="3@@5@@">aspirin@@@@conj_and@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d440.s13.p1" e1="DDI-DrugBank.d440.s13.e0" e2="DDI-DrugBank.d440.s13.e2" ddi="false" flags="True" e1_name="aspirin" e2_name="bisphosphonates" e1_pos="3" e2_pos="8" path="3@@8@@">aspirin@@@@conj_and@@bisphosphonates</pair>  
+      <pair id="DDI-DrugBank.d440.s13.p2" e1="DDI-DrugBank.d440.s13.e0" e2="DDI-DrugBank.d440.s13.e3" ddi="false" flags="True" e1_name="aspirin" e2_name="aspirin" e1_pos="3" e2_pos="25" path="3@@11@@19@@23@@25@@">aspirin@@@@nsubjpass@@associated@@advcl@@exercised@@prep_in@@use@@prep_of@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d440.s13.p3" e1="DDI-DrugBank.d440.s13.e0" e2="DDI-DrugBank.d440.s13.e4" ddi="false" flags="True" e1_name="aspirin" e2_name="NSAIDs" e1_pos="3" e2_pos="27" path="3@@11@@19@@23@@27@@">aspirin@@@@nsubjpass@@associated@@advcl@@exercised@@prep_in@@use@@prep_of@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d440.s13.p4" e1="DDI-DrugBank.d440.s13.e0" e2="DDI-DrugBank.d440.s13.e5" ddi="false" flags="True" e1_name="aspirin" e2_name="Ibandronate" e1_pos="3" e2_pos="29" path="3@@11@@19@@29@@">aspirin@@@@nsubjpass@@associated@@advcl@@exercised@@prep_with@@Ibandronate</pair>  
+      <pair id="DDI-DrugBank.d440.s13.p5" e1="DDI-DrugBank.d440.s13.e1" e2="DDI-DrugBank.d440.s13.e2" ddi="false" flags="True" e1_name="NSAIDs" e2_name="bisphosphonates" e1_pos="5" e2_pos="8" path="5@@3@@8@@">NSAIDs@@@@conj_and@@aspirin@@conj_and@@bisphosphonates</pair>  
+      <pair id="DDI-DrugBank.d440.s13.p6" e1="DDI-DrugBank.d440.s13.e1" e2="DDI-DrugBank.d440.s13.e3" ddi="false" flags="True" e1_name="NSAIDs" e2_name="aspirin" e1_pos="5" e2_pos="25" path="5@@11@@19@@23@@25@@">NSAIDs@@@@nsubjpass@@associated@@advcl@@exercised@@prep_in@@use@@prep_of@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d440.s13.p7" e1="DDI-DrugBank.d440.s13.e1" e2="DDI-DrugBank.d440.s13.e4" ddi="false" flags="True" e1_name="NSAIDs" e2_name="NSAIDs" e1_pos="5" e2_pos="27" path="5@@11@@19@@23@@27@@">NSAIDs@@@@nsubjpass@@associated@@advcl@@exercised@@prep_in@@use@@prep_of@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d440.s13.p8" e1="DDI-DrugBank.d440.s13.e1" e2="DDI-DrugBank.d440.s13.e5" ddi="false" flags="True" e1_name="NSAIDs" e2_name="Ibandronate" e1_pos="5" e2_pos="29" path="5@@11@@19@@29@@">NSAIDs@@@@nsubjpass@@associated@@advcl@@exercised@@prep_with@@Ibandronate</pair>  
+      <pair id="DDI-DrugBank.d440.s13.p9" e1="DDI-DrugBank.d440.s13.e2" e2="DDI-DrugBank.d440.s13.e3" ddi="false" flags="True" e1_name="bisphosphonates" e2_name="aspirin" e1_pos="8" e2_pos="25" path="8@@11@@19@@23@@25@@">bisphosphonates@@@@nsubjpass@@associated@@advcl@@exercised@@prep_in@@use@@prep_of@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d440.s13.p10" e1="DDI-DrugBank.d440.s13.e2" e2="DDI-DrugBank.d440.s13.e4" ddi="false" flags="True" e1_name="bisphosphonates" e2_name="NSAIDs" e1_pos="8" e2_pos="27" path="8@@11@@19@@23@@27@@">bisphosphonates@@@@nsubjpass@@associated@@advcl@@exercised@@prep_in@@use@@prep_of@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d440.s13.p11" e1="DDI-DrugBank.d440.s13.e2" e2="DDI-DrugBank.d440.s13.e5" ddi="false" flags="True" e1_name="bisphosphonates" e2_name="Ibandronate" e1_pos="8" e2_pos="29" path="8@@11@@19@@29@@">bisphosphonates@@@@nsubjpass@@associated@@advcl@@exercised@@prep_with@@Ibandronate</pair>  
+      <pair id="DDI-DrugBank.d440.s13.p12" e1="DDI-DrugBank.d440.s13.e3" e2="DDI-DrugBank.d440.s13.e4" ddi="false" flags="True" e1_name="aspirin" e2_name="NSAIDs" e1_pos="25" e2_pos="27" path="25@@27@@">aspirin@@@@conj_or@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d440.s13.p13" e1="DDI-DrugBank.d440.s13.e3" e2="DDI-DrugBank.d440.s13.e5" ddi="true" type="advise" flags="True" e1_name="aspirin" e2_name="Ibandronate" e1_pos="25" e2_pos="29" path="25@@23@@19@@29@@">aspirin@@@@prep_of@@use@@prep_in@@exercised@@prep_with@@Ibandronate</pair>  
+      <pair id="DDI-DrugBank.d440.s13.p14" e1="DDI-DrugBank.d440.s13.e4" e2="DDI-DrugBank.d440.s13.e5" ddi="true" type="advise" flags="True" e1_name="NSAIDs" e2_name="Ibandronate" e1_pos="27" e2_pos="29" path="27@@23@@19@@29@@">NSAIDs@@@@prep_of@@use@@prep_in@@exercised@@prep_with@@Ibandronate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d440.s14" text="Drug/Laboratory Test Interactions" new_text="Drug/Laboratory@@Test@@Interactions@@"/>  
+   <sentence id="DDI-DrugBank.d440.s15" text="Bisphosphonates are known to interfere with the use of bone-imaging agents." new_text="Bisphosphonates@@are@@known@@to@@interfere@@with@@the@@use@@of@@bone-imaging@@agents@@.@@"> 
+      <entity id="DDI-DrugBank.d440.s15.e0" charOffset="0-14" type="group" text="Bisphosphonates" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d440.s16" text="Specific studies with ibandronate have not been performed." new_text="Specific@@studies@@with@@ibandronate@@have@@not@@been@@performed@@.@@"> 
+      <entity id="DDI-DrugBank.d440.s16.e0" charOffset="22-32" type="drug" text="ibandronate" position="3"/> 
+   </sentence> 
+</document>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d695"> 
+   <sentence id="DDI-DrugBank.d695.s0" text="While co-administration of ZAVESCA    appeared to increase the clearance of Cerezyme by 70%, these results are not conclusive because of the small number of subjects studied and because patients took variable doses of Cerezyme. " new_text="While@@co-administration@@of@@ZAVESCA@@appeared@@to@@increase@@the@@clearance@@of@@Cerezyme@@by@@70%@@,@@these@@results@@are@@not@@conclusive@@because@@of@@the@@small@@number@@of@@subjects@@studied@@and@@because@@patients@@took@@variable@@doses@@of@@Cerezyme@@.@@"> 
+      <entity id="DDI-DrugBank.d695.s0.e0" charOffset="27-33" type="brand" text="ZAVESCA" position="3"/>  
+      <entity id="DDI-DrugBank.d695.s0.e1" charOffset="76-83" type="brand" text="Cerezyme" position="10"/>  
+      <entity id="DDI-DrugBank.d695.s0.e2" charOffset="218-225" type="brand" text="Cerezyme" position="34"/>  
+      <pair id="DDI-DrugBank.d695.s0.p0" e1="DDI-DrugBank.d695.s0.e0" e2="DDI-DrugBank.d695.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="ZAVESCA" e2_name="Cerezyme" e1_pos="3" e2_pos="10" path="3@@1@@6@@8@@10@@">ZAVESCA@@@@prep_of@@co-administration@@xsubj@@increase@@dobj@@clearance@@prep_of@@Cerezyme</pair>  
+      <pair id="DDI-DrugBank.d695.s0.p1" e1="DDI-DrugBank.d695.s0.e0" e2="DDI-DrugBank.d695.s0.e2" ddi="false" flags="True" e1_name="ZAVESCA" e2_name="Cerezyme" e1_pos="3" e2_pos="34" path="3@@1@@4@@18@@30@@32@@34@@">ZAVESCA@@@@prep_of@@co-administration@@nsubj@@appeared@@advcl@@conclusive@@dep@@took@@dobj@@doses@@prep_of@@Cerezyme</pair>  
+      <pair id="DDI-DrugBank.d695.s0.p2" e1="DDI-DrugBank.d695.s0.e1" e2="DDI-DrugBank.d695.s0.e2" ddi="false" flags="True" e1_name="Cerezyme" e2_name="Cerezyme" e1_pos="10" e2_pos="34" path="10@@8@@6@@4@@18@@30@@32@@34@@">Cerezyme@@@@prep_of@@clearance@@dobj@@increase@@xcomp@@appeared@@advcl@@conclusive@@dep@@took@@dobj@@doses@@prep_of@@Cerezyme</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d695.s1" text="Combination therapy with Cerezyme    (imiglucerase) and ZAVESCA    is not indicated." new_text="Combination@@therapy@@with@@Cerezyme@@(@@imiglucerase@@)@@and@@ZAVESCA@@is@@not@@indicated@@.@@"> 
+      <entity id="DDI-DrugBank.d695.s1.e0" charOffset="25-32" type="brand" text="Cerezyme" position="3"/>  
+      <entity id="DDI-DrugBank.d695.s1.e1" charOffset="38-49" type="drug" text="imiglucerase" position="5"/>  
+      <entity id="DDI-DrugBank.d695.s1.e2" charOffset="56-62" type="brand" text="ZAVESCA" position="8"/>  
+      <pair id="DDI-DrugBank.d695.s1.p0" e1="DDI-DrugBank.d695.s1.e0" e2="DDI-DrugBank.d695.s1.e1" ddi="false" flags="True" e1_name="Cerezyme" e2_name="imiglucerase" e1_pos="3" e2_pos="5" path="3@@4@@1@@5@@">Cerezyme@@@@nn@@(@@prep_with@@therapy@@nsubj@@imiglucerase</pair>  
+      <pair id="DDI-DrugBank.d695.s1.p1" e1="DDI-DrugBank.d695.s1.e0" e2="DDI-DrugBank.d695.s1.e2" ddi="true" type="advise" flags="True" e1_name="Cerezyme" e2_name="ZAVESCA" e1_pos="3" e2_pos="8" path="3@@4@@1@@5@@11@@8@@">Cerezyme@@@@nn@@(@@prep_with@@therapy@@nsubj@@imiglucerase@@ccomp@@indicated@@nsubjpass@@ZAVESCA</pair>  
+      <pair id="DDI-DrugBank.d695.s1.p2" e1="DDI-DrugBank.d695.s1.e1" e2="DDI-DrugBank.d695.s1.e2" ddi="true" type="advise" flags="True" e1_name="imiglucerase" e2_name="ZAVESCA" e1_pos="5" e2_pos="8" path="5@@11@@8@@">imiglucerase@@@@ccomp@@indicated@@nsubjpass@@ZAVESCA</pair> 
+   </sentence> 
+</document>

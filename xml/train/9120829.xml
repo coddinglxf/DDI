@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d113"> 
+   <sentence id="DDI-MedLine.d113.s0" text="Acid-catalyzed ethanolysis of temazepam in anhydrous and aqueous ethanol solutions." new_text="Acid-catalyzed@@ethanolysis@@of@@temazepam@@in@@anhydrous@@and@@aqueous@@ethanol@@solutions@@.@@"> 
+      <entity id="DDI-MedLine.d113.s0.e0" charOffset="30-38" type="drug" text="temazepam" position="3"/>  
+      <entity id="DDI-MedLine.d113.s0.e1" charOffset="65-71" type="drug" text="ethanol" position="8"/>  
+      <pair id="DDI-MedLine.d113.s0.p0" e1="DDI-MedLine.d113.s0.e0" e2="DDI-MedLine.d113.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="temazepam" e2_name="ethanol" e1_pos="3" e2_pos="8" path="3@@1@@9@@8@@">temazepam@@@@prep_of@@ethanolysis@@prep_in@@solutions@@nn@@ethanol</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d113.s1" text="The benzodiazepines are a family of anxiolytic and hypnotic drugs. " new_text="The@@benzodiazepines@@are@@a@@family@@of@@anxiolytic@@and@@hypnotic drugs@@.@@"> 
+      <entity id="DDI-MedLine.d113.s1.e0" charOffset="4-18" type="group" text="benzodiazepines" position="1"/>  
+      <entity id="DDI-MedLine.d113.s1.e1" charOffset="36-45" type="group" text="anxiolytic" position="6"/>  
+      <entity id="DDI-MedLine.d113.s1.e2" charOffset="51-64" type="group" text="hypnotic drugs" position="8"/>  
+      <pair id="DDI-MedLine.d113.s1.p0" e1="DDI-MedLine.d113.s1.e0" e2="DDI-MedLine.d113.s1.e1" ddi="false" flags="True" e1_name="benzodiazepines" e2_name="anxiolytic" e1_pos="1" e2_pos="6" path="1@@4@@6@@">benzodiazepines@@@@nsubj@@family@@prep_of@@anxiolytic</pair>  
+      <pair id="DDI-MedLine.d113.s1.p1" e1="DDI-MedLine.d113.s1.e0" e2="DDI-MedLine.d113.s1.e2" ddi="false" flags="True" e1_name="benzodiazepines" e2_name="hypnotic drugs" e1_pos="1" e2_pos="8" path="1@@4@@8@@">benzodiazepines@@@@nsubj@@family@@prep_of@@hypnotic drugs</pair>  
+      <pair id="DDI-MedLine.d113.s1.p2" e1="DDI-MedLine.d113.s1.e1" e2="DDI-MedLine.d113.s1.e2" ddi="false" flags="True" e1_name="anxiolytic" e2_name="hypnotic drugs" e1_pos="6" e2_pos="8" path="6@@8@@">anxiolytic@@@@conj_and@@hypnotic drugs</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d113.s2" text="When taken concurrently with ethanol, a pharmacological interaction may occur, potentiating the central nervous system depression produced by either drug. " new_text="When@@taken@@concurrently@@with@@ethanol@@,@@a@@pharmacological@@interaction@@may@@occur@@,@@potentiating@@the@@central@@nervous@@system@@depression@@produced@@by@@either@@drug@@.@@"> 
+      <entity id="DDI-MedLine.d113.s2.e0" charOffset="29-35" type="drug" text="ethanol" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d113.s3" text="In addition to this pharmacological interaction, this report describes a novel chemical reaction between temazepam (a benzodiazepine) and ethanol under acidic conditions similar to those found in vivo, resulting in a 3-ethoxylated product. " new_text="In@@addition@@to@@this@@pharmacological@@interaction@@,@@this@@report@@describes@@a@@novel@@chemical@@reaction@@between@@temazepam@@(a@@benzodiazepine@@)@@and@@ethanol@@under@@acidic@@conditions@@similar@@to@@those@@found@@in@@vivo@@,@@resulting@@in@@a@@3-ethoxylated@@product@@.@@"> 
+      <entity id="DDI-MedLine.d113.s3.e0" charOffset="105-113" type="drug" text="temazepam" position="15"/>  
+      <entity id="DDI-MedLine.d113.s3.e1" charOffset="118-131" type="group" text="benzodiazepine" position="17"/>  
+      <entity id="DDI-MedLine.d113.s3.e2" charOffset="138-144" type="drug" text="ethanol" position="20"/>  
+      <pair id="DDI-MedLine.d113.s3.p0" e1="DDI-MedLine.d113.s3.e0" e2="DDI-MedLine.d113.s3.e1" ddi="false" flags="True" e1_name="temazepam" e2_name="benzodiazepine" e1_pos="15" e2_pos="17" path="15@@18@@17@@">temazepam@@@@nn@@)@@nn@@benzodiazepine</pair>  
+      <pair id="DDI-MedLine.d113.s3.p1" e1="DDI-MedLine.d113.s3.e0" e2="DDI-MedLine.d113.s3.e2" ddi="true" type="mechanism" flags="True" e1_name="temazepam" e2_name="ethanol" e1_pos="15" e2_pos="20" path="15@@18@@20@@">temazepam@@@@nn@@)@@conj_and@@ethanol</pair>  
+      <pair id="DDI-MedLine.d113.s3.p2" e1="DDI-MedLine.d113.s3.e1" e2="DDI-MedLine.d113.s3.e2" ddi="false" flags="True" e1_name="benzodiazepine" e2_name="ethanol" e1_pos="17" e2_pos="20" path="17@@18@@20@@">benzodiazepine@@@@nn@@)@@conj_and@@ethanol</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d113.s4" text="Optimal conditions, kinetics, equilibrium, and the mechanism of this acid-catalyzed ethanolysis are reported. " new_text="Optimal@@conditions@@,@@kinetics@@,@@equilibrium@@,@@and@@the@@mechanism@@of@@this@@acid-catalyzed@@ethanolysis@@are@@reported@@.@@"/>  
+   <sentence id="DDI-MedLine.d113.s5" text="The results raise the possibility that the ethanolysis reaction may occur in the stomach of people who consume alcohol and 3-hydroxy-1,4-benzodiazepine on a regular basis. " new_text="The@@results@@raise@@the@@possibility@@that@@the@@ethanolysis@@reaction@@may@@occur@@in@@the@@stomach@@of@@people@@who@@consume@@alcohol@@and@@3-hydroxy-1,4-benzodiazepine@@on@@a@@regular@@basis@@.@@"> 
+      <entity id="DDI-MedLine.d113.s5.e0" charOffset="111-117" type="drug" text="alcohol" position="18"/>  
+      <entity id="DDI-MedLine.d113.s5.e1" charOffset="123-150" type="group" text="3-hydroxy-1,4-benzodiazepine" position="20"/>  
+      <pair id="DDI-MedLine.d113.s5.p0" e1="DDI-MedLine.d113.s5.e0" e2="DDI-MedLine.d113.s5.e1" ddi="true" type="mechanism" flags="True" e1_name="alcohol" e2_name="3-hydroxy-1,4-benzodiazepine" e1_pos="18" e2_pos="20" path="18@@20@@">alcohol@@@@conj_and@@3-hydroxy-1,4-benzodiazepine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d113.s6" text="The acid-catalyzed ethanol-drug reaction is a relatively unexplored area and may alter the pharmacological action of some drugs." new_text="The@@acid-catalyzed@@ethanol@@-drug@@reaction@@is@@a@@relatively@@unexplored@@area@@and@@may@@alter@@the@@pharmacological@@action@@of@@some@@drugs@@.@@"> 
+      <entity id="DDI-MedLine.d113.s6.e0" charOffset="19-25" type="drug" text="ethanol" position="2"/> 
+   </sentence> 
+</document>

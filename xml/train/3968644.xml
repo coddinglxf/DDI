@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d30"> 
+   <sentence id="DDI-MedLine.d30.s0" text="Stereoselective behavioral effects of N-allylnormetazocine in pigeons and squirrel monkeys.
+" new_text="Stereoselective@@behavioral@@effects@@of@@N-allylnormetazocine@@in@@pigeons@@and@@squirrel@@monkeys@@.@@"> 
+      <entity id="DDI-MedLine.d30.s0.e0" charOffset="38-57" type="drug_n" text="N-allylnormetazocine" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d30.s1" text="The behavioral effects of the stereoisomers of N-allylnormetazocine (NANM) were compared with those of phencyclidine (PCP) in pigeons and squirrel monkeys responding under a multiple fixed-interval fixed-ratio (FI FR) schedule of food presentation. " new_text="The@@behavioral@@effects@@of@@the@@stereoisomers@@of@@N-allylnormetazocine@@(@@NANM@@)@@were@@compared@@with@@those@@of@@phencyclidine@@(@@PCP@@)@@in@@pigeons@@and@@squirrel@@monkeys@@responding@@under@@a@@multiple@@fixed-interval@@fixed-ratio@@(FI@@FR)@@schedule@@of@@food@@presentation@@.@@"> 
+      <entity id="DDI-MedLine.d30.s1.e0" charOffset="47-66" type="drug_n" text="N-allylnormetazocine" position="7"/>  
+      <entity id="DDI-MedLine.d30.s1.e1" charOffset="69-72" type="drug_n" text="NANM" position="9"/>  
+      <entity id="DDI-MedLine.d30.s1.e2" charOffset="103-115" type="drug_n" text="phencyclidine" position="16"/>  
+      <entity id="DDI-MedLine.d30.s1.e3" charOffset="118-120" type="drug_n" text="PCP" position="18"/>  
+      <pair id="DDI-MedLine.d30.s1.p0" e1="DDI-MedLine.d30.s1.e0" e2="DDI-MedLine.d30.s1.e1" ddi="false" flags="True" e1_name="N-allylnormetazocine" e2_name="NANM" e1_pos="7" e2_pos="9" path="7@@10@@9@@">N-allylnormetazocine@@@@nn@@)@@nn@@NANM</pair>  
+      <pair id="DDI-MedLine.d30.s1.p1" e1="DDI-MedLine.d30.s1.e0" e2="DDI-MedLine.d30.s1.e2" ddi="false" flags="True" e1_name="N-allylnormetazocine" e2_name="phencyclidine" e1_pos="7" e2_pos="16" path="7@@10@@5@@2@@12@@14@@19@@16@@">N-allylnormetazocine@@@@nn@@)@@prep_of@@stereoisomers@@prep_of@@effects@@nsubjpass@@compared@@prep_with@@those@@prep_of@@)@@amod@@phencyclidine</pair>  
+      <pair id="DDI-MedLine.d30.s1.p2" e1="DDI-MedLine.d30.s1.e0" e2="DDI-MedLine.d30.s1.e3" ddi="false" flags="True" e1_name="N-allylnormetazocine" e2_name="PCP" e1_pos="7" e2_pos="18" path="7@@10@@5@@2@@12@@14@@19@@18@@">N-allylnormetazocine@@@@nn@@)@@prep_of@@stereoisomers@@prep_of@@effects@@nsubjpass@@compared@@prep_with@@those@@prep_of@@)@@nn@@PCP</pair>  
+      <pair id="DDI-MedLine.d30.s1.p3" e1="DDI-MedLine.d30.s1.e1" e2="DDI-MedLine.d30.s1.e2" ddi="false" flags="True" e1_name="NANM" e2_name="phencyclidine" e1_pos="9" e2_pos="16" path="9@@10@@5@@2@@12@@14@@19@@16@@">NANM@@@@nn@@)@@prep_of@@stereoisomers@@prep_of@@effects@@nsubjpass@@compared@@prep_with@@those@@prep_of@@)@@amod@@phencyclidine</pair>  
+      <pair id="DDI-MedLine.d30.s1.p4" e1="DDI-MedLine.d30.s1.e1" e2="DDI-MedLine.d30.s1.e3" ddi="false" flags="True" e1_name="NANM" e2_name="PCP" e1_pos="9" e2_pos="18" path="9@@10@@5@@2@@12@@14@@19@@18@@">NANM@@@@nn@@)@@prep_of@@stereoisomers@@prep_of@@effects@@nsubjpass@@compared@@prep_with@@those@@prep_of@@)@@nn@@PCP</pair>  
+      <pair id="DDI-MedLine.d30.s1.p5" e1="DDI-MedLine.d30.s1.e2" e2="DDI-MedLine.d30.s1.e3" ddi="false" flags="True" e1_name="phencyclidine" e2_name="PCP" e1_pos="16" e2_pos="18" path="16@@19@@18@@">phencyclidine@@@@amod@@)@@nn@@PCP</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d30.s2" text="Intermediate doses of (+)-NANM or PCP produced transient increases in FI responding in monkeys and sustained increases in FI responding in pigeons; " new_text="Intermediate@@doses@@of@@(+)-NANM@@or@@PCP@@produced@@transient@@increases@@in@@FI@@responding@@in@@monkeys@@and@@sustained@@increases@@in@@FI@@responding@@in@@pigeons;@@"> 
+      <entity id="DDI-MedLine.d30.s2.e0" charOffset="22-29" type="drug_n" text="(+)-NANM" position="3"/>  
+      <entity id="DDI-MedLine.d30.s2.e1" charOffset="34-36" type="drug_n" text="PCP" position="5"/>  
+      <pair id="DDI-MedLine.d30.s2.p0" e1="DDI-MedLine.d30.s2.e0" e2="DDI-MedLine.d30.s2.e1" ddi="false" flags="True" e1_name="(+)-NANM" e2_name="PCP" e1_pos="3" e2_pos="5" path="3@@5@@">(+)-NANM@@@@conj_or@@PCP</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d30.s3" text="higher doses decreased FI and FR responding in both species. " new_text="higher@@doses@@decreased@@FI@@and@@FR@@responding@@in@@both@@species@@.@@"/>  
+   <sentence id="DDI-MedLine.d30.s4" text="In contrast to its enantiomer, (-)-NANM failed to increase FI responding significantly in either species; " new_text="In@@contrast@@to@@its@@enantiomer@@,@@(-)-NANM@@failed@@to@@increase@@FI@@responding@@significantly@@in@@either@@species;@@"> 
+      <entity id="DDI-MedLine.d30.s4.e0" charOffset="31-38" type="drug_n" text="(-)-NANM" position="6"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d30.s5" text="at high doses, (-)-NANM decreased FI and FR responding. " new_text="at@@high@@doses@@,@@(-)-NANM@@decreased@@FI@@and@@FR@@responding@@.@@"> 
+      <entity id="DDI-MedLine.d30.s5.e0" charOffset="15-22" type="drug_n" text="(-)-NANM" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d30.s6" text="In monkeys, (-)-NANM was about 10 times more potent than (+)-NANM in decreasing responding, whereas in pigeons (-)-NANM was about equipotent with (+)-NANM. " new_text="In@@monkeys@@,@@(-)-NANM@@was@@about@@10@@times@@more@@potent@@than@@(+)-NANM@@in@@decreasing@@responding@@,@@whereas@@in@@pigeons@@(-)-NANM@@was@@about@@equipotent@@with@@(+)-NANM@@.@@"> 
+      <entity id="DDI-MedLine.d30.s6.e0" charOffset="12-19" type="drug_n" text="(-)-NANM" position="3"/>  
+      <entity id="DDI-MedLine.d30.s6.e1" charOffset="57-64" type="drug_n" text="(+)-NANM" position="11"/>  
+      <entity id="DDI-MedLine.d30.s6.e2" charOffset="111-118" type="drug_n" text="(-)-NANM" position="19"/>  
+      <entity id="DDI-MedLine.d30.s6.e3" charOffset="146-153" type="drug_n" text="(+)-NANM" position="24"/>  
+      <pair id="DDI-MedLine.d30.s6.p0" e1="DDI-MedLine.d30.s6.e0" e2="DDI-MedLine.d30.s6.e1" ddi="false" flags="True" e1_name="(-)-NANM" e2_name="(+)-NANM" e1_pos="3" e2_pos="11" path="3@@9@@11@@">(-)-NANM@@@@nsubj@@potent@@prep_than@@(+)-NANM</pair>  
+      <pair id="DDI-MedLine.d30.s6.p1" e1="DDI-MedLine.d30.s6.e0" e2="DDI-MedLine.d30.s6.e2" ddi="false" flags="True" e1_name="(-)-NANM" e2_name="(-)-NANM" e1_pos="3" e2_pos="19" path="3@@9@@22@@19@@">(-)-NANM@@@@nsubj@@potent@@advcl@@equipotent@@nsubj@@(-)-NANM</pair>  
+      <pair id="DDI-MedLine.d30.s6.p2" e1="DDI-MedLine.d30.s6.e0" e2="DDI-MedLine.d30.s6.e3" ddi="false" flags="True" e1_name="(-)-NANM" e2_name="(+)-NANM" e1_pos="3" e2_pos="24" path="3@@9@@22@@24@@">(-)-NANM@@@@nsubj@@potent@@advcl@@equipotent@@prep_with@@(+)-NANM</pair>  
+      <pair id="DDI-MedLine.d30.s6.p3" e1="DDI-MedLine.d30.s6.e1" e2="DDI-MedLine.d30.s6.e2" ddi="false" flags="True" e1_name="(+)-NANM" e2_name="(-)-NANM" e1_pos="11" e2_pos="19" path="11@@9@@22@@19@@">(+)-NANM@@@@prep_than@@potent@@advcl@@equipotent@@nsubj@@(-)-NANM</pair>  
+      <pair id="DDI-MedLine.d30.s6.p4" e1="DDI-MedLine.d30.s6.e1" e2="DDI-MedLine.d30.s6.e3" ddi="false" flags="True" e1_name="(+)-NANM" e2_name="(+)-NANM" e1_pos="11" e2_pos="24" path="11@@9@@22@@24@@">(+)-NANM@@@@prep_than@@potent@@advcl@@equipotent@@prep_with@@(+)-NANM</pair>  
+      <pair id="DDI-MedLine.d30.s6.p5" e1="DDI-MedLine.d30.s6.e2" e2="DDI-MedLine.d30.s6.e3" ddi="false" flags="True" e1_name="(-)-NANM" e2_name="(+)-NANM" e1_pos="19" e2_pos="24" path="19@@22@@24@@">(-)-NANM@@@@nsubj@@equipotent@@prep_with@@(+)-NANM</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d30.s7" text="In both species, (-)-NANM, but not (+)-NANM, antagonized the rate-decreasing effects of morphine on FI and FR responding. " new_text="In@@both@@species@@,@@(-)-NANM@@,@@but@@not@@(+)-NANM@@,@@antagonized@@the@@rate-decreasing@@effects@@of@@morphine@@on@@FI@@and@@FR@@responding@@.@@"> 
+      <entity id="DDI-MedLine.d30.s7.e0" charOffset="17-24" type="drug_n" text="(-)-NANM" position="4"/>  
+      <entity id="DDI-MedLine.d30.s7.e1" charOffset="35-42" type="drug_n" text="(+)-NANM" position="8"/>  
+      <entity id="DDI-MedLine.d30.s7.e2" charOffset="88-95" type="drug" text="morphine" position="15"/>  
+      <pair id="DDI-MedLine.d30.s7.p0" e1="DDI-MedLine.d30.s7.e0" e2="DDI-MedLine.d30.s7.e1" ddi="false" flags="True" e1_name="(-)-NANM" e2_name="(+)-NANM" e1_pos="4" e2_pos="8" path="4@@8@@">(-)-NANM@@@@conj_negcc@@(+)-NANM</pair>  
+      <pair id="DDI-MedLine.d30.s7.p1" e1="DDI-MedLine.d30.s7.e0" e2="DDI-MedLine.d30.s7.e2" ddi="true" type="effect" flags="True" e1_name="(-)-NANM" e2_name="morphine" e1_pos="4" e2_pos="15" path="4@@10@@13@@15@@">(-)-NANM@@@@nsubj@@antagonized@@dobj@@effects@@prep_of@@morphine</pair>  
+      <pair id="DDI-MedLine.d30.s7.p2" e1="DDI-MedLine.d30.s7.e1" e2="DDI-MedLine.d30.s7.e2" ddi="false" flags="True" e1_name="(+)-NANM" e2_name="morphine" e1_pos="8" e2_pos="15" path="8@@10@@13@@15@@">(+)-NANM@@@@nsubj@@antagonized@@dobj@@effects@@prep_of@@morphine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d30.s8" text="In monkeys, the effects of (-)-NANM, but not (+)-NANM or PCP, were antagonized by naloxone; " new_text="In@@monkeys@@,@@the@@effects@@of@@(-)-NANM@@,@@but@@not@@(+)-NANM@@or@@PCP@@,@@were@@antagonized@@by@@naloxone@@;@@"> 
+      <entity id="DDI-MedLine.d30.s8.e0" charOffset="27-34" type="drug_n" text="(-)-NANM" position="6"/>  
+      <entity id="DDI-MedLine.d30.s8.e1" charOffset="45-52" type="drug_n" text="(+)-NANM" position="10"/>  
+      <entity id="DDI-MedLine.d30.s8.e2" charOffset="57-59" type="drug_n" text="PCP" position="12"/>  
+      <entity id="DDI-MedLine.d30.s8.e3" charOffset="82-89" type="drug" text="naloxone" position="17"/>  
+      <pair id="DDI-MedLine.d30.s8.p0" e1="DDI-MedLine.d30.s8.e0" e2="DDI-MedLine.d30.s8.e1" ddi="false" flags="True" e1_name="(-)-NANM" e2_name="(+)-NANM" e1_pos="6" e2_pos="10" path="6@@4@@10@@">(-)-NANM@@@@prep_of@@effects@@conj_negcc@@(+)-NANM</pair>  
+      <pair id="DDI-MedLine.d30.s8.p1" e1="DDI-MedLine.d30.s8.e0" e2="DDI-MedLine.d30.s8.e2" ddi="false" flags="True" e1_name="(-)-NANM" e2_name="PCP" e1_pos="6" e2_pos="12" path="6@@4@@12@@">(-)-NANM@@@@prep_of@@effects@@conj_negcc@@PCP</pair>  
+      <pair id="DDI-MedLine.d30.s8.p2" e1="DDI-MedLine.d30.s8.e0" e2="DDI-MedLine.d30.s8.e3" ddi="true" type="effect" flags="True" e1_name="(-)-NANM" e2_name="naloxone" e1_pos="6" e2_pos="17" path="6@@4@@15@@17@@">(-)-NANM@@@@prep_of@@effects@@nsubjpass@@antagonized@@agent@@naloxone</pair>  
+      <pair id="DDI-MedLine.d30.s8.p3" e1="DDI-MedLine.d30.s8.e1" e2="DDI-MedLine.d30.s8.e2" ddi="false" flags="True" e1_name="(+)-NANM" e2_name="PCP" e1_pos="10" e2_pos="12" path="10@@12@@">(+)-NANM@@@@conj_or@@PCP</pair>  
+      <pair id="DDI-MedLine.d30.s8.p4" e1="DDI-MedLine.d30.s8.e1" e2="DDI-MedLine.d30.s8.e3" ddi="false" flags="True" e1_name="(+)-NANM" e2_name="naloxone" e1_pos="10" e2_pos="17" path="10@@15@@17@@">(+)-NANM@@@@nsubjpass@@antagonized@@agent@@naloxone</pair>  
+      <pair id="DDI-MedLine.d30.s8.p5" e1="DDI-MedLine.d30.s8.e2" e2="DDI-MedLine.d30.s8.e3" ddi="false" flags="True" e1_name="PCP" e2_name="naloxone" e1_pos="12" e2_pos="17" path="12@@4@@15@@17@@">PCP@@@@conj_negcc@@effects@@nsubjpass@@antagonized@@agent@@naloxone</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d30.s9" text="the doses of naloxone required to antagonize the effects of (-)-NANM were more than 100 times higher than those required to antagonize the effects of morphine. " new_text="the@@doses@@of@@naloxone@@required@@to@@antagonize@@the@@effects@@of@@(-)-NANM@@were@@more@@than@@100@@times@@higher@@than@@those@@required@@to@@antagonize@@the@@effects@@of@@morphine@@.@@"> 
+      <entity id="DDI-MedLine.d30.s9.e0" charOffset="13-20" type="drug" text="naloxone" position="3"/>  
+      <entity id="DDI-MedLine.d30.s9.e1" charOffset="60-67" type="drug_n" text="(-)-NANM" position="10"/>  
+      <entity id="DDI-MedLine.d30.s9.e2" charOffset="150-157" type="drug" text="morphine" position="25"/>  
+      <pair id="DDI-MedLine.d30.s9.p0" e1="DDI-MedLine.d30.s9.e0" e2="DDI-MedLine.d30.s9.e1" ddi="true" type="effect" flags="True" e1_name="naloxone" e2_name="(-)-NANM" e1_pos="3" e2_pos="10" path="3@@4@@6@@8@@10@@">naloxone@@@@partmod@@required@@xcomp@@antagonize@@dobj@@effects@@prep_of@@(-)-NANM</pair>  
+      <pair id="DDI-MedLine.d30.s9.p1" e1="DDI-MedLine.d30.s9.e0" e2="DDI-MedLine.d30.s9.e2" ddi="true" type="effect" flags="True" e1_name="naloxone" e2_name="morphine" e1_pos="3" e2_pos="25" path="3@@1@@16@@19@@21@@23@@25@@">naloxone@@@@prep_of@@doses@@nsubj@@higher@@ccomp@@required@@xcomp@@antagonize@@dobj@@effects@@prep_of@@morphine</pair>  
+      <pair id="DDI-MedLine.d30.s9.p2" e1="DDI-MedLine.d30.s9.e1" e2="DDI-MedLine.d30.s9.e2" ddi="false" flags="True" e1_name="(-)-NANM" e2_name="morphine" e1_pos="10" e2_pos="25" path="10@@8@@6@@4@@3@@1@@16@@19@@21@@23@@25@@">(-)-NANM@@@@prep_of@@effects@@dobj@@antagonize@@xcomp@@required@@partmod@@naloxone@@prep_of@@doses@@nsubj@@higher@@ccomp@@required@@xcomp@@antagonize@@dobj@@effects@@prep_of@@morphine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d30.s10" text="In pigeons, naloxone did not systematically alter the effects of (-)-NANM, (+)-NANM or PCP. " new_text="In@@pigeons@@,@@naloxone@@did@@not@@systematically@@alter@@the@@effects@@of@@(-)-NANM@@,@@(+)-NANM@@or@@PCP@@.@@"> 
+      <entity id="DDI-MedLine.d30.s10.e0" charOffset="12-19" type="drug" text="naloxone" position="3"/>  
+      <entity id="DDI-MedLine.d30.s10.e1" charOffset="65-72" type="drug_n" text="(-)-NANM" position="11"/>  
+      <entity id="DDI-MedLine.d30.s10.e2" charOffset="75-82" type="drug_n" text="(+)-NANM" position="13"/>  
+      <entity id="DDI-MedLine.d30.s10.e3" charOffset="87-89" type="drug_n" text="PCP" position="15"/>  
+      <pair id="DDI-MedLine.d30.s10.p0" e1="DDI-MedLine.d30.s10.e0" e2="DDI-MedLine.d30.s10.e1" ddi="false" flags="True" e1_name="naloxone" e2_name="(-)-NANM" e1_pos="3" e2_pos="11" path="3@@7@@9@@11@@">naloxone@@@@nsubj@@alter@@dobj@@effects@@prep_of@@(-)-NANM</pair>  
+      <pair id="DDI-MedLine.d30.s10.p1" e1="DDI-MedLine.d30.s10.e0" e2="DDI-MedLine.d30.s10.e2" ddi="false" flags="True" e1_name="naloxone" e2_name="(+)-NANM" e1_pos="3" e2_pos="13" path="3@@7@@9@@13@@">naloxone@@@@nsubj@@alter@@dobj@@effects@@prep_of@@(+)-NANM</pair>  
+      <pair id="DDI-MedLine.d30.s10.p2" e1="DDI-MedLine.d30.s10.e0" e2="DDI-MedLine.d30.s10.e3" ddi="false" flags="True" e1_name="naloxone" e2_name="PCP" e1_pos="3" e2_pos="15" path="3@@7@@9@@15@@">naloxone@@@@nsubj@@alter@@dobj@@effects@@prep_of@@PCP</pair>  
+      <pair id="DDI-MedLine.d30.s10.p3" e1="DDI-MedLine.d30.s10.e1" e2="DDI-MedLine.d30.s10.e2" ddi="false" flags="True" e1_name="(-)-NANM" e2_name="(+)-NANM" e1_pos="11" e2_pos="13" path="11@@13@@">(-)-NANM@@@@conj_or@@(+)-NANM</pair>  
+      <pair id="DDI-MedLine.d30.s10.p4" e1="DDI-MedLine.d30.s10.e1" e2="DDI-MedLine.d30.s10.e3" ddi="false" flags="True" e1_name="(-)-NANM" e2_name="PCP" e1_pos="11" e2_pos="15" path="11@@15@@">(-)-NANM@@@@conj_or@@PCP</pair>  
+      <pair id="DDI-MedLine.d30.s10.p5" e1="DDI-MedLine.d30.s10.e2" e2="DDI-MedLine.d30.s10.e3" ddi="false" flags="True" e1_name="(+)-NANM" e2_name="PCP" e1_pos="13" e2_pos="15" path="13@@9@@15@@">(+)-NANM@@@@prep_of@@effects@@prep_of@@PCP</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d30.s11" text="Haloperidol reduced or eliminated the increases in FI responding produced by intermediate doses of either (+)-NANM or PCP in pigeons, but did not antagonize the decreases in FI or FR responding produced by high doses of PCP or either stereoisomer of NANM. " new_text="Haloperidol@@reduced@@or@@eliminated@@the@@increases@@in@@FI@@responding@@produced@@by@@intermediate@@doses@@of@@either@@(+)-NANM@@or@@PCP@@in@@pigeons@@,@@but@@did@@not@@antagonize@@the@@decreases@@in@@FI@@or@@FR@@responding@@produced@@by@@high@@doses@@of@@PCP@@or@@either@@stereoisomer@@of@@NANM@@.@@"> 
+      <entity id="DDI-MedLine.d30.s11.e0" charOffset="0-10" type="drug" text="Haloperidol" position="0"/>  
+      <entity id="DDI-MedLine.d30.s11.e1" charOffset="106-113" type="drug_n" text="(+)-NANM" position="15"/>  
+      <entity id="DDI-MedLine.d30.s11.e2" charOffset="118-120" type="drug_n" text="PCP" position="17"/>  
+      <entity id="DDI-MedLine.d30.s11.e3" charOffset="250-253" type="drug_n" text="NANM" position="42"/>  
+      <pair id="DDI-MedLine.d30.s11.p0" e1="DDI-MedLine.d30.s11.e0" e2="DDI-MedLine.d30.s11.e1" ddi="true" type="effect" flags="True" e1_name="Haloperidol" e2_name="(+)-NANM" e1_pos="0" e2_pos="15" path="0@@1@@8@@9@@12@@15@@">Haloperidol@@@@nsubj@@reduced@@prep_in@@responding@@partmod@@produced@@agent@@doses@@prep_of@@(+)-NANM</pair>  
+      <pair id="DDI-MedLine.d30.s11.p1" e1="DDI-MedLine.d30.s11.e0" e2="DDI-MedLine.d30.s11.e2" ddi="true" type="effect" flags="True" e1_name="Haloperidol" e2_name="PCP" e1_pos="0" e2_pos="17" path="0@@1@@8@@9@@12@@17@@">Haloperidol@@@@nsubj@@reduced@@prep_in@@responding@@partmod@@produced@@agent@@doses@@prep_of@@PCP</pair>  
+      <pair id="DDI-MedLine.d30.s11.p2" e1="DDI-MedLine.d30.s11.e0" e2="DDI-MedLine.d30.s11.e3" ddi="false" flags="True" e1_name="Haloperidol" e2_name="NANM" e1_pos="0" e2_pos="42" path="0@@24@@26@@31@@32@@40@@42@@">Haloperidol@@@@nsubj@@antagonize@@dobj@@decreases@@partmod@@responding@@dep@@produced@@dep@@stereoisomer@@prep_of@@NANM</pair>  
+      <pair id="DDI-MedLine.d30.s11.p3" e1="DDI-MedLine.d30.s11.e1" e2="DDI-MedLine.d30.s11.e2" ddi="false" flags="True" e1_name="(+)-NANM" e2_name="PCP" e1_pos="15" e2_pos="17" path="15@@17@@">(+)-NANM@@@@conj_or@@PCP</pair>  
+      <pair id="DDI-MedLine.d30.s11.p4" e1="DDI-MedLine.d30.s11.e1" e2="DDI-MedLine.d30.s11.e3" ddi="false" flags="True" e1_name="(+)-NANM" e2_name="NANM" e1_pos="15" e2_pos="42" path="15@@12@@9@@8@@1@@24@@26@@31@@32@@40@@42@@">(+)-NANM@@@@prep_of@@doses@@agent@@produced@@partmod@@responding@@prep_in@@reduced@@conj_but@@antagonize@@dobj@@decreases@@partmod@@responding@@dep@@produced@@dep@@stereoisomer@@prep_of@@NANM</pair>  
+      <pair id="DDI-MedLine.d30.s11.p5" e1="DDI-MedLine.d30.s11.e2" e2="DDI-MedLine.d30.s11.e3" ddi="false" flags="True" e1_name="PCP" e2_name="NANM" e1_pos="17" e2_pos="42" path="17@@12@@9@@8@@1@@24@@26@@31@@32@@40@@42@@">PCP@@@@prep_of@@doses@@agent@@produced@@partmod@@responding@@prep_in@@reduced@@conj_but@@antagonize@@dobj@@decreases@@partmod@@responding@@dep@@produced@@dep@@stereoisomer@@prep_of@@NANM</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d30.s12" text="The results demonstrate a high degree of stereoselectivity in the behavioral effects of NANM. " new_text="The@@results@@demonstrate@@a@@high@@degree@@of@@stereoselectivity@@in@@the@@behavioral@@effects@@of@@NANM@@.@@"> 
+      <entity id="DDI-MedLine.d30.s12.e0" charOffset="88-91" type="drug_n" text="NANM" position="13"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d30.s13" text="The levorotatory isomer had opioid-antagonist and non-opioid agonist effects in pigeons and mixed opioid agonist-antagonist effects in monkeys. " new_text="The@@levorotatory@@isomer@@had@@opioid-antagonist@@and@@non-opioid@@agonist@@effects@@in@@pigeons@@and@@mixed@@opioid@@agonist-antagonist@@effects@@in@@monkeys@@.@@"/>  
+   <sentence id="DDI-MedLine.d30.s14" text="The dextrorotatory isomer, on the other hand, had effects similar to those of PCP in both species." new_text="The@@dextrorotatory@@isomer@@,@@on@@the@@other@@hand@@,@@had@@effects@@similar@@to@@those@@of@@PCP@@in@@both@@species@@.@@"> 
+      <entity id="DDI-MedLine.d30.s14.e0" charOffset="78-80" type="drug_n" text="PCP" position="15"/> 
+   </sentence> 
+</document>

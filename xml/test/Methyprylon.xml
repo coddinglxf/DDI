@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d600"> 
+   <sentence id="DDI-DrugBank.d600.s0" text="Methyprylon may interact with other addictive medications, in that it may increase the likelyhood of addiction and abuse. " new_text="Methyprylon@@may@@interact@@with@@other@@addictive@@medications@@,@@in@@that@@it@@may@@increase@@the@@likelyhood@@of@@addiction@@and@@abuse@@.@@"> 
+      <entity id="DDI-DrugBank.d600.s0.e0" charOffset="0-10" type="drug" text="Methyprylon" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d600.s1" text="Concurrent use of alcohol and other CNS depression-producing drugs may increase the CNS depressant effects of methyprylon or these other medications." new_text="Concurrent@@use@@of@@alcohol@@and@@other@@CNS depression-producing drugs@@may@@increase@@the@@CNS@@depressant@@effects@@of@@methyprylon@@or@@these@@other@@medications@@.@@"> 
+      <entity id="DDI-DrugBank.d600.s1.e0" charOffset="18-24" type="drug" text="alcohol" position="3"/>  
+      <entity id="DDI-DrugBank.d600.s1.e1" charOffset="36-65" type="group" text="CNS depression-producing drugs" position="6"/>  
+      <entity id="DDI-DrugBank.d600.s1.e2" charOffset="110-120" type="drug" text="methyprylon" position="14"/>  
+      <pair id="DDI-DrugBank.d600.s1.p0" e1="DDI-DrugBank.d600.s1.e0" e2="DDI-DrugBank.d600.s1.e1" ddi="false" flags="True" e1_name="alcohol" e2_name="CNS depression-producing drugs" e1_pos="3" e2_pos="6" path="3@@6@@">alcohol@@@@nn@@CNS depression-producing drugs</pair>  
+      <pair id="DDI-DrugBank.d600.s1.p1" e1="DDI-DrugBank.d600.s1.e0" e2="DDI-DrugBank.d600.s1.e2" ddi="true" type="effect" flags="True" e1_name="alcohol" e2_name="methyprylon" e1_pos="3" e2_pos="14" path="3@@6@@1@@8@@12@@14@@">alcohol@@@@nn@@CNS depression-producing drugs@@prep_of@@use@@nsubj@@increase@@dobj@@effects@@prep_of@@methyprylon</pair>  
+      <pair id="DDI-DrugBank.d600.s1.p2" e1="DDI-DrugBank.d600.s1.e1" e2="DDI-DrugBank.d600.s1.e2" ddi="true" type="effect" flags="True" e1_name="CNS depression-producing drugs" e2_name="methyprylon" e1_pos="6" e2_pos="14" path="6@@1@@8@@12@@14@@">CNS depression-producing drugs@@@@prep_of@@use@@nsubj@@increase@@dobj@@effects@@prep_of@@methyprylon</pair> 
+   </sentence> 
+</document>

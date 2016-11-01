@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d31"> 
+   <sentence id="DDI-DrugBank.d31.s0" text="MAO inhibitors should be used with caution in patients receiving hydralazine." new_text="MAO inhibitors@@should@@be@@used@@with@@caution@@in@@patients@@receiving@@hydralazine@@.@@"> 
+      <entity id="DDI-DrugBank.d31.s0.e0" charOffset="0-13" type="group" text="MAO inhibitors" position="0"/>  
+      <entity id="DDI-DrugBank.d31.s0.e1" charOffset="65-75" type="drug" text="hydralazine" position="9"/>  
+      <pair id="DDI-DrugBank.d31.s0.p0" e1="DDI-DrugBank.d31.s0.e0" e2="DDI-DrugBank.d31.s0.e1" ddi="true" type="advise" flags="True" e1_name="MAO inhibitors" e2_name="hydralazine" e1_pos="0" e2_pos="9" path="0@@3@@7@@8@@9@@">MAO inhibitors@@@@nsubjpass@@used@@prep_in@@patients@@partmod@@receiving@@acomp@@hydralazine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d31.s1" text="When other potent parental antihypertensive drugs, such as diazoxide, are used in combination with hydralazine, patients should be continuously observed for several hours for any excessive fall in blood pressure." new_text="When@@other@@potent@@parental@@antihypertensive drugs@@,@@such@@as@@diazoxide@@,@@are@@used@@in@@combination@@with@@hydralazine@@,@@patients@@should@@be@@continuously@@observed@@for@@several@@hours@@for@@any@@excessive@@fall@@in@@blood@@pressure@@.@@"> 
+      <entity id="DDI-DrugBank.d31.s1.e0" charOffset="27-48" type="group" text="antihypertensive drugs" position="4"/>  
+      <entity id="DDI-DrugBank.d31.s1.e1" charOffset="59-67" type="drug" text="diazoxide" position="8"/>  
+      <entity id="DDI-DrugBank.d31.s1.e2" charOffset="99-109" type="drug" text="hydralazine" position="15"/>  
+      <pair id="DDI-DrugBank.d31.s1.p0" e1="DDI-DrugBank.d31.s1.e0" e2="DDI-DrugBank.d31.s1.e1" ddi="true" type="effect" flags="True" e1_name="antihypertensive drugs" e2_name="diazoxide" e1_pos="4" e2_pos="8" path="4@@8@@">antihypertensive drugs@@@@prep_such_as@@diazoxide</pair>  
+      <pair id="DDI-DrugBank.d31.s1.p1" e1="DDI-DrugBank.d31.s1.e0" e2="DDI-DrugBank.d31.s1.e2" ddi="true" type="effect" flags="True" e1_name="antihypertensive drugs" e2_name="hydralazine" e1_pos="4" e2_pos="15" path="4@@11@@15@@">antihypertensive drugs@@@@nsubjpass@@used@@prep_with@@hydralazine</pair>  
+      <pair id="DDI-DrugBank.d31.s1.p2" e1="DDI-DrugBank.d31.s1.e1" e2="DDI-DrugBank.d31.s1.e2" ddi="false" flags="True" e1_name="diazoxide" e2_name="hydralazine" e1_pos="8" e2_pos="15" path="8@@4@@11@@15@@">diazoxide@@@@prep_such_as@@antihypertensive drugs@@nsubjpass@@used@@prep_with@@hydralazine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d31.s2" text="Profound hypotensive episodes may occur when diazoxide infection and hydralazine are used concomitantly." new_text="Profound@@hypotensive@@episodes@@may@@occur@@when@@diazoxide@@infection@@and@@hydralazine@@are@@used@@concomitantly@@.@@"> 
+      <entity id="DDI-DrugBank.d31.s2.e0" charOffset="45-53" type="drug" text="diazoxide" position="6"/>  
+      <entity id="DDI-DrugBank.d31.s2.e1" charOffset="69-79" type="drug" text="hydralazine" position="9"/>  
+      <pair id="DDI-DrugBank.d31.s2.p0" e1="DDI-DrugBank.d31.s2.e0" e2="DDI-DrugBank.d31.s2.e1" ddi="true" type="effect" flags="True" e1_name="diazoxide" e2_name="hydralazine" e1_pos="6" e2_pos="9" path="6@@7@@9@@">diazoxide@@@@amod@@infection@@conj_and@@hydralazine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d31.s3" text="Beta-blockers (metoprolol, propranolol) serum concentrations and pharmacologic effects may be increased." new_text="Beta-blockers@@(@@metoprolol@@,@@propranolol@@)@@serum@@concentrations@@and@@pharmacologic@@effects@@may@@be@@increased@@.@@"> 
+      <entity id="DDI-DrugBank.d31.s3.e0" charOffset="0-12" type="group" text="Beta-blockers" position="0"/>  
+      <entity id="DDI-DrugBank.d31.s3.e1" charOffset="15-24" type="drug" text="metoprolol" position="2"/>  
+      <entity id="DDI-DrugBank.d31.s3.e2" charOffset="27-37" type="drug" text="propranolol" position="4"/>  
+      <pair id="DDI-DrugBank.d31.s3.p0" e1="DDI-DrugBank.d31.s3.e0" e2="DDI-DrugBank.d31.s3.e1" ddi="false" flags="True" e1_name="Beta-blockers" e2_name="metoprolol" e1_pos="0" e2_pos="2" path="0@@7@@2@@">Beta-blockers@@@@amod@@concentrations@@amod@@metoprolol</pair>  
+      <pair id="DDI-DrugBank.d31.s3.p1" e1="DDI-DrugBank.d31.s3.e0" e2="DDI-DrugBank.d31.s3.e2" ddi="false" flags="True" e1_name="Beta-blockers" e2_name="propranolol" e1_pos="0" e2_pos="4" path="0@@7@@4@@">Beta-blockers@@@@amod@@concentrations@@amod@@propranolol</pair>  
+      <pair id="DDI-DrugBank.d31.s3.p2" e1="DDI-DrugBank.d31.s3.e1" e2="DDI-DrugBank.d31.s3.e2" ddi="false" flags="True" e1_name="metoprolol" e2_name="propranolol" e1_pos="2" e2_pos="4" path="2@@7@@4@@">metoprolol@@@@amod@@concentrations@@amod@@propranolol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d31.s4" text="Monitor cardiovascular status." new_text="Monitor@@cardiovascular@@status@@.@@"/>  
+   <sentence id="DDI-DrugBank.d31.s5" text="Propranolol increases hydralazines serum concentrations." new_text="Propranolol@@increases@@hydralazine@@s@@serum@@concentrations@@.@@"> 
+      <entity id="DDI-DrugBank.d31.s5.e0" charOffset="0-10" type="drug" text="Propranolol" position="0"/>  
+      <entity id="DDI-DrugBank.d31.s5.e1" charOffset="22-32" type="drug" text="hydralazine" position="2"/>  
+      <pair id="DDI-DrugBank.d31.s5.p0" e1="DDI-DrugBank.d31.s5.e0" e2="DDI-DrugBank.d31.s5.e1" ddi="true" type="mechanism" flags="True" e1_name="Propranolol" e2_name="hydralazine" e1_pos="0" e2_pos="2" path="0@@1@@5@@2@@">Propranolol@@@@amod@@increases@@nsubj@@concentrations@@advmod@@hydralazine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d31.s6" text="Acebutolol, atenolol, and nadolol (low hepatic clearance or no first-pass metabolism) are unlikely to be affected." new_text="Acebutolol@@,@@atenolol@@,@@and@@nadolol@@(low@@hepatic@@clearance@@or@@no@@first-pass@@metabolism)@@are@@unlikely@@to@@be@@affected@@.@@"> 
+      <entity id="DDI-DrugBank.d31.s6.e0" charOffset="0-9" type="drug" text="Acebutolol" position="0"/>  
+      <entity id="DDI-DrugBank.d31.s6.e1" charOffset="12-19" type="drug" text="atenolol" position="2"/>  
+      <entity id="DDI-DrugBank.d31.s6.e2" charOffset="26-32" type="drug" text="nadolol" position="5"/>  
+      <pair id="DDI-DrugBank.d31.s6.p0" e1="DDI-DrugBank.d31.s6.e0" e2="DDI-DrugBank.d31.s6.e1" ddi="false" flags="True" e1_name="Acebutolol" e2_name="atenolol" e1_pos="0" e2_pos="2" path="0@@8@@6@@2@@">Acebutolol@@@@amod@@clearance@@amod@@(low@@dep@@atenolol</pair>  
+      <pair id="DDI-DrugBank.d31.s6.p1" e1="DDI-DrugBank.d31.s6.e0" e2="DDI-DrugBank.d31.s6.e2" ddi="false" flags="True" e1_name="Acebutolol" e2_name="nadolol" e1_pos="0" e2_pos="5" path="0@@8@@5@@">Acebutolol@@@@amod@@clearance@@amod@@nadolol</pair>  
+      <pair id="DDI-DrugBank.d31.s6.p2" e1="DDI-DrugBank.d31.s6.e1" e2="DDI-DrugBank.d31.s6.e2" ddi="false" flags="True" e1_name="atenolol" e2_name="nadolol" e1_pos="2" e2_pos="5" path="2@@6@@5@@">atenolol@@@@dep@@(low@@conj_and@@nadolol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d31.s7" text="NSAIDs may decrease the hemodynamic effects of hydralazine;" new_text="NSAIDs@@may@@decrease@@the@@hemodynamic@@effects@@of@@hydralazine@@;@@"> 
+      <entity id="DDI-DrugBank.d31.s7.e0" charOffset="0-5" type="group" text="NSAIDs" position="0"/>  
+      <entity id="DDI-DrugBank.d31.s7.e1" charOffset="47-57" type="drug" text="hydralazine" position="7"/>  
+      <pair id="DDI-DrugBank.d31.s7.p0" e1="DDI-DrugBank.d31.s7.e0" e2="DDI-DrugBank.d31.s7.e1" ddi="true" type="effect" flags="True" e1_name="NSAIDs" e2_name="hydralazine" e1_pos="0" e2_pos="7" path="0@@2@@5@@7@@">NSAIDs@@@@nsubj@@decrease@@dobj@@effects@@prep_of@@hydralazine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d31.s8" text="avoid use if possible or closely monitor cardiovascular status at the end of drug interactions" new_text="avoid@@use@@if@@possible@@or@@closely@@monitor@@cardiovascular@@status@@at@@the@@end@@of@@drug@@interactions@@"/> 
+</document>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d694"> 
+   <sentence id="DDI-DrugBank.d694.s0" text="Digoxin: There was a slight increase in the area under the curve (AUC, 11%) and mean peak drug concentration (Cmax, 18%) of digoxin with the co-administration of 100 mg sitagliptin for 10 days. " new_text="Digoxin@@:@@There@@was@@a@@slight@@increase@@in@@the@@area@@under@@the@@curve@@(AUC@@,@@11%)@@and@@mean@@peak@@drug@@concentration@@(Cmax@@,@@18%)@@of@@digoxin@@with@@the@@co-administration@@of@@100@@mg@@sitagliptin@@for@@10@@days@@.@@"> 
+      <entity id="DDI-DrugBank.d694.s0.e0" charOffset="0-6" type="drug" text="Digoxin" position="0"/>  
+      <entity id="DDI-DrugBank.d694.s0.e1" charOffset="124-130" type="drug" text="digoxin" position="25"/>  
+      <entity id="DDI-DrugBank.d694.s0.e2" charOffset="169-179" type="drug" text="sitagliptin" position="32"/>  
+      <pair id="DDI-DrugBank.d694.s0.p0" e1="DDI-DrugBank.d694.s0.e0" e2="DDI-DrugBank.d694.s0.e1" ddi="false" flags="True" e1_name="Digoxin" e2_name="digoxin" e1_pos="0" e2_pos="25" path="0@@3@@23@@25@@">Digoxin@@@@dep@@was@@nsubj@@18%)@@prep_of@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d694.s0.p1" e1="DDI-DrugBank.d694.s0.e0" e2="DDI-DrugBank.d694.s0.e2" ddi="false" flags="True" e1_name="Digoxin" e2_name="sitagliptin" e1_pos="0" e2_pos="32" path="0@@3@@23@@25@@28@@32@@">Digoxin@@@@dep@@was@@nsubj@@18%)@@prep_of@@digoxin@@prep_with@@co-administration@@prep_of@@sitagliptin</pair>  
+      <pair id="DDI-DrugBank.d694.s0.p2" e1="DDI-DrugBank.d694.s0.e1" e2="DDI-DrugBank.d694.s0.e2" ddi="true" type="mechanism" flags="True" e1_name="digoxin" e2_name="sitagliptin" e1_pos="25" e2_pos="32" path="25@@28@@32@@">digoxin@@@@prep_with@@co-administration@@prep_of@@sitagliptin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d694.s1" text="Patients receiving digoxin should be monitored appropriately. " new_text="Patients@@receiving@@digoxin@@should@@be@@monitored@@appropriately@@.@@"> 
+      <entity id="DDI-DrugBank.d694.s1.e0" charOffset="19-25" type="drug" text="digoxin" position="2"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d694.s2" text="No dosage adjustment of digoxin or JANUVIA is recommended." new_text="No@@dosage@@adjustment@@of@@digoxin@@or@@JANUVIA@@is@@recommended@@.@@"> 
+      <entity id="DDI-DrugBank.d694.s2.e0" charOffset="24-30" type="drug" text="digoxin" position="4"/>  
+      <entity id="DDI-DrugBank.d694.s2.e1" charOffset="35-41" type="brand" text="JANUVIA" position="6"/>  
+      <pair id="DDI-DrugBank.d694.s2.p0" e1="DDI-DrugBank.d694.s2.e0" e2="DDI-DrugBank.d694.s2.e1" ddi="false" flags="True" e1_name="digoxin" e2_name="JANUVIA" e1_pos="4" e2_pos="6" path="4@@6@@">digoxin@@@@conj_or@@JANUVIA</pair> 
+   </sentence> 
+</document>

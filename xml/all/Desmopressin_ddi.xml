@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d348"> 
+   <sentence id="DDI-DrugBank.d348.s0" text="Although the pressor activity of Desmopressin is very low compared to its antidiuretic activity, large doses of Desmopressin Tablets should be used with other pressor agents only with careful patient monitoring." new_text="Although@@the@@pressor@@activity@@of@@Desmopressin@@is@@very@@low@@compared@@to@@its@@antidiuretic@@activity@@,@@large@@doses@@of@@Desmopressin@@Tablets@@should@@be@@used@@with@@other@@pressor@@agents@@only@@with@@careful@@patient@@monitoring@@.@@"> 
+      <entity id="DDI-DrugBank.d348.s0.e0" charOffset="33-44" type="drug" text="Desmopressin" position="5"/>  
+      <entity id="DDI-DrugBank.d348.s0.e1" charOffset="112-123" type="drug" text="Desmopressin" position="18"/>  
+      <pair id="DDI-DrugBank.d348.s0.p0" e1="DDI-DrugBank.d348.s0.e0" e2="DDI-DrugBank.d348.s0.e1" ddi="false" flags="True" e1_name="Desmopressin" e2_name="Desmopressin" e1_pos="5" e2_pos="18" path="5@@3@@8@@22@@16@@19@@18@@">Desmopressin@@@@prep_of@@activity@@nsubj@@low@@advcl@@used@@nsubjpass@@doses@@prep_of@@Tablets@@nn@@Desmopressin</pair> 
+   </sentence> 
+</document>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d774"> 
+   <sentence id="DDI-DrugBank.d774.s0" text="Trilostane may interact with aminoglutethimide or mitotane (causing too great a decrease in adrenal function)." new_text="Trilostane@@may@@interact@@with@@aminoglutethimide@@or@@mitotane@@(causing@@too@@great@@a@@decrease@@in@@adrenal@@function)@@.@@"> 
+      <entity id="DDI-DrugBank.d774.s0.e0" charOffset="0-9" type="drug" text="Trilostane" position="0"/>  
+      <entity id="DDI-DrugBank.d774.s0.e1" charOffset="29-45" type="drug" text="aminoglutethimide" position="4"/>  
+      <entity id="DDI-DrugBank.d774.s0.e2" charOffset="50-57" type="drug" text="mitotane" position="6"/>  
+      <pair id="DDI-DrugBank.d774.s0.p0" e1="DDI-DrugBank.d774.s0.e0" e2="DDI-DrugBank.d774.s0.e1" ddi="true" type="int" flags="True" e1_name="Trilostane" e2_name="aminoglutethimide" e1_pos="0" e2_pos="4" path="0@@2@@4@@">Trilostane@@@@nsubj@@interact@@prep_with@@aminoglutethimide</pair>  
+      <pair id="DDI-DrugBank.d774.s0.p1" e1="DDI-DrugBank.d774.s0.e0" e2="DDI-DrugBank.d774.s0.e2" ddi="true" type="int" flags="True" e1_name="Trilostane" e2_name="mitotane" e1_pos="0" e2_pos="6" path="0@@2@@6@@">Trilostane@@@@nsubj@@interact@@prep_with@@mitotane</pair>  
+      <pair id="DDI-DrugBank.d774.s0.p2" e1="DDI-DrugBank.d774.s0.e1" e2="DDI-DrugBank.d774.s0.e2" ddi="false" flags="True" e1_name="aminoglutethimide" e2_name="mitotane" e1_pos="4" e2_pos="6" path="4@@6@@">aminoglutethimide@@@@conj_or@@mitotane</pair> 
+   </sentence> 
+</document>

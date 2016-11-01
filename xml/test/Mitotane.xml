@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d717"> 
+   <sentence id="DDI-DrugBank.d717.s0" text="Mitotane has been reported to accelerate the metabolism of warfarin by the mechanism of hepatic microsomal enzyme induction, leading to an increase in dosage requirements for warfarin. " new_text="Mitotane@@has@@been@@reported@@to@@accelerate@@the@@metabolism@@of@@warfarin@@by@@the@@mechanism@@of@@hepatic@@microsomal@@enzyme@@induction@@,@@leading@@to@@an@@increase@@in@@dosage@@requirements@@for@@warfarin@@.@@"> 
+      <entity id="DDI-DrugBank.d717.s0.e0" charOffset="0-7" type="drug" text="Mitotane" position="0"/>  
+      <entity id="DDI-DrugBank.d717.s0.e1" charOffset="59-66" type="drug" text="warfarin" position="9"/>  
+      <entity id="DDI-DrugBank.d717.s0.e2" charOffset="175-182" type="drug" text="warfarin" position="27"/>  
+      <pair id="DDI-DrugBank.d717.s0.p0" e1="DDI-DrugBank.d717.s0.e0" e2="DDI-DrugBank.d717.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="Mitotane" e2_name="warfarin" e1_pos="0" e2_pos="9" path="0@@5@@7@@9@@">Mitotane@@@@xsubj@@accelerate@@dobj@@metabolism@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d717.s0.p1" e1="DDI-DrugBank.d717.s0.e0" e2="DDI-DrugBank.d717.s0.e2" ddi="false" flags="True" e1_name="Mitotane" e2_name="warfarin" e1_pos="0" e2_pos="27" path="0@@5@@19@@22@@25@@27@@">Mitotane@@@@xsubj@@accelerate@@partmod@@leading@@prep_to@@increase@@prep_in@@requirements@@prep_for@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d717.s0.p2" e1="DDI-DrugBank.d717.s0.e1" e2="DDI-DrugBank.d717.s0.e2" ddi="false" flags="True" e1_name="warfarin" e2_name="warfarin" e1_pos="9" e2_pos="27" path="9@@7@@5@@19@@22@@25@@27@@">warfarin@@@@prep_of@@metabolism@@dobj@@accelerate@@partmod@@leading@@prep_to@@increase@@prep_in@@requirements@@prep_for@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d717.s1" text="Therefore, physicians should closely monitor patients for a change in anticoagulant dosage requirements when administering Mitotane to patients on coumarin-type anticoagulants. " new_text="Therefore@@,@@physicians@@should@@closely@@monitor@@patients@@for@@a@@change@@in@@anticoagulant@@dosage@@requirements@@when@@administering@@Mitotane@@to@@patients@@on@@coumarin-type anticoagulants@@.@@"> 
+      <entity id="DDI-DrugBank.d717.s1.e0" charOffset="70-82" type="group" text="anticoagulant" position="11"/>  
+      <entity id="DDI-DrugBank.d717.s1.e1" charOffset="123-130" type="drug" text="Mitotane" position="16"/>  
+      <entity id="DDI-DrugBank.d717.s1.e2" charOffset="147-174" type="group" text="coumarin-type anticoagulants" position="20"/>  
+      <pair id="DDI-DrugBank.d717.s1.p0" e1="DDI-DrugBank.d717.s1.e0" e2="DDI-DrugBank.d717.s1.e1" ddi="false" flags="True" e1_name="anticoagulant" e2_name="Mitotane" e1_pos="11" e2_pos="16" path="11@@13@@9@@5@@15@@16@@">anticoagulant@@@@amod@@requirements@@prep_in@@change@@prep_for@@monitor@@advcl@@administering@@dobj@@Mitotane</pair>  
+      <pair id="DDI-DrugBank.d717.s1.p1" e1="DDI-DrugBank.d717.s1.e0" e2="DDI-DrugBank.d717.s1.e2" ddi="false" flags="True" e1_name="anticoagulant" e2_name="coumarin-type anticoagulants" e1_pos="11" e2_pos="20" path="11@@13@@9@@5@@15@@18@@20@@">anticoagulant@@@@amod@@requirements@@prep_in@@change@@prep_for@@monitor@@advcl@@administering@@prep_to@@patients@@prep_on@@coumarin-type anticoagulants</pair>  
+      <pair id="DDI-DrugBank.d717.s1.p2" e1="DDI-DrugBank.d717.s1.e1" e2="DDI-DrugBank.d717.s1.e2" ddi="true" type="advise" flags="True" e1_name="Mitotane" e2_name="coumarin-type anticoagulants" e1_pos="16" e2_pos="20" path="16@@15@@18@@20@@">Mitotane@@@@dobj@@administering@@prep_to@@patients@@prep_on@@coumarin-type anticoagulants</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d717.s2" text="In addition, Mitotane should be given with caution to patients receiving other drugs susceptible to the influence of hepatic enzyme induction." new_text="In@@addition@@,@@Mitotane@@should@@be@@given@@with@@caution@@to@@patients@@receiving@@other@@drugs@@susceptible@@to@@the@@influence@@of@@hepatic@@enzyme@@induction@@.@@"> 
+      <entity id="DDI-DrugBank.d717.s2.e0" charOffset="13-20" type="drug" text="Mitotane" position="3"/> 
+   </sentence> 
+</document>

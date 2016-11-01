@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d642"> 
+   <sentence id="DDI-DrugBank.d642.s0" text="Prothrombin time or other suitable anticoagulation test should be monitored if tigecycline is administered with warfarin.   " new_text="Prothrombin@@time@@or@@other@@suitable@@anticoagulation@@test@@should@@be@@monitored@@if@@tigecycline@@is@@administered@@with@@warfarin@@.@@"> 
+      <entity id="DDI-DrugBank.d642.s0.e0" charOffset="79-89" type="drug" text="tigecycline" position="11"/>  
+      <entity id="DDI-DrugBank.d642.s0.e1" charOffset="112-119" type="drug" text="warfarin" position="15"/>  
+      <pair id="DDI-DrugBank.d642.s0.p0" e1="DDI-DrugBank.d642.s0.e0" e2="DDI-DrugBank.d642.s0.e1" ddi="true" type="advise" flags="True" e1_name="tigecycline" e2_name="warfarin" e1_pos="11" e2_pos="15" path="11@@13@@15@@">tigecycline@@@@nsubjpass@@administered@@prep_with@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d642.s1" text="Concurrent use of antibacterial drugs with oral contraceptives may render oral contraceptives less effective.  " new_text="Concurrent@@use@@of@@antibacterial drugs@@with@@oral@@contraceptives@@may@@render@@oral@@contraceptives@@less@@effective@@.@@"> 
+      <entity id="DDI-DrugBank.d642.s1.e0" charOffset="18-36" type="group" text="antibacterial drugs" position="3"/>  
+      <entity id="DDI-DrugBank.d642.s1.e1" charOffset="48-61" type="group" text="contraceptives" position="6"/>  
+      <entity id="DDI-DrugBank.d642.s1.e2" charOffset="79-92" type="group" text="contraceptives" position="10"/>  
+      <pair id="DDI-DrugBank.d642.s1.p0" e1="DDI-DrugBank.d642.s1.e0" e2="DDI-DrugBank.d642.s1.e1" ddi="true" type="effect" flags="True" e1_name="antibacterial drugs" e2_name="contraceptives" e1_pos="3" e2_pos="6" path="3@@6@@">antibacterial drugs@@@@prep_with@@contraceptives</pair>  
+      <pair id="DDI-DrugBank.d642.s1.p1" e1="DDI-DrugBank.d642.s1.e0" e2="DDI-DrugBank.d642.s1.e2" ddi="false" flags="True" e1_name="antibacterial drugs" e2_name="contraceptives" e1_pos="3" e2_pos="10" path="3@@1@@8@@12@@10@@">antibacterial drugs@@@@prep_of@@use@@nsubj@@render@@xcomp@@effective@@nsubj@@contraceptives</pair>  
+      <pair id="DDI-DrugBank.d642.s1.p2" e1="DDI-DrugBank.d642.s1.e1" e2="DDI-DrugBank.d642.s1.e2" ddi="false" flags="True" e1_name="contraceptives" e2_name="contraceptives" e1_pos="6" e2_pos="10" path="6@@3@@1@@8@@12@@10@@">contraceptives@@@@prep_with@@antibacterial drugs@@prep_of@@use@@nsubj@@render@@xcomp@@effective@@nsubj@@contraceptives</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d642.s2" text="Drug/Laboratory Test Interactions  There are no reported drug-laboratory test interactions." new_text="Drug/Laboratory@@Test@@Interactions@@@@There@@are@@no@@reported@@drug-laboratory@@test@@interactions@@.@@"/> 
+</document>

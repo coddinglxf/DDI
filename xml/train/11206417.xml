@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d137"> 
+   <sentence id="DDI-MedLine.d137.s0" text="Glucose and insulin exert additive ocular and renal vasodilator effects on healthy humans.
+" new_text="Glucose@@and@@insulin@@exert@@additive@@ocular@@and@@renal@@vasodilator@@effects@@on@@healthy@@humans@@.@@"> 
+      <entity id="DDI-MedLine.d137.s0.e0" charOffset="0-6" type="drug" text="Glucose" position="0"/>  
+      <entity id="DDI-MedLine.d137.s0.e1" charOffset="12-18" type="drug" text="insulin" position="2"/>  
+      <pair id="DDI-MedLine.d137.s0.p0" e1="DDI-MedLine.d137.s0.e0" e2="DDI-MedLine.d137.s0.e1" ddi="false" flags="True" e1_name="Glucose" e2_name="insulin" e1_pos="0" e2_pos="2" path="0@@2@@">Glucose@@@@conj_and@@insulin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d137.s1" text="AIMS/HYPOTHESIS: There is evidence that insulin and glucose cause renal and ocular vasodilation. " new_text="AIMS/HYPOTHESIS@@:@@There@@is@@evidence@@that@@insulin@@and@@glucose@@cause@@renal@@and@@ocular@@vasodilation@@.@@"> 
+      <entity id="DDI-MedLine.d137.s1.e0" charOffset="40-46" type="drug" text="insulin" position="6"/>  
+      <entity id="DDI-MedLine.d137.s1.e1" charOffset="52-58" type="drug" text="glucose" position="8"/>  
+      <pair id="DDI-MedLine.d137.s1.p0" e1="DDI-MedLine.d137.s1.e0" e2="DDI-MedLine.d137.s1.e1" ddi="false" flags="True" e1_name="insulin" e2_name="glucose" e1_pos="6" e2_pos="8" path="6@@8@@">insulin@@@@conj_and@@glucose</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d137.s2" text="There is, however, currently no data on the effect of combined hyperglycaemia and hyperinsulinaemia on the renal and ocular blood flow seen in diabetic patients on insulin therapy. " new_text="There@@is@@,@@however@@,@@currently@@no@@data@@on@@the@@effect@@of@@combined@@hyperglycaemia@@and@@hyper@@insulin@@aemia@@on@@the@@renal@@and@@ocular@@blood@@flow@@seen@@in@@diabetic@@patients@@on@@insulin@@therapy@@.@@"> 
+      <entity id="DDI-MedLine.d137.s2.e0" charOffset="87-93" type="drug" text="insulin" position="16"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d137.s3" text="METHODS: We carried out two different 3-way crossover studies in healthy subjects (each, n = 9). " new_text="METHODS@@:@@We@@carried@@out@@two@@different@@3-way@@crossover@@studies@@in@@healthy@@subjects@@(each@@,@@n@@=@@9)@@.@@"/>  
+   <sentence id="DDI-MedLine.d137.s4" text="In study one, hyperglycaemic clamps (5.6 mmol/l, 11.1 mmol/ 1, 16.7 mmol/l) were carried out during placebo or insulin (dose 1: 1 mU/kg/min; dose 2: 2 mU/kg/min) infusion. " new_text="In@@study@@one@@,@@hyperglycaemic@@clamps@@(5.6@@mmol/l@@,@@11.1@@mmol/@@1@@,@@16.7@@mmol/l)@@were@@carried@@out@@during@@placebo@@or@@insulin@@(dose@@1@@:@@1@@mU/kg/min;@@dose@@2@@:@@2@@mU/kg/min)@@infusion@@.@@"> 
+      <entity id="DDI-MedLine.d137.s4.e0" charOffset="111-117" type="drug" text="insulin" position="21"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d137.s5" text="The second study was identical but endogenous insulin secretion was blocked with somatostatin. " new_text="The@@second@@study@@was@@identical@@but@@endogenous@@insulin@@secretion@@was@@blocked@@with@@somatostatin@@.@@"> 
+      <entity id="DDI-MedLine.d137.s5.e0" charOffset="81-92" type="drug" text="somatostatin" position="12"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d137.s6" text="The renal plasma flow, glomerular filtration rate and pulsatile choroidal blood flow were measured using the paraaminohippurate method, the inulin method and a laser interferometric measurement of fundus pulsation amplitude, respectively. " new_text="The@@renal@@plasma@@flow@@,@@glomerular@@filtration@@rate@@and@@pulsatile@@choroidal@@blood@@flow@@were@@measured@@using@@the@@paraaminohippurate@@method@@,@@the@@inulin@@method@@and@@a@@laser@@interferometric@@measurement@@of@@fundus@@pulsation@@amplitude@@,@@respectively@@.@@"/>  
+   <sentence id="DDI-MedLine.d137.s7" text="RESULTS: Insulin increased renal plasma flow and fundus pulsation amplitude but not the glomerular filtration rate. " new_text="RESULTS@@:@@Insulin@@increased@@renal@@plasma@@flow@@and@@fundus@@pulsation@@amplitude@@but@@not@@the@@glomerular@@filtration@@rate@@.@@"> 
+      <entity id="DDI-MedLine.d137.s7.e0" charOffset="9-15" type="drug" text="Insulin" position="2"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d137.s8" text="Hyperglycaemia increased all the renal and ocular parameters studied. " new_text="Hyperglycaemia@@increased@@all@@the@@renal@@and@@ocular@@parameters@@studied@@.@@"/>  
+   <sentence id="DDI-MedLine.d137.s9" text="Haemodynamic effects of glucose and insulin were additive when somatostatin was co-administered but not under basal conditions. " new_text="Haemodynamic@@effects@@of@@glucose@@and@@insulin@@were@@additive@@when@@somatostatin@@was@@co-administered@@but@@not@@under@@basal@@conditions@@.@@"> 
+      <entity id="DDI-MedLine.d137.s9.e0" charOffset="24-30" type="drug" text="glucose" position="3"/>  
+      <entity id="DDI-MedLine.d137.s9.e1" charOffset="36-42" type="drug" text="insulin" position="5"/>  
+      <entity id="DDI-MedLine.d137.s9.e2" charOffset="63-74" type="drug" text="somatostatin" position="9"/>  
+      <pair id="DDI-MedLine.d137.s9.p0" e1="DDI-MedLine.d137.s9.e0" e2="DDI-MedLine.d137.s9.e1" ddi="false" flags="True" e1_name="glucose" e2_name="insulin" e1_pos="3" e2_pos="5" path="3@@5@@">glucose@@@@conj_and@@insulin</pair>  
+      <pair id="DDI-MedLine.d137.s9.p1" e1="DDI-MedLine.d137.s9.e0" e2="DDI-MedLine.d137.s9.e2" ddi="false" flags="True" e1_name="glucose" e2_name="somatostatin" e1_pos="3" e2_pos="9" path="3@@1@@7@@11@@9@@">glucose@@@@prep_of@@effects@@nsubj@@additive@@advcl@@co-administered@@nsubj@@somatostatin</pair>  
+      <pair id="DDI-MedLine.d137.s9.p2" e1="DDI-MedLine.d137.s9.e1" e2="DDI-MedLine.d137.s9.e2" ddi="false" flags="True" e1_name="insulin" e2_name="somatostatin" e1_pos="5" e2_pos="9" path="5@@1@@7@@11@@9@@">insulin@@@@prep_of@@effects@@nsubj@@additive@@advcl@@co-administered@@nsubj@@somatostatin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d137.s10" text="CONCLUSIONS/INTERPRETATION: Glucose and insulin can exert additive vasodilator properties on renal and ocular circulation. " new_text="CONCLUSIONS/INTERPRETATION@@:@@Glucose@@and@@insulin@@can@@exert@@additive@@vasodilator@@properties@@on@@renal@@and@@ocular@@circulation@@.@@"> 
+      <entity id="DDI-MedLine.d137.s10.e0" charOffset="28-34" type="drug" text="Glucose" position="2"/>  
+      <entity id="DDI-MedLine.d137.s10.e1" charOffset="40-46" type="drug" text="insulin" position="4"/>  
+      <pair id="DDI-MedLine.d137.s10.p0" e1="DDI-MedLine.d137.s10.e0" e2="DDI-MedLine.d137.s10.e1" ddi="false" flags="True" e1_name="Glucose" e2_name="insulin" e1_pos="2" e2_pos="4" path="2@@4@@">Glucose@@@@conj_and@@insulin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d137.s11" text="To find out whether this observation is related to the increased regional perfusion in diabetes longitudinal studies on patients with Type I (insulin-dependent) diabetes mellitus are needed." new_text="To@@find@@out@@whether@@this@@observation@@is@@related@@to@@the@@increased@@regional@@perfusion@@in@@diabetes@@longitudinal@@studies@@on@@patients@@with@@Type@@I@@(insulin-dependent)@@diabetes@@mellitus@@are@@needed@@.@@"/> 
+</document>

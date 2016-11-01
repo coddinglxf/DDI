@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d219"> 
+   <sentence id="DDI-DrugBank.d219.s0" text="ACE-inhibitors Reports suggest that NSAIDs may diminish the antihypertensive effect of ACE-inhibitors." new_text="ACE-inhibitors@@Reports@@suggest@@that@@NSAIDs@@may@@diminish@@the@@antihypertensive@@effect@@of@@ACE-inhibitors@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s0.e0" charOffset="0-13" type="group" text="ACE-inhibitors" position="0"/>  
+      <entity id="DDI-DrugBank.d219.s0.e1" charOffset="36-41" type="group" text="NSAIDs" position="4"/>  
+      <entity id="DDI-DrugBank.d219.s0.e2" charOffset="87-100" type="group" text="ACE-inhibitors" position="11"/>  
+      <pair id="DDI-DrugBank.d219.s0.p0" e1="DDI-DrugBank.d219.s0.e0" e2="DDI-DrugBank.d219.s0.e1" ddi="false" flags="True" e1_name="ACE-inhibitors" e2_name="NSAIDs" e1_pos="0" e2_pos="4" path="0@@1@@2@@6@@4@@">ACE-inhibitors@@@@amod@@Reports@@nsubj@@suggest@@ccomp@@diminish@@nsubj@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d219.s0.p1" e1="DDI-DrugBank.d219.s0.e0" e2="DDI-DrugBank.d219.s0.e2" ddi="false" flags="True" e1_name="ACE-inhibitors" e2_name="ACE-inhibitors" e1_pos="0" e2_pos="11" path="0@@1@@2@@6@@9@@11@@">ACE-inhibitors@@@@amod@@Reports@@nsubj@@suggest@@ccomp@@diminish@@dobj@@effect@@prep_of@@ACE-inhibitors</pair>  
+      <pair id="DDI-DrugBank.d219.s0.p2" e1="DDI-DrugBank.d219.s0.e1" e2="DDI-DrugBank.d219.s0.e2" ddi="true" type="effect" flags="True" e1_name="NSAIDs" e2_name="ACE-inhibitors" e1_pos="4" e2_pos="11" path="4@@6@@9@@11@@">NSAIDs@@@@nsubj@@diminish@@dobj@@effect@@prep_of@@ACE-inhibitors</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s1" text="This interaction should be given consideration in patients taking NSAIDs concomitantly with ACE-inhibitors." new_text="This@@interaction@@should@@be@@given@@consideration@@in@@patients@@taking@@NSAIDs@@concomitantly@@with@@ACE-inhibitors@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s1.e0" charOffset="66-71" type="group" text="NSAIDs" position="9"/>  
+      <entity id="DDI-DrugBank.d219.s1.e1" charOffset="92-105" type="group" text="ACE-inhibitors" position="12"/>  
+      <pair id="DDI-DrugBank.d219.s1.p0" e1="DDI-DrugBank.d219.s1.e0" e2="DDI-DrugBank.d219.s1.e1" ddi="true" type="advise" flags="True" e1_name="NSAIDs" e2_name="ACE-inhibitors" e1_pos="9" e2_pos="12" path="9@@8@@12@@">NSAIDs@@@@dobj@@taking@@prep_with@@ACE-inhibitors</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s2" text="Antacids: The concomitant administration of antacids has no apparent effect on the extent of absorption of Lodine." new_text="Antacids@@:@@The@@concomitant@@administration@@of@@antacids@@has@@no@@apparent@@effect@@on@@the@@extent@@of@@absorption@@of@@Lodine@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s2.e0" charOffset="0-7" type="group" text="Antacids" position="0"/>  
+      <entity id="DDI-DrugBank.d219.s2.e1" charOffset="44-51" type="group" text="antacids" position="6"/>  
+      <entity id="DDI-DrugBank.d219.s2.e2" charOffset="107-112" type="brand" text="Lodine" position="17"/>  
+      <pair id="DDI-DrugBank.d219.s2.p0" e1="DDI-DrugBank.d219.s2.e0" e2="DDI-DrugBank.d219.s2.e1" ddi="false" flags="True" e1_name="Antacids" e2_name="antacids" e1_pos="0" e2_pos="6" path="0@@7@@4@@6@@">Antacids@@@@dep@@has@@nsubj@@administration@@prep_of@@antacids</pair>  
+      <pair id="DDI-DrugBank.d219.s2.p1" e1="DDI-DrugBank.d219.s2.e0" e2="DDI-DrugBank.d219.s2.e2" ddi="false" flags="True" e1_name="Antacids" e2_name="Lodine" e1_pos="0" e2_pos="17" path="0@@7@@10@@13@@15@@17@@">Antacids@@@@dep@@has@@dobj@@effect@@prep_on@@extent@@prep_of@@absorption@@prep_of@@Lodine</pair>  
+      <pair id="DDI-DrugBank.d219.s2.p2" e1="DDI-DrugBank.d219.s2.e1" e2="DDI-DrugBank.d219.s2.e2" ddi="false" flags="True" e1_name="antacids" e2_name="Lodine" e1_pos="6" e2_pos="17" path="6@@4@@7@@10@@13@@15@@17@@">antacids@@@@prep_of@@administration@@nsubj@@has@@dobj@@effect@@prep_on@@extent@@prep_of@@absorption@@prep_of@@Lodine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s3" text="However, antacids can decrease the peak concentration reached by 15% to 20% but have no detectable effect on the time-to-peak." new_text="However@@,@@antacids@@can@@decrease@@the@@peak@@concentration@@reached@@by@@15%@@to@@20%@@but@@have@@no@@detectable@@effect@@on@@the@@time-to-peak@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s3.e0" charOffset="9-16" type="group" text="antacids" position="2"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s4" text="Aspirin: When Lodine is administered with aspirin, its protein binding is reduced, although the clearance of free etodolac is not altered." new_text="Aspirin@@:@@When@@Lodine@@is@@administered@@with@@aspirin@@,@@its@@protein@@binding@@is@@reduced@@,@@although@@the@@clearance@@of@@free@@etodolac@@is@@not@@altered@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s4.e0" charOffset="0-6" type="brand" text="Aspirin" position="0"/>  
+      <entity id="DDI-DrugBank.d219.s4.e1" charOffset="14-19" type="brand" text="Lodine" position="3"/>  
+      <entity id="DDI-DrugBank.d219.s4.e2" charOffset="42-48" type="brand" text="aspirin" position="7"/>  
+      <entity id="DDI-DrugBank.d219.s4.e3" charOffset="114-121" type="drug" text="etodolac" position="20"/>  
+      <pair id="DDI-DrugBank.d219.s4.p0" e1="DDI-DrugBank.d219.s4.e0" e2="DDI-DrugBank.d219.s4.e1" ddi="false" flags="True" e1_name="Aspirin" e2_name="Lodine" e1_pos="0" e2_pos="3" path="0@@13@@5@@3@@">Aspirin@@@@dep@@reduced@@advcl@@administered@@nsubjpass@@Lodine</pair>  
+      <pair id="DDI-DrugBank.d219.s4.p1" e1="DDI-DrugBank.d219.s4.e0" e2="DDI-DrugBank.d219.s4.e2" ddi="false" flags="True" e1_name="Aspirin" e2_name="aspirin" e1_pos="0" e2_pos="7" path="0@@13@@5@@7@@">Aspirin@@@@dep@@reduced@@advcl@@administered@@prep_with@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d219.s4.p2" e1="DDI-DrugBank.d219.s4.e0" e2="DDI-DrugBank.d219.s4.e3" ddi="false" flags="True" e1_name="Aspirin" e2_name="etodolac" e1_pos="0" e2_pos="20" path="0@@13@@23@@17@@20@@">Aspirin@@@@dep@@reduced@@advcl@@altered@@nsubjpass@@clearance@@prep_of@@etodolac</pair>  
+      <pair id="DDI-DrugBank.d219.s4.p3" e1="DDI-DrugBank.d219.s4.e1" e2="DDI-DrugBank.d219.s4.e2" ddi="true" type="mechanism" flags="True" e1_name="Lodine" e2_name="aspirin" e1_pos="3" e2_pos="7" path="3@@5@@7@@">Lodine@@@@nsubjpass@@administered@@prep_with@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d219.s4.p4" e1="DDI-DrugBank.d219.s4.e1" e2="DDI-DrugBank.d219.s4.e3" ddi="false" flags="True" e1_name="Lodine" e2_name="etodolac" e1_pos="3" e2_pos="20" path="3@@5@@13@@23@@17@@20@@">Lodine@@@@nsubjpass@@administered@@advcl@@reduced@@advcl@@altered@@nsubjpass@@clearance@@prep_of@@etodolac</pair>  
+      <pair id="DDI-DrugBank.d219.s4.p5" e1="DDI-DrugBank.d219.s4.e2" e2="DDI-DrugBank.d219.s4.e3" ddi="false" flags="True" e1_name="aspirin" e2_name="etodolac" e1_pos="7" e2_pos="20" path="7@@5@@13@@23@@17@@20@@">aspirin@@@@prep_with@@administered@@advcl@@reduced@@advcl@@altered@@nsubjpass@@clearance@@prep_of@@etodolac</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s5" text="The clinical significance of this interaction is not known;" new_text="The@@clinical@@significance@@of@@this@@interaction@@is@@not@@known;@@"/>  
+   <sentence id="DDI-DrugBank.d219.s6" text="however, as with other NSAIDs, concomitant administration of Lodine and aspirin is not generally recommended because of the potential of increased adverse effects." new_text="however@@,@@as@@with@@other@@NSAIDs@@,@@concomitant@@administration@@of@@Lodine@@and@@aspirin@@is@@not@@generally@@recommended@@because@@of@@the@@potential@@of@@increased@@adverse@@effects@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s6.e0" charOffset="23-28" type="group" text="NSAIDs" position="5"/>  
+      <entity id="DDI-DrugBank.d219.s6.e1" charOffset="61-66" type="brand" text="Lodine" position="10"/>  
+      <entity id="DDI-DrugBank.d219.s6.e2" charOffset="72-78" type="brand" text="aspirin" position="12"/>  
+      <pair id="DDI-DrugBank.d219.s6.p0" e1="DDI-DrugBank.d219.s6.e0" e2="DDI-DrugBank.d219.s6.e1" ddi="false" flags="True" e1_name="NSAIDs" e2_name="Lodine" e1_pos="5" e2_pos="10" path="5@@3@@2@@16@@8@@10@@">NSAIDs@@@@pobj@@with@@pcomp@@as@@prep@@recommended@@nsubjpass@@administration@@prep_of@@Lodine</pair>  
+      <pair id="DDI-DrugBank.d219.s6.p1" e1="DDI-DrugBank.d219.s6.e0" e2="DDI-DrugBank.d219.s6.e2" ddi="false" flags="True" e1_name="NSAIDs" e2_name="aspirin" e1_pos="5" e2_pos="12" path="5@@3@@2@@16@@8@@12@@">NSAIDs@@@@pobj@@with@@pcomp@@as@@prep@@recommended@@nsubjpass@@administration@@prep_of@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d219.s6.p2" e1="DDI-DrugBank.d219.s6.e1" e2="DDI-DrugBank.d219.s6.e2" ddi="true" type="advise" flags="True" e1_name="Lodine" e2_name="aspirin" e1_pos="10" e2_pos="12" path="10@@12@@">Lodine@@@@conj_and@@aspirin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s7" text="Cyclosporine, Digoxin, Methotrexate Lodine, like other NSAIDs, through effects on renal prostaglandins, may cause changes in the elimination of these drugs leading to elevated serum levels of cyclosporine, digoxin, methotrexate, and increased toxicity." new_text="Cyclosporine@@,@@Digoxin@@,@@Methotrexate@@Lodine@@,@@like@@other@@NSAIDs@@,@@through@@effects@@on@@renal@@prostaglandins@@,@@may@@cause@@changes@@in@@the@@elimination@@of@@these@@drugs@@leading@@to@@elevated@@serum@@levels@@of@@cyclosporine@@,@@digoxin@@,@@methotrexate@@,@@and@@increased@@toxicity@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s7.e0" charOffset="36-41" type="brand" text="Lodine" position="5"/>  
+      <entity id="DDI-DrugBank.d219.s7.e1" charOffset="55-60" type="group" text="NSAIDs" position="9"/>  
+      <entity id="DDI-DrugBank.d219.s7.e2" charOffset="192-203" type="drug" text="cyclosporine" position="32"/>  
+      <entity id="DDI-DrugBank.d219.s7.e3" charOffset="206-212" type="drug" text="digoxin" position="34"/>  
+      <entity id="DDI-DrugBank.d219.s7.e4" charOffset="215-226" type="drug" text="methotrexate" position="36"/>  
+      <pair id="DDI-DrugBank.d219.s7.p0" e1="DDI-DrugBank.d219.s7.e0" e2="DDI-DrugBank.d219.s7.e1" ddi="false" flags="True" e1_name="Lodine" e2_name="NSAIDs" e1_pos="5" e2_pos="9" path="5@@9@@">Lodine@@@@prep_like@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d219.s7.p1" e1="DDI-DrugBank.d219.s7.e0" e2="DDI-DrugBank.d219.s7.e2" ddi="true" type="mechanism" flags="True" e1_name="Lodine" e2_name="cyclosporine" e1_pos="5" e2_pos="32" path="5@@18@@22@@25@@26@@30@@32@@">Lodine@@@@nsubj@@cause@@prep_in@@elimination@@prep_of@@drugs@@partmod@@leading@@prep_to@@levels@@prep_of@@cyclosporine</pair>  
+      <pair id="DDI-DrugBank.d219.s7.p2" e1="DDI-DrugBank.d219.s7.e0" e2="DDI-DrugBank.d219.s7.e3" ddi="true" type="mechanism" flags="True" e1_name="Lodine" e2_name="digoxin" e1_pos="5" e2_pos="34" path="5@@18@@22@@25@@26@@30@@34@@">Lodine@@@@nsubj@@cause@@prep_in@@elimination@@prep_of@@drugs@@partmod@@leading@@prep_to@@levels@@prep_of@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d219.s7.p3" e1="DDI-DrugBank.d219.s7.e0" e2="DDI-DrugBank.d219.s7.e4" ddi="true" type="mechanism" flags="True" e1_name="Lodine" e2_name="methotrexate" e1_pos="5" e2_pos="36" path="5@@18@@22@@25@@26@@30@@36@@">Lodine@@@@nsubj@@cause@@prep_in@@elimination@@prep_of@@drugs@@partmod@@leading@@prep_to@@levels@@prep_of@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d219.s7.p4" e1="DDI-DrugBank.d219.s7.e1" e2="DDI-DrugBank.d219.s7.e2" ddi="true" type="mechanism" flags="True" e1_name="NSAIDs" e2_name="cyclosporine" e1_pos="9" e2_pos="32" path="9@@5@@18@@22@@25@@26@@30@@32@@">NSAIDs@@@@prep_like@@Lodine@@nsubj@@cause@@prep_in@@elimination@@prep_of@@drugs@@partmod@@leading@@prep_to@@levels@@prep_of@@cyclosporine</pair>  
+      <pair id="DDI-DrugBank.d219.s7.p5" e1="DDI-DrugBank.d219.s7.e1" e2="DDI-DrugBank.d219.s7.e3" ddi="true" type="mechanism" flags="True" e1_name="NSAIDs" e2_name="digoxin" e1_pos="9" e2_pos="34" path="9@@5@@18@@22@@25@@26@@30@@34@@">NSAIDs@@@@prep_like@@Lodine@@nsubj@@cause@@prep_in@@elimination@@prep_of@@drugs@@partmod@@leading@@prep_to@@levels@@prep_of@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d219.s7.p6" e1="DDI-DrugBank.d219.s7.e1" e2="DDI-DrugBank.d219.s7.e4" ddi="true" type="mechanism" flags="True" e1_name="NSAIDs" e2_name="methotrexate" e1_pos="9" e2_pos="36" path="9@@5@@18@@22@@25@@26@@30@@36@@">NSAIDs@@@@prep_like@@Lodine@@nsubj@@cause@@prep_in@@elimination@@prep_of@@drugs@@partmod@@leading@@prep_to@@levels@@prep_of@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d219.s7.p7" e1="DDI-DrugBank.d219.s7.e2" e2="DDI-DrugBank.d219.s7.e3" ddi="false" flags="True" e1_name="cyclosporine" e2_name="digoxin" e1_pos="32" e2_pos="34" path="32@@34@@">cyclosporine@@@@conj_and@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d219.s7.p8" e1="DDI-DrugBank.d219.s7.e2" e2="DDI-DrugBank.d219.s7.e4" ddi="false" flags="True" e1_name="cyclosporine" e2_name="methotrexate" e1_pos="32" e2_pos="36" path="32@@36@@">cyclosporine@@@@conj_and@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d219.s7.p9" e1="DDI-DrugBank.d219.s7.e3" e2="DDI-DrugBank.d219.s7.e4" ddi="false" flags="True" e1_name="digoxin" e2_name="methotrexate" e1_pos="34" e2_pos="36" path="34@@30@@36@@">digoxin@@@@prep_of@@levels@@prep_of@@methotrexate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s8" text="Nephrotoxicity associated with cyclosporine may also be enhanced." new_text="Nephrotoxicity@@associated@@with@@cyclosporine@@may@@also@@be@@enhanced@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s8.e0" charOffset="31-42" type="drug" text="cyclosporine" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s9" text="Patients receiving these drugs who are given Lodine, or any other NSAID, and particularly those patients with altered renal function, should be observed for the development of the specific toxicities of these drugs." new_text="Patients@@receiving@@these@@drugs@@who@@are@@given@@Lodine@@,@@or@@any@@other@@NSAID@@,@@and@@particularly@@those@@patients@@with@@altered@@renal@@function@@,@@should@@be@@observed@@for@@the@@development@@of@@the@@specific@@toxicities@@of@@these@@drugs@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s9.e0" charOffset="45-50" type="brand" text="Lodine" position="7"/>  
+      <entity id="DDI-DrugBank.d219.s9.e1" charOffset="66-70" type="group" text="NSAID" position="12"/>  
+      <pair id="DDI-DrugBank.d219.s9.p0" e1="DDI-DrugBank.d219.s9.e0" e2="DDI-DrugBank.d219.s9.e1" ddi="false" flags="True" e1_name="Lodine" e2_name="NSAID" e1_pos="7" e2_pos="12" path="7@@12@@">Lodine@@@@conj_or@@NSAID</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s10" text="Diuretics: Etodolac has no apparent pharmacokinetic interaction when administered with furosemide or hydrochlorothiazide." new_text="Diuretics@@:@@Etodolac@@has@@no@@apparent@@pharmacokinetic@@interaction@@when@@administered@@with@@furosemide@@or@@hydrochlorothiazide@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s10.e0" charOffset="0-8" type="group" text="Diuretics" position="0"/>  
+      <entity id="DDI-DrugBank.d219.s10.e1" charOffset="87-96" type="drug" text="furosemide" position="11"/>  
+      <entity id="DDI-DrugBank.d219.s10.e2" charOffset="101-119" type="drug" text="hydrochlorothiazide" position="13"/>  
+      <pair id="DDI-DrugBank.d219.s10.p0" e1="DDI-DrugBank.d219.s10.e0" e2="DDI-DrugBank.d219.s10.e1" ddi="false" flags="True" e1_name="Diuretics" e2_name="furosemide" e1_pos="0" e2_pos="11" path="0@@3@@7@@9@@11@@">Diuretics@@@@dep@@has@@dobj@@interaction@@rcmod@@administered@@prep_with@@furosemide</pair>  
+      <pair id="DDI-DrugBank.d219.s10.p1" e1="DDI-DrugBank.d219.s10.e0" e2="DDI-DrugBank.d219.s10.e2" ddi="false" flags="True" e1_name="Diuretics" e2_name="hydrochlorothiazide" e1_pos="0" e2_pos="13" path="0@@3@@7@@9@@13@@">Diuretics@@@@dep@@has@@dobj@@interaction@@rcmod@@administered@@prep_with@@hydrochlorothiazide</pair>  
+      <pair id="DDI-DrugBank.d219.s10.p2" e1="DDI-DrugBank.d219.s10.e1" e2="DDI-DrugBank.d219.s10.e2" ddi="false" flags="True" e1_name="furosemide" e2_name="hydrochlorothiazide" e1_pos="11" e2_pos="13" path="11@@13@@">furosemide@@@@conj_or@@hydrochlorothiazide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s11" text="Nevertheless, clinical studies, as well as postmarketing observations have shown that Lodine can reduce the natriuretic effect of furosemide and thiazides in some patients." new_text="Nevertheless@@,@@clinical@@studies@@,@@as@@well@@as@@postmarketing@@observations@@have@@shown@@that@@Lodine@@can@@reduce@@the@@natriuretic@@effect@@of@@furosemide@@and@@thiazides@@in@@some@@patients@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s11.e0" charOffset="86-91" type="brand" text="Lodine" position="13"/>  
+      <entity id="DDI-DrugBank.d219.s11.e1" charOffset="130-139" type="drug" text="furosemide" position="20"/>  
+      <entity id="DDI-DrugBank.d219.s11.e2" charOffset="145-153" type="group" text="thiazides" position="22"/>  
+      <pair id="DDI-DrugBank.d219.s11.p0" e1="DDI-DrugBank.d219.s11.e0" e2="DDI-DrugBank.d219.s11.e1" ddi="true" type="effect" flags="True" e1_name="Lodine" e2_name="furosemide" e1_pos="13" e2_pos="20" path="13@@15@@18@@20@@">Lodine@@@@nsubj@@reduce@@dobj@@effect@@prep_of@@furosemide</pair>  
+      <pair id="DDI-DrugBank.d219.s11.p1" e1="DDI-DrugBank.d219.s11.e0" e2="DDI-DrugBank.d219.s11.e2" ddi="true" type="effect" flags="True" e1_name="Lodine" e2_name="thiazides" e1_pos="13" e2_pos="22" path="13@@15@@18@@22@@">Lodine@@@@nsubj@@reduce@@dobj@@effect@@prep_of@@thiazides</pair>  
+      <pair id="DDI-DrugBank.d219.s11.p2" e1="DDI-DrugBank.d219.s11.e1" e2="DDI-DrugBank.d219.s11.e2" ddi="false" flags="True" e1_name="furosemide" e2_name="thiazides" e1_pos="20" e2_pos="22" path="20@@22@@">furosemide@@@@conj_and@@thiazides</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s12" text="This response has been attributed to inhibition of renal prostaglandin synthesis." new_text="This@@response@@has@@been@@attributed@@to@@inhibition@@of@@renal@@prostaglandin@@synthesis@@.@@"/>  
+   <sentence id="DDI-DrugBank.d219.s13" text="During concomitant therapy with NSAIDs, the patient should be observed closely for signs of renal failure, as well as to assure diuretic efficacy." new_text="During@@concomitant@@therapy@@with@@NSAIDs@@,@@the@@patient@@should@@be@@observed@@closely@@for@@signs@@of@@renal@@failure@@,@@as@@well@@as@@to@@assure@@diuretic@@efficacy@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s13.e0" charOffset="32-37" type="group" text="NSAIDs" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s14" text="Glyburide: Etodolac has no apparent pharmacokinetic interaction when administered with glyburide." new_text="Glyburide@@:@@Etodolac@@has@@no@@apparent@@pharmacokinetic@@interaction@@when@@administered@@with@@glyburide@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s14.e0" charOffset="0-8" type="drug" text="Glyburide" position="0"/>  
+      <entity id="DDI-DrugBank.d219.s14.e1" charOffset="11-18" type="drug" text="Etodolac" position="2"/>  
+      <entity id="DDI-DrugBank.d219.s14.e2" charOffset="87-95" type="drug" text="glyburide" position="11"/>  
+      <pair id="DDI-DrugBank.d219.s14.p0" e1="DDI-DrugBank.d219.s14.e0" e2="DDI-DrugBank.d219.s14.e1" ddi="false" flags="True" e1_name="Glyburide" e2_name="Etodolac" e1_pos="0" e2_pos="2" path="0@@3@@2@@">Glyburide@@@@dep@@has@@nsubj@@Etodolac</pair>  
+      <pair id="DDI-DrugBank.d219.s14.p1" e1="DDI-DrugBank.d219.s14.e0" e2="DDI-DrugBank.d219.s14.e2" ddi="false" flags="True" e1_name="Glyburide" e2_name="glyburide" e1_pos="0" e2_pos="11" path="0@@3@@7@@9@@11@@">Glyburide@@@@dep@@has@@dobj@@interaction@@rcmod@@administered@@prep_with@@glyburide</pair>  
+      <pair id="DDI-DrugBank.d219.s14.p2" e1="DDI-DrugBank.d219.s14.e1" e2="DDI-DrugBank.d219.s14.e2" ddi="false" flags="True" e1_name="Etodolac" e2_name="glyburide" e1_pos="2" e2_pos="11" path="2@@3@@7@@9@@11@@">Etodolac@@@@nsubj@@has@@dobj@@interaction@@rcmod@@administered@@prep_with@@glyburide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s15" text="Lithium: NSAIDs have produced an elevation of plasma lithium levels and a reduction in renal lithium clearance." new_text="Lithium@@:@@NSAIDs@@have@@produced@@an@@elevation@@of@@plasma@@lithium@@levels@@and@@a@@reduction@@in@@renal@@lithium@@clearance@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s15.e0" charOffset="0-6" type="drug" text="Lithium" position="0"/>  
+      <entity id="DDI-DrugBank.d219.s15.e1" charOffset="9-14" type="group" text="NSAIDs" position="2"/>  
+      <entity id="DDI-DrugBank.d219.s15.e2" charOffset="53-59" type="drug" text="lithium" position="9"/>  
+      <entity id="DDI-DrugBank.d219.s15.e3" charOffset="93-99" type="drug" text="lithium" position="16"/>  
+      <pair id="DDI-DrugBank.d219.s15.p0" e1="DDI-DrugBank.d219.s15.e0" e2="DDI-DrugBank.d219.s15.e1" ddi="false" flags="True" e1_name="Lithium" e2_name="NSAIDs" e1_pos="0" e2_pos="2" path="0@@4@@2@@">Lithium@@@@advmod@@produced@@nsubj@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d219.s15.p1" e1="DDI-DrugBank.d219.s15.e0" e2="DDI-DrugBank.d219.s15.e2" ddi="false" flags="True" e1_name="Lithium" e2_name="lithium" e1_pos="0" e2_pos="9" path="0@@4@@6@@10@@9@@">Lithium@@@@advmod@@produced@@dobj@@elevation@@prep_of@@levels@@nn@@lithium</pair>  
+      <pair id="DDI-DrugBank.d219.s15.p2" e1="DDI-DrugBank.d219.s15.e0" e2="DDI-DrugBank.d219.s15.e3" ddi="false" flags="True" e1_name="Lithium" e2_name="lithium" e1_pos="0" e2_pos="16" path="0@@4@@13@@17@@16@@">Lithium@@@@advmod@@produced@@dobj@@reduction@@prep_in@@clearance@@nn@@lithium</pair>  
+      <pair id="DDI-DrugBank.d219.s15.p3" e1="DDI-DrugBank.d219.s15.e1" e2="DDI-DrugBank.d219.s15.e2" ddi="true" type="mechanism" flags="True" e1_name="NSAIDs" e2_name="lithium" e1_pos="2" e2_pos="9" path="2@@4@@6@@10@@9@@">NSAIDs@@@@nsubj@@produced@@dobj@@elevation@@prep_of@@levels@@nn@@lithium</pair>  
+      <pair id="DDI-DrugBank.d219.s15.p4" e1="DDI-DrugBank.d219.s15.e1" e2="DDI-DrugBank.d219.s15.e3" ddi="false" flags="True" e1_name="NSAIDs" e2_name="lithium" e1_pos="2" e2_pos="16" path="2@@4@@13@@17@@16@@">NSAIDs@@@@nsubj@@produced@@dobj@@reduction@@prep_in@@clearance@@nn@@lithium</pair>  
+      <pair id="DDI-DrugBank.d219.s15.p5" e1="DDI-DrugBank.d219.s15.e2" e2="DDI-DrugBank.d219.s15.e3" ddi="false" flags="True" e1_name="lithium" e2_name="lithium" e1_pos="9" e2_pos="16" path="9@@10@@6@@13@@17@@16@@">lithium@@@@nn@@levels@@prep_of@@elevation@@conj_and@@reduction@@prep_in@@clearance@@nn@@lithium</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s16" text="The mean minimum lithium concentration increased 15% and the renal clearance was decreased by approximately 20%." new_text="The@@mean@@minimum@@lithium@@concentration@@increased@@15%@@and@@the@@renal@@clearance@@was@@decreased@@by@@approximately@@20%@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s16.e0" charOffset="17-23" type="drug" text="lithium" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s17" text="These effects have been attributed to inhibition of renal prostaglandin synthesis by the NSAID." new_text="These@@effects@@have@@been@@attributed@@to@@inhibition@@of@@renal@@prostaglandin@@synthesis@@by@@the@@NSAID@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s17.e0" charOffset="89-93" type="group" text="NSAID" position="13"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s18" text="Thus, when NSAIDs and lithium are administered concurrently, subjects should be observed carefully for signs of lithium toxicity." new_text="Thus@@,@@when@@NSAIDs@@and@@lithium@@are@@administered@@concurrently@@,@@subjects@@should@@be@@observed@@carefully@@for@@signs@@of@@lithium@@toxicity@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s18.e0" charOffset="11-16" type="group" text="NSAIDs" position="3"/>  
+      <entity id="DDI-DrugBank.d219.s18.e1" charOffset="22-28" type="drug" text="lithium" position="5"/>  
+      <entity id="DDI-DrugBank.d219.s18.e2" charOffset="112-118" type="drug" text="lithium" position="18"/>  
+      <pair id="DDI-DrugBank.d219.s18.p0" e1="DDI-DrugBank.d219.s18.e0" e2="DDI-DrugBank.d219.s18.e1" ddi="true" type="effect" flags="True" e1_name="NSAIDs" e2_name="lithium" e1_pos="3" e2_pos="5" path="3@@5@@">NSAIDs@@@@conj_and@@lithium</pair>  
+      <pair id="DDI-DrugBank.d219.s18.p1" e1="DDI-DrugBank.d219.s18.e0" e2="DDI-DrugBank.d219.s18.e2" ddi="false" flags="True" e1_name="NSAIDs" e2_name="lithium" e1_pos="3" e2_pos="18" path="3@@7@@13@@16@@19@@18@@">NSAIDs@@@@nsubjpass@@administered@@advcl@@observed@@prep_for@@signs@@prep_of@@toxicity@@nn@@lithium</pair>  
+      <pair id="DDI-DrugBank.d219.s18.p2" e1="DDI-DrugBank.d219.s18.e1" e2="DDI-DrugBank.d219.s18.e2" ddi="false" flags="True" e1_name="lithium" e2_name="lithium" e1_pos="5" e2_pos="18" path="5@@7@@13@@16@@19@@18@@">lithium@@@@nsubjpass@@administered@@advcl@@observed@@prep_for@@signs@@prep_of@@toxicity@@nn@@lithium</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s19" text="Phenylbutazone: Phenylbutazone causes increase (by about 80%) in the free fraction of etodolac." new_text="Phenylbutazone@@:@@Phenylbutazone@@causes@@increase@@(by@@about@@80%)@@in@@the@@free@@fraction@@of@@etodolac@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s19.e0" charOffset="0-13" type="drug" text="Phenylbutazone" position="0"/>  
+      <entity id="DDI-DrugBank.d219.s19.e1" charOffset="16-29" type="drug" text="Phenylbutazone" position="2"/>  
+      <entity id="DDI-DrugBank.d219.s19.e2" charOffset="86-93" type="drug" text="etodolac" position="13"/>  
+      <pair id="DDI-DrugBank.d219.s19.p0" e1="DDI-DrugBank.d219.s19.e0" e2="DDI-DrugBank.d219.s19.e1" ddi="false" flags="True" e1_name="Phenylbutazone" e2_name="Phenylbutazone" e1_pos="0" e2_pos="2" path="0@@3@@2@@">Phenylbutazone@@@@dep@@causes@@nsubj@@Phenylbutazone</pair>  
+      <pair id="DDI-DrugBank.d219.s19.p1" e1="DDI-DrugBank.d219.s19.e0" e2="DDI-DrugBank.d219.s19.e2" ddi="false" flags="True" e1_name="Phenylbutazone" e2_name="etodolac" e1_pos="0" e2_pos="13" path="0@@3@@11@@13@@">Phenylbutazone@@@@dep@@causes@@prep_in@@fraction@@prep_of@@etodolac</pair>  
+      <pair id="DDI-DrugBank.d219.s19.p2" e1="DDI-DrugBank.d219.s19.e1" e2="DDI-DrugBank.d219.s19.e2" ddi="true" type="mechanism" flags="True" e1_name="Phenylbutazone" e2_name="etodolac" e1_pos="2" e2_pos="13" path="2@@3@@11@@13@@">Phenylbutazone@@@@nsubj@@causes@@prep_in@@fraction@@prep_of@@etodolac</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s20" text="Although in vivo studies have not been done to see if etodolac clearance is changed by coadministration of phenylbutazone, it is not recommended that they be coadministered." new_text="Although@@in@@vivo@@studies@@have@@not@@been@@done@@to@@see@@if@@etodolac@@clearance@@is@@changed@@by@@coadministration@@of@@phenylbutazone@@,@@it@@is@@not@@recommended@@that@@they@@be@@coadministered@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s20.e0" charOffset="54-61" type="drug" text="etodolac" position="11"/>  
+      <entity id="DDI-DrugBank.d219.s20.e1" charOffset="107-120" type="drug" text="phenylbutazone" position="18"/>  
+      <pair id="DDI-DrugBank.d219.s20.p0" e1="DDI-DrugBank.d219.s20.e0" e2="DDI-DrugBank.d219.s20.e1" ddi="true" type="advise" flags="True" e1_name="etodolac" e2_name="phenylbutazone" e1_pos="11" e2_pos="18" path="11@@12@@14@@16@@18@@">etodolac@@@@amod@@clearance@@nsubjpass@@changed@@agent@@coadministration@@prep_of@@phenylbutazone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s21" text="Phenytoin: Etodolac has no apparent pharmacokinetic interaction when administered with phenytoin." new_text="Phenytoin@@:@@Etodolac@@has@@no@@apparent@@pharmacokinetic@@interaction@@when@@administered@@with@@phenytoin@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s21.e0" charOffset="0-8" type="drug" text="Phenytoin" position="0"/>  
+      <entity id="DDI-DrugBank.d219.s21.e1" charOffset="11-18" type="drug" text="Etodolac" position="2"/>  
+      <entity id="DDI-DrugBank.d219.s21.e2" charOffset="87-95" type="drug" text="phenytoin" position="11"/>  
+      <pair id="DDI-DrugBank.d219.s21.p0" e1="DDI-DrugBank.d219.s21.e0" e2="DDI-DrugBank.d219.s21.e1" ddi="false" flags="True" e1_name="Phenytoin" e2_name="Etodolac" e1_pos="0" e2_pos="2" path="0@@3@@2@@">Phenytoin@@@@dep@@has@@nsubj@@Etodolac</pair>  
+      <pair id="DDI-DrugBank.d219.s21.p1" e1="DDI-DrugBank.d219.s21.e0" e2="DDI-DrugBank.d219.s21.e2" ddi="false" flags="True" e1_name="Phenytoin" e2_name="phenytoin" e1_pos="0" e2_pos="11" path="0@@3@@7@@9@@11@@">Phenytoin@@@@dep@@has@@dobj@@interaction@@rcmod@@administered@@prep_with@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d219.s21.p2" e1="DDI-DrugBank.d219.s21.e1" e2="DDI-DrugBank.d219.s21.e2" ddi="false" flags="True" e1_name="Etodolac" e2_name="phenytoin" e1_pos="2" e2_pos="11" path="2@@3@@7@@9@@11@@">Etodolac@@@@nsubj@@has@@dobj@@interaction@@rcmod@@administered@@prep_with@@phenytoin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s22" text="Warfarin: The effects of warfarin and NSAIDs on GI bleeding are synergistic, such that users of both drugs together have a risk of serious GI bleeding higher than that of users of either drug alone." new_text="Warfarin@@:@@The@@effects@@of@@warfarin@@and@@NSAIDs@@on@@GI@@bleeding@@are@@synergistic@@,@@such@@that@@users@@of@@both@@drugs@@together@@have@@a@@risk@@of@@serious@@GI@@bleeding@@higher@@than@@that@@of@@users@@of@@either@@drug@@alone@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s22.e0" charOffset="0-7" type="drug" text="Warfarin" position="0"/>  
+      <entity id="DDI-DrugBank.d219.s22.e1" charOffset="25-32" type="drug" text="warfarin" position="5"/>  
+      <entity id="DDI-DrugBank.d219.s22.e2" charOffset="38-43" type="group" text="NSAIDs" position="7"/>  
+      <pair id="DDI-DrugBank.d219.s22.p0" e1="DDI-DrugBank.d219.s22.e0" e2="DDI-DrugBank.d219.s22.e1" ddi="false" flags="True" e1_name="Warfarin" e2_name="warfarin" e1_pos="0" e2_pos="5" path="0@@3@@5@@">Warfarin@@@@dep@@effects@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d219.s22.p1" e1="DDI-DrugBank.d219.s22.e0" e2="DDI-DrugBank.d219.s22.e2" ddi="false" flags="True" e1_name="Warfarin" e2_name="NSAIDs" e1_pos="0" e2_pos="7" path="0@@7@@">Warfarin@@@@conj_and@@NSAIDs</pair>  
+      <pair id="DDI-DrugBank.d219.s22.p2" e1="DDI-DrugBank.d219.s22.e1" e2="DDI-DrugBank.d219.s22.e2" ddi="true" type="effect" flags="True" e1_name="warfarin" e2_name="NSAIDs" e1_pos="5" e2_pos="7" path="5@@3@@0@@7@@">warfarin@@@@prep_of@@effects@@dep@@Warfarin@@conj_and@@NSAIDs</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s23" text="Short-term pharmacokinetic studies have demonstrated that concomitant administration of warfarin and Lodine  (etodolac capsules and tablets) results in reduced protein binding of warfarin, but there was no change in the clearance of free warfarin." new_text="Short-term@@pharmacokinetic@@studies@@have@@demonstrated@@that@@concomitant@@administration@@of@@warfarin@@and@@Lodine@@(@@etodolac@@capsules@@and@@tablets)@@results@@in@@reduced@@protein@@binding@@of@@warfarin@@,@@but@@there@@was@@no@@change@@in@@the@@clearance@@of@@free@@warfarin@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s23.e0" charOffset="88-95" type="drug" text="warfarin" position="9"/>  
+      <entity id="DDI-DrugBank.d219.s23.e1" charOffset="101-106" type="brand" text="Lodine" position="11"/>  
+      <entity id="DDI-DrugBank.d219.s23.e2" charOffset="110-117" type="drug" text="etodolac" position="13"/>  
+      <entity id="DDI-DrugBank.d219.s23.e3" charOffset="179-186" type="drug" text="warfarin" position="23"/>  
+      <entity id="DDI-DrugBank.d219.s23.e4" charOffset="238-245" type="drug" text="warfarin" position="35"/>  
+      <pair id="DDI-DrugBank.d219.s23.p0" e1="DDI-DrugBank.d219.s23.e0" e2="DDI-DrugBank.d219.s23.e1" ddi="true" type="mechanism" flags="True" e1_name="warfarin" e2_name="Lodine" e1_pos="9" e2_pos="11" path="9@@11@@">warfarin@@@@conj_and@@Lodine</pair>  
+      <pair id="DDI-DrugBank.d219.s23.p1" e1="DDI-DrugBank.d219.s23.e0" e2="DDI-DrugBank.d219.s23.e2" ddi="true" type="mechanism" flags="True" e1_name="warfarin" e2_name="etodolac" e1_pos="9" e2_pos="13" path="9@@14@@13@@">warfarin@@@@nn@@capsules@@amod@@etodolac</pair>  
+      <pair id="DDI-DrugBank.d219.s23.p2" e1="DDI-DrugBank.d219.s23.e0" e2="DDI-DrugBank.d219.s23.e3" ddi="false" flags="True" e1_name="warfarin" e2_name="warfarin" e1_pos="9" e2_pos="23" path="9@@14@@7@@4@@20@@23@@">warfarin@@@@nn@@capsules@@prep_of@@administration@@dobj@@demonstrated@@prep_in@@protein@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d219.s23.p3" e1="DDI-DrugBank.d219.s23.e0" e2="DDI-DrugBank.d219.s23.e4" ddi="false" flags="True" e1_name="warfarin" e2_name="warfarin" e1_pos="9" e2_pos="35" path="9@@14@@7@@4@@27@@29@@32@@35@@">warfarin@@@@nn@@capsules@@prep_of@@administration@@dobj@@demonstrated@@conj_but@@was@@nsubj@@change@@prep_in@@clearance@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d219.s23.p4" e1="DDI-DrugBank.d219.s23.e1" e2="DDI-DrugBank.d219.s23.e2" ddi="false" flags="True" e1_name="Lodine" e2_name="etodolac" e1_pos="11" e2_pos="13" path="11@@14@@13@@">Lodine@@@@nn@@capsules@@amod@@etodolac</pair>  
+      <pair id="DDI-DrugBank.d219.s23.p5" e1="DDI-DrugBank.d219.s23.e1" e2="DDI-DrugBank.d219.s23.e3" ddi="false" flags="True" e1_name="Lodine" e2_name="warfarin" e1_pos="11" e2_pos="23" path="11@@14@@7@@4@@20@@23@@">Lodine@@@@nn@@capsules@@prep_of@@administration@@dobj@@demonstrated@@prep_in@@protein@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d219.s23.p6" e1="DDI-DrugBank.d219.s23.e1" e2="DDI-DrugBank.d219.s23.e4" ddi="false" flags="True" e1_name="Lodine" e2_name="warfarin" e1_pos="11" e2_pos="35" path="11@@14@@7@@4@@27@@29@@32@@35@@">Lodine@@@@nn@@capsules@@prep_of@@administration@@dobj@@demonstrated@@conj_but@@was@@nsubj@@change@@prep_in@@clearance@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d219.s23.p7" e1="DDI-DrugBank.d219.s23.e2" e2="DDI-DrugBank.d219.s23.e3" ddi="false" flags="True" e1_name="etodolac" e2_name="warfarin" e1_pos="13" e2_pos="23" path="13@@14@@7@@4@@20@@23@@">etodolac@@@@amod@@capsules@@prep_of@@administration@@dobj@@demonstrated@@prep_in@@protein@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d219.s23.p8" e1="DDI-DrugBank.d219.s23.e2" e2="DDI-DrugBank.d219.s23.e4" ddi="false" flags="True" e1_name="etodolac" e2_name="warfarin" e1_pos="13" e2_pos="35" path="13@@14@@7@@4@@27@@29@@32@@35@@">etodolac@@@@amod@@capsules@@prep_of@@administration@@dobj@@demonstrated@@conj_but@@was@@nsubj@@change@@prep_in@@clearance@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d219.s23.p9" e1="DDI-DrugBank.d219.s23.e3" e2="DDI-DrugBank.d219.s23.e4" ddi="false" flags="True" e1_name="warfarin" e2_name="warfarin" e1_pos="23" e2_pos="35" path="23@@20@@4@@27@@29@@32@@35@@">warfarin@@@@prep_of@@protein@@prep_in@@demonstrated@@conj_but@@was@@nsubj@@change@@prep_in@@clearance@@prep_of@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s24" text="There was no significant difference in the pharmacodynamic effect of warfarin administered alone and warfarin administered with Lodine as measured by prothrombin time." new_text="There@@was@@no@@significant@@difference@@in@@the@@pharmacodynamic@@effect@@of@@warfarin@@administered@@alone@@and@@warfarin@@administered@@with@@Lodine@@as@@measured@@by@@prothrombin@@time@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s24.e0" charOffset="69-76" type="drug" text="warfarin" position="10"/>  
+      <entity id="DDI-DrugBank.d219.s24.e1" charOffset="101-108" type="drug" text="warfarin" position="14"/>  
+      <entity id="DDI-DrugBank.d219.s24.e2" charOffset="128-133" type="brand" text="Lodine" position="17"/>  
+      <pair id="DDI-DrugBank.d219.s24.p0" e1="DDI-DrugBank.d219.s24.e0" e2="DDI-DrugBank.d219.s24.e1" ddi="false" flags="True" e1_name="warfarin" e2_name="warfarin" e1_pos="10" e2_pos="14" path="10@@8@@14@@">warfarin@@@@prep_of@@effect@@conj_and@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d219.s24.p1" e1="DDI-DrugBank.d219.s24.e0" e2="DDI-DrugBank.d219.s24.e2" ddi="false" flags="True" e1_name="warfarin" e2_name="Lodine" e1_pos="10" e2_pos="17" path="10@@8@@14@@15@@17@@">warfarin@@@@prep_of@@effect@@conj_and@@warfarin@@partmod@@administered@@prep_with@@Lodine</pair>  
+      <pair id="DDI-DrugBank.d219.s24.p2" e1="DDI-DrugBank.d219.s24.e1" e2="DDI-DrugBank.d219.s24.e2" ddi="false" flags="True" e1_name="warfarin" e2_name="Lodine" e1_pos="14" e2_pos="17" path="14@@15@@17@@">warfarin@@@@partmod@@administered@@prep_with@@Lodine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s25" text="Thus, concomitant therapy with warfarin and Lodine should not require dosage adjustment of either drug." new_text="Thus@@,@@concomitant@@therapy@@with@@warfarin@@and@@Lodine@@should@@not@@require@@dosage@@adjustment@@of@@either@@drug@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s25.e0" charOffset="31-38" type="drug" text="warfarin" position="5"/>  
+      <entity id="DDI-DrugBank.d219.s25.e1" charOffset="44-49" type="brand" text="Lodine" position="7"/>  
+      <pair id="DDI-DrugBank.d219.s25.p0" e1="DDI-DrugBank.d219.s25.e0" e2="DDI-DrugBank.d219.s25.e1" ddi="false" flags="True" e1_name="warfarin" e2_name="Lodine" e1_pos="5" e2_pos="7" path="5@@7@@">warfarin@@@@conj_and@@Lodine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s26" text="However, caution should be exercised because there have been a few spontaneous reports of prolonged prothrombin times, with or without bleeding, in etodolac-treated patients receiving concomitant warfarin therapy." new_text="However@@,@@caution@@should@@be@@exercised@@because@@there@@have@@been@@a@@few@@spontaneous@@reports@@of@@prolonged@@prothrombin@@times@@,@@with@@or@@without@@bleeding@@,@@in@@etodolac@@-treated@@patients@@receiving@@concomitant@@warfarin@@therapy@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s26.e0" charOffset="148-155" type="drug" text="etodolac" position="25"/>  
+      <entity id="DDI-DrugBank.d219.s26.e1" charOffset="196-203" type="drug" text="warfarin" position="30"/>  
+      <pair id="DDI-DrugBank.d219.s26.p0" e1="DDI-DrugBank.d219.s26.e0" e2="DDI-DrugBank.d219.s26.e1" ddi="true" type="effect" flags="True" e1_name="etodolac" e2_name="warfarin" e1_pos="25" e2_pos="30" path="25@@27@@28@@31@@30@@">etodolac@@@@amod@@patients@@partmod@@receiving@@dobj@@therapy@@nn@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s27" text="Drug/Laboratory Test Interactions The urine of patients who take Lodine can give a false-positive reaction for urinary bilirubin (urobilin) due to the presence of phenolic metabolites of etodolac." new_text="Drug/Laboratory@@Test@@Interactions@@The@@urine@@of@@patients@@who@@take@@Lodine@@can@@give@@a@@false-positive@@reaction@@for@@urinary@@bilirubin@@(urobilin)@@due@@to@@the@@presence@@of@@phenolic@@metabolites@@of@@etodolac@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s27.e0" charOffset="65-70" type="brand" text="Lodine" position="9"/>  
+      <entity id="DDI-DrugBank.d219.s27.e1" charOffset="187-194" type="drug" text="etodolac" position="27"/>  
+      <pair id="DDI-DrugBank.d219.s27.p0" e1="DDI-DrugBank.d219.s27.e0" e2="DDI-DrugBank.d219.s27.e1" ddi="false" flags="True" e1_name="Lodine" e2_name="etodolac" e1_pos="9" e2_pos="27" path="9@@11@@22@@25@@27@@">Lodine@@@@nsubj@@give@@prep_due_to@@presence@@prep_of@@metabolites@@prep_of@@etodolac</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s28" text="Diagnostic dip-stick methodology, used to detect ketone bodies in urine, has resulted in false-positive findings in some patients treated with Lodine." new_text="Diagnostic@@dip-stick@@methodology@@,@@used@@to@@detect@@ketone@@bodies@@in@@urine@@,@@has@@resulted@@in@@false-positive@@findings@@in@@some@@patients@@treated@@with@@Lodine@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s28.e0" charOffset="143-148" type="brand" text="Lodine" position="22"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s29" text="Generally, this phenomenon has not been associated with other clinically significant events." new_text="Generally@@,@@this@@phenomenon@@has@@not@@been@@associated@@with@@other@@clinically@@significant@@events@@.@@"/>  
+   <sentence id="DDI-DrugBank.d219.s30" text="No dose relationship has been observed." new_text="No@@dose@@relationship@@has@@been@@observed@@.@@"/>  
+   <sentence id="DDI-DrugBank.d219.s31" text="Lodine treatment is associated with a small decrease in serum uric acid levels." new_text="Lodine@@treatment@@is@@associated@@with@@a@@small@@decrease@@in@@serum@@uric@@acid@@levels@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s31.e0" charOffset="0-5" type="brand" text="Lodine" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s32" text="In clinical trials, mean decreases of 1 to 2 mg/dL were observed in arthritic patients receiving etodolac (600 mg to 1000 mg/day) after 4 weeks of therapy." new_text="In@@clinical@@trials@@,@@mean@@decreases@@of@@1@@to@@2@@mg/dL@@were@@observed@@in@@arthritic@@patients@@receiving@@etodolac@@(600@@mg@@to@@1000@@mg/day)@@after@@4@@weeks@@of@@therapy@@.@@"> 
+      <entity id="DDI-DrugBank.d219.s32.e0" charOffset="97-104" type="drug" text="etodolac" position="17"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d219.s33" text="These levels then remained stable for up to 1 year of therapy." new_text="These@@levels@@then@@remained@@stable@@for@@up@@to@@1@@year@@of@@therapy@@.@@"/>  
+   <sentence id="DDI-DrugBank.d219.s34" text="" new_text=""/> 
+</document>

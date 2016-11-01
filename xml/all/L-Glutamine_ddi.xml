@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d66"> 
+   <sentence id="DDI-DrugBank.d66.s0" text="Human growth hormone - Concomitant use of L-glutamine and human growth hormone may enhance nutrient absorption in those with severe short bowel syndrome." new_text="Human growth hormone@@-@@Concomitant@@use@@of@@L-glutamine@@and@@human growth hormone@@may@@enhance@@nutrient@@absorption@@in@@those@@with@@severe@@short@@bowel@@syndrome@@.@@"> 
+      <entity id="DDI-DrugBank.d66.s0.e0" charOffset="0-19" type="drug" text="Human growth hormone" position="0"/>  
+      <entity id="DDI-DrugBank.d66.s0.e1" charOffset="42-52" type="drug" text="L-glutamine" position="5"/>  
+      <entity id="DDI-DrugBank.d66.s0.e2" charOffset="58-77" type="drug" text="human growth hormone" position="7"/>  
+      <pair id="DDI-DrugBank.d66.s0.p0" e1="DDI-DrugBank.d66.s0.e0" e2="DDI-DrugBank.d66.s0.e1" ddi="false" flags="True" e1_name="Human growth hormone" e2_name="L-glutamine" e1_pos="0" e2_pos="5" path="0@@9@@3@@5@@">Human growth hormone@@@@dep@@enhance@@nsubj@@use@@prep_of@@L-glutamine</pair>  
+      <pair id="DDI-DrugBank.d66.s0.p1" e1="DDI-DrugBank.d66.s0.e0" e2="DDI-DrugBank.d66.s0.e2" ddi="false" flags="True" e1_name="Human growth hormone" e2_name="human growth hormone" e1_pos="0" e2_pos="7" path="0@@9@@3@@7@@">Human growth hormone@@@@dep@@enhance@@nsubj@@use@@prep_of@@human growth hormone</pair>  
+      <pair id="DDI-DrugBank.d66.s0.p2" e1="DDI-DrugBank.d66.s0.e1" e2="DDI-DrugBank.d66.s0.e2" ddi="true" type="mechanism" flags="True" e1_name="L-glutamine" e2_name="human growth hormone" e1_pos="5" e2_pos="7" path="5@@7@@">L-glutamine@@@@conj_and@@human growth hormone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d66.s1" text="L-glutamine has orphan drug status for this indication." new_text="L-glutamine@@has@@orphan@@drug@@status@@for@@this@@indication@@.@@"> 
+      <entity id="DDI-DrugBank.d66.s1.e0" charOffset="0-10" type="drug" text="L-glutamine" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d66.s2" text="Indomethacin - Concomitant use of L-glutamine and indomethacin may ameliorate increased intestinal permeability caused by indomethacin." new_text="Indomethacin@@-@@Concomitant@@use@@of@@L-glutamine@@and@@indomethacin@@may@@ameliorate@@increased@@intestinal@@permeability@@caused@@by@@indomethacin@@.@@"> 
+      <entity id="DDI-DrugBank.d66.s2.e0" charOffset="0-11" type="drug" text="Indomethacin" position="0"/>  
+      <entity id="DDI-DrugBank.d66.s2.e1" charOffset="34-44" type="drug" text="L-glutamine" position="5"/>  
+      <entity id="DDI-DrugBank.d66.s2.e2" charOffset="50-61" type="drug" text="indomethacin" position="7"/>  
+      <entity id="DDI-DrugBank.d66.s2.e3" charOffset="122-133" type="drug" text="indomethacin" position="15"/>  
+      <pair id="DDI-DrugBank.d66.s2.p0" e1="DDI-DrugBank.d66.s2.e0" e2="DDI-DrugBank.d66.s2.e1" ddi="false" flags="True" e1_name="Indomethacin" e2_name="L-glutamine" e1_pos="0" e2_pos="5" path="0@@9@@3@@5@@">Indomethacin@@@@dep@@ameliorate@@nsubj@@use@@prep_of@@L-glutamine</pair>  
+      <pair id="DDI-DrugBank.d66.s2.p1" e1="DDI-DrugBank.d66.s2.e0" e2="DDI-DrugBank.d66.s2.e2" ddi="false" flags="True" e1_name="Indomethacin" e2_name="indomethacin" e1_pos="0" e2_pos="7" path="0@@9@@3@@7@@">Indomethacin@@@@dep@@ameliorate@@nsubj@@use@@prep_of@@indomethacin</pair>  
+      <pair id="DDI-DrugBank.d66.s2.p2" e1="DDI-DrugBank.d66.s2.e0" e2="DDI-DrugBank.d66.s2.e3" ddi="false" flags="True" e1_name="Indomethacin" e2_name="indomethacin" e1_pos="0" e2_pos="15" path="0@@9@@12@@13@@15@@">Indomethacin@@@@dep@@ameliorate@@dobj@@permeability@@partmod@@caused@@agent@@indomethacin</pair>  
+      <pair id="DDI-DrugBank.d66.s2.p3" e1="DDI-DrugBank.d66.s2.e1" e2="DDI-DrugBank.d66.s2.e2" ddi="true" type="effect" flags="True" e1_name="L-glutamine" e2_name="indomethacin" e1_pos="5" e2_pos="7" path="5@@7@@">L-glutamine@@@@conj_and@@indomethacin</pair>  
+      <pair id="DDI-DrugBank.d66.s2.p4" e1="DDI-DrugBank.d66.s2.e1" e2="DDI-DrugBank.d66.s2.e3" ddi="false" flags="True" e1_name="L-glutamine" e2_name="indomethacin" e1_pos="5" e2_pos="15" path="5@@3@@9@@12@@13@@15@@">L-glutamine@@@@prep_of@@use@@nsubj@@ameliorate@@dobj@@permeability@@partmod@@caused@@agent@@indomethacin</pair>  
+      <pair id="DDI-DrugBank.d66.s2.p5" e1="DDI-DrugBank.d66.s2.e2" e2="DDI-DrugBank.d66.s2.e3" ddi="false" flags="True" e1_name="indomethacin" e2_name="indomethacin" e1_pos="7" e2_pos="15" path="7@@3@@9@@12@@13@@15@@">indomethacin@@@@prep_of@@use@@nsubj@@ameliorate@@dobj@@permeability@@partmod@@caused@@agent@@indomethacin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d66.s3" text="The reported dose used for L-glutamine was 21 grams daily taken in divided doses three times a day." new_text="The@@reported@@dose@@used@@for@@L-glutamine@@was@@21@@grams@@daily@@taken@@in@@divided@@doses@@three@@times@@a@@day@@.@@"> 
+      <entity id="DDI-DrugBank.d66.s3.e0" charOffset="27-37" type="drug" text="L-glutamine" position="5"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d66.s4" text="Further, misoprostol is reported to have a synergistic effect with this combination in ameliorating intestinal permeability." new_text="Further@@,@@misoprostol@@is@@reported@@to@@have@@a@@synergistic@@effect@@with@@this@@combination@@in@@ameliorating@@intestinal@@permeability@@.@@"> 
+      <entity id="DDI-DrugBank.d66.s4.e0" charOffset="9-19" type="drug" text="misoprostol" position="2"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d66.s5" text="Methotrexate - There is one report that methotrexate may decrease the possible effectiveness of supplemental L-glutamine for chemotherapy-induced mucositis." new_text="Methotrexate@@-@@There@@is@@one@@report@@that@@methotrexate@@may@@decrease@@the@@possible@@effectiveness@@of@@supplemental@@L-glutamine@@for@@chemotherapy-induced@@mucositis@@.@@"> 
+      <entity id="DDI-DrugBank.d66.s5.e0" charOffset="0-11" type="drug" text="Methotrexate" position="0"/>  
+      <entity id="DDI-DrugBank.d66.s5.e1" charOffset="40-51" type="drug" text="methotrexate" position="7"/>  
+      <entity id="DDI-DrugBank.d66.s5.e2" charOffset="109-119" type="drug" text="L-glutamine" position="15"/>  
+      <pair id="DDI-DrugBank.d66.s5.p0" e1="DDI-DrugBank.d66.s5.e0" e2="DDI-DrugBank.d66.s5.e1" ddi="false" flags="True" e1_name="Methotrexate" e2_name="methotrexate" e1_pos="0" e2_pos="7" path="0@@3@@5@@9@@7@@">Methotrexate@@@@dep@@is@@nsubj@@report@@dep@@decrease@@nsubj@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d66.s5.p1" e1="DDI-DrugBank.d66.s5.e0" e2="DDI-DrugBank.d66.s5.e2" ddi="false" flags="True" e1_name="Methotrexate" e2_name="L-glutamine" e1_pos="0" e2_pos="15" path="0@@3@@5@@9@@12@@15@@">Methotrexate@@@@dep@@is@@nsubj@@report@@dep@@decrease@@dobj@@effectiveness@@prep_of@@L-glutamine</pair>  
+      <pair id="DDI-DrugBank.d66.s5.p2" e1="DDI-DrugBank.d66.s5.e1" e2="DDI-DrugBank.d66.s5.e2" ddi="true" type="effect" flags="True" e1_name="methotrexate" e2_name="L-glutamine" e1_pos="7" e2_pos="15" path="7@@9@@12@@15@@">methotrexate@@@@nsubj@@decrease@@dobj@@effectiveness@@prep_of@@L-glutamine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d66.s6" text="In another report, nine patients with breast cancer were reported to have decreased symptoms of methotrexate-related toxicity when given supplemental L-glutamine at a dose of 0.5 gram/kilogram/day." new_text="In@@another@@report@@,@@nine@@patients@@with@@breast@@cancer@@were@@reported@@to@@have@@decreased@@symptoms@@of@@methotrexate@@-related@@toxicity@@when@@given@@supplemental@@L-glutamine@@at@@a@@dose@@of@@0.5@@gram/kilogram/day@@.@@"> 
+      <entity id="DDI-DrugBank.d66.s6.e0" charOffset="96-107" type="drug" text="methotrexate" position="16"/>  
+      <entity id="DDI-DrugBank.d66.s6.e1" charOffset="150-160" type="drug" text="L-glutamine" position="22"/>  
+      <pair id="DDI-DrugBank.d66.s6.p0" e1="DDI-DrugBank.d66.s6.e0" e2="DDI-DrugBank.d66.s6.e1" ddi="true" type="effect" flags="True" e1_name="methotrexate" e2_name="L-glutamine" e1_pos="16" e2_pos="22" path="16@@18@@14@@13@@20@@22@@">methotrexate@@@@amod@@toxicity@@prep_of@@symptoms@@dobj@@decreased@@advcl@@given@@dobj@@L-glutamine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d66.s7" text="Paclitaxel - In one report, L-glutamine at a dose of 10 grams three times daily, given 24 hours after receiving paclitaxel, appeared to prevent the development of myalgia and arthralgia, adverse reactions of paclitaxel." new_text="Paclitaxel@@-@@In@@one@@report@@,@@L-glutamine@@at@@a@@dose@@of@@10@@grams@@three@@times@@daily@@,@@given@@24@@hours@@after@@receiving@@paclitaxel@@,@@appeared@@to@@prevent@@the@@development@@of@@myalgia@@and@@arthralgia@@,@@adverse@@reactions@@of@@paclitaxel@@.@@"> 
+      <entity id="DDI-DrugBank.d66.s7.e0" charOffset="0-9" type="drug" text="Paclitaxel" position="0"/>  
+      <entity id="DDI-DrugBank.d66.s7.e1" charOffset="28-38" type="drug" text="L-glutamine" position="6"/>  
+      <entity id="DDI-DrugBank.d66.s7.e2" charOffset="112-121" type="drug" text="paclitaxel" position="22"/>  
+      <entity id="DDI-DrugBank.d66.s7.e3" charOffset="208-217" type="drug" text="paclitaxel" position="37"/>  
+      <pair id="DDI-DrugBank.d66.s7.p0" e1="DDI-DrugBank.d66.s7.e0" e2="DDI-DrugBank.d66.s7.e1" ddi="false" flags="True" e1_name="Paclitaxel" e2_name="L-glutamine" e1_pos="0" e2_pos="6" path="0@@24@@6@@">Paclitaxel@@@@dep@@appeared@@nsubj@@L-glutamine</pair>  
+      <pair id="DDI-DrugBank.d66.s7.p1" e1="DDI-DrugBank.d66.s7.e0" e2="DDI-DrugBank.d66.s7.e2" ddi="false" flags="True" e1_name="Paclitaxel" e2_name="paclitaxel" e1_pos="0" e2_pos="22" path="0@@24@@6@@9@@17@@20@@21@@22@@">Paclitaxel@@@@dep@@appeared@@nsubj@@L-glutamine@@prep_at@@dose@@prep@@given@@pcomp@@after@@pcomp@@receiving@@dobj@@paclitaxel</pair>  
+      <pair id="DDI-DrugBank.d66.s7.p2" e1="DDI-DrugBank.d66.s7.e0" e2="DDI-DrugBank.d66.s7.e3" ddi="false" flags="True" e1_name="Paclitaxel" e2_name="paclitaxel" e1_pos="0" e2_pos="37" path="0@@24@@26@@28@@30@@35@@37@@">Paclitaxel@@@@dep@@appeared@@xcomp@@prevent@@dobj@@development@@prep_of@@myalgia@@appos@@reactions@@prep_of@@paclitaxel</pair>  
+      <pair id="DDI-DrugBank.d66.s7.p3" e1="DDI-DrugBank.d66.s7.e1" e2="DDI-DrugBank.d66.s7.e2" ddi="true" type="effect" flags="True" e1_name="L-glutamine" e2_name="paclitaxel" e1_pos="6" e2_pos="22" path="6@@9@@17@@20@@21@@22@@">L-glutamine@@@@prep_at@@dose@@prep@@given@@pcomp@@after@@pcomp@@receiving@@dobj@@paclitaxel</pair>  
+      <pair id="DDI-DrugBank.d66.s7.p4" e1="DDI-DrugBank.d66.s7.e1" e2="DDI-DrugBank.d66.s7.e3" ddi="false" flags="True" e1_name="L-glutamine" e2_name="paclitaxel" e1_pos="6" e2_pos="37" path="6@@26@@28@@30@@35@@37@@">L-glutamine@@@@xsubj@@prevent@@dobj@@development@@prep_of@@myalgia@@appos@@reactions@@prep_of@@paclitaxel</pair>  
+      <pair id="DDI-DrugBank.d66.s7.p5" e1="DDI-DrugBank.d66.s7.e2" e2="DDI-DrugBank.d66.s7.e3" ddi="false" flags="True" e1_name="paclitaxel" e2_name="paclitaxel" e1_pos="22" e2_pos="37" path="22@@21@@20@@17@@9@@6@@26@@28@@30@@35@@37@@">paclitaxel@@@@dobj@@receiving@@pcomp@@after@@pcomp@@given@@prep@@dose@@prep_at@@L-glutamine@@xsubj@@prevent@@dobj@@development@@prep_of@@myalgia@@appos@@reactions@@prep_of@@paclitaxel</pair> 
+   </sentence> 
+</document>

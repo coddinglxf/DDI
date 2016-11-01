@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d556"> 
+   <sentence id="DDI-DrugBank.d556.s0" text="Increased nephrotoxicity has been reported following concomitant administration of cephalosporins and aminoglycoside antibiotics." new_text="Increased@@nephrotoxicity@@has@@been@@reported@@following@@concomitant@@administration@@of@@cephalosporins@@and@@aminoglycoside antibiotics@@.@@"> 
+      <entity id="DDI-DrugBank.d556.s0.e0" charOffset="83-96" type="group" text="cephalosporins" position="9"/>  
+      <entity id="DDI-DrugBank.d556.s0.e1" charOffset="102-127" type="group" text="aminoglycoside antibiotics" position="11"/>  
+      <pair id="DDI-DrugBank.d556.s0.p0" e1="DDI-DrugBank.d556.s0.e0" e2="DDI-DrugBank.d556.s0.e1" ddi="true" type="effect" flags="True" e1_name="cephalosporins" e2_name="aminoglycoside antibiotics" e1_pos="9" e2_pos="11" path="9@@11@@">cephalosporins@@@@conj_and@@aminoglycoside antibiotics</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d556.s1" text="Drug/Laboratory Test Interactions As with cephalothin, high concentrations of cefoxitin ( 100 micrograms/mL) may interfere with measurement of serum and urine creatinine levels by the Jaff  reaction, and produce false increases of modest degree in the levels of creatinine reported." new_text="Drug/Laboratory@@Test@@Interactions@@As@@with@@cephalothin@@,@@high@@concentrations@@of@@cefoxitin@@(@@100@@micrograms/mL)@@may@@interfere@@with@@measurement@@of@@serum@@and@@urine@@creatinine@@levels@@by@@the@@Jaff@@@@reaction@@,@@and@@produce@@false@@increases@@of@@modest@@degree@@in@@the@@levels@@of@@creatinine@@reported@@.@@"> 
+      <entity id="DDI-DrugBank.d556.s1.e0" charOffset="42-52" type="drug" text="cephalothin" position="5"/>  
+      <entity id="DDI-DrugBank.d556.s1.e1" charOffset="78-86" type="drug" text="cefoxitin" position="10"/>  
+      <pair id="DDI-DrugBank.d556.s1.p0" e1="DDI-DrugBank.d556.s1.e0" e2="DDI-DrugBank.d556.s1.e1" ddi="false" flags="True" e1_name="cephalothin" e2_name="cefoxitin" e1_pos="5" e2_pos="10" path="5@@15@@8@@13@@10@@">cephalothin@@@@prep_with@@interfere@@nsubj@@concentrations@@prep_of@@micrograms/mL)@@amod@@cefoxitin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d556.s2" text="Serum samples from patients treated with cefoxitin should not be analyzed for creatinine if withdrawn within 2 hours of drug administration." new_text="Serum@@samples@@from@@patients@@treated@@with@@cefoxitin@@should@@not@@be@@analyzed@@for@@creatinine@@if@@withdrawn@@within@@2@@hours@@of@@drug@@administration@@.@@"> 
+      <entity id="DDI-DrugBank.d556.s2.e0" charOffset="41-49" type="drug" text="cefoxitin" position="6"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d556.s3" text="High concentrations of cefoxitin in the urine may interfere with measurement of urinary 17-hydroxy-corticosteroids by the Porter-Silber reaction, and produce false increases of modest degree in the levels reported." new_text="High@@concentrations@@of@@cefoxitin@@in@@the@@urine@@may@@interfere@@with@@measurement@@of@@urinary@@17-hydroxy-corticosteroids@@by@@the@@Porter-Silber@@reaction@@,@@and@@produce@@false@@increases@@of@@modest@@degree@@in@@the@@levels@@reported@@.@@"> 
+      <entity id="DDI-DrugBank.d556.s3.e0" charOffset="23-31" type="drug" text="cefoxitin" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d556.s4" text="A false-positive reaction for glucose in the urine may occur." new_text="A@@false-positive@@reaction@@for@@glucose@@in@@the@@urine@@may@@occur@@.@@"/>  
+   <sentence id="DDI-DrugBank.d556.s5" text="This has been observed with CLINITEST  reagent tablets" new_text="This@@has@@been@@observed@@with@@CLINITEST@@@@reagent@@tablets@@"/>  
+   <sentence id="DDI-DrugBank.d556.s6" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d556.s7" text="Registered trademark of Ames Company, Division of Miles Laboratories, Inc." new_text="Registered@@trademark@@of@@Ames@@Company@@,@@Division@@of@@Miles@@Laboratories@@,@@Inc@@.@@"/> 
+</document>

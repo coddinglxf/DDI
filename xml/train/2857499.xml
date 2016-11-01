@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d139"> 
+   <sentence id="DDI-MedLine.d139.s0" text="[Quantitative approach to treatment with incisive neuroleptics by therapeutic monitoring]; The problems encountered during the longterm treatment of psychotic patients with neuroleptics are illustrated by six typical case reports. " new_text="[Quantitative@@approach@@to@@treatment@@with@@incisive@@neuroleptics@@by@@therapeutic@@monitoring];@@The@@problems@@encountered@@during@@the@@longterm@@treatment@@of@@psychotic@@patients@@with@@neuroleptics@@are@@illustrated@@by@@six@@typical@@case@@reports@@.@@"> 
+      <entity id="DDI-MedLine.d139.s0.e0" charOffset="50-61" type="group" text="neuroleptics" position="6"/>  
+      <entity id="DDI-MedLine.d139.s0.e1" charOffset="173-184" type="group" text="neuroleptics" position="21"/>  
+      <pair id="DDI-MedLine.d139.s0.p0" e1="DDI-MedLine.d139.s0.e0" e2="DDI-MedLine.d139.s0.e1" ddi="false" flags="True" e1_name="neuroleptics" e2_name="neuroleptics" e1_pos="6" e2_pos="21" path="6@@9@@12@@21@@">neuroleptics@@@@prep_by@@monitoring];@@rcmod@@encountered@@prep_with@@neuroleptics</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d139.s1" text="A group of patients who had had a new acute episode despite seemingly adequate treatment were selected. " new_text="A@@group@@of@@patients@@who@@had@@had@@a@@new@@acute@@episode@@despite@@seemingly@@adequate@@treatment@@were@@selected@@.@@"/>  
+   <sentence id="DDI-MedLine.d139.s2" text="In these six cases it was demonstrated that the neuroleptics dosage was inappropriate, being either too high or too low as judged from the plasma concentrations. " new_text="In@@these@@six@@cases@@it@@was@@demonstrated@@that@@the@@neuroleptics@@dosage@@was@@inappropriate@@,@@being@@either@@too@@high@@or@@too@@low@@as@@judged@@from@@the@@plasma@@concentrations@@.@@"> 
+      <entity id="DDI-MedLine.d139.s2.e0" charOffset="48-59" type="group" text="neuroleptics" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d139.s3" text="Ways of improving the adequacy of the treatment of psychotic patients with neuroleptics are discussed." new_text="Ways@@of@@improving@@the@@adequacy@@of@@the@@treatment@@of@@psychotic@@patients@@with@@neuroleptics@@are@@discussed@@.@@"> 
+      <entity id="DDI-MedLine.d139.s3.e0" charOffset="75-86" type="group" text="neuroleptics" position="12"/> 
+   </sentence> 
+</document>

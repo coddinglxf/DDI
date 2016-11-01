@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d363"> 
+   <sentence id="DDI-DrugBank.d363.s0" text="No clinically significant adverse interactions with commonly used preanesthetic drugs, or drugs used during anesthesia (muscle relaxants, intravenous agents, and local anesthetic agents) were reported in clinical trials." new_text="No@@clinically@@significant@@adverse@@interactions@@with@@commonly@@used@@preanesthetic@@drugs@@,@@or@@drugs@@used@@during@@anesthesia@@(@@muscle relaxants@@,@@intravenous@@agents@@,@@and@@local@@anesthetic agents@@)@@were@@reported@@in@@clinical@@trials@@.@@"> 
+      <entity id="DDI-DrugBank.d363.s0.e0" charOffset="120-135" type="group" text="muscle relaxants" position="17"/>  
+      <entity id="DDI-DrugBank.d363.s0.e1" charOffset="168-184" type="group" text="anesthetic agents" position="24"/>  
+      <pair id="DDI-DrugBank.d363.s0.p0" e1="DDI-DrugBank.d363.s0.e0" e2="DDI-DrugBank.d363.s0.e1" ddi="false" flags="True" e1_name="muscle relaxants" e2_name="anesthetic agents" e1_pos="17" e2_pos="24" path="17@@24@@">muscle relaxants@@@@conj_and@@anesthetic agents</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d363.s1" text="The effect of desflurane on the disposition of other drugs has not been determined." new_text="The@@effect@@of@@desflurane@@on@@the@@disposition@@of@@other@@drugs@@has@@not@@been@@determined@@.@@"> 
+      <entity id="DDI-DrugBank.d363.s1.e0" charOffset="14-23" type="drug" text="desflurane" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d363.s2" text="Like isoflurane, desflurane does not predispose to premature ventricular arrhythmias in the presence of exogenously infused epinephrine in swine." new_text="Like@@isoflurane@@,@@desflurane@@does@@not@@predispose@@to@@premature@@ventricular@@arrhythmias@@in@@the@@presence@@of@@exogenously@@infused@@epinephrine@@in@@swine@@.@@"> 
+      <entity id="DDI-DrugBank.d363.s2.e0" charOffset="5-14" type="drug" text="isoflurane" position="1"/>  
+      <entity id="DDI-DrugBank.d363.s2.e1" charOffset="17-26" type="drug" text="desflurane" position="3"/>  
+      <entity id="DDI-DrugBank.d363.s2.e2" charOffset="124-134" type="drug" text="epinephrine" position="17"/>  
+      <pair id="DDI-DrugBank.d363.s2.p0" e1="DDI-DrugBank.d363.s2.e0" e2="DDI-DrugBank.d363.s2.e1" ddi="false" flags="True" e1_name="isoflurane" e2_name="desflurane" e1_pos="1" e2_pos="3" path="1@@6@@3@@">isoflurane@@@@prep_like@@predispose@@nsubj@@desflurane</pair>  
+      <pair id="DDI-DrugBank.d363.s2.p1" e1="DDI-DrugBank.d363.s2.e0" e2="DDI-DrugBank.d363.s2.e2" ddi="false" flags="True" e1_name="isoflurane" e2_name="epinephrine" e1_pos="1" e2_pos="17" path="1@@6@@13@@17@@">isoflurane@@@@prep_like@@predispose@@prep_in@@presence@@prep_of@@epinephrine</pair>  
+      <pair id="DDI-DrugBank.d363.s2.p2" e1="DDI-DrugBank.d363.s2.e1" e2="DDI-DrugBank.d363.s2.e2" ddi="false" flags="True" e1_name="desflurane" e2_name="epinephrine" e1_pos="3" e2_pos="17" path="3@@6@@13@@17@@">desflurane@@@@nsubj@@predispose@@prep_in@@presence@@prep_of@@epinephrine</pair> 
+   </sentence> 
+</document>

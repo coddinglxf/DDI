@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d247"> 
+   <sentence id="DDI-DrugBank.d247.s0" text="Epinephrine should be used cautiously in patients with hyperthyroidism, hypertension and cardiac arrhythmias." new_text="Epinephrine@@should@@be@@used@@cautiously@@in@@patients@@with@@hyperthyroidism@@,@@hypertension@@and@@cardiac@@arrhythmias@@.@@"> 
+      <entity id="DDI-DrugBank.d247.s0.e0" charOffset="0-10" type="drug" text="Epinephrine" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d247.s1" text="All vasopressors should be used cautiously in patients taking monoamine oxidase (MAO) inhibitors." new_text="All@@vasopressors@@should@@be@@used@@cautiously@@in@@patients@@taking@@monoamine oxidase (MAO) inhibitors@@.@@"> 
+      <entity id="DDI-DrugBank.d247.s1.e0" charOffset="4-15" type="group" text="vasopressors" position="1"/>  
+      <entity id="DDI-DrugBank.d247.s1.e1" charOffset="62-95" type="group" text="monoamine oxidase (MAO) inhibitors" position="9"/>  
+      <pair id="DDI-DrugBank.d247.s1.p0" e1="DDI-DrugBank.d247.s1.e0" e2="DDI-DrugBank.d247.s1.e1" ddi="true" type="advise" flags="True" e1_name="vasopressors" e2_name="monoamine oxidase (MAO) inhibitors" e1_pos="1" e2_pos="9" path="1@@4@@7@@8@@9@@">vasopressors@@@@nsubjpass@@used@@prep_in@@patients@@partmod@@taking@@dobj@@monoamine oxidase (MAO) inhibitors</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d247.s2" text="Epinephrine should not be administered concomitantly with other sympathomimetic drugs (such as isoproterenol) because of possible additive effects and increased toxicity." new_text="Epinephrine@@should@@not@@be@@administered@@concomitantly@@with@@other@@sympathomimetic drugs@@(such@@as@@isoproterenol@@)@@because@@of@@possible@@additive@@effects@@and@@increased@@toxicity@@.@@"> 
+      <entity id="DDI-DrugBank.d247.s2.e0" charOffset="0-10" type="drug" text="Epinephrine" position="0"/>  
+      <entity id="DDI-DrugBank.d247.s2.e1" charOffset="64-84" type="group" text="sympathomimetic drugs" position="8"/>  
+      <entity id="DDI-DrugBank.d247.s2.e2" charOffset="95-107" type="drug" text="isoproterenol" position="11"/>  
+      <pair id="DDI-DrugBank.d247.s2.p0" e1="DDI-DrugBank.d247.s2.e0" e2="DDI-DrugBank.d247.s2.e1" ddi="true" type="advise" flags="True" e1_name="Epinephrine" e2_name="sympathomimetic drugs" e1_pos="0" e2_pos="8" path="0@@4@@9@@8@@">Epinephrine@@@@nsubjpass@@administered@@prep_with@@(such@@nn@@sympathomimetic drugs</pair>  
+      <pair id="DDI-DrugBank.d247.s2.p1" e1="DDI-DrugBank.d247.s2.e0" e2="DDI-DrugBank.d247.s2.e2" ddi="true" type="advise" flags="True" e1_name="Epinephrine" e2_name="isoproterenol" e1_pos="0" e2_pos="11" path="0@@4@@12@@11@@">Epinephrine@@@@nsubjpass@@administered@@prep_as@@)@@amod@@isoproterenol</pair>  
+      <pair id="DDI-DrugBank.d247.s2.p2" e1="DDI-DrugBank.d247.s2.e1" e2="DDI-DrugBank.d247.s2.e2" ddi="false" flags="True" e1_name="sympathomimetic drugs" e2_name="isoproterenol" e1_pos="8" e2_pos="11" path="8@@9@@4@@12@@11@@">sympathomimetic drugs@@@@nn@@(such@@prep_with@@administered@@prep_as@@)@@amod@@isoproterenol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d247.s3" text="Combined effects may induce serious cardiac arrhythmias." new_text="Combined@@effects@@may@@induce@@serious@@cardiac@@arrhythmias@@.@@"/>  
+   <sentence id="DDI-DrugBank.d247.s4" text="They may be administered alternately when the preceding effect of other such drug has subsided." new_text="They@@may@@be@@administered@@alternately@@when@@the@@preceding@@effect@@of@@other@@such@@drug@@has@@subsided@@.@@"/>  
+   <sentence id="DDI-DrugBank.d247.s5" text="Administration of epinephrine to patients receiving cyclopropane or halogenated hydrocarbon general anesthetics such as halothane which sensitize the myocardium, may induce cardiac arrhythmia.." new_text="Administration@@of@@epinephrine@@to@@patients@@receiving@@cyclopropane@@or@@halogenated hydrocarbon general anesthetics@@such@@as@@halothane@@which@@sensitize@@the@@myocardium@@,@@may@@induce@@cardiac@@arrhythmia.@@.@@"> 
+      <entity id="DDI-DrugBank.d247.s5.e0" charOffset="18-28" type="drug" text="epinephrine" position="2"/>  
+      <entity id="DDI-DrugBank.d247.s5.e1" charOffset="52-63" type="drug" text="cyclopropane" position="6"/>  
+      <entity id="DDI-DrugBank.d247.s5.e2" charOffset="68-110" type="group" text="halogenated hydrocarbon general anesthetics" position="8"/>  
+      <entity id="DDI-DrugBank.d247.s5.e3" charOffset="120-128" type="drug" text="halothane" position="11"/>  
+      <pair id="DDI-DrugBank.d247.s5.p0" e1="DDI-DrugBank.d247.s5.e0" e2="DDI-DrugBank.d247.s5.e1" ddi="true" type="effect" flags="True" e1_name="epinephrine" e2_name="cyclopropane" e1_pos="2" e2_pos="6" path="2@@4@@5@@6@@">epinephrine@@@@prep_to@@patients@@partmod@@receiving@@dobj@@cyclopropane</pair>  
+      <pair id="DDI-DrugBank.d247.s5.p1" e1="DDI-DrugBank.d247.s5.e0" e2="DDI-DrugBank.d247.s5.e2" ddi="true" type="effect" flags="True" e1_name="epinephrine" e2_name="halogenated hydrocarbon general anesthetics" e1_pos="2" e2_pos="8" path="2@@4@@5@@8@@">epinephrine@@@@prep_to@@patients@@partmod@@receiving@@dobj@@halogenated hydrocarbon general anesthetics</pair>  
+      <pair id="DDI-DrugBank.d247.s5.p2" e1="DDI-DrugBank.d247.s5.e0" e2="DDI-DrugBank.d247.s5.e3" ddi="true" type="effect" flags="True" e1_name="epinephrine" e2_name="halothane" e1_pos="2" e2_pos="11" path="2@@4@@5@@6@@11@@">epinephrine@@@@prep_to@@patients@@partmod@@receiving@@dobj@@cyclopropane@@prep_such_as@@halothane</pair>  
+      <pair id="DDI-DrugBank.d247.s5.p3" e1="DDI-DrugBank.d247.s5.e1" e2="DDI-DrugBank.d247.s5.e2" ddi="false" flags="True" e1_name="cyclopropane" e2_name="halogenated hydrocarbon general anesthetics" e1_pos="6" e2_pos="8" path="6@@8@@">cyclopropane@@@@conj_or@@halogenated hydrocarbon general anesthetics</pair>  
+      <pair id="DDI-DrugBank.d247.s5.p4" e1="DDI-DrugBank.d247.s5.e1" e2="DDI-DrugBank.d247.s5.e3" ddi="false" flags="True" e1_name="cyclopropane" e2_name="halothane" e1_pos="6" e2_pos="11" path="6@@11@@">cyclopropane@@@@prep_such_as@@halothane</pair>  
+      <pair id="DDI-DrugBank.d247.s5.p5" e1="DDI-DrugBank.d247.s5.e2" e2="DDI-DrugBank.d247.s5.e3" ddi="false" flags="True" e1_name="halogenated hydrocarbon general anesthetics" e2_name="halothane" e1_pos="8" e2_pos="11" path="8@@6@@11@@">halogenated hydrocarbon general anesthetics@@@@conj_or@@cyclopropane@@prep_such_as@@halothane</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d247.s6" text="When encountered, such arrhythmias may respond to administration of a beta-adrenergic blocking drug." new_text="When@@encountered@@,@@such@@arrhythmias@@may@@respond@@to@@administration@@of@@a@@beta-adrenergic blocking drug@@.@@"> 
+      <entity id="DDI-DrugBank.d247.s6.e0" charOffset="70-98" type="group" text="beta-adrenergic blocking drug" position="11"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d247.s7" text="Epinephrine also should be used cautiously with other drugs (e.g., digitalis, glycosides) that sensitize the myocardium to the actions of sympathomimetic drugs." new_text="Epinephrine@@also@@should@@be@@used@@cautiously@@with@@other@@drugs@@(e.g.@@,@@digitalis@@,@@glycosides@@)@@that@@sensitize@@the@@myocardium@@to@@the@@actions@@of@@sympathomimetic drugs@@.@@"> 
+      <entity id="DDI-DrugBank.d247.s7.e0" charOffset="0-10" type="drug" text="Epinephrine" position="0"/>  
+      <entity id="DDI-DrugBank.d247.s7.e1" charOffset="67-75" type="group" text="digitalis" position="11"/>  
+      <entity id="DDI-DrugBank.d247.s7.e2" charOffset="78-87" type="group" text="glycosides" position="13"/>  
+      <entity id="DDI-DrugBank.d247.s7.e3" charOffset="138-158" type="group" text="sympathomimetic drugs" position="23"/>  
+      <pair id="DDI-DrugBank.d247.s7.p0" e1="DDI-DrugBank.d247.s7.e0" e2="DDI-DrugBank.d247.s7.e1" ddi="true" type="advise" flags="True" e1_name="Epinephrine" e2_name="digitalis" e1_pos="0" e2_pos="11" path="0@@4@@9@@11@@">Epinephrine@@@@nsubjpass@@used@@prep_with@@(e.g.@@appos@@digitalis</pair>  
+      <pair id="DDI-DrugBank.d247.s7.p1" e1="DDI-DrugBank.d247.s7.e0" e2="DDI-DrugBank.d247.s7.e2" ddi="true" type="advise" flags="True" e1_name="Epinephrine" e2_name="glycosides" e1_pos="0" e2_pos="13" path="0@@4@@9@@14@@13@@">Epinephrine@@@@nsubjpass@@used@@prep_with@@(e.g.@@amod@@)@@amod@@glycosides</pair>  
+      <pair id="DDI-DrugBank.d247.s7.p2" e1="DDI-DrugBank.d247.s7.e0" e2="DDI-DrugBank.d247.s7.e3" ddi="false" flags="True" e1_name="Epinephrine" e2_name="sympathomimetic drugs" e1_pos="0" e2_pos="23" path="0@@4@@9@@16@@21@@23@@">Epinephrine@@@@nsubjpass@@used@@prep_with@@(e.g.@@rcmod@@sensitize@@prep_to@@actions@@prep_of@@sympathomimetic drugs</pair>  
+      <pair id="DDI-DrugBank.d247.s7.p3" e1="DDI-DrugBank.d247.s7.e1" e2="DDI-DrugBank.d247.s7.e2" ddi="false" flags="True" e1_name="digitalis" e2_name="glycosides" e1_pos="11" e2_pos="13" path="11@@9@@14@@13@@">digitalis@@@@appos@@(e.g.@@amod@@)@@amod@@glycosides</pair>  
+      <pair id="DDI-DrugBank.d247.s7.p4" e1="DDI-DrugBank.d247.s7.e1" e2="DDI-DrugBank.d247.s7.e3" ddi="false" flags="True" e1_name="digitalis" e2_name="sympathomimetic drugs" e1_pos="11" e2_pos="23" path="11@@9@@16@@21@@23@@">digitalis@@@@appos@@(e.g.@@rcmod@@sensitize@@prep_to@@actions@@prep_of@@sympathomimetic drugs</pair>  
+      <pair id="DDI-DrugBank.d247.s7.p5" e1="DDI-DrugBank.d247.s7.e2" e2="DDI-DrugBank.d247.s7.e3" ddi="false" flags="True" e1_name="glycosides" e2_name="sympathomimetic drugs" e1_pos="13" e2_pos="23" path="13@@14@@9@@16@@21@@23@@">glycosides@@@@amod@@)@@amod@@(e.g.@@rcmod@@sensitize@@prep_to@@actions@@prep_of@@sympathomimetic drugs</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d247.s8" text="Diuretic agents may decrease vascular response to pressor drugs such as epinephrine." new_text="Diuretic agents@@may@@decrease@@vascular@@response@@to@@pressor@@drugs@@such@@as@@epinephrine@@.@@"> 
+      <entity id="DDI-DrugBank.d247.s8.e0" charOffset="0-14" type="group" text="Diuretic agents" position="0"/>  
+      <entity id="DDI-DrugBank.d247.s8.e1" charOffset="72-82" type="drug" text="epinephrine" position="10"/>  
+      <pair id="DDI-DrugBank.d247.s8.p0" e1="DDI-DrugBank.d247.s8.e0" e2="DDI-DrugBank.d247.s8.e1" ddi="true" type="effect" flags="True" e1_name="Diuretic agents" e2_name="epinephrine" e1_pos="0" e2_pos="10" path="0@@2@@7@@10@@">Diuretic agents@@@@nsubj@@decrease@@prep_to@@drugs@@prep_such_as@@epinephrine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d247.s9" text="Epinephrine may antagonize the neuron blockade produced by guanethidine resulting in decreased antihypertensive effect and requiring increased dosage of the latter." new_text="Epinephrine@@may@@antagonize@@the@@neuron@@blockade@@produced@@by@@guanethidine@@resulting@@in@@decreased@@antihypertensive@@effect@@and@@requiring@@increased@@dosage@@of@@the@@latter@@.@@"> 
+      <entity id="DDI-DrugBank.d247.s9.e0" charOffset="0-10" type="drug" text="Epinephrine" position="0"/>  
+      <entity id="DDI-DrugBank.d247.s9.e1" charOffset="59-70" type="drug" text="guanethidine" position="8"/>  
+      <pair id="DDI-DrugBank.d247.s9.p0" e1="DDI-DrugBank.d247.s9.e0" e2="DDI-DrugBank.d247.s9.e1" ddi="true" type="effect" flags="True" e1_name="Epinephrine" e2_name="guanethidine" e1_pos="0" e2_pos="8" path="0@@2@@5@@6@@8@@">Epinephrine@@@@nsubj@@antagonize@@dobj@@blockade@@partmod@@produced@@agent@@guanethidine</pair> 
+   </sentence> 
+</document>

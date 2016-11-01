@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d677"> 
+   <sentence id="DDI-DrugBank.d677.s0" text="Phenothiazines are capable of potentiating CNS depressants (e.g., barbiturates, anesthetics, opiates, alcohol, etc.) " new_text="Phenothiazines@@are@@capable@@of@@potentiating@@CNS depressants@@(e.g.@@,@@barbiturates@@,@@anesthetics@@,@@opiates@@,@@alcohol@@,@@etc.)@@"> 
+      <entity id="DDI-DrugBank.d677.s0.e0" charOffset="0-13" type="group" text="Phenothiazines" position="0"/>  
+      <entity id="DDI-DrugBank.d677.s0.e1" charOffset="43-57" type="group" text="CNS depressants" position="5"/>  
+      <entity id="DDI-DrugBank.d677.s0.e2" charOffset="66-77" type="group" text="barbiturates" position="8"/>  
+      <entity id="DDI-DrugBank.d677.s0.e3" charOffset="80-90" type="group" text="anesthetics" position="10"/>  
+      <entity id="DDI-DrugBank.d677.s0.e4" charOffset="93-99" type="group" text="opiates" position="12"/>  
+      <entity id="DDI-DrugBank.d677.s0.e5" charOffset="102-108" type="drug" text="alcohol" position="14"/>  
+      <pair id="DDI-DrugBank.d677.s0.p0" e1="DDI-DrugBank.d677.s0.e0" e2="DDI-DrugBank.d677.s0.e1" ddi="true" type="effect" flags="True" e1_name="Phenothiazines" e2_name="CNS depressants" e1_pos="0" e2_pos="5" path="0@@2@@4@@6@@5@@">Phenothiazines@@@@nsubj@@capable@@prepc_of@@potentiating@@dobj@@(e.g.@@nn@@CNS depressants</pair>  
+      <pair id="DDI-DrugBank.d677.s0.p1" e1="DDI-DrugBank.d677.s0.e0" e2="DDI-DrugBank.d677.s0.e2" ddi="true" type="effect" flags="True" e1_name="Phenothiazines" e2_name="barbiturates" e1_pos="0" e2_pos="8" path="0@@2@@4@@6@@8@@">Phenothiazines@@@@nsubj@@capable@@prepc_of@@potentiating@@dobj@@(e.g.@@appos@@barbiturates</pair>  
+      <pair id="DDI-DrugBank.d677.s0.p2" e1="DDI-DrugBank.d677.s0.e0" e2="DDI-DrugBank.d677.s0.e3" ddi="true" type="effect" flags="True" e1_name="Phenothiazines" e2_name="anesthetics" e1_pos="0" e2_pos="10" path="0@@2@@4@@6@@10@@">Phenothiazines@@@@nsubj@@capable@@prepc_of@@potentiating@@dobj@@(e.g.@@appos@@anesthetics</pair>  
+      <pair id="DDI-DrugBank.d677.s0.p3" e1="DDI-DrugBank.d677.s0.e0" e2="DDI-DrugBank.d677.s0.e4" ddi="true" type="effect" flags="True" e1_name="Phenothiazines" e2_name="opiates" e1_pos="0" e2_pos="12" path="0@@2@@4@@6@@12@@">Phenothiazines@@@@nsubj@@capable@@prepc_of@@potentiating@@dobj@@(e.g.@@appos@@opiates</pair>  
+      <pair id="DDI-DrugBank.d677.s0.p4" e1="DDI-DrugBank.d677.s0.e0" e2="DDI-DrugBank.d677.s0.e5" ddi="true" type="effect" flags="True" e1_name="Phenothiazines" e2_name="alcohol" e1_pos="0" e2_pos="14" path="0@@2@@4@@6@@14@@">Phenothiazines@@@@nsubj@@capable@@prepc_of@@potentiating@@dobj@@(e.g.@@appos@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d677.s0.p5" e1="DDI-DrugBank.d677.s0.e1" e2="DDI-DrugBank.d677.s0.e2" ddi="false" flags="True" e1_name="CNS depressants" e2_name="barbiturates" e1_pos="5" e2_pos="8" path="5@@6@@8@@">CNS depressants@@@@nn@@(e.g.@@appos@@barbiturates</pair>  
+      <pair id="DDI-DrugBank.d677.s0.p6" e1="DDI-DrugBank.d677.s0.e1" e2="DDI-DrugBank.d677.s0.e3" ddi="false" flags="True" e1_name="CNS depressants" e2_name="anesthetics" e1_pos="5" e2_pos="10" path="5@@6@@10@@">CNS depressants@@@@nn@@(e.g.@@appos@@anesthetics</pair>  
+      <pair id="DDI-DrugBank.d677.s0.p7" e1="DDI-DrugBank.d677.s0.e1" e2="DDI-DrugBank.d677.s0.e4" ddi="false" flags="True" e1_name="CNS depressants" e2_name="opiates" e1_pos="5" e2_pos="12" path="5@@6@@12@@">CNS depressants@@@@nn@@(e.g.@@appos@@opiates</pair>  
+      <pair id="DDI-DrugBank.d677.s0.p8" e1="DDI-DrugBank.d677.s0.e1" e2="DDI-DrugBank.d677.s0.e5" ddi="false" flags="True" e1_name="CNS depressants" e2_name="alcohol" e1_pos="5" e2_pos="14" path="5@@6@@14@@">CNS depressants@@@@nn@@(e.g.@@appos@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d677.s0.p9" e1="DDI-DrugBank.d677.s0.e2" e2="DDI-DrugBank.d677.s0.e3" ddi="false" flags="True" e1_name="barbiturates" e2_name="anesthetics" e1_pos="8" e2_pos="10" path="8@@6@@10@@">barbiturates@@@@appos@@(e.g.@@appos@@anesthetics</pair>  
+      <pair id="DDI-DrugBank.d677.s0.p10" e1="DDI-DrugBank.d677.s0.e2" e2="DDI-DrugBank.d677.s0.e4" ddi="false" flags="True" e1_name="barbiturates" e2_name="opiates" e1_pos="8" e2_pos="12" path="8@@6@@12@@">barbiturates@@@@appos@@(e.g.@@appos@@opiates</pair>  
+      <pair id="DDI-DrugBank.d677.s0.p11" e1="DDI-DrugBank.d677.s0.e2" e2="DDI-DrugBank.d677.s0.e5" ddi="false" flags="True" e1_name="barbiturates" e2_name="alcohol" e1_pos="8" e2_pos="14" path="8@@6@@14@@">barbiturates@@@@appos@@(e.g.@@appos@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d677.s0.p12" e1="DDI-DrugBank.d677.s0.e3" e2="DDI-DrugBank.d677.s0.e4" ddi="false" flags="True" e1_name="anesthetics" e2_name="opiates" e1_pos="10" e2_pos="12" path="10@@6@@12@@">anesthetics@@@@appos@@(e.g.@@appos@@opiates</pair>  
+      <pair id="DDI-DrugBank.d677.s0.p13" e1="DDI-DrugBank.d677.s0.e3" e2="DDI-DrugBank.d677.s0.e5" ddi="false" flags="True" e1_name="anesthetics" e2_name="alcohol" e1_pos="10" e2_pos="14" path="10@@6@@14@@">anesthetics@@@@appos@@(e.g.@@appos@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d677.s0.p14" e1="DDI-DrugBank.d677.s0.e4" e2="DDI-DrugBank.d677.s0.e5" ddi="false" flags="True" e1_name="opiates" e2_name="alcohol" e1_pos="12" e2_pos="14" path="12@@6@@14@@">opiates@@@@appos@@(e.g.@@appos@@alcohol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d677.s1" text="as well as atropine and phosphorous insecticides." new_text="as@@well@@as@@atropine@@and@@phosphorous insecticides@@.@@"> 
+      <entity id="DDI-DrugBank.d677.s1.e0" charOffset="11-18" type="drug" text="atropine" position="3"/>  
+      <entity id="DDI-DrugBank.d677.s1.e1" charOffset="24-47" type="drug_n" text="phosphorous insecticides" position="5"/>  
+      <pair id="DDI-DrugBank.d677.s1.p0" e1="DDI-DrugBank.d677.s1.e0" e2="DDI-DrugBank.d677.s1.e1" ddi="false" flags="True" e1_name="atropine" e2_name="phosphorous insecticides" e1_pos="3" e2_pos="5" path="3@@1@@5@@">atropine@@@@prep_as@@well@@conj_and@@phosphorous insecticides</pair> 
+   </sentence> 
+</document>

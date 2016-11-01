@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d419"> 
+   <sentence id="DDI-DrugBank.d419.s0" text="The concurrent administration of allopurinol and ampicillin increases substantially the incidence of rashes in patients receiving both drugs as compared to patients receiving ampicillin alone." new_text="The@@concurrent@@administration@@of@@allopurinol@@and@@ampicillin@@increases@@substantially@@the@@incidence@@of@@rashes@@in@@patients@@receiving@@both@@drugs@@as@@compared@@to@@patients@@receiving@@ampicillin@@alone@@.@@"> 
+      <entity id="DDI-DrugBank.d419.s0.e0" charOffset="33-43" type="drug" text="allopurinol" position="4"/>  
+      <entity id="DDI-DrugBank.d419.s0.e1" charOffset="49-58" type="drug" text="ampicillin" position="6"/>  
+      <entity id="DDI-DrugBank.d419.s0.e2" charOffset="175-184" type="drug" text="ampicillin" position="23"/>  
+      <pair id="DDI-DrugBank.d419.s0.p0" e1="DDI-DrugBank.d419.s0.e0" e2="DDI-DrugBank.d419.s0.e1" ddi="true" type="effect" flags="True" e1_name="allopurinol" e2_name="ampicillin" e1_pos="4" e2_pos="6" path="4@@6@@">allopurinol@@@@conj_and@@ampicillin</pair>  
+      <pair id="DDI-DrugBank.d419.s0.p1" e1="DDI-DrugBank.d419.s0.e0" e2="DDI-DrugBank.d419.s0.e2" ddi="false" flags="True" e1_name="allopurinol" e2_name="ampicillin" e1_pos="4" e2_pos="23" path="4@@2@@7@@14@@15@@21@@22@@23@@">allopurinol@@@@prep_of@@administration@@nsubj@@increases@@prep_in@@patients@@partmod@@receiving@@pobj@@patients@@partmod@@receiving@@dobj@@ampicillin</pair>  
+      <pair id="DDI-DrugBank.d419.s0.p2" e1="DDI-DrugBank.d419.s0.e1" e2="DDI-DrugBank.d419.s0.e2" ddi="false" flags="True" e1_name="ampicillin" e2_name="ampicillin" e1_pos="6" e2_pos="23" path="6@@2@@7@@14@@15@@21@@22@@23@@">ampicillin@@@@prep_of@@administration@@nsubj@@increases@@prep_in@@patients@@partmod@@receiving@@pobj@@patients@@partmod@@receiving@@dobj@@ampicillin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d419.s1" text="It is not known whether this potentiation of ampicillin rashes is due to allopurinol or the hyperuricemia present in these patients." new_text="It@@is@@not@@known@@whether@@this@@potentiation@@of@@ampicillin@@rashes@@is@@due@@to@@allopurinol@@or@@the@@hyperuricemia@@present@@in@@these@@patients@@.@@"> 
+      <entity id="DDI-DrugBank.d419.s1.e0" charOffset="45-54" type="drug" text="ampicillin" position="8"/>  
+      <entity id="DDI-DrugBank.d419.s1.e1" charOffset="73-83" type="drug" text="allopurinol" position="13"/>  
+      <pair id="DDI-DrugBank.d419.s1.p0" e1="DDI-DrugBank.d419.s1.e0" e2="DDI-DrugBank.d419.s1.e1" ddi="true" type="effect" flags="True" e1_name="ampicillin" e2_name="allopurinol" e1_pos="8" e2_pos="13" path="8@@9@@6@@11@@13@@">ampicillin@@@@nn@@rashes@@prep_of@@potentiation@@nsubj@@due@@prep_to@@allopurinol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d419.s2" text="In controlled clinical trials of AUGMENTIN XR, 22 patients received concomitant allopurinol and AUGMENTIN XR." new_text="In@@controlled@@clinical@@trials@@of@@AUGMENTIN XR@@,@@22@@patients@@received@@concomitant@@allopurinol@@and@@AUGMENTIN XR@@.@@"> 
+      <entity id="DDI-DrugBank.d419.s2.e0" charOffset="33-44" type="brand" text="AUGMENTIN XR" position="5"/>  
+      <entity id="DDI-DrugBank.d419.s2.e1" charOffset="80-90" type="drug" text="allopurinol" position="11"/>  
+      <entity id="DDI-DrugBank.d419.s2.e2" charOffset="96-107" type="brand" text="AUGMENTIN XR" position="13"/>  
+      <pair id="DDI-DrugBank.d419.s2.p0" e1="DDI-DrugBank.d419.s2.e0" e2="DDI-DrugBank.d419.s2.e1" ddi="false" flags="True" e1_name="AUGMENTIN XR" e2_name="allopurinol" e1_pos="5" e2_pos="11" path="5@@3@@9@@11@@">AUGMENTIN XR@@@@prep_of@@trials@@prep_in@@received@@dobj@@allopurinol</pair>  
+      <pair id="DDI-DrugBank.d419.s2.p1" e1="DDI-DrugBank.d419.s2.e0" e2="DDI-DrugBank.d419.s2.e2" ddi="false" flags="True" e1_name="AUGMENTIN XR" e2_name="AUGMENTIN XR" e1_pos="5" e2_pos="13" path="5@@3@@9@@13@@">AUGMENTIN XR@@@@prep_of@@trials@@prep_in@@received@@dobj@@AUGMENTIN XR</pair>  
+      <pair id="DDI-DrugBank.d419.s2.p2" e1="DDI-DrugBank.d419.s2.e1" e2="DDI-DrugBank.d419.s2.e2" ddi="false" flags="True" e1_name="allopurinol" e2_name="AUGMENTIN XR" e1_pos="11" e2_pos="13" path="11@@13@@">allopurinol@@@@conj_and@@AUGMENTIN XR</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d419.s3" text="No rashes were reported in these patients." new_text="No@@rashes@@were@@reported@@in@@these@@patients@@.@@"/>  
+   <sentence id="DDI-DrugBank.d419.s4" text="However, this sample size is too small to allow for any conclusions to be drawn regarding the risk of rashes with concomitant AUGMENTIN XR and allopurinol use." new_text="However@@,@@this@@sample@@size@@is@@too@@small@@to@@allow@@for@@any@@conclusions@@to@@be@@drawn@@regarding@@the@@risk@@of@@rashes@@with@@concomitant@@AUGMENTIN XR@@and@@allopurinol@@use@@.@@"> 
+      <entity id="DDI-DrugBank.d419.s4.e0" charOffset="126-137" type="brand" text="AUGMENTIN XR" position="23"/>  
+      <entity id="DDI-DrugBank.d419.s4.e1" charOffset="143-153" type="drug" text="allopurinol" position="25"/>  
+      <pair id="DDI-DrugBank.d419.s4.p0" e1="DDI-DrugBank.d419.s4.e0" e2="DDI-DrugBank.d419.s4.e1" ddi="false" flags="True" e1_name="AUGMENTIN XR" e2_name="allopurinol" e1_pos="23" e2_pos="25" path="23@@26@@25@@">AUGMENTIN XR@@@@conj_and@@use@@nn@@allopurinol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d419.s5" text="In common with other broad-spectrum antibiotics, AUGMENTIN XR may reduce the efficacy of oral contraceptives" new_text="In@@common@@with@@other@@broad-spectrum antibiotics@@,@@AUGMENTIN XR@@may@@reduce@@the@@efficacy@@of@@oral@@contraceptives@@"> 
+      <entity id="DDI-DrugBank.d419.s5.e0" charOffset="21-46" type="group" text="broad-spectrum antibiotics" position="4"/>  
+      <entity id="DDI-DrugBank.d419.s5.e1" charOffset="49-60" type="brand" text="AUGMENTIN XR" position="6"/>  
+      <entity id="DDI-DrugBank.d419.s5.e2" charOffset="94-107" type="group" text="contraceptives" position="13"/>  
+      <pair id="DDI-DrugBank.d419.s5.p0" e1="DDI-DrugBank.d419.s5.e0" e2="DDI-DrugBank.d419.s5.e1" ddi="false" flags="True" e1_name="broad-spectrum antibiotics" e2_name="AUGMENTIN XR" e1_pos="4" e2_pos="6" path="4@@1@@8@@6@@">broad-spectrum antibiotics@@@@prep_with@@common@@prep_in@@reduce@@nsubj@@AUGMENTIN XR</pair>  
+      <pair id="DDI-DrugBank.d419.s5.p1" e1="DDI-DrugBank.d419.s5.e0" e2="DDI-DrugBank.d419.s5.e2" ddi="true" type="effect" flags="True" e1_name="broad-spectrum antibiotics" e2_name="contraceptives" e1_pos="4" e2_pos="13" path="4@@1@@8@@10@@13@@">broad-spectrum antibiotics@@@@prep_with@@common@@prep_in@@reduce@@dobj@@efficacy@@prep_of@@contraceptives</pair>  
+      <pair id="DDI-DrugBank.d419.s5.p2" e1="DDI-DrugBank.d419.s5.e1" e2="DDI-DrugBank.d419.s5.e2" ddi="true" type="effect" flags="True" e1_name="AUGMENTIN XR" e2_name="contraceptives" e1_pos="6" e2_pos="13" path="6@@8@@10@@13@@">AUGMENTIN XR@@@@nsubj@@reduce@@dobj@@efficacy@@prep_of@@contraceptives</pair> 
+   </sentence> 
+</document>

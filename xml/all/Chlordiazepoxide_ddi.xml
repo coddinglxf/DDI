@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d336"> 
+   <sentence id="DDI-DrugBank.d336.s0" text="Although clinical studies have not established a cause and effect relationship, physicians should be aware that variable effects an blood coagulation have been reported very rarely in patients receiving oral anticoagulants and chlordiazepoxide." new_text="Although@@clinical@@studies@@have@@not@@established@@a@@cause@@and@@effect@@relationship@@,@@physicians@@should@@be@@aware@@that@@variable@@effects@@an@@blood@@coagulation@@have@@been@@reported@@very@@rarely@@in@@patients@@receiving@@oral@@anticoagulants@@and@@chlordiazepoxide@@.@@"> 
+      <entity id="DDI-DrugBank.d336.s0.e0" charOffset="208-221" type="group" text="anticoagulants" position="31"/>  
+      <entity id="DDI-DrugBank.d336.s0.e1" charOffset="227-242" type="drug" text="chlordiazepoxide" position="33"/>  
+      <pair id="DDI-DrugBank.d336.s0.p0" e1="DDI-DrugBank.d336.s0.e0" e2="DDI-DrugBank.d336.s0.e1" ddi="true" type="effect" flags="True" e1_name="anticoagulants" e2_name="chlordiazepoxide" e1_pos="31" e2_pos="33" path="31@@29@@26@@33@@">anticoagulants@@@@dobj@@receiving@@dep@@rarely@@conj_and@@chlordiazepoxide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d336.s1" text="The concomitant use of alcohol or other central nervous system depressants may have an additive effect." new_text="The@@concomitant@@use@@of@@alcohol@@or@@other@@central nervous system depressants@@may@@have@@an@@additive@@effect@@.@@"> 
+      <entity id="DDI-DrugBank.d336.s1.e0" charOffset="23-29" type="drug" text="alcohol" position="4"/>  
+      <entity id="DDI-DrugBank.d336.s1.e1" charOffset="40-73" type="group" text="central nervous system depressants" position="7"/>  
+      <pair id="DDI-DrugBank.d336.s1.p0" e1="DDI-DrugBank.d336.s1.e0" e2="DDI-DrugBank.d336.s1.e1" ddi="false" flags="True" e1_name="alcohol" e2_name="central nervous system depressants" e1_pos="4" e2_pos="7" path="4@@7@@">alcohol@@@@nn@@central nervous system depressants</pair> 
+   </sentence> 
+</document>

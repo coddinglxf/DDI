@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d119"> 
+   <sentence id="DDI-DrugBank.d119.s0" text="The following drug interactions have been reported with etomidate." new_text="The@@following@@drug@@interactions@@have@@been@@reported@@with@@etomidate@@.@@"> 
+      <entity id="DDI-DrugBank.d119.s0.e0" charOffset="56-64" type="drug" text="etomidate" position="8"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d119.s1" text="Drug Effect" new_text="Drug@@Effect@@"/>  
+   <sentence id="DDI-DrugBank.d119.s2" text="Probenecid    Prolonged action of etomidate" new_text="Probenecid@@Prolonged@@action@@of@@etomidate@@"> 
+      <entity id="DDI-DrugBank.d119.s2.e0" charOffset="0-9" type="drug" text="Probenecid" position="0"/>  
+      <entity id="DDI-DrugBank.d119.s2.e1" charOffset="34-42" type="drug" text="etomidate" position="4"/>  
+      <pair id="DDI-DrugBank.d119.s2.p0" e1="DDI-DrugBank.d119.s2.e0" e2="DDI-DrugBank.d119.s2.e1" ddi="false" flags="True" e1_name="Probenecid" e2_name="etomidate" e1_pos="0" e2_pos="4" path="0@@1@@2@@4@@">Probenecid@@@@nn@@Prolonged@@dep@@action@@prep_of@@etomidate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d119.s3" text="Diazoxide    Hypotension" new_text="Diazoxide@@Hypotension@@"> 
+      <entity id="DDI-DrugBank.d119.s3.e0" charOffset="0-8" type="drug" text="Diazoxide" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d119.s4" text="Zimelidine    etomidate antagonism" new_text="Zimelidine@@etomidate@@antagonism@@"> 
+      <entity id="DDI-DrugBank.d119.s4.e0" charOffset="0-9" type="drug_n" text="Zimelidine" position="0"/>  
+      <entity id="DDI-DrugBank.d119.s4.e1" charOffset="14-22" type="drug" text="etomidate" position="1"/>  
+      <pair id="DDI-DrugBank.d119.s4.p0" e1="DDI-DrugBank.d119.s4.e0" e2="DDI-DrugBank.d119.s4.e1" ddi="false" flags="True" e1_name="Zimelidine" e2_name="etomidate" e1_pos="0" e2_pos="1" path="0@@2@@1@@">Zimelidine@@@@nn@@antagonism@@nn@@etomidate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d119.s5" text="Opioid analgesics    Decreased antinociceptive action" new_text="Opioid analgesics@@Decreased@@antinociceptive@@action@@"> 
+      <entity id="DDI-DrugBank.d119.s5.e0" charOffset="0-16" type="group" text="Opioid analgesics" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d119.s6" text="Aminophylline     Etomidate antagonism" new_text="Aminophylline@@Etomidate@@antagonism@@"> 
+      <entity id="DDI-DrugBank.d119.s6.e0" charOffset="0-12" type="drug" text="Aminophylline" position="0"/>  
+      <entity id="DDI-DrugBank.d119.s6.e1" charOffset="18-26" type="drug" text="Etomidate" position="1"/>  
+      <pair id="DDI-DrugBank.d119.s6.p0" e1="DDI-DrugBank.d119.s6.e0" e2="DDI-DrugBank.d119.s6.e1" ddi="false" flags="True" e1_name="Aminophylline" e2_name="Etomidate" e1_pos="0" e2_pos="1" path="0@@2@@1@@">Aminophylline@@@@nn@@antagonism@@nn@@Etomidate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d119.s7" text="Midazolam    Synergism" new_text="Midazolam@@Synergism@@"> 
+      <entity id="DDI-DrugBank.d119.s7.e0" charOffset="0-8" type="drug" text="Midazolam" position="0"/> 
+   </sentence> 
+</document>

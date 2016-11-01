@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d29"> 
+   <sentence id="DDI-DrugBank.d29.s0" text="Esomeprazole is extensively metabolized in the liver by CYP2C19 and CYP3A4." new_text="Esomeprazole@@is@@extensively@@metabolized@@in@@the@@liver@@by@@CYP2C19@@and@@CYP3A4@@.@@"> 
+      <entity id="DDI-DrugBank.d29.s0.e0" charOffset="0-11" type="drug" text="Esomeprazole" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d29.s1" text="In vitro and in vivo studies have shown that esomeprazole is not likely to inhibit CYPs 1A2, 2A6, 2C9, 2D6, 2E1 and 3A4." new_text="In@@vitro@@and@@in@@vivo@@studies@@have@@shown@@that@@esomeprazole@@is@@not@@likely@@to@@inhibit@@CYPs@@1A2@@,@@2A6@@,@@2C9@@,@@2D6@@,@@2E1@@and@@3A4@@.@@"> 
+      <entity id="DDI-DrugBank.d29.s1.e0" charOffset="45-56" type="drug" text="esomeprazole" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d29.s2" text="No clinically relevant interactions with drugs metabolized by these CYP enzymes would be expected." new_text="No@@clinically@@relevant@@interactions@@with@@drugs@@metabolized@@by@@these@@CYP@@enzymes@@would@@be@@expected@@.@@"/>  
+   <sentence id="DDI-DrugBank.d29.s3" text="Drug interaction studies have shown that esomeprazole does not have any clinically significant interactions with phenytoin, warfarin, quinidine, clarithromycin or amoxicillin." new_text="Drug@@interaction@@studies@@have@@shown@@that@@esomeprazole@@does@@not@@have@@any@@clinically@@significant@@interactions@@with@@phenytoin@@,@@warfarin@@,@@quinidine@@,@@clarithromycin@@or@@amoxicillin@@.@@"> 
+      <entity id="DDI-DrugBank.d29.s3.e0" charOffset="41-52" type="drug" text="esomeprazole" position="6"/>  
+      <entity id="DDI-DrugBank.d29.s3.e1" charOffset="113-121" type="drug" text="phenytoin" position="15"/>  
+      <entity id="DDI-DrugBank.d29.s3.e2" charOffset="124-131" type="drug" text="warfarin" position="17"/>  
+      <entity id="DDI-DrugBank.d29.s3.e3" charOffset="134-142" type="drug" text="quinidine" position="19"/>  
+      <entity id="DDI-DrugBank.d29.s3.e4" charOffset="145-158" type="drug" text="clarithromycin" position="21"/>  
+      <entity id="DDI-DrugBank.d29.s3.e5" charOffset="163-173" type="drug" text="amoxicillin" position="23"/>  
+      <pair id="DDI-DrugBank.d29.s3.p0" e1="DDI-DrugBank.d29.s3.e0" e2="DDI-DrugBank.d29.s3.e1" ddi="false" flags="True" e1_name="esomeprazole" e2_name="phenytoin" e1_pos="6" e2_pos="15" path="6@@9@@13@@15@@">esomeprazole@@@@nsubj@@have@@dobj@@interactions@@prep_with@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d29.s3.p1" e1="DDI-DrugBank.d29.s3.e0" e2="DDI-DrugBank.d29.s3.e2" ddi="false" flags="True" e1_name="esomeprazole" e2_name="warfarin" e1_pos="6" e2_pos="17" path="6@@9@@13@@17@@">esomeprazole@@@@nsubj@@have@@dobj@@interactions@@prep_with@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d29.s3.p2" e1="DDI-DrugBank.d29.s3.e0" e2="DDI-DrugBank.d29.s3.e3" ddi="false" flags="True" e1_name="esomeprazole" e2_name="quinidine" e1_pos="6" e2_pos="19" path="6@@9@@13@@19@@">esomeprazole@@@@nsubj@@have@@dobj@@interactions@@prep_with@@quinidine</pair>  
+      <pair id="DDI-DrugBank.d29.s3.p3" e1="DDI-DrugBank.d29.s3.e0" e2="DDI-DrugBank.d29.s3.e4" ddi="false" flags="True" e1_name="esomeprazole" e2_name="clarithromycin" e1_pos="6" e2_pos="21" path="6@@9@@13@@21@@">esomeprazole@@@@nsubj@@have@@dobj@@interactions@@prep_with@@clarithromycin</pair>  
+      <pair id="DDI-DrugBank.d29.s3.p4" e1="DDI-DrugBank.d29.s3.e0" e2="DDI-DrugBank.d29.s3.e5" ddi="false" flags="True" e1_name="esomeprazole" e2_name="amoxicillin" e1_pos="6" e2_pos="23" path="6@@9@@13@@23@@">esomeprazole@@@@nsubj@@have@@dobj@@interactions@@prep_with@@amoxicillin</pair>  
+      <pair id="DDI-DrugBank.d29.s3.p5" e1="DDI-DrugBank.d29.s3.e1" e2="DDI-DrugBank.d29.s3.e2" ddi="false" flags="True" e1_name="phenytoin" e2_name="warfarin" e1_pos="15" e2_pos="17" path="15@@17@@">phenytoin@@@@conj_or@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d29.s3.p6" e1="DDI-DrugBank.d29.s3.e1" e2="DDI-DrugBank.d29.s3.e3" ddi="false" flags="True" e1_name="phenytoin" e2_name="quinidine" e1_pos="15" e2_pos="19" path="15@@19@@">phenytoin@@@@conj_or@@quinidine</pair>  
+      <pair id="DDI-DrugBank.d29.s3.p7" e1="DDI-DrugBank.d29.s3.e1" e2="DDI-DrugBank.d29.s3.e4" ddi="false" flags="True" e1_name="phenytoin" e2_name="clarithromycin" e1_pos="15" e2_pos="21" path="15@@21@@">phenytoin@@@@conj_or@@clarithromycin</pair>  
+      <pair id="DDI-DrugBank.d29.s3.p8" e1="DDI-DrugBank.d29.s3.e1" e2="DDI-DrugBank.d29.s3.e5" ddi="false" flags="True" e1_name="phenytoin" e2_name="amoxicillin" e1_pos="15" e2_pos="23" path="15@@23@@">phenytoin@@@@conj_or@@amoxicillin</pair>  
+      <pair id="DDI-DrugBank.d29.s3.p9" e1="DDI-DrugBank.d29.s3.e2" e2="DDI-DrugBank.d29.s3.e3" ddi="false" flags="True" e1_name="warfarin" e2_name="quinidine" e1_pos="17" e2_pos="19" path="17@@13@@19@@">warfarin@@@@prep_with@@interactions@@prep_with@@quinidine</pair>  
+      <pair id="DDI-DrugBank.d29.s3.p10" e1="DDI-DrugBank.d29.s3.e2" e2="DDI-DrugBank.d29.s3.e4" ddi="false" flags="True" e1_name="warfarin" e2_name="clarithromycin" e1_pos="17" e2_pos="21" path="17@@13@@21@@">warfarin@@@@prep_with@@interactions@@prep_with@@clarithromycin</pair>  
+      <pair id="DDI-DrugBank.d29.s3.p11" e1="DDI-DrugBank.d29.s3.e2" e2="DDI-DrugBank.d29.s3.e5" ddi="false" flags="True" e1_name="warfarin" e2_name="amoxicillin" e1_pos="17" e2_pos="23" path="17@@13@@23@@">warfarin@@@@prep_with@@interactions@@prep_with@@amoxicillin</pair>  
+      <pair id="DDI-DrugBank.d29.s3.p12" e1="DDI-DrugBank.d29.s3.e3" e2="DDI-DrugBank.d29.s3.e4" ddi="false" flags="True" e1_name="quinidine" e2_name="clarithromycin" e1_pos="19" e2_pos="21" path="19@@13@@21@@">quinidine@@@@prep_with@@interactions@@prep_with@@clarithromycin</pair>  
+      <pair id="DDI-DrugBank.d29.s3.p13" e1="DDI-DrugBank.d29.s3.e3" e2="DDI-DrugBank.d29.s3.e5" ddi="false" flags="True" e1_name="quinidine" e2_name="amoxicillin" e1_pos="19" e2_pos="23" path="19@@13@@23@@">quinidine@@@@prep_with@@interactions@@prep_with@@amoxicillin</pair>  
+      <pair id="DDI-DrugBank.d29.s3.p14" e1="DDI-DrugBank.d29.s3.e4" e2="DDI-DrugBank.d29.s3.e5" ddi="false" flags="True" e1_name="clarithromycin" e2_name="amoxicillin" e1_pos="21" e2_pos="23" path="21@@13@@23@@">clarithromycin@@@@prep_with@@interactions@@prep_with@@amoxicillin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d29.s4" text="Post-marketing reports of changes in prothrombin measures have been received among patients on concomitant warfarin and esomeprazole therapy." new_text="Post-marketing@@reports@@of@@changes@@in@@prothrombin@@measures@@have@@been@@received@@among@@patients@@on@@concomitant@@warfarin@@and@@esomeprazole@@therapy@@.@@"> 
+      <entity id="DDI-DrugBank.d29.s4.e0" charOffset="107-114" type="drug" text="warfarin" position="14"/>  
+      <entity id="DDI-DrugBank.d29.s4.e1" charOffset="120-131" type="drug" text="esomeprazole" position="16"/>  
+      <pair id="DDI-DrugBank.d29.s4.p0" e1="DDI-DrugBank.d29.s4.e0" e2="DDI-DrugBank.d29.s4.e1" ddi="false" flags="True" e1_name="warfarin" e2_name="esomeprazole" e1_pos="14" e2_pos="16" path="14@@17@@16@@">warfarin@@@@conj_and@@therapy@@nn@@esomeprazole</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d29.s5" text="Increases in INR and prothrombin time may lead to abnormal bleeding and even death." new_text="Increases@@in@@INR@@and@@prothrombin@@time@@may@@lead@@to@@abnormal@@bleeding@@and@@even@@death@@.@@"/>  
+   <sentence id="DDI-DrugBank.d29.s6" text="Patients treated with proton pump inhibitors and warfarin concomitantly may need to be monitored for increases in INR and prothrombin time." new_text="Patients@@treated@@with@@proton pump inhibitors@@and@@warfarin@@concomitantly@@may@@need@@to@@be@@monitored@@for@@increases@@in@@INR@@and@@prothrombin@@time@@.@@"> 
+      <entity id="DDI-DrugBank.d29.s6.e0" charOffset="22-43" type="group" text="proton pump inhibitors" position="3"/>  
+      <entity id="DDI-DrugBank.d29.s6.e1" charOffset="49-56" type="drug" text="warfarin" position="5"/>  
+      <pair id="DDI-DrugBank.d29.s6.p0" e1="DDI-DrugBank.d29.s6.e0" e2="DDI-DrugBank.d29.s6.e1" ddi="true" type="effect" flags="True" e1_name="proton pump inhibitors" e2_name="warfarin" e1_pos="3" e2_pos="5" path="3@@5@@">proton pump inhibitors@@@@conj_and@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d29.s7" text="Esomeprazole may potentially interfere with CYP2C19, the major esomeprazole metabolizing enzyme." new_text="Esomeprazole@@may@@potentially@@interfere@@with@@CYP2C19@@,@@the@@major@@esomeprazole@@metabolizing@@enzyme@@.@@"> 
+      <entity id="DDI-DrugBank.d29.s7.e0" charOffset="0-11" type="drug" text="Esomeprazole" position="0"/>  
+      <entity id="DDI-DrugBank.d29.s7.e1" charOffset="63-74" type="drug" text="esomeprazole" position="9"/>  
+      <pair id="DDI-DrugBank.d29.s7.p0" e1="DDI-DrugBank.d29.s7.e0" e2="DDI-DrugBank.d29.s7.e1" ddi="false" flags="True" e1_name="Esomeprazole" e2_name="esomeprazole" e1_pos="0" e2_pos="9" path="0@@3@@5@@11@@9@@">Esomeprazole@@@@nsubj@@interfere@@prep_with@@CYP2C19@@appos@@enzyme@@amod@@esomeprazole</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d29.s8" text="Coadministration of esomeprazole 30 mg and diazepam, a CYP2C19 substrate, resulted in a 45% decrease in clearance of diazepam." new_text="Coadministration@@of@@esomeprazole@@30@@mg@@and@@diazepam@@,@@a@@CYP2C19@@substrate@@,@@resulted@@in@@a@@45%@@decrease@@in@@clearance@@of@@diazepam@@.@@"> 
+      <entity id="DDI-DrugBank.d29.s8.e0" charOffset="20-31" type="drug" text="esomeprazole" position="2"/>  
+      <entity id="DDI-DrugBank.d29.s8.e1" charOffset="43-50" type="drug" text="diazepam" position="6"/>  
+      <entity id="DDI-DrugBank.d29.s8.e2" charOffset="117-124" type="drug" text="diazepam" position="20"/>  
+      <pair id="DDI-DrugBank.d29.s8.p0" e1="DDI-DrugBank.d29.s8.e0" e2="DDI-DrugBank.d29.s8.e1" ddi="true" type="mechanism" flags="True" e1_name="esomeprazole" e2_name="diazepam" e1_pos="2" e2_pos="6" path="2@@4@@6@@">esomeprazole@@@@amod@@mg@@conj_and@@diazepam</pair>  
+      <pair id="DDI-DrugBank.d29.s8.p1" e1="DDI-DrugBank.d29.s8.e0" e2="DDI-DrugBank.d29.s8.e2" ddi="false" flags="True" e1_name="esomeprazole" e2_name="diazepam" e1_pos="2" e2_pos="20" path="2@@4@@0@@12@@18@@20@@">esomeprazole@@@@amod@@mg@@prep_of@@Coadministration@@nsubj@@resulted@@prep_in@@clearance@@prep_of@@diazepam</pair>  
+      <pair id="DDI-DrugBank.d29.s8.p2" e1="DDI-DrugBank.d29.s8.e1" e2="DDI-DrugBank.d29.s8.e2" ddi="false" flags="True" e1_name="diazepam" e2_name="diazepam" e1_pos="6" e2_pos="20" path="6@@0@@12@@18@@20@@">diazepam@@@@prep_of@@Coadministration@@nsubj@@resulted@@prep_in@@clearance@@prep_of@@diazepam</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d29.s9" text="Increased plasma levels of diazepam were observed 12 hours after dosing and onwards." new_text="Increased@@plasma@@levels@@of@@diazepam@@were@@observed@@12@@hours@@after@@dosing@@and@@onwards@@.@@"> 
+      <entity id="DDI-DrugBank.d29.s9.e0" charOffset="27-34" type="drug" text="diazepam" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d29.s10" text="However, at that time, the plasma levels of diazepam were below the therapeutic interval, and thus this interaction is unlikely to be of clinical relevance." new_text="However@@,@@at@@that@@time@@,@@the@@plasma@@levels@@of@@diazepam@@were@@below@@the@@therapeutic@@interval@@,@@and@@thus@@this@@interaction@@is@@unlikely@@to@@be@@of@@clinical@@relevance@@.@@"> 
+      <entity id="DDI-DrugBank.d29.s10.e0" charOffset="44-51" type="drug" text="diazepam" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d29.s11" text="Esomeprazole inhibits gastric acid secretion." new_text="Esomeprazole@@inhibits@@gastric@@acid@@secretion@@.@@"> 
+      <entity id="DDI-DrugBank.d29.s11.e0" charOffset="0-11" type="drug" text="Esomeprazole" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d29.s12" text="Therefore, esomeprazole may interfere with the absorption of drugs where gastric pH is an important determinant of bioavailability (eg, ketoconazole, iron salts and digoxin)." new_text="Therefore@@,@@esomeprazole@@may@@interfere@@with@@the@@absorption@@of@@drugs@@where@@gastric@@pH@@is@@an@@important@@determinant@@of@@bioavailability@@(eg@@,@@ketoconazole@@,@@iron@@salts@@and@@digoxin@@)@@.@@"> 
+      <entity id="DDI-DrugBank.d29.s12.e0" charOffset="11-22" type="drug" text="esomeprazole" position="2"/>  
+      <entity id="DDI-DrugBank.d29.s12.e1" charOffset="136-147" type="drug" text="ketoconazole" position="21"/>  
+      <entity id="DDI-DrugBank.d29.s12.e2" charOffset="150-153" type="drug" text="iron" position="23"/>  
+      <entity id="DDI-DrugBank.d29.s12.e3" charOffset="165-171" type="drug" text="digoxin" position="26"/>  
+      <pair id="DDI-DrugBank.d29.s12.p0" e1="DDI-DrugBank.d29.s12.e0" e2="DDI-DrugBank.d29.s12.e1" ddi="true" type="mechanism" flags="True" e1_name="esomeprazole" e2_name="ketoconazole" e1_pos="2" e2_pos="21" path="2@@4@@16@@24@@21@@">esomeprazole@@@@nsubj@@interfere@@advcl@@determinant@@prep_of@@salts@@dep@@ketoconazole</pair>  
+      <pair id="DDI-DrugBank.d29.s12.p1" e1="DDI-DrugBank.d29.s12.e0" e2="DDI-DrugBank.d29.s12.e2" ddi="true" type="mechanism" flags="True" e1_name="esomeprazole" e2_name="iron" e1_pos="2" e2_pos="23" path="2@@4@@16@@24@@23@@">esomeprazole@@@@nsubj@@interfere@@advcl@@determinant@@prep_of@@salts@@dep@@iron</pair>  
+      <pair id="DDI-DrugBank.d29.s12.p2" e1="DDI-DrugBank.d29.s12.e0" e2="DDI-DrugBank.d29.s12.e3" ddi="true" type="mechanism" flags="True" e1_name="esomeprazole" e2_name="digoxin" e1_pos="2" e2_pos="26" path="2@@4@@16@@27@@26@@">esomeprazole@@@@nsubj@@interfere@@advcl@@determinant@@prep_of@@)@@nn@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d29.s12.p3" e1="DDI-DrugBank.d29.s12.e1" e2="DDI-DrugBank.d29.s12.e2" ddi="false" flags="True" e1_name="ketoconazole" e2_name="iron" e1_pos="21" e2_pos="23" path="21@@24@@23@@">ketoconazole@@@@dep@@salts@@dep@@iron</pair>  
+      <pair id="DDI-DrugBank.d29.s12.p4" e1="DDI-DrugBank.d29.s12.e1" e2="DDI-DrugBank.d29.s12.e3" ddi="false" flags="True" e1_name="ketoconazole" e2_name="digoxin" e1_pos="21" e2_pos="26" path="21@@24@@27@@26@@">ketoconazole@@@@dep@@salts@@conj_and@@)@@nn@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d29.s12.p5" e1="DDI-DrugBank.d29.s12.e2" e2="DDI-DrugBank.d29.s12.e3" ddi="false" flags="True" e1_name="iron" e2_name="digoxin" e1_pos="23" e2_pos="26" path="23@@24@@27@@26@@">iron@@@@dep@@salts@@conj_and@@)@@nn@@digoxin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d29.s13" text="Coadministration of oral contraceptives, diazepam, phenytoin, or quinidine did not seem to change the pharmacokinetic profile of esomeprazole." new_text="Coadministration@@of@@oral@@contraceptives@@,@@diazepam@@,@@phenytoin@@,@@or@@quinidine@@did@@not@@seem@@to@@change@@the@@pharmacokinetic@@profile@@of@@esomeprazole@@.@@"> 
+      <entity id="DDI-DrugBank.d29.s13.e0" charOffset="25-38" type="group" text="contraceptives" position="3"/>  
+      <entity id="DDI-DrugBank.d29.s13.e1" charOffset="41-48" type="drug" text="diazepam" position="5"/>  
+      <entity id="DDI-DrugBank.d29.s13.e2" charOffset="51-59" type="drug" text="phenytoin" position="7"/>  
+      <entity id="DDI-DrugBank.d29.s13.e3" charOffset="65-73" type="drug" text="quinidine" position="10"/>  
+      <entity id="DDI-DrugBank.d29.s13.e4" charOffset="129-140" type="drug" text="esomeprazole" position="20"/>  
+      <pair id="DDI-DrugBank.d29.s13.p0" e1="DDI-DrugBank.d29.s13.e0" e2="DDI-DrugBank.d29.s13.e1" ddi="false" flags="True" e1_name="contraceptives" e2_name="diazepam" e1_pos="3" e2_pos="5" path="3@@5@@">contraceptives@@@@appos@@diazepam</pair>  
+      <pair id="DDI-DrugBank.d29.s13.p1" e1="DDI-DrugBank.d29.s13.e0" e2="DDI-DrugBank.d29.s13.e2" ddi="false" flags="True" e1_name="contraceptives" e2_name="phenytoin" e1_pos="3" e2_pos="7" path="3@@7@@">contraceptives@@@@appos@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d29.s13.p2" e1="DDI-DrugBank.d29.s13.e0" e2="DDI-DrugBank.d29.s13.e3" ddi="false" flags="True" e1_name="contraceptives" e2_name="quinidine" e1_pos="3" e2_pos="10" path="3@@10@@">contraceptives@@@@appos@@quinidine</pair>  
+      <pair id="DDI-DrugBank.d29.s13.p3" e1="DDI-DrugBank.d29.s13.e0" e2="DDI-DrugBank.d29.s13.e4" ddi="false" flags="True" e1_name="contraceptives" e2_name="esomeprazole" e1_pos="3" e2_pos="20" path="3@@0@@15@@18@@20@@">contraceptives@@@@prep_of@@Coadministration@@xsubj@@change@@dobj@@profile@@prep_of@@esomeprazole</pair>  
+      <pair id="DDI-DrugBank.d29.s13.p4" e1="DDI-DrugBank.d29.s13.e1" e2="DDI-DrugBank.d29.s13.e2" ddi="false" flags="True" e1_name="diazepam" e2_name="phenytoin" e1_pos="5" e2_pos="7" path="5@@7@@">diazepam@@@@conj_or@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d29.s13.p5" e1="DDI-DrugBank.d29.s13.e1" e2="DDI-DrugBank.d29.s13.e3" ddi="false" flags="True" e1_name="diazepam" e2_name="quinidine" e1_pos="5" e2_pos="10" path="5@@10@@">diazepam@@@@conj_or@@quinidine</pair>  
+      <pair id="DDI-DrugBank.d29.s13.p6" e1="DDI-DrugBank.d29.s13.e1" e2="DDI-DrugBank.d29.s13.e4" ddi="false" flags="True" e1_name="diazepam" e2_name="esomeprazole" e1_pos="5" e2_pos="20" path="5@@3@@0@@15@@18@@20@@">diazepam@@@@appos@@contraceptives@@prep_of@@Coadministration@@xsubj@@change@@dobj@@profile@@prep_of@@esomeprazole</pair>  
+      <pair id="DDI-DrugBank.d29.s13.p7" e1="DDI-DrugBank.d29.s13.e2" e2="DDI-DrugBank.d29.s13.e3" ddi="false" flags="True" e1_name="phenytoin" e2_name="quinidine" e1_pos="7" e2_pos="10" path="7@@3@@10@@">phenytoin@@@@appos@@contraceptives@@appos@@quinidine</pair>  
+      <pair id="DDI-DrugBank.d29.s13.p8" e1="DDI-DrugBank.d29.s13.e2" e2="DDI-DrugBank.d29.s13.e4" ddi="false" flags="True" e1_name="phenytoin" e2_name="esomeprazole" e1_pos="7" e2_pos="20" path="7@@3@@0@@15@@18@@20@@">phenytoin@@@@appos@@contraceptives@@prep_of@@Coadministration@@xsubj@@change@@dobj@@profile@@prep_of@@esomeprazole</pair>  
+      <pair id="DDI-DrugBank.d29.s13.p9" e1="DDI-DrugBank.d29.s13.e3" e2="DDI-DrugBank.d29.s13.e4" ddi="false" flags="True" e1_name="quinidine" e2_name="esomeprazole" e1_pos="10" e2_pos="20" path="10@@3@@0@@15@@18@@20@@">quinidine@@@@appos@@contraceptives@@prep_of@@Coadministration@@xsubj@@change@@dobj@@profile@@prep_of@@esomeprazole</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d29.s14" text="Concomitant administration of clarithromycin with pimozide is contraindicated." new_text="Concomitant@@administration@@of@@clarithromycin@@with@@pimozide@@is@@contraindicated@@.@@"> 
+      <entity id="DDI-DrugBank.d29.s14.e0" charOffset="30-43" type="drug" text="clarithromycin" position="3"/>  
+      <entity id="DDI-DrugBank.d29.s14.e1" charOffset="50-57" type="drug" text="pimozide" position="5"/>  
+      <pair id="DDI-DrugBank.d29.s14.p0" e1="DDI-DrugBank.d29.s14.e0" e2="DDI-DrugBank.d29.s14.e1" ddi="true" type="advise" flags="True" e1_name="clarithromycin" e2_name="pimozide" e1_pos="3" e2_pos="5" path="3@@5@@">clarithromycin@@@@prep_with@@pimozide</pair> 
+   </sentence> 
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d690"> 
+   <sentence id="DDI-DrugBank.d690.s0" text="The CNS-depressant effect of propoxyphene is additive with that of other CNS depressants, including alcohol. " new_text="The@@CNS-depressant@@effect@@of@@propoxyphene@@is@@additive@@with@@that@@of@@other@@CNS depressants@@,@@including@@alcohol@@.@@"> 
+      <entity id="DDI-DrugBank.d690.s0.e0" charOffset="29-40" type="drug" text="propoxyphene" position="4"/>  
+      <entity id="DDI-DrugBank.d690.s0.e1" charOffset="73-87" type="group" text="CNS depressants" position="11"/>  
+      <entity id="DDI-DrugBank.d690.s0.e2" charOffset="100-106" type="drug" text="alcohol" position="14"/>  
+      <pair id="DDI-DrugBank.d690.s0.p0" e1="DDI-DrugBank.d690.s0.e0" e2="DDI-DrugBank.d690.s0.e1" ddi="true" type="effect" flags="True" e1_name="propoxyphene" e2_name="CNS depressants" e1_pos="4" e2_pos="11" path="4@@2@@6@@8@@11@@">propoxyphene@@@@prep_of@@effect@@nsubj@@additive@@prep_with@@that@@prep_of@@CNS depressants</pair>  
+      <pair id="DDI-DrugBank.d690.s0.p1" e1="DDI-DrugBank.d690.s0.e0" e2="DDI-DrugBank.d690.s0.e2" ddi="true" type="effect" flags="True" e1_name="propoxyphene" e2_name="alcohol" e1_pos="4" e2_pos="14" path="4@@2@@6@@8@@14@@">propoxyphene@@@@prep_of@@effect@@nsubj@@additive@@prep_with@@that@@prep_including@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d690.s0.p2" e1="DDI-DrugBank.d690.s0.e1" e2="DDI-DrugBank.d690.s0.e2" ddi="false" flags="True" e1_name="CNS depressants" e2_name="alcohol" e1_pos="11" e2_pos="14" path="11@@8@@14@@">CNS depressants@@@@prep_of@@that@@prep_including@@alcohol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d690.s1" text="As is the case with many medicinal agents, propoxyphene may slow the metabolism of a concomitantly administered drug. " new_text="As@@is@@the@@case@@with@@many@@medicinal@@agents@@,@@propoxyphene@@may@@slow@@the@@metabolism@@of@@a@@concomitantly@@administered@@drug@@.@@"> 
+      <entity id="DDI-DrugBank.d690.s1.e0" charOffset="43-54" type="drug" text="propoxyphene" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d690.s2" text="Should this occur, the higher serum concentrations of that drug may result in increased pharmacologic or adverse effects of that drug. " new_text="Should@@this@@occur@@,@@the@@higher@@serum@@concentrations@@of@@that@@drug@@may@@result@@in@@increased@@pharmacologic@@or@@adverse@@effects@@of@@that@@drug@@.@@"/>  
+   <sentence id="DDI-DrugBank.d690.s3" text="Such occurrences have been reported when propoxyphene was administered to patients on antidepressants, anticonvulsants, or warfarin-like drugs. " new_text="Such@@occurrences@@have@@been@@reported@@when@@propoxyphene@@was@@administered@@to@@patients@@on@@antidepressants@@,@@anticonvulsants@@,@@or@@warfarin@@-like@@drugs@@.@@"> 
+      <entity id="DDI-DrugBank.d690.s3.e0" charOffset="41-52" type="drug" text="propoxyphene" position="6"/>  
+      <entity id="DDI-DrugBank.d690.s3.e1" charOffset="86-100" type="group" text="antidepressants" position="12"/>  
+      <entity id="DDI-DrugBank.d690.s3.e2" charOffset="103-117" type="group" text="anticonvulsants" position="14"/>  
+      <entity id="DDI-DrugBank.d690.s3.e3" charOffset="123-130" type="drug" text="warfarin" position="17"/>  
+      <pair id="DDI-DrugBank.d690.s3.p0" e1="DDI-DrugBank.d690.s3.e0" e2="DDI-DrugBank.d690.s3.e1" ddi="false" flags="True" e1_name="propoxyphene" e2_name="antidepressants" e1_pos="6" e2_pos="12" path="6@@8@@10@@12@@">propoxyphene@@@@nsubjpass@@administered@@prep_to@@patients@@prep_on@@antidepressants</pair>  
+      <pair id="DDI-DrugBank.d690.s3.p1" e1="DDI-DrugBank.d690.s3.e0" e2="DDI-DrugBank.d690.s3.e2" ddi="false" flags="True" e1_name="propoxyphene" e2_name="anticonvulsants" e1_pos="6" e2_pos="14" path="6@@8@@10@@14@@">propoxyphene@@@@nsubjpass@@administered@@prep_to@@patients@@prep_on@@anticonvulsants</pair>  
+      <pair id="DDI-DrugBank.d690.s3.p2" e1="DDI-DrugBank.d690.s3.e0" e2="DDI-DrugBank.d690.s3.e3" ddi="false" flags="True" e1_name="propoxyphene" e2_name="warfarin" e1_pos="6" e2_pos="17" path="6@@8@@10@@19@@17@@">propoxyphene@@@@nsubjpass@@administered@@prep_to@@patients@@prep_on@@drugs@@amod@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d690.s3.p3" e1="DDI-DrugBank.d690.s3.e1" e2="DDI-DrugBank.d690.s3.e2" ddi="false" flags="True" e1_name="antidepressants" e2_name="anticonvulsants" e1_pos="12" e2_pos="14" path="12@@14@@">antidepressants@@@@conj_or@@anticonvulsants</pair>  
+      <pair id="DDI-DrugBank.d690.s3.p4" e1="DDI-DrugBank.d690.s3.e1" e2="DDI-DrugBank.d690.s3.e3" ddi="false" flags="True" e1_name="antidepressants" e2_name="warfarin" e1_pos="12" e2_pos="17" path="12@@19@@17@@">antidepressants@@@@conj_or@@drugs@@amod@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d690.s3.p5" e1="DDI-DrugBank.d690.s3.e2" e2="DDI-DrugBank.d690.s3.e3" ddi="false" flags="True" e1_name="anticonvulsants" e2_name="warfarin" e1_pos="14" e2_pos="17" path="14@@10@@19@@17@@">anticonvulsants@@@@prep_on@@patients@@prep_on@@drugs@@amod@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d690.s4" text="Sever neurologic signs, including coma, have occurred with concurrent use of carbamazepine." new_text="Sever@@neurologic@@signs@@,@@including@@coma@@,@@have@@occurred@@with@@concurrent@@use@@of@@carbamazepine@@.@@"> 
+      <entity id="DDI-DrugBank.d690.s4.e0" charOffset="77-89" type="drug" text="carbamazepine" position="13"/> 
+   </sentence> 
+</document>

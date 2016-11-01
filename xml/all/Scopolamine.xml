@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d771"> 
+   <sentence id="DDI-DrugBank.d771.s0" text="The absorption of oral medications may be decreased during the concurrent use of scopolamine because of decreased gastric motility and delayed gastric emptying. " new_text="The@@absorption@@of@@oral@@medications@@may@@be@@decreased@@during@@the@@concurrent@@use@@of@@scopolamine@@because@@of@@decreased@@gastric@@motility@@and@@delayed@@gastric@@emptying@@.@@"> 
+      <entity id="DDI-DrugBank.d771.s0.e0" charOffset="81-91" type="drug" text="scopolamine" position="13"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d771.s1" text="Scopolamine should be used with care in patients taking other drugs that are capable of causing CNS effects such as sedatives, tranquilizers, or alcohol. " new_text="Scopolamine@@should@@be@@used@@with@@care@@in@@patients@@taking@@other@@drugs@@that@@are@@capable@@of@@causing@@CNS@@effects@@such@@as@@sedatives@@,@@tranquilizers@@,@@or@@alcohol@@.@@"> 
+      <entity id="DDI-DrugBank.d771.s1.e0" charOffset="0-10" type="drug" text="Scopolamine" position="0"/>  
+      <entity id="DDI-DrugBank.d771.s1.e1" charOffset="116-124" type="group" text="sedatives" position="20"/>  
+      <entity id="DDI-DrugBank.d771.s1.e2" charOffset="127-139" type="group" text="tranquilizers" position="22"/>  
+      <entity id="DDI-DrugBank.d771.s1.e3" charOffset="145-151" type="drug" text="alcohol" position="25"/>  
+      <pair id="DDI-DrugBank.d771.s1.p0" e1="DDI-DrugBank.d771.s1.e0" e2="DDI-DrugBank.d771.s1.e1" ddi="true" type="advise" flags="True" e1_name="Scopolamine" e2_name="sedatives" e1_pos="0" e2_pos="20" path="0@@3@@7@@8@@10@@13@@15@@17@@20@@">Scopolamine@@@@nsubjpass@@used@@prep_in@@patients@@partmod@@taking@@dobj@@drugs@@rcmod@@capable@@prepc_of@@causing@@dobj@@effects@@prep_such_as@@sedatives</pair>  
+      <pair id="DDI-DrugBank.d771.s1.p1" e1="DDI-DrugBank.d771.s1.e0" e2="DDI-DrugBank.d771.s1.e2" ddi="true" type="advise" flags="True" e1_name="Scopolamine" e2_name="tranquilizers" e1_pos="0" e2_pos="22" path="0@@3@@7@@8@@10@@13@@15@@17@@22@@">Scopolamine@@@@nsubjpass@@used@@prep_in@@patients@@partmod@@taking@@dobj@@drugs@@rcmod@@capable@@prepc_of@@causing@@dobj@@effects@@prep_such_as@@tranquilizers</pair>  
+      <pair id="DDI-DrugBank.d771.s1.p2" e1="DDI-DrugBank.d771.s1.e0" e2="DDI-DrugBank.d771.s1.e3" ddi="true" type="advise" flags="True" e1_name="Scopolamine" e2_name="alcohol" e1_pos="0" e2_pos="25" path="0@@3@@7@@8@@10@@13@@15@@17@@25@@">Scopolamine@@@@nsubjpass@@used@@prep_in@@patients@@partmod@@taking@@dobj@@drugs@@rcmod@@capable@@prepc_of@@causing@@dobj@@effects@@prep_such_as@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d771.s1.p3" e1="DDI-DrugBank.d771.s1.e1" e2="DDI-DrugBank.d771.s1.e2" ddi="false" flags="True" e1_name="sedatives" e2_name="tranquilizers" e1_pos="20" e2_pos="22" path="20@@22@@">sedatives@@@@conj_or@@tranquilizers</pair>  
+      <pair id="DDI-DrugBank.d771.s1.p4" e1="DDI-DrugBank.d771.s1.e1" e2="DDI-DrugBank.d771.s1.e3" ddi="false" flags="True" e1_name="sedatives" e2_name="alcohol" e1_pos="20" e2_pos="25" path="20@@25@@">sedatives@@@@conj_or@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d771.s1.p5" e1="DDI-DrugBank.d771.s1.e2" e2="DDI-DrugBank.d771.s1.e3" ddi="false" flags="True" e1_name="tranquilizers" e2_name="alcohol" e1_pos="22" e2_pos="25" path="22@@17@@25@@">tranquilizers@@@@prep_such_as@@effects@@prep_such_as@@alcohol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d771.s2" text="Special attention should be paid to potential interactions with drugs having anticholinergic properties; " new_text="Special@@attention@@should@@be@@paid@@to@@potential@@interactions@@with@@drugs@@having@@anticholinergic@@properties;@@"/>  
+   <sentence id="DDI-DrugBank.d771.s3" text="e.g., other belladonna alkaloids, antihistamines (including meclizine), tricyclic antidepressants, and muscle relaxants. " new_text="e.g.@@,@@other@@belladonna alkaloids@@,@@antihistamines@@(including@@meclizine@@)@@,@@tricyclic antidepressants@@,@@and@@muscle relaxants@@.@@"> 
+      <entity id="DDI-DrugBank.d771.s3.e0" charOffset="12-31" type="group" text="belladonna alkaloids" position="3"/>  
+      <entity id="DDI-DrugBank.d771.s3.e1" charOffset="34-47" type="group" text="antihistamines" position="5"/>  
+      <entity id="DDI-DrugBank.d771.s3.e2" charOffset="60-68" type="drug" text="meclizine" position="7"/>  
+      <entity id="DDI-DrugBank.d771.s3.e3" charOffset="72-96" type="group" text="tricyclic antidepressants" position="10"/>  
+      <entity id="DDI-DrugBank.d771.s3.e4" charOffset="103-118" type="group" text="muscle relaxants" position="13"/>  
+      <pair id="DDI-DrugBank.d771.s3.p0" e1="DDI-DrugBank.d771.s3.e0" e2="DDI-DrugBank.d771.s3.e1" ddi="false" flags="True" e1_name="belladonna alkaloids" e2_name="antihistamines" e1_pos="3" e2_pos="5" path="3@@0@@5@@">belladonna alkaloids@@@@appos@@e.g.@@nsubj@@antihistamines</pair>  
+      <pair id="DDI-DrugBank.d771.s3.p1" e1="DDI-DrugBank.d771.s3.e0" e2="DDI-DrugBank.d771.s3.e2" ddi="false" flags="True" e1_name="belladonna alkaloids" e2_name="meclizine" e1_pos="3" e2_pos="7" path="3@@0@@5@@6@@8@@7@@">belladonna alkaloids@@@@appos@@e.g.@@nsubj@@antihistamines@@xcomp@@(including@@dobj@@)@@amod@@meclizine</pair>  
+      <pair id="DDI-DrugBank.d771.s3.p2" e1="DDI-DrugBank.d771.s3.e0" e2="DDI-DrugBank.d771.s3.e3" ddi="false" flags="True" e1_name="belladonna alkaloids" e2_name="tricyclic antidepressants" e1_pos="3" e2_pos="10" path="3@@0@@10@@">belladonna alkaloids@@@@appos@@e.g.@@nsubj@@tricyclic antidepressants</pair>  
+      <pair id="DDI-DrugBank.d771.s3.p3" e1="DDI-DrugBank.d771.s3.e0" e2="DDI-DrugBank.d771.s3.e4" ddi="false" flags="True" e1_name="belladonna alkaloids" e2_name="muscle relaxants" e1_pos="3" e2_pos="13" path="3@@0@@13@@">belladonna alkaloids@@@@appos@@e.g.@@nsubj@@muscle relaxants</pair>  
+      <pair id="DDI-DrugBank.d771.s3.p4" e1="DDI-DrugBank.d771.s3.e1" e2="DDI-DrugBank.d771.s3.e2" ddi="false" flags="True" e1_name="antihistamines" e2_name="meclizine" e1_pos="5" e2_pos="7" path="5@@6@@8@@7@@">antihistamines@@@@xcomp@@(including@@dobj@@)@@amod@@meclizine</pair>  
+      <pair id="DDI-DrugBank.d771.s3.p5" e1="DDI-DrugBank.d771.s3.e1" e2="DDI-DrugBank.d771.s3.e3" ddi="false" flags="True" e1_name="antihistamines" e2_name="tricyclic antidepressants" e1_pos="5" e2_pos="10" path="5@@10@@">antihistamines@@@@conj_and@@tricyclic antidepressants</pair>  
+      <pair id="DDI-DrugBank.d771.s3.p6" e1="DDI-DrugBank.d771.s3.e1" e2="DDI-DrugBank.d771.s3.e4" ddi="false" flags="True" e1_name="antihistamines" e2_name="muscle relaxants" e1_pos="5" e2_pos="13" path="5@@13@@">antihistamines@@@@conj_and@@muscle relaxants</pair>  
+      <pair id="DDI-DrugBank.d771.s3.p7" e1="DDI-DrugBank.d771.s3.e2" e2="DDI-DrugBank.d771.s3.e3" ddi="false" flags="True" e1_name="meclizine" e2_name="tricyclic antidepressants" e1_pos="7" e2_pos="10" path="7@@8@@6@@5@@10@@">meclizine@@@@amod@@)@@dobj@@(including@@xcomp@@antihistamines@@conj_and@@tricyclic antidepressants</pair>  
+      <pair id="DDI-DrugBank.d771.s3.p8" e1="DDI-DrugBank.d771.s3.e2" e2="DDI-DrugBank.d771.s3.e4" ddi="false" flags="True" e1_name="meclizine" e2_name="muscle relaxants" e1_pos="7" e2_pos="13" path="7@@8@@6@@5@@13@@">meclizine@@@@amod@@)@@dobj@@(including@@xcomp@@antihistamines@@conj_and@@muscle relaxants</pair>  
+      <pair id="DDI-DrugBank.d771.s3.p9" e1="DDI-DrugBank.d771.s3.e3" e2="DDI-DrugBank.d771.s3.e4" ddi="false" flags="True" e1_name="tricyclic antidepressants" e2_name="muscle relaxants" e1_pos="10" e2_pos="13" path="10@@0@@13@@">tricyclic antidepressants@@@@nsubj@@e.g.@@nsubj@@muscle relaxants</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d771.s4" text="Laboratory Test Interactions Scopolamine will interfere with the gastric secretion test." new_text="Laboratory@@Test@@Interactions@@Scopolamine@@will@@interfere@@with@@the@@gastric@@secretion@@test@@.@@"> 
+      <entity id="DDI-DrugBank.d771.s4.e0" charOffset="29-39" type="drug" text="Scopolamine" position="3"/> 
+   </sentence> 
+</document>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d272"> 
+   <sentence id="DDI-DrugBank.d272.s0" text="The risk of using bromocriptine mesylate in combination with other drugs has not been systematically evaluated, but alcohol may potentiate the side effects of bromocriptine mesylate." new_text="The@@risk@@of@@using@@bromocriptine mesylate@@in@@combination@@with@@other@@drugs@@has@@not@@been@@systematically@@evaluated@@,@@but@@alcohol@@may@@potentiate@@the@@side@@effects@@of@@bromocriptine mesylate@@.@@"> 
+      <entity id="DDI-DrugBank.d272.s0.e0" charOffset="18-39" type="drug" text="bromocriptine mesylate" position="4"/>  
+      <entity id="DDI-DrugBank.d272.s0.e1" charOffset="116-122" type="drug" text="alcohol" position="17"/>  
+      <entity id="DDI-DrugBank.d272.s0.e2" charOffset="159-180" type="drug" text="bromocriptine mesylate" position="24"/>  
+      <pair id="DDI-DrugBank.d272.s0.p0" e1="DDI-DrugBank.d272.s0.e0" e2="DDI-DrugBank.d272.s0.e1" ddi="false" flags="True" e1_name="bromocriptine mesylate" e2_name="alcohol" e1_pos="4" e2_pos="17" path="4@@3@@1@@14@@19@@17@@">bromocriptine mesylate@@@@dobj@@using@@prepc_of@@risk@@nsubjpass@@evaluated@@conj_but@@potentiate@@nsubj@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d272.s0.p1" e1="DDI-DrugBank.d272.s0.e0" e2="DDI-DrugBank.d272.s0.e2" ddi="false" flags="True" e1_name="bromocriptine mesylate" e2_name="bromocriptine mesylate" e1_pos="4" e2_pos="24" path="4@@3@@1@@14@@19@@22@@24@@">bromocriptine mesylate@@@@dobj@@using@@prepc_of@@risk@@nsubjpass@@evaluated@@conj_but@@potentiate@@dobj@@effects@@prep_of@@bromocriptine mesylate</pair>  
+      <pair id="DDI-DrugBank.d272.s0.p2" e1="DDI-DrugBank.d272.s0.e1" e2="DDI-DrugBank.d272.s0.e2" ddi="true" type="effect" flags="True" e1_name="alcohol" e2_name="bromocriptine mesylate" e1_pos="17" e2_pos="24" path="17@@19@@22@@24@@">alcohol@@@@nsubj@@potentiate@@dobj@@effects@@prep_of@@bromocriptine mesylate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d272.s1" text="Bromocriptine mesylate may interact with dopamine antagonists, butyrophenones, and certain other agents." new_text="Bromocriptine mesylate@@may@@interact@@with@@dopamine antagonists@@,@@butyrophenones@@,@@and@@certain@@other@@agents@@.@@"> 
+      <entity id="DDI-DrugBank.d272.s1.e0" charOffset="0-21" type="drug" text="Bromocriptine mesylate" position="0"/>  
+      <entity id="DDI-DrugBank.d272.s1.e1" charOffset="41-60" type="group" text="dopamine antagonists" position="4"/>  
+      <entity id="DDI-DrugBank.d272.s1.e2" charOffset="63-76" type="group" text="butyrophenones" position="6"/>  
+      <pair id="DDI-DrugBank.d272.s1.p0" e1="DDI-DrugBank.d272.s1.e0" e2="DDI-DrugBank.d272.s1.e1" ddi="true" type="int" flags="True" e1_name="Bromocriptine mesylate" e2_name="dopamine antagonists" e1_pos="0" e2_pos="4" path="0@@2@@4@@">Bromocriptine mesylate@@@@nsubj@@interact@@prep_with@@dopamine antagonists</pair>  
+      <pair id="DDI-DrugBank.d272.s1.p1" e1="DDI-DrugBank.d272.s1.e0" e2="DDI-DrugBank.d272.s1.e2" ddi="true" type="int" flags="True" e1_name="Bromocriptine mesylate" e2_name="butyrophenones" e1_pos="0" e2_pos="6" path="0@@2@@6@@">Bromocriptine mesylate@@@@nsubj@@interact@@prep_with@@butyrophenones</pair>  
+      <pair id="DDI-DrugBank.d272.s1.p2" e1="DDI-DrugBank.d272.s1.e1" e2="DDI-DrugBank.d272.s1.e2" ddi="false" flags="True" e1_name="dopamine antagonists" e2_name="butyrophenones" e1_pos="4" e2_pos="6" path="4@@6@@">dopamine antagonists@@@@conj_and@@butyrophenones</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d272.s2" text="Compounds in these categories result in a decreased efficacy of bromocriptine mesylate: phenothiazines, haloperidol, metoclopramide, pimozide." new_text="Compounds@@in@@these@@categories@@result@@in@@a@@decreased@@efficacy@@of@@bromocriptine mesylate@@:@@phenothiazines@@,@@haloperidol@@,@@metoclopramide@@,@@pimozide@@.@@"> 
+      <entity id="DDI-DrugBank.d272.s2.e0" charOffset="64-85" type="drug" text="bromocriptine mesylate" position="10"/>  
+      <entity id="DDI-DrugBank.d272.s2.e1" charOffset="88-101" type="group" text="phenothiazines" position="12"/>  
+      <entity id="DDI-DrugBank.d272.s2.e2" charOffset="104-114" type="drug" text="haloperidol" position="14"/>  
+      <entity id="DDI-DrugBank.d272.s2.e3" charOffset="117-130" type="drug" text="metoclopramide" position="16"/>  
+      <entity id="DDI-DrugBank.d272.s2.e4" charOffset="133-140" type="drug" text="pimozide" position="18"/>  
+      <pair id="DDI-DrugBank.d272.s2.p0" e1="DDI-DrugBank.d272.s2.e0" e2="DDI-DrugBank.d272.s2.e1" ddi="true" type="effect" flags="True" e1_name="bromocriptine mesylate" e2_name="phenothiazines" e1_pos="10" e2_pos="12" path="10@@8@@4@@18@@12@@">bromocriptine mesylate@@@@prep_of@@efficacy@@prep_in@@result@@parataxis@@pimozide@@nsubj@@phenothiazines</pair>  
+      <pair id="DDI-DrugBank.d272.s2.p1" e1="DDI-DrugBank.d272.s2.e0" e2="DDI-DrugBank.d272.s2.e2" ddi="true" type="effect" flags="True" e1_name="bromocriptine mesylate" e2_name="haloperidol" e1_pos="10" e2_pos="14" path="10@@8@@4@@18@@12@@16@@14@@">bromocriptine mesylate@@@@prep_of@@efficacy@@prep_in@@result@@parataxis@@pimozide@@nsubj@@phenothiazines@@amod@@metoclopramide@@amod@@haloperidol</pair>  
+      <pair id="DDI-DrugBank.d272.s2.p2" e1="DDI-DrugBank.d272.s2.e0" e2="DDI-DrugBank.d272.s2.e3" ddi="true" type="effect" flags="True" e1_name="bromocriptine mesylate" e2_name="metoclopramide" e1_pos="10" e2_pos="16" path="10@@8@@4@@18@@12@@16@@">bromocriptine mesylate@@@@prep_of@@efficacy@@prep_in@@result@@parataxis@@pimozide@@nsubj@@phenothiazines@@amod@@metoclopramide</pair>  
+      <pair id="DDI-DrugBank.d272.s2.p3" e1="DDI-DrugBank.d272.s2.e0" e2="DDI-DrugBank.d272.s2.e4" ddi="true" type="effect" flags="True" e1_name="bromocriptine mesylate" e2_name="pimozide" e1_pos="10" e2_pos="18" path="10@@8@@4@@18@@">bromocriptine mesylate@@@@prep_of@@efficacy@@prep_in@@result@@parataxis@@pimozide</pair>  
+      <pair id="DDI-DrugBank.d272.s2.p4" e1="DDI-DrugBank.d272.s2.e1" e2="DDI-DrugBank.d272.s2.e2" ddi="false" flags="True" e1_name="phenothiazines" e2_name="haloperidol" e1_pos="12" e2_pos="14" path="12@@16@@14@@">phenothiazines@@@@amod@@metoclopramide@@amod@@haloperidol</pair>  
+      <pair id="DDI-DrugBank.d272.s2.p5" e1="DDI-DrugBank.d272.s2.e1" e2="DDI-DrugBank.d272.s2.e3" ddi="false" flags="True" e1_name="phenothiazines" e2_name="metoclopramide" e1_pos="12" e2_pos="16" path="12@@16@@">phenothiazines@@@@amod@@metoclopramide</pair>  
+      <pair id="DDI-DrugBank.d272.s2.p6" e1="DDI-DrugBank.d272.s2.e1" e2="DDI-DrugBank.d272.s2.e4" ddi="false" flags="True" e1_name="phenothiazines" e2_name="pimozide" e1_pos="12" e2_pos="18" path="12@@18@@">phenothiazines@@@@nsubj@@pimozide</pair>  
+      <pair id="DDI-DrugBank.d272.s2.p7" e1="DDI-DrugBank.d272.s2.e2" e2="DDI-DrugBank.d272.s2.e3" ddi="false" flags="True" e1_name="haloperidol" e2_name="metoclopramide" e1_pos="14" e2_pos="16" path="14@@16@@">haloperidol@@@@amod@@metoclopramide</pair>  
+      <pair id="DDI-DrugBank.d272.s2.p8" e1="DDI-DrugBank.d272.s2.e2" e2="DDI-DrugBank.d272.s2.e4" ddi="false" flags="True" e1_name="haloperidol" e2_name="pimozide" e1_pos="14" e2_pos="18" path="14@@16@@12@@18@@">haloperidol@@@@amod@@metoclopramide@@amod@@phenothiazines@@nsubj@@pimozide</pair>  
+      <pair id="DDI-DrugBank.d272.s2.p9" e1="DDI-DrugBank.d272.s2.e3" e2="DDI-DrugBank.d272.s2.e4" ddi="false" flags="True" e1_name="metoclopramide" e2_name="pimozide" e1_pos="16" e2_pos="18" path="16@@12@@18@@">metoclopramide@@@@amod@@phenothiazines@@nsubj@@pimozide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d272.s3" text="Concomitant use of bromocriptine mesylate with other ergot alkaloids is not recommended." new_text="Concomitant@@use@@of@@bromocriptine mesylate@@with@@other@@ergot alkaloids@@is@@not@@recommended@@.@@"> 
+      <entity id="DDI-DrugBank.d272.s3.e0" charOffset="19-40" type="drug" text="bromocriptine mesylate" position="3"/>  
+      <entity id="DDI-DrugBank.d272.s3.e1" charOffset="53-67" type="group" text="ergot alkaloids" position="6"/>  
+      <pair id="DDI-DrugBank.d272.s3.p0" e1="DDI-DrugBank.d272.s3.e0" e2="DDI-DrugBank.d272.s3.e1" ddi="true" type="advise" flags="True" e1_name="bromocriptine mesylate" e2_name="ergot alkaloids" e1_pos="3" e2_pos="6" path="3@@6@@">bromocriptine mesylate@@@@prep_with@@ergot alkaloids</pair> 
+   </sentence> 
+</document>

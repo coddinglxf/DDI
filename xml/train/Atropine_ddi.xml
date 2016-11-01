@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d222"> 
+   <sentence id="DDI-DrugBank.d222.s0" text="When atropine and pralidoxime are used together, the signs of atropinization (flushing, mydriasis, tachycardia, dryness of the mouth and nose) may occur earlier than might be expected than when atropine is used alone because pralidoxime may potentiate the effect of atropine." new_text="When@@atropine@@and@@pralidoxime@@are@@used@@together@@,@@the@@signs@@of@@atropinization@@(flushing@@,@@mydriasis@@,@@tachycardia@@,@@dryness@@of@@the@@mouth@@and@@nose)@@may@@occur@@earlier@@than@@might@@be@@expected@@than@@when@@atropine@@is@@used@@alone@@because@@pralidoxime@@may@@potentiate@@the@@effect@@of@@atropine@@.@@"> 
+      <entity id="DDI-DrugBank.d222.s0.e0" charOffset="5-12" type="drug" text="atropine" position="1"/>  
+      <entity id="DDI-DrugBank.d222.s0.e1" charOffset="18-28" type="drug" text="pralidoxime" position="3"/>  
+      <entity id="DDI-DrugBank.d222.s0.e2" charOffset="194-201" type="drug" text="atropine" position="33"/>  
+      <entity id="DDI-DrugBank.d222.s0.e3" charOffset="225-235" type="drug" text="pralidoxime" position="38"/>  
+      <entity id="DDI-DrugBank.d222.s0.e4" charOffset="266-273" type="drug" text="atropine" position="44"/>  
+      <pair id="DDI-DrugBank.d222.s0.p0" e1="DDI-DrugBank.d222.s0.e0" e2="DDI-DrugBank.d222.s0.e1" ddi="true" type="effect" flags="True" e1_name="atropine" e2_name="pralidoxime" e1_pos="1" e2_pos="3" path="1@@3@@">atropine@@@@conj_and@@pralidoxime</pair>  
+      <pair id="DDI-DrugBank.d222.s0.p1" e1="DDI-DrugBank.d222.s0.e0" e2="DDI-DrugBank.d222.s0.e2" ddi="false" flags="True" e1_name="atropine" e2_name="atropine" e1_pos="1" e2_pos="33" path="1@@5@@30@@35@@33@@">atropine@@@@nsubjpass@@used@@advcl@@expected@@prepc_than@@used@@nsubjpass@@atropine</pair>  
+      <pair id="DDI-DrugBank.d222.s0.p2" e1="DDI-DrugBank.d222.s0.e0" e2="DDI-DrugBank.d222.s0.e3" ddi="false" flags="True" e1_name="atropine" e2_name="pralidoxime" e1_pos="1" e2_pos="38" path="1@@5@@30@@35@@40@@38@@">atropine@@@@nsubjpass@@used@@advcl@@expected@@prepc_than@@used@@advcl@@potentiate@@nsubj@@pralidoxime</pair>  
+      <pair id="DDI-DrugBank.d222.s0.p3" e1="DDI-DrugBank.d222.s0.e0" e2="DDI-DrugBank.d222.s0.e4" ddi="false" flags="True" e1_name="atropine" e2_name="atropine" e1_pos="1" e2_pos="44" path="1@@5@@30@@35@@40@@42@@44@@">atropine@@@@nsubjpass@@used@@advcl@@expected@@prepc_than@@used@@advcl@@potentiate@@dobj@@effect@@prep_of@@atropine</pair>  
+      <pair id="DDI-DrugBank.d222.s0.p4" e1="DDI-DrugBank.d222.s0.e1" e2="DDI-DrugBank.d222.s0.e2" ddi="false" flags="True" e1_name="pralidoxime" e2_name="atropine" e1_pos="3" e2_pos="33" path="3@@5@@30@@35@@33@@">pralidoxime@@@@nsubjpass@@used@@advcl@@expected@@prepc_than@@used@@nsubjpass@@atropine</pair>  
+      <pair id="DDI-DrugBank.d222.s0.p5" e1="DDI-DrugBank.d222.s0.e1" e2="DDI-DrugBank.d222.s0.e3" ddi="false" flags="True" e1_name="pralidoxime" e2_name="pralidoxime" e1_pos="3" e2_pos="38" path="3@@5@@30@@35@@40@@38@@">pralidoxime@@@@nsubjpass@@used@@advcl@@expected@@prepc_than@@used@@advcl@@potentiate@@nsubj@@pralidoxime</pair>  
+      <pair id="DDI-DrugBank.d222.s0.p6" e1="DDI-DrugBank.d222.s0.e1" e2="DDI-DrugBank.d222.s0.e4" ddi="false" flags="True" e1_name="pralidoxime" e2_name="atropine" e1_pos="3" e2_pos="44" path="3@@5@@30@@35@@40@@42@@44@@">pralidoxime@@@@nsubjpass@@used@@advcl@@expected@@prepc_than@@used@@advcl@@potentiate@@dobj@@effect@@prep_of@@atropine</pair>  
+      <pair id="DDI-DrugBank.d222.s0.p7" e1="DDI-DrugBank.d222.s0.e2" e2="DDI-DrugBank.d222.s0.e3" ddi="false" flags="True" e1_name="atropine" e2_name="pralidoxime" e1_pos="33" e2_pos="38" path="33@@35@@40@@38@@">atropine@@@@nsubjpass@@used@@advcl@@potentiate@@nsubj@@pralidoxime</pair>  
+      <pair id="DDI-DrugBank.d222.s0.p8" e1="DDI-DrugBank.d222.s0.e2" e2="DDI-DrugBank.d222.s0.e4" ddi="false" flags="True" e1_name="atropine" e2_name="atropine" e1_pos="33" e2_pos="44" path="33@@35@@40@@42@@44@@">atropine@@@@nsubjpass@@used@@advcl@@potentiate@@dobj@@effect@@prep_of@@atropine</pair>  
+      <pair id="DDI-DrugBank.d222.s0.p9" e1="DDI-DrugBank.d222.s0.e3" e2="DDI-DrugBank.d222.s0.e4" ddi="true" type="effect" flags="True" e1_name="pralidoxime" e2_name="atropine" e1_pos="38" e2_pos="44" path="38@@40@@42@@44@@">pralidoxime@@@@nsubj@@potentiate@@dobj@@effect@@prep_of@@atropine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d222.s1" text="The following precautions should be kept in mind in the treatment of anticholinesterase poisoning although they do not bear directly on the use of atropine and pralidoxime." new_text="The@@following@@precautions@@should@@be@@kept@@in@@mind@@in@@the@@treatment@@of@@anticholinesterase@@poisoning@@although@@they@@do@@not@@bear@@directly@@on@@the@@use@@of@@atropine@@and@@pralidoxime@@.@@"> 
+      <entity id="DDI-DrugBank.d222.s1.e0" charOffset="147-154" type="drug" text="atropine" position="24"/>  
+      <entity id="DDI-DrugBank.d222.s1.e1" charOffset="160-170" type="drug" text="pralidoxime" position="26"/>  
+      <pair id="DDI-DrugBank.d222.s1.p0" e1="DDI-DrugBank.d222.s1.e0" e2="DDI-DrugBank.d222.s1.e1" ddi="true" type="advise" flags="True" e1_name="atropine" e2_name="pralidoxime" e1_pos="24" e2_pos="26" path="24@@26@@">atropine@@@@conj_and@@pralidoxime</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d222.s2" text="Since barbiturates are potentiated by the anticholinesterases, they should be used cautiously in the treatment of convulsions." new_text="Since@@barbiturates@@are@@potentiated@@by@@the@@anticholinesterases@@,@@they@@should@@be@@used@@cautiously@@in@@the@@treatment@@of@@convulsions@@.@@"> 
+      <entity id="DDI-DrugBank.d222.s2.e0" charOffset="6-17" type="group" text="barbiturates" position="1"/>  
+      <entity id="DDI-DrugBank.d222.s2.e1" charOffset="42-60" type="group" text="anticholinesterases" position="6"/>  
+      <pair id="DDI-DrugBank.d222.s2.p0" e1="DDI-DrugBank.d222.s2.e0" e2="DDI-DrugBank.d222.s2.e1" ddi="true" type="advise" flags="True" e1_name="barbiturates" e2_name="anticholinesterases" e1_pos="1" e2_pos="6" path="1@@3@@6@@">barbiturates@@@@nsubjpass@@potentiated@@agent@@anticholinesterases</pair> 
+   </sentence> 
+</document>

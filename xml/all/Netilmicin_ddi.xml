@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d417"> 
+   <sentence id="DDI-DrugBank.d417.s0" text="Netilmicin should not be administered concomitantly with potent loop diuretics such as furosemide and ethacrynic acid as the potential for ototoxicity is enhanced by the combination." new_text="Netilmicin@@should@@not@@be@@administered@@concomitantly@@with@@potent@@loop diuretics@@such@@as@@furosemide@@and@@ethacrynic acid@@as@@the@@potential@@for@@ototoxicity@@is@@enhanced@@by@@the@@combination@@.@@"> 
+      <entity id="DDI-DrugBank.d417.s0.e0" charOffset="0-9" type="drug" text="Netilmicin" position="0"/>  
+      <entity id="DDI-DrugBank.d417.s0.e1" charOffset="64-77" type="group" text="loop diuretics" position="8"/>  
+      <entity id="DDI-DrugBank.d417.s0.e2" charOffset="87-96" type="drug" text="furosemide" position="11"/>  
+      <entity id="DDI-DrugBank.d417.s0.e3" charOffset="102-116" type="drug" text="ethacrynic acid" position="13"/>  
+      <pair id="DDI-DrugBank.d417.s0.p0" e1="DDI-DrugBank.d417.s0.e0" e2="DDI-DrugBank.d417.s0.e1" ddi="true" type="advise" flags="True" e1_name="Netilmicin" e2_name="loop diuretics" e1_pos="0" e2_pos="8" path="0@@4@@8@@">Netilmicin@@@@nsubjpass@@administered@@prep_with@@loop diuretics</pair>  
+      <pair id="DDI-DrugBank.d417.s0.p1" e1="DDI-DrugBank.d417.s0.e0" e2="DDI-DrugBank.d417.s0.e2" ddi="true" type="advise" flags="True" e1_name="Netilmicin" e2_name="furosemide" e1_pos="0" e2_pos="11" path="0@@4@@8@@11@@">Netilmicin@@@@nsubjpass@@administered@@prep_with@@loop diuretics@@prep_such_as@@furosemide</pair>  
+      <pair id="DDI-DrugBank.d417.s0.p2" e1="DDI-DrugBank.d417.s0.e0" e2="DDI-DrugBank.d417.s0.e3" ddi="true" type="advise" flags="True" e1_name="Netilmicin" e2_name="ethacrynic acid" e1_pos="0" e2_pos="13" path="0@@13@@">Netilmicin@@@@nsubjpass@@ethacrynic acid</pair>  
+      <pair id="DDI-DrugBank.d417.s0.p3" e1="DDI-DrugBank.d417.s0.e1" e2="DDI-DrugBank.d417.s0.e2" ddi="false" flags="True" e1_name="loop diuretics" e2_name="furosemide" e1_pos="8" e2_pos="11" path="8@@11@@">loop diuretics@@@@prep_such_as@@furosemide</pair>  
+      <pair id="DDI-DrugBank.d417.s0.p4" e1="DDI-DrugBank.d417.s0.e1" e2="DDI-DrugBank.d417.s0.e3" ddi="false" flags="True" e1_name="loop diuretics" e2_name="ethacrynic acid" e1_pos="8" e2_pos="13" path="8@@4@@13@@">loop diuretics@@@@prep_with@@administered@@conj_and@@ethacrynic acid</pair>  
+      <pair id="DDI-DrugBank.d417.s0.p5" e1="DDI-DrugBank.d417.s0.e2" e2="DDI-DrugBank.d417.s0.e3" ddi="false" flags="True" e1_name="furosemide" e2_name="ethacrynic acid" e1_pos="11" e2_pos="13" path="11@@8@@4@@13@@">furosemide@@@@prep_such_as@@loop diuretics@@prep_with@@administered@@conj_and@@ethacrynic acid</pair> 
+   </sentence> 
+</document>

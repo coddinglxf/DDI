@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d498"> 
+   <sentence id="DDI-DrugBank.d498.s0" text="Certain antibiotics, especially neomycin, streptomycin and kanamycin, have a mild but definite nondepolarizing blocking action which may accentuate neuromuscular block." new_text="Certain@@antibiotics@@,@@especially@@neomycin@@,@@streptomycin@@and@@kanamycin@@,@@have@@a@@mild@@but@@definite@@nondepolarizing@@blocking@@action@@which@@may@@accentuate@@neuromuscular@@block@@.@@"> 
+      <entity id="DDI-DrugBank.d498.s0.e0" charOffset="8-18" type="group" text="antibiotics" position="1"/>  
+      <entity id="DDI-DrugBank.d498.s0.e1" charOffset="32-39" type="drug" text="neomycin" position="4"/>  
+      <entity id="DDI-DrugBank.d498.s0.e2" charOffset="42-53" type="drug" text="streptomycin" position="6"/>  
+      <entity id="DDI-DrugBank.d498.s0.e3" charOffset="59-67" type="drug" text="kanamycin" position="8"/>  
+      <pair id="DDI-DrugBank.d498.s0.p0" e1="DDI-DrugBank.d498.s0.e0" e2="DDI-DrugBank.d498.s0.e1" ddi="false" flags="True" e1_name="antibiotics" e2_name="neomycin" e1_pos="1" e2_pos="4" path="1@@4@@">antibiotics@@@@amod@@neomycin</pair>  
+      <pair id="DDI-DrugBank.d498.s0.p1" e1="DDI-DrugBank.d498.s0.e0" e2="DDI-DrugBank.d498.s0.e2" ddi="false" flags="True" e1_name="antibiotics" e2_name="streptomycin" e1_pos="1" e2_pos="6" path="1@@6@@">antibiotics@@@@amod@@streptomycin</pair>  
+      <pair id="DDI-DrugBank.d498.s0.p2" e1="DDI-DrugBank.d498.s0.e0" e2="DDI-DrugBank.d498.s0.e3" ddi="false" flags="True" e1_name="antibiotics" e2_name="kanamycin" e1_pos="1" e2_pos="8" path="1@@8@@">antibiotics@@@@amod@@kanamycin</pair>  
+      <pair id="DDI-DrugBank.d498.s0.p3" e1="DDI-DrugBank.d498.s0.e1" e2="DDI-DrugBank.d498.s0.e2" ddi="false" flags="True" e1_name="neomycin" e2_name="streptomycin" e1_pos="4" e2_pos="6" path="4@@6@@">neomycin@@@@conj_and@@streptomycin</pair>  
+      <pair id="DDI-DrugBank.d498.s0.p4" e1="DDI-DrugBank.d498.s0.e1" e2="DDI-DrugBank.d498.s0.e3" ddi="false" flags="True" e1_name="neomycin" e2_name="kanamycin" e1_pos="4" e2_pos="8" path="4@@8@@">neomycin@@@@conj_and@@kanamycin</pair>  
+      <pair id="DDI-DrugBank.d498.s0.p5" e1="DDI-DrugBank.d498.s0.e2" e2="DDI-DrugBank.d498.s0.e3" ddi="false" flags="True" e1_name="streptomycin" e2_name="kanamycin" e1_pos="6" e2_pos="8" path="6@@1@@8@@">streptomycin@@@@amod@@antibiotics@@amod@@kanamycin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d498.s1" text="These antibiotics should be used in the myasthenic patient only where definitely indicated, and then careful adjustment should be made of adjunctive anticholinesterase dosage." new_text="These@@antibiotics@@should@@be@@used@@in@@the@@myasthenic@@patient@@only@@where@@definitely@@indicated@@,@@and@@then@@careful@@adjustment@@should@@be@@made@@of@@adjunctive@@anticholinesterase@@dosage@@.@@"> 
+      <entity id="DDI-DrugBank.d498.s1.e0" charOffset="6-16" type="group" text="antibiotics" position="1"/>  
+      <entity id="DDI-DrugBank.d498.s1.e1" charOffset="149-166" type="group" text="anticholinesterase" position="23"/>  
+      <pair id="DDI-DrugBank.d498.s1.p0" e1="DDI-DrugBank.d498.s1.e0" e2="DDI-DrugBank.d498.s1.e1" ddi="true" type="advise" flags="True" e1_name="antibiotics" e2_name="anticholinesterase" e1_pos="1" e2_pos="23" path="1@@4@@20@@24@@23@@">antibiotics@@@@nsubjpass@@used@@conj_and@@made@@prep_of@@dosage@@nn@@anticholinesterase</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d498.s2" text="Local and some general anesthetics, antiarrhythmic agents and other drugs that interfere with neuromuscular transmission should be used cautiously, if at all, in patients with myasthenia gravis;" new_text="Local@@and@@some@@general@@anesthetics@@,@@antiarrhythmic agents@@and@@other@@drugs@@that@@interfere@@with@@neuromuscular@@transmission@@should@@be@@used@@cautiously@@,@@if@@at@@all@@,@@in@@patients@@with@@myasthenia@@gravis;@@"> 
+      <entity id="DDI-DrugBank.d498.s2.e0" charOffset="23-33" type="group" text="anesthetics" position="4"/>  
+      <entity id="DDI-DrugBank.d498.s2.e1" charOffset="36-56" type="group" text="antiarrhythmic agents" position="6"/>  
+      <pair id="DDI-DrugBank.d498.s2.p0" e1="DDI-DrugBank.d498.s2.e0" e2="DDI-DrugBank.d498.s2.e1" ddi="false" flags="True" e1_name="anesthetics" e2_name="antiarrhythmic agents" e1_pos="4" e2_pos="6" path="4@@0@@6@@">anesthetics@@@@conj_and@@Local@@conj_and@@antiarrhythmic agents</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d498.s3" text="the dose of Prostigmin may have to be increased accordingly." new_text="the@@dose@@of@@Prostigmin@@may@@have@@to@@be@@increased@@accordingly@@.@@"> 
+      <entity id="DDI-DrugBank.d498.s3.e0" charOffset="12-21" type="brand" text="Prostigmin" position="3"/> 
+   </sentence> 
+</document>

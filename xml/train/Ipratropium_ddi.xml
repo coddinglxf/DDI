@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d51"> 
+   <sentence id="DDI-DrugBank.d51.s0" text="ATROVENT Inhalation Aerosol has been used concomitantly with other drugs, including sympathomimetic bronchodilators, methylxanthines, and steroids, commonly used in the treatment of chronic obstructive pulmonary disease." new_text="ATROVENT@@Inhalation@@Aerosol@@has@@been@@used@@concomitantly@@with@@other@@drugs@@,@@including@@sympathomimetic bronchodilators@@,@@methylxanthines@@,@@and@@steroids@@,@@commonly@@used@@in@@the@@treatment@@of@@chronic@@obstructive@@pulmonary@@disease@@.@@"> 
+      <entity id="DDI-DrugBank.d51.s0.e0" charOffset="0-7" type="brand" text="ATROVENT" position="0"/>  
+      <entity id="DDI-DrugBank.d51.s0.e1" charOffset="84-114" type="group" text="sympathomimetic bronchodilators" position="12"/>  
+      <entity id="DDI-DrugBank.d51.s0.e2" charOffset="117-131" type="group" text="methylxanthines" position="14"/>  
+      <entity id="DDI-DrugBank.d51.s0.e3" charOffset="138-145" type="group" text="steroids" position="17"/>  
+      <pair id="DDI-DrugBank.d51.s0.p0" e1="DDI-DrugBank.d51.s0.e0" e2="DDI-DrugBank.d51.s0.e1" ddi="false" flags="True" e1_name="ATROVENT" e2_name="sympathomimetic bronchodilators" e1_pos="0" e2_pos="12" path="0@@2@@5@@9@@12@@">ATROVENT@@@@nn@@Aerosol@@nsubjpass@@used@@prep_with@@drugs@@prep_including@@sympathomimetic bronchodilators</pair>  
+      <pair id="DDI-DrugBank.d51.s0.p1" e1="DDI-DrugBank.d51.s0.e0" e2="DDI-DrugBank.d51.s0.e2" ddi="false" flags="True" e1_name="ATROVENT" e2_name="methylxanthines" e1_pos="0" e2_pos="14" path="0@@2@@5@@9@@14@@">ATROVENT@@@@nn@@Aerosol@@nsubjpass@@used@@prep_with@@drugs@@prep_including@@methylxanthines</pair>  
+      <pair id="DDI-DrugBank.d51.s0.p2" e1="DDI-DrugBank.d51.s0.e0" e2="DDI-DrugBank.d51.s0.e3" ddi="false" flags="True" e1_name="ATROVENT" e2_name="steroids" e1_pos="0" e2_pos="17" path="0@@2@@5@@9@@17@@">ATROVENT@@@@nn@@Aerosol@@nsubjpass@@used@@prep_with@@drugs@@prep_including@@steroids</pair>  
+      <pair id="DDI-DrugBank.d51.s0.p3" e1="DDI-DrugBank.d51.s0.e1" e2="DDI-DrugBank.d51.s0.e2" ddi="false" flags="True" e1_name="sympathomimetic bronchodilators" e2_name="methylxanthines" e1_pos="12" e2_pos="14" path="12@@14@@">sympathomimetic bronchodilators@@@@conj_and@@methylxanthines</pair>  
+      <pair id="DDI-DrugBank.d51.s0.p4" e1="DDI-DrugBank.d51.s0.e1" e2="DDI-DrugBank.d51.s0.e3" ddi="false" flags="True" e1_name="sympathomimetic bronchodilators" e2_name="steroids" e1_pos="12" e2_pos="17" path="12@@17@@">sympathomimetic bronchodilators@@@@conj_and@@steroids</pair>  
+      <pair id="DDI-DrugBank.d51.s0.p5" e1="DDI-DrugBank.d51.s0.e2" e2="DDI-DrugBank.d51.s0.e3" ddi="false" flags="True" e1_name="methylxanthines" e2_name="steroids" e1_pos="14" e2_pos="17" path="14@@9@@17@@">methylxanthines@@@@prep_including@@drugs@@prep_including@@steroids</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d51.s1" text="With the exception of albuterol, there are no formal studies fully evaluating the interaction effects of ATROVENT Inhalation Aerosol and these drugs with respect to effectiveness." new_text="With@@the@@exception@@of@@albuterol@@,@@there@@are@@no@@formal@@studies@@fully@@evaluating@@the@@interaction@@effects@@of@@ATROVENT@@Inhalation@@Aerosol@@and@@these@@drugs@@with@@respect@@to@@effectiveness@@.@@"> 
+      <entity id="DDI-DrugBank.d51.s1.e0" charOffset="22-30" type="drug" text="albuterol" position="4"/>  
+      <entity id="DDI-DrugBank.d51.s1.e1" charOffset="105-112" type="brand" text="ATROVENT" position="17"/>  
+      <pair id="DDI-DrugBank.d51.s1.p0" e1="DDI-DrugBank.d51.s1.e0" e2="DDI-DrugBank.d51.s1.e1" ddi="false" flags="True" e1_name="albuterol" e2_name="ATROVENT" e1_pos="4" e2_pos="17" path="4@@2@@12@@15@@19@@17@@">albuterol@@@@prep_of@@exception@@prep_with@@evaluating@@nsubj@@effects@@prep_of@@Aerosol@@nn@@ATROVENT</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d51.s2" text="Anticholinergic agents: Although ipratropium bromide is minimally absorbed into the systemic circulation, there is some potential for an additive interaction with concomitantly used anticholinergic medications." new_text="Anticholinergic agents@@:@@Although@@ipratropium bromide@@is@@minimally@@absorbed@@into@@the@@systemic@@circulation@@,@@there@@is@@some@@potential@@for@@an@@additive@@interaction@@with@@concomitantly@@used@@anticholinergic medications@@.@@"> 
+      <entity id="DDI-DrugBank.d51.s2.e0" charOffset="0-21" type="group" text="Anticholinergic agents" position="0"/>  
+      <entity id="DDI-DrugBank.d51.s2.e1" charOffset="33-51" type="drug" text="ipratropium bromide" position="3"/>  
+      <entity id="DDI-DrugBank.d51.s2.e2" charOffset="182-208" type="group" text="anticholinergic medications" position="23"/>  
+      <pair id="DDI-DrugBank.d51.s2.p0" e1="DDI-DrugBank.d51.s2.e0" e2="DDI-DrugBank.d51.s2.e1" ddi="false" flags="True" e1_name="Anticholinergic agents" e2_name="ipratropium bromide" e1_pos="0" e2_pos="3" path="0@@13@@6@@3@@">Anticholinergic agents@@@@dep@@is@@advcl@@absorbed@@nsubjpass@@ipratropium bromide</pair>  
+      <pair id="DDI-DrugBank.d51.s2.p1" e1="DDI-DrugBank.d51.s2.e0" e2="DDI-DrugBank.d51.s2.e2" ddi="false" flags="True" e1_name="Anticholinergic agents" e2_name="anticholinergic medications" e1_pos="0" e2_pos="23" path="0@@13@@15@@19@@23@@">Anticholinergic agents@@@@dep@@is@@nsubj@@potential@@prep_for@@interaction@@prep_with@@anticholinergic medications</pair>  
+      <pair id="DDI-DrugBank.d51.s2.p2" e1="DDI-DrugBank.d51.s2.e1" e2="DDI-DrugBank.d51.s2.e2" ddi="true" type="effect" flags="True" e1_name="ipratropium bromide" e2_name="anticholinergic medications" e1_pos="3" e2_pos="23" path="3@@6@@13@@15@@19@@23@@">ipratropium bromide@@@@nsubjpass@@absorbed@@advcl@@is@@nsubj@@potential@@prep_for@@interaction@@prep_with@@anticholinergic medications</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d51.s3" text="Caution is therefore advised in the coadministration of ATROVENT Inhalation Aerosol with other anticholinergic-containing drugs." new_text="Caution@@is@@therefore@@advised@@in@@the@@coadministration@@of@@ATROVENT@@Inhalation@@Aerosol@@with@@other@@anticholinergic@@-containing@@drugs@@.@@"> 
+      <entity id="DDI-DrugBank.d51.s3.e0" charOffset="56-63" type="brand" text="ATROVENT" position="8"/>  
+      <entity id="DDI-DrugBank.d51.s3.e1" charOffset="95-109" type="group" text="anticholinergic" position="13"/>  
+      <pair id="DDI-DrugBank.d51.s3.p0" e1="DDI-DrugBank.d51.s3.e0" e2="DDI-DrugBank.d51.s3.e1" ddi="true" type="advise" flags="True" e1_name="ATROVENT" e2_name="anticholinergic" e1_pos="8" e2_pos="13" path="8@@10@@15@@13@@">ATROVENT@@@@nn@@Aerosol@@prep_with@@drugs@@amod@@anticholinergic</pair> 
+   </sentence> 
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d206"> 
+   <sentence id="DDI-DrugBank.d206.s0" text="Results of preliminary studies in humans and rats suggest that nonabsorbable antacids given concurrently with lactulose may inhibit the desired lactulose-induced drop in colonic pH." new_text="Results@@of@@preliminary@@studies@@in@@humans@@and@@rats@@suggest@@that@@nonabsorbable@@antacids@@given@@concurrently@@with@@lactulose@@may@@inhibit@@the@@desired@@lactulose@@-induced@@drop@@in@@colonic@@pH@@.@@"> 
+      <entity id="DDI-DrugBank.d206.s0.e0" charOffset="77-84" type="group" text="antacids" position="11"/>  
+      <entity id="DDI-DrugBank.d206.s0.e1" charOffset="110-118" type="drug" text="lactulose" position="15"/>  
+      <entity id="DDI-DrugBank.d206.s0.e2" charOffset="144-152" type="drug" text="lactulose" position="20"/>  
+      <pair id="DDI-DrugBank.d206.s0.p0" e1="DDI-DrugBank.d206.s0.e0" e2="DDI-DrugBank.d206.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="antacids" e2_name="lactulose" e1_pos="11" e2_pos="15" path="11@@12@@15@@">antacids@@@@partmod@@given@@prep_with@@lactulose</pair>  
+      <pair id="DDI-DrugBank.d206.s0.p1" e1="DDI-DrugBank.d206.s0.e0" e2="DDI-DrugBank.d206.s0.e2" ddi="false" flags="True" e1_name="antacids" e2_name="lactulose" e1_pos="11" e2_pos="20" path="11@@17@@22@@20@@">antacids@@@@nsubj@@inhibit@@dobj@@drop@@nn@@lactulose</pair>  
+      <pair id="DDI-DrugBank.d206.s0.p2" e1="DDI-DrugBank.d206.s0.e1" e2="DDI-DrugBank.d206.s0.e2" ddi="false" flags="True" e1_name="lactulose" e2_name="lactulose" e1_pos="15" e2_pos="20" path="15@@12@@11@@17@@22@@20@@">lactulose@@@@prep_with@@given@@partmod@@antacids@@nsubj@@inhibit@@dobj@@drop@@nn@@lactulose</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d206.s1" text="Therefore, a possible lack of desired effect of treatment should be taken into consideration before such drugs are given concomitantly with lactulose." new_text="Therefore@@,@@a@@possible@@lack@@of@@desired@@effect@@of@@treatment@@should@@be@@taken@@into@@consideration@@before@@such@@drugs@@are@@given@@concomitantly@@with@@lactulose@@.@@"> 
+      <entity id="DDI-DrugBank.d206.s1.e0" charOffset="140-148" type="drug" text="lactulose" position="22"/> 
+   </sentence> 
+</document>

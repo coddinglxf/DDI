@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d359"> 
+   <sentence id="DDI-DrugBank.d359.s0" text="PEGANONE used in combination with other drugs known to adversely affect the hematopoietic system should be avoided if possible." new_text="PEGANONE@@used@@in@@combination@@with@@other@@drugs@@known@@to@@adversely@@affect@@the@@hematopoietic@@system@@should@@be@@avoided@@if@@possible@@.@@"> 
+      <entity id="DDI-DrugBank.d359.s0.e0" charOffset="0-7" type="brand" text="PEGANONE" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d359.s1" text="Considerable caution should be exercised if PEGANONE is administered concurrently with Phenurone (phenacemide) since paranoid symptoms have been reported during therapy with this combination." new_text="Considerable@@caution@@should@@be@@exercised@@if@@PEGANONE@@is@@administered@@concurrently@@with@@Phenurone@@(@@phenacemide@@)@@since@@paranoid@@symptoms@@have@@been@@reported@@during@@therapy@@with@@this@@combination@@.@@"> 
+      <entity id="DDI-DrugBank.d359.s1.e0" charOffset="44-51" type="brand" text="PEGANONE" position="6"/>  
+      <entity id="DDI-DrugBank.d359.s1.e1" charOffset="87-95" type="brand" text="Phenurone" position="11"/>  
+      <entity id="DDI-DrugBank.d359.s1.e2" charOffset="98-108" type="drug" text="phenacemide" position="13"/>  
+      <pair id="DDI-DrugBank.d359.s1.p0" e1="DDI-DrugBank.d359.s1.e0" e2="DDI-DrugBank.d359.s1.e1" ddi="true" type="advise" flags="True" e1_name="PEGANONE" e2_name="Phenurone" e1_pos="6" e2_pos="11" path="6@@8@@14@@11@@">PEGANONE@@@@nsubjpass@@administered@@prep_with@@)@@nn@@Phenurone</pair>  
+      <pair id="DDI-DrugBank.d359.s1.p1" e1="DDI-DrugBank.d359.s1.e0" e2="DDI-DrugBank.d359.s1.e2" ddi="true" type="advise" flags="True" e1_name="PEGANONE" e2_name="phenacemide" e1_pos="6" e2_pos="13" path="6@@8@@14@@13@@">PEGANONE@@@@nsubjpass@@administered@@prep_with@@)@@nn@@phenacemide</pair>  
+      <pair id="DDI-DrugBank.d359.s1.p2" e1="DDI-DrugBank.d359.s1.e1" e2="DDI-DrugBank.d359.s1.e2" ddi="false" flags="True" e1_name="Phenurone" e2_name="phenacemide" e1_pos="11" e2_pos="13" path="11@@14@@13@@">Phenurone@@@@nn@@)@@nn@@phenacemide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d359.s2" text="A two-way interaction between the hydantoin antiepileptic, phenytoin, and the coumarin anticoagulants has been suggested." new_text="A@@two-way@@interaction@@between@@the@@hydantoin antiepileptic@@,@@phenytoin@@,@@and@@the@@coumarin anticoagulant@@s@@has@@been@@suggested@@.@@"> 
+      <entity id="DDI-DrugBank.d359.s2.e0" charOffset="34-56" type="group" text="hydantoin antiepileptic" position="5"/>  
+      <entity id="DDI-DrugBank.d359.s2.e1" charOffset="59-67" type="drug" text="phenytoin" position="7"/>  
+      <entity id="DDI-DrugBank.d359.s2.e2" charOffset="78-99" type="group" text="coumarin anticoagulant" position="11"/>  
+      <pair id="DDI-DrugBank.d359.s2.p0" e1="DDI-DrugBank.d359.s2.e0" e2="DDI-DrugBank.d359.s2.e1" ddi="true" type="int" flags="True" e1_name="hydantoin antiepileptic" e2_name="phenytoin" e1_pos="5" e2_pos="7" path="5@@7@@">hydantoin antiepileptic@@@@conj_and@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d359.s2.p1" e1="DDI-DrugBank.d359.s2.e0" e2="DDI-DrugBank.d359.s2.e2" ddi="true" type="int" flags="True" e1_name="hydantoin antiepileptic" e2_name="coumarin anticoagulant" e1_pos="5" e2_pos="11" path="5@@12@@11@@">hydantoin antiepileptic@@@@conj_and@@s@@amod@@coumarin anticoagulant</pair>  
+      <pair id="DDI-DrugBank.d359.s2.p2" e1="DDI-DrugBank.d359.s2.e1" e2="DDI-DrugBank.d359.s2.e2" ddi="false" flags="True" e1_name="phenytoin" e2_name="coumarin anticoagulant" e1_pos="7" e2_pos="11" path="7@@2@@12@@11@@">phenytoin@@@@prep_between@@interaction@@prep_between@@s@@amod@@coumarin anticoagulant</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d359.s3" text="Presumably, phenytoin acts as a stimulator of coumarin metabolism and has been reported to cause decreased serum levels of the coumarin anticoagulants and increased prothrombin-proconvertin concentrations." new_text="Presumably@@,@@phenytoin@@acts@@as@@a@@stimulator@@of@@coumarin@@metabolism@@and@@has@@been@@reported@@to@@cause@@decreased@@serum@@levels@@of@@the@@coumarin anticoagulants@@and@@increased@@prothrombin-proconvertin@@concentrations@@.@@"> 
+      <entity id="DDI-DrugBank.d359.s3.e0" charOffset="12-20" type="drug" text="phenytoin" position="2"/>  
+      <entity id="DDI-DrugBank.d359.s3.e1" charOffset="46-53" type="group" text="coumarin" position="8"/>  
+      <entity id="DDI-DrugBank.d359.s3.e2" charOffset="127-149" type="group" text="coumarin anticoagulants" position="21"/>  
+      <pair id="DDI-DrugBank.d359.s3.p0" e1="DDI-DrugBank.d359.s3.e0" e2="DDI-DrugBank.d359.s3.e1" ddi="true" type="mechanism" flags="True" e1_name="phenytoin" e2_name="coumarin" e1_pos="2" e2_pos="8" path="2@@3@@6@@9@@8@@">phenytoin@@@@nsubj@@acts@@prep_as@@stimulator@@prep_of@@metabolism@@nn@@coumarin</pair>  
+      <pair id="DDI-DrugBank.d359.s3.p1" e1="DDI-DrugBank.d359.s3.e0" e2="DDI-DrugBank.d359.s3.e2" ddi="true" type="mechanism" flags="True" e1_name="phenytoin" e2_name="coumarin anticoagulants" e1_pos="2" e2_pos="21" path="2@@15@@18@@21@@">phenytoin@@@@xsubj@@cause@@dobj@@levels@@prep_of@@coumarin anticoagulants</pair>  
+      <pair id="DDI-DrugBank.d359.s3.p2" e1="DDI-DrugBank.d359.s3.e1" e2="DDI-DrugBank.d359.s3.e2" ddi="false" flags="True" e1_name="coumarin" e2_name="coumarin anticoagulants" e1_pos="8" e2_pos="21" path="8@@9@@6@@3@@2@@15@@18@@21@@">coumarin@@@@nn@@metabolism@@prep_of@@stimulator@@prep_as@@acts@@nsubj@@phenytoin@@xsubj@@cause@@dobj@@levels@@prep_of@@coumarin anticoagulants</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d359.s4" text="Conversely, the coumarin anticoagulants have been reported to increase the serum levels and prolong the serum half-life of phenytoin by inhibiting its metabolism." new_text="Conversely@@,@@the@@coumarin anticoagulants@@have@@been@@reported@@to@@increase@@the@@serum@@levels@@and@@prolong@@the@@serum@@half-life@@of@@phenytoin@@by@@inhibiting@@its@@metabolism@@.@@"> 
+      <entity id="DDI-DrugBank.d359.s4.e0" charOffset="16-38" type="group" text="coumarin anticoagulants" position="3"/>  
+      <entity id="DDI-DrugBank.d359.s4.e1" charOffset="123-131" type="drug" text="phenytoin" position="18"/>  
+      <pair id="DDI-DrugBank.d359.s4.p0" e1="DDI-DrugBank.d359.s4.e0" e2="DDI-DrugBank.d359.s4.e1" ddi="true" type="mechanism" flags="True" e1_name="coumarin anticoagulants" e2_name="phenytoin" e1_pos="3" e2_pos="18" path="3@@6@@13@@16@@18@@">coumarin anticoagulants@@@@nsubjpass@@reported@@xcomp@@prolong@@dobj@@half-life@@prep_of@@phenytoin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d359.s5" text="Although there is no documentation of such, a similar interaction between ethotoin and the coumarin anticoagulants may occur." new_text="Although@@there@@is@@no@@documentation@@of@@such@@,@@a@@similar@@interaction@@between@@ethotoin@@and@@the@@coumarin anticoagulants@@may@@occur@@.@@"> 
+      <entity id="DDI-DrugBank.d359.s5.e0" charOffset="74-81" type="drug" text="ethotoin" position="12"/>  
+      <entity id="DDI-DrugBank.d359.s5.e1" charOffset="91-113" type="group" text="coumarin anticoagulants" position="15"/>  
+      <pair id="DDI-DrugBank.d359.s5.p0" e1="DDI-DrugBank.d359.s5.e0" e2="DDI-DrugBank.d359.s5.e1" ddi="false" flags="True" e1_name="ethotoin" e2_name="coumarin anticoagulants" e1_pos="12" e2_pos="15" path="12@@15@@">ethotoin@@@@conj_and@@coumarin anticoagulants</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d359.s6" text="Caution is therefore advised when administering PEGANONE to patients receiving coumarin anticoagulants." new_text="Caution@@is@@therefore@@advised@@when@@administering@@PEGANONE@@to@@patients@@receiving@@coumarin anticoagulants@@.@@"> 
+      <entity id="DDI-DrugBank.d359.s6.e0" charOffset="48-55" type="brand" text="PEGANONE" position="6"/>  
+      <entity id="DDI-DrugBank.d359.s6.e1" charOffset="79-101" type="group" text="coumarin anticoagulants" position="10"/>  
+      <pair id="DDI-DrugBank.d359.s6.p0" e1="DDI-DrugBank.d359.s6.e0" e2="DDI-DrugBank.d359.s6.e1" ddi="true" type="advise" flags="True" e1_name="PEGANONE" e2_name="coumarin anticoagulants" e1_pos="6" e2_pos="10" path="6@@8@@9@@10@@">PEGANONE@@@@prep_to@@patients@@partmod@@receiving@@dobj@@coumarin anticoagulants</pair> 
+   </sentence> 
+</document>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d114"> 
+   <sentence id="DDI-MedLine.d114.s0" text="Inhibitory effects of ruthenium red on inositol 1,4, 5-trisphosphate-induced responses in rat megakaryocytes.
+" new_text="Inhibitory@@effects@@of@@ruthenium red@@on@@inositol@@1,4@@,@@5-trisphosphate-induced@@responses@@in@@rat@@megakaryocytes@@.@@"> 
+      <entity id="DDI-MedLine.d114.s0.e0" charOffset="22-34" type="drug_n" text="ruthenium red" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d114.s1" text="The effects of ruthenium red (RR) on inositol 1,4,5-trisphosphate (InsP(3))-induced responses were studied in rat bone marrow megakaryocytes with the patch-clamp whole-cell recording technique in combination with fura-2 microfluorometry. " new_text="The@@effects@@of@@ruthenium red@@(@@RR@@)@@on@@inositol 1,4,5-trisphosphate@@(@@InsP(3)@@)-induced@@responses@@were@@studied@@in@@rat@@bone@@marrow@@megakaryocytes@@with@@the@@patch-clamp@@whole-cell@@recording@@technique@@in@@combination@@with@@fura-2@@microfluorometry@@.@@"> 
+      <entity id="DDI-MedLine.d114.s1.e0" charOffset="15-27" type="drug_n" text="ruthenium red" position="3"/>  
+      <entity id="DDI-MedLine.d114.s1.e1" charOffset="30-31" type="drug_n" text="RR" position="5"/>  
+      <entity id="DDI-MedLine.d114.s1.e2" charOffset="37-64" type="drug_n" text="inositol 1,4,5-trisphosphate" position="8"/>  
+      <entity id="DDI-MedLine.d114.s1.e3" charOffset="67-73" type="drug_n" text="InsP(3)" position="10"/>  
+      <pair id="DDI-MedLine.d114.s1.p0" e1="DDI-MedLine.d114.s1.e0" e2="DDI-MedLine.d114.s1.e1" ddi="false" flags="True" e1_name="ruthenium red" e2_name="RR" e1_pos="3" e2_pos="5" path="3@@6@@5@@">ruthenium red@@@@amod@@)@@nn@@RR</pair>  
+      <pair id="DDI-MedLine.d114.s1.p1" e1="DDI-MedLine.d114.s1.e0" e2="DDI-MedLine.d114.s1.e2" ddi="false" flags="True" e1_name="ruthenium red" e2_name="inositol 1,4,5-trisphosphate" e1_pos="3" e2_pos="8" path="3@@6@@12@@8@@">ruthenium red@@@@amod@@)@@prep_on@@responses@@amod@@inositol 1,4,5-trisphosphate</pair>  
+      <pair id="DDI-MedLine.d114.s1.p2" e1="DDI-MedLine.d114.s1.e0" e2="DDI-MedLine.d114.s1.e3" ddi="false" flags="True" e1_name="ruthenium red" e2_name="InsP(3)" e1_pos="3" e2_pos="10" path="3@@6@@12@@11@@10@@">ruthenium red@@@@amod@@)@@prep_on@@responses@@amod@@)-induced@@npadvmod@@InsP(3)</pair>  
+      <pair id="DDI-MedLine.d114.s1.p3" e1="DDI-MedLine.d114.s1.e1" e2="DDI-MedLine.d114.s1.e2" ddi="false" flags="True" e1_name="RR" e2_name="inositol 1,4,5-trisphosphate" e1_pos="5" e2_pos="8" path="5@@6@@12@@8@@">RR@@@@nn@@)@@prep_on@@responses@@amod@@inositol 1,4,5-trisphosphate</pair>  
+      <pair id="DDI-MedLine.d114.s1.p4" e1="DDI-MedLine.d114.s1.e1" e2="DDI-MedLine.d114.s1.e3" ddi="false" flags="True" e1_name="RR" e2_name="InsP(3)" e1_pos="5" e2_pos="10" path="5@@6@@12@@11@@10@@">RR@@@@nn@@)@@prep_on@@responses@@amod@@)-induced@@npadvmod@@InsP(3)</pair>  
+      <pair id="DDI-MedLine.d114.s1.p5" e1="DDI-MedLine.d114.s1.e2" e2="DDI-MedLine.d114.s1.e3" ddi="false" flags="True" e1_name="inositol 1,4,5-trisphosphate" e2_name="InsP(3)" e1_pos="8" e2_pos="10" path="8@@12@@11@@10@@">inositol 1,4,5-trisphosphate@@@@amod@@responses@@amod@@)-induced@@npadvmod@@InsP(3)</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d114.s2" text="Internal application of InsP(3) (100 microM) increased intracellular Ca(2+) concentration ([Ca(2+)](i)) and activated the Ca(2+)-dependent K(+) current. " new_text="Internal@@application@@of@@InsP(3)@@(100@@microM)@@increased@@intracellular@@Ca(2+)@@concentration@@([Ca(2+)](i))@@and@@activated@@the@@Ca(2+)-dependent@@K(+)@@current@@.@@"> 
+      <entity id="DDI-MedLine.d114.s2.e0" charOffset="24-30" type="drug_n" text="InsP(3)" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d114.s3" text="Administering InsP(3) together with RR (100-500 microM) inhibited InsP(3)-induced responses (both Ca(2+) and current responses) in a dose-dependent fashion. " new_text="Administering@@InsP(3)@@together@@with@@RR@@(100-500@@microM)@@inhibited@@InsP(3)-induced@@responses@@(both@@Ca(2+)@@and@@current@@responses)@@in@@a@@dose-dependent@@fashion@@.@@"> 
+      <entity id="DDI-MedLine.d114.s3.e0" charOffset="14-20" type="drug_n" text="InsP(3)" position="1"/>  
+      <entity id="DDI-MedLine.d114.s3.e1" charOffset="36-37" type="drug_n" text="RR" position="4"/>  
+      <pair id="DDI-MedLine.d114.s3.p0" e1="DDI-MedLine.d114.s3.e0" e2="DDI-MedLine.d114.s3.e1" ddi="true" type="effect" flags="True" e1_name="InsP(3)" e2_name="RR" e1_pos="1" e2_pos="4" path="1@@0@@4@@">InsP(3)@@@@dobj@@Administering@@prep_together_with@@RR</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d114.s4" text="Pretreatment of megakaryocytes with extracellular RR (50 microM) also inhibited InsP(3)-induced responses. " new_text="Pretreatment@@of@@megakaryocytes@@with@@extracellular@@RR@@(50@@microM)@@also@@inhibited@@InsP(3)@@-induced@@responses@@.@@"> 
+      <entity id="DDI-MedLine.d114.s4.e0" charOffset="50-51" type="drug_n" text="RR" position="5"/>  
+      <entity id="DDI-MedLine.d114.s4.e1" charOffset="80-86" type="drug_n" text="InsP(3)" position="10"/>  
+      <pair id="DDI-MedLine.d114.s4.p0" e1="DDI-MedLine.d114.s4.e0" e2="DDI-MedLine.d114.s4.e1" ddi="true" type="effect" flags="True" e1_name="RR" e2_name="InsP(3)" e1_pos="5" e2_pos="10" path="5@@7@@2@@0@@9@@12@@10@@">RR@@@@nn@@microM)@@prep_with@@megakaryocytes@@prep_of@@Pretreatment@@nsubj@@inhibited@@dobj@@responses@@amod@@InsP(3)</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d114.s5" text="Intracellular and extracellular application of RR reduced ADP-induced increases in [Ca(2+)](i). " new_text="Intracellular@@and@@extracellular@@application@@of@@RR@@reduced@@ADP-induced@@increases@@in@@[Ca(2+)](i)@@.@@"> 
+      <entity id="DDI-MedLine.d114.s5.e0" charOffset="47-48" type="drug_n" text="RR" position="5"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d114.s6" text="In contrast, in isolated single pancreatic acinar cells, RR had no effect on InsP(3)-induced responses. " new_text="In@@contrast@@,@@in@@isolated@@single@@pancreatic@@acinar@@cells@@,@@RR@@had@@no@@effect@@on@@InsP(3)@@-induced@@responses@@.@@"> 
+      <entity id="DDI-MedLine.d114.s6.e0" charOffset="57-58" type="drug_n" text="RR" position="10"/>  
+      <entity id="DDI-MedLine.d114.s6.e1" charOffset="77-83" type="drug_n" text="InsP(3)" position="15"/>  
+      <pair id="DDI-MedLine.d114.s6.p0" e1="DDI-MedLine.d114.s6.e0" e2="DDI-MedLine.d114.s6.e1" ddi="false" flags="True" e1_name="RR" e2_name="InsP(3)" e1_pos="10" e2_pos="15" path="10@@11@@13@@17@@15@@">RR@@@@nsubj@@had@@dobj@@effect@@prep_on@@responses@@amod@@InsP(3)</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d114.s7" text="Taken together, these results suggest that the site of the inhibitory action of RR is at the InsP(3) receptor, or its closely associated proteins. " new_text="Taken@@together@@,@@these@@results@@suggest@@that@@the@@site@@of@@the@@inhibitory@@action@@of@@RR@@is@@at@@the@@InsP(3)@@receptor@@,@@or@@its@@closely@@associated@@proteins@@.@@"> 
+      <entity id="DDI-MedLine.d114.s7.e0" charOffset="80-81" type="drug_n" text="RR" position="14"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d114.s8" text="In addition, we have shown that RR is a useful pharmacological tool with which to examine the InsP(3)-mediated responses of megakaryocytes." new_text="In@@addition@@,@@we@@have@@shown@@that@@RR@@is@@a@@useful@@pharmacological@@tool@@with@@which@@to@@examine@@the@@InsP(3)@@-mediated@@responses@@of@@megakaryocytes@@.@@"> 
+      <entity id="DDI-MedLine.d114.s8.e0" charOffset="32-33" type="drug_n" text="RR" position="7"/>  
+      <entity id="DDI-MedLine.d114.s8.e1" charOffset="94-100" type="drug_n" text="InsP(3)" position="18"/>  
+      <pair id="DDI-MedLine.d114.s8.p0" e1="DDI-MedLine.d114.s8.e0" e2="DDI-MedLine.d114.s8.e1" ddi="false" flags="True" e1_name="RR" e2_name="InsP(3)" e1_pos="7" e2_pos="18" path="7@@12@@16@@20@@18@@">RR@@@@nsubj@@tool@@prepc_with@@examine@@dobj@@responses@@amod@@InsP(3)</pair> 
+   </sentence> 
+</document>

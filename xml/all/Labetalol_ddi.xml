@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d412"> 
+   <sentence id="DDI-DrugBank.d412.s0" text="In one survey, 2.3% of patients taking labetalol HCl in combination with tricyclic antidepressants experienced tremor, as compared to 0.7% reported to occur with labetalol HCl alone." new_text="In@@one@@survey@@,@@2.3%@@of@@patients@@taking@@labetalol HCl@@in@@combination@@with@@tricyclic antidepressants@@experienced@@tremor@@,@@as@@compared@@to@@0.7%@@reported@@to@@occur@@with@@labetalol HCl@@alone@@.@@"> 
+      <entity id="DDI-DrugBank.d412.s0.e0" charOffset="39-51" type="drug" text="labetalol HCl" position="8"/>  
+      <entity id="DDI-DrugBank.d412.s0.e1" charOffset="73-97" type="group" text="tricyclic antidepressants" position="12"/>  
+      <entity id="DDI-DrugBank.d412.s0.e2" charOffset="162-174" type="drug" text="labetalol HCl" position="24"/>  
+      <pair id="DDI-DrugBank.d412.s0.p0" e1="DDI-DrugBank.d412.s0.e0" e2="DDI-DrugBank.d412.s0.e1" ddi="true" type="effect" flags="True" e1_name="labetalol HCl" e2_name="tricyclic antidepressants" e1_pos="8" e2_pos="12" path="8@@7@@14@@12@@">labetalol HCl@@@@dobj@@taking@@prep_with@@tremor@@amod@@tricyclic antidepressants</pair>  
+      <pair id="DDI-DrugBank.d412.s0.p1" e1="DDI-DrugBank.d412.s0.e0" e2="DDI-DrugBank.d412.s0.e2" ddi="false" flags="True" e1_name="labetalol HCl" e2_name="labetalol HCl" e1_pos="8" e2_pos="24" path="8@@7@@6@@4@@22@@24@@">labetalol HCl@@@@dobj@@taking@@partmod@@patients@@prep_of@@2.3%@@xsubj@@occur@@prep_with@@labetalol HCl</pair>  
+      <pair id="DDI-DrugBank.d412.s0.p2" e1="DDI-DrugBank.d412.s0.e1" e2="DDI-DrugBank.d412.s0.e2" ddi="false" flags="True" e1_name="tricyclic antidepressants" e2_name="labetalol HCl" e1_pos="12" e2_pos="24" path="12@@14@@7@@6@@4@@22@@24@@">tricyclic antidepressants@@@@amod@@tremor@@prep_with@@taking@@partmod@@patients@@prep_of@@2.3%@@xsubj@@occur@@prep_with@@labetalol HCl</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d412.s1" text="The contribution of each of the treatments to this adverse reaction is unknown but the possibility of a drug interaction cannot be excluded." new_text="The@@contribution@@of@@each@@of@@the@@treatments@@to@@this@@adverse@@reaction@@is@@unknown@@but@@the@@possibility@@of@@a@@drug@@interaction@@cannot@@be@@excluded@@.@@"/>  
+   <sentence id="DDI-DrugBank.d412.s2" text="Drugs possessing beta-blocking properties can blunt the bronchodilator effect of beta-receptor agonist drugs in patients with bronchospasm;" new_text="Drugs@@possessing@@beta-blocking@@properties@@can@@blunt@@the@@bronchodilator@@effect@@of@@beta-receptor agonist drugs@@in@@patients@@with@@bronchospasm;@@"> 
+      <entity id="DDI-DrugBank.d412.s2.e0" charOffset="81-107" type="group" text="beta-receptor agonist drugs" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d412.s3" text="therefore, doses greater than the normal antiasthmatic dose of beta-agonist bronchodilator drugs may be required." new_text="therefore@@,@@doses@@greater@@than@@the@@normal@@antiasthmatic@@dose@@of@@beta-agonist bronchodilator drugs@@may@@be@@required@@.@@"> 
+      <entity id="DDI-DrugBank.d412.s3.e0" charOffset="63-95" type="group" text="beta-agonist bronchodilator drugs" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d412.s4" text="Cimetidine has been shown to increase the bioavailability of labetalol HCl." new_text="Cimetidine@@has@@been@@shown@@to@@increase@@the@@bioavailability@@of@@labetalol HCl@@.@@"> 
+      <entity id="DDI-DrugBank.d412.s4.e0" charOffset="0-9" type="drug" text="Cimetidine" position="0"/>  
+      <entity id="DDI-DrugBank.d412.s4.e1" charOffset="61-73" type="drug" text="labetalol HCl" position="9"/>  
+      <pair id="DDI-DrugBank.d412.s4.p0" e1="DDI-DrugBank.d412.s4.e0" e2="DDI-DrugBank.d412.s4.e1" ddi="true" type="mechanism" flags="True" e1_name="Cimetidine" e2_name="labetalol HCl" e1_pos="0" e2_pos="9" path="0@@5@@7@@9@@">Cimetidine@@@@xsubj@@increase@@dobj@@bioavailability@@prep_of@@labetalol HCl</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d412.s5" text="Since this could be explained either by enhanced absorption or by an alteration of hepatic metabolism of labetalol HCl, special care should be used in establishing the dose required for blood pressure control in such patients." new_text="Since@@this@@could@@be@@explained@@either@@by@@enhanced@@absorption@@or@@by@@an@@alteration@@of@@hepatic@@metabolism@@of@@labetalol HCl@@,@@special@@care@@should@@be@@used@@in@@establishing@@the@@dose@@required@@for@@blood@@pressure@@control@@in@@such@@patients@@.@@"> 
+      <entity id="DDI-DrugBank.d412.s5.e0" charOffset="105-117" type="drug" text="labetalol HCl" position="17"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d412.s6" text="Synergism has been shown between halothane anesthesia and intravenously administered labetalol HCl." new_text="Synergism@@has@@been@@shown@@between@@halothane@@anesthesia@@and@@intravenously@@administered@@labetalol HCl@@.@@"> 
+      <entity id="DDI-DrugBank.d412.s6.e0" charOffset="33-41" type="drug" text="halothane" position="5"/>  
+      <entity id="DDI-DrugBank.d412.s6.e1" charOffset="85-97" type="drug" text="labetalol HCl" position="10"/>  
+      <pair id="DDI-DrugBank.d412.s6.p0" e1="DDI-DrugBank.d412.s6.e0" e2="DDI-DrugBank.d412.s6.e1" ddi="true" type="effect" flags="True" e1_name="halothane" e2_name="labetalol HCl" e1_pos="5" e2_pos="10" path="5@@6@@10@@">halothane@@@@amod@@anesthesia@@conj_and@@labetalol HCl</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d412.s7" text="During controlled hypotensive anesthesia using labetalol HCl in association with halothane, high concentrations (3% or above) of halothane should not be used because the degree of hypotension will be increased and because of the possibility of a large reduction in cardiac output and an increase in central venous pressure." new_text="During@@controlled@@hypotensive@@anesthesia@@using@@labetalol HCl@@in@@association@@with@@halothane@@,@@high@@concentrations@@(3%@@or@@above)@@of@@halothane@@should@@not@@be@@used@@because@@the@@degree@@of@@hypotension@@will@@be@@increased@@and@@because@@of@@the@@possibility@@of@@a@@large@@reduction@@in@@cardiac@@output@@and@@an@@increase@@in@@central@@venous@@pressure@@.@@"> 
+      <entity id="DDI-DrugBank.d412.s7.e0" charOffset="47-59" type="drug" text="labetalol HCl" position="5"/>  
+      <entity id="DDI-DrugBank.d412.s7.e1" charOffset="81-89" type="drug" text="halothane" position="9"/>  
+      <entity id="DDI-DrugBank.d412.s7.e2" charOffset="129-137" type="drug" text="halothane" position="17"/>  
+      <pair id="DDI-DrugBank.d412.s7.p0" e1="DDI-DrugBank.d412.s7.e0" e2="DDI-DrugBank.d412.s7.e1" ddi="true" type="effect" flags="True" e1_name="labetalol HCl" e2_name="halothane" e1_pos="5" e2_pos="9" path="5@@4@@7@@12@@9@@">labetalol HCl@@@@dobj@@using@@prep_in@@association@@prep_with@@concentrations@@amod@@halothane</pair>  
+      <pair id="DDI-DrugBank.d412.s7.p1" e1="DDI-DrugBank.d412.s7.e0" e2="DDI-DrugBank.d412.s7.e2" ddi="false" flags="True" e1_name="labetalol HCl" e2_name="halothane" e1_pos="5" e2_pos="17" path="5@@4@@21@@13@@17@@">labetalol HCl@@@@dobj@@using@@prepc_during@@used@@nsubjpass@@(3%@@prep_of@@halothane</pair>  
+      <pair id="DDI-DrugBank.d412.s7.p2" e1="DDI-DrugBank.d412.s7.e1" e2="DDI-DrugBank.d412.s7.e2" ddi="false" flags="True" e1_name="halothane" e2_name="halothane" e1_pos="9" e2_pos="17" path="9@@12@@7@@4@@21@@13@@17@@">halothane@@@@amod@@concentrations@@prep_with@@association@@prep_in@@using@@prepc_during@@used@@nsubjpass@@(3%@@prep_of@@halothane</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d412.s8" text="The anesthesiologist should be informed when a patient is receiving labetalol HCl." new_text="The@@anesthesiologist@@should@@be@@informed@@when@@a@@patient@@is@@receiving@@labetalol HCl@@.@@"> 
+      <entity id="DDI-DrugBank.d412.s8.e0" charOffset="68-80" type="drug" text="labetalol HCl" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d412.s9" text="Labetalol HCl blunts the reflex tachycardia produced by nitroglycerin without preventing its hypotensive effect." new_text="Labetalol HCl@@blunts@@the@@reflex@@tachycardia@@produced@@by@@nitroglycerin@@without@@preventing@@its@@hypotensive@@effect@@.@@"> 
+      <entity id="DDI-DrugBank.d412.s9.e0" charOffset="0-12" type="drug" text="Labetalol HCl" position="0"/>  
+      <entity id="DDI-DrugBank.d412.s9.e1" charOffset="56-68" type="drug" text="nitroglycerin" position="7"/>  
+      <pair id="DDI-DrugBank.d412.s9.p0" e1="DDI-DrugBank.d412.s9.e0" e2="DDI-DrugBank.d412.s9.e1" ddi="true" type="effect" flags="True" e1_name="Labetalol HCl" e2_name="nitroglycerin" e1_pos="0" e2_pos="7" path="0@@1@@4@@5@@7@@">Labetalol HCl@@@@nsubj@@blunts@@dobj@@tachycardia@@partmod@@produced@@agent@@nitroglycerin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d412.s10" text="If labetalol HCl is used with nitroglycerin in patients with angina pectoris, additional antihypertensive effects may occur." new_text="If@@labetalol HCl@@is@@used@@with@@nitroglycerin@@in@@patients@@with@@angina@@pectoris@@,@@additional@@antihypertensive@@effects@@may@@occur@@.@@"> 
+      <entity id="DDI-DrugBank.d412.s10.e0" charOffset="3-15" type="drug" text="labetalol HCl" position="1"/>  
+      <entity id="DDI-DrugBank.d412.s10.e1" charOffset="30-42" type="drug" text="nitroglycerin" position="5"/>  
+      <pair id="DDI-DrugBank.d412.s10.p0" e1="DDI-DrugBank.d412.s10.e0" e2="DDI-DrugBank.d412.s10.e1" ddi="true" type="effect" flags="True" e1_name="labetalol HCl" e2_name="nitroglycerin" e1_pos="1" e2_pos="5" path="1@@3@@5@@">labetalol HCl@@@@nsubjpass@@used@@prep_with@@nitroglycerin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d412.s11" text="Care should be taken if labetalol is used concomitantly with calcium antagonists of the verapamil type." new_text="Care@@should@@be@@taken@@if@@labetalol@@is@@used@@concomitantly@@with@@calcium antagonist@@s@@of@@the@@verapamil@@type@@.@@"> 
+      <entity id="DDI-DrugBank.d412.s11.e0" charOffset="24-32" type="drug" text="labetalol" position="5"/>  
+      <entity id="DDI-DrugBank.d412.s11.e1" charOffset="61-78" type="group" text="calcium antagonist" position="10"/>  
+      <entity id="DDI-DrugBank.d412.s11.e2" charOffset="88-96" type="drug" text="verapamil" position="14"/>  
+      <pair id="DDI-DrugBank.d412.s11.p0" e1="DDI-DrugBank.d412.s11.e0" e2="DDI-DrugBank.d412.s11.e1" ddi="true" type="advise" flags="True" e1_name="labetalol" e2_name="calcium antagonist" e1_pos="5" e2_pos="10" path="5@@7@@11@@10@@">labetalol@@@@nsubjpass@@used@@prep_with@@s@@amod@@calcium antagonist</pair>  
+      <pair id="DDI-DrugBank.d412.s11.p1" e1="DDI-DrugBank.d412.s11.e0" e2="DDI-DrugBank.d412.s11.e2" ddi="false" flags="True" e1_name="labetalol" e2_name="verapamil" e1_pos="5" e2_pos="14" path="5@@7@@11@@15@@14@@">labetalol@@@@nsubjpass@@used@@prep_with@@s@@prep_of@@type@@amod@@verapamil</pair>  
+      <pair id="DDI-DrugBank.d412.s11.p2" e1="DDI-DrugBank.d412.s11.e1" e2="DDI-DrugBank.d412.s11.e2" ddi="false" flags="True" e1_name="calcium antagonist" e2_name="verapamil" e1_pos="10" e2_pos="14" path="10@@11@@15@@14@@">calcium antagonist@@@@amod@@s@@prep_of@@type@@amod@@verapamil</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d412.s12" text="Risk of Anaphylactic Reaction While taking beta-blockers, patients with a history of severe anaphylactic reaction to a variety of allergens may be more reactive to repeated challenge, either accidental, diagnostic, or therapeutic." new_text="Risk@@of@@Anaphylactic@@Reaction@@While@@taking@@beta-blockers@@,@@patients@@with@@a@@history@@of@@severe@@anaphylactic@@reaction@@to@@a@@variety@@of@@allergens@@may@@be@@more@@reactive@@to@@repeated@@challenge@@,@@either@@accidental@@,@@diagnostic@@,@@or@@therapeutic@@.@@"> 
+      <entity id="DDI-DrugBank.d412.s12.e0" charOffset="43-55" type="group" text="beta-blockers" position="6"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d412.s13" text="Such patients may be unresponsive to the usual doses of epinephrine used to treat allergic reaction." new_text="Such@@patients@@may@@be@@unresponsive@@to@@the@@usual@@doses@@of@@epinephrine@@used@@to@@treat@@allergic@@reaction@@.@@"> 
+      <entity id="DDI-DrugBank.d412.s13.e0" charOffset="56-66" type="drug" text="epinephrine" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d412.s14" text="Drug/Laboratory Test Interactions The presence of labetalol metabolites in the urine may result in falsely elevated levels of urinary catecholamines, metanephrine, normetanephrine and vanillylmandelic acid when measured by fluorimetric or photometric methods." new_text="Drug/Laboratory@@Test@@Interactions@@The@@presence@@of@@labetalol@@metabolites@@in@@the@@urine@@may@@result@@in@@falsely@@elevated@@levels@@of@@urinary@@catecholamines@@,@@metanephrine@@,@@normetanephrine@@and@@vanillylmandelic@@acid@@when@@measured@@by@@fluorimetric@@or@@photometric@@methods@@.@@"/>  
+   <sentence id="DDI-DrugBank.d412.s15" text="In screening patients suspected of having a pheochromocytoma and being treated with labetalol HCl, a specific method, such as a high performance liquid chromatographic assay with solid phase extraction (e.g., J Chromatogr 385:241,1987) should be employed in determining levels of catecholamines." new_text="In@@screening@@patients@@suspected@@of@@having@@a@@pheochromocytoma@@and@@being@@treated@@with@@labetalol HCl@@,@@a@@specific@@method@@,@@such@@as@@a@@high@@performance@@liquid@@chromatographic@@assay@@with@@solid@@phase@@extraction@@(e.g.@@,@@J@@Chromatogr@@385:241,1987)@@should@@be@@employed@@in@@determining@@levels@@of@@catecholamines@@.@@"> 
+      <entity id="DDI-DrugBank.d412.s15.e0" charOffset="84-96" type="drug" text="labetalol HCl" position="12"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d412.s16" text="Labetalol HCl has also been reported to produce a false positive test for amphetamine when screening urine for the presence of drugs using the commercially available assay methods Toxi-Lab A  (thin-layer chromatographic assay) and Emit-d.a.u.  (radioenzymatic assay)." new_text="Labetalol HCl@@has@@also@@been@@reported@@to@@produce@@a@@false@@positive@@test@@for@@amphetamine@@when@@screening@@urine@@for@@the@@presence@@of@@drugs@@using@@the@@commercially@@available@@assay@@methods@@Toxi-Lab@@A@@@@(thin-layer@@chromatographic@@assay)@@and@@Emit-d.a.u@@.@@@@(radioenzymatic@@assay)@@.@@"> 
+      <entity id="DDI-DrugBank.d412.s16.e0" charOffset="0-12" type="drug" text="Labetalol HCl" position="0"/>  
+      <entity id="DDI-DrugBank.d412.s16.e1" charOffset="74-84" type="drug" text="amphetamine" position="12"/>  
+      <pair id="DDI-DrugBank.d412.s16.p0" e1="DDI-DrugBank.d412.s16.e0" e2="DDI-DrugBank.d412.s16.e1" ddi="false" flags="True" e1_name="Labetalol HCl" e2_name="amphetamine" e1_pos="0" e2_pos="12" path="0@@6@@12@@">Labetalol HCl@@@@xsubj@@produce@@prep_for@@amphetamine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d412.s17" text="When patients being treated with labetalol have a positive urine test for amphetamine using these techniques confirmation should be made by using more specific methods such as a gas chromatographic-mass spectrometer technique." new_text="When@@patients@@being@@treated@@with@@labetalol@@have@@a@@positive@@urine@@test@@for@@amphetamine@@using@@these@@techniques@@confirmation@@should@@be@@made@@by@@using@@more@@specific@@methods@@such@@as@@a@@gas@@chromatographic-mass@@spectrometer@@technique@@.@@"> 
+      <entity id="DDI-DrugBank.d412.s17.e0" charOffset="33-41" type="drug" text="labetalol" position="5"/>  
+      <entity id="DDI-DrugBank.d412.s17.e1" charOffset="74-84" type="drug" text="amphetamine" position="12"/>  
+      <pair id="DDI-DrugBank.d412.s17.p0" e1="DDI-DrugBank.d412.s17.e0" e2="DDI-DrugBank.d412.s17.e1" ddi="false" flags="True" e1_name="labetalol" e2_name="amphetamine" e1_pos="5" e2_pos="12" path="5@@3@@1@@6@@10@@12@@">labetalol@@@@prep_with@@treated@@partmod@@patients@@nsubj@@have@@dobj@@test@@prep_for@@amphetamine</pair> 
+   </sentence> 
+</document>

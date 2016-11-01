@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d303"> 
+   <sentence id="DDI-DrugBank.d303.s0" text="Metformin: In healthy subjects given single 500 mg doses of cephalexin and metformin, plasma metformin mean cmax and AUC increased by an average of 34% and 24%, respectively, and metformin mean renal clearance decreased by 14%." new_text="Metformin@@:@@In@@healthy@@subjects@@given@@single@@500@@mg@@doses@@of@@cephalexin@@and@@metformin@@,@@plasma@@metformin@@mean@@cmax@@and@@AUC@@increased@@by@@an@@average@@of@@34%@@and@@24%@@,@@respectively@@,@@and@@metformin@@mean@@renal@@clearance@@decreased@@by@@14%@@.@@"> 
+      <entity id="DDI-DrugBank.d303.s0.e0" charOffset="0-8" type="drug" text="Metformin" position="0"/>  
+      <entity id="DDI-DrugBank.d303.s0.e1" charOffset="60-69" type="drug" text="cephalexin" position="11"/>  
+      <entity id="DDI-DrugBank.d303.s0.e2" charOffset="75-83" type="drug" text="metformin" position="13"/>  
+      <entity id="DDI-DrugBank.d303.s0.e3" charOffset="93-101" type="drug" text="metformin" position="16"/>  
+      <entity id="DDI-DrugBank.d303.s0.e4" charOffset="179-187" type="drug" text="metformin" position="33"/>  
+      <pair id="DDI-DrugBank.d303.s0.p0" e1="DDI-DrugBank.d303.s0.e0" e2="DDI-DrugBank.d303.s0.e1" ddi="false" flags="True" e1_name="Metformin" e2_name="cephalexin" e1_pos="0" e2_pos="11" path="0@@17@@5@@9@@11@@">Metformin@@@@dep@@mean@@prep@@given@@dep@@doses@@prep_of@@cephalexin</pair>  
+      <pair id="DDI-DrugBank.d303.s0.p1" e1="DDI-DrugBank.d303.s0.e0" e2="DDI-DrugBank.d303.s0.e2" ddi="false" flags="True" e1_name="Metformin" e2_name="metformin" e1_pos="0" e2_pos="13" path="0@@17@@5@@9@@13@@">Metformin@@@@dep@@mean@@prep@@given@@dep@@doses@@prep_of@@metformin</pair>  
+      <pair id="DDI-DrugBank.d303.s0.p2" e1="DDI-DrugBank.d303.s0.e0" e2="DDI-DrugBank.d303.s0.e3" ddi="false" flags="True" e1_name="Metformin" e2_name="metformin" e1_pos="0" e2_pos="16" path="0@@17@@16@@">Metformin@@@@dep@@mean@@nsubj@@metformin</pair>  
+      <pair id="DDI-DrugBank.d303.s0.p3" e1="DDI-DrugBank.d303.s0.e0" e2="DDI-DrugBank.d303.s0.e4" ddi="false" flags="True" e1_name="Metformin" e2_name="metformin" e1_pos="0" e2_pos="33" path="0@@34@@33@@">Metformin@@@@dep@@mean@@nsubj@@metformin</pair>  
+      <pair id="DDI-DrugBank.d303.s0.p4" e1="DDI-DrugBank.d303.s0.e1" e2="DDI-DrugBank.d303.s0.e2" ddi="true" type="mechanism" flags="True" e1_name="cephalexin" e2_name="metformin" e1_pos="11" e2_pos="13" path="11@@13@@">cephalexin@@@@conj_and@@metformin</pair>  
+      <pair id="DDI-DrugBank.d303.s0.p5" e1="DDI-DrugBank.d303.s0.e1" e2="DDI-DrugBank.d303.s0.e3" ddi="false" flags="True" e1_name="cephalexin" e2_name="metformin" e1_pos="11" e2_pos="16" path="11@@9@@5@@17@@16@@">cephalexin@@@@prep_of@@doses@@dep@@given@@prep@@mean@@nsubj@@metformin</pair>  
+      <pair id="DDI-DrugBank.d303.s0.p6" e1="DDI-DrugBank.d303.s0.e1" e2="DDI-DrugBank.d303.s0.e4" ddi="false" flags="True" e1_name="cephalexin" e2_name="metformin" e1_pos="11" e2_pos="33" path="11@@9@@5@@17@@34@@33@@">cephalexin@@@@prep_of@@doses@@dep@@given@@prep@@mean@@conj_and@@mean@@nsubj@@metformin</pair>  
+      <pair id="DDI-DrugBank.d303.s0.p7" e1="DDI-DrugBank.d303.s0.e2" e2="DDI-DrugBank.d303.s0.e3" ddi="false" flags="True" e1_name="metformin" e2_name="metformin" e1_pos="13" e2_pos="16" path="13@@9@@5@@17@@16@@">metformin@@@@prep_of@@doses@@dep@@given@@prep@@mean@@nsubj@@metformin</pair>  
+      <pair id="DDI-DrugBank.d303.s0.p8" e1="DDI-DrugBank.d303.s0.e2" e2="DDI-DrugBank.d303.s0.e4" ddi="false" flags="True" e1_name="metformin" e2_name="metformin" e1_pos="13" e2_pos="33" path="13@@9@@5@@17@@34@@33@@">metformin@@@@prep_of@@doses@@dep@@given@@prep@@mean@@conj_and@@mean@@nsubj@@metformin</pair>  
+      <pair id="DDI-DrugBank.d303.s0.p9" e1="DDI-DrugBank.d303.s0.e3" e2="DDI-DrugBank.d303.s0.e4" ddi="false" flags="True" e1_name="metformin" e2_name="metformin" e1_pos="16" e2_pos="33" path="16@@17@@34@@33@@">metformin@@@@nsubj@@mean@@conj_and@@mean@@nsubj@@metformin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d303.s1" text="No information is available about the interaction of cephalexin and metformin following multiple doses of either drug." new_text="No@@information@@is@@available@@about@@the@@interaction@@of@@cephalexin@@and@@metformin@@following@@multiple@@doses@@of@@either@@drug@@.@@"> 
+      <entity id="DDI-DrugBank.d303.s1.e0" charOffset="53-62" type="drug" text="cephalexin" position="8"/>  
+      <entity id="DDI-DrugBank.d303.s1.e1" charOffset="68-76" type="drug" text="metformin" position="10"/>  
+      <pair id="DDI-DrugBank.d303.s1.p0" e1="DDI-DrugBank.d303.s1.e0" e2="DDI-DrugBank.d303.s1.e1" ddi="false" flags="True" e1_name="cephalexin" e2_name="metformin" e1_pos="8" e2_pos="10" path="8@@10@@">cephalexin@@@@conj_and@@metformin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d303.s2" text="Although not observed in this study, adverse effects could potentially arise from co-administration of cephalexin and metformin by inhibition of tubular secretion via organic cationic transporter systems." new_text="Although@@not@@observed@@in@@this@@study@@,@@adverse@@effects@@could@@potentially@@arise@@from@@co-administration@@of@@cephalexin@@and@@metformin@@by@@inhibition@@of@@tubular@@secretion@@via@@organic@@cationic@@transporter@@systems@@.@@"> 
+      <entity id="DDI-DrugBank.d303.s2.e0" charOffset="103-112" type="drug" text="cephalexin" position="15"/>  
+      <entity id="DDI-DrugBank.d303.s2.e1" charOffset="118-126" type="drug" text="metformin" position="17"/>  
+      <pair id="DDI-DrugBank.d303.s2.p0" e1="DDI-DrugBank.d303.s2.e0" e2="DDI-DrugBank.d303.s2.e1" ddi="true" type="mechanism" flags="True" e1_name="cephalexin" e2_name="metformin" e1_pos="15" e2_pos="17" path="15@@17@@">cephalexin@@@@conj_and@@metformin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d303.s3" text="Accordingly, careful patient monitoring and dose adjustment of metformin is recommended in patients concomitantly taking cephalexin and metformin." new_text="Accordingly@@,@@careful@@patient@@monitoring@@and@@dose@@adjustment@@of@@metformin@@is@@recommended@@in@@patients@@concomitantly@@taking@@cephalexin@@and@@metformin@@.@@"> 
+      <entity id="DDI-DrugBank.d303.s3.e0" charOffset="63-71" type="drug" text="metformin" position="9"/>  
+      <entity id="DDI-DrugBank.d303.s3.e1" charOffset="121-130" type="drug" text="cephalexin" position="16"/>  
+      <entity id="DDI-DrugBank.d303.s3.e2" charOffset="136-144" type="drug" text="metformin" position="18"/>  
+      <pair id="DDI-DrugBank.d303.s3.p0" e1="DDI-DrugBank.d303.s3.e0" e2="DDI-DrugBank.d303.s3.e1" ddi="false" flags="True" e1_name="metformin" e2_name="cephalexin" e1_pos="9" e2_pos="16" path="9@@4@@11@@13@@15@@16@@">metformin@@@@prep_of@@monitoring@@nsubjpass@@recommended@@prep_in@@patients@@partmod@@taking@@dobj@@cephalexin</pair>  
+      <pair id="DDI-DrugBank.d303.s3.p1" e1="DDI-DrugBank.d303.s3.e0" e2="DDI-DrugBank.d303.s3.e2" ddi="false" flags="True" e1_name="metformin" e2_name="metformin" e1_pos="9" e2_pos="18" path="9@@4@@11@@13@@15@@18@@">metformin@@@@prep_of@@monitoring@@nsubjpass@@recommended@@prep_in@@patients@@partmod@@taking@@dobj@@metformin</pair>  
+      <pair id="DDI-DrugBank.d303.s3.p2" e1="DDI-DrugBank.d303.s3.e1" e2="DDI-DrugBank.d303.s3.e2" ddi="true" type="advise" flags="True" e1_name="cephalexin" e2_name="metformin" e1_pos="16" e2_pos="18" path="16@@18@@">cephalexin@@@@conj_and@@metformin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d303.s4" text="Probenecid: As with other b-lactams, the renal excretion of cephalexin is inhibited by probenecid." new_text="Probenecid@@:@@As@@with@@other@@b-lactams@@,@@the@@renal@@excretion@@of@@cephalexin@@is@@inhibited@@by@@probenecid@@.@@"> 
+      <entity id="DDI-DrugBank.d303.s4.e0" charOffset="0-9" type="drug" text="Probenecid" position="0"/>  
+      <entity id="DDI-DrugBank.d303.s4.e1" charOffset="26-34" type="group" text="b-lactams" position="5"/>  
+      <entity id="DDI-DrugBank.d303.s4.e2" charOffset="60-69" type="drug" text="cephalexin" position="11"/>  
+      <entity id="DDI-DrugBank.d303.s4.e3" charOffset="87-96" type="drug" text="probenecid" position="15"/>  
+      <pair id="DDI-DrugBank.d303.s4.p0" e1="DDI-DrugBank.d303.s4.e0" e2="DDI-DrugBank.d303.s4.e1" ddi="false" flags="True" e1_name="Probenecid" e2_name="b-lactams" e1_pos="0" e2_pos="5" path="0@@13@@2@@3@@5@@">Probenecid@@@@dep@@inhibited@@prep@@As@@pcomp@@with@@pobj@@b-lactams</pair>  
+      <pair id="DDI-DrugBank.d303.s4.p1" e1="DDI-DrugBank.d303.s4.e0" e2="DDI-DrugBank.d303.s4.e2" ddi="false" flags="True" e1_name="Probenecid" e2_name="cephalexin" e1_pos="0" e2_pos="11" path="0@@13@@9@@11@@">Probenecid@@@@dep@@inhibited@@nsubj@@excretion@@prep_of@@cephalexin</pair>  
+      <pair id="DDI-DrugBank.d303.s4.p2" e1="DDI-DrugBank.d303.s4.e0" e2="DDI-DrugBank.d303.s4.e3" ddi="false" flags="True" e1_name="Probenecid" e2_name="probenecid" e1_pos="0" e2_pos="15" path="0@@13@@15@@">Probenecid@@@@dep@@inhibited@@prep_by@@probenecid</pair>  
+      <pair id="DDI-DrugBank.d303.s4.p3" e1="DDI-DrugBank.d303.s4.e1" e2="DDI-DrugBank.d303.s4.e2" ddi="false" flags="True" e1_name="b-lactams" e2_name="cephalexin" e1_pos="5" e2_pos="11" path="5@@3@@2@@13@@9@@11@@">b-lactams@@@@pobj@@with@@pcomp@@As@@prep@@inhibited@@nsubj@@excretion@@prep_of@@cephalexin</pair>  
+      <pair id="DDI-DrugBank.d303.s4.p4" e1="DDI-DrugBank.d303.s4.e1" e2="DDI-DrugBank.d303.s4.e3" ddi="false" flags="True" e1_name="b-lactams" e2_name="probenecid" e1_pos="5" e2_pos="15" path="5@@3@@2@@13@@15@@">b-lactams@@@@pobj@@with@@pcomp@@As@@prep@@inhibited@@prep_by@@probenecid</pair>  
+      <pair id="DDI-DrugBank.d303.s4.p5" e1="DDI-DrugBank.d303.s4.e2" e2="DDI-DrugBank.d303.s4.e3" ddi="true" type="mechanism" flags="True" e1_name="cephalexin" e2_name="probenecid" e1_pos="11" e2_pos="15" path="11@@9@@13@@15@@">cephalexin@@@@prep_of@@excretion@@nsubj@@inhibited@@prep_by@@probenecid</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d303.s5" text="Drug / Laboratory Test Interactions As a result of administration of Keflex, a false-positive reaction for glucose in the urine may occur." new_text="Drug@@/@@Laboratory@@Test@@Interactions@@As@@a@@result@@of@@administration@@of@@Keflex@@,@@a@@false-positive@@reaction@@for@@glucose@@in@@the@@urine@@may@@occur@@.@@"> 
+      <entity id="DDI-DrugBank.d303.s5.e0" charOffset="69-74" type="brand" text="Keflex" position="11"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d303.s6" text="This has been observed with Benedict s and Fehling s solutions and also with Clinitest  tablets." new_text="This@@has@@been@@observed@@with@@Benedict@@s@@and@@Fehling@@s@@solutions@@and@@also@@with@@Clinitest@@@@tablets@@.@@"/> 
+</document>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d52"> 
+   <sentence id="DDI-DrugBank.d52.s0" text="Concomitant treatment with thrombolytics (eg, rt-PA or streptokinase) may: - increase the risk of bleeding complications - considerably enhance the effect of REFLUDAN on aPTT prolongation" new_text="Concomitant@@treatment@@with@@thrombolytics@@(eg@@,@@rt-PA@@or@@streptokinase@@)@@may@@:@@-@@increase@@the@@risk@@of@@bleeding@@complications@@-@@considerably@@enhance@@the@@effect@@of@@REFLUDAN@@on@@aPTT@@prolongation@@"> 
+      <entity id="DDI-DrugBank.d52.s0.e0" charOffset="27-39" type="group" text="thrombolytics" position="3"/>  
+      <entity id="DDI-DrugBank.d52.s0.e1" charOffset="55-67" type="drug" text="streptokinase" position="8"/>  
+      <entity id="DDI-DrugBank.d52.s0.e2" charOffset="158-165" type="brand" text="REFLUDAN" position="25"/>  
+      <pair id="DDI-DrugBank.d52.s0.p0" e1="DDI-DrugBank.d52.s0.e0" e2="DDI-DrugBank.d52.s0.e1" ddi="false" flags="True" e1_name="thrombolytics" e2_name="streptokinase" e1_pos="3" e2_pos="8" path="3@@4@@9@@8@@">thrombolytics@@@@amod@@(eg@@conj_or@@)@@nn@@streptokinase</pair>  
+      <pair id="DDI-DrugBank.d52.s0.p1" e1="DDI-DrugBank.d52.s0.e0" e2="DDI-DrugBank.d52.s0.e2" ddi="false" flags="True" e1_name="thrombolytics" e2_name="REFLUDAN" e1_pos="3" e2_pos="25" path="3@@4@@1@@13@@21@@23@@25@@">thrombolytics@@@@amod@@(eg@@prep_with@@treatment@@nsubj@@increase@@parataxis@@enhance@@dobj@@effect@@prep_of@@REFLUDAN</pair>  
+      <pair id="DDI-DrugBank.d52.s0.p2" e1="DDI-DrugBank.d52.s0.e1" e2="DDI-DrugBank.d52.s0.e2" ddi="false" flags="True" e1_name="streptokinase" e2_name="REFLUDAN" e1_pos="8" e2_pos="25" path="8@@9@@1@@13@@21@@23@@25@@">streptokinase@@@@nn@@)@@prep_with@@treatment@@nsubj@@increase@@parataxis@@enhance@@dobj@@effect@@prep_of@@REFLUDAN</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d52.s1" text="Concomitant treatment with coumarin derivatives (vitamin K antagonists) and drugs that affect platelet function may also increase the risk of bleeding." new_text="Concomitant@@treatment@@with@@coumarin derivatives@@(@@vitamin K antagonists@@)@@and@@drugs@@that@@affect@@platelet@@function@@may@@also@@increase@@the@@risk@@of@@bleeding@@.@@"> 
+      <entity id="DDI-DrugBank.d52.s1.e0" charOffset="27-46" type="group" text="coumarin derivatives" position="3"/>  
+      <entity id="DDI-DrugBank.d52.s1.e1" charOffset="49-69" type="group" text="vitamin K antagonists" position="5"/>  
+      <pair id="DDI-DrugBank.d52.s1.p0" e1="DDI-DrugBank.d52.s1.e0" e2="DDI-DrugBank.d52.s1.e1" ddi="false" flags="True" e1_name="coumarin derivatives" e2_name="vitamin K antagonists" e1_pos="3" e2_pos="5" path="3@@4@@1@@5@@">coumarin derivatives@@@@amod@@(@@prep_with@@treatment@@nsubj@@vitamin K antagonists</pair> 
+   </sentence> 
+</document>

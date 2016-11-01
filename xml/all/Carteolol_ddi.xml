@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d502"> 
+   <sentence id="DDI-DrugBank.d502.s0" text="Ocupress should be used with caution in patients who are receiving a beta-adrenergic blocking agent orally because of the potential for additive effects on systemic beta-blockade." new_text="Ocupress@@should@@be@@used@@with@@caution@@in@@patients@@who@@are@@receiving@@a@@beta-adrenergic blocking agent@@orally@@because@@of@@the@@potential@@for@@additive@@effects@@on@@systemic@@beta-blockade@@.@@"> 
+      <entity id="DDI-DrugBank.d502.s0.e0" charOffset="0-7" type="brand" text="Ocupress" position="0"/>  
+      <entity id="DDI-DrugBank.d502.s0.e1" charOffset="69-98" type="group" text="beta-adrenergic blocking agent" position="12"/>  
+      <pair id="DDI-DrugBank.d502.s0.p0" e1="DDI-DrugBank.d502.s0.e0" e2="DDI-DrugBank.d502.s0.e1" ddi="true" type="advise" flags="True" e1_name="Ocupress" e2_name="beta-adrenergic blocking agent" e1_pos="0" e2_pos="12" path="0@@3@@7@@10@@13@@12@@">Ocupress@@@@nsubjpass@@used@@prep_in@@patients@@rcmod@@receiving@@dobj@@orally@@amod@@beta-adrenergic blocking agent</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d502.s1" text="Close observation of the patient is recommended when a beta-blocker is administered to patients receiving catecholamine-depleting drugs such as reserpine, because of possible additive effects and the production of hypotension and/or marked bradycardia, which may produce vertigo, syncope, or postural hypotension." new_text="Close@@observation@@of@@the@@patient@@is@@recommended@@when@@a@@beta-blocker@@is@@administered@@to@@patients@@receiving@@catecholamine-depleting@@drugs@@such@@as@@reserpine@@,@@because@@of@@possible@@additive@@effects@@and@@the@@production@@of@@hypotension@@and/or@@marked@@bradycardia@@,@@which@@may@@produce@@vertigo@@,@@syncope@@,@@or@@postural@@hypotension@@.@@"> 
+      <entity id="DDI-DrugBank.d502.s1.e0" charOffset="55-66" type="group" text="beta-blocker" position="9"/>  
+      <entity id="DDI-DrugBank.d502.s1.e1" charOffset="144-152" type="drug" text="reserpine" position="19"/>  
+      <pair id="DDI-DrugBank.d502.s1.p0" e1="DDI-DrugBank.d502.s1.e0" e2="DDI-DrugBank.d502.s1.e1" ddi="true" type="advise" flags="True" e1_name="beta-blocker" e2_name="reserpine" e1_pos="9" e2_pos="19" path="9@@11@@13@@14@@16@@19@@">beta-blocker@@@@nsubjpass@@administered@@prep_to@@patients@@partmod@@receiving@@dobj@@drugs@@prep_such_as@@reserpine</pair> 
+   </sentence> 
+</document>

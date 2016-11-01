@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d282"> 
+   <sentence id="DDI-DrugBank.d282.s0" text="DOSTINEX should not be administered concurrently with D2-antagonists, such as phenothiazines, butyrophenones, thioxanthines, or metoclopramide." new_text="DOSTINEX@@should@@not@@be@@administered@@concurrently@@with@@D2-antagonists@@,@@such@@as@@phenothiazines@@,@@butyrophenones@@,@@thioxanthines@@,@@or@@metoclopramide@@.@@"> 
+      <entity id="DDI-DrugBank.d282.s0.e0" charOffset="0-7" type="brand" text="DOSTINEX" position="0"/>  
+      <entity id="DDI-DrugBank.d282.s0.e1" charOffset="78-91" type="group" text="phenothiazines" position="11"/>  
+      <entity id="DDI-DrugBank.d282.s0.e2" charOffset="94-107" type="group" text="butyrophenones" position="13"/>  
+      <entity id="DDI-DrugBank.d282.s0.e3" charOffset="110-122" type="group" text="thioxanthines" position="15"/>  
+      <entity id="DDI-DrugBank.d282.s0.e4" charOffset="128-141" type="drug" text="metoclopramide" position="18"/>  
+      <pair id="DDI-DrugBank.d282.s0.p0" e1="DDI-DrugBank.d282.s0.e0" e2="DDI-DrugBank.d282.s0.e1" ddi="true" type="advise" flags="True" e1_name="DOSTINEX" e2_name="phenothiazines" e1_pos="0" e2_pos="11" path="0@@4@@7@@11@@">DOSTINEX@@@@nsubjpass@@administered@@prep_with@@D2-antagonists@@prep_such_as@@phenothiazines</pair>  
+      <pair id="DDI-DrugBank.d282.s0.p1" e1="DDI-DrugBank.d282.s0.e0" e2="DDI-DrugBank.d282.s0.e2" ddi="true" type="advise" flags="True" e1_name="DOSTINEX" e2_name="butyrophenones" e1_pos="0" e2_pos="13" path="0@@4@@7@@13@@">DOSTINEX@@@@nsubjpass@@administered@@prep_with@@D2-antagonists@@prep_such_as@@butyrophenones</pair>  
+      <pair id="DDI-DrugBank.d282.s0.p2" e1="DDI-DrugBank.d282.s0.e0" e2="DDI-DrugBank.d282.s0.e3" ddi="true" type="advise" flags="True" e1_name="DOSTINEX" e2_name="thioxanthines" e1_pos="0" e2_pos="15" path="0@@4@@7@@15@@">DOSTINEX@@@@nsubjpass@@administered@@prep_with@@D2-antagonists@@prep_such_as@@thioxanthines</pair>  
+      <pair id="DDI-DrugBank.d282.s0.p3" e1="DDI-DrugBank.d282.s0.e0" e2="DDI-DrugBank.d282.s0.e4" ddi="true" type="advise" flags="True" e1_name="DOSTINEX" e2_name="metoclopramide" e1_pos="0" e2_pos="18" path="0@@4@@7@@18@@">DOSTINEX@@@@nsubjpass@@administered@@prep_with@@D2-antagonists@@prep_such_as@@metoclopramide</pair>  
+      <pair id="DDI-DrugBank.d282.s0.p4" e1="DDI-DrugBank.d282.s0.e1" e2="DDI-DrugBank.d282.s0.e2" ddi="false" flags="True" e1_name="phenothiazines" e2_name="butyrophenones" e1_pos="11" e2_pos="13" path="11@@13@@">phenothiazines@@@@conj_or@@butyrophenones</pair>  
+      <pair id="DDI-DrugBank.d282.s0.p5" e1="DDI-DrugBank.d282.s0.e1" e2="DDI-DrugBank.d282.s0.e3" ddi="false" flags="True" e1_name="phenothiazines" e2_name="thioxanthines" e1_pos="11" e2_pos="15" path="11@@15@@">phenothiazines@@@@conj_or@@thioxanthines</pair>  
+      <pair id="DDI-DrugBank.d282.s0.p6" e1="DDI-DrugBank.d282.s0.e1" e2="DDI-DrugBank.d282.s0.e4" ddi="false" flags="True" e1_name="phenothiazines" e2_name="metoclopramide" e1_pos="11" e2_pos="18" path="11@@18@@">phenothiazines@@@@conj_or@@metoclopramide</pair>  
+      <pair id="DDI-DrugBank.d282.s0.p7" e1="DDI-DrugBank.d282.s0.e2" e2="DDI-DrugBank.d282.s0.e3" ddi="false" flags="True" e1_name="butyrophenones" e2_name="thioxanthines" e1_pos="13" e2_pos="15" path="13@@7@@15@@">butyrophenones@@@@prep_such_as@@D2-antagonists@@prep_such_as@@thioxanthines</pair>  
+      <pair id="DDI-DrugBank.d282.s0.p8" e1="DDI-DrugBank.d282.s0.e2" e2="DDI-DrugBank.d282.s0.e4" ddi="false" flags="True" e1_name="butyrophenones" e2_name="metoclopramide" e1_pos="13" e2_pos="18" path="13@@7@@18@@">butyrophenones@@@@prep_such_as@@D2-antagonists@@prep_such_as@@metoclopramide</pair>  
+      <pair id="DDI-DrugBank.d282.s0.p9" e1="DDI-DrugBank.d282.s0.e3" e2="DDI-DrugBank.d282.s0.e4" ddi="false" flags="True" e1_name="thioxanthines" e2_name="metoclopramide" e1_pos="15" e2_pos="18" path="15@@7@@18@@">thioxanthines@@@@prep_such_as@@D2-antagonists@@prep_such_as@@metoclopramide</pair> 
+   </sentence> 
+</document>

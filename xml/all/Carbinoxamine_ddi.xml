@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d389"> 
+   <sentence id="DDI-DrugBank.d389.s0" text="Antihistamines may enhance the effects of tricyclic antidepressants, barbiturates, alcohol, and other CNS depressants." new_text="Antihistamines@@may@@enhance@@the@@effects@@of@@tricyclic antidepressants@@,@@barbiturates@@,@@alcohol@@,@@and@@other@@CNS depressants@@.@@"> 
+      <entity id="DDI-DrugBank.d389.s0.e0" charOffset="0-13" type="group" text="Antihistamines" position="0"/>  
+      <entity id="DDI-DrugBank.d389.s0.e1" charOffset="42-66" type="group" text="tricyclic antidepressants" position="6"/>  
+      <entity id="DDI-DrugBank.d389.s0.e2" charOffset="69-80" type="group" text="barbiturates" position="8"/>  
+      <entity id="DDI-DrugBank.d389.s0.e3" charOffset="83-89" type="drug" text="alcohol" position="10"/>  
+      <entity id="DDI-DrugBank.d389.s0.e4" charOffset="102-116" type="group" text="CNS depressants" position="14"/>  
+      <pair id="DDI-DrugBank.d389.s0.p0" e1="DDI-DrugBank.d389.s0.e0" e2="DDI-DrugBank.d389.s0.e1" ddi="true" type="effect" flags="True" e1_name="Antihistamines" e2_name="tricyclic antidepressants" e1_pos="0" e2_pos="6" path="0@@2@@4@@6@@">Antihistamines@@@@nsubj@@enhance@@dobj@@effects@@prep_of@@tricyclic antidepressants</pair>  
+      <pair id="DDI-DrugBank.d389.s0.p1" e1="DDI-DrugBank.d389.s0.e0" e2="DDI-DrugBank.d389.s0.e2" ddi="true" type="effect" flags="True" e1_name="Antihistamines" e2_name="barbiturates" e1_pos="0" e2_pos="8" path="0@@2@@4@@8@@">Antihistamines@@@@nsubj@@enhance@@dobj@@effects@@prep_of@@barbiturates</pair>  
+      <pair id="DDI-DrugBank.d389.s0.p2" e1="DDI-DrugBank.d389.s0.e0" e2="DDI-DrugBank.d389.s0.e3" ddi="true" type="effect" flags="True" e1_name="Antihistamines" e2_name="alcohol" e1_pos="0" e2_pos="10" path="0@@2@@4@@10@@">Antihistamines@@@@nsubj@@enhance@@dobj@@effects@@prep_of@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d389.s0.p3" e1="DDI-DrugBank.d389.s0.e0" e2="DDI-DrugBank.d389.s0.e4" ddi="true" type="effect" flags="True" e1_name="Antihistamines" e2_name="CNS depressants" e1_pos="0" e2_pos="14" path="0@@2@@4@@14@@">Antihistamines@@@@nsubj@@enhance@@dobj@@effects@@prep_of@@CNS depressants</pair>  
+      <pair id="DDI-DrugBank.d389.s0.p4" e1="DDI-DrugBank.d389.s0.e1" e2="DDI-DrugBank.d389.s0.e2" ddi="false" flags="True" e1_name="tricyclic antidepressants" e2_name="barbiturates" e1_pos="6" e2_pos="8" path="6@@8@@">tricyclic antidepressants@@@@conj_and@@barbiturates</pair>  
+      <pair id="DDI-DrugBank.d389.s0.p5" e1="DDI-DrugBank.d389.s0.e1" e2="DDI-DrugBank.d389.s0.e3" ddi="false" flags="True" e1_name="tricyclic antidepressants" e2_name="alcohol" e1_pos="6" e2_pos="10" path="6@@10@@">tricyclic antidepressants@@@@conj_and@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d389.s0.p6" e1="DDI-DrugBank.d389.s0.e1" e2="DDI-DrugBank.d389.s0.e4" ddi="false" flags="True" e1_name="tricyclic antidepressants" e2_name="CNS depressants" e1_pos="6" e2_pos="14" path="6@@14@@">tricyclic antidepressants@@@@conj_and@@CNS depressants</pair>  
+      <pair id="DDI-DrugBank.d389.s0.p7" e1="DDI-DrugBank.d389.s0.e2" e2="DDI-DrugBank.d389.s0.e3" ddi="false" flags="True" e1_name="barbiturates" e2_name="alcohol" e1_pos="8" e2_pos="10" path="8@@4@@10@@">barbiturates@@@@prep_of@@effects@@prep_of@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d389.s0.p8" e1="DDI-DrugBank.d389.s0.e2" e2="DDI-DrugBank.d389.s0.e4" ddi="false" flags="True" e1_name="barbiturates" e2_name="CNS depressants" e1_pos="8" e2_pos="14" path="8@@4@@14@@">barbiturates@@@@prep_of@@effects@@prep_of@@CNS depressants</pair>  
+      <pair id="DDI-DrugBank.d389.s0.p9" e1="DDI-DrugBank.d389.s0.e3" e2="DDI-DrugBank.d389.s0.e4" ddi="false" flags="True" e1_name="alcohol" e2_name="CNS depressants" e1_pos="10" e2_pos="14" path="10@@4@@14@@">alcohol@@@@prep_of@@effects@@prep_of@@CNS depressants</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d389.s1" text="MAO inhibitors prolong and intensify the anticholinergic effects of antihistamines." new_text="MAO inhibitors@@prolong@@and@@intensify@@the@@anticholinergic@@effects@@of@@antihistamines@@.@@"> 
+      <entity id="DDI-DrugBank.d389.s1.e0" charOffset="0-13" type="group" text="MAO inhibitors" position="0"/>  
+      <entity id="DDI-DrugBank.d389.s1.e1" charOffset="68-81" type="group" text="antihistamines" position="8"/>  
+      <pair id="DDI-DrugBank.d389.s1.p0" e1="DDI-DrugBank.d389.s1.e0" e2="DDI-DrugBank.d389.s1.e1" ddi="true" type="effect" flags="True" e1_name="MAO inhibitors" e2_name="antihistamines" e1_pos="0" e2_pos="8" path="0@@3@@6@@8@@">MAO inhibitors@@@@nsubj@@intensify@@dobj@@effects@@prep_of@@antihistamines</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d389.s2" text="Sympathomimetic amines may reduce the antihypertensive effects of reserpine, veratrum alkaloids, methyldopa and mecamylamine." new_text="Sympathomimetic amines@@may@@reduce@@the@@antihypertensive@@effects@@of@@reserpine@@,@@veratrum alkaloids@@,@@methyldopa@@and@@mecamylamine@@.@@"> 
+      <entity id="DDI-DrugBank.d389.s2.e0" charOffset="0-21" type="group" text="Sympathomimetic amines" position="0"/>  
+      <entity id="DDI-DrugBank.d389.s2.e1" charOffset="66-74" type="drug" text="reserpine" position="7"/>  
+      <entity id="DDI-DrugBank.d389.s2.e2" charOffset="77-94" type="group" text="veratrum alkaloids" position="9"/>  
+      <entity id="DDI-DrugBank.d389.s2.e3" charOffset="97-106" type="drug" text="methyldopa" position="11"/>  
+      <entity id="DDI-DrugBank.d389.s2.e4" charOffset="112-123" type="drug" text="mecamylamine" position="13"/>  
+      <pair id="DDI-DrugBank.d389.s2.p0" e1="DDI-DrugBank.d389.s2.e0" e2="DDI-DrugBank.d389.s2.e1" ddi="true" type="effect" flags="True" e1_name="Sympathomimetic amines" e2_name="reserpine" e1_pos="0" e2_pos="7" path="0@@2@@5@@7@@">Sympathomimetic amines@@@@nsubj@@reduce@@dobj@@effects@@prep_of@@reserpine</pair>  
+      <pair id="DDI-DrugBank.d389.s2.p1" e1="DDI-DrugBank.d389.s2.e0" e2="DDI-DrugBank.d389.s2.e2" ddi="true" type="effect" flags="True" e1_name="Sympathomimetic amines" e2_name="veratrum alkaloids" e1_pos="0" e2_pos="9" path="0@@2@@5@@9@@">Sympathomimetic amines@@@@nsubj@@reduce@@dobj@@effects@@prep_of@@veratrum alkaloids</pair>  
+      <pair id="DDI-DrugBank.d389.s2.p2" e1="DDI-DrugBank.d389.s2.e0" e2="DDI-DrugBank.d389.s2.e3" ddi="true" type="effect" flags="True" e1_name="Sympathomimetic amines" e2_name="methyldopa" e1_pos="0" e2_pos="11" path="0@@2@@5@@11@@">Sympathomimetic amines@@@@nsubj@@reduce@@dobj@@effects@@prep_of@@methyldopa</pair>  
+      <pair id="DDI-DrugBank.d389.s2.p3" e1="DDI-DrugBank.d389.s2.e0" e2="DDI-DrugBank.d389.s2.e4" ddi="true" type="effect" flags="True" e1_name="Sympathomimetic amines" e2_name="mecamylamine" e1_pos="0" e2_pos="13" path="0@@2@@5@@13@@">Sympathomimetic amines@@@@nsubj@@reduce@@dobj@@effects@@prep_of@@mecamylamine</pair>  
+      <pair id="DDI-DrugBank.d389.s2.p4" e1="DDI-DrugBank.d389.s2.e1" e2="DDI-DrugBank.d389.s2.e2" ddi="false" flags="True" e1_name="reserpine" e2_name="veratrum alkaloids" e1_pos="7" e2_pos="9" path="7@@9@@">reserpine@@@@conj_and@@veratrum alkaloids</pair>  
+      <pair id="DDI-DrugBank.d389.s2.p5" e1="DDI-DrugBank.d389.s2.e1" e2="DDI-DrugBank.d389.s2.e3" ddi="false" flags="True" e1_name="reserpine" e2_name="methyldopa" e1_pos="7" e2_pos="11" path="7@@11@@">reserpine@@@@conj_and@@methyldopa</pair>  
+      <pair id="DDI-DrugBank.d389.s2.p6" e1="DDI-DrugBank.d389.s2.e1" e2="DDI-DrugBank.d389.s2.e4" ddi="false" flags="True" e1_name="reserpine" e2_name="mecamylamine" e1_pos="7" e2_pos="13" path="7@@13@@">reserpine@@@@conj_and@@mecamylamine</pair>  
+      <pair id="DDI-DrugBank.d389.s2.p7" e1="DDI-DrugBank.d389.s2.e2" e2="DDI-DrugBank.d389.s2.e3" ddi="false" flags="True" e1_name="veratrum alkaloids" e2_name="methyldopa" e1_pos="9" e2_pos="11" path="9@@5@@11@@">veratrum alkaloids@@@@prep_of@@effects@@prep_of@@methyldopa</pair>  
+      <pair id="DDI-DrugBank.d389.s2.p8" e1="DDI-DrugBank.d389.s2.e2" e2="DDI-DrugBank.d389.s2.e4" ddi="false" flags="True" e1_name="veratrum alkaloids" e2_name="mecamylamine" e1_pos="9" e2_pos="13" path="9@@5@@13@@">veratrum alkaloids@@@@prep_of@@effects@@prep_of@@mecamylamine</pair>  
+      <pair id="DDI-DrugBank.d389.s2.p9" e1="DDI-DrugBank.d389.s2.e3" e2="DDI-DrugBank.d389.s2.e4" ddi="false" flags="True" e1_name="methyldopa" e2_name="mecamylamine" e1_pos="11" e2_pos="13" path="11@@5@@13@@">methyldopa@@@@prep_of@@effects@@prep_of@@mecamylamine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d389.s3" text="Effects of sympathomimetics are increased with MAO inhibitors and beta adrenergic blockers." new_text="Effects@@of@@sympathomimetics@@are@@increased@@with@@MAO inhibitors@@and@@beta adrenergic blockers@@.@@"> 
+      <entity id="DDI-DrugBank.d389.s3.e0" charOffset="11-26" type="group" text="sympathomimetics" position="2"/>  
+      <entity id="DDI-DrugBank.d389.s3.e1" charOffset="47-60" type="group" text="MAO inhibitors" position="6"/>  
+      <entity id="DDI-DrugBank.d389.s3.e2" charOffset="66-89" type="group" text="beta adrenergic blockers" position="8"/>  
+      <pair id="DDI-DrugBank.d389.s3.p0" e1="DDI-DrugBank.d389.s3.e0" e2="DDI-DrugBank.d389.s3.e1" ddi="true" type="effect" flags="True" e1_name="sympathomimetics" e2_name="MAO inhibitors" e1_pos="2" e2_pos="6" path="2@@0@@4@@6@@">sympathomimetics@@@@prep_of@@Effects@@nsubjpass@@increased@@prep_with@@MAO inhibitors</pair>  
+      <pair id="DDI-DrugBank.d389.s3.p1" e1="DDI-DrugBank.d389.s3.e0" e2="DDI-DrugBank.d389.s3.e2" ddi="true" type="effect" flags="True" e1_name="sympathomimetics" e2_name="beta adrenergic blockers" e1_pos="2" e2_pos="8" path="2@@0@@4@@8@@">sympathomimetics@@@@prep_of@@Effects@@nsubjpass@@increased@@prep_with@@beta adrenergic blockers</pair>  
+      <pair id="DDI-DrugBank.d389.s3.p2" e1="DDI-DrugBank.d389.s3.e1" e2="DDI-DrugBank.d389.s3.e2" ddi="false" flags="True" e1_name="MAO inhibitors" e2_name="beta adrenergic blockers" e1_pos="6" e2_pos="8" path="6@@8@@">MAO inhibitors@@@@conj_and@@beta adrenergic blockers</pair> 
+   </sentence> 
+</document>

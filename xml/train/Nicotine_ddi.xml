@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d271"> 
+   <sentence id="DDI-DrugBank.d271.s0" text="Physiological changes resulting from smoking cessation, with or without nicotine replacement, may alter the pharmacokinetics of certain concomitant medications, such as tricyclic antidepressants and theophylline." new_text="Physiological@@changes@@resulting@@from@@smoking@@cessation@@,@@with@@or@@without@@nicotine@@replacement@@,@@may@@alter@@the@@pharmacokinetics@@of@@certain@@concomitant@@medications@@,@@such@@as@@tricyclic antidepressants@@and@@theophylline@@.@@"> 
+      <entity id="DDI-DrugBank.d271.s0.e0" charOffset="72-79" type="drug" text="nicotine" position="10"/>  
+      <entity id="DDI-DrugBank.d271.s0.e1" charOffset="169-193" type="group" text="tricyclic antidepressants" position="24"/>  
+      <entity id="DDI-DrugBank.d271.s0.e2" charOffset="199-210" type="drug" text="theophylline" position="26"/>  
+      <pair id="DDI-DrugBank.d271.s0.p0" e1="DDI-DrugBank.d271.s0.e0" e2="DDI-DrugBank.d271.s0.e1" ddi="false" flags="True" e1_name="nicotine" e2_name="tricyclic antidepressants" e1_pos="10" e2_pos="24" path="10@@11@@2@@1@@14@@16@@24@@">nicotine@@@@nn@@replacement@@prep_without@@resulting@@partmod@@changes@@nsubj@@alter@@dobj@@pharmacokinetics@@prep_such_as@@tricyclic antidepressants</pair>  
+      <pair id="DDI-DrugBank.d271.s0.p1" e1="DDI-DrugBank.d271.s0.e0" e2="DDI-DrugBank.d271.s0.e2" ddi="false" flags="True" e1_name="nicotine" e2_name="theophylline" e1_pos="10" e2_pos="26" path="10@@11@@2@@1@@14@@16@@26@@">nicotine@@@@nn@@replacement@@prep_without@@resulting@@partmod@@changes@@nsubj@@alter@@dobj@@pharmacokinetics@@prep_such_as@@theophylline</pair>  
+      <pair id="DDI-DrugBank.d271.s0.p2" e1="DDI-DrugBank.d271.s0.e1" e2="DDI-DrugBank.d271.s0.e2" ddi="false" flags="True" e1_name="tricyclic antidepressants" e2_name="theophylline" e1_pos="24" e2_pos="26" path="24@@26@@">tricyclic antidepressants@@@@conj_and@@theophylline</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d271.s1" text="Doses of these and perhaps other medications may need to be adjusted in patients who successfully quit smoking." new_text="Doses@@of@@these@@and@@perhaps@@other@@medications@@may@@need@@to@@be@@adjusted@@in@@patients@@who@@successfully@@quit@@smoking@@.@@"/> 
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d193"> 
+   <sentence id="DDI-MedLine.d193.s0" text="Ticagrelor (Brilinta)--better than clopidogrel (Plavix)" new_text="Ticagrelor@@(@@Brilinta@@)--better@@than@@clopidogrel@@(@@Plavix@@)@@"> 
+      <entity id="DDI-MedLine.d193.s0.e0" charOffset="0-9" type="drug" text="Ticagrelor" position="0"/>  
+      <entity id="DDI-MedLine.d193.s0.e1" charOffset="12-19" type="brand" text="Brilinta" position="2"/>  
+      <entity id="DDI-MedLine.d193.s0.e2" charOffset="35-45" type="drug" text="clopidogrel" position="5"/>  
+      <entity id="DDI-MedLine.d193.s0.e3" charOffset="48-53" type="brand" text="Plavix" position="7"/>  
+      <pair id="DDI-MedLine.d193.s0.p0" e1="DDI-MedLine.d193.s0.e0" e2="DDI-MedLine.d193.s0.e1" ddi="false" flags="True" e1_name="Ticagrelor" e2_name="Brilinta" e1_pos="0" e2_pos="2" path="0@@2@@">Ticagrelor@@@@nn@@Brilinta</pair>  
+      <pair id="DDI-MedLine.d193.s0.p1" e1="DDI-MedLine.d193.s0.e0" e2="DDI-MedLine.d193.s0.e2" ddi="false" flags="True" e1_name="Ticagrelor" e2_name="clopidogrel" e1_pos="0" e2_pos="5" path="0@@2@@3@@8@@5@@">Ticagrelor@@@@nn@@Brilinta@@dep@@)--better@@prep_than@@)@@amod@@clopidogrel</pair>  
+      <pair id="DDI-MedLine.d193.s0.p2" e1="DDI-MedLine.d193.s0.e0" e2="DDI-MedLine.d193.s0.e3" ddi="false" flags="True" e1_name="Ticagrelor" e2_name="Plavix" e1_pos="0" e2_pos="7" path="0@@2@@3@@8@@7@@">Ticagrelor@@@@nn@@Brilinta@@dep@@)--better@@prep_than@@)@@nn@@Plavix</pair>  
+      <pair id="DDI-MedLine.d193.s0.p3" e1="DDI-MedLine.d193.s0.e1" e2="DDI-MedLine.d193.s0.e2" ddi="false" flags="True" e1_name="Brilinta" e2_name="clopidogrel" e1_pos="2" e2_pos="5" path="2@@3@@8@@5@@">Brilinta@@@@dep@@)--better@@prep_than@@)@@amod@@clopidogrel</pair>  
+      <pair id="DDI-MedLine.d193.s0.p4" e1="DDI-MedLine.d193.s0.e1" e2="DDI-MedLine.d193.s0.e3" ddi="false" flags="True" e1_name="Brilinta" e2_name="Plavix" e1_pos="2" e2_pos="7" path="2@@3@@8@@7@@">Brilinta@@@@dep@@)--better@@prep_than@@)@@nn@@Plavix</pair>  
+      <pair id="DDI-MedLine.d193.s0.p5" e1="DDI-MedLine.d193.s0.e2" e2="DDI-MedLine.d193.s0.e3" ddi="false" flags="True" e1_name="clopidogrel" e2_name="Plavix" e1_pos="5" e2_pos="7" path="5@@8@@7@@">clopidogrel@@@@amod@@)@@nn@@Plavix</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d193.s1" text="The FDA has approved ticagrelor (Brilinta-AstraZeneca), an oral antiplatelet drug, for use with low-dose aspirin to reduce the rate of thrombotic cardiovascular events in patients with acute coronary syndrome (ACS). " new_text="The@@FDA@@has@@approved@@ticagrelor@@(@@Brilinta@@-AstraZeneca)@@,@@an@@oral@@antiplatelet drug@@,@@for@@use@@with@@low-dose@@aspirin@@to@@reduce@@the@@rate@@of@@thrombotic@@cardiovascular@@events@@in@@patients@@with@@acute@@coronary@@syndrome@@(ACS)@@.@@"> 
+      <entity id="DDI-MedLine.d193.s1.e0" charOffset="21-30" type="drug" text="ticagrelor" position="4"/>  
+      <entity id="DDI-MedLine.d193.s1.e1" charOffset="33-40" type="brand" text="Brilinta" position="6"/>  
+      <entity id="DDI-MedLine.d193.s1.e2" charOffset="64-80" type="group" text="antiplatelet drug" position="11"/>  
+      <entity id="DDI-MedLine.d193.s1.e3" charOffset="105-111" type="brand" text="aspirin" position="17"/>  
+      <pair id="DDI-MedLine.d193.s1.p0" e1="DDI-MedLine.d193.s1.e0" e2="DDI-MedLine.d193.s1.e1" ddi="false" flags="True" e1_name="ticagrelor" e2_name="Brilinta" e1_pos="4" e2_pos="6" path="4@@7@@6@@">ticagrelor@@@@nn@@-AstraZeneca)@@nn@@Brilinta</pair>  
+      <pair id="DDI-MedLine.d193.s1.p1" e1="DDI-MedLine.d193.s1.e0" e2="DDI-MedLine.d193.s1.e2" ddi="false" flags="True" e1_name="ticagrelor" e2_name="antiplatelet drug" e1_pos="4" e2_pos="11" path="4@@7@@11@@">ticagrelor@@@@nn@@-AstraZeneca)@@appos@@antiplatelet drug</pair>  
+      <pair id="DDI-MedLine.d193.s1.p2" e1="DDI-MedLine.d193.s1.e0" e2="DDI-MedLine.d193.s1.e3" ddi="true" type="effect" flags="True" e1_name="ticagrelor" e2_name="aspirin" e1_pos="4" e2_pos="17" path="4@@7@@3@@17@@">ticagrelor@@@@nn@@-AstraZeneca)@@dobj@@approved@@prep_with@@aspirin</pair>  
+      <pair id="DDI-MedLine.d193.s1.p3" e1="DDI-MedLine.d193.s1.e1" e2="DDI-MedLine.d193.s1.e2" ddi="false" flags="True" e1_name="Brilinta" e2_name="antiplatelet drug" e1_pos="6" e2_pos="11" path="6@@7@@11@@">Brilinta@@@@nn@@-AstraZeneca)@@appos@@antiplatelet drug</pair>  
+      <pair id="DDI-MedLine.d193.s1.p4" e1="DDI-MedLine.d193.s1.e1" e2="DDI-MedLine.d193.s1.e3" ddi="true" type="effect" flags="True" e1_name="Brilinta" e2_name="aspirin" e1_pos="6" e2_pos="17" path="6@@7@@3@@17@@">Brilinta@@@@nn@@-AstraZeneca)@@dobj@@approved@@prep_with@@aspirin</pair>  
+      <pair id="DDI-MedLine.d193.s1.p5" e1="DDI-MedLine.d193.s1.e2" e2="DDI-MedLine.d193.s1.e3" ddi="false" flags="True" e1_name="antiplatelet drug" e2_name="aspirin" e1_pos="11" e2_pos="17" path="11@@7@@3@@17@@">antiplatelet drug@@@@appos@@-AstraZeneca)@@dobj@@approved@@prep_with@@aspirin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d193.s2" text="It will compete with clopidogrel (Plavix) and prasugrel (Effient) for such use. " new_text="It@@will@@compete@@with@@clopidogrel@@(@@Plavix@@)@@and@@prasugrel@@(@@Effient@@)@@for@@such@@use@@.@@"> 
+      <entity id="DDI-MedLine.d193.s2.e0" charOffset="21-31" type="drug" text="clopidogrel" position="4"/>  
+      <entity id="DDI-MedLine.d193.s2.e1" charOffset="34-39" type="brand" text="Plavix" position="6"/>  
+      <entity id="DDI-MedLine.d193.s2.e2" charOffset="46-54" type="drug" text="prasugrel" position="9"/>  
+      <entity id="DDI-MedLine.d193.s2.e3" charOffset="57-63" type="brand" text="Effient" position="11"/>  
+      <pair id="DDI-MedLine.d193.s2.p0" e1="DDI-MedLine.d193.s2.e0" e2="DDI-MedLine.d193.s2.e1" ddi="false" flags="True" e1_name="clopidogrel" e2_name="Plavix" e1_pos="4" e2_pos="6" path="4@@7@@6@@">clopidogrel@@@@amod@@)@@nn@@Plavix</pair>  
+      <pair id="DDI-MedLine.d193.s2.p1" e1="DDI-MedLine.d193.s2.e0" e2="DDI-MedLine.d193.s2.e2" ddi="false" flags="True" e1_name="clopidogrel" e2_name="prasugrel" e1_pos="4" e2_pos="9" path="4@@7@@2@@9@@">clopidogrel@@@@amod@@)@@prep_with@@compete@@conj_and@@prasugrel</pair>  
+      <pair id="DDI-MedLine.d193.s2.p2" e1="DDI-MedLine.d193.s2.e0" e2="DDI-MedLine.d193.s2.e3" ddi="false" flags="True" e1_name="clopidogrel" e2_name="Effient" e1_pos="4" e2_pos="11" path="4@@7@@2@@9@@12@@11@@">clopidogrel@@@@amod@@)@@prep_with@@compete@@conj_and@@prasugrel@@dobj@@)@@nn@@Effient</pair>  
+      <pair id="DDI-MedLine.d193.s2.p3" e1="DDI-MedLine.d193.s2.e1" e2="DDI-MedLine.d193.s2.e2" ddi="false" flags="True" e1_name="Plavix" e2_name="prasugrel" e1_pos="6" e2_pos="9" path="6@@7@@2@@9@@">Plavix@@@@nn@@)@@prep_with@@compete@@conj_and@@prasugrel</pair>  
+      <pair id="DDI-MedLine.d193.s2.p4" e1="DDI-MedLine.d193.s2.e1" e2="DDI-MedLine.d193.s2.e3" ddi="false" flags="True" e1_name="Plavix" e2_name="Effient" e1_pos="6" e2_pos="11" path="6@@7@@2@@9@@12@@11@@">Plavix@@@@nn@@)@@prep_with@@compete@@conj_and@@prasugrel@@dobj@@)@@nn@@Effient</pair>  
+      <pair id="DDI-MedLine.d193.s2.p5" e1="DDI-MedLine.d193.s2.e2" e2="DDI-MedLine.d193.s2.e3" ddi="false" flags="True" e1_name="prasugrel" e2_name="Effient" e1_pos="9" e2_pos="11" path="9@@12@@11@@">prasugrel@@@@dobj@@)@@nn@@Effient</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d193.s3" text="Clopidogrel is expected to become available generically in the US within the next few months." new_text="Clopidogrel@@is@@expected@@to@@become@@available@@generically@@in@@the@@US@@within@@the@@next@@few@@months@@.@@"> 
+      <entity id="DDI-MedLine.d193.s3.e0" charOffset="0-10" type="drug" text="Clopidogrel" position="0"/> 
+   </sentence> 
+</document>

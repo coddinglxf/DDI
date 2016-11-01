@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d80"> 
+   <sentence id="DDI-MedLine.d80.s0" text="Progestin-only oral contraception: a comprehensive review.
+" new_text="Progestin-only@@oral@@contraception@@:@@a@@comprehensive@@review@@.@@"/>  
+   <sentence id="DDI-MedLine.d80.s1" text="In order to provide information for the appropriate package insert labeling of progestin-only oral contraceptives (POC) in the US, a comprehensive review was made of norgestrel (0.075 mg) and norethindrone (0.35 mg), with the clinical differences indicated where applicable.  " new_text="In@@order@@to@@provide@@information@@for@@the@@appropriate@@package@@insert@@labeling@@of@@progestin-only oral contraceptives@@(@@POC@@)@@in@@the@@US@@,@@a@@comprehensive@@review@@was@@made@@of@@norgestrel@@(0.075@@mg)@@and@@norethindrone@@(0.35@@mg)@@,@@with@@the@@clinical@@differences@@indicated@@where@@applicable@@.@@"> 
+      <entity id="DDI-MedLine.d80.s1.e0" charOffset="79-112" type="group" text="progestin-only oral contraceptives" position="12"/>  
+      <entity id="DDI-MedLine.d80.s1.e1" charOffset="115-117" type="group" text="POC" position="14"/>  
+      <entity id="DDI-MedLine.d80.s1.e2" charOffset="166-175" type="drug" text="norgestrel" position="26"/>  
+      <entity id="DDI-MedLine.d80.s1.e3" charOffset="192-204" type="drug" text="norethindrone" position="30"/>  
+      <pair id="DDI-MedLine.d80.s1.p0" e1="DDI-MedLine.d80.s1.e0" e2="DDI-MedLine.d80.s1.e1" ddi="false" flags="True" e1_name="progestin-only oral contraceptives" e2_name="POC" e1_pos="12" e2_pos="14" path="12@@15@@14@@">progestin-only oral contraceptives@@@@amod@@)@@nn@@POC</pair>  
+      <pair id="DDI-MedLine.d80.s1.p1" e1="DDI-MedLine.d80.s1.e0" e2="DDI-MedLine.d80.s1.e2" ddi="false" flags="True" e1_name="progestin-only oral contraceptives" e2_name="norgestrel" e1_pos="12" e2_pos="26" path="12@@15@@10@@9@@3@@24@@28@@26@@">progestin-only oral contraceptives@@@@amod@@)@@prep_of@@labeling@@partmod@@insert@@prep_for@@provide@@advcl@@made@@prep_of@@mg)@@nn@@norgestrel</pair>  
+      <pair id="DDI-MedLine.d80.s1.p2" e1="DDI-MedLine.d80.s1.e0" e2="DDI-MedLine.d80.s1.e3" ddi="false" flags="True" e1_name="progestin-only oral contraceptives" e2_name="norethindrone" e1_pos="12" e2_pos="30" path="12@@15@@10@@9@@3@@24@@32@@30@@">progestin-only oral contraceptives@@@@amod@@)@@prep_of@@labeling@@partmod@@insert@@prep_for@@provide@@advcl@@made@@prep_of@@mg)@@amod@@norethindrone</pair>  
+      <pair id="DDI-MedLine.d80.s1.p3" e1="DDI-MedLine.d80.s1.e1" e2="DDI-MedLine.d80.s1.e2" ddi="false" flags="True" e1_name="POC" e2_name="norgestrel" e1_pos="14" e2_pos="26" path="14@@15@@10@@9@@3@@24@@28@@26@@">POC@@@@nn@@)@@prep_of@@labeling@@partmod@@insert@@prep_for@@provide@@advcl@@made@@prep_of@@mg)@@nn@@norgestrel</pair>  
+      <pair id="DDI-MedLine.d80.s1.p4" e1="DDI-MedLine.d80.s1.e1" e2="DDI-MedLine.d80.s1.e3" ddi="false" flags="True" e1_name="POC" e2_name="norethindrone" e1_pos="14" e2_pos="30" path="14@@15@@10@@9@@3@@24@@32@@30@@">POC@@@@nn@@)@@prep_of@@labeling@@partmod@@insert@@prep_for@@provide@@advcl@@made@@prep_of@@mg)@@amod@@norethindrone</pair>  
+      <pair id="DDI-MedLine.d80.s1.p5" e1="DDI-MedLine.d80.s1.e2" e2="DDI-MedLine.d80.s1.e3" ddi="false" flags="True" e1_name="norgestrel" e2_name="norethindrone" e1_pos="26" e2_pos="30" path="26@@28@@32@@30@@">norgestrel@@@@nn@@mg)@@conj_and@@mg)@@amod@@norethindrone</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d80.s2" text="The goal of this review was to cite primary sources for virtually all research specific to POPs since 1975.  " new_text="The@@goal@@of@@this@@review@@was@@to@@cite@@primary@@sources@@for@@virtually@@all@@research@@specific@@to@@POPs@@since@@1975@@.@@"/>  
+   <sentence id="DDI-MedLine.d80.s3" text="Conclusions and the types of studies which support these conclusions are given for each major section.  " new_text="Conclusions@@and@@the@@types@@of@@studies@@which@@support@@these@@conclusions@@are@@given@@for@@each@@major@@section@@.@@"/>  
+   <sentence id="DDI-MedLine.d80.s4" text="The introductory chapter discusses the advantages and disadvantages of POCs and the magnitude and prevalence of their use.  " new_text="The@@introductory@@chapter@@discusses@@the@@advantages@@and@@disadvantages@@of@@POCs@@and@@the@@magnitude@@and@@prevalence@@of@@their@@use@@.@@"> 
+      <entity id="DDI-MedLine.d80.s4.e0" charOffset="71-74" type="group" text="POCs" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d80.s5" text="Future trends are also predicted.  " new_text="Future@@trends@@are@@also@@predicted@@.@@"/>  
+   <sentence id="DDI-MedLine.d80.s6" text="Chapter 2 considers the mode of action, including ovulation prevention; " new_text="Chapter@@2@@considers@@the@@mode@@of@@action@@,@@including@@ovulation@@prevention;@@"/>  
+   <sentence id="DDI-MedLine.d80.s7" text="suppression of midcycle gonadotropin peaks; " new_text="suppression@@of@@midcycle@@gonadotropin@@peaks;@@"/>  
+   <sentence id="DDI-MedLine.d80.s8" text="changes in cervical mucus, the endometrium, and the fallopian tubes; " new_text="changes@@in@@cervical@@mucus@@,@@the@@endometrium@@,@@and@@the@@fallopian@@tubes;@@"/>  
+   <sentence id="DDI-MedLine.d80.s9" text="and clinical implications.  " new_text="and@@clinical@@implications@@.@@"/>  
+   <sentence id="DDI-MedLine.d80.s10" text="Chapter 3 covers pharmacology (pharmacokinetics, pharmacodynamics and potency, and clinical implications).  " new_text="Chapter@@3@@covers@@pharmacology@@(pharmacokinetics@@,@@pharmacodynamics@@and@@potency@@,@@and@@clinical@@implications)@@.@@"/>  
+   <sentence id="DDI-MedLine.d80.s11" text="The next chapter presents information on efficacy and pregnancy outcomes in terms of pregnancy rates, compliance and efficacy, ectopic pregnancies, the outcome of pregnancies conceived while using POCs, and fertility following discontinuation.  " new_text="The@@next@@chapter@@presents@@information@@on@@efficacy@@and@@pregnancy@@outcomes@@in@@terms@@of@@pregnancy@@rates@@,@@compliance@@and@@efficacy@@,@@ectopic@@pregnancies@@,@@the@@outcome@@of@@pregnancies@@conceived@@while@@using@@POCs@@,@@and@@fertility@@following@@discontinuation@@.@@"> 
+      <entity id="DDI-MedLine.d80.s11.e0" charOffset="197-200" type="group" text="POCs" position="30"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d80.s12" text="Chapter 5 focuses on metabolic effects, specifically lipid metabolism, carbohydrate metabolism and diabetes, coagulation factors, and blood pressure.  " new_text="Chapter@@5@@focuses@@on@@metabolic@@effects@@,@@specifically@@lipid@@metabolism@@,@@carbohydrate@@metabolism@@and@@diabetes@@,@@coagulation@@factors@@,@@and@@blood@@pressure@@.@@"/>  
+   <sentence id="DDI-MedLine.d80.s13" text="Cardiovascular disease is considered in the next chapter, and chapter 7 presents findings on endometrial, ovarian, cervical, breast, and other cancers.  " new_text="Cardiovascular@@disease@@is@@considered@@in@@the@@next@@chapter@@,@@and@@chapter@@7@@presents@@findings@@on@@endometrial@@,@@ovarian@@,@@cervical@@,@@breast@@,@@and@@other@@cancers@@.@@"/>  
+   <sentence id="DDI-MedLine.d80.s14" text="A host of other medical considerations are discussed in chapter 8, including persistent ovarian follicles; " new_text="A@@host@@of@@other@@medical@@considerations@@are@@discussed@@in@@chapter@@8@@,@@including@@persistent@@ovarian@@follicles;@@"/>  
+   <sentence id="DDI-MedLine.d80.s15" text="reproductive tract infections; " new_text="reproductive@@tract@@infections;@@"/>  
+   <sentence id="DDI-MedLine.d80.s16" text="abnormal vaginal bleeding; " new_text="abnormal@@vaginal@@bleeding;@@"/>  
+   <sentence id="DDI-MedLine.d80.s17" text="uterine fibroids; " new_text="uterine@@fibroids;@@"/>  
+   <sentence id="DDI-MedLine.d80.s18" text="gestational trophoblastic disease; " new_text="gestational@@trophoblastic@@disease;@@"/>  
+   <sentence id="DDI-MedLine.d80.s19" text="benign breast disease; " new_text="benign@@breast@@disease;@@"/>  
+   <sentence id="DDI-MedLine.d80.s20" text="diseases of the liver, gallbladder, and bowel; " new_text="diseases@@of@@the@@liver@@,@@gallbladder@@,@@and@@bowel;@@"/>  
+   <sentence id="DDI-MedLine.d80.s21" text="endocrine dysfunction; " new_text="endocrine@@dysfunction;@@"/>  
+   <sentence id="DDI-MedLine.d80.s22" text="epilepsy; " new_text="epilepsy;@@"/>  
+   <sentence id="DDI-MedLine.d80.s23" text="bone density; " new_text="bone@@density;@@"/>  
+   <sentence id="DDI-MedLine.d80.s24" text="sickle cell disease; " new_text="sickle@@cell@@disease;@@"/>  
+   <sentence id="DDI-MedLine.d80.s25" text="ocular effects; " new_text="ocular@@effects;@@"/>  
+   <sentence id="DDI-MedLine.d80.s26" text="surgery; " new_text="surgery;@@"/>  
+   <sentence id="DDI-MedLine.d80.s27" text="and overdose.  " new_text="and@@overdose@@.@@"/>  
+   <sentence id="DDI-MedLine.d80.s28" text="The last 4 chapters cover interactions with drugs and laboratory tests, common side effects, breast feeding, and effective use of POCs.  " new_text="The@@last@@4@@chapters@@cover@@interactions@@with@@drugs@@and@@laboratory@@tests@@,@@common@@side@@effects@@,@@breast@@feeding@@,@@and@@effective@@use@@of@@POCs@@.@@"> 
+      <entity id="DDI-MedLine.d80.s28.e0" charOffset="130-133" type="group" text="POCs" position="23"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d80.s29" text="Information on precautions and contraindications, indications, use instructions, and instructions for appropriate actions after missing a pill is appended." new_text="Information@@on@@precautions@@and@@contraindications@@,@@indications@@,@@use@@instructions@@,@@and@@instructions@@for@@appropriate@@actions@@after@@missing@@a@@pill@@is@@appended@@.@@"/> 
+</document>

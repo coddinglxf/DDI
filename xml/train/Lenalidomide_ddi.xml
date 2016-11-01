@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d169"> 
+   <sentence id="DDI-DrugBank.d169.s0" text="Results from human in vitro metabolism studies and nonclinical studies show that REVLIMID  (lenalidomide) is neither metabolized by nor inhibits or induces the cytochrome P450 pathway suggesting that lenalidomide is not likely to cause or be subject to P450-based metabolic drug interactions in man." new_text="Results@@from@@human@@in@@vitro@@metabolism@@studies@@and@@nonclinical@@studies@@show@@that@@REVLIMID@@(@@lenalidomide@@)@@is@@neither@@metabolized@@by@@nor@@inhibits@@or@@induces@@the@@cytochrome@@P450@@pathway@@suggesting@@that@@lenalidomide@@is@@not@@likely@@to@@cause@@or@@be@@subject@@to@@P450-based@@metabolic@@drug@@interactions@@in@@man@@.@@"> 
+      <entity id="DDI-DrugBank.d169.s0.e0" charOffset="81-88" type="brand" text="REVLIMID" position="12"/>  
+      <entity id="DDI-DrugBank.d169.s0.e1" charOffset="92-103" type="drug" text="lenalidomide" position="14"/>  
+      <entity id="DDI-DrugBank.d169.s0.e2" charOffset="200-211" type="drug" text="lenalidomide" position="30"/>  
+      <pair id="DDI-DrugBank.d169.s0.p0" e1="DDI-DrugBank.d169.s0.e0" e2="DDI-DrugBank.d169.s0.e1" ddi="false" flags="True" e1_name="REVLIMID" e2_name="lenalidomide" e1_pos="12" e2_pos="14" path="12@@15@@14@@">REVLIMID@@@@nn@@)@@nn@@lenalidomide</pair>  
+      <pair id="DDI-DrugBank.d169.s0.p1" e1="DDI-DrugBank.d169.s0.e0" e2="DDI-DrugBank.d169.s0.e2" ddi="false" flags="True" e1_name="REVLIMID" e2_name="lenalidomide" e1_pos="12" e2_pos="30" path="12@@15@@18@@10@@23@@28@@33@@30@@">REVLIMID@@@@nn@@)@@nsubjpass@@metabolized@@ccomp@@show@@conj_or@@induces@@xcomp@@suggesting@@ccomp@@likely@@nsubj@@lenalidomide</pair>  
+      <pair id="DDI-DrugBank.d169.s0.p2" e1="DDI-DrugBank.d169.s0.e1" e2="DDI-DrugBank.d169.s0.e2" ddi="false" flags="True" e1_name="lenalidomide" e2_name="lenalidomide" e1_pos="14" e2_pos="30" path="14@@15@@18@@10@@23@@28@@33@@30@@">lenalidomide@@@@nn@@)@@nsubjpass@@metabolized@@ccomp@@show@@conj_or@@induces@@xcomp@@suggesting@@ccomp@@likely@@nsubj@@lenalidomide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d169.s1" text="Co-administration of multiple doses of 10 mg of lenalidomide had no effect on the single dose pharmacokinetics of R- and S- warfarin." new_text="Co-administration@@of@@multiple@@doses@@of@@10@@mg@@of@@lenalidomide@@had@@no@@effect@@on@@the@@single@@dose@@pharmacokinetics@@of@@R-@@and@@S- warfarin@@.@@"> 
+      <entity id="DDI-DrugBank.d169.s1.e0" charOffset="48-59" type="drug" text="lenalidomide" position="8"/>  
+      <entity id="DDI-DrugBank.d169.s1.e1" charOffset="114-115;124-131" type="drug" text="R- warfarin" position="not_a_number"/>  
+      <entity id="DDI-DrugBank.d169.s1.e2" charOffset="121-131" type="drug" text="S- warfarin" position="20"/>  
+      <pair id="DDI-DrugBank.d169.s1.p0" e1="DDI-DrugBank.d169.s1.e0" e2="DDI-DrugBank.d169.s1.e1" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d169.s1.p1" e1="DDI-DrugBank.d169.s1.e0" e2="DDI-DrugBank.d169.s1.e2" ddi="false" flags="True" e1_name="lenalidomide" e2_name="S- warfarin" e1_pos="8" e2_pos="20" path="8@@6@@3@@0@@9@@11@@16@@20@@">lenalidomide@@@@prep_of@@mg@@prep_of@@doses@@prep_of@@Co-administration@@nsubj@@had@@dobj@@effect@@prep_on@@pharmacokinetics@@prep_of@@S- warfarin</pair>  
+      <pair id="DDI-DrugBank.d169.s1.p2" e1="DDI-DrugBank.d169.s1.e1" e2="DDI-DrugBank.d169.s1.e2" ddi="false" flags="False"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d169.s2" text="Co-administration of single 25-mg dose warfarin had no effect on the pharmacokinetics of total lenalidomide." new_text="Co-administration@@of@@single@@25-mg@@dose@@warfarin@@had@@no@@effect@@on@@the@@pharmacokinetics@@of@@total@@lenalidomide@@.@@"> 
+      <entity id="DDI-DrugBank.d169.s2.e0" charOffset="39-46" type="drug" text="warfarin" position="5"/>  
+      <entity id="DDI-DrugBank.d169.s2.e1" charOffset="95-106" type="drug" text="lenalidomide" position="14"/>  
+      <pair id="DDI-DrugBank.d169.s2.p0" e1="DDI-DrugBank.d169.s2.e0" e2="DDI-DrugBank.d169.s2.e1" ddi="false" flags="True" e1_name="warfarin" e2_name="lenalidomide" e1_pos="5" e2_pos="14" path="5@@0@@6@@8@@11@@14@@">warfarin@@@@prep_of@@Co-administration@@nsubj@@had@@dobj@@effect@@prep_on@@pharmacokinetics@@prep_of@@lenalidomide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d169.s3" text="Expected changes in laboratory assessments of PT and INR were observed after warfarin administration, but these changes were not affected by concomitant lenalidomide administration." new_text="Expected@@changes@@in@@laboratory@@assessments@@of@@PT@@and@@INR@@were@@observed@@after@@warfarin@@administration@@,@@but@@these@@changes@@were@@not@@affected@@by@@concomitant@@lenalidomide@@administration@@.@@"> 
+      <entity id="DDI-DrugBank.d169.s3.e0" charOffset="77-84" type="drug" text="warfarin" position="12"/>  
+      <entity id="DDI-DrugBank.d169.s3.e1" charOffset="153-164" type="drug" text="lenalidomide" position="23"/>  
+      <pair id="DDI-DrugBank.d169.s3.p0" e1="DDI-DrugBank.d169.s3.e0" e2="DDI-DrugBank.d169.s3.e1" ddi="false" flags="True" e1_name="warfarin" e2_name="lenalidomide" e1_pos="12" e2_pos="23" path="12@@13@@10@@20@@24@@23@@">warfarin@@@@nn@@administration@@prep_after@@observed@@conj_but@@affected@@agent@@administration@@nn@@lenalidomide</pair> 
+   </sentence> 
+</document>

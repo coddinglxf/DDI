@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d74"> 
+   <sentence id="DDI-MedLine.d74.s0" text="Responses to arginine of the perfused pancreas of the genetically diabetic Chinese hamster.
+" new_text="Responses@@to@@arginine@@of@@the@@perfused@@pancreas@@of@@the@@genetically@@diabetic@@Chinese@@hamster@@.@@"> 
+      <entity id="DDI-MedLine.d74.s0.e0" charOffset="13-20" type="drug" text="arginine" position="2"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d74.s1" text="Nonketotic, genetically diabetic Cinese hamsters show subnormal pancreatic insulin release and impaired suppression of glucagon in response to glucose. " new_text="Nonketotic@@,@@genetically@@diabetic@@Cinese@@hamsters@@show@@subnormal@@pancreatic@@insulin@@release@@and@@impaired@@suppression@@of@@glucagon@@in@@response@@to@@glucose@@.@@"/>  
+   <sentence id="DDI-MedLine.d74.s2" text="To study the pancreatic effects of other agents, dynamic insulin and glucagon release was measured from the in vitro perfused pancreases of normal and diabetic Chinese hamsters in response to various combinations of arginine (20mM), glucose (100 or 150 mg. per 100 ml.), and theophylline (10 mM). " new_text="To@@study@@the@@pancreatic@@effects@@of@@other@@agents@@,@@dynamic@@insulin@@and@@glucagon@@release@@was@@measured@@from@@the@@in@@vitro@@perfused@@pancreases@@of@@normal@@and@@diabetic@@Chinese@@hamsters@@in@@response@@to@@various@@combinations@@of@@arginine@@(20mM)@@,@@glucose@@(100@@or@@150@@mg@@.@@per@@100@@ml.)@@,@@and@@theophylline@@(10@@mM)@@.@@"> 
+      <entity id="DDI-MedLine.d74.s2.e0" charOffset="216-223" type="drug" text="arginine" position="34"/>  
+      <entity id="DDI-MedLine.d74.s2.e1" charOffset="233-239" type="drug" text="glucose" position="37"/>  
+      <entity id="DDI-MedLine.d74.s2.e2" charOffset="275-286" type="drug" text="theophylline" position="48"/>  
+      <pair id="DDI-MedLine.d74.s2.p0" e1="DDI-MedLine.d74.s2.e0" e2="DDI-MedLine.d74.s2.e1" ddi="false" flags="True" e1_name="arginine" e2_name="glucose" e1_pos="34" e2_pos="37" path="34@@35@@37@@">arginine@@@@amod@@(20mM)@@appos@@glucose</pair>  
+      <pair id="DDI-MedLine.d74.s2.p1" e1="DDI-MedLine.d74.s2.e0" e2="DDI-MedLine.d74.s2.e2" ddi="false" flags="True" e1_name="arginine" e2_name="theophylline" e1_pos="34" e2_pos="48" path="34@@35@@37@@48@@">arginine@@@@amod@@(20mM)@@appos@@glucose@@prep_per@@theophylline</pair>  
+      <pair id="DDI-MedLine.d74.s2.p2" e1="DDI-MedLine.d74.s2.e1" e2="DDI-MedLine.d74.s2.e2" ddi="false" flags="True" e1_name="glucose" e2_name="theophylline" e1_pos="37" e2_pos="48" path="37@@48@@">glucose@@@@prep_per@@theophylline</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d74.s3" text="Theophylline alone caused identical insulin and glucagon release in diabetics and normals. " new_text="Theophylline@@alone@@caused@@identical@@insulin@@and@@glucagon@@release@@in@@diabetics@@and@@normals@@.@@"> 
+      <entity id="DDI-MedLine.d74.s3.e0" charOffset="0-11" type="drug" text="Theophylline" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d74.s4" text="Glucose, alone and in the presence of theophylline, caused subnormal insulin release and less suppression of glucagon release in the diabectics than in the normals. " new_text="Glucose@@,@@alone@@and@@in@@the@@presence@@of@@theophylline@@,@@caused@@subnormal@@insulin@@release@@and@@less@@suppression@@of@@glucagon@@release@@in@@the@@diabectics@@than@@in@@the@@normals@@.@@"> 
+      <entity id="DDI-MedLine.d74.s4.e0" charOffset="0-6" type="drug" text="Glucose" position="0"/>  
+      <entity id="DDI-MedLine.d74.s4.e1" charOffset="38-49" type="drug" text="theophylline" position="8"/>  
+      <pair id="DDI-MedLine.d74.s4.p0" e1="DDI-MedLine.d74.s4.e0" e2="DDI-MedLine.d74.s4.e1" ddi="false" flags="True" e1_name="Glucose" e2_name="theophylline" e1_pos="0" e2_pos="8" path="0@@4@@6@@8@@">Glucose@@@@dep@@in@@pobj@@presence@@prep_of@@theophylline</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d74.s5" text="Arginine, in the presence of glucose and theophylline, caused excessive glucagon release but nearly normal insulin release in the diabetics. " new_text="Arginine@@,@@in@@the@@presence@@of@@glucose@@and@@theophylline@@,@@caused@@excessive@@glucagon@@release@@but@@nearly@@normal@@insulin@@release@@in@@the@@diabetics@@.@@"> 
+      <entity id="DDI-MedLine.d74.s5.e0" charOffset="0-7" type="drug" text="Arginine" position="0"/>  
+      <entity id="DDI-MedLine.d74.s5.e1" charOffset="29-35" type="drug" text="glucose" position="6"/>  
+      <entity id="DDI-MedLine.d74.s5.e2" charOffset="41-52" type="drug" text="theophylline" position="8"/>  
+      <pair id="DDI-MedLine.d74.s5.p0" e1="DDI-MedLine.d74.s5.e0" e2="DDI-MedLine.d74.s5.e1" ddi="false" flags="True" e1_name="Arginine" e2_name="glucose" e1_pos="0" e2_pos="6" path="0@@10@@4@@6@@">Arginine@@@@advmod@@caused@@prep_in@@presence@@prep_of@@glucose</pair>  
+      <pair id="DDI-MedLine.d74.s5.p1" e1="DDI-MedLine.d74.s5.e0" e2="DDI-MedLine.d74.s5.e2" ddi="false" flags="True" e1_name="Arginine" e2_name="theophylline" e1_pos="0" e2_pos="8" path="0@@10@@4@@8@@">Arginine@@@@advmod@@caused@@prep_in@@presence@@prep_of@@theophylline</pair>  
+      <pair id="DDI-MedLine.d74.s5.p2" e1="DDI-MedLine.d74.s5.e1" e2="DDI-MedLine.d74.s5.e2" ddi="false" flags="True" e1_name="glucose" e2_name="theophylline" e1_pos="6" e2_pos="8" path="6@@8@@">glucose@@@@conj_and@@theophylline</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d74.s6" text="Arginine, in the absence of glucose or theophylline, caused excessive glucagon release in the diabetics and undetectable insulin release in either diabetics or normals. " new_text="Arginine@@,@@in@@the@@absence@@of@@glucose@@or@@theophylline@@,@@caused@@excessive@@glucagon@@release@@in@@the@@diabetics@@and@@undetectable@@insulin@@release@@in@@either@@diabetics@@or@@normals@@.@@"> 
+      <entity id="DDI-MedLine.d74.s6.e0" charOffset="0-7" type="drug" text="Arginine" position="0"/>  
+      <entity id="DDI-MedLine.d74.s6.e1" charOffset="28-34" type="drug" text="glucose" position="6"/>  
+      <entity id="DDI-MedLine.d74.s6.e2" charOffset="39-50" type="drug" text="theophylline" position="8"/>  
+      <pair id="DDI-MedLine.d74.s6.p0" e1="DDI-MedLine.d74.s6.e0" e2="DDI-MedLine.d74.s6.e1" ddi="false" flags="True" e1_name="Arginine" e2_name="glucose" e1_pos="0" e2_pos="6" path="0@@10@@4@@6@@">Arginine@@@@advmod@@caused@@prep_in@@absence@@prep_of@@glucose</pair>  
+      <pair id="DDI-MedLine.d74.s6.p1" e1="DDI-MedLine.d74.s6.e0" e2="DDI-MedLine.d74.s6.e2" ddi="false" flags="True" e1_name="Arginine" e2_name="theophylline" e1_pos="0" e2_pos="8" path="0@@10@@4@@8@@">Arginine@@@@advmod@@caused@@prep_in@@absence@@prep_of@@theophylline</pair>  
+      <pair id="DDI-MedLine.d74.s6.p2" e1="DDI-MedLine.d74.s6.e1" e2="DDI-MedLine.d74.s6.e2" ddi="false" flags="True" e1_name="glucose" e2_name="theophylline" e1_pos="6" e2_pos="8" path="6@@8@@">glucose@@@@conj_or@@theophylline</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d74.s7" text="Pancreatic content after perfusion did not correlate with release during perfusion. " new_text="Pancreatic@@content@@after@@perfusion@@did@@not@@correlate@@with@@release@@during@@perfusion@@.@@"/>  
+   <sentence id="DDI-MedLine.d74.s8" text="Infusion of arginine alone markedly decreased the amount of extractable pancreatic insulin and glucagon. " new_text="Infusion@@of@@arginine@@alone@@markedly@@decreased@@the@@amount@@of@@extractable@@pancreatic@@insulin@@and@@glucagon@@.@@"> 
+      <entity id="DDI-MedLine.d74.s8.e0" charOffset="12-19" type="drug" text="arginine" position="2"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d74.s9" text="These results indicate that the pancreatic alpha cell of the diabetic Chinese hamster responds excessively to arginine, as is seen in the human diabetic. " new_text="These@@results@@indicate@@that@@the@@pancreatic@@alpha@@cell@@of@@the@@diabetic@@Chinese@@hamster@@responds@@excessively@@to@@arginine@@,@@as@@is@@seen@@in@@the@@human@@diabetic@@.@@"> 
+      <entity id="DDI-MedLine.d74.s9.e0" charOffset="110-117" type="drug" text="arginine" position="16"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d74.s10" text="This defect is not related to acute insulin release or the presence of glucose. " new_text="This@@defect@@is@@not@@related@@to@@acute@@insulin@@release@@or@@the@@presence@@of@@glucose@@.@@"> 
+      <entity id="DDI-MedLine.d74.s10.e0" charOffset="71-77" type="drug" text="glucose" position="13"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d74.s11" text="Further, these results confirm that the diabetic Chinese hamster's alpha and beta cells respond normally to theophylline, but are relatively insensitive to glucose." new_text="Further@@,@@these@@results@@confirm@@that@@the@@diabetic@@Chinese@@hamster's@@alpha@@and@@beta@@cells@@respond@@normally@@to@@theophylline@@,@@but@@are@@relatively@@insensitive@@to@@glucose@@.@@"> 
+      <entity id="DDI-MedLine.d74.s11.e0" charOffset="108-119" type="drug" text="theophylline" position="17"/>  
+      <entity id="DDI-MedLine.d74.s11.e1" charOffset="156-162" type="drug" text="glucose" position="24"/>  
+      <pair id="DDI-MedLine.d74.s11.p0" e1="DDI-MedLine.d74.s11.e0" e2="DDI-MedLine.d74.s11.e1" ddi="false" flags="True" e1_name="theophylline" e2_name="glucose" e1_pos="17" e2_pos="24" path="17@@13@@22@@24@@">theophylline@@@@xsubj@@cells@@nsubj@@insensitive@@prep_to@@glucose</pair> 
+   </sentence> 
+</document>

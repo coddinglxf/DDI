@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d91"> 
+   <sentence id="DDI-DrugBank.d91.s0" text="Other medicines - Although certain medicines should not be used together at all, in other cases two different medicines may be used together even if an interaction might occur." new_text="Other@@medicines@@-@@Although@@certain@@medicines@@should@@not@@be@@used@@together@@at@@all@@,@@in@@other@@cases@@two@@different@@medicines@@may@@be@@used@@together@@even@@if@@an@@interaction@@might@@occur@@.@@"/>  
+   <sentence id="DDI-DrugBank.d91.s1" text="In these cases, your doctor may want to change the dose, or other precautions may be necessary." new_text="In@@these@@cases@@,@@your@@doctor@@may@@want@@to@@change@@the@@dose@@,@@or@@other@@precautions@@may@@be@@necessary@@.@@"/>  
+   <sentence id="DDI-DrugBank.d91.s2" text="When you are using idoxuridine, it is especially important that your health care professional know if you are using the following: Eye product containing boric acid." new_text="When@@you@@are@@using@@idoxuridine@@,@@it@@is@@especially@@important@@that@@your@@health@@care@@professional@@know@@if@@you@@are@@using@@the@@following@@:@@Eye@@product@@containing@@boric acid@@.@@"> 
+      <entity id="DDI-DrugBank.d91.s2.e0" charOffset="19-29" type="drug" text="idoxuridine" position="4"/>  
+      <entity id="DDI-DrugBank.d91.s2.e1" charOffset="154-163" type="drug" text="boric acid" position="26"/>  
+      <pair id="DDI-DrugBank.d91.s2.p0" e1="DDI-DrugBank.d91.s2.e0" e2="DDI-DrugBank.d91.s2.e1" ddi="true" type="advise" flags="True" e1_name="idoxuridine" e2_name="boric acid" e1_pos="4" e2_pos="26" path="4@@3@@9@@15@@19@@21@@24@@25@@26@@">idoxuridine@@@@acomp@@using@@advcl@@important@@ccomp@@know@@advcl@@using@@dobj@@following@@dep@@product@@partmod@@containing@@acomp@@boric acid</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d91.s3" text="Boric acid may interact with the idoxuridine preparation causing a gritty substance to form or may interact with the preservative in the idoxuridine preparation causing a toxic effect in the eye." new_text="Boric acid@@may@@interact@@with@@the@@idoxuridine@@preparation@@causing@@a@@gritty@@substance@@to@@form@@or@@may@@interact@@with@@the@@preservative@@in@@the@@idoxuridine@@preparation@@causing@@a@@toxic@@effect@@in@@the@@eye@@.@@"> 
+      <entity id="DDI-DrugBank.d91.s3.e0" charOffset="0-9" type="drug" text="Boric acid" position="0"/>  
+      <entity id="DDI-DrugBank.d91.s3.e1" charOffset="33-43" type="drug" text="idoxuridine" position="5"/>  
+      <entity id="DDI-DrugBank.d91.s3.e2" charOffset="137-147" type="drug" text="idoxuridine" position="21"/>  
+      <pair id="DDI-DrugBank.d91.s3.p0" e1="DDI-DrugBank.d91.s3.e0" e2="DDI-DrugBank.d91.s3.e1" ddi="true" type="mechanism" flags="True" e1_name="Boric acid" e2_name="idoxuridine" e1_pos="0" e2_pos="5" path="0@@2@@6@@5@@">Boric acid@@@@nsubj@@interact@@prep_with@@preparation@@amod@@idoxuridine</pair>  
+      <pair id="DDI-DrugBank.d91.s3.p1" e1="DDI-DrugBank.d91.s3.e0" e2="DDI-DrugBank.d91.s3.e2" ddi="false" flags="True" e1_name="Boric acid" e2_name="idoxuridine" e1_pos="0" e2_pos="21" path="0@@15@@18@@22@@21@@">Boric acid@@@@nsubj@@interact@@prep_with@@preservative@@prep_in@@preparation@@amod@@idoxuridine</pair>  
+      <pair id="DDI-DrugBank.d91.s3.p2" e1="DDI-DrugBank.d91.s3.e1" e2="DDI-DrugBank.d91.s3.e2" ddi="false" flags="True" e1_name="idoxuridine" e2_name="idoxuridine" e1_pos="5" e2_pos="21" path="5@@6@@2@@15@@18@@22@@21@@">idoxuridine@@@@amod@@preparation@@prep_with@@interact@@conj_or@@interact@@prep_with@@preservative@@prep_in@@preparation@@amod@@idoxuridine</pair> 
+   </sentence> 
+</document>

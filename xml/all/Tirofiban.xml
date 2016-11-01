@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d751"> 
+   <sentence id="DDI-DrugBank.d751.s0" text="AGGRASTAT has been studied on a background of aspirin and heparin. " new_text="AGGRASTAT@@has@@been@@studied@@on@@a@@background@@of@@aspirin@@and@@heparin@@.@@"> 
+      <entity id="DDI-DrugBank.d751.s0.e0" charOffset="0-8" type="brand" text="AGGRASTAT" position="0"/>  
+      <entity id="DDI-DrugBank.d751.s0.e1" charOffset="46-52" type="brand" text="aspirin" position="8"/>  
+      <entity id="DDI-DrugBank.d751.s0.e2" charOffset="58-64" type="drug" text="heparin" position="10"/>  
+      <pair id="DDI-DrugBank.d751.s0.p0" e1="DDI-DrugBank.d751.s0.e0" e2="DDI-DrugBank.d751.s0.e1" ddi="false" flags="True" e1_name="AGGRASTAT" e2_name="aspirin" e1_pos="0" e2_pos="8" path="0@@3@@6@@8@@">AGGRASTAT@@@@nsubjpass@@studied@@prep_on@@background@@prep_of@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d751.s0.p1" e1="DDI-DrugBank.d751.s0.e0" e2="DDI-DrugBank.d751.s0.e2" ddi="false" flags="True" e1_name="AGGRASTAT" e2_name="heparin" e1_pos="0" e2_pos="10" path="0@@3@@6@@10@@">AGGRASTAT@@@@nsubjpass@@studied@@prep_on@@background@@prep_of@@heparin</pair>  
+      <pair id="DDI-DrugBank.d751.s0.p2" e1="DDI-DrugBank.d751.s0.e1" e2="DDI-DrugBank.d751.s0.e2" ddi="false" flags="True" e1_name="aspirin" e2_name="heparin" e1_pos="8" e2_pos="10" path="8@@10@@">aspirin@@@@conj_and@@heparin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d751.s1" text="The use of AGGRASTAT, in combination with heparin and aspirin, has been associated with an increase in bleeding compared to heparin and aspirin alone (see" new_text="The@@use@@of@@AGGRASTAT@@,@@in@@combination@@with@@heparin@@and@@aspirin@@,@@has@@been@@associated@@with@@an@@increase@@in@@bleeding@@compared@@to@@heparin@@and@@aspirin@@alone@@(see@@"> 
+      <entity id="DDI-DrugBank.d751.s1.e0" charOffset="11-19" type="brand" text="AGGRASTAT" position="3"/>  
+      <entity id="DDI-DrugBank.d751.s1.e1" charOffset="42-48" type="drug" text="heparin" position="8"/>  
+      <entity id="DDI-DrugBank.d751.s1.e2" charOffset="54-60" type="brand" text="aspirin" position="10"/>  
+      <entity id="DDI-DrugBank.d751.s1.e3" charOffset="124-130" type="drug" text="heparin" position="22"/>  
+      <entity id="DDI-DrugBank.d751.s1.e4" charOffset="136-142" type="drug" text="aspirin" position="24"/>  
+      <pair id="DDI-DrugBank.d751.s1.p0" e1="DDI-DrugBank.d751.s1.e0" e2="DDI-DrugBank.d751.s1.e1" ddi="true" type="effect" flags="True" e1_name="AGGRASTAT" e2_name="heparin" e1_pos="3" e2_pos="8" path="3@@1@@6@@8@@">AGGRASTAT@@@@prep_of@@use@@prep_in@@combination@@prep_with@@heparin</pair>  
+      <pair id="DDI-DrugBank.d751.s1.p1" e1="DDI-DrugBank.d751.s1.e0" e2="DDI-DrugBank.d751.s1.e2" ddi="true" type="effect" flags="True" e1_name="AGGRASTAT" e2_name="aspirin" e1_pos="3" e2_pos="10" path="3@@1@@6@@10@@">AGGRASTAT@@@@prep_of@@use@@prep_in@@combination@@prep_with@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d751.s1.p2" e1="DDI-DrugBank.d751.s1.e0" e2="DDI-DrugBank.d751.s1.e3" ddi="false" flags="True" e1_name="AGGRASTAT" e2_name="heparin" e1_pos="3" e2_pos="22" path="3@@1@@14@@19@@22@@">AGGRASTAT@@@@prep_of@@use@@nsubjpass@@associated@@prepc_in@@bleeding@@pobj@@heparin</pair>  
+      <pair id="DDI-DrugBank.d751.s1.p3" e1="DDI-DrugBank.d751.s1.e0" e2="DDI-DrugBank.d751.s1.e4" ddi="false" flags="True" e1_name="AGGRASTAT" e2_name="aspirin" e1_pos="3" e2_pos="24" path="3@@1@@14@@19@@24@@">AGGRASTAT@@@@prep_of@@use@@nsubjpass@@associated@@prepc_in@@bleeding@@pobj@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d751.s1.p4" e1="DDI-DrugBank.d751.s1.e1" e2="DDI-DrugBank.d751.s1.e2" ddi="false" flags="True" e1_name="heparin" e2_name="aspirin" e1_pos="8" e2_pos="10" path="8@@10@@">heparin@@@@conj_and@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d751.s1.p5" e1="DDI-DrugBank.d751.s1.e1" e2="DDI-DrugBank.d751.s1.e3" ddi="false" flags="True" e1_name="heparin" e2_name="heparin" e1_pos="8" e2_pos="22" path="8@@6@@1@@14@@19@@22@@">heparin@@@@prep_with@@combination@@prep_in@@use@@nsubjpass@@associated@@prepc_in@@bleeding@@pobj@@heparin</pair>  
+      <pair id="DDI-DrugBank.d751.s1.p6" e1="DDI-DrugBank.d751.s1.e1" e2="DDI-DrugBank.d751.s1.e4" ddi="false" flags="True" e1_name="heparin" e2_name="aspirin" e1_pos="8" e2_pos="24" path="8@@6@@1@@14@@19@@24@@">heparin@@@@prep_with@@combination@@prep_in@@use@@nsubjpass@@associated@@prepc_in@@bleeding@@pobj@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d751.s1.p7" e1="DDI-DrugBank.d751.s1.e2" e2="DDI-DrugBank.d751.s1.e3" ddi="false" flags="True" e1_name="aspirin" e2_name="heparin" e1_pos="10" e2_pos="22" path="10@@6@@1@@14@@19@@22@@">aspirin@@@@prep_with@@combination@@prep_in@@use@@nsubjpass@@associated@@prepc_in@@bleeding@@pobj@@heparin</pair>  
+      <pair id="DDI-DrugBank.d751.s1.p8" e1="DDI-DrugBank.d751.s1.e2" e2="DDI-DrugBank.d751.s1.e4" ddi="false" flags="True" e1_name="aspirin" e2_name="aspirin" e1_pos="10" e2_pos="24" path="10@@6@@1@@14@@19@@24@@">aspirin@@@@prep_with@@combination@@prep_in@@use@@nsubjpass@@associated@@prepc_in@@bleeding@@pobj@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d751.s1.p9" e1="DDI-DrugBank.d751.s1.e3" e2="DDI-DrugBank.d751.s1.e4" ddi="false" flags="True" e1_name="heparin" e2_name="aspirin" e1_pos="22" e2_pos="24" path="22@@24@@">heparin@@@@conj_and@@aspirin</pair> 
+   </sentence> 
+</document>

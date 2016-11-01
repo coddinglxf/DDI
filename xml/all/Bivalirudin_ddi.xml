@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d569"> 
+   <sentence id="DDI-DrugBank.d569.s0" text="Angiomax does not exhibit binding to plasma proteins (other than thrombin) or red blood cells." new_text="Angiomax@@does@@not@@exhibit@@binding@@to@@plasma@@proteins@@(other@@than@@thrombin)@@or@@red@@blood@@cells@@.@@"> 
+      <entity id="DDI-DrugBank.d569.s0.e0" charOffset="0-7" type="brand" text="Angiomax" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d569.s1" text="In clinical trials in patients undergoing PTCA/PCI, co-administration of Angiomax with heparin, warfarin, thrombolytics or glycoprotein IIb/IIIa inhibitors was associated with increased risks of major bleeding events compared to patients not receiving these concomitant medications." new_text="In@@clinical@@trials@@in@@patients@@undergoing@@PTCA/PCI@@,@@co-administration@@of@@Angiomax@@with@@heparin@@,@@warfarin@@,@@thrombolytics@@or@@glycoprotein@@IIb/IIIa@@inhibitors@@was@@associated@@with@@increased@@risks@@of@@major@@bleeding@@events@@compared@@to@@patients@@not@@receiving@@these@@concomitant@@medications@@.@@"> 
+      <entity id="DDI-DrugBank.d569.s1.e0" charOffset="73-80" type="brand" text="Angiomax" position="10"/>  
+      <entity id="DDI-DrugBank.d569.s1.e1" charOffset="87-93" type="drug" text="heparin" position="12"/>  
+      <entity id="DDI-DrugBank.d569.s1.e2" charOffset="96-103" type="drug" text="warfarin" position="14"/>  
+      <entity id="DDI-DrugBank.d569.s1.e3" charOffset="106-118" type="group" text="thrombolytics" position="16"/>  
+      <pair id="DDI-DrugBank.d569.s1.p0" e1="DDI-DrugBank.d569.s1.e0" e2="DDI-DrugBank.d569.s1.e1" ddi="true" type="effect" flags="True" e1_name="Angiomax" e2_name="heparin" e1_pos="10" e2_pos="12" path="10@@16@@12@@">Angiomax@@@@prep_with@@thrombolytics@@nn@@heparin</pair>  
+      <pair id="DDI-DrugBank.d569.s1.p1" e1="DDI-DrugBank.d569.s1.e0" e2="DDI-DrugBank.d569.s1.e2" ddi="true" type="effect" flags="True" e1_name="Angiomax" e2_name="warfarin" e1_pos="10" e2_pos="14" path="10@@16@@14@@">Angiomax@@@@prep_with@@thrombolytics@@dep@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d569.s1.p2" e1="DDI-DrugBank.d569.s1.e0" e2="DDI-DrugBank.d569.s1.e3" ddi="true" type="effect" flags="True" e1_name="Angiomax" e2_name="thrombolytics" e1_pos="10" e2_pos="16" path="10@@16@@">Angiomax@@@@prep_with@@thrombolytics</pair>  
+      <pair id="DDI-DrugBank.d569.s1.p3" e1="DDI-DrugBank.d569.s1.e1" e2="DDI-DrugBank.d569.s1.e2" ddi="false" flags="True" e1_name="heparin" e2_name="warfarin" e1_pos="12" e2_pos="14" path="12@@16@@14@@">heparin@@@@nn@@thrombolytics@@dep@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d569.s1.p4" e1="DDI-DrugBank.d569.s1.e1" e2="DDI-DrugBank.d569.s1.e3" ddi="false" flags="True" e1_name="heparin" e2_name="thrombolytics" e1_pos="12" e2_pos="16" path="12@@16@@">heparin@@@@nn@@thrombolytics</pair>  
+      <pair id="DDI-DrugBank.d569.s1.p5" e1="DDI-DrugBank.d569.s1.e2" e2="DDI-DrugBank.d569.s1.e3" ddi="false" flags="True" e1_name="warfarin" e2_name="thrombolytics" e1_pos="14" e2_pos="16" path="14@@16@@">warfarin@@@@dep@@thrombolytics</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d569.s2" text="There is no experience with co-administration of Angiomax and plasma expanders such as dextran." new_text="There@@is@@no@@experience@@with@@co-administration@@of@@Angiomax@@and@@plasma@@expanders@@such@@as@@dextran@@.@@"> 
+      <entity id="DDI-DrugBank.d569.s2.e0" charOffset="49-56" type="brand" text="Angiomax" position="7"/>  
+      <entity id="DDI-DrugBank.d569.s2.e1" charOffset="87-93" type="drug" text="dextran" position="13"/>  
+      <pair id="DDI-DrugBank.d569.s2.p0" e1="DDI-DrugBank.d569.s2.e0" e2="DDI-DrugBank.d569.s2.e1" ddi="false" flags="True" e1_name="Angiomax" e2_name="dextran" e1_pos="7" e2_pos="13" path="7@@5@@10@@13@@">Angiomax@@@@prep_of@@co-administration@@conj_and@@expanders@@prep_such_as@@dextran</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d569.s3" text="Angiomax should be used with caution in patients with disease states associated with an increased risk of bleeding." new_text="Angiomax@@should@@be@@used@@with@@caution@@in@@patients@@with@@disease@@states@@associated@@with@@an@@increased@@risk@@of@@bleeding@@.@@"> 
+      <entity id="DDI-DrugBank.d569.s3.e0" charOffset="0-7" type="brand" text="Angiomax" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d569.s4" text="Immunogenicity/Re-exposure: In in vitro studies, Angiomax exhibited no platelet aggregation response against sera from patients with a history of HIT/HITTS." new_text="Immunogenicity/Re-exposure@@:@@In@@in@@vitro@@studies@@,@@Angiomax@@exhibited@@no@@platelet@@aggregation@@response@@against@@sera@@from@@patients@@with@@a@@history@@of@@HIT/HITTS@@.@@"> 
+      <entity id="DDI-DrugBank.d569.s4.e0" charOffset="49-56" type="brand" text="Angiomax" position="7"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d569.s5" text="Among 494 subjects who received Angiomax in clinical trials and were tested for antibodies, 2 subjects had treatment-emergent positive bivalirudin antibody tests." new_text="Among@@494@@subjects@@who@@received@@Angiomax@@in@@clinical@@trials@@and@@were@@tested@@for@@antibodies@@,@@2@@subjects@@had@@treatment-emergent@@positive@@bivalirudin@@antibody@@tests@@.@@"> 
+      <entity id="DDI-DrugBank.d569.s5.e0" charOffset="32-39" type="brand" text="Angiomax" position="5"/>  
+      <entity id="DDI-DrugBank.d569.s5.e1" charOffset="135-145" type="drug" text="bivalirudin" position="20"/>  
+      <pair id="DDI-DrugBank.d569.s5.p0" e1="DDI-DrugBank.d569.s5.e0" e2="DDI-DrugBank.d569.s5.e1" ddi="false" flags="True" e1_name="Angiomax" e2_name="bivalirudin" e1_pos="5" e2_pos="20" path="5@@4@@2@@17@@22@@20@@">Angiomax@@@@dobj@@received@@rcmod@@subjects@@prep_among@@had@@dobj@@tests@@nn@@bivalirudin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d569.s6" text="Neither subject demonstrated clinical evidence of allergic or anaphylactic reactions and repeat testing was not performed." new_text="Neither@@subject@@demonstrated@@clinical@@evidence@@of@@allergic@@or@@anaphylactic@@reactions@@and@@repeat@@testing@@was@@not@@performed@@.@@"/>  
+   <sentence id="DDI-DrugBank.d569.s7" text="Nine additional patients who had initial positive tests were negative on repeat testing." new_text="Nine@@additional@@patients@@who@@had@@initial@@positive@@tests@@were@@negative@@on@@repeat@@testing@@.@@"/> 
+</document>

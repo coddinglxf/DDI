@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d648"> 
+   <sentence id="DDI-DrugBank.d648.s0" text="Cholestyramine: Cholestyramine causes a 60% reduction in the absorption and enterohepatic cycling of raloxifene and should not be coadministered with EVISTA. " new_text="Cholestyramine@@:@@Cholestyramine@@causes@@a@@60%@@reduction@@in@@the@@absorption@@and@@enterohepatic@@cycling@@of@@raloxifene@@and@@should@@not@@be@@coadministered@@with@@EVISTA@@.@@"> 
+      <entity id="DDI-DrugBank.d648.s0.e0" charOffset="0-13" type="drug" text="Cholestyramine" position="0"/>  
+      <entity id="DDI-DrugBank.d648.s0.e1" charOffset="16-29" type="drug" text="Cholestyramine" position="2"/>  
+      <entity id="DDI-DrugBank.d648.s0.e2" charOffset="101-110" type="drug" text="raloxifene" position="14"/>  
+      <entity id="DDI-DrugBank.d648.s0.e3" charOffset="150-155" type="brand" text="EVISTA" position="21"/>  
+      <pair id="DDI-DrugBank.d648.s0.p0" e1="DDI-DrugBank.d648.s0.e0" e2="DDI-DrugBank.d648.s0.e1" ddi="false" flags="True" e1_name="Cholestyramine" e2_name="Cholestyramine" e1_pos="0" e2_pos="2" path="0@@3@@2@@">Cholestyramine@@@@dep@@causes@@nsubj@@Cholestyramine</pair>  
+      <pair id="DDI-DrugBank.d648.s0.p1" e1="DDI-DrugBank.d648.s0.e0" e2="DDI-DrugBank.d648.s0.e2" ddi="false" flags="True" e1_name="Cholestyramine" e2_name="raloxifene" e1_pos="0" e2_pos="14" path="0@@3@@12@@14@@">Cholestyramine@@@@dep@@causes@@prep_in@@cycling@@prep_of@@raloxifene</pair>  
+      <pair id="DDI-DrugBank.d648.s0.p2" e1="DDI-DrugBank.d648.s0.e0" e2="DDI-DrugBank.d648.s0.e3" ddi="false" flags="True" e1_name="Cholestyramine" e2_name="EVISTA" e1_pos="0" e2_pos="21" path="0@@19@@21@@">Cholestyramine@@@@dep@@coadministered@@prep_with@@EVISTA</pair>  
+      <pair id="DDI-DrugBank.d648.s0.p3" e1="DDI-DrugBank.d648.s0.e1" e2="DDI-DrugBank.d648.s0.e2" ddi="true" type="mechanism" flags="True" e1_name="Cholestyramine" e2_name="raloxifene" e1_pos="2" e2_pos="14" path="2@@3@@12@@14@@">Cholestyramine@@@@nsubj@@causes@@prep_in@@cycling@@prep_of@@raloxifene</pair>  
+      <pair id="DDI-DrugBank.d648.s0.p4" e1="DDI-DrugBank.d648.s0.e1" e2="DDI-DrugBank.d648.s0.e3" ddi="true" type="advise" flags="True" e1_name="Cholestyramine" e2_name="EVISTA" e1_pos="2" e2_pos="21" path="2@@19@@21@@">Cholestyramine@@@@nsubjpass@@coadministered@@prep_with@@EVISTA</pair>  
+      <pair id="DDI-DrugBank.d648.s0.p5" e1="DDI-DrugBank.d648.s0.e2" e2="DDI-DrugBank.d648.s0.e3" ddi="false" flags="True" e1_name="raloxifene" e2_name="EVISTA" e1_pos="14" e2_pos="21" path="14@@12@@3@@19@@21@@">raloxifene@@@@prep_of@@cycling@@prep_in@@causes@@conj_and@@coadministered@@prep_with@@EVISTA</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d648.s1" text="Warfarin: The coadministration of EVISTA and warfarin has not been assessed under chronic conditions. " new_text="Warfarin@@:@@The@@coadministration@@of@@EVISTA@@and@@warfarin@@has@@not@@been@@assessed@@under@@chronic@@conditions@@.@@"> 
+      <entity id="DDI-DrugBank.d648.s1.e0" charOffset="0-7" type="drug" text="Warfarin" position="0"/>  
+      <entity id="DDI-DrugBank.d648.s1.e1" charOffset="34-39" type="brand" text="EVISTA" position="5"/>  
+      <entity id="DDI-DrugBank.d648.s1.e2" charOffset="45-52" type="drug" text="warfarin" position="7"/>  
+      <pair id="DDI-DrugBank.d648.s1.p0" e1="DDI-DrugBank.d648.s1.e0" e2="DDI-DrugBank.d648.s1.e1" ddi="false" flags="True" e1_name="Warfarin" e2_name="EVISTA" e1_pos="0" e2_pos="5" path="0@@11@@3@@5@@">Warfarin@@@@dep@@assessed@@nsubjpass@@coadministration@@prep_of@@EVISTA</pair>  
+      <pair id="DDI-DrugBank.d648.s1.p1" e1="DDI-DrugBank.d648.s1.e0" e2="DDI-DrugBank.d648.s1.e2" ddi="false" flags="True" e1_name="Warfarin" e2_name="warfarin" e1_pos="0" e2_pos="7" path="0@@11@@3@@7@@">Warfarin@@@@dep@@assessed@@nsubjpass@@coadministration@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d648.s1.p2" e1="DDI-DrugBank.d648.s1.e1" e2="DDI-DrugBank.d648.s1.e2" ddi="false" flags="True" e1_name="EVISTA" e2_name="warfarin" e1_pos="5" e2_pos="7" path="5@@7@@">EVISTA@@@@conj_and@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d648.s2" text="However, 10% decreases in prothrombin time have been observed in single-dose studies. " new_text="However@@,@@10%@@decreases@@in@@prothrombin@@time@@have@@been@@observed@@in@@single-dose@@studies@@.@@"/>  
+   <sentence id="DDI-DrugBank.d648.s3" text="If EVISTA is given concurrently with warfarin, prothrombin time should be monitored. " new_text="If@@EVISTA@@is@@given@@concurrently@@with@@warfarin@@,@@prothrombin@@time@@should@@be@@monitored@@.@@"> 
+      <entity id="DDI-DrugBank.d648.s3.e0" charOffset="3-8" type="brand" text="EVISTA" position="1"/>  
+      <entity id="DDI-DrugBank.d648.s3.e1" charOffset="37-44" type="drug" text="warfarin" position="6"/>  
+      <pair id="DDI-DrugBank.d648.s3.p0" e1="DDI-DrugBank.d648.s3.e0" e2="DDI-DrugBank.d648.s3.e1" ddi="true" type="advise" flags="True" e1_name="EVISTA" e2_name="warfarin" e1_pos="1" e2_pos="6" path="1@@3@@6@@">EVISTA@@@@nsubjpass@@given@@prep_with@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d648.s4" text="Other Highly Protein-Bound Drugs: Raloxifene is more than 95% bound to plasma proteins. " new_text="Other@@Highly@@Protein-Bound@@Drugs@@:@@Raloxifene@@is@@more@@than@@95%@@bound@@to@@plasma@@proteins@@.@@"> 
+      <entity id="DDI-DrugBank.d648.s4.e0" charOffset="34-43" type="drug" text="Raloxifene" position="5"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d648.s5" text="In vitro, raloxifene did not affect the binding of warfarin, phenytoin, or tamoxifen. " new_text="In@@vitro@@,@@raloxifene@@did@@not@@affect@@the@@binding@@of@@warfarin@@,@@phenytoin@@,@@or@@tamoxifen@@.@@"> 
+      <entity id="DDI-DrugBank.d648.s5.e0" charOffset="10-19" type="drug" text="raloxifene" position="3"/>  
+      <entity id="DDI-DrugBank.d648.s5.e1" charOffset="51-58" type="drug" text="warfarin" position="10"/>  
+      <entity id="DDI-DrugBank.d648.s5.e2" charOffset="61-69" type="drug" text="phenytoin" position="12"/>  
+      <entity id="DDI-DrugBank.d648.s5.e3" charOffset="75-83" type="drug" text="tamoxifen" position="15"/>  
+      <pair id="DDI-DrugBank.d648.s5.p0" e1="DDI-DrugBank.d648.s5.e0" e2="DDI-DrugBank.d648.s5.e1" ddi="false" flags="True" e1_name="raloxifene" e2_name="warfarin" e1_pos="3" e2_pos="10" path="3@@6@@7@@10@@">raloxifene@@@@nsubj@@affect@@dobj@@the@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d648.s5.p1" e1="DDI-DrugBank.d648.s5.e0" e2="DDI-DrugBank.d648.s5.e2" ddi="false" flags="True" e1_name="raloxifene" e2_name="phenytoin" e1_pos="3" e2_pos="12" path="3@@6@@7@@12@@">raloxifene@@@@nsubj@@affect@@dobj@@the@@prep_of@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d648.s5.p2" e1="DDI-DrugBank.d648.s5.e0" e2="DDI-DrugBank.d648.s5.e3" ddi="false" flags="True" e1_name="raloxifene" e2_name="tamoxifen" e1_pos="3" e2_pos="15" path="3@@6@@7@@15@@">raloxifene@@@@nsubj@@affect@@dobj@@the@@prep_of@@tamoxifen</pair>  
+      <pair id="DDI-DrugBank.d648.s5.p3" e1="DDI-DrugBank.d648.s5.e1" e2="DDI-DrugBank.d648.s5.e2" ddi="false" flags="True" e1_name="warfarin" e2_name="phenytoin" e1_pos="10" e2_pos="12" path="10@@12@@">warfarin@@@@conj_or@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d648.s5.p4" e1="DDI-DrugBank.d648.s5.e1" e2="DDI-DrugBank.d648.s5.e3" ddi="false" flags="True" e1_name="warfarin" e2_name="tamoxifen" e1_pos="10" e2_pos="15" path="10@@15@@">warfarin@@@@conj_or@@tamoxifen</pair>  
+      <pair id="DDI-DrugBank.d648.s5.p5" e1="DDI-DrugBank.d648.s5.e2" e2="DDI-DrugBank.d648.s5.e3" ddi="false" flags="True" e1_name="phenytoin" e2_name="tamoxifen" e1_pos="12" e2_pos="15" path="12@@7@@15@@">phenytoin@@@@prep_of@@the@@prep_of@@tamoxifen</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d648.s6" text="Caution should be used when EVISTA is coadministered with other highly protein-bound drugs, such as clofibrate, indomethacin, naproxen, ibuprofen, diazepam, and diazoxide. " new_text="Caution@@should@@be@@used@@when@@EVISTA@@is@@coadministered@@with@@other@@highly@@protein-bound@@drugs@@,@@such@@as@@clofibrate@@,@@indomethacin@@,@@naproxen@@,@@ibuprofen@@,@@diazepam@@,@@and@@diazoxide@@.@@"> 
+      <entity id="DDI-DrugBank.d648.s6.e0" charOffset="28-33" type="brand" text="EVISTA" position="5"/>  
+      <entity id="DDI-DrugBank.d648.s6.e1" charOffset="100-109" type="drug" text="clofibrate" position="16"/>  
+      <entity id="DDI-DrugBank.d648.s6.e2" charOffset="112-123" type="drug" text="indomethacin" position="18"/>  
+      <entity id="DDI-DrugBank.d648.s6.e3" charOffset="126-133" type="drug" text="naproxen" position="20"/>  
+      <entity id="DDI-DrugBank.d648.s6.e4" charOffset="136-144" type="drug" text="ibuprofen" position="22"/>  
+      <entity id="DDI-DrugBank.d648.s6.e5" charOffset="147-154" type="drug" text="diazepam" position="24"/>  
+      <entity id="DDI-DrugBank.d648.s6.e6" charOffset="161-169" type="drug" text="diazoxide" position="27"/>  
+      <pair id="DDI-DrugBank.d648.s6.p0" e1="DDI-DrugBank.d648.s6.e0" e2="DDI-DrugBank.d648.s6.e1" ddi="true" type="advise" flags="True" e1_name="EVISTA" e2_name="clofibrate" e1_pos="5" e2_pos="16" path="5@@7@@12@@16@@">EVISTA@@@@nsubjpass@@coadministered@@prep_with@@drugs@@prep_such_as@@clofibrate</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p1" e1="DDI-DrugBank.d648.s6.e0" e2="DDI-DrugBank.d648.s6.e2" ddi="true" type="advise" flags="True" e1_name="EVISTA" e2_name="indomethacin" e1_pos="5" e2_pos="18" path="5@@7@@12@@16@@18@@">EVISTA@@@@nsubjpass@@coadministered@@prep_with@@drugs@@prep_such_as@@clofibrate@@appos@@indomethacin</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p2" e1="DDI-DrugBank.d648.s6.e0" e2="DDI-DrugBank.d648.s6.e3" ddi="true" type="advise" flags="True" e1_name="EVISTA" e2_name="naproxen" e1_pos="5" e2_pos="20" path="5@@7@@12@@16@@20@@">EVISTA@@@@nsubjpass@@coadministered@@prep_with@@drugs@@prep_such_as@@clofibrate@@appos@@naproxen</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p3" e1="DDI-DrugBank.d648.s6.e0" e2="DDI-DrugBank.d648.s6.e4" ddi="true" type="advise" flags="True" e1_name="EVISTA" e2_name="ibuprofen" e1_pos="5" e2_pos="22" path="5@@7@@12@@16@@22@@">EVISTA@@@@nsubjpass@@coadministered@@prep_with@@drugs@@prep_such_as@@clofibrate@@appos@@ibuprofen</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p4" e1="DDI-DrugBank.d648.s6.e0" e2="DDI-DrugBank.d648.s6.e5" ddi="true" type="advise" flags="True" e1_name="EVISTA" e2_name="diazepam" e1_pos="5" e2_pos="24" path="5@@7@@12@@16@@24@@">EVISTA@@@@nsubjpass@@coadministered@@prep_with@@drugs@@prep_such_as@@clofibrate@@appos@@diazepam</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p5" e1="DDI-DrugBank.d648.s6.e0" e2="DDI-DrugBank.d648.s6.e6" ddi="true" type="advise" flags="True" e1_name="EVISTA" e2_name="diazoxide" e1_pos="5" e2_pos="27" path="5@@7@@12@@16@@27@@">EVISTA@@@@nsubjpass@@coadministered@@prep_with@@drugs@@prep_such_as@@clofibrate@@appos@@diazoxide</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p6" e1="DDI-DrugBank.d648.s6.e1" e2="DDI-DrugBank.d648.s6.e2" ddi="false" flags="True" e1_name="clofibrate" e2_name="indomethacin" e1_pos="16" e2_pos="18" path="16@@18@@">clofibrate@@@@appos@@indomethacin</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p7" e1="DDI-DrugBank.d648.s6.e1" e2="DDI-DrugBank.d648.s6.e3" ddi="false" flags="True" e1_name="clofibrate" e2_name="naproxen" e1_pos="16" e2_pos="20" path="16@@20@@">clofibrate@@@@appos@@naproxen</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p8" e1="DDI-DrugBank.d648.s6.e1" e2="DDI-DrugBank.d648.s6.e4" ddi="false" flags="True" e1_name="clofibrate" e2_name="ibuprofen" e1_pos="16" e2_pos="22" path="16@@22@@">clofibrate@@@@appos@@ibuprofen</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p9" e1="DDI-DrugBank.d648.s6.e1" e2="DDI-DrugBank.d648.s6.e5" ddi="false" flags="True" e1_name="clofibrate" e2_name="diazepam" e1_pos="16" e2_pos="24" path="16@@24@@">clofibrate@@@@appos@@diazepam</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p10" e1="DDI-DrugBank.d648.s6.e1" e2="DDI-DrugBank.d648.s6.e6" ddi="false" flags="True" e1_name="clofibrate" e2_name="diazoxide" e1_pos="16" e2_pos="27" path="16@@27@@">clofibrate@@@@appos@@diazoxide</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p11" e1="DDI-DrugBank.d648.s6.e2" e2="DDI-DrugBank.d648.s6.e3" ddi="false" flags="True" e1_name="indomethacin" e2_name="naproxen" e1_pos="18" e2_pos="20" path="18@@20@@">indomethacin@@@@conj_and@@naproxen</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p12" e1="DDI-DrugBank.d648.s6.e2" e2="DDI-DrugBank.d648.s6.e4" ddi="false" flags="True" e1_name="indomethacin" e2_name="ibuprofen" e1_pos="18" e2_pos="22" path="18@@22@@">indomethacin@@@@conj_and@@ibuprofen</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p13" e1="DDI-DrugBank.d648.s6.e2" e2="DDI-DrugBank.d648.s6.e5" ddi="false" flags="True" e1_name="indomethacin" e2_name="diazepam" e1_pos="18" e2_pos="24" path="18@@24@@">indomethacin@@@@conj_and@@diazepam</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p14" e1="DDI-DrugBank.d648.s6.e2" e2="DDI-DrugBank.d648.s6.e6" ddi="false" flags="True" e1_name="indomethacin" e2_name="diazoxide" e1_pos="18" e2_pos="27" path="18@@27@@">indomethacin@@@@conj_and@@diazoxide</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p15" e1="DDI-DrugBank.d648.s6.e3" e2="DDI-DrugBank.d648.s6.e4" ddi="false" flags="True" e1_name="naproxen" e2_name="ibuprofen" e1_pos="20" e2_pos="22" path="20@@16@@22@@">naproxen@@@@appos@@clofibrate@@appos@@ibuprofen</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p16" e1="DDI-DrugBank.d648.s6.e3" e2="DDI-DrugBank.d648.s6.e5" ddi="false" flags="True" e1_name="naproxen" e2_name="diazepam" e1_pos="20" e2_pos="24" path="20@@16@@24@@">naproxen@@@@appos@@clofibrate@@appos@@diazepam</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p17" e1="DDI-DrugBank.d648.s6.e3" e2="DDI-DrugBank.d648.s6.e6" ddi="false" flags="True" e1_name="naproxen" e2_name="diazoxide" e1_pos="20" e2_pos="27" path="20@@16@@27@@">naproxen@@@@appos@@clofibrate@@appos@@diazoxide</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p18" e1="DDI-DrugBank.d648.s6.e4" e2="DDI-DrugBank.d648.s6.e5" ddi="false" flags="True" e1_name="ibuprofen" e2_name="diazepam" e1_pos="22" e2_pos="24" path="22@@16@@24@@">ibuprofen@@@@appos@@clofibrate@@appos@@diazepam</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p19" e1="DDI-DrugBank.d648.s6.e4" e2="DDI-DrugBank.d648.s6.e6" ddi="false" flags="True" e1_name="ibuprofen" e2_name="diazoxide" e1_pos="22" e2_pos="27" path="22@@16@@27@@">ibuprofen@@@@appos@@clofibrate@@appos@@diazoxide</pair>  
+      <pair id="DDI-DrugBank.d648.s6.p20" e1="DDI-DrugBank.d648.s6.e5" e2="DDI-DrugBank.d648.s6.e6" ddi="false" flags="True" e1_name="diazepam" e2_name="diazoxide" e1_pos="24" e2_pos="27" path="24@@16@@27@@">diazepam@@@@appos@@clofibrate@@appos@@diazoxide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d648.s7" text="See also CLINICAL PHARMACOLOGY, Drug-Drug Interactions" new_text="See@@also@@CLINICAL@@PHARMACOLOGY@@,@@Drug-Drug@@Interactions@@"/> 
+</document>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d240"> 
+   <sentence id="DDI-DrugBank.d240.s0" text="Ethopropazine may interact with alcohol or other CNS depressants, causing increased sedative effects." new_text="Ethopropazine@@may@@interact@@with@@alcohol@@or@@other@@CNS depressants@@,@@causing@@increased@@sedative@@effects@@.@@"> 
+      <entity id="DDI-DrugBank.d240.s0.e0" charOffset="0-12" type="drug" text="Ethopropazine" position="0"/>  
+      <entity id="DDI-DrugBank.d240.s0.e1" charOffset="32-38" type="drug" text="alcohol" position="4"/>  
+      <entity id="DDI-DrugBank.d240.s0.e2" charOffset="49-63" type="group" text="CNS depressants" position="7"/>  
+      <pair id="DDI-DrugBank.d240.s0.p0" e1="DDI-DrugBank.d240.s0.e0" e2="DDI-DrugBank.d240.s0.e1" ddi="true" type="effect" flags="True" e1_name="Ethopropazine" e2_name="alcohol" e1_pos="0" e2_pos="4" path="0@@2@@7@@4@@">Ethopropazine@@@@nsubj@@interact@@prep_with@@CNS depressants@@nn@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d240.s0.p1" e1="DDI-DrugBank.d240.s0.e0" e2="DDI-DrugBank.d240.s0.e2" ddi="true" type="effect" flags="True" e1_name="Ethopropazine" e2_name="CNS depressants" e1_pos="0" e2_pos="7" path="0@@2@@7@@">Ethopropazine@@@@nsubj@@interact@@prep_with@@CNS depressants</pair>  
+      <pair id="DDI-DrugBank.d240.s0.p2" e1="DDI-DrugBank.d240.s0.e1" e2="DDI-DrugBank.d240.s0.e2" ddi="false" flags="True" e1_name="alcohol" e2_name="CNS depressants" e1_pos="4" e2_pos="7" path="4@@7@@">alcohol@@@@nn@@CNS depressants</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d240.s1" text="It may also interact with amantadine or other anticholinergic drugs or MAOIs, which may intensify the anticholinergic action." new_text="It@@may@@also@@interact@@with@@amantadine@@or@@other@@anticholinergic drugs@@or@@MAOIs@@,@@which@@may@@intensify@@the@@anticholinergic@@action@@.@@"> 
+      <entity id="DDI-DrugBank.d240.s1.e0" charOffset="26-35" type="drug" text="amantadine" position="5"/>  
+      <entity id="DDI-DrugBank.d240.s1.e1" charOffset="46-66" type="group" text="anticholinergic drugs" position="8"/>  
+      <entity id="DDI-DrugBank.d240.s1.e2" charOffset="71-75" type="group" text="MAOIs" position="10"/>  
+      <pair id="DDI-DrugBank.d240.s1.p0" e1="DDI-DrugBank.d240.s1.e0" e2="DDI-DrugBank.d240.s1.e1" ddi="false" flags="True" e1_name="amantadine" e2_name="anticholinergic drugs" e1_pos="5" e2_pos="8" path="5@@8@@">amantadine@@@@amod@@anticholinergic drugs</pair>  
+      <pair id="DDI-DrugBank.d240.s1.p1" e1="DDI-DrugBank.d240.s1.e0" e2="DDI-DrugBank.d240.s1.e2" ddi="false" flags="True" e1_name="amantadine" e2_name="MAOIs" e1_pos="5" e2_pos="10" path="5@@8@@10@@">amantadine@@@@amod@@anticholinergic drugs@@conj_or@@MAOIs</pair>  
+      <pair id="DDI-DrugBank.d240.s1.p2" e1="DDI-DrugBank.d240.s1.e1" e2="DDI-DrugBank.d240.s1.e2" ddi="false" flags="True" e1_name="anticholinergic drugs" e2_name="MAOIs" e1_pos="8" e2_pos="10" path="8@@10@@">anticholinergic drugs@@@@conj_or@@MAOIs</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d240.s2" text="Ethopropazine can interact with chlorpromazine, increasing the metabolism of chlorpromazine." new_text="Ethopropazine@@can@@interact@@with@@chlorpromazine@@,@@increasing@@the@@metabolism@@of@@chlorpromazine@@.@@"> 
+      <entity id="DDI-DrugBank.d240.s2.e0" charOffset="0-12" type="drug" text="Ethopropazine" position="0"/>  
+      <entity id="DDI-DrugBank.d240.s2.e1" charOffset="32-45" type="drug" text="chlorpromazine" position="4"/>  
+      <entity id="DDI-DrugBank.d240.s2.e2" charOffset="77-90" type="drug" text="chlorpromazine" position="10"/>  
+      <pair id="DDI-DrugBank.d240.s2.p0" e1="DDI-DrugBank.d240.s2.e0" e2="DDI-DrugBank.d240.s2.e1" ddi="true" type="mechanism" flags="True" e1_name="Ethopropazine" e2_name="chlorpromazine" e1_pos="0" e2_pos="4" path="0@@2@@4@@">Ethopropazine@@@@nsubj@@interact@@prep_with@@chlorpromazine</pair>  
+      <pair id="DDI-DrugBank.d240.s2.p1" e1="DDI-DrugBank.d240.s2.e0" e2="DDI-DrugBank.d240.s2.e2" ddi="false" flags="True" e1_name="Ethopropazine" e2_name="chlorpromazine" e1_pos="0" e2_pos="10" path="0@@2@@6@@8@@10@@">Ethopropazine@@@@nsubj@@interact@@xcomp@@increasing@@dobj@@metabolism@@prep_of@@chlorpromazine</pair>  
+      <pair id="DDI-DrugBank.d240.s2.p2" e1="DDI-DrugBank.d240.s2.e1" e2="DDI-DrugBank.d240.s2.e2" ddi="false" flags="True" e1_name="chlorpromazine" e2_name="chlorpromazine" e1_pos="4" e2_pos="10" path="4@@2@@6@@8@@10@@">chlorpromazine@@@@prep_with@@interact@@xcomp@@increasing@@dobj@@metabolism@@prep_of@@chlorpromazine</pair> 
+   </sentence> 
+</document>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d326"> 
+   <sentence id="DDI-DrugBank.d326.s0" text="Phenothiazines - Taking piperazine and a phenothiazine together may increase the risk of convulsions (seizures)." new_text="Phenothiazines@@-@@Taking@@piperazine@@and@@a@@phenothiazine@@together@@may@@increase@@the@@risk@@of@@convulsions@@(seizures)@@.@@"> 
+      <entity id="DDI-DrugBank.d326.s0.e0" charOffset="0-13" type="group" text="Phenothiazines" position="0"/>  
+      <entity id="DDI-DrugBank.d326.s0.e1" charOffset="24-33" type="drug" text="piperazine" position="3"/>  
+      <entity id="DDI-DrugBank.d326.s0.e2" charOffset="41-53" type="group" text="phenothiazine" position="6"/>  
+      <pair id="DDI-DrugBank.d326.s0.p0" e1="DDI-DrugBank.d326.s0.e0" e2="DDI-DrugBank.d326.s0.e1" ddi="false" flags="True" e1_name="Phenothiazines" e2_name="piperazine" e1_pos="0" e2_pos="3" path="0@@2@@3@@">Phenothiazines@@@@dep@@Taking@@dobj@@piperazine</pair>  
+      <pair id="DDI-DrugBank.d326.s0.p1" e1="DDI-DrugBank.d326.s0.e0" e2="DDI-DrugBank.d326.s0.e2" ddi="false" flags="True" e1_name="Phenothiazines" e2_name="phenothiazine" e1_pos="0" e2_pos="6" path="0@@9@@6@@">Phenothiazines@@@@dep@@increase@@nsubj@@phenothiazine</pair>  
+      <pair id="DDI-DrugBank.d326.s0.p2" e1="DDI-DrugBank.d326.s0.e1" e2="DDI-DrugBank.d326.s0.e2" ddi="true" type="effect" flags="True" e1_name="piperazine" e2_name="phenothiazine" e1_pos="3" e2_pos="6" path="3@@2@@9@@6@@">piperazine@@@@dobj@@Taking@@conj_and@@increase@@nsubj@@phenothiazine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d326.s1" text="Pyrantel (e.g., Antiminth) - Taking piperazine and pyrantel together may decrease the effects of piperazine." new_text="Pyrantel@@(e.g.@@,@@Antiminth@@)@@-@@Taking@@piperazine@@and@@pyrantel@@together@@may@@decrease@@the@@effects@@of@@piperazine@@.@@"> 
+      <entity id="DDI-DrugBank.d326.s1.e0" charOffset="0-7" type="drug" text="Pyrantel" position="0"/>  
+      <entity id="DDI-DrugBank.d326.s1.e1" charOffset="16-24" type="drug" text="Antiminth" position="3"/>  
+      <entity id="DDI-DrugBank.d326.s1.e2" charOffset="36-45" type="drug" text="piperazine" position="7"/>  
+      <entity id="DDI-DrugBank.d326.s1.e3" charOffset="51-58" type="drug" text="pyrantel" position="9"/>  
+      <entity id="DDI-DrugBank.d326.s1.e4" charOffset="97-106" type="drug" text="piperazine" position="16"/>  
+      <pair id="DDI-DrugBank.d326.s1.p0" e1="DDI-DrugBank.d326.s1.e0" e2="DDI-DrugBank.d326.s1.e1" ddi="false" flags="True" e1_name="Pyrantel" e2_name="Antiminth" e1_pos="0" e2_pos="3" path="0@@1@@4@@3@@">Pyrantel@@@@nn@@(e.g.@@appos@@)@@nn@@Antiminth</pair>  
+      <pair id="DDI-DrugBank.d326.s1.p1" e1="DDI-DrugBank.d326.s1.e0" e2="DDI-DrugBank.d326.s1.e2" ddi="false" flags="True" e1_name="Pyrantel" e2_name="piperazine" e1_pos="0" e2_pos="7" path="0@@1@@6@@7@@">Pyrantel@@@@nn@@(e.g.@@partmod@@Taking@@acomp@@piperazine</pair>  
+      <pair id="DDI-DrugBank.d326.s1.p2" e1="DDI-DrugBank.d326.s1.e0" e2="DDI-DrugBank.d326.s1.e3" ddi="false" flags="True" e1_name="Pyrantel" e2_name="pyrantel" e1_pos="0" e2_pos="9" path="0@@1@@6@@9@@">Pyrantel@@@@nn@@(e.g.@@partmod@@Taking@@acomp@@pyrantel</pair>  
+      <pair id="DDI-DrugBank.d326.s1.p3" e1="DDI-DrugBank.d326.s1.e0" e2="DDI-DrugBank.d326.s1.e4" ddi="false" flags="True" e1_name="Pyrantel" e2_name="piperazine" e1_pos="0" e2_pos="16" path="0@@1@@12@@14@@16@@">Pyrantel@@@@nn@@(e.g.@@nsubj@@decrease@@dobj@@effects@@prep_of@@piperazine</pair>  
+      <pair id="DDI-DrugBank.d326.s1.p4" e1="DDI-DrugBank.d326.s1.e1" e2="DDI-DrugBank.d326.s1.e2" ddi="false" flags="True" e1_name="Antiminth" e2_name="piperazine" e1_pos="3" e2_pos="7" path="3@@4@@1@@6@@7@@">Antiminth@@@@nn@@)@@appos@@(e.g.@@partmod@@Taking@@acomp@@piperazine</pair>  
+      <pair id="DDI-DrugBank.d326.s1.p5" e1="DDI-DrugBank.d326.s1.e1" e2="DDI-DrugBank.d326.s1.e3" ddi="false" flags="True" e1_name="Antiminth" e2_name="pyrantel" e1_pos="3" e2_pos="9" path="3@@4@@1@@6@@9@@">Antiminth@@@@nn@@)@@appos@@(e.g.@@partmod@@Taking@@acomp@@pyrantel</pair>  
+      <pair id="DDI-DrugBank.d326.s1.p6" e1="DDI-DrugBank.d326.s1.e1" e2="DDI-DrugBank.d326.s1.e4" ddi="false" flags="True" e1_name="Antiminth" e2_name="piperazine" e1_pos="3" e2_pos="16" path="3@@4@@1@@12@@14@@16@@">Antiminth@@@@nn@@)@@appos@@(e.g.@@nsubj@@decrease@@dobj@@effects@@prep_of@@piperazine</pair>  
+      <pair id="DDI-DrugBank.d326.s1.p7" e1="DDI-DrugBank.d326.s1.e2" e2="DDI-DrugBank.d326.s1.e3" ddi="true" type="effect" flags="True" e1_name="piperazine" e2_name="pyrantel" e1_pos="7" e2_pos="9" path="7@@9@@">piperazine@@@@conj_and@@pyrantel</pair>  
+      <pair id="DDI-DrugBank.d326.s1.p8" e1="DDI-DrugBank.d326.s1.e2" e2="DDI-DrugBank.d326.s1.e4" ddi="false" flags="True" e1_name="piperazine" e2_name="piperazine" e1_pos="7" e2_pos="16" path="7@@6@@1@@12@@14@@16@@">piperazine@@@@acomp@@Taking@@partmod@@(e.g.@@nsubj@@decrease@@dobj@@effects@@prep_of@@piperazine</pair>  
+      <pair id="DDI-DrugBank.d326.s1.p9" e1="DDI-DrugBank.d326.s1.e3" e2="DDI-DrugBank.d326.s1.e4" ddi="false" flags="True" e1_name="pyrantel" e2_name="piperazine" e1_pos="9" e2_pos="16" path="9@@6@@1@@12@@14@@16@@">pyrantel@@@@acomp@@Taking@@partmod@@(e.g.@@nsubj@@decrease@@dobj@@effects@@prep_of@@piperazine</pair> 
+   </sentence> 
+</document>

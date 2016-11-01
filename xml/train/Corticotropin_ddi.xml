@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d25"> 
+   <sentence id="DDI-DrugBank.d25.s0" text="Corticotropin may accentuate the electrolyte loss associated with diuretic therapy." new_text="Corticotropin@@may@@accentuate@@the@@electrolyte@@loss@@associated@@with@@diuretic@@therapy@@.@@"> 
+      <entity id="DDI-DrugBank.d25.s0.e0" charOffset="0-12" type="drug" text="Corticotropin" position="0"/>  
+      <entity id="DDI-DrugBank.d25.s0.e1" charOffset="66-73" type="drug" text="diuretic" position="8"/>  
+      <pair id="DDI-DrugBank.d25.s0.p0" e1="DDI-DrugBank.d25.s0.e0" e2="DDI-DrugBank.d25.s0.e1" ddi="true" type="effect" flags="True" e1_name="Corticotropin" e2_name="diuretic" e1_pos="0" e2_pos="8" path="0@@2@@5@@6@@9@@8@@">Corticotropin@@@@nsubj@@accentuate@@dobj@@loss@@partmod@@associated@@prep_with@@therapy@@amod@@diuretic</pair> 
+   </sentence> 
+</document>

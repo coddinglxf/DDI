@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d710"> 
+   <sentence id="DDI-DrugBank.d710.s0" text="Cimetidine: The effects of chronic cimetidine use on the metabolism of rimantadine are not known. " new_text="Cimetidine@@:@@The@@effects@@of@@chronic@@cimetidine@@use@@on@@the@@metabolism@@of@@rimantadine@@are@@not@@known@@.@@"> 
+      <entity id="DDI-DrugBank.d710.s0.e0" charOffset="0-9" type="drug" text="Cimetidine" position="0"/>  
+      <entity id="DDI-DrugBank.d710.s0.e1" charOffset="35-44" type="drug" text="cimetidine" position="6"/>  
+      <entity id="DDI-DrugBank.d710.s0.e2" charOffset="71-81" type="drug" text="rimantadine" position="12"/>  
+      <pair id="DDI-DrugBank.d710.s0.p0" e1="DDI-DrugBank.d710.s0.e0" e2="DDI-DrugBank.d710.s0.e1" ddi="false" flags="True" e1_name="Cimetidine" e2_name="cimetidine" e1_pos="0" e2_pos="6" path="0@@15@@3@@7@@6@@">Cimetidine@@@@dep@@known@@nsubjpass@@effects@@prep_of@@use@@nn@@cimetidine</pair>  
+      <pair id="DDI-DrugBank.d710.s0.p1" e1="DDI-DrugBank.d710.s0.e0" e2="DDI-DrugBank.d710.s0.e2" ddi="false" flags="True" e1_name="Cimetidine" e2_name="rimantadine" e1_pos="0" e2_pos="12" path="0@@15@@3@@7@@10@@12@@">Cimetidine@@@@dep@@known@@nsubjpass@@effects@@prep_of@@use@@prep_on@@metabolism@@prep_of@@rimantadine</pair>  
+      <pair id="DDI-DrugBank.d710.s0.p2" e1="DDI-DrugBank.d710.s0.e1" e2="DDI-DrugBank.d710.s0.e2" ddi="false" flags="True" e1_name="cimetidine" e2_name="rimantadine" e1_pos="6" e2_pos="12" path="6@@7@@10@@12@@">cimetidine@@@@nn@@use@@prep_on@@metabolism@@prep_of@@rimantadine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d710.s1" text="When a single 100 mg dose of rimantadine HCl was administered one hour after the initiation of Cimetidine (300 mg four times a day), the apparent total rimantadine clearance of this single dose in normal healthy adults was reduced by 18% (compared to the apparent total rimantadine clearance in the same subjects in the absence of cimetidine). " new_text="When@@a@@single@@100@@mg@@dose@@of@@rimantadine HCl@@was@@administered@@one@@hour@@after@@the@@initiation@@of@@Cimetidine@@(300@@mg@@four@@times@@a@@day)@@,@@the@@apparent@@total@@rimantadine@@clearance@@of@@this@@single@@dose@@in@@normal@@healthy@@adults@@was@@reduced@@by@@18%@@(compared@@to@@the@@apparent@@total@@rimantadine@@clearance@@in@@the@@same@@subjects@@in@@the@@absence@@of@@cimetidine@@)@@.@@"> 
+      <entity id="DDI-DrugBank.d710.s1.e0" charOffset="29-43" type="drug" text="rimantadine HCl" position="7"/>  
+      <entity id="DDI-DrugBank.d710.s1.e1" charOffset="95-104" type="drug" text="Cimetidine" position="16"/>  
+      <entity id="DDI-DrugBank.d710.s1.e2" charOffset="152-162" type="drug" text="rimantadine" position="27"/>  
+      <entity id="DDI-DrugBank.d710.s1.e3" charOffset="270-280" type="drug" text="rimantadine" position="46"/>  
+      <entity id="DDI-DrugBank.d710.s1.e4" charOffset="331-340" type="drug" text="cimetidine" position="56"/>  
+      <pair id="DDI-DrugBank.d710.s1.p0" e1="DDI-DrugBank.d710.s1.e0" e2="DDI-DrugBank.d710.s1.e1" ddi="true" type="mechanism" flags="True" e1_name="rimantadine HCl" e2_name="Cimetidine" e1_pos="7" e2_pos="16" path="7@@5@@9@@14@@18@@16@@">rimantadine HCl@@@@prep_of@@dose@@nsubjpass@@administered@@prep_after@@initiation@@prep_of@@mg@@nn@@Cimetidine</pair>  
+      <pair id="DDI-DrugBank.d710.s1.p1" e1="DDI-DrugBank.d710.s1.e0" e2="DDI-DrugBank.d710.s1.e2" ddi="false" flags="True" e1_name="rimantadine HCl" e2_name="rimantadine" e1_pos="7" e2_pos="27" path="7@@5@@9@@38@@22@@28@@27@@">rimantadine HCl@@@@prep_of@@dose@@nsubjpass@@administered@@advcl@@reduced@@nsubjpass@@day)@@appos@@clearance@@nn@@rimantadine</pair>  
+      <pair id="DDI-DrugBank.d710.s1.p2" e1="DDI-DrugBank.d710.s1.e0" e2="DDI-DrugBank.d710.s1.e3" ddi="false" flags="True" e1_name="rimantadine HCl" e2_name="rimantadine" e1_pos="7" e2_pos="46" path="7@@5@@9@@38@@40@@41@@47@@46@@">rimantadine HCl@@@@prep_of@@dose@@nsubjpass@@administered@@advcl@@reduced@@agent@@18%@@partmod@@(compared@@prep_to@@clearance@@nn@@rimantadine</pair>  
+      <pair id="DDI-DrugBank.d710.s1.p3" e1="DDI-DrugBank.d710.s1.e0" e2="DDI-DrugBank.d710.s1.e4" ddi="false" flags="True" e1_name="rimantadine HCl" e2_name="cimetidine" e1_pos="7" e2_pos="56" path="7@@5@@9@@38@@40@@41@@47@@51@@54@@57@@56@@">rimantadine HCl@@@@prep_of@@dose@@nsubjpass@@administered@@advcl@@reduced@@agent@@18%@@partmod@@(compared@@prep_to@@clearance@@prep_in@@subjects@@prep_in@@absence@@prep_of@@)@@amod@@cimetidine</pair>  
+      <pair id="DDI-DrugBank.d710.s1.p4" e1="DDI-DrugBank.d710.s1.e1" e2="DDI-DrugBank.d710.s1.e2" ddi="false" flags="True" e1_name="Cimetidine" e2_name="rimantadine" e1_pos="16" e2_pos="27" path="16@@18@@14@@9@@38@@22@@28@@27@@">Cimetidine@@@@nn@@mg@@prep_of@@initiation@@prep_after@@administered@@advcl@@reduced@@nsubjpass@@day)@@appos@@clearance@@nn@@rimantadine</pair>  
+      <pair id="DDI-DrugBank.d710.s1.p5" e1="DDI-DrugBank.d710.s1.e1" e2="DDI-DrugBank.d710.s1.e3" ddi="false" flags="True" e1_name="Cimetidine" e2_name="rimantadine" e1_pos="16" e2_pos="46" path="16@@18@@14@@9@@38@@40@@41@@47@@46@@">Cimetidine@@@@nn@@mg@@prep_of@@initiation@@prep_after@@administered@@advcl@@reduced@@agent@@18%@@partmod@@(compared@@prep_to@@clearance@@nn@@rimantadine</pair>  
+      <pair id="DDI-DrugBank.d710.s1.p6" e1="DDI-DrugBank.d710.s1.e1" e2="DDI-DrugBank.d710.s1.e4" ddi="false" flags="True" e1_name="Cimetidine" e2_name="cimetidine" e1_pos="16" e2_pos="56" path="16@@18@@14@@9@@38@@40@@41@@47@@51@@54@@57@@56@@">Cimetidine@@@@nn@@mg@@prep_of@@initiation@@prep_after@@administered@@advcl@@reduced@@agent@@18%@@partmod@@(compared@@prep_to@@clearance@@prep_in@@subjects@@prep_in@@absence@@prep_of@@)@@amod@@cimetidine</pair>  
+      <pair id="DDI-DrugBank.d710.s1.p7" e1="DDI-DrugBank.d710.s1.e2" e2="DDI-DrugBank.d710.s1.e3" ddi="false" flags="True" e1_name="rimantadine" e2_name="rimantadine" e1_pos="27" e2_pos="46" path="27@@28@@22@@38@@40@@41@@47@@46@@">rimantadine@@@@nn@@clearance@@appos@@day)@@nsubjpass@@reduced@@agent@@18%@@partmod@@(compared@@prep_to@@clearance@@nn@@rimantadine</pair>  
+      <pair id="DDI-DrugBank.d710.s1.p8" e1="DDI-DrugBank.d710.s1.e2" e2="DDI-DrugBank.d710.s1.e4" ddi="false" flags="True" e1_name="rimantadine" e2_name="cimetidine" e1_pos="27" e2_pos="56" path="27@@28@@22@@38@@40@@41@@47@@51@@54@@57@@56@@">rimantadine@@@@nn@@clearance@@appos@@day)@@nsubjpass@@reduced@@agent@@18%@@partmod@@(compared@@prep_to@@clearance@@prep_in@@subjects@@prep_in@@absence@@prep_of@@)@@amod@@cimetidine</pair>  
+      <pair id="DDI-DrugBank.d710.s1.p9" e1="DDI-DrugBank.d710.s1.e3" e2="DDI-DrugBank.d710.s1.e4" ddi="false" flags="True" e1_name="rimantadine" e2_name="cimetidine" e1_pos="46" e2_pos="56" path="46@@47@@51@@54@@57@@56@@">rimantadine@@@@nn@@clearance@@prep_in@@subjects@@prep_in@@absence@@prep_of@@)@@amod@@cimetidine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d710.s2" text="Acetaminophen: Rimantadine HCl, 100 mg, was given twice daily for 13 days to 12 healthy volunteers. " new_text="Acetaminophen@@:@@Rimantadine HCl@@,@@100@@mg@@,@@was@@given@@twice@@daily@@for@@13@@days@@to@@12@@healthy@@volunteers@@.@@"> 
+      <entity id="DDI-DrugBank.d710.s2.e0" charOffset="0-12" type="drug" text="Acetaminophen" position="0"/>  
+      <entity id="DDI-DrugBank.d710.s2.e1" charOffset="15-29" type="drug" text="Rimantadine HCl" position="2"/>  
+      <pair id="DDI-DrugBank.d710.s2.p0" e1="DDI-DrugBank.d710.s2.e0" e2="DDI-DrugBank.d710.s2.e1" ddi="false" flags="True" e1_name="Acetaminophen" e2_name="Rimantadine HCl" e1_pos="0" e2_pos="2" path="0@@8@@2@@">Acetaminophen@@@@dep@@given@@nsubjpass@@Rimantadine HCl</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d710.s3" text="On day 11, acetaminophen (650 mg four times daily) was started and continued for 8 days. " new_text="On@@day@@11@@,@@acetaminophen@@(650@@mg@@four@@times@@daily)@@was@@started@@and@@continued@@for@@8@@days@@.@@"> 
+      <entity id="DDI-DrugBank.d710.s3.e0" charOffset="11-23" type="drug" text="acetaminophen" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d710.s4" text="The pharmacokinetics of rimantadine were assessed on days 11 and 13. " new_text="The@@pharmacokinetics@@of@@rimantadine@@were@@assessed@@on@@days@@11@@and@@13@@.@@"> 
+      <entity id="DDI-DrugBank.d710.s4.e0" charOffset="24-34" type="drug" text="rimantadine" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d710.s5" text="Coadministration with acetaminophen reduced the peak concentration and AUC values for rimantadine by approximately 11%. " new_text="Coadministration@@with@@acetaminophen@@reduced@@the@@peak@@concentration@@and@@AUC@@values@@for@@rimantadine@@by@@approximately@@11%@@.@@"> 
+      <entity id="DDI-DrugBank.d710.s5.e0" charOffset="22-34" type="drug" text="acetaminophen" position="2"/>  
+      <entity id="DDI-DrugBank.d710.s5.e1" charOffset="86-96" type="drug" text="rimantadine" position="11"/>  
+      <pair id="DDI-DrugBank.d710.s5.p0" e1="DDI-DrugBank.d710.s5.e0" e2="DDI-DrugBank.d710.s5.e1" ddi="true" type="mechanism" flags="True" e1_name="acetaminophen" e2_name="rimantadine" e1_pos="2" e2_pos="11" path="2@@0@@3@@11@@">acetaminophen@@@@prep_with@@Coadministration@@nsubj@@reduced@@prep_for@@rimantadine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d710.s6" text="Aspirin: Rimantadine HCl, 100 mg, was given twice daily fro 13 days to 12 healthy volunteers. " new_text="Aspirin@@:@@Rimantadine HCl@@,@@100@@mg@@,@@was@@given@@twice@@daily@@fro@@13@@days@@to@@12@@healthy@@volunteers@@.@@"> 
+      <entity id="DDI-DrugBank.d710.s6.e0" charOffset="0-6" type="brand" text="Aspirin" position="0"/>  
+      <entity id="DDI-DrugBank.d710.s6.e1" charOffset="9-23" type="drug" text="Rimantadine HCl" position="2"/>  
+      <pair id="DDI-DrugBank.d710.s6.p0" e1="DDI-DrugBank.d710.s6.e0" e2="DDI-DrugBank.d710.s6.e1" ddi="false" flags="True" e1_name="Aspirin" e2_name="Rimantadine HCl" e1_pos="0" e2_pos="2" path="0@@8@@2@@">Aspirin@@@@dep@@given@@nsubjpass@@Rimantadine HCl</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d710.s7" text="On day 11, aspirin (650 mg, four times daily) was started and continued for 8 days. " new_text="On@@day@@11@@,@@aspirin@@(650@@mg@@,@@four@@times@@daily)@@was@@started@@and@@continued@@for@@8@@days@@.@@"> 
+      <entity id="DDI-DrugBank.d710.s7.e0" charOffset="11-17" type="brand" text="aspirin" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d710.s8" text="The pharmacokinetics of rimantadine were assessed on days 11 and 13. " new_text="The@@pharmacokinetics@@of@@rimantadine@@were@@assessed@@on@@days@@11@@and@@13@@.@@"> 
+      <entity id="DDI-DrugBank.d710.s8.e0" charOffset="24-34" type="drug" text="rimantadine" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d710.s9" text="Peak plasma concentrations and AUC of rimantadine were reduced approximately 10% in the presence of aspirin." new_text="Peak@@plasma@@concentrations@@and@@AUC@@of@@rimantadine@@were@@reduced@@approximately@@10%@@in@@the@@presence@@of@@aspirin@@.@@"> 
+      <entity id="DDI-DrugBank.d710.s9.e0" charOffset="38-48" type="drug" text="rimantadine" position="6"/>  
+      <entity id="DDI-DrugBank.d710.s9.e1" charOffset="100-106" type="brand" text="aspirin" position="15"/>  
+      <pair id="DDI-DrugBank.d710.s9.p0" e1="DDI-DrugBank.d710.s9.e0" e2="DDI-DrugBank.d710.s9.e1" ddi="true" type="mechanism" flags="True" e1_name="rimantadine" e2_name="aspirin" e1_pos="6" e2_pos="15" path="6@@4@@8@@10@@13@@15@@">rimantadine@@@@prep_of@@AUC@@nsubjpass@@reduced@@dobj@@10%@@prep_in@@presence@@prep_of@@aspirin</pair> 
+   </sentence> 
+</document>

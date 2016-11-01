@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d254"> 
+   <sentence id="DDI-DrugBank.d254.s0" text="Other CNS depressant drugs (e.g. barbiturates, tranquilizers, opioids and general anesthetics) have additive or potentiating effects with INAPSINE." new_text="Other@@CNS depressant drugs@@(e.g@@.@@barbiturates@@,@@tranquilizers@@,@@opioids@@and@@general@@anesthetics@@)@@have@@additive@@or@@potentiating@@effects@@with@@INAPSINE@@.@@"> 
+      <entity id="DDI-DrugBank.d254.s0.e0" charOffset="6-25" type="group" text="CNS depressant drugs" position="1"/>  
+      <entity id="DDI-DrugBank.d254.s0.e1" charOffset="33-44" type="group" text="barbiturates" position="4"/>  
+      <entity id="DDI-DrugBank.d254.s0.e2" charOffset="47-59" type="group" text="tranquilizers" position="6"/>  
+      <entity id="DDI-DrugBank.d254.s0.e3" charOffset="62-68" type="group" text="opioids" position="8"/>  
+      <entity id="DDI-DrugBank.d254.s0.e4" charOffset="82-92" type="group" text="anesthetics" position="11"/>  
+      <entity id="DDI-DrugBank.d254.s0.e5" charOffset="138-145" type="brand" text="INAPSINE" position="19"/>  
+      <pair id="DDI-DrugBank.d254.s0.p0" e1="DDI-DrugBank.d254.s0.e0" e2="DDI-DrugBank.d254.s0.e1" ddi="false" flags="True" e1_name="CNS depressant drugs" e2_name="barbiturates" e1_pos="1" e2_pos="4" path="1@@2@@4@@">CNS depressant drugs@@@@nn@@(e.g@@amod@@barbiturates</pair>  
+      <pair id="DDI-DrugBank.d254.s0.p1" e1="DDI-DrugBank.d254.s0.e0" e2="DDI-DrugBank.d254.s0.e2" ddi="false" flags="True" e1_name="CNS depressant drugs" e2_name="tranquilizers" e1_pos="1" e2_pos="6" path="1@@2@@6@@">CNS depressant drugs@@@@nn@@(e.g@@amod@@tranquilizers</pair>  
+      <pair id="DDI-DrugBank.d254.s0.p2" e1="DDI-DrugBank.d254.s0.e0" e2="DDI-DrugBank.d254.s0.e3" ddi="false" flags="True" e1_name="CNS depressant drugs" e2_name="opioids" e1_pos="1" e2_pos="8" path="1@@2@@8@@">CNS depressant drugs@@@@nn@@(e.g@@amod@@opioids</pair>  
+      <pair id="DDI-DrugBank.d254.s0.p3" e1="DDI-DrugBank.d254.s0.e0" e2="DDI-DrugBank.d254.s0.e4" ddi="false" flags="True" e1_name="CNS depressant drugs" e2_name="anesthetics" e1_pos="1" e2_pos="11" path="1@@2@@11@@">CNS depressant drugs@@@@nn@@(e.g@@nsubj@@anesthetics</pair>  
+      <pair id="DDI-DrugBank.d254.s0.p4" e1="DDI-DrugBank.d254.s0.e0" e2="DDI-DrugBank.d254.s0.e5" ddi="true" type="effect" flags="True" e1_name="CNS depressant drugs" e2_name="INAPSINE" e1_pos="1" e2_pos="19" path="1@@2@@11@@13@@17@@19@@">CNS depressant drugs@@@@nn@@(e.g@@nsubj@@anesthetics@@ccomp@@have@@dobj@@effects@@prep_with@@INAPSINE</pair>  
+      <pair id="DDI-DrugBank.d254.s0.p5" e1="DDI-DrugBank.d254.s0.e1" e2="DDI-DrugBank.d254.s0.e2" ddi="false" flags="True" e1_name="barbiturates" e2_name="tranquilizers" e1_pos="4" e2_pos="6" path="4@@6@@">barbiturates@@@@conj_and@@tranquilizers</pair>  
+      <pair id="DDI-DrugBank.d254.s0.p6" e1="DDI-DrugBank.d254.s0.e1" e2="DDI-DrugBank.d254.s0.e3" ddi="false" flags="True" e1_name="barbiturates" e2_name="opioids" e1_pos="4" e2_pos="8" path="4@@8@@">barbiturates@@@@conj_and@@opioids</pair>  
+      <pair id="DDI-DrugBank.d254.s0.p7" e1="DDI-DrugBank.d254.s0.e1" e2="DDI-DrugBank.d254.s0.e4" ddi="false" flags="True" e1_name="barbiturates" e2_name="anesthetics" e1_pos="4" e2_pos="11" path="4@@2@@11@@">barbiturates@@@@amod@@(e.g@@nsubj@@anesthetics</pair>  
+      <pair id="DDI-DrugBank.d254.s0.p8" e1="DDI-DrugBank.d254.s0.e1" e2="DDI-DrugBank.d254.s0.e5" ddi="true" type="effect" flags="True" e1_name="barbiturates" e2_name="INAPSINE" e1_pos="4" e2_pos="19" path="4@@2@@11@@13@@17@@19@@">barbiturates@@@@amod@@(e.g@@nsubj@@anesthetics@@ccomp@@have@@dobj@@effects@@prep_with@@INAPSINE</pair>  
+      <pair id="DDI-DrugBank.d254.s0.p9" e1="DDI-DrugBank.d254.s0.e2" e2="DDI-DrugBank.d254.s0.e3" ddi="false" flags="True" e1_name="tranquilizers" e2_name="opioids" e1_pos="6" e2_pos="8" path="6@@2@@8@@">tranquilizers@@@@amod@@(e.g@@amod@@opioids</pair>  
+      <pair id="DDI-DrugBank.d254.s0.p10" e1="DDI-DrugBank.d254.s0.e2" e2="DDI-DrugBank.d254.s0.e4" ddi="false" flags="True" e1_name="tranquilizers" e2_name="anesthetics" e1_pos="6" e2_pos="11" path="6@@2@@11@@">tranquilizers@@@@amod@@(e.g@@nsubj@@anesthetics</pair>  
+      <pair id="DDI-DrugBank.d254.s0.p11" e1="DDI-DrugBank.d254.s0.e2" e2="DDI-DrugBank.d254.s0.e5" ddi="true" type="effect" flags="True" e1_name="tranquilizers" e2_name="INAPSINE" e1_pos="6" e2_pos="19" path="6@@2@@11@@13@@17@@19@@">tranquilizers@@@@amod@@(e.g@@nsubj@@anesthetics@@ccomp@@have@@dobj@@effects@@prep_with@@INAPSINE</pair>  
+      <pair id="DDI-DrugBank.d254.s0.p12" e1="DDI-DrugBank.d254.s0.e3" e2="DDI-DrugBank.d254.s0.e4" ddi="false" flags="True" e1_name="opioids" e2_name="anesthetics" e1_pos="8" e2_pos="11" path="8@@2@@11@@">opioids@@@@amod@@(e.g@@nsubj@@anesthetics</pair>  
+      <pair id="DDI-DrugBank.d254.s0.p13" e1="DDI-DrugBank.d254.s0.e3" e2="DDI-DrugBank.d254.s0.e5" ddi="true" type="effect" flags="True" e1_name="opioids" e2_name="INAPSINE" e1_pos="8" e2_pos="19" path="8@@2@@11@@13@@17@@19@@">opioids@@@@amod@@(e.g@@nsubj@@anesthetics@@ccomp@@have@@dobj@@effects@@prep_with@@INAPSINE</pair>  
+      <pair id="DDI-DrugBank.d254.s0.p14" e1="DDI-DrugBank.d254.s0.e4" e2="DDI-DrugBank.d254.s0.e5" ddi="true" type="effect" flags="True" e1_name="anesthetics" e2_name="INAPSINE" e1_pos="11" e2_pos="19" path="11@@13@@17@@19@@">anesthetics@@@@ccomp@@have@@dobj@@effects@@prep_with@@INAPSINE</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d254.s1" text="When patients have received such drugs, the dose of INAPSINE required will be less than usual." new_text="When@@patients@@have@@received@@such@@drugs@@,@@the@@dose@@of@@INAPSINE@@required@@will@@be@@less@@than@@usual@@.@@"> 
+      <entity id="DDI-DrugBank.d254.s1.e0" charOffset="52-59" type="brand" text="INAPSINE" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d254.s2" text="Following the administration of INAPSINE, the dose of other CNS depressant drugs should be reduced." new_text="Following@@the@@administration@@of@@INAPSINE@@,@@the@@dose@@of@@other@@CNS depressant drugs@@should@@be@@reduced@@.@@"> 
+      <entity id="DDI-DrugBank.d254.s2.e0" charOffset="32-39" type="brand" text="INAPSINE" position="4"/>  
+      <entity id="DDI-DrugBank.d254.s2.e1" charOffset="60-79" type="group" text="CNS depressant drugs" position="10"/>  
+      <pair id="DDI-DrugBank.d254.s2.p0" e1="DDI-DrugBank.d254.s2.e0" e2="DDI-DrugBank.d254.s2.e1" ddi="true" type="advise" flags="True" e1_name="INAPSINE" e2_name="CNS depressant drugs" e1_pos="4" e2_pos="10" path="4@@2@@13@@7@@10@@">INAPSINE@@@@prep_of@@administration@@prep_following@@reduced@@nsubjpass@@dose@@prep_of@@CNS depressant drugs</pair> 
+   </sentence> 
+</document>

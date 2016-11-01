@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d560"> 
+   <sentence id="DDI-DrugBank.d560.s0" text="Use of MAO inhibitors may cause an excessive increase in blood pressure and heart stimulation." new_text="Use@@of@@MAO inhibitors@@may@@cause@@an@@excessive@@increase@@in@@blood@@pressure@@and@@heart@@stimulation@@.@@"> 
+      <entity id="DDI-DrugBank.d560.s0.e0" charOffset="7-20" type="group" text="MAO inhibitors" position="2"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d560.s1" text="If you are also using a steroid inhaler, take bitolterol first and then wait about 15 minutes before using the steroid inhaler." new_text="If@@you@@are@@also@@using@@a@@steroid@@inhaler@@,@@take@@bitolterol@@first@@and@@then@@wait@@about@@15@@minutes@@before@@using@@the@@steroid@@inhaler@@.@@"> 
+      <entity id="DDI-DrugBank.d560.s1.e0" charOffset="24-30" type="group" text="steroid" position="6"/>  
+      <entity id="DDI-DrugBank.d560.s1.e1" charOffset="46-55" type="drug" text="bitolterol" position="10"/>  
+      <entity id="DDI-DrugBank.d560.s1.e2" charOffset="111-117" type="group" text="steroid" position="21"/>  
+      <pair id="DDI-DrugBank.d560.s1.p0" e1="DDI-DrugBank.d560.s1.e0" e2="DDI-DrugBank.d560.s1.e1" ddi="true" type="advise" flags="True" e1_name="steroid" e2_name="bitolterol" e1_pos="6" e2_pos="10" path="6@@7@@4@@9@@10@@">steroid@@@@amod@@inhaler@@dobj@@using@@advcl@@take@@dobj@@bitolterol</pair>  
+      <pair id="DDI-DrugBank.d560.s1.p1" e1="DDI-DrugBank.d560.s1.e0" e2="DDI-DrugBank.d560.s1.e2" ddi="false" flags="True" e1_name="steroid" e2_name="steroid" e1_pos="6" e2_pos="21" path="6@@7@@4@@9@@14@@19@@22@@21@@">steroid@@@@amod@@inhaler@@dobj@@using@@advcl@@take@@conj_and@@wait@@prepc_before@@using@@dobj@@inhaler@@amod@@steroid</pair>  
+      <pair id="DDI-DrugBank.d560.s1.p2" e1="DDI-DrugBank.d560.s1.e1" e2="DDI-DrugBank.d560.s1.e2" ddi="true" type="advise" flags="True" e1_name="bitolterol" e2_name="steroid" e1_pos="10" e2_pos="21" path="10@@9@@14@@19@@22@@21@@">bitolterol@@@@dobj@@take@@conj_and@@wait@@prepc_before@@using@@dobj@@inhaler@@amod@@steroid</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d560.s2" text="This allows bitolterol to open air passages, increasing the effectiveness of the steroid." new_text="This@@allows@@bitolterol@@to@@open@@air@@passages@@,@@increasing@@the@@effectiveness@@of@@the@@steroid@@.@@"> 
+      <entity id="DDI-DrugBank.d560.s2.e0" charOffset="12-21" type="drug" text="bitolterol" position="2"/>  
+      <entity id="DDI-DrugBank.d560.s2.e1" charOffset="81-87" type="group" text="steroid" position="13"/>  
+      <pair id="DDI-DrugBank.d560.s2.p0" e1="DDI-DrugBank.d560.s2.e0" e2="DDI-DrugBank.d560.s2.e1" ddi="true" type="effect" flags="True" e1_name="bitolterol" e2_name="steroid" e1_pos="2" e2_pos="13" path="2@@1@@8@@10@@13@@">bitolterol@@@@acomp@@allows@@xcomp@@increasing@@dobj@@effectiveness@@prep_of@@steroid</pair> 
+   </sentence> 
+</document>

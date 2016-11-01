@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d595"> 
+   <sentence id="DDI-DrugBank.d595.s0" text="Additives may be incompatible; " new_text="Additives@@may@@be@@incompatible;@@"/>  
+   <sentence id="DDI-DrugBank.d595.s1" text="norepinephrine and dobutamine are incompatible with sodium bicarbonate solution. " new_text="norepinephrine@@and@@dobutamine@@are@@incompatible@@with@@sodium bicarbonate@@solution@@.@@"> 
+      <entity id="DDI-DrugBank.d595.s1.e0" charOffset="0-13" type="drug" text="norepinephrine" position="0"/>  
+      <entity id="DDI-DrugBank.d595.s1.e1" charOffset="19-28" type="drug" text="dobutamine" position="2"/>  
+      <entity id="DDI-DrugBank.d595.s1.e2" charOffset="52-69" type="drug" text="sodium bicarbonate" position="6"/>  
+      <pair id="DDI-DrugBank.d595.s1.p0" e1="DDI-DrugBank.d595.s1.e0" e2="DDI-DrugBank.d595.s1.e1" ddi="false" flags="True" e1_name="norepinephrine" e2_name="dobutamine" e1_pos="0" e2_pos="2" path="0@@2@@">norepinephrine@@@@conj_and@@dobutamine</pair>  
+      <pair id="DDI-DrugBank.d595.s1.p1" e1="DDI-DrugBank.d595.s1.e0" e2="DDI-DrugBank.d595.s1.e2" ddi="true" type="int" flags="True" e1_name="norepinephrine" e2_name="sodium bicarbonate" e1_pos="0" e2_pos="6" path="0@@4@@7@@6@@">norepinephrine@@@@nsubj@@incompatible@@prep_with@@solution@@amod@@sodium bicarbonate</pair>  
+      <pair id="DDI-DrugBank.d595.s1.p2" e1="DDI-DrugBank.d595.s1.e1" e2="DDI-DrugBank.d595.s1.e2" ddi="true" type="int" flags="True" e1_name="dobutamine" e2_name="sodium bicarbonate" e1_pos="2" e2_pos="6" path="2@@4@@7@@6@@">dobutamine@@@@nsubj@@incompatible@@prep_with@@solution@@amod@@sodium bicarbonate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d595.s2" text="The addition of sodium bicarbonate to parenteral solutions containing calcium should be avoided, except where compatibility has been previously established. " new_text="The@@addition@@of@@sodium bicarbonate@@to@@parenteral@@solutions@@containing@@calcium@@should@@be@@avoided@@,@@except@@where@@compatibility@@has@@been@@previously@@established@@.@@"> 
+      <entity id="DDI-DrugBank.d595.s2.e0" charOffset="16-33" type="drug" text="sodium bicarbonate" position="3"/>  
+      <entity id="DDI-DrugBank.d595.s2.e1" charOffset="70-76" type="drug" text="calcium" position="8"/>  
+      <pair id="DDI-DrugBank.d595.s2.p0" e1="DDI-DrugBank.d595.s2.e0" e2="DDI-DrugBank.d595.s2.e1" ddi="false" flags="True" e1_name="sodium bicarbonate" e2_name="calcium" e1_pos="3" e2_pos="8" path="3@@5@@6@@7@@8@@">sodium bicarbonate@@@@amod@@parenteral@@amod@@solutions@@partmod@@containing@@dobj@@calcium</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d595.s3" text="Precipitation or haze may result from sodium bicarbonate-calcium admixtures. " new_text="Precipitation@@or@@haze@@may@@result@@from@@sodium@@bicarbonate-calcium@@admixtures@@.@@"/>  
+   <sentence id="DDI-DrugBank.d595.s4" text="NOTE: Do not use the injection if it contains precipitate. " new_text="NOTE@@:@@Do@@not@@use@@the@@injection@@if@@it@@contains@@precipitate@@.@@"/>  
+   <sentence id="DDI-DrugBank.d595.s5" text="Additives may be incompatible. " new_text="Additives@@may@@be@@incompatible@@.@@"/>  
+   <sentence id="DDI-DrugBank.d595.s6" text="Consult with pharmacist, if available. " new_text="Consult@@with@@pharmacist@@,@@if@@available@@.@@"/>  
+   <sentence id="DDI-DrugBank.d595.s7" text="When introducing additives, use aseptic technique, mix thoroughly and do not store." new_text="When@@introducing@@additives@@,@@use@@aseptic@@technique@@,@@mix@@thoroughly@@and@@do@@not@@store@@.@@"/> 
+</document>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d161"> 
+   <sentence id="DDI-DrugBank.d161.s0" text="No specific drug interaction studies have been conducted." new_text="No@@specific@@drug@@interaction@@studies@@have@@been@@conducted@@.@@"/>  
+   <sentence id="DDI-DrugBank.d161.s1" text="For information on the pharmacokinetics of Gemzar and cisplatin in combination, see Drug Interactions under CLINICAL PHARMACOLOGY section." new_text="For@@information@@on@@the@@pharmacokinetics@@of@@Gemzar@@and@@cisplatin@@in@@combination@@,@@see@@Drug@@Interactions@@under@@CLINICAL@@PHARMACOLOGY@@section@@.@@"> 
+      <entity id="DDI-DrugBank.d161.s1.e0" charOffset="43-48" type="brand" text="Gemzar" position="6"/>  
+      <entity id="DDI-DrugBank.d161.s1.e1" charOffset="54-62" type="drug" text="cisplatin" position="8"/>  
+      <pair id="DDI-DrugBank.d161.s1.p0" e1="DDI-DrugBank.d161.s1.e0" e2="DDI-DrugBank.d161.s1.e1" ddi="false" flags="True" e1_name="Gemzar" e2_name="cisplatin" e1_pos="6" e2_pos="8" path="6@@4@@8@@">Gemzar@@@@prep_of@@pharmacokinetics@@conj_and@@cisplatin</pair> 
+   </sentence> 
+</document>

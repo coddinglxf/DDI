@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d670"> 
+   <sentence id="DDI-DrugBank.d670.s0" text="Potential for INVEGA    to Affect Other Drugs Paliperidone is not expected to cause clinically important pharmacokinetic interactions with drugs that are metabolized by cytochrome P450 isozymes. " new_text="Potential@@for@@INVEGA@@to@@Affect@@Other@@Drugs@@Paliperidone@@is@@not@@expected@@to@@cause@@clinically@@important@@pharmacokinetic@@interactions@@with@@drugs@@that@@are@@metabolized@@by@@cytochrome@@P450@@isozymes@@.@@"> 
+      <entity id="DDI-DrugBank.d670.s0.e0" charOffset="14-19" type="brand" text="INVEGA" position="2"/>  
+      <entity id="DDI-DrugBank.d670.s0.e1" charOffset="46-57" type="drug" text="Paliperidone" position="7"/>  
+      <pair id="DDI-DrugBank.d670.s0.p0" e1="DDI-DrugBank.d670.s0.e0" e2="DDI-DrugBank.d670.s0.e1" ddi="false" flags="True" e1_name="INVEGA" e2_name="Paliperidone" e1_pos="2" e2_pos="7" path="2@@7@@">INVEGA@@@@prep_to@@Paliperidone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d670.s1" text="In vitro studies in human liver microsomes showed that paliperidone does not substantially inhibit the metabolism of drugs metabolized by cytochrome P450 isozymes, including CYP1A2, CYP2A6, CYP2C8/9/10, CYP2D6, CYP2E1, CYP3A4, and CYP3A5. " new_text="In@@vitro@@studies@@in@@human@@liver@@microsomes@@showed@@that@@paliperidone@@does@@not@@substantially@@inhibit@@the@@metabolism@@of@@drugs@@metabolized@@by@@cytochrome@@P450@@isozymes@@,@@including@@CYP1A2@@,@@CYP2A6@@,@@CYP2C8/9/10@@,@@CYP2D6@@,@@CYP2E1@@,@@CYP3A4@@,@@and@@CYP3A5@@.@@"> 
+      <entity id="DDI-DrugBank.d670.s1.e0" charOffset="55-66" type="drug" text="paliperidone" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d670.s2" text="Therefore, paliperidone is not expected to inhibit clearance of drugs that are metabolized by these metabolic pathways in a clinically relevant manner. " new_text="Therefore@@,@@paliperidone@@is@@not@@expected@@to@@inhibit@@clearance@@of@@drugs@@that@@are@@metabolized@@by@@these@@metabolic@@pathways@@in@@a@@clinically@@relevant@@manner@@.@@"> 
+      <entity id="DDI-DrugBank.d670.s2.e0" charOffset="11-22" type="drug" text="paliperidone" position="2"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d670.s3" text="Paliperidone is also not expected to have enzyme inducing properties. " new_text="Paliperidone@@is@@also@@not@@expected@@to@@have@@enzyme@@inducing@@properties@@.@@"> 
+      <entity id="DDI-DrugBank.d670.s3.e0" charOffset="0-11" type="drug" text="Paliperidone" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d670.s4" text="At therapeutic concentrations, paliperidone did not inhibit P-glycoprotein. " new_text="At@@therapeutic@@concentrations@@,@@paliperidone@@did@@not@@inhibit@@P-glycoprotein@@.@@"> 
+      <entity id="DDI-DrugBank.d670.s4.e0" charOffset="31-42" type="drug" text="paliperidone" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d670.s5" text="Paliperidone is therefore not expected to inhibit P-glycoprotein-mediated transport of other drugs in a clinically relevant manner. " new_text="Paliperidone@@is@@therefore@@not@@expected@@to@@inhibit@@P-glycoprotein-mediated@@transport@@of@@other@@drugs@@in@@a@@clinically@@relevant@@manner@@.@@"> 
+      <entity id="DDI-DrugBank.d670.s5.e0" charOffset="0-11" type="drug" text="Paliperidone" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d670.s6" text="Given the primary CNS effects of paliperidone, INVEGA    should be used with caution in combination with other centrally acting drugs and alcohol. " new_text="Given@@the@@primary@@CNS@@effects@@of@@paliperidone@@,@@INVEGA@@should@@be@@used@@with@@caution@@in@@combination@@with@@other@@centrally acting drugs@@and@@alcohol@@.@@"> 
+      <entity id="DDI-DrugBank.d670.s6.e0" charOffset="33-44" type="drug" text="paliperidone" position="6"/>  
+      <entity id="DDI-DrugBank.d670.s6.e1" charOffset="47-52" type="brand" text="INVEGA" position="8"/>  
+      <entity id="DDI-DrugBank.d670.s6.e2" charOffset="111-132" type="group" text="centrally acting drugs" position="18"/>  
+      <entity id="DDI-DrugBank.d670.s6.e3" charOffset="138-144" type="drug" text="alcohol" position="20"/>  
+      <pair id="DDI-DrugBank.d670.s6.p0" e1="DDI-DrugBank.d670.s6.e0" e2="DDI-DrugBank.d670.s6.e1" ddi="false" flags="True" e1_name="paliperidone" e2_name="INVEGA" e1_pos="6" e2_pos="8" path="6@@4@@0@@11@@8@@">paliperidone@@@@prep_of@@effects@@dep@@Given@@prep@@used@@nsubjpass@@INVEGA</pair>  
+      <pair id="DDI-DrugBank.d670.s6.p1" e1="DDI-DrugBank.d670.s6.e0" e2="DDI-DrugBank.d670.s6.e2" ddi="true" type="advise" flags="True" e1_name="paliperidone" e2_name="centrally acting drugs" e1_pos="6" e2_pos="18" path="6@@4@@0@@11@@18@@">paliperidone@@@@prep_of@@effects@@dep@@Given@@prep@@used@@prep_with@@centrally acting drugs</pair>  
+      <pair id="DDI-DrugBank.d670.s6.p2" e1="DDI-DrugBank.d670.s6.e0" e2="DDI-DrugBank.d670.s6.e3" ddi="true" type="advise" flags="True" e1_name="paliperidone" e2_name="alcohol" e1_pos="6" e2_pos="20" path="6@@4@@0@@11@@20@@">paliperidone@@@@prep_of@@effects@@dep@@Given@@prep@@used@@prep_with@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d670.s6.p3" e1="DDI-DrugBank.d670.s6.e1" e2="DDI-DrugBank.d670.s6.e2" ddi="true" type="advise" flags="True" e1_name="INVEGA" e2_name="centrally acting drugs" e1_pos="8" e2_pos="18" path="8@@11@@18@@">INVEGA@@@@nsubjpass@@used@@prep_with@@centrally acting drugs</pair>  
+      <pair id="DDI-DrugBank.d670.s6.p4" e1="DDI-DrugBank.d670.s6.e1" e2="DDI-DrugBank.d670.s6.e3" ddi="true" type="advise" flags="True" e1_name="INVEGA" e2_name="alcohol" e1_pos="8" e2_pos="20" path="8@@11@@20@@">INVEGA@@@@nsubjpass@@used@@prep_with@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d670.s6.p5" e1="DDI-DrugBank.d670.s6.e2" e2="DDI-DrugBank.d670.s6.e3" ddi="false" flags="True" e1_name="centrally acting drugs" e2_name="alcohol" e1_pos="18" e2_pos="20" path="18@@20@@">centrally acting drugs@@@@conj_and@@alcohol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d670.s7" text="Paliperidone may antagonize the effect of levodopa and other dopamine agonists. " new_text="Paliperidone@@may@@antagonize@@the@@effect@@of@@levodopa@@and@@other@@dopamine agonists@@.@@"> 
+      <entity id="DDI-DrugBank.d670.s7.e0" charOffset="0-11" type="drug" text="Paliperidone" position="0"/>  
+      <entity id="DDI-DrugBank.d670.s7.e1" charOffset="42-49" type="drug" text="levodopa" position="6"/>  
+      <entity id="DDI-DrugBank.d670.s7.e2" charOffset="61-77" type="group" text="dopamine agonists" position="9"/>  
+      <pair id="DDI-DrugBank.d670.s7.p0" e1="DDI-DrugBank.d670.s7.e0" e2="DDI-DrugBank.d670.s7.e1" ddi="true" type="effect" flags="True" e1_name="Paliperidone" e2_name="levodopa" e1_pos="0" e2_pos="6" path="0@@2@@4@@9@@6@@">Paliperidone@@@@nsubj@@antagonize@@dobj@@effect@@prep_of@@dopamine agonists@@nn@@levodopa</pair>  
+      <pair id="DDI-DrugBank.d670.s7.p1" e1="DDI-DrugBank.d670.s7.e0" e2="DDI-DrugBank.d670.s7.e2" ddi="true" type="effect" flags="True" e1_name="Paliperidone" e2_name="dopamine agonists" e1_pos="0" e2_pos="9" path="0@@2@@4@@9@@">Paliperidone@@@@nsubj@@antagonize@@dobj@@effect@@prep_of@@dopamine agonists</pair>  
+      <pair id="DDI-DrugBank.d670.s7.p2" e1="DDI-DrugBank.d670.s7.e1" e2="DDI-DrugBank.d670.s7.e2" ddi="false" flags="True" e1_name="levodopa" e2_name="dopamine agonists" e1_pos="6" e2_pos="9" path="6@@9@@">levodopa@@@@nn@@dopamine agonists</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d670.s8" text="Because of its potential for inducing orthostatic hypotension, an additive effect may be observed when INVEGA    is administered with other therapeutic agents that have this potential. " new_text="Because@@of@@its@@potential@@for@@inducing@@orthostatic@@hypotension@@,@@an@@additive@@effect@@may@@be@@observed@@when@@INVEGA@@is@@administered@@with@@other@@therapeutic@@agents@@that@@have@@this@@potential@@.@@"> 
+      <entity id="DDI-DrugBank.d670.s8.e0" charOffset="103-108" type="brand" text="INVEGA" position="16"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d670.s9" text="Potential for Other Drugs to Affect INVEGA    Paliperidone is not a substrate of CYP1A2, CYP2A6, CYP2C9, and CYP2C19, so that an interaction with inhibitors or inducers of these isozymes is unlikely. " new_text="Potential@@for@@Other@@Drugs@@to@@Affect@@INVEGA@@Paliperidone@@is@@not@@a@@substrate@@of@@CYP1A2@@,@@CYP2A6@@,@@CYP2C9@@,@@and@@CYP2C19@@,@@so@@that@@an@@interaction@@with@@inhibitors@@or@@inducers@@of@@these@@isozymes@@is@@unlikely@@.@@"> 
+      <entity id="DDI-DrugBank.d670.s9.e0" charOffset="36-41" type="brand" text="INVEGA" position="6"/>  
+      <entity id="DDI-DrugBank.d670.s9.e1" charOffset="46-57" type="drug" text="Paliperidone" position="7"/>  
+      <pair id="DDI-DrugBank.d670.s9.p0" e1="DDI-DrugBank.d670.s9.e0" e2="DDI-DrugBank.d670.s9.e1" ddi="false" flags="True" e1_name="INVEGA" e2_name="Paliperidone" e1_pos="6" e2_pos="7" path="6@@7@@">INVEGA@@@@nn@@Paliperidone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d670.s10" text="While in vitro studies indicate that CYP2D6 and CYP3A4 may be minimally involved in paliperidone metabolism, in vivo studies do not show decreased elimination by these isozymes and they contribute to only a small fraction of total body clearance." new_text="While@@in@@vitro@@studies@@indicate@@that@@CYP2D6@@and@@CYP3A4@@may@@be@@minimally@@involved@@in@@paliperidone@@metabolism@@,@@in@@vivo@@studies@@do@@not@@show@@decreased@@elimination@@by@@these@@isozymes@@and@@they@@contribute@@to@@only@@a@@small@@fraction@@of@@total@@body@@clearance@@.@@"> 
+      <entity id="DDI-DrugBank.d670.s10.e0" charOffset="84-95" type="drug" text="paliperidone" position="14"/> 
+   </sentence> 
+</document>

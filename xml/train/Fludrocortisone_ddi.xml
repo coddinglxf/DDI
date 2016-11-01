@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d526"> 
+   <sentence id="DDI-DrugBank.d526.s0" text="When administered concurrently, the following drugs may interact with adrenal corticosteroids." new_text="When@@administered@@concurrently@@,@@the@@following@@drugs@@may@@interact@@with@@adrenal corticosteroids@@.@@"> 
+      <entity id="DDI-DrugBank.d526.s0.e0" charOffset="70-92" type="group" text="adrenal corticosteroids" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s1" text="Amphotericin B or potassium-depleting diuretics (benzothiadiazines and related drugs, ethacrynic acid and furosemide) enhanced hypokalemia." new_text="Amphotericin B@@or@@potassium-depleting diuretics@@(@@benzothiadiazines@@and@@related@@drugs@@,@@ethacrynic acid@@and@@furosemide@@)@@enhanced@@hypokalemia@@.@@"> 
+      <entity id="DDI-DrugBank.d526.s1.e0" charOffset="0-13" type="drug" text="Amphotericin B" position="0"/>  
+      <entity id="DDI-DrugBank.d526.s1.e1" charOffset="18-46" type="group" text="potassium-depleting diuretics" position="2"/>  
+      <entity id="DDI-DrugBank.d526.s1.e2" charOffset="49-65" type="group" text="benzothiadiazines" position="4"/>  
+      <entity id="DDI-DrugBank.d526.s1.e3" charOffset="86-100" type="drug" text="ethacrynic acid" position="9"/>  
+      <entity id="DDI-DrugBank.d526.s1.e4" charOffset="106-115" type="drug" text="furosemide" position="11"/>  
+      <pair id="DDI-DrugBank.d526.s1.p0" e1="DDI-DrugBank.d526.s1.e0" e2="DDI-DrugBank.d526.s1.e1" ddi="false" flags="True" e1_name="Amphotericin B" e2_name="potassium-depleting diuretics" e1_pos="0" e2_pos="2" path="0@@2@@">Amphotericin B@@@@conj_or@@potassium-depleting diuretics</pair>  
+      <pair id="DDI-DrugBank.d526.s1.p1" e1="DDI-DrugBank.d526.s1.e0" e2="DDI-DrugBank.d526.s1.e2" ddi="false" flags="True" e1_name="Amphotericin B" e2_name="benzothiadiazines" e1_pos="0" e2_pos="4" path="0@@3@@4@@">Amphotericin B@@@@nsubj@@(@@dobj@@benzothiadiazines</pair>  
+      <pair id="DDI-DrugBank.d526.s1.p2" e1="DDI-DrugBank.d526.s1.e0" e2="DDI-DrugBank.d526.s1.e3" ddi="false" flags="True" e1_name="Amphotericin B" e2_name="ethacrynic acid" e1_pos="0" e2_pos="9" path="0@@3@@4@@14@@9@@">Amphotericin B@@@@nsubj@@(@@dobj@@benzothiadiazines@@appos@@hypokalemia@@amod@@ethacrynic acid</pair>  
+      <pair id="DDI-DrugBank.d526.s1.p3" e1="DDI-DrugBank.d526.s1.e0" e2="DDI-DrugBank.d526.s1.e4" ddi="false" flags="True" e1_name="Amphotericin B" e2_name="furosemide" e1_pos="0" e2_pos="11" path="0@@3@@4@@14@@11@@">Amphotericin B@@@@nsubj@@(@@dobj@@benzothiadiazines@@appos@@hypokalemia@@amod@@furosemide</pair>  
+      <pair id="DDI-DrugBank.d526.s1.p4" e1="DDI-DrugBank.d526.s1.e1" e2="DDI-DrugBank.d526.s1.e2" ddi="false" flags="True" e1_name="potassium-depleting diuretics" e2_name="benzothiadiazines" e1_pos="2" e2_pos="4" path="2@@3@@4@@">potassium-depleting diuretics@@@@nsubj@@(@@dobj@@benzothiadiazines</pair>  
+      <pair id="DDI-DrugBank.d526.s1.p5" e1="DDI-DrugBank.d526.s1.e1" e2="DDI-DrugBank.d526.s1.e3" ddi="false" flags="True" e1_name="potassium-depleting diuretics" e2_name="ethacrynic acid" e1_pos="2" e2_pos="9" path="2@@3@@4@@14@@9@@">potassium-depleting diuretics@@@@nsubj@@(@@dobj@@benzothiadiazines@@appos@@hypokalemia@@amod@@ethacrynic acid</pair>  
+      <pair id="DDI-DrugBank.d526.s1.p6" e1="DDI-DrugBank.d526.s1.e1" e2="DDI-DrugBank.d526.s1.e4" ddi="false" flags="True" e1_name="potassium-depleting diuretics" e2_name="furosemide" e1_pos="2" e2_pos="11" path="2@@3@@4@@14@@11@@">potassium-depleting diuretics@@@@nsubj@@(@@dobj@@benzothiadiazines@@appos@@hypokalemia@@amod@@furosemide</pair>  
+      <pair id="DDI-DrugBank.d526.s1.p7" e1="DDI-DrugBank.d526.s1.e2" e2="DDI-DrugBank.d526.s1.e3" ddi="false" flags="True" e1_name="benzothiadiazines" e2_name="ethacrynic acid" e1_pos="4" e2_pos="9" path="4@@14@@9@@">benzothiadiazines@@@@appos@@hypokalemia@@amod@@ethacrynic acid</pair>  
+      <pair id="DDI-DrugBank.d526.s1.p8" e1="DDI-DrugBank.d526.s1.e2" e2="DDI-DrugBank.d526.s1.e4" ddi="false" flags="True" e1_name="benzothiadiazines" e2_name="furosemide" e1_pos="4" e2_pos="11" path="4@@14@@11@@">benzothiadiazines@@@@appos@@hypokalemia@@amod@@furosemide</pair>  
+      <pair id="DDI-DrugBank.d526.s1.p9" e1="DDI-DrugBank.d526.s1.e3" e2="DDI-DrugBank.d526.s1.e4" ddi="false" flags="True" e1_name="ethacrynic acid" e2_name="furosemide" e1_pos="9" e2_pos="11" path="9@@11@@">ethacrynic acid@@@@conj_and@@furosemide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s2" text="Check serum potassium levels at frequent intervals;" new_text="Check@@serum@@potassium@@levels@@at@@frequent@@intervals;@@"/>  
+   <sentence id="DDI-DrugBank.d526.s3" text="use potassium supplements if necessary ." new_text="use@@potassium@@supplements@@if@@necessary@@.@@"> 
+      <entity id="DDI-DrugBank.d526.s3.e0" charOffset="4-12" type="drug" text="potassium" position="1"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s4" text="Digitalis glycosides enhanced possibility of arrhythmias or digitalis toxicity associated with hypokalemia." new_text="Digitalis glycosides@@enhanced@@possibility@@of@@arrhythmias@@or@@digitalis@@toxicity@@associated@@with@@hypokalemia@@.@@"> 
+      <entity id="DDI-DrugBank.d526.s4.e0" charOffset="0-19" type="group" text="Digitalis glycosides" position="0"/>  
+      <entity id="DDI-DrugBank.d526.s4.e1" charOffset="60-68" type="group" text="digitalis" position="6"/>  
+      <pair id="DDI-DrugBank.d526.s4.p0" e1="DDI-DrugBank.d526.s4.e0" e2="DDI-DrugBank.d526.s4.e1" ddi="false" flags="True" e1_name="Digitalis glycosides" e2_name="digitalis" e1_pos="0" e2_pos="6" path="0@@2@@7@@6@@">Digitalis glycosides@@@@amod@@possibility@@prep_of@@toxicity@@nn@@digitalis</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s5" text="Monitor serum potassium levels;" new_text="Monitor@@serum@@potassium@@levels;@@"/>  
+   <sentence id="DDI-DrugBank.d526.s6" text="use potassium supplements if necessary." new_text="use@@potassium@@supplements@@if@@necessary@@.@@"> 
+      <entity id="DDI-DrugBank.d526.s6.e0" charOffset="4-12" type="drug" text="potassium" position="1"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s7" text="Oral anticoagulants decreased prothrombin time response." new_text="Oral@@anticoagulants@@decreased@@prothrombin@@time@@response@@.@@"> 
+      <entity id="DDI-DrugBank.d526.s7.e0" charOffset="5-18" type="group" text="anticoagulants" position="1"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s8" text="Monitor prothrombin levels and adjust anticoagulant dosage accordingly." new_text="Monitor@@prothrombin@@levels@@and@@adjust@@anticoagulant@@dosage@@accordingly@@.@@"> 
+      <entity id="DDI-DrugBank.d526.s8.e0" charOffset="38-50" type="group" text="anticoagulant" position="5"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s9" text="Antidiabetic drugs (oral agents and insulin) diminished antidiabetic effect." new_text="Antidiabetic drugs@@(oral@@agents@@and@@insulin@@)@@diminished@@antidiabetic@@effect@@.@@"> 
+      <entity id="DDI-DrugBank.d526.s9.e0" charOffset="0-17" type="group" text="Antidiabetic drugs" position="0"/>  
+      <entity id="DDI-DrugBank.d526.s9.e1" charOffset="36-42" type="drug" text="insulin" position="4"/>  
+      <pair id="DDI-DrugBank.d526.s9.p0" e1="DDI-DrugBank.d526.s9.e0" e2="DDI-DrugBank.d526.s9.e1" ddi="false" flags="True" e1_name="Antidiabetic drugs" e2_name="insulin" e1_pos="0" e2_pos="4" path="0@@2@@5@@4@@">Antidiabetic drugs@@@@amod@@agents@@conj_and@@)@@nn@@insulin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s10" text="Monitor for symptoms of hyperglycemia;" new_text="Monitor@@for@@symptoms@@of@@hyperglycemia;@@"/>  
+   <sentence id="DDI-DrugBank.d526.s11" text="adjust dosage of antidiabetic drug upward if necessary." new_text="adjust@@dosage@@of@@antidiabetic drug@@upward@@if@@necessary@@.@@"> 
+      <entity id="DDI-DrugBank.d526.s11.e0" charOffset="17-33" type="group" text="antidiabetic drug" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s12" text="Aspirin increased ulcerogenic effect;" new_text="Aspirin@@increased@@ulcerogenic@@effect;@@"> 
+      <entity id="DDI-DrugBank.d526.s12.e0" charOffset="0-6" type="brand" text="Aspirin" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s13" text="decreased pharmacologic effect of aspirin." new_text="decreased@@pharmacologic@@effect@@of@@aspirin@@.@@"> 
+      <entity id="DDI-DrugBank.d526.s13.e0" charOffset="34-40" type="brand" text="aspirin" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s14" text="Rarely salicylate toxicity may occur in patients who discontinue steroids after concurrent high-dose aspirin therapy." new_text="Rarely@@salicylate@@toxicity@@may@@occur@@in@@patients@@who@@discontinue@@steroids@@after@@concurrent@@high-dose@@aspirin@@therapy@@.@@"> 
+      <entity id="DDI-DrugBank.d526.s14.e0" charOffset="7-16" type="group" text="salicylate" position="1"/>  
+      <entity id="DDI-DrugBank.d526.s14.e1" charOffset="65-72" type="group" text="steroids" position="9"/>  
+      <entity id="DDI-DrugBank.d526.s14.e2" charOffset="101-107" type="brand" text="aspirin" position="13"/>  
+      <pair id="DDI-DrugBank.d526.s14.p0" e1="DDI-DrugBank.d526.s14.e0" e2="DDI-DrugBank.d526.s14.e1" ddi="false" flags="True" e1_name="salicylate" e2_name="steroids" e1_pos="1" e2_pos="9" path="1@@2@@4@@6@@8@@9@@">salicylate@@@@nn@@toxicity@@nsubj@@occur@@prep_in@@patients@@rcmod@@discontinue@@dobj@@steroids</pair>  
+      <pair id="DDI-DrugBank.d526.s14.p1" e1="DDI-DrugBank.d526.s14.e0" e2="DDI-DrugBank.d526.s14.e2" ddi="false" flags="True" e1_name="salicylate" e2_name="aspirin" e1_pos="1" e2_pos="13" path="1@@2@@4@@6@@8@@14@@13@@">salicylate@@@@nn@@toxicity@@nsubj@@occur@@prep_in@@patients@@rcmod@@discontinue@@prep_after@@therapy@@nn@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d526.s14.p2" e1="DDI-DrugBank.d526.s14.e1" e2="DDI-DrugBank.d526.s14.e2" ddi="true" type="effect" flags="True" e1_name="steroids" e2_name="aspirin" e1_pos="9" e2_pos="13" path="9@@8@@14@@13@@">steroids@@@@dobj@@discontinue@@prep_after@@therapy@@nn@@aspirin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s15" text="Monitor salicylate levels or the therapeutic effect for which aspirin is given;" new_text="Monitor@@salicylate@@levels@@or@@the@@therapeutic@@effect@@for@@which@@aspirin@@is@@given;@@"> 
+      <entity id="DDI-DrugBank.d526.s15.e0" charOffset="8-17" type="group" text="salicylate" position="1"/>  
+      <entity id="DDI-DrugBank.d526.s15.e1" charOffset="62-68" type="brand" text="aspirin" position="9"/>  
+      <pair id="DDI-DrugBank.d526.s15.p0" e1="DDI-DrugBank.d526.s15.e0" e2="DDI-DrugBank.d526.s15.e1" ddi="false" flags="True" e1_name="salicylate" e2_name="aspirin" e1_pos="1" e2_pos="9" path="1@@2@@11@@9@@">salicylate@@@@nn@@levels@@prepc_for@@given;@@nsubj@@aspirin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s16" text="adjust salicylate dosage accordingly if effect is altered." new_text="adjust@@salicylate@@dosage@@accordingly@@if@@effect@@is@@altered@@.@@"> 
+      <entity id="DDI-DrugBank.d526.s16.e0" charOffset="7-16" type="group" text="salicylate" position="1"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s17" text="Barbiturates, phenytoin, or rifampin increased metabolic clearance of fludrocortisone acetate because of the induction of hepatic enzymes." new_text="Barbiturates@@,@@phenytoin@@,@@or@@rifampin@@increased@@metabolic@@clearance@@of@@fludrocortisone acetate@@because@@of@@the@@induction@@of@@hepatic@@enzymes@@.@@"> 
+      <entity id="DDI-DrugBank.d526.s17.e0" charOffset="0-11" type="group" text="Barbiturates" position="0"/>  
+      <entity id="DDI-DrugBank.d526.s17.e1" charOffset="14-22" type="drug" text="phenytoin" position="2"/>  
+      <entity id="DDI-DrugBank.d526.s17.e2" charOffset="28-35" type="drug" text="rifampin" position="5"/>  
+      <entity id="DDI-DrugBank.d526.s17.e3" charOffset="70-92" type="drug" text="fludrocortisone acetate" position="10"/>  
+      <pair id="DDI-DrugBank.d526.s17.p0" e1="DDI-DrugBank.d526.s17.e0" e2="DDI-DrugBank.d526.s17.e1" ddi="false" flags="True" e1_name="Barbiturates" e2_name="phenytoin" e1_pos="0" e2_pos="2" path="0@@2@@">Barbiturates@@@@conj_or@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d526.s17.p1" e1="DDI-DrugBank.d526.s17.e0" e2="DDI-DrugBank.d526.s17.e2" ddi="false" flags="True" e1_name="Barbiturates" e2_name="rifampin" e1_pos="0" e2_pos="5" path="0@@5@@">Barbiturates@@@@conj_or@@rifampin</pair>  
+      <pair id="DDI-DrugBank.d526.s17.p2" e1="DDI-DrugBank.d526.s17.e0" e2="DDI-DrugBank.d526.s17.e3" ddi="true" type="mechanism" flags="True" e1_name="Barbiturates" e2_name="fludrocortisone acetate" e1_pos="0" e2_pos="10" path="0@@6@@8@@10@@">Barbiturates@@@@nsubj@@increased@@dobj@@clearance@@prep_of@@fludrocortisone acetate</pair>  
+      <pair id="DDI-DrugBank.d526.s17.p3" e1="DDI-DrugBank.d526.s17.e1" e2="DDI-DrugBank.d526.s17.e2" ddi="false" flags="True" e1_name="phenytoin" e2_name="rifampin" e1_pos="2" e2_pos="5" path="2@@0@@5@@">phenytoin@@@@conj_or@@Barbiturates@@conj_or@@rifampin</pair>  
+      <pair id="DDI-DrugBank.d526.s17.p4" e1="DDI-DrugBank.d526.s17.e1" e2="DDI-DrugBank.d526.s17.e3" ddi="true" type="mechanism" flags="True" e1_name="phenytoin" e2_name="fludrocortisone acetate" e1_pos="2" e2_pos="10" path="2@@6@@8@@10@@">phenytoin@@@@nsubj@@increased@@dobj@@clearance@@prep_of@@fludrocortisone acetate</pair>  
+      <pair id="DDI-DrugBank.d526.s17.p5" e1="DDI-DrugBank.d526.s17.e2" e2="DDI-DrugBank.d526.s17.e3" ddi="true" type="mechanism" flags="True" e1_name="rifampin" e2_name="fludrocortisone acetate" e1_pos="5" e2_pos="10" path="5@@6@@8@@10@@">rifampin@@@@nsubj@@increased@@dobj@@clearance@@prep_of@@fludrocortisone acetate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s18" text="Observe the patient for possible diminished effect of steroid and increase the steroid dosage accordingly." new_text="Observe@@the@@patient@@for@@possible@@diminished@@effect@@of@@steroid@@and@@increase@@the@@steroid@@dosage@@accordingly@@.@@"> 
+      <entity id="DDI-DrugBank.d526.s18.e0" charOffset="54-60" type="group" text="steroid" position="8"/>  
+      <entity id="DDI-DrugBank.d526.s18.e1" charOffset="79-85" type="group" text="steroid" position="12"/>  
+      <pair id="DDI-DrugBank.d526.s18.p0" e1="DDI-DrugBank.d526.s18.e0" e2="DDI-DrugBank.d526.s18.e1" ddi="false" flags="True" e1_name="steroid" e2_name="steroid" e1_pos="8" e2_pos="12" path="8@@6@@0@@10@@13@@12@@">steroid@@@@prep_of@@effect@@prep_for@@Observe@@conj_and@@increase@@dobj@@dosage@@amod@@steroid</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s19" text="Anabolic steroids (particularly C-17 alkylated androgens such as oxymetholone, methandrostenolone, norethandrolone, and similar compounds) enhanced tendency toward edema." new_text="Anabolic steroids@@(particularly@@C-17@@alkylated@@androgens@@such@@as@@oxymetholone@@,@@methandrostenolone@@,@@norethandrolone@@,@@and@@similar@@compounds)@@enhanced@@tendency@@toward@@edema@@.@@"> 
+      <entity id="DDI-DrugBank.d526.s19.e0" charOffset="0-16" type="group" text="Anabolic steroids" position="0"/>  
+      <entity id="DDI-DrugBank.d526.s19.e1" charOffset="47-55" type="group" text="androgens" position="4"/>  
+      <entity id="DDI-DrugBank.d526.s19.e2" charOffset="65-76" type="drug" text="oxymetholone" position="7"/>  
+      <entity id="DDI-DrugBank.d526.s19.e3" charOffset="79-96" type="drug" text="methandrostenolone" position="9"/>  
+      <entity id="DDI-DrugBank.d526.s19.e4" charOffset="99-113" type="drug" text="norethandrolone" position="11"/>  
+      <pair id="DDI-DrugBank.d526.s19.p0" e1="DDI-DrugBank.d526.s19.e0" e2="DDI-DrugBank.d526.s19.e1" ddi="false" flags="True" e1_name="Anabolic steroids" e2_name="androgens" e1_pos="0" e2_pos="4" path="0@@2@@4@@">Anabolic steroids@@@@nsubj@@C-17@@dobj@@androgens</pair>  
+      <pair id="DDI-DrugBank.d526.s19.p1" e1="DDI-DrugBank.d526.s19.e0" e2="DDI-DrugBank.d526.s19.e2" ddi="false" flags="True" e1_name="Anabolic steroids" e2_name="oxymetholone" e1_pos="0" e2_pos="7" path="0@@2@@4@@17@@15@@7@@">Anabolic steroids@@@@nsubj@@C-17@@dobj@@androgens@@prep_such_as@@tendency@@amod@@compounds)@@dep@@oxymetholone</pair>  
+      <pair id="DDI-DrugBank.d526.s19.p2" e1="DDI-DrugBank.d526.s19.e0" e2="DDI-DrugBank.d526.s19.e3" ddi="false" flags="True" e1_name="Anabolic steroids" e2_name="methandrostenolone" e1_pos="0" e2_pos="9" path="0@@2@@4@@17@@9@@">Anabolic steroids@@@@nsubj@@C-17@@dobj@@androgens@@prep_such_as@@tendency@@amod@@methandrostenolone</pair>  
+      <pair id="DDI-DrugBank.d526.s19.p3" e1="DDI-DrugBank.d526.s19.e0" e2="DDI-DrugBank.d526.s19.e4" ddi="false" flags="True" e1_name="Anabolic steroids" e2_name="norethandrolone" e1_pos="0" e2_pos="11" path="0@@2@@4@@17@@11@@">Anabolic steroids@@@@nsubj@@C-17@@dobj@@androgens@@prep_such_as@@tendency@@amod@@norethandrolone</pair>  
+      <pair id="DDI-DrugBank.d526.s19.p4" e1="DDI-DrugBank.d526.s19.e1" e2="DDI-DrugBank.d526.s19.e2" ddi="false" flags="True" e1_name="androgens" e2_name="oxymetholone" e1_pos="4" e2_pos="7" path="4@@17@@15@@7@@">androgens@@@@prep_such_as@@tendency@@amod@@compounds)@@dep@@oxymetholone</pair>  
+      <pair id="DDI-DrugBank.d526.s19.p5" e1="DDI-DrugBank.d526.s19.e1" e2="DDI-DrugBank.d526.s19.e3" ddi="false" flags="True" e1_name="androgens" e2_name="methandrostenolone" e1_pos="4" e2_pos="9" path="4@@17@@9@@">androgens@@@@prep_such_as@@tendency@@amod@@methandrostenolone</pair>  
+      <pair id="DDI-DrugBank.d526.s19.p6" e1="DDI-DrugBank.d526.s19.e1" e2="DDI-DrugBank.d526.s19.e4" ddi="false" flags="True" e1_name="androgens" e2_name="norethandrolone" e1_pos="4" e2_pos="11" path="4@@17@@11@@">androgens@@@@prep_such_as@@tendency@@amod@@norethandrolone</pair>  
+      <pair id="DDI-DrugBank.d526.s19.p7" e1="DDI-DrugBank.d526.s19.e2" e2="DDI-DrugBank.d526.s19.e3" ddi="false" flags="True" e1_name="oxymetholone" e2_name="methandrostenolone" e1_pos="7" e2_pos="9" path="7@@15@@9@@">oxymetholone@@@@dep@@compounds)@@conj_and@@methandrostenolone</pair>  
+      <pair id="DDI-DrugBank.d526.s19.p8" e1="DDI-DrugBank.d526.s19.e2" e2="DDI-DrugBank.d526.s19.e4" ddi="false" flags="True" e1_name="oxymetholone" e2_name="norethandrolone" e1_pos="7" e2_pos="11" path="7@@15@@11@@">oxymetholone@@@@dep@@compounds)@@conj_and@@norethandrolone</pair>  
+      <pair id="DDI-DrugBank.d526.s19.p9" e1="DDI-DrugBank.d526.s19.e3" e2="DDI-DrugBank.d526.s19.e4" ddi="false" flags="True" e1_name="methandrostenolone" e2_name="norethandrolone" e1_pos="9" e2_pos="11" path="9@@15@@11@@">methandrostenolone@@@@conj_and@@compounds)@@conj_and@@norethandrolone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s20" text="Use caution when giving these drugs together, especially in patients with hepatic or cardiac disease." new_text="Use@@caution@@when@@giving@@these@@drugs@@together@@,@@especially@@in@@patients@@with@@hepatic@@or@@cardiac@@disease@@.@@"/>  
+   <sentence id="DDI-DrugBank.d526.s21" text="Vaccines neurological complications and lack of antibody response ." new_text="Vaccines@@neurological@@complications@@and@@lack@@of@@antibody@@response@@.@@"> 
+      <entity id="DDI-DrugBank.d526.s21.e0" charOffset="0-7" type="group" text="Vaccines" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s22" text="Estrogen increased levels of corticosteroid-binding globulin, thereby increasing the bound (inactive) fraction;" new_text="Estrogen@@increased@@levels@@of@@corticosteroid-binding@@globulin@@,@@thereby@@increasing@@the@@bound@@(inactive)@@fraction;@@"> 
+      <entity id="DDI-DrugBank.d526.s22.e0" charOffset="0-7" type="group" text="Estrogen" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s23" text="this effect is at least balanced by decreased metabolism of corticosteroids." new_text="this@@effect@@is@@at@@least@@balanced@@by@@decreased@@metabolism@@of@@corticosteroids@@.@@"> 
+      <entity id="DDI-DrugBank.d526.s23.e0" charOffset="60-74" type="group" text="corticosteroids" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s24" text="When estrogen therapy is initiated, a reduction in corticosteroid dosage may be required, and increased amounts may be required when estrogen is terminated." new_text="When@@estrogen@@therapy@@is@@initiated@@,@@a@@reduction@@in@@corticosteroid@@dosage@@may@@be@@required@@,@@and@@increased@@amounts@@may@@be@@required@@when@@estrogen@@is@@terminated@@.@@"> 
+      <entity id="DDI-DrugBank.d526.s24.e0" charOffset="5-12" type="group" text="estrogen" position="1"/>  
+      <entity id="DDI-DrugBank.d526.s24.e1" charOffset="51-64" type="group" text="corticosteroid" position="9"/>  
+      <entity id="DDI-DrugBank.d526.s24.e2" charOffset="133-140" type="group" text="estrogen" position="22"/>  
+      <pair id="DDI-DrugBank.d526.s24.p0" e1="DDI-DrugBank.d526.s24.e0" e2="DDI-DrugBank.d526.s24.e1" ddi="false" flags="True" e1_name="estrogen" e2_name="corticosteroid" e1_pos="1" e2_pos="9" path="1@@2@@4@@13@@7@@10@@9@@">estrogen@@@@nn@@therapy@@nsubjpass@@initiated@@advcl@@required@@nsubjpass@@reduction@@prep_in@@dosage@@amod@@corticosteroid</pair>  
+      <pair id="DDI-DrugBank.d526.s24.p1" e1="DDI-DrugBank.d526.s24.e0" e2="DDI-DrugBank.d526.s24.e2" ddi="false" flags="True" e1_name="estrogen" e2_name="estrogen" e1_pos="1" e2_pos="22" path="1@@2@@4@@13@@20@@24@@22@@">estrogen@@@@nn@@therapy@@nsubjpass@@initiated@@advcl@@required@@conj_and@@required@@advcl@@terminated@@nsubjpass@@estrogen</pair>  
+      <pair id="DDI-DrugBank.d526.s24.p2" e1="DDI-DrugBank.d526.s24.e1" e2="DDI-DrugBank.d526.s24.e2" ddi="false" flags="True" e1_name="corticosteroid" e2_name="estrogen" e1_pos="9" e2_pos="22" path="9@@10@@7@@13@@20@@24@@22@@">corticosteroid@@@@amod@@dosage@@prep_in@@reduction@@nsubjpass@@required@@conj_and@@required@@advcl@@terminated@@nsubjpass@@estrogen</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s25" text="Drug/Laboratory Test Interactions Corticosteroids may affect the nitrobluetetrazolium test for bacterial infection and produce false-negative results" new_text="Drug/Laboratory@@Test@@Interactions@@Corticosteroids@@may@@affect@@the@@nitrobluetetrazolium@@test@@for@@bacterial@@infection@@and@@produce@@false-negative@@results@@"> 
+      <entity id="DDI-DrugBank.d526.s25.e0" charOffset="34-48" type="group" text="Corticosteroids" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d526.s26" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d526.s27" text="" new_text=""/> 
+</document>

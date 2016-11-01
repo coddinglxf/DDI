@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d104"> 
+   <sentence id="DDI-MedLine.d104.s0" text="The effects of DCG-IV and L-CCG-1 upon phencyclidine (PCP)-induced locomotion and behavioral changes in mice.
+" new_text="The@@effects@@of@@DCG-IV@@and@@L-CCG-1@@upon@@phencyclidine@@(@@PCP@@)-induced@@locomotion@@and@@behavioral@@changes@@in@@mice@@.@@"> 
+      <entity id="DDI-MedLine.d104.s0.e0" charOffset="15-20" type="drug_n" text="DCG-IV" position="3"/>  
+      <entity id="DDI-MedLine.d104.s0.e1" charOffset="26-32" type="drug_n" text="L-CCG-1" position="5"/>  
+      <entity id="DDI-MedLine.d104.s0.e2" charOffset="39-51" type="drug_n" text="phencyclidine" position="7"/>  
+      <entity id="DDI-MedLine.d104.s0.e3" charOffset="54-56" type="drug_n" text="PCP" position="9"/>  
+      <pair id="DDI-MedLine.d104.s0.p0" e1="DDI-MedLine.d104.s0.e0" e2="DDI-MedLine.d104.s0.e1" ddi="false" flags="True" e1_name="DCG-IV" e2_name="L-CCG-1" e1_pos="3" e2_pos="5" path="3@@5@@">DCG-IV@@@@conj_and@@L-CCG-1</pair>  
+      <pair id="DDI-MedLine.d104.s0.p1" e1="DDI-MedLine.d104.s0.e0" e2="DDI-MedLine.d104.s0.e2" ddi="false" flags="True" e1_name="DCG-IV" e2_name="phencyclidine" e1_pos="3" e2_pos="7" path="3@@1@@8@@7@@">DCG-IV@@@@prep_of@@effects@@prep_upon@@(@@amod@@phencyclidine</pair>  
+      <pair id="DDI-MedLine.d104.s0.p2" e1="DDI-MedLine.d104.s0.e0" e2="DDI-MedLine.d104.s0.e3" ddi="false" flags="True" e1_name="DCG-IV" e2_name="PCP" e1_pos="3" e2_pos="9" path="3@@1@@9@@">DCG-IV@@@@prep_of@@effects@@nsubj@@PCP</pair>  
+      <pair id="DDI-MedLine.d104.s0.p3" e1="DDI-MedLine.d104.s0.e1" e2="DDI-MedLine.d104.s0.e2" ddi="false" flags="True" e1_name="L-CCG-1" e2_name="phencyclidine" e1_pos="5" e2_pos="7" path="5@@1@@8@@7@@">L-CCG-1@@@@prep_of@@effects@@prep_upon@@(@@amod@@phencyclidine</pair>  
+      <pair id="DDI-MedLine.d104.s0.p4" e1="DDI-MedLine.d104.s0.e1" e2="DDI-MedLine.d104.s0.e3" ddi="false" flags="True" e1_name="L-CCG-1" e2_name="PCP" e1_pos="5" e2_pos="9" path="5@@1@@9@@">L-CCG-1@@@@prep_of@@effects@@nsubj@@PCP</pair>  
+      <pair id="DDI-MedLine.d104.s0.p5" e1="DDI-MedLine.d104.s0.e2" e2="DDI-MedLine.d104.s0.e3" ddi="false" flags="True" e1_name="phencyclidine" e2_name="PCP" e1_pos="7" e2_pos="9" path="7@@8@@1@@9@@">phencyclidine@@@@amod@@(@@prep_upon@@effects@@nsubj@@PCP</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d104.s1" text="The behavioral changes of mice induced by acute and repeated i.p. " new_text="The@@behavioral@@changes@@of@@mice@@induced@@by@@acute@@and@@repeated@@i.p@@.@@"/>  
+   <sentence id="DDI-MedLine.d104.s2" text="injection of phencyclidine (PCP) were observed by measuring locomotor activity and stereotyped behavior. " new_text="injection@@of@@phencyclidine@@(@@PCP@@)@@were@@observed@@by@@measuring@@locomotor@@activity@@and@@stereotyped@@behavior@@.@@"> 
+      <entity id="DDI-MedLine.d104.s2.e0" charOffset="13-25" type="drug_n" text="phencyclidine" position="2"/>  
+      <entity id="DDI-MedLine.d104.s2.e1" charOffset="28-30" type="drug_n" text="PCP" position="4"/>  
+      <pair id="DDI-MedLine.d104.s2.p0" e1="DDI-MedLine.d104.s2.e0" e2="DDI-MedLine.d104.s2.e1" ddi="false" flags="True" e1_name="phencyclidine" e2_name="PCP" e1_pos="2" e2_pos="4" path="2@@5@@4@@">phencyclidine@@@@amod@@)@@nn@@PCP</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d104.s3" text="Then, the effects of metabotropic glutamate receptor (mGluR) agonists, DCG-IV and L-CCG-1, on the above behavioral changes induced by PCP were found. " new_text="Then@@,@@the@@effects@@of@@metabotropic@@glutamate@@receptor@@(mGluR)@@agonists@@,@@DCG-IV@@and@@L-CCG-1@@,@@on@@the@@above@@behavioral@@changes@@induced@@by@@PCP@@were@@found@@.@@"> 
+      <entity id="DDI-MedLine.d104.s3.e0" charOffset="71-76" type="drug_n" text="DCG-IV" position="11"/>  
+      <entity id="DDI-MedLine.d104.s3.e1" charOffset="82-88" type="drug_n" text="L-CCG-1" position="13"/>  
+      <entity id="DDI-MedLine.d104.s3.e2" charOffset="134-136" type="drug_n" text="PCP" position="22"/>  
+      <pair id="DDI-MedLine.d104.s3.p0" e1="DDI-MedLine.d104.s3.e0" e2="DDI-MedLine.d104.s3.e1" ddi="false" flags="True" e1_name="DCG-IV" e2_name="L-CCG-1" e1_pos="11" e2_pos="13" path="11@@13@@">DCG-IV@@@@conj_and@@L-CCG-1</pair>  
+      <pair id="DDI-MedLine.d104.s3.p1" e1="DDI-MedLine.d104.s3.e0" e2="DDI-MedLine.d104.s3.e2" ddi="false" flags="True" e1_name="DCG-IV" e2_name="PCP" e1_pos="11" e2_pos="22" path="11@@3@@20@@22@@">DCG-IV@@@@amod@@effects@@partmod@@induced@@agent@@PCP</pair>  
+      <pair id="DDI-MedLine.d104.s3.p2" e1="DDI-MedLine.d104.s3.e1" e2="DDI-MedLine.d104.s3.e2" ddi="false" flags="True" e1_name="L-CCG-1" e2_name="PCP" e1_pos="13" e2_pos="22" path="13@@3@@20@@22@@">L-CCG-1@@@@amod@@effects@@partmod@@induced@@agent@@PCP</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d104.s4" text="The effects of DCG-IV were very strong and completely depressed the PCP-induced hyperlocomotion. " new_text="The@@effects@@of@@DCG-IV@@were@@very@@strong@@and@@completely@@depressed@@the@@PCP@@-induced@@hyperlocomotion@@.@@"> 
+      <entity id="DDI-MedLine.d104.s4.e0" charOffset="15-20" type="drug_n" text="DCG-IV" position="3"/>  
+      <entity id="DDI-MedLine.d104.s4.e1" charOffset="68-70" type="drug_n" text="PCP" position="11"/>  
+      <pair id="DDI-MedLine.d104.s4.p0" e1="DDI-MedLine.d104.s4.e0" e2="DDI-MedLine.d104.s4.e1" ddi="true" type="effect" flags="True" e1_name="DCG-IV" e2_name="PCP" e1_pos="3" e2_pos="11" path="3@@1@@9@@13@@11@@">DCG-IV@@@@prep_of@@effects@@nsubj@@depressed@@dobj@@hyperlocomotion@@nn@@PCP</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d104.s5" text="The effects of L-CCG-1 were not so strong. " new_text="The@@effects@@of@@L-CCG-1@@were@@not@@so@@strong@@.@@"> 
+      <entity id="DDI-MedLine.d104.s5.e0" charOffset="15-21" type="drug_n" text="L-CCG-1" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d104.s6" text="Repeated injection of PCP for 20 days into mice induced lower locomotor activity than that in acutely injected mice. " new_text="Repeated@@injection@@of@@PCP@@for@@20@@days@@into@@mice@@induced@@lower@@locomotor@@activity@@than@@that@@in@@acutely@@injected@@mice@@.@@"> 
+      <entity id="DDI-MedLine.d104.s6.e0" charOffset="22-24" type="drug_n" text="PCP" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d104.s7" text="These behavioral changes may be related with the negative symptoms of schizophrenia. " new_text="These@@behavioral@@changes@@may@@be@@related@@with@@the@@negative@@symptoms@@of@@schizophrenia@@.@@"/>  
+   <sentence id="DDI-MedLine.d104.s8" text="In order to examine some molecular mechanisms of PCP-induced behavioral changes, Northern blot analysis of total RNA from prefrontal cortical tissues of mice treated with PCP, DCG-IV, and L-CCG-1 was carried out." new_text="In@@order@@to@@examine@@some@@molecular@@mechanisms@@of@@PCP@@-induced@@behavioral@@changes@@,@@Northern@@blot@@analysis@@of@@total@@RNA@@from@@prefrontal@@cortical@@tissues@@of@@mice@@treated@@with@@PCP@@,@@DCG-IV@@,@@and@@L-CCG-1@@was@@carried@@out@@.@@"> 
+      <entity id="DDI-MedLine.d104.s8.e0" charOffset="49-51" type="drug_n" text="PCP" position="8"/>  
+      <entity id="DDI-MedLine.d104.s8.e1" charOffset="171-173" type="drug_n" text="PCP" position="27"/>  
+      <entity id="DDI-MedLine.d104.s8.e2" charOffset="176-181" type="drug_n" text="DCG-IV" position="29"/>  
+      <entity id="DDI-MedLine.d104.s8.e3" charOffset="188-194" type="drug_n" text="L-CCG-1" position="32"/>  
+      <pair id="DDI-MedLine.d104.s8.p0" e1="DDI-MedLine.d104.s8.e0" e2="DDI-MedLine.d104.s8.e1" ddi="false" flags="True" e1_name="PCP" e2_name="PCP" e1_pos="8" e2_pos="27" path="8@@11@@6@@3@@34@@15@@18@@22@@24@@25@@27@@">PCP@@@@amod@@changes@@prep_of@@mechanisms@@dobj@@examine@@advcl@@carried@@nsubjpass@@analysis@@prep_of@@RNA@@prep_from@@tissues@@prep_of@@mice@@partmod@@treated@@prep_with@@PCP</pair>  
+      <pair id="DDI-MedLine.d104.s8.p1" e1="DDI-MedLine.d104.s8.e0" e2="DDI-MedLine.d104.s8.e2" ddi="false" flags="True" e1_name="PCP" e2_name="DCG-IV" e1_pos="8" e2_pos="29" path="8@@11@@6@@3@@34@@15@@18@@22@@24@@25@@29@@">PCP@@@@amod@@changes@@prep_of@@mechanisms@@dobj@@examine@@advcl@@carried@@nsubjpass@@analysis@@prep_of@@RNA@@prep_from@@tissues@@prep_of@@mice@@partmod@@treated@@prep_with@@DCG-IV</pair>  
+      <pair id="DDI-MedLine.d104.s8.p2" e1="DDI-MedLine.d104.s8.e0" e2="DDI-MedLine.d104.s8.e3" ddi="false" flags="True" e1_name="PCP" e2_name="L-CCG-1" e1_pos="8" e2_pos="32" path="8@@11@@6@@3@@34@@15@@18@@22@@24@@25@@32@@">PCP@@@@amod@@changes@@prep_of@@mechanisms@@dobj@@examine@@advcl@@carried@@nsubjpass@@analysis@@prep_of@@RNA@@prep_from@@tissues@@prep_of@@mice@@partmod@@treated@@prep_with@@L-CCG-1</pair>  
+      <pair id="DDI-MedLine.d104.s8.p3" e1="DDI-MedLine.d104.s8.e1" e2="DDI-MedLine.d104.s8.e2" ddi="false" flags="True" e1_name="PCP" e2_name="DCG-IV" e1_pos="27" e2_pos="29" path="27@@29@@">PCP@@@@conj_and@@DCG-IV</pair>  
+      <pair id="DDI-MedLine.d104.s8.p4" e1="DDI-MedLine.d104.s8.e1" e2="DDI-MedLine.d104.s8.e3" ddi="false" flags="True" e1_name="PCP" e2_name="L-CCG-1" e1_pos="27" e2_pos="32" path="27@@32@@">PCP@@@@conj_and@@L-CCG-1</pair>  
+      <pair id="DDI-MedLine.d104.s8.p5" e1="DDI-MedLine.d104.s8.e2" e2="DDI-MedLine.d104.s8.e3" ddi="false" flags="True" e1_name="DCG-IV" e2_name="L-CCG-1" e1_pos="29" e2_pos="32" path="29@@25@@32@@">DCG-IV@@@@prep_with@@treated@@prep_with@@L-CCG-1</pair> 
+   </sentence> 
+</document>

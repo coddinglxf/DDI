@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d203"> 
+   <sentence id="DDI-DrugBank.d203.s0" text="No drug interactions have been identified." new_text="No@@drug@@interactions@@have@@been@@identified@@.@@"/>  
+   <sentence id="DDI-DrugBank.d203.s1" text="Studies with famotidine in man, in animal models, and in vitro have shown no significant interference with the disposition of compounds metabolized by the hepatic microsomal enzymes, e.g., cytochrome P450 system." new_text="Studies@@with@@famotidine@@in@@man@@,@@in@@animal@@models@@,@@and@@in@@vitro@@have@@shown@@no@@significant@@interference@@with@@the@@disposition@@of@@compounds@@metabolized@@by@@the@@hepatic@@microsomal@@enzymes@@,@@e.g.@@,@@cytochrome@@P450@@system@@.@@"> 
+      <entity id="DDI-DrugBank.d203.s1.e0" charOffset="13-22" type="drug" text="famotidine" position="2"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d203.s2" text="Compounds tested in man include warfarin, theophylline, phenytoin, diazepam, aminopyrine and antipyrine." new_text="Compounds@@tested@@in@@man@@include@@warfarin@@,@@theophylline@@,@@phenytoin@@,@@diazepam@@,@@aminopyrine@@and@@antipyrine@@.@@"> 
+      <entity id="DDI-DrugBank.d203.s2.e0" charOffset="32-39" type="drug" text="warfarin" position="5"/>  
+      <entity id="DDI-DrugBank.d203.s2.e1" charOffset="42-53" type="drug" text="theophylline" position="7"/>  
+      <entity id="DDI-DrugBank.d203.s2.e2" charOffset="56-64" type="drug" text="phenytoin" position="9"/>  
+      <entity id="DDI-DrugBank.d203.s2.e3" charOffset="67-74" type="drug" text="diazepam" position="11"/>  
+      <entity id="DDI-DrugBank.d203.s2.e4" charOffset="77-87" type="drug" text="aminopyrine" position="13"/>  
+      <entity id="DDI-DrugBank.d203.s2.e5" charOffset="93-102" type="drug" text="antipyrine" position="15"/>  
+      <pair id="DDI-DrugBank.d203.s2.p0" e1="DDI-DrugBank.d203.s2.e0" e2="DDI-DrugBank.d203.s2.e1" ddi="false" flags="True" e1_name="warfarin" e2_name="theophylline" e1_pos="5" e2_pos="7" path="5@@7@@">warfarin@@@@conj_and@@theophylline</pair>  
+      <pair id="DDI-DrugBank.d203.s2.p1" e1="DDI-DrugBank.d203.s2.e0" e2="DDI-DrugBank.d203.s2.e2" ddi="false" flags="True" e1_name="warfarin" e2_name="phenytoin" e1_pos="5" e2_pos="9" path="5@@9@@">warfarin@@@@conj_and@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d203.s2.p2" e1="DDI-DrugBank.d203.s2.e0" e2="DDI-DrugBank.d203.s2.e3" ddi="false" flags="True" e1_name="warfarin" e2_name="diazepam" e1_pos="5" e2_pos="11" path="5@@11@@">warfarin@@@@conj_and@@diazepam</pair>  
+      <pair id="DDI-DrugBank.d203.s2.p3" e1="DDI-DrugBank.d203.s2.e0" e2="DDI-DrugBank.d203.s2.e4" ddi="false" flags="True" e1_name="warfarin" e2_name="aminopyrine" e1_pos="5" e2_pos="13" path="5@@13@@">warfarin@@@@conj_and@@aminopyrine</pair>  
+      <pair id="DDI-DrugBank.d203.s2.p4" e1="DDI-DrugBank.d203.s2.e0" e2="DDI-DrugBank.d203.s2.e5" ddi="false" flags="True" e1_name="warfarin" e2_name="antipyrine" e1_pos="5" e2_pos="15" path="5@@15@@">warfarin@@@@conj_and@@antipyrine</pair>  
+      <pair id="DDI-DrugBank.d203.s2.p5" e1="DDI-DrugBank.d203.s2.e1" e2="DDI-DrugBank.d203.s2.e2" ddi="false" flags="True" e1_name="theophylline" e2_name="phenytoin" e1_pos="7" e2_pos="9" path="7@@4@@9@@">theophylline@@@@dobj@@include@@dobj@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d203.s2.p6" e1="DDI-DrugBank.d203.s2.e1" e2="DDI-DrugBank.d203.s2.e3" ddi="false" flags="True" e1_name="theophylline" e2_name="diazepam" e1_pos="7" e2_pos="11" path="7@@4@@11@@">theophylline@@@@dobj@@include@@dobj@@diazepam</pair>  
+      <pair id="DDI-DrugBank.d203.s2.p7" e1="DDI-DrugBank.d203.s2.e1" e2="DDI-DrugBank.d203.s2.e4" ddi="false" flags="True" e1_name="theophylline" e2_name="aminopyrine" e1_pos="7" e2_pos="13" path="7@@4@@13@@">theophylline@@@@dobj@@include@@dobj@@aminopyrine</pair>  
+      <pair id="DDI-DrugBank.d203.s2.p8" e1="DDI-DrugBank.d203.s2.e1" e2="DDI-DrugBank.d203.s2.e5" ddi="false" flags="True" e1_name="theophylline" e2_name="antipyrine" e1_pos="7" e2_pos="15" path="7@@4@@15@@">theophylline@@@@dobj@@include@@dobj@@antipyrine</pair>  
+      <pair id="DDI-DrugBank.d203.s2.p9" e1="DDI-DrugBank.d203.s2.e2" e2="DDI-DrugBank.d203.s2.e3" ddi="false" flags="True" e1_name="phenytoin" e2_name="diazepam" e1_pos="9" e2_pos="11" path="9@@4@@11@@">phenytoin@@@@dobj@@include@@dobj@@diazepam</pair>  
+      <pair id="DDI-DrugBank.d203.s2.p10" e1="DDI-DrugBank.d203.s2.e2" e2="DDI-DrugBank.d203.s2.e4" ddi="false" flags="True" e1_name="phenytoin" e2_name="aminopyrine" e1_pos="9" e2_pos="13" path="9@@4@@13@@">phenytoin@@@@dobj@@include@@dobj@@aminopyrine</pair>  
+      <pair id="DDI-DrugBank.d203.s2.p11" e1="DDI-DrugBank.d203.s2.e2" e2="DDI-DrugBank.d203.s2.e5" ddi="false" flags="True" e1_name="phenytoin" e2_name="antipyrine" e1_pos="9" e2_pos="15" path="9@@4@@15@@">phenytoin@@@@dobj@@include@@dobj@@antipyrine</pair>  
+      <pair id="DDI-DrugBank.d203.s2.p12" e1="DDI-DrugBank.d203.s2.e3" e2="DDI-DrugBank.d203.s2.e4" ddi="false" flags="True" e1_name="diazepam" e2_name="aminopyrine" e1_pos="11" e2_pos="13" path="11@@4@@13@@">diazepam@@@@dobj@@include@@dobj@@aminopyrine</pair>  
+      <pair id="DDI-DrugBank.d203.s2.p13" e1="DDI-DrugBank.d203.s2.e3" e2="DDI-DrugBank.d203.s2.e5" ddi="false" flags="True" e1_name="diazepam" e2_name="antipyrine" e1_pos="11" e2_pos="15" path="11@@4@@15@@">diazepam@@@@dobj@@include@@dobj@@antipyrine</pair>  
+      <pair id="DDI-DrugBank.d203.s2.p14" e1="DDI-DrugBank.d203.s2.e4" e2="DDI-DrugBank.d203.s2.e5" ddi="false" flags="True" e1_name="aminopyrine" e2_name="antipyrine" e1_pos="13" e2_pos="15" path="13@@4@@15@@">aminopyrine@@@@dobj@@include@@dobj@@antipyrine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d203.s3" text="Indocyanine green as an index of hepatic drug extraction has been tested and no significant effects have been found." new_text="Indocyanine green@@as@@an@@index@@of@@hepatic@@drug@@extraction@@has@@been@@tested@@and@@no@@significant@@effects@@have@@been@@found@@.@@"> 
+      <entity id="DDI-DrugBank.d203.s3.e0" charOffset="0-16" type="drug_n" text="Indocyanine green" position="0"/> 
+   </sentence> 
+</document>

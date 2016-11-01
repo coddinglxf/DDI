@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d9"> 
+   <sentence id="DDI-MedLine.d9.s0" text="Pharmacokinetics of calcium-entry blockers.
+" new_text="Pharmacokinetics@@of@@calcium-entry blockers@@.@@"> 
+      <entity id="DDI-MedLine.d9.s0.e0" charOffset="20-41" type="group" text="calcium-entry blockers" position="2"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d9.s1" text="Effective use of drugs in therapy depends not only on clinical acumen but also on the availability of relevant pharmacokinetic and pharmacodynamic data. " new_text="Effective@@use@@of@@drugs@@in@@therapy@@depends@@not@@only@@on@@clinical@@acumen@@but@@also@@on@@the@@availability@@of@@relevant@@pharmacokinetic@@and@@pharmacodynamic@@data@@.@@"/>  
+   <sentence id="DDI-MedLine.d9.s2" text="Such information assists in development of safe dosing regimens, prediction of abnormal handling of drugs in states of disease and disorder and anticipation of drug interactions. " new_text="Such@@information@@assists@@in@@development@@of@@safe@@dosing@@regimens@@,@@prediction@@of@@abnormal@@handling@@of@@drugs@@in@@states@@of@@disease@@and@@disorder@@and@@anticipation@@of@@drug@@interactions@@.@@"/>  
+   <sentence id="DDI-MedLine.d9.s3" text="For the calcium-entry blocking agents now available in the United States (verapamil, nifedipine and diltiazem), these data appeared well after clinical patterns of use evolved. " new_text="For@@the@@calcium-entry blocking agents@@now@@available@@in@@the@@United@@States@@(@@verapamil@@,@@nifedipine@@and@@diltiazem@@)@@,@@these@@data@@appeared@@well@@after@@clinical@@patterns@@of@@use@@evolved@@.@@"> 
+      <entity id="DDI-MedLine.d9.s3.e0" charOffset="8-36" type="group" text="calcium-entry blocking agents" position="2"/>  
+      <entity id="DDI-MedLine.d9.s3.e1" charOffset="74-82" type="drug" text="verapamil" position="10"/>  
+      <entity id="DDI-MedLine.d9.s3.e2" charOffset="85-94" type="drug" text="nifedipine" position="12"/>  
+      <entity id="DDI-MedLine.d9.s3.e3" charOffset="100-108" type="drug" text="diltiazem" position="14"/>  
+      <pair id="DDI-MedLine.d9.s3.p0" e1="DDI-MedLine.d9.s3.e0" e2="DDI-MedLine.d9.s3.e1" ddi="false" flags="True" e1_name="calcium-entry blocking agents" e2_name="verapamil" e1_pos="2" e2_pos="10" path="2@@15@@10@@">calcium-entry blocking agents@@@@amod@@)@@nn@@verapamil</pair>  
+      <pair id="DDI-MedLine.d9.s3.p1" e1="DDI-MedLine.d9.s3.e0" e2="DDI-MedLine.d9.s3.e2" ddi="false" flags="True" e1_name="calcium-entry blocking agents" e2_name="nifedipine" e1_pos="2" e2_pos="12" path="2@@15@@12@@">calcium-entry blocking agents@@@@amod@@)@@nn@@nifedipine</pair>  
+      <pair id="DDI-MedLine.d9.s3.p2" e1="DDI-MedLine.d9.s3.e0" e2="DDI-MedLine.d9.s3.e3" ddi="false" flags="True" e1_name="calcium-entry blocking agents" e2_name="diltiazem" e1_pos="2" e2_pos="14" path="2@@15@@14@@">calcium-entry blocking agents@@@@amod@@)@@nn@@diltiazem</pair>  
+      <pair id="DDI-MedLine.d9.s3.p3" e1="DDI-MedLine.d9.s3.e1" e2="DDI-MedLine.d9.s3.e2" ddi="false" flags="True" e1_name="verapamil" e2_name="nifedipine" e1_pos="10" e2_pos="12" path="10@@12@@">verapamil@@@@conj_and@@nifedipine</pair>  
+      <pair id="DDI-MedLine.d9.s3.p4" e1="DDI-MedLine.d9.s3.e1" e2="DDI-MedLine.d9.s3.e3" ddi="false" flags="True" e1_name="verapamil" e2_name="diltiazem" e1_pos="10" e2_pos="14" path="10@@14@@">verapamil@@@@conj_and@@diltiazem</pair>  
+      <pair id="DDI-MedLine.d9.s3.p5" e1="DDI-MedLine.d9.s3.e2" e2="DDI-MedLine.d9.s3.e3" ddi="false" flags="True" e1_name="nifedipine" e2_name="diltiazem" e1_pos="12" e2_pos="14" path="12@@10@@14@@">nifedipine@@@@conj_and@@verapamil@@conj_and@@diltiazem</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d9.s4" text="Nonetheless, their relevance continues to be demonstrated by the dependence of each agent on intact liver blood flow and function for normal rates of elimination; " new_text="Nonetheless@@,@@their@@relevance@@continues@@to@@be@@demonstrated@@by@@the@@dependence@@of@@each@@agent@@on@@intact@@liver@@blood@@flow@@and@@function@@for@@normal@@rates@@of@@elimination;@@"/>  
+   <sentence id="DDI-MedLine.d9.s5" text="by the nonlinear kinetic characteristics for verapamil and diltiazem (and probably for nifedipine, as well) and the derivative implications for decreased dosing frequency requirements; " new_text="by@@the@@nonlinear@@kinetic@@characteristics@@for@@verapamil@@and@@diltiazem@@(and@@probably@@for@@nifedipine@@,@@as@@well)@@and@@the@@derivative@@implications@@for@@decreased@@dosing@@frequency@@requirements;@@"> 
+      <entity id="DDI-MedLine.d9.s5.e0" charOffset="45-53" type="drug" text="verapamil" position="6"/>  
+      <entity id="DDI-MedLine.d9.s5.e1" charOffset="59-67" type="drug" text="diltiazem" position="8"/>  
+      <entity id="DDI-MedLine.d9.s5.e2" charOffset="87-96" type="drug" text="nifedipine" position="12"/>  
+      <pair id="DDI-MedLine.d9.s5.p0" e1="DDI-MedLine.d9.s5.e0" e2="DDI-MedLine.d9.s5.e1" ddi="false" flags="True" e1_name="verapamil" e2_name="diltiazem" e1_pos="6" e2_pos="8" path="6@@8@@">verapamil@@@@conj_and@@diltiazem</pair>  
+      <pair id="DDI-MedLine.d9.s5.p1" e1="DDI-MedLine.d9.s5.e0" e2="DDI-MedLine.d9.s5.e2" ddi="false" flags="True" e1_name="verapamil" e2_name="nifedipine" e1_pos="6" e2_pos="12" path="6@@4@@9@@12@@">verapamil@@@@prep_for@@characteristics@@nsubj@@(and@@prep_for@@nifedipine</pair>  
+      <pair id="DDI-MedLine.d9.s5.p2" e1="DDI-MedLine.d9.s5.e1" e2="DDI-MedLine.d9.s5.e2" ddi="false" flags="True" e1_name="diltiazem" e2_name="nifedipine" e1_pos="8" e2_pos="12" path="8@@4@@9@@12@@">diltiazem@@@@prep_for@@characteristics@@nsubj@@(and@@prep_for@@nifedipine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d9.s6" text="and by observations now appearing on the relation between plasma drug levels and drug effects, both therapeutic and toxic. " new_text="and@@by@@observations@@now@@appearing@@on@@the@@relation@@between@@plasma@@drug@@levels@@and@@drug@@effects@@,@@both@@therapeutic@@and@@toxic@@.@@"/>  
+   <sentence id="DDI-MedLine.d9.s7" text="Such data are discussed herein, with emphasis on those aspects that impact on the clinical use of the calcium-entry antagonists." new_text="Such@@data@@are@@discussed@@herein@@,@@with@@emphasis@@on@@those@@aspects@@that@@impact@@on@@the@@clinical@@use@@of@@the@@calcium-entry antagonists@@.@@"> 
+      <entity id="DDI-MedLine.d9.s7.e0" charOffset="102-126" type="group" text="calcium-entry antagonists" position="19"/> 
+   </sentence> 
+</document>

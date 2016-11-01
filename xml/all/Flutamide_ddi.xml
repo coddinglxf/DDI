@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d442"> 
+   <sentence id="DDI-DrugBank.d442.s0" text="Increases in prothrombin time have been noted in patients receiving long- term warfarin therapy after flutamide was initiated." new_text="Increases@@in@@prothrombin@@time@@have@@been@@noted@@in@@patients@@receiving@@long-@@term@@warfarin@@therapy@@after@@flutamide@@was@@initiated@@.@@"> 
+      <entity id="DDI-DrugBank.d442.s0.e0" charOffset="79-86" type="drug" text="warfarin" position="12"/>  
+      <entity id="DDI-DrugBank.d442.s0.e1" charOffset="102-110" type="drug" text="flutamide" position="15"/>  
+      <pair id="DDI-DrugBank.d442.s0.p0" e1="DDI-DrugBank.d442.s0.e0" e2="DDI-DrugBank.d442.s0.e1" ddi="true" type="effect" flags="True" e1_name="warfarin" e2_name="flutamide" e1_pos="12" e2_pos="15" path="12@@13@@9@@17@@15@@">warfarin@@@@nn@@therapy@@dobj@@receiving@@advcl@@initiated@@nsubjpass@@flutamide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d442.s1" text="Therefore, close monitoring of prothrombin time is recommended and adjustment of the anticoagulant dose may be necessary when EULEXIN Capsules are administered concomitantly with warfarin." new_text="Therefore@@,@@close@@monitoring@@of@@prothrombin@@time@@is@@recommended@@and@@adjustment@@of@@the@@anticoagulant@@dose@@may@@be@@necessary@@when@@EULEXIN@@Capsules@@are@@administered@@concomitantly@@with@@warfarin@@.@@"> 
+      <entity id="DDI-DrugBank.d442.s1.e0" charOffset="85-97" type="group" text="anticoagulant" position="13"/>  
+      <entity id="DDI-DrugBank.d442.s1.e1" charOffset="126-132" type="brand" text="EULEXIN" position="19"/>  
+      <entity id="DDI-DrugBank.d442.s1.e2" charOffset="179-186" type="drug" text="warfarin" position="25"/>  
+      <pair id="DDI-DrugBank.d442.s1.p0" e1="DDI-DrugBank.d442.s1.e0" e2="DDI-DrugBank.d442.s1.e1" ddi="false" flags="True" e1_name="anticoagulant" e2_name="EULEXIN" e1_pos="13" e2_pos="19" path="13@@14@@10@@17@@22@@20@@19@@">anticoagulant@@@@amod@@dose@@prep_of@@adjustment@@nsubj@@necessary@@advcl@@administered@@nsubjpass@@Capsules@@nn@@EULEXIN</pair>  
+      <pair id="DDI-DrugBank.d442.s1.p1" e1="DDI-DrugBank.d442.s1.e0" e2="DDI-DrugBank.d442.s1.e2" ddi="false" flags="True" e1_name="anticoagulant" e2_name="warfarin" e1_pos="13" e2_pos="25" path="13@@14@@10@@17@@22@@25@@">anticoagulant@@@@amod@@dose@@prep_of@@adjustment@@nsubj@@necessary@@advcl@@administered@@prep_with@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d442.s1.p2" e1="DDI-DrugBank.d442.s1.e1" e2="DDI-DrugBank.d442.s1.e2" ddi="true" type="advise" flags="True" e1_name="EULEXIN" e2_name="warfarin" e1_pos="19" e2_pos="25" path="19@@20@@22@@25@@">EULEXIN@@@@nn@@Capsules@@nsubjpass@@administered@@prep_with@@warfarin</pair> 
+   </sentence> 
+</document>

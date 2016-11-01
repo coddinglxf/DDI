@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d686"> 
+   <sentence id="DDI-DrugBank.d686.s0" text="Thiabendazole may compete with other drugs, such as theophylline, for sites of metabolism in the liver, thus elevating the serum levels of such compounds to potentially toxic levels. " new_text="Thiabendazole@@may@@compete@@with@@other@@drugs@@,@@such@@as@@theophylline@@,@@for@@sites@@of@@metabolism@@in@@the@@liver@@,@@thus@@elevating@@the@@serum@@levels@@of@@such@@compounds@@to@@potentially@@toxic@@levels@@.@@"> 
+      <entity id="DDI-DrugBank.d686.s0.e0" charOffset="0-12" type="drug" text="Thiabendazole" position="0"/>  
+      <entity id="DDI-DrugBank.d686.s0.e1" charOffset="52-63" type="drug" text="theophylline" position="9"/>  
+      <pair id="DDI-DrugBank.d686.s0.p0" e1="DDI-DrugBank.d686.s0.e0" e2="DDI-DrugBank.d686.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="Thiabendazole" e2_name="theophylline" e1_pos="0" e2_pos="9" path="0@@2@@5@@9@@">Thiabendazole@@@@nsubj@@compete@@prep_with@@drugs@@prep_such_as@@theophylline</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d686.s1" text="Therefore, when concomitant use of thiabendazole and xanthine derivatives is anticipated, it may be necessary to monitor blood levels and/or reduce the dosage of such compounds. " new_text="Therefore@@,@@when@@concomitant@@use@@of@@thiabendazole@@and@@xanthine derivatives@@is@@anticipated@@,@@it@@may@@be@@necessary@@to@@monitor@@blood@@levels@@and/or@@reduce@@the@@dosage@@of@@such@@compounds@@.@@"> 
+      <entity id="DDI-DrugBank.d686.s1.e0" charOffset="35-47" type="drug" text="thiabendazole" position="6"/>  
+      <entity id="DDI-DrugBank.d686.s1.e1" charOffset="53-72" type="group" text="xanthine derivatives" position="8"/>  
+      <pair id="DDI-DrugBank.d686.s1.p0" e1="DDI-DrugBank.d686.s1.e0" e2="DDI-DrugBank.d686.s1.e1" ddi="true" type="advise" flags="True" e1_name="thiabendazole" e2_name="xanthine derivatives" e1_pos="6" e2_pos="8" path="6@@8@@">thiabendazole@@@@conj_and@@xanthine derivatives</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d686.s2" text="Such concomitant use should be administered under careful medical supervision." new_text="Such@@concomitant@@use@@should@@be@@administered@@under@@careful@@medical@@supervision@@.@@"/> 
+</document>

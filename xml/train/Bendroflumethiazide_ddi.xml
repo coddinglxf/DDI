@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d304"> 
+   <sentence id="DDI-DrugBank.d304.s0" text="May interact with the following: cholestyramine, colestipol (use with thiazide diuretics may prevent the diuretic from working properly;" new_text="May@@interact@@with@@the@@following@@:@@cholestyramine@@,@@colestipol@@(use@@with@@thiazide diuretics@@may@@prevent@@the@@diuretic@@from@@working@@properly;@@"> 
+      <entity id="DDI-DrugBank.d304.s0.e0" charOffset="33-46" type="drug" text="cholestyramine" position="6"/>  
+      <entity id="DDI-DrugBank.d304.s0.e1" charOffset="49-58" type="drug" text="colestipol" position="8"/>  
+      <entity id="DDI-DrugBank.d304.s0.e2" charOffset="70-87" type="group" text="thiazide diuretics" position="11"/>  
+      <entity id="DDI-DrugBank.d304.s0.e3" charOffset="105-112" type="group" text="diuretic" position="15"/>  
+      <pair id="DDI-DrugBank.d304.s0.p0" e1="DDI-DrugBank.d304.s0.e0" e2="DDI-DrugBank.d304.s0.e1" ddi="false" flags="True" e1_name="cholestyramine" e2_name="colestipol" e1_pos="6" e2_pos="8" path="6@@9@@8@@">cholestyramine@@@@amod@@(use@@amod@@colestipol</pair>  
+      <pair id="DDI-DrugBank.d304.s0.p1" e1="DDI-DrugBank.d304.s0.e0" e2="DDI-DrugBank.d304.s0.e2" ddi="true" type="effect" flags="True" e1_name="cholestyramine" e2_name="thiazide diuretics" e1_pos="6" e2_pos="11" path="6@@9@@11@@">cholestyramine@@@@amod@@(use@@prep_with@@thiazide diuretics</pair>  
+      <pair id="DDI-DrugBank.d304.s0.p2" e1="DDI-DrugBank.d304.s0.e0" e2="DDI-DrugBank.d304.s0.e3" ddi="false" flags="True" e1_name="cholestyramine" e2_name="diuretic" e1_pos="6" e2_pos="15" path="6@@9@@13@@15@@">cholestyramine@@@@amod@@(use@@nsubj@@prevent@@dobj@@diuretic</pair>  
+      <pair id="DDI-DrugBank.d304.s0.p3" e1="DDI-DrugBank.d304.s0.e1" e2="DDI-DrugBank.d304.s0.e2" ddi="true" type="effect" flags="True" e1_name="colestipol" e2_name="thiazide diuretics" e1_pos="8" e2_pos="11" path="8@@9@@11@@">colestipol@@@@amod@@(use@@prep_with@@thiazide diuretics</pair>  
+      <pair id="DDI-DrugBank.d304.s0.p4" e1="DDI-DrugBank.d304.s0.e1" e2="DDI-DrugBank.d304.s0.e3" ddi="false" flags="True" e1_name="colestipol" e2_name="diuretic" e1_pos="8" e2_pos="15" path="8@@9@@13@@15@@">colestipol@@@@amod@@(use@@nsubj@@prevent@@dobj@@diuretic</pair>  
+      <pair id="DDI-DrugBank.d304.s0.p5" e1="DDI-DrugBank.d304.s0.e2" e2="DDI-DrugBank.d304.s0.e3" ddi="false" flags="True" e1_name="thiazide diuretics" e2_name="diuretic" e1_pos="11" e2_pos="15" path="11@@9@@13@@15@@">thiazide diuretics@@@@prep_with@@(use@@nsubj@@prevent@@dobj@@diuretic</pair> 
+   </sentence> 
+</document>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d428"> 
+   <sentence id="DDI-DrugBank.d428.s0" text="ELLENCE when used in combination with other cytotoxic drugs may show on-treatment additive toxicity, especially hematologic and gastrointestinal effects." new_text="ELLENCE@@when@@used@@in@@combination@@with@@other@@cytotoxic@@drugs@@may@@show@@on-treatment@@additive@@toxicity@@,@@especially@@hematologic@@and@@gastrointestinal@@effects@@.@@"> 
+      <entity id="DDI-DrugBank.d428.s0.e0" charOffset="0-6" type="brand" text="ELLENCE" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d428.s1" text="Concomitant use of ELLENCE with other cardioactive compounds that could cause heart failure (e.g., calcium channel blockers), requires close monitoring of cardiac function throughout treatment." new_text="Concomitant@@use@@of@@ELLENCE@@with@@other@@cardioactive@@compounds@@that@@could@@cause@@heart@@failure@@(e.g.@@,@@calcium channel blockers@@)@@,@@requires@@close@@monitoring@@of@@cardiac@@function@@throughout@@treatment@@.@@"> 
+      <entity id="DDI-DrugBank.d428.s1.e0" charOffset="19-25" type="brand" text="ELLENCE" position="3"/>  
+      <entity id="DDI-DrugBank.d428.s1.e1" charOffset="99-122" type="group" text="calcium channel blockers" position="15"/>  
+      <pair id="DDI-DrugBank.d428.s1.p0" e1="DDI-DrugBank.d428.s1.e0" e2="DDI-DrugBank.d428.s1.e1" ddi="true" type="advise" flags="True" e1_name="ELLENCE" e2_name="calcium channel blockers" e1_pos="3" e2_pos="15" path="3@@10@@13@@16@@15@@">ELLENCE@@@@rcmod@@cause@@dobj@@(e.g.@@amod@@)@@amod@@calcium channel blockers</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d428.s2" text="There are few data regarding the coadministration of radiation therapy and epirubicin." new_text="There@@are@@few@@data@@regarding@@the@@coadministration@@of@@radiation@@therapy@@and@@epirubicin@@.@@"> 
+      <entity id="DDI-DrugBank.d428.s2.e0" charOffset="75-84" type="drug" text="epirubicin" position="11"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d428.s3" text="In adjuvant trials of epirubicin-containing CEF-120 or FEC-100 chemotherapies, breast irradiation was delayed until after chemotherapy was completed." new_text="In@@adjuvant@@trials@@of@@epirubicin@@-containing@@CEF-120@@or@@FEC-100@@chemotherapies@@,@@breast@@irradiation@@was@@delayed@@until@@after@@chemotherapy@@was@@completed@@.@@"> 
+      <entity id="DDI-DrugBank.d428.s3.e0" charOffset="22-31" type="drug" text="epirubicin" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d428.s4" text="This practice resulted in no apparent increase in local breast cancer recurrence relative to published accounts in the literature." new_text="This@@practice@@resulted@@in@@no@@apparent@@increase@@in@@local@@breast@@cancer@@recurrence@@relative@@to@@published@@accounts@@in@@the@@literature@@.@@"/>  
+   <sentence id="DDI-DrugBank.d428.s5" text="A small number of patients received epirubicin-based chemotherapy concomitantly with radiation therapy but had chemotherapy interrupted in order to avoid potential overlapping toxicities." new_text="A@@small@@number@@of@@patients@@received@@epirubicin@@-based@@chemotherapy@@concomitantly@@with@@radiation@@therapy@@but@@had@@chemotherapy@@interrupted@@in@@order@@to@@avoid@@potential@@overlapping@@toxicities@@.@@"> 
+      <entity id="DDI-DrugBank.d428.s5.e0" charOffset="36-45" type="drug" text="epirubicin" position="6"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d428.s6" text="It is likely that use of epirubicin with radiotherapy may sensitize tissues to the cytotoxic actions of irradiation." new_text="It@@is@@likely@@that@@use@@of@@epirubicin@@with@@radiotherapy@@may@@sensitize@@tissues@@to@@the@@cytotoxic@@actions@@of@@irradiation@@.@@"> 
+      <entity id="DDI-DrugBank.d428.s6.e0" charOffset="25-34" type="drug" text="epirubicin" position="6"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d428.s7" text="Administration of ELLENCE after previous radiation therapy may induce an inflammatory recall reaction at the site of the irradiation." new_text="Administration@@of@@ELLENCE@@after@@previous@@radiation@@therapy@@may@@induce@@an@@inflammatory@@recall@@reaction@@at@@the@@site@@of@@the@@irradiation@@.@@"> 
+      <entity id="DDI-DrugBank.d428.s7.e0" charOffset="18-24" type="brand" text="ELLENCE" position="2"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d428.s8" text="Epirubicin is extensively metabolized by the liver." new_text="Epirubicin@@is@@extensively@@metabolized@@by@@the@@liver@@.@@"> 
+      <entity id="DDI-DrugBank.d428.s8.e0" charOffset="0-9" type="drug" text="Epirubicin" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d428.s9" text="Changes in hepatic function induced by concomitant therapies may affect epirubicin metabolism, pharmacokinetics, therapeutic efficacy, and/or toxicity." new_text="Changes@@in@@hepatic@@function@@induced@@by@@concomitant@@therapies@@may@@affect@@epirubicin@@metabolism@@,@@pharmacokinetics@@,@@therapeutic@@efficacy@@,@@and/or@@toxicity@@.@@"> 
+      <entity id="DDI-DrugBank.d428.s9.e0" charOffset="72-81" type="drug" text="epirubicin" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d428.s10" text="Cimetidine increased the AUC of epirubicin by 50%." new_text="Cimetidine@@increased@@the@@AUC@@of@@epirubicin@@by@@50%@@.@@"> 
+      <entity id="DDI-DrugBank.d428.s10.e0" charOffset="0-9" type="drug" text="Cimetidine" position="0"/>  
+      <entity id="DDI-DrugBank.d428.s10.e1" charOffset="32-41" type="drug" text="epirubicin" position="5"/>  
+      <pair id="DDI-DrugBank.d428.s10.p0" e1="DDI-DrugBank.d428.s10.e0" e2="DDI-DrugBank.d428.s10.e1" ddi="true" type="mechanism" flags="True" e1_name="Cimetidine" e2_name="epirubicin" e1_pos="0" e2_pos="5" path="0@@1@@3@@5@@">Cimetidine@@@@nsubj@@increased@@dobj@@AUC@@prep_of@@epirubicin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d428.s11" text="Cimetidine treatment should be stopped during treatment with ELLENCE." new_text="Cimetidine@@treatment@@should@@be@@stopped@@during@@treatment@@with@@ELLENCE@@.@@"> 
+      <entity id="DDI-DrugBank.d428.s11.e0" charOffset="0-9" type="drug" text="Cimetidine" position="0"/>  
+      <entity id="DDI-DrugBank.d428.s11.e1" charOffset="61-67" type="brand" text="ELLENCE" position="8"/>  
+      <pair id="DDI-DrugBank.d428.s11.p0" e1="DDI-DrugBank.d428.s11.e0" e2="DDI-DrugBank.d428.s11.e1" ddi="true" type="advise" flags="True" e1_name="Cimetidine" e2_name="ELLENCE" e1_pos="0" e2_pos="8" path="0@@1@@4@@8@@">Cimetidine@@@@amod@@treatment@@nsubjpass@@stopped@@prep_with@@ELLENCE</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d428.s12" text="Drug-Laboratory Test Interactions There are no known interactions between ELLENCE and laboratory tests." new_text="Drug-Laboratory@@Test@@Interactions@@There@@are@@no@@known@@interactions@@between@@ELLENCE@@and@@laboratory@@tests@@.@@"> 
+      <entity id="DDI-DrugBank.d428.s12.e0" charOffset="74-80" type="brand" text="ELLENCE" position="9"/> 
+   </sentence> 
+</document>

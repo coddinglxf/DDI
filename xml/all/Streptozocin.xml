@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d647"> 
+   <sentence id="DDI-DrugBank.d647.s0" text="ZANOSAR may demonstrate additive toxicity when used in combination with other cytotoxic drugs. " new_text="ZANOSAR@@may@@demonstrate@@additive@@toxicity@@when@@used@@in@@combination@@with@@other@@cytotoxic@@drugs@@.@@"> 
+      <entity id="DDI-DrugBank.d647.s0.e0" charOffset="0-6" type="brand" text="ZANOSAR" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d647.s1" text="Streptozocin has been reported to prolong the elimination half-life of doxorubicin and may lead to severe bone marrow suppression; " new_text="Streptozocin@@has@@been@@reported@@to@@prolong@@the@@elimination@@half-life@@of@@doxorubicin@@and@@may@@lead@@to@@severe@@bone@@marrow@@suppression;@@"> 
+      <entity id="DDI-DrugBank.d647.s1.e0" charOffset="0-11" type="drug" text="Streptozocin" position="0"/>  
+      <entity id="DDI-DrugBank.d647.s1.e1" charOffset="71-81" type="drug" text="doxorubicin" position="10"/>  
+      <pair id="DDI-DrugBank.d647.s1.p0" e1="DDI-DrugBank.d647.s1.e0" e2="DDI-DrugBank.d647.s1.e1" ddi="true" type="mechanism" flags="True" e1_name="Streptozocin" e2_name="doxorubicin" e1_pos="0" e2_pos="10" path="0@@5@@8@@10@@">Streptozocin@@@@xsubj@@prolong@@dobj@@half-life@@prep_of@@doxorubicin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d647.s2" text="a reduction of the doxorubicin dosage should be considered in patients receiving ZANOSAR concurrently. " new_text="a@@reduction@@of@@the@@doxorubicin@@dosage@@should@@be@@considered@@in@@patients@@receiving@@ZANOSAR@@concurrently@@.@@"> 
+      <entity id="DDI-DrugBank.d647.s2.e0" charOffset="19-29" type="drug" text="doxorubicin" position="4"/>  
+      <entity id="DDI-DrugBank.d647.s2.e1" charOffset="81-87" type="brand" text="ZANOSAR" position="12"/>  
+      <pair id="DDI-DrugBank.d647.s2.p0" e1="DDI-DrugBank.d647.s2.e0" e2="DDI-DrugBank.d647.s2.e1" ddi="true" type="advise" flags="True" e1_name="doxorubicin" e2_name="ZANOSAR" e1_pos="4" e2_pos="12" path="4@@5@@1@@8@@10@@11@@13@@12@@">doxorubicin@@@@nn@@dosage@@prep_of@@reduction@@nsubjpass@@considered@@prep_in@@patients@@partmod@@receiving@@dobj@@concurrently@@amod@@ZANOSAR</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d647.s3" text="The concurrent use of streptozocin and phenytoin has been reported in one case to result in reduced streptozocin cytotoxicity.    " new_text="The@@concurrent@@use@@of@@streptozocin@@and@@phenytoin@@has@@been@@reported@@in@@one@@case@@to@@result@@in@@reduced@@streptozocin@@cytotoxicity@@.@@"> 
+      <entity id="DDI-DrugBank.d647.s3.e0" charOffset="22-33" type="drug" text="streptozocin" position="4"/>  
+      <entity id="DDI-DrugBank.d647.s3.e1" charOffset="39-47" type="drug" text="phenytoin" position="6"/>  
+      <entity id="DDI-DrugBank.d647.s3.e2" charOffset="100-111" type="drug" text="streptozocin" position="17"/>  
+      <pair id="DDI-DrugBank.d647.s3.p0" e1="DDI-DrugBank.d647.s3.e0" e2="DDI-DrugBank.d647.s3.e1" ddi="true" type="effect" flags="True" e1_name="streptozocin" e2_name="phenytoin" e1_pos="4" e2_pos="6" path="4@@6@@">streptozocin@@@@conj_and@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d647.s3.p1" e1="DDI-DrugBank.d647.s3.e0" e2="DDI-DrugBank.d647.s3.e2" ddi="false" flags="True" e1_name="streptozocin" e2_name="streptozocin" e1_pos="4" e2_pos="17" path="4@@2@@14@@18@@17@@">streptozocin@@@@prep_of@@use@@xsubj@@result@@prep_in@@cytotoxicity@@nn@@streptozocin</pair>  
+      <pair id="DDI-DrugBank.d647.s3.p2" e1="DDI-DrugBank.d647.s3.e1" e2="DDI-DrugBank.d647.s3.e2" ddi="false" flags="True" e1_name="phenytoin" e2_name="streptozocin" e1_pos="6" e2_pos="17" path="6@@2@@14@@18@@17@@">phenytoin@@@@prep_of@@use@@xsubj@@result@@prep_in@@cytotoxicity@@nn@@streptozocin</pair> 
+   </sentence> 
+</document>

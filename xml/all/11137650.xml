@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d8"> 
+   <sentence id="DDI-MedLine.d8.s0" text="In vitro activity of KRM-1648, either singly or in combination with ofloxacin, against Mycobacterium ulcerans.
+" new_text="In@@vitro@@activity@@of@@KRM-1648@@,@@either@@singly@@or@@in@@combination@@with@@ofloxacin@@,@@against@@Mycobacterium@@ulcerans@@.@@"> 
+      <entity id="DDI-MedLine.d8.s0.e0" charOffset="21-28" type="drug_n" text="KRM-1648" position="4"/>  
+      <entity id="DDI-MedLine.d8.s0.e1" charOffset="68-76" type="drug" text="ofloxacin" position="12"/>  
+      <pair id="DDI-MedLine.d8.s0.p0" e1="DDI-MedLine.d8.s0.e0" e2="DDI-MedLine.d8.s0.e1" ddi="false" flags="True" e1_name="KRM-1648" e2_name="ofloxacin" e1_pos="4" e2_pos="12" path="4@@2@@16@@10@@12@@">KRM-1648@@@@prep_of@@activity@@prep_in@@ulcerans@@nsubj@@combination@@prep_with@@ofloxacin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d8.s1" text="The antimicrobial effect of a benzoxazinorifamycin, KRM-1648, either alone or in combination with ofloxacin, was evaluated in vitro against two type strains and six clinical isolates of Mycobacterium ulcerans. " new_text="The@@antimicrobial@@effect@@of@@a@@benzoxazinorifamycin@@,@@KRM-1648@@,@@either@@alone@@or@@in@@combination@@with@@ofloxacin@@,@@was@@evaluated@@in@@vitro@@against@@two@@type@@strains@@and@@six@@clinical@@isolates@@of@@Mycobacterium@@ulcerans@@.@@"> 
+      <entity id="DDI-MedLine.d8.s1.e0" charOffset="30-49" type="drug_n" text="benzoxazinorifamycin" position="5"/>  
+      <entity id="DDI-MedLine.d8.s1.e1" charOffset="52-59" type="drug_n" text="KRM-1648" position="7"/>  
+      <entity id="DDI-MedLine.d8.s1.e2" charOffset="98-106" type="drug" text="ofloxacin" position="15"/>  
+      <pair id="DDI-MedLine.d8.s1.p0" e1="DDI-MedLine.d8.s1.e0" e2="DDI-MedLine.d8.s1.e1" ddi="false" flags="True" e1_name="benzoxazinorifamycin" e2_name="KRM-1648" e1_pos="5" e2_pos="7" path="5@@7@@">benzoxazinorifamycin@@@@appos@@KRM-1648</pair>  
+      <pair id="DDI-MedLine.d8.s1.p1" e1="DDI-MedLine.d8.s1.e0" e2="DDI-MedLine.d8.s1.e2" ddi="false" flags="True" e1_name="benzoxazinorifamycin" e2_name="ofloxacin" e1_pos="5" e2_pos="15" path="5@@2@@12@@13@@15@@">benzoxazinorifamycin@@@@prep_of@@effect@@dep@@in@@pobj@@combination@@prep_with@@ofloxacin</pair>  
+      <pair id="DDI-MedLine.d8.s1.p2" e1="DDI-MedLine.d8.s1.e1" e2="DDI-MedLine.d8.s1.e2" ddi="false" flags="True" e1_name="KRM-1648" e2_name="ofloxacin" e1_pos="7" e2_pos="15" path="7@@5@@2@@12@@13@@15@@">KRM-1648@@@@appos@@benzoxazinorifamycin@@prep_of@@effect@@dep@@in@@pobj@@combination@@prep_with@@ofloxacin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d8.s2" text="Growth of M. " new_text="Growth@@of@@M@@.@@"/>  
+   <sentence id="DDI-MedLine.d8.s3" text="ulcerans was measured by plate counts and the BACTEC radiometric method. " new_text="ulcerans@@was@@measured@@by@@plate@@counts@@and@@the@@BACTEC@@radiometric@@method@@.@@"/>  
+   <sentence id="DDI-MedLine.d8.s4" text="The minimal inhibitory concentration as well as minimal bactericidal concentration of KRM-1648 against M. " new_text="The@@minimal@@inhibitory@@concentration@@as@@well@@as@@minimal@@bactericidal@@concentration@@of@@KRM-1648@@against@@M@@.@@"> 
+      <entity id="DDI-MedLine.d8.s4.e0" charOffset="86-93" type="drug_n" text="KRM-1648" position="11"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d8.s5" text="ulcerans was between 0.012 and 0.025 mg/l, while corresponding values for rifampicin and rifabutin were in the range of 0.1-0.8 mg/l and 0.1-0.4 mg/l respectively. " new_text="ulcerans@@was@@between@@0.012@@and@@0.025@@mg/l@@,@@while@@corresponding@@values@@for@@rifampicin@@and@@rifabutin@@were@@in@@the@@range@@of@@0.1-0.8@@mg/l@@and@@0.1-0.4@@mg/l@@respectively@@.@@"> 
+      <entity id="DDI-MedLine.d8.s5.e0" charOffset="74-83" type="drug" text="rifampicin" position="12"/>  
+      <entity id="DDI-MedLine.d8.s5.e1" charOffset="89-97" type="drug" text="rifabutin" position="14"/>  
+      <pair id="DDI-MedLine.d8.s5.p0" e1="DDI-MedLine.d8.s5.e0" e2="DDI-MedLine.d8.s5.e1" ddi="false" flags="True" e1_name="rifampicin" e2_name="rifabutin" e1_pos="12" e2_pos="14" path="12@@14@@">rifampicin@@@@conj_and@@rifabutin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d8.s6" text="When combined with ofloxacin, KRM-1648 exhibited strong synergistic activity while only additive effects were observed with the combination of rifampicin (or rifabutin) and ofloxacin. " new_text="When@@combined@@with@@ofloxacin@@,@@KRM-1648@@exhibited@@strong@@synergistic@@activity@@while@@only@@additive@@effects@@were@@observed@@with@@the@@combination@@of@@rifampicin@@(or@@rifabutin@@)@@and@@ofloxacin@@.@@"> 
+      <entity id="DDI-MedLine.d8.s6.e0" charOffset="19-27" type="drug" text="ofloxacin" position="3"/>  
+      <entity id="DDI-MedLine.d8.s6.e1" charOffset="30-37" type="drug_n" text="KRM-1648" position="5"/>  
+      <entity id="DDI-MedLine.d8.s6.e2" charOffset="143-152" type="drug" text="rifampicin" position="20"/>  
+      <entity id="DDI-MedLine.d8.s6.e3" charOffset="158-166" type="drug" text="rifabutin" position="22"/>  
+      <entity id="DDI-MedLine.d8.s6.e4" charOffset="173-181" type="drug" text="ofloxacin" position="25"/>  
+      <pair id="DDI-MedLine.d8.s6.p0" e1="DDI-MedLine.d8.s6.e0" e2="DDI-MedLine.d8.s6.e1" ddi="true" type="effect" flags="True" e1_name="ofloxacin" e2_name="KRM-1648" e1_pos="3" e2_pos="5" path="3@@1@@6@@5@@">ofloxacin@@@@prep_with@@combined@@advcl@@exhibited@@nsubj@@KRM-1648</pair>  
+      <pair id="DDI-MedLine.d8.s6.p1" e1="DDI-MedLine.d8.s6.e0" e2="DDI-MedLine.d8.s6.e2" ddi="false" flags="True" e1_name="ofloxacin" e2_name="rifampicin" e1_pos="3" e2_pos="20" path="3@@1@@6@@15@@18@@23@@20@@">ofloxacin@@@@prep_with@@combined@@advcl@@exhibited@@advcl@@observed@@prep_with@@combination@@prep_of@@)@@amod@@rifampicin</pair>  
+      <pair id="DDI-MedLine.d8.s6.p2" e1="DDI-MedLine.d8.s6.e0" e2="DDI-MedLine.d8.s6.e3" ddi="false" flags="True" e1_name="ofloxacin" e2_name="rifabutin" e1_pos="3" e2_pos="22" path="3@@1@@6@@15@@18@@23@@22@@">ofloxacin@@@@prep_with@@combined@@advcl@@exhibited@@advcl@@observed@@prep_with@@combination@@prep_of@@)@@nn@@rifabutin</pair>  
+      <pair id="DDI-MedLine.d8.s6.p3" e1="DDI-MedLine.d8.s6.e0" e2="DDI-MedLine.d8.s6.e4" ddi="false" flags="True" e1_name="ofloxacin" e2_name="ofloxacin" e1_pos="3" e2_pos="25" path="3@@1@@6@@15@@18@@25@@">ofloxacin@@@@prep_with@@combined@@advcl@@exhibited@@advcl@@observed@@prep_with@@combination@@prep_of@@ofloxacin</pair>  
+      <pair id="DDI-MedLine.d8.s6.p4" e1="DDI-MedLine.d8.s6.e1" e2="DDI-MedLine.d8.s6.e2" ddi="false" flags="True" e1_name="KRM-1648" e2_name="rifampicin" e1_pos="5" e2_pos="20" path="5@@6@@15@@18@@23@@20@@">KRM-1648@@@@nsubj@@exhibited@@advcl@@observed@@prep_with@@combination@@prep_of@@)@@amod@@rifampicin</pair>  
+      <pair id="DDI-MedLine.d8.s6.p5" e1="DDI-MedLine.d8.s6.e1" e2="DDI-MedLine.d8.s6.e3" ddi="false" flags="True" e1_name="KRM-1648" e2_name="rifabutin" e1_pos="5" e2_pos="22" path="5@@6@@15@@18@@23@@22@@">KRM-1648@@@@nsubj@@exhibited@@advcl@@observed@@prep_with@@combination@@prep_of@@)@@nn@@rifabutin</pair>  
+      <pair id="DDI-MedLine.d8.s6.p6" e1="DDI-MedLine.d8.s6.e1" e2="DDI-MedLine.d8.s6.e4" ddi="false" flags="True" e1_name="KRM-1648" e2_name="ofloxacin" e1_pos="5" e2_pos="25" path="5@@6@@15@@18@@25@@">KRM-1648@@@@nsubj@@exhibited@@advcl@@observed@@prep_with@@combination@@prep_of@@ofloxacin</pair>  
+      <pair id="DDI-MedLine.d8.s6.p7" e1="DDI-MedLine.d8.s6.e2" e2="DDI-MedLine.d8.s6.e3" ddi="false" flags="True" e1_name="rifampicin" e2_name="rifabutin" e1_pos="20" e2_pos="22" path="20@@23@@22@@">rifampicin@@@@amod@@)@@nn@@rifabutin</pair>  
+      <pair id="DDI-MedLine.d8.s6.p8" e1="DDI-MedLine.d8.s6.e2" e2="DDI-MedLine.d8.s6.e4" ddi="true" type="effect" flags="True" e1_name="rifampicin" e2_name="ofloxacin" e1_pos="20" e2_pos="25" path="20@@23@@25@@">rifampicin@@@@amod@@)@@conj_and@@ofloxacin</pair>  
+      <pair id="DDI-MedLine.d8.s6.p9" e1="DDI-MedLine.d8.s6.e3" e2="DDI-MedLine.d8.s6.e4" ddi="true" type="effect" flags="True" e1_name="rifabutin" e2_name="ofloxacin" e1_pos="22" e2_pos="25" path="22@@23@@25@@">rifabutin@@@@nn@@)@@conj_and@@ofloxacin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d8.s7" text="These results suggest that KRM-1648 has a great potential in the treatment of M. " new_text="These@@results@@suggest@@that@@KRM-1648@@has@@a@@great@@potential@@in@@the@@treatment@@of@@M@@.@@"> 
+      <entity id="DDI-MedLine.d8.s7.e0" charOffset="27-34" type="drug_n" text="KRM-1648" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d8.s8" text="ulcerans infection." new_text="ulcerans@@infection@@.@@"/> 
+</document>

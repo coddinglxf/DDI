@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d95"> 
+   <sentence id="DDI-DrugBank.d95.s0" text="Cyclosporine - L-arginine may counteract the antinaturetic effect of cyclosporin." new_text="Cyclosporine@@-@@L-arginine@@may@@counteract@@the@@antinaturetic@@effect@@of@@cyclosporin@@.@@"> 
+      <entity id="DDI-DrugBank.d95.s0.e0" charOffset="0-11" type="drug" text="Cyclosporine" position="0"/>  
+      <entity id="DDI-DrugBank.d95.s0.e1" charOffset="15-24" type="drug" text="L-arginine" position="2"/>  
+      <entity id="DDI-DrugBank.d95.s0.e2" charOffset="69-79" type="drug" text="cyclosporin" position="9"/>  
+      <pair id="DDI-DrugBank.d95.s0.p0" e1="DDI-DrugBank.d95.s0.e0" e2="DDI-DrugBank.d95.s0.e1" ddi="false" flags="True" e1_name="Cyclosporine" e2_name="L-arginine" e1_pos="0" e2_pos="2" path="0@@4@@2@@">Cyclosporine@@@@dep@@counteract@@nsubj@@L-arginine</pair>  
+      <pair id="DDI-DrugBank.d95.s0.p1" e1="DDI-DrugBank.d95.s0.e0" e2="DDI-DrugBank.d95.s0.e2" ddi="false" flags="True" e1_name="Cyclosporine" e2_name="cyclosporin" e1_pos="0" e2_pos="9" path="0@@4@@7@@9@@">Cyclosporine@@@@dep@@counteract@@dobj@@effect@@prep_of@@cyclosporin</pair>  
+      <pair id="DDI-DrugBank.d95.s0.p2" e1="DDI-DrugBank.d95.s0.e1" e2="DDI-DrugBank.d95.s0.e2" ddi="true" type="effect" flags="True" e1_name="L-arginine" e2_name="cyclosporin" e1_pos="2" e2_pos="9" path="2@@4@@7@@9@@">L-arginine@@@@nsubj@@counteract@@dobj@@effect@@prep_of@@cyclosporin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d95.s1" text="Ibuprofen - L-arginine may increase the absorption of ibuprofen if taken concomitantly." new_text="Ibuprofen@@-@@L-arginine@@may@@increase@@the@@absorption@@of@@ibuprofen@@if@@taken@@concomitantly@@.@@"> 
+      <entity id="DDI-DrugBank.d95.s1.e0" charOffset="0-8" type="drug" text="Ibuprofen" position="0"/>  
+      <entity id="DDI-DrugBank.d95.s1.e1" charOffset="12-21" type="drug" text="L-arginine" position="2"/>  
+      <entity id="DDI-DrugBank.d95.s1.e2" charOffset="54-62" type="drug" text="ibuprofen" position="8"/>  
+      <pair id="DDI-DrugBank.d95.s1.p0" e1="DDI-DrugBank.d95.s1.e0" e2="DDI-DrugBank.d95.s1.e1" ddi="false" flags="True" e1_name="Ibuprofen" e2_name="L-arginine" e1_pos="0" e2_pos="2" path="0@@4@@2@@">Ibuprofen@@@@dep@@increase@@nsubj@@L-arginine</pair>  
+      <pair id="DDI-DrugBank.d95.s1.p1" e1="DDI-DrugBank.d95.s1.e0" e2="DDI-DrugBank.d95.s1.e2" ddi="false" flags="True" e1_name="Ibuprofen" e2_name="ibuprofen" e1_pos="0" e2_pos="8" path="0@@4@@6@@8@@">Ibuprofen@@@@dep@@increase@@dobj@@absorption@@prep_of@@ibuprofen</pair>  
+      <pair id="DDI-DrugBank.d95.s1.p2" e1="DDI-DrugBank.d95.s1.e1" e2="DDI-DrugBank.d95.s1.e2" ddi="true" type="mechanism" flags="True" e1_name="L-arginine" e2_name="ibuprofen" e1_pos="2" e2_pos="8" path="2@@4@@6@@8@@">L-arginine@@@@nsubj@@increase@@dobj@@absorption@@prep_of@@ibuprofen</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d95.s2" text="Organic nitrates - L-arginine supplements theoretically may potentiate the effects of organic nitrates if taken concomitantly." new_text="Organic@@nitrates@@-@@L-arginine@@supplements@@theoretically@@may@@potentiate@@the@@effects@@of@@organic@@nitrates@@if@@taken@@concomitantly@@.@@"> 
+      <entity id="DDI-DrugBank.d95.s2.e0" charOffset="8-15" type="group" text="nitrates" position="1"/>  
+      <entity id="DDI-DrugBank.d95.s2.e1" charOffset="19-28" type="drug" text="L-arginine" position="3"/>  
+      <entity id="DDI-DrugBank.d95.s2.e2" charOffset="94-101" type="drug" text="nitrates" position="12"/>  
+      <pair id="DDI-DrugBank.d95.s2.p0" e1="DDI-DrugBank.d95.s2.e0" e2="DDI-DrugBank.d95.s2.e1" ddi="false" flags="True" e1_name="nitrates" e2_name="L-arginine" e1_pos="1" e2_pos="3" path="1@@7@@4@@3@@">nitrates@@@@dep@@potentiate@@nsubj@@supplements@@amod@@L-arginine</pair>  
+      <pair id="DDI-DrugBank.d95.s2.p1" e1="DDI-DrugBank.d95.s2.e0" e2="DDI-DrugBank.d95.s2.e2" ddi="false" flags="True" e1_name="nitrates" e2_name="nitrates" e1_pos="1" e2_pos="12" path="1@@7@@9@@12@@">nitrates@@@@dep@@potentiate@@dobj@@effects@@prep_of@@nitrates</pair>  
+      <pair id="DDI-DrugBank.d95.s2.p2" e1="DDI-DrugBank.d95.s2.e1" e2="DDI-DrugBank.d95.s2.e2" ddi="true" type="effect" flags="True" e1_name="L-arginine" e2_name="nitrates" e1_pos="3" e2_pos="12" path="3@@4@@7@@9@@12@@">L-arginine@@@@amod@@supplements@@nsubj@@potentiate@@dobj@@effects@@prep_of@@nitrates</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d95.s3" text="Sildenafil citrate - Theoretically, L-arginine supplements taken concomitantly with sildenafil citrate, may potentiate the effects of the drug." new_text="Sildenafil citrate@@-@@Theoretically@@,@@L-arginine@@supplements@@taken@@concomitantly@@with@@sildenafil citrate@@,@@may@@potentiate@@the@@effects@@of@@the@@drug@@.@@"> 
+      <entity id="DDI-DrugBank.d95.s3.e0" charOffset="0-17" type="drug" text="Sildenafil citrate" position="0"/>  
+      <entity id="DDI-DrugBank.d95.s3.e1" charOffset="36-45" type="drug" text="L-arginine" position="4"/>  
+      <entity id="DDI-DrugBank.d95.s3.e2" charOffset="84-101" type="drug" text="sildenafil citrate" position="9"/>  
+      <pair id="DDI-DrugBank.d95.s3.p0" e1="DDI-DrugBank.d95.s3.e0" e2="DDI-DrugBank.d95.s3.e1" ddi="false" flags="True" e1_name="Sildenafil citrate" e2_name="L-arginine" e1_pos="0" e2_pos="4" path="0@@5@@4@@">Sildenafil citrate@@@@dep@@supplements@@amod@@L-arginine</pair>  
+      <pair id="DDI-DrugBank.d95.s3.p1" e1="DDI-DrugBank.d95.s3.e0" e2="DDI-DrugBank.d95.s3.e2" ddi="false" flags="True" e1_name="Sildenafil citrate" e2_name="sildenafil citrate" e1_pos="0" e2_pos="9" path="0@@5@@6@@9@@">Sildenafil citrate@@@@dep@@supplements@@partmod@@taken@@prep_with@@sildenafil citrate</pair>  
+      <pair id="DDI-DrugBank.d95.s3.p2" e1="DDI-DrugBank.d95.s3.e1" e2="DDI-DrugBank.d95.s3.e2" ddi="true" type="effect" flags="True" e1_name="L-arginine" e2_name="sildenafil citrate" e1_pos="4" e2_pos="9" path="4@@5@@6@@9@@">L-arginine@@@@amod@@supplements@@partmod@@taken@@prep_with@@sildenafil citrate</pair> 
+   </sentence> 
+</document>

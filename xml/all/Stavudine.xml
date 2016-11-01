@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d727"> 
+   <sentence id="DDI-DrugBank.d727.s0" text="Zidovudine competitively inhibits the intracellular phosphorylation of stavudine. " new_text="Zidovudine@@competitively@@inhibits@@the@@intracellular@@phosphorylation@@of@@stavudine@@.@@"> 
+      <entity id="DDI-DrugBank.d727.s0.e0" charOffset="0-9" type="drug" text="Zidovudine" position="0"/>  
+      <entity id="DDI-DrugBank.d727.s0.e1" charOffset="71-79" type="drug" text="stavudine" position="7"/>  
+      <pair id="DDI-DrugBank.d727.s0.p0" e1="DDI-DrugBank.d727.s0.e0" e2="DDI-DrugBank.d727.s0.e1" ddi="true" type="effect" flags="True" e1_name="Zidovudine" e2_name="stavudine" e1_pos="0" e2_pos="7" path="0@@2@@5@@7@@">Zidovudine@@@@nsubj@@inhibits@@dobj@@phosphorylation@@prep_of@@stavudine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d727.s1" text="Therefore, use of zidovudine in combination with ZERIT should be avoided. " new_text="Therefore@@,@@use@@of@@zidovudine@@in@@combination@@with@@ZERIT@@should@@be@@avoided@@.@@"> 
+      <entity id="DDI-DrugBank.d727.s1.e0" charOffset="18-27" type="drug" text="zidovudine" position="4"/>  
+      <entity id="DDI-DrugBank.d727.s1.e1" charOffset="49-53" type="brand" text="ZERIT" position="8"/>  
+      <pair id="DDI-DrugBank.d727.s1.p0" e1="DDI-DrugBank.d727.s1.e0" e2="DDI-DrugBank.d727.s1.e1" ddi="true" type="advise" flags="True" e1_name="zidovudine" e2_name="ZERIT" e1_pos="4" e2_pos="8" path="4@@6@@8@@">zidovudine@@@@prep_in@@combination@@prep_with@@ZERIT</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d727.s2" text="In vitro data indicate that the phosphorylation of stavudine is also inhibited at relevant concentrations by doxorubicin and ribavirin. " new_text="In@@vitro@@data@@indicate@@that@@the@@phosphorylation@@of@@stavudine@@is@@also@@inhibited@@at@@relevant@@concentrations@@by@@doxorubicin@@and@@ribavirin@@.@@"> 
+      <entity id="DDI-DrugBank.d727.s2.e0" charOffset="51-59" type="drug" text="stavudine" position="8"/>  
+      <entity id="DDI-DrugBank.d727.s2.e1" charOffset="109-119" type="drug" text="doxorubicin" position="16"/>  
+      <entity id="DDI-DrugBank.d727.s2.e2" charOffset="125-133" type="drug" text="ribavirin" position="18"/>  
+      <pair id="DDI-DrugBank.d727.s2.p0" e1="DDI-DrugBank.d727.s2.e0" e2="DDI-DrugBank.d727.s2.e1" ddi="true" type="effect" flags="True" e1_name="stavudine" e2_name="doxorubicin" e1_pos="8" e2_pos="16" path="8@@6@@11@@16@@">stavudine@@@@prep_of@@phosphorylation@@nsubj@@inhibited@@prep_by@@doxorubicin</pair>  
+      <pair id="DDI-DrugBank.d727.s2.p1" e1="DDI-DrugBank.d727.s2.e0" e2="DDI-DrugBank.d727.s2.e2" ddi="true" type="effect" flags="True" e1_name="stavudine" e2_name="ribavirin" e1_pos="8" e2_pos="18" path="8@@6@@11@@18@@">stavudine@@@@prep_of@@phosphorylation@@nsubj@@inhibited@@prep_by@@ribavirin</pair>  
+      <pair id="DDI-DrugBank.d727.s2.p2" e1="DDI-DrugBank.d727.s2.e1" e2="DDI-DrugBank.d727.s2.e2" ddi="false" flags="True" e1_name="doxorubicin" e2_name="ribavirin" e1_pos="16" e2_pos="18" path="16@@18@@">doxorubicin@@@@conj_and@@ribavirin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d727.s3" text="The clinical significance of these in vitro interactions is unknown; " new_text="The@@clinical@@significance@@of@@these@@in@@vitro@@interactions@@is@@unknown;@@"/>  
+   <sentence id="DDI-DrugBank.d727.s4" text="therefore, concomitant use of stavudine with either of these drugs should be undertaken with caution." new_text="therefore@@,@@concomitant@@use@@of@@stavudine@@with@@either@@of@@these@@drugs@@should@@be@@undertaken@@with@@caution@@.@@"> 
+      <entity id="DDI-DrugBank.d727.s4.e0" charOffset="30-38" type="drug" text="stavudine" position="5"/> 
+   </sentence> 
+</document>

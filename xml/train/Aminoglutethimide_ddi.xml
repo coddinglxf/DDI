@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d372"> 
+   <sentence id="DDI-DrugBank.d372.s0" text="Cytadren accelerates the metabolism of dexamethasone;" new_text="Cytadren@@accelerates@@the@@metabolism@@of@@dexamethasone@@;@@"> 
+      <entity id="DDI-DrugBank.d372.s0.e0" charOffset="0-7" type="brand" text="Cytadren" position="0"/>  
+      <entity id="DDI-DrugBank.d372.s0.e1" charOffset="39-51" type="drug" text="dexamethasone" position="5"/>  
+      <pair id="DDI-DrugBank.d372.s0.p0" e1="DDI-DrugBank.d372.s0.e0" e2="DDI-DrugBank.d372.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="Cytadren" e2_name="dexamethasone" e1_pos="0" e2_pos="5" path="0@@1@@3@@5@@">Cytadren@@@@nsubj@@accelerates@@dobj@@metabolism@@prep_of@@dexamethasone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d372.s1" text="therefore, if glucocorticoid replacement is needed, hydrocortisone should be prescribed." new_text="therefore@@,@@if@@glucocorticoid@@replacement@@is@@needed@@,@@hydrocortisone@@should@@be@@prescribed@@.@@"> 
+      <entity id="DDI-DrugBank.d372.s1.e0" charOffset="14-27" type="group" text="glucocorticoid" position="3"/>  
+      <entity id="DDI-DrugBank.d372.s1.e1" charOffset="52-65" type="drug" text="hydrocortisone" position="8"/>  
+      <pair id="DDI-DrugBank.d372.s1.p0" e1="DDI-DrugBank.d372.s1.e0" e2="DDI-DrugBank.d372.s1.e1" ddi="false" flags="True" e1_name="glucocorticoid" e2_name="hydrocortisone" e1_pos="3" e2_pos="8" path="3@@4@@6@@11@@8@@">glucocorticoid@@@@amod@@replacement@@nsubjpass@@needed@@advcl@@prescribed@@nsubjpass@@hydrocortisone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d372.s2" text="Aminoglutethimide diminishes the effect of coumarin and warfarin." new_text="Aminoglutethimide@@diminishes@@the@@effect@@of@@coumarin@@and@@warfarin@@.@@"> 
+      <entity id="DDI-DrugBank.d372.s2.e0" charOffset="0-16" type="drug" text="Aminoglutethimide" position="0"/>  
+      <entity id="DDI-DrugBank.d372.s2.e1" charOffset="43-50" type="group" text="coumarin" position="5"/>  
+      <entity id="DDI-DrugBank.d372.s2.e2" charOffset="56-63" type="drug" text="warfarin" position="7"/>  
+      <pair id="DDI-DrugBank.d372.s2.p0" e1="DDI-DrugBank.d372.s2.e0" e2="DDI-DrugBank.d372.s2.e1" ddi="true" type="effect" flags="True" e1_name="Aminoglutethimide" e2_name="coumarin" e1_pos="0" e2_pos="5" path="0@@1@@3@@5@@">Aminoglutethimide@@@@nsubj@@diminishes@@dobj@@effect@@prep_of@@coumarin</pair>  
+      <pair id="DDI-DrugBank.d372.s2.p1" e1="DDI-DrugBank.d372.s2.e0" e2="DDI-DrugBank.d372.s2.e2" ddi="true" type="effect" flags="True" e1_name="Aminoglutethimide" e2_name="warfarin" e1_pos="0" e2_pos="7" path="0@@1@@3@@7@@">Aminoglutethimide@@@@nsubj@@diminishes@@dobj@@effect@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d372.s2.p2" e1="DDI-DrugBank.d372.s2.e1" e2="DDI-DrugBank.d372.s2.e2" ddi="false" flags="True" e1_name="coumarin" e2_name="warfarin" e1_pos="5" e2_pos="7" path="5@@7@@">coumarin@@@@conj_and@@warfarin</pair> 
+   </sentence> 
+</document>

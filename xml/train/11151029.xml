@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d21"> 
+   <sentence id="DDI-MedLine.d21.s0" text="Acute effect of different antidepressants on glycemia in diabetic and non-diabetic rats.
+" new_text="Acute@@effect@@of@@different@@antidepressants@@on@@glycemia@@in@@diabetic@@and@@non-diabetic@@rats@@.@@"> 
+      <entity id="DDI-MedLine.d21.s0.e0" charOffset="26-40" type="group" text="antidepressants" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d21.s1" text="Diabetic patients have a 20% higher risk of depression than the general population. " new_text="Diabetic@@patients@@have@@a@@20%@@higher@@risk@@of@@depression@@than@@the@@general@@population@@.@@"/>  
+   <sentence id="DDI-MedLine.d21.s2" text="Treatment with antidepressant drugs can directly interfere with blood glucose levels or may interact with hypoglycemic agents. " new_text="Treatment@@with@@antidepressant drugs@@can@@directly@@interfere@@with@@blood@@glucose@@levels@@or@@may@@interact@@with@@hypoglycemic agents@@.@@"> 
+      <entity id="DDI-MedLine.d21.s2.e0" charOffset="15-34" type="group" text="antidepressant drugs" position="2"/>  
+      <entity id="DDI-MedLine.d21.s2.e1" charOffset="106-124" type="group" text="hypoglycemic agents" position="14"/>  
+      <pair id="DDI-MedLine.d21.s2.p0" e1="DDI-MedLine.d21.s2.e0" e2="DDI-MedLine.d21.s2.e1" ddi="true" type="int" flags="True" e1_name="antidepressant drugs" e2_name="hypoglycemic agents" e1_pos="2" e2_pos="14" path="2@@0@@12@@14@@">antidepressant drugs@@@@prep_with@@Treatment@@nsubj@@interact@@prep_with@@hypoglycemic agents</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d21.s3" text="The treatment of depression in diabetic patients must take into account variations of glycemic levels at different times and a comparison of the available antidepressant agents is important. " new_text="The@@treatment@@of@@depression@@in@@diabetic@@patients@@must@@take@@into@@account@@variations@@of@@glycemic@@levels@@at@@different@@times@@and@@a@@comparison@@of@@the@@available@@antidepressant agents@@is@@important@@.@@"> 
+      <entity id="DDI-MedLine.d21.s3.e0" charOffset="155-175" type="group" text="antidepressant agents" position="24"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d21.s4" text="In the present study we evaluated the interference of antidepressants with blood glucose levels of diabetic and non-diabetic rats. " new_text="In@@the@@present@@study@@we@@evaluated@@the@@interference@@of@@antidepressants@@with@@blood@@glucose@@levels@@of@@diabetic@@and@@non-diabetic@@rats@@.@@"> 
+      <entity id="DDI-MedLine.d21.s4.e0" charOffset="54-68" type="group" text="antidepressants" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d21.s5" text="In a first experiment, male adult Wistar rats were fasted for 12 h. " new_text="In@@a@@first@@experiment@@,@@male@@adult@@Wistar@@rats@@were@@fasted@@for@@12@@h@@.@@"/>  
+   <sentence id="DDI-MedLine.d21.s6" text="Imipramine (5 mg/kg), moclobemide (30 mg/kg), clonazepam (0.25 mg/kg), fluoxetine (20 mg/kg) sertraline (30 mg/kg) or vehicle was administered. " new_text="Imipramine@@(5@@mg/kg)@@,@@moclobemide@@(30@@mg/kg)@@,@@clonazepam@@(0.25@@mg/kg)@@,@@fluoxetine@@(20@@mg/kg)@@sertraline@@(30@@mg/kg)@@or@@vehicle@@was@@administered@@.@@"> 
+      <entity id="DDI-MedLine.d21.s6.e0" charOffset="0-9" type="drug" text="Imipramine" position="0"/>  
+      <entity id="DDI-MedLine.d21.s6.e1" charOffset="22-32" type="drug" text="moclobemide" position="4"/>  
+      <entity id="DDI-MedLine.d21.s6.e2" charOffset="46-55" type="drug" text="clonazepam" position="8"/>  
+      <entity id="DDI-MedLine.d21.s6.e3" charOffset="71-80" type="drug" text="fluoxetine" position="12"/>  
+      <entity id="DDI-MedLine.d21.s6.e4" charOffset="93-102" type="drug" text="sertraline" position="15"/>  
+      <pair id="DDI-MedLine.d21.s6.p0" e1="DDI-MedLine.d21.s6.e0" e2="DDI-MedLine.d21.s6.e1" ddi="false" flags="True" e1_name="Imipramine" e2_name="moclobemide" e1_pos="0" e2_pos="4" path="0@@4@@">Imipramine@@@@dep@@moclobemide</pair>  
+      <pair id="DDI-MedLine.d21.s6.p1" e1="DDI-MedLine.d21.s6.e0" e2="DDI-MedLine.d21.s6.e2" ddi="false" flags="True" e1_name="Imipramine" e2_name="clonazepam" e1_pos="0" e2_pos="8" path="0@@8@@">Imipramine@@@@dep@@clonazepam</pair>  
+      <pair id="DDI-MedLine.d21.s6.p2" e1="DDI-MedLine.d21.s6.e0" e2="DDI-MedLine.d21.s6.e3" ddi="false" flags="True" e1_name="Imipramine" e2_name="fluoxetine" e1_pos="0" e2_pos="12" path="0@@15@@14@@12@@">Imipramine@@@@ccomp@@sertraline@@nsubj@@mg/kg)@@amod@@fluoxetine</pair>  
+      <pair id="DDI-MedLine.d21.s6.p3" e1="DDI-MedLine.d21.s6.e0" e2="DDI-MedLine.d21.s6.e4" ddi="false" flags="True" e1_name="Imipramine" e2_name="sertraline" e1_pos="0" e2_pos="15" path="0@@15@@">Imipramine@@@@ccomp@@sertraline</pair>  
+      <pair id="DDI-MedLine.d21.s6.p4" e1="DDI-MedLine.d21.s6.e1" e2="DDI-MedLine.d21.s6.e2" ddi="false" flags="True" e1_name="moclobemide" e2_name="clonazepam" e1_pos="4" e2_pos="8" path="4@@0@@8@@">moclobemide@@@@dep@@Imipramine@@dep@@clonazepam</pair>  
+      <pair id="DDI-MedLine.d21.s6.p5" e1="DDI-MedLine.d21.s6.e1" e2="DDI-MedLine.d21.s6.e3" ddi="false" flags="True" e1_name="moclobemide" e2_name="fluoxetine" e1_pos="4" e2_pos="12" path="4@@0@@15@@14@@12@@">moclobemide@@@@dep@@Imipramine@@ccomp@@sertraline@@nsubj@@mg/kg)@@amod@@fluoxetine</pair>  
+      <pair id="DDI-MedLine.d21.s6.p6" e1="DDI-MedLine.d21.s6.e1" e2="DDI-MedLine.d21.s6.e4" ddi="false" flags="True" e1_name="moclobemide" e2_name="sertraline" e1_pos="4" e2_pos="15" path="4@@0@@15@@">moclobemide@@@@dep@@Imipramine@@ccomp@@sertraline</pair>  
+      <pair id="DDI-MedLine.d21.s6.p7" e1="DDI-MedLine.d21.s6.e2" e2="DDI-MedLine.d21.s6.e3" ddi="false" flags="True" e1_name="clonazepam" e2_name="fluoxetine" e1_pos="8" e2_pos="12" path="8@@0@@15@@14@@12@@">clonazepam@@@@dep@@Imipramine@@ccomp@@sertraline@@nsubj@@mg/kg)@@amod@@fluoxetine</pair>  
+      <pair id="DDI-MedLine.d21.s6.p8" e1="DDI-MedLine.d21.s6.e2" e2="DDI-MedLine.d21.s6.e4" ddi="false" flags="True" e1_name="clonazepam" e2_name="sertraline" e1_pos="8" e2_pos="15" path="8@@0@@15@@">clonazepam@@@@dep@@Imipramine@@ccomp@@sertraline</pair>  
+      <pair id="DDI-MedLine.d21.s6.p9" e1="DDI-MedLine.d21.s6.e3" e2="DDI-MedLine.d21.s6.e4" ddi="false" flags="True" e1_name="fluoxetine" e2_name="sertraline" e1_pos="12" e2_pos="15" path="12@@14@@15@@">fluoxetine@@@@amod@@mg/kg)@@nsubj@@sertraline</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d21.s7" text="After 30 min, fasting glycemia was measured. " new_text="After@@30@@min@@,@@fasting@@glycemia@@was@@measured@@.@@"/>  
+   <sentence id="DDI-MedLine.d21.s8" text="An oral glucose overload of 1 ml of a 50% glucose solution was given to rats and blood glucose was determined after 30, 60 and 90 min. " new_text="An@@oral@@glucose@@overload@@of@@1@@ml@@of@@a@@50%@@glucose@@solution@@was@@given@@to@@rats@@and@@blood@@glucose@@was@@determined@@after@@30@@,@@60@@and@@90@@min@@.@@"> 
+      <entity id="DDI-MedLine.d21.s8.e0" charOffset="8-14" type="drug" text="glucose" position="2"/>  
+      <entity id="DDI-MedLine.d21.s8.e1" charOffset="42-48" type="drug" text="glucose" position="10"/>  
+      <pair id="DDI-MedLine.d21.s8.p0" e1="DDI-MedLine.d21.s8.e0" e2="DDI-MedLine.d21.s8.e1" ddi="false" flags="True" e1_name="glucose" e2_name="glucose" e1_pos="2" e2_pos="10" path="2@@3@@6@@11@@10@@">glucose@@@@nn@@overload@@prep_of@@ml@@prep_of@@solution@@nn@@glucose</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d21.s9" text="Imipramine and clonazepam did not change fasting or overload glycemia. " new_text="Imipramine@@and@@clonazepam@@did@@not@@change@@fasting@@or@@overload@@glycemia@@.@@"> 
+      <entity id="DDI-MedLine.d21.s9.e0" charOffset="0-9" type="drug" text="Imipramine" position="0"/>  
+      <entity id="DDI-MedLine.d21.s9.e1" charOffset="15-24" type="drug" text="clonazepam" position="2"/>  
+      <pair id="DDI-MedLine.d21.s9.p0" e1="DDI-MedLine.d21.s9.e0" e2="DDI-MedLine.d21.s9.e1" ddi="false" flags="True" e1_name="Imipramine" e2_name="clonazepam" e1_pos="0" e2_pos="2" path="0@@2@@">Imipramine@@@@conj_and@@clonazepam</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d21.s10" text="Fluoxetine and moclobemide increased blood glucose at different times after the glucose overload. " new_text="Fluoxetine@@and@@moclobemide@@increased@@blood@@glucose@@at@@different@@times@@after@@the@@glucose@@overload@@.@@"> 
+      <entity id="DDI-MedLine.d21.s10.e0" charOffset="0-9" type="drug" text="Fluoxetine" position="0"/>  
+      <entity id="DDI-MedLine.d21.s10.e1" charOffset="15-25" type="drug" text="moclobemide" position="2"/>  
+      <entity id="DDI-MedLine.d21.s10.e2" charOffset="43-49" type="drug" text="glucose" position="5"/>  
+      <pair id="DDI-MedLine.d21.s10.p0" e1="DDI-MedLine.d21.s10.e0" e2="DDI-MedLine.d21.s10.e1" ddi="false" flags="True" e1_name="Fluoxetine" e2_name="moclobemide" e1_pos="0" e2_pos="2" path="0@@2@@">Fluoxetine@@@@conj_and@@moclobemide</pair>  
+      <pair id="DDI-MedLine.d21.s10.p1" e1="DDI-MedLine.d21.s10.e0" e2="DDI-MedLine.d21.s10.e2" ddi="false" flags="True" e1_name="Fluoxetine" e2_name="glucose" e1_pos="0" e2_pos="5" path="0@@3@@5@@">Fluoxetine@@@@nsubj@@increased@@dobj@@glucose</pair>  
+      <pair id="DDI-MedLine.d21.s10.p2" e1="DDI-MedLine.d21.s10.e1" e2="DDI-MedLine.d21.s10.e2" ddi="false" flags="True" e1_name="moclobemide" e2_name="glucose" e1_pos="2" e2_pos="5" path="2@@3@@5@@">moclobemide@@@@nsubj@@increased@@dobj@@glucose</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d21.s11" text="Sertraline neutralized the increase of glycemia induced by oral glucose overload. " new_text="Sertraline@@neutralized@@the@@increase@@of@@glycemia@@induced@@by@@oral@@glucose@@overload@@.@@"> 
+      <entity id="DDI-MedLine.d21.s11.e0" charOffset="0-9" type="drug" text="Sertraline" position="0"/>  
+      <entity id="DDI-MedLine.d21.s11.e1" charOffset="64-70" type="drug" text="glucose" position="9"/>  
+      <pair id="DDI-MedLine.d21.s11.p0" e1="DDI-MedLine.d21.s11.e0" e2="DDI-MedLine.d21.s11.e1" ddi="false" flags="True" e1_name="Sertraline" e2_name="glucose" e1_pos="0" e2_pos="9" path="0@@1@@3@@5@@6@@10@@9@@">Sertraline@@@@nsubj@@neutralized@@dobj@@increase@@prep_of@@glycemia@@partmod@@induced@@agent@@overload@@nn@@glucose</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d21.s12" text="In the second experiment, non-diabetic and streptozotocin-induced diabetic rats were fasted, and the same procedures were followed for estimation of glucose tolerance 30 min after glucose overload. " new_text="In@@the@@second@@experiment@@,@@non-diabetic@@and@@streptozotocin-induced@@diabetic@@rats@@were@@fasted@@,@@and@@the@@same@@procedures@@were@@followed@@for@@estimation@@of@@glucose@@tolerance@@30@@min@@after@@glucose@@overload@@.@@"> 
+      <entity id="DDI-MedLine.d21.s12.e0" charOffset="149-155" type="drug" text="glucose" position="22"/>  
+      <entity id="DDI-MedLine.d21.s12.e1" charOffset="180-186" type="drug" text="glucose" position="27"/>  
+      <pair id="DDI-MedLine.d21.s12.p0" e1="DDI-MedLine.d21.s12.e0" e2="DDI-MedLine.d21.s12.e1" ddi="false" flags="True" e1_name="glucose" e2_name="glucose" e1_pos="22" e2_pos="27" path="22@@25@@20@@18@@28@@27@@">glucose@@@@amod@@min@@prep_of@@estimation@@prep_for@@followed@@prep_after@@overload@@nn@@glucose</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d21.s13" text="Again, sertraline neutralized the increase in glycemia after glucose overload both in diabetic and non-diabetic rats. " new_text="Again@@,@@sertraline@@neutralized@@the@@increase@@in@@glycemia@@after@@glucose@@overload@@both@@in@@diabetic@@and@@non-diabetic@@rats@@.@@"> 
+      <entity id="DDI-MedLine.d21.s13.e0" charOffset="7-16" type="drug" text="sertraline" position="2"/>  
+      <entity id="DDI-MedLine.d21.s13.e1" charOffset="61-67" type="drug" text="glucose" position="9"/>  
+      <pair id="DDI-MedLine.d21.s13.p0" e1="DDI-MedLine.d21.s13.e0" e2="DDI-MedLine.d21.s13.e1" ddi="false" flags="True" e1_name="sertraline" e2_name="glucose" e1_pos="2" e2_pos="9" path="2@@3@@10@@9@@">sertraline@@@@nsubj@@neutralized@@prep_after@@overload@@nn@@glucose</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d21.s14" text="These data raise the question of whether sertraline is the best choice for prolonged use for diabetic individuals, because of its antihyperglycemic effects. " new_text="These@@data@@raise@@the@@question@@of@@whether@@sertraline@@is@@the@@best@@choice@@for@@prolonged@@use@@for@@diabetic@@individuals@@,@@because@@of@@its@@antihyperglycemic@@effects@@.@@"> 
+      <entity id="DDI-MedLine.d21.s14.e0" charOffset="41-50" type="drug" text="sertraline" position="7"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d21.s15" text="Clonazepam would be useful in cases with potential risk of hypoglycemia." new_text="Clonazepam@@would@@be@@useful@@in@@cases@@with@@potential@@risk@@of@@hypoglycemia@@.@@"> 
+      <entity id="DDI-MedLine.d21.s15.e0" charOffset="0-9" type="drug" text="Clonazepam" position="0"/> 
+   </sentence> 
+</document>

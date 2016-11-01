@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d265"> 
+   <sentence id="DDI-DrugBank.d265.s0" text="Chlorthalidone may add to or potentiate the action of other antihypertensive drugs." new_text="Chlorthalidone@@may@@add@@to@@or@@potentiate@@the@@action@@of@@other@@antihypertensive drugs@@.@@"> 
+      <entity id="DDI-DrugBank.d265.s0.e0" charOffset="0-13" type="drug" text="Chlorthalidone" position="0"/>  
+      <entity id="DDI-DrugBank.d265.s0.e1" charOffset="60-81" type="group" text="antihypertensive drugs" position="10"/>  
+      <pair id="DDI-DrugBank.d265.s0.p0" e1="DDI-DrugBank.d265.s0.e0" e2="DDI-DrugBank.d265.s0.e1" ddi="true" type="effect" flags="True" e1_name="Chlorthalidone" e2_name="antihypertensive drugs" e1_pos="0" e2_pos="10" path="0@@5@@7@@10@@">Chlorthalidone@@@@nsubj@@potentiate@@dobj@@action@@prep_of@@antihypertensive drugs</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d265.s1" text="Potentiation occurs with ganglionic peripheral adrenergic blocking drugs." new_text="Potentiation@@occurs@@with@@ganglionic peripheral adrenergic blocking drugs@@.@@"> 
+      <entity id="DDI-DrugBank.d265.s1.e0" charOffset="25-71" type="group" text="ganglionic peripheral adrenergic blocking drugs" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d265.s2" text="Medication such as digitalis may also influence serum electrolytes." new_text="Medication@@such@@as@@digitalis@@may@@also@@influence@@serum@@electrolytes@@.@@"> 
+      <entity id="DDI-DrugBank.d265.s2.e0" charOffset="19-27" type="group" text="digitalis" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d265.s3" text="Warning signs, irrespective of cause, are: dryness of mouth, thirst, weakness, lethargy, drowsiness, restlessness, muscle pains or cramps, muscular fatigue, hypotension, oliguria, tachycardia, and gastrointestinal disturbances such as nausea and vomiting." new_text="Warning@@signs@@,@@irrespective@@of@@cause@@,@@are@@:@@dryness@@of@@mouth@@,@@thirst@@,@@weakness@@,@@lethargy@@,@@drowsiness@@,@@restlessness@@,@@muscle@@pains@@or@@cramps@@,@@muscular@@fatigue@@,@@hypotension@@,@@oliguria@@,@@tachycardia@@,@@and@@gastrointestinal@@disturbances@@such@@as@@nausea@@and@@vomiting@@.@@"/>  
+   <sentence id="DDI-DrugBank.d265.s4" text="Insulin requirements in diabetic patients may be increased, decreased, or unchanged." new_text="Insulin@@requirements@@in@@diabetic@@patients@@may@@be@@increased@@,@@decreased@@,@@or@@unchanged@@.@@"> 
+      <entity id="DDI-DrugBank.d265.s4.e0" charOffset="0-6" type="drug" text="Insulin" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d265.s5" text="Higher dosage of oral hypoglycemic agents may be required." new_text="Higher@@dosage@@of@@oral@@hypoglycemic agents@@may@@be@@required@@.@@"> 
+      <entity id="DDI-DrugBank.d265.s5.e0" charOffset="22-40" type="group" text="hypoglycemic agents" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d265.s6" text="Latent diabetes mellitus may become manifest during chlorthalidone administration." new_text="Latent@@diabetes@@mellitus@@may@@become@@manifest@@during@@chlorthalidone@@administration@@.@@"> 
+      <entity id="DDI-DrugBank.d265.s6.e0" charOffset="52-65" type="drug" text="chlorthalidone" position="7"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d265.s7" text="Chlorthalidone and related drugs may increase the responsiveness to tubocurarine." new_text="Chlorthalidone@@and@@related@@drugs@@may@@increase@@the@@responsiveness@@to@@tubocurarine@@.@@"> 
+      <entity id="DDI-DrugBank.d265.s7.e0" charOffset="0-13" type="drug" text="Chlorthalidone" position="0"/>  
+      <entity id="DDI-DrugBank.d265.s7.e1" charOffset="68-79" type="drug" text="tubocurarine" position="9"/>  
+      <pair id="DDI-DrugBank.d265.s7.p0" e1="DDI-DrugBank.d265.s7.e0" e2="DDI-DrugBank.d265.s7.e1" ddi="true" type="effect" flags="True" e1_name="Chlorthalidone" e2_name="tubocurarine" e1_pos="0" e2_pos="9" path="0@@3@@5@@9@@">Chlorthalidone@@@@amod@@drugs@@nsubj@@increase@@xcomp@@tubocurarine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d265.s8" text="Chlorthalidone and related drugs may decrease arterial responsiveness to norepinephrine." new_text="Chlorthalidone@@and@@related@@drugs@@may@@decrease@@arterial@@responsiveness@@to@@norepinephrine@@.@@"> 
+      <entity id="DDI-DrugBank.d265.s8.e0" charOffset="0-13" type="drug" text="Chlorthalidone" position="0"/>  
+      <entity id="DDI-DrugBank.d265.s8.e1" charOffset="73-86" type="drug" text="norepinephrine" position="9"/>  
+      <pair id="DDI-DrugBank.d265.s8.p0" e1="DDI-DrugBank.d265.s8.e0" e2="DDI-DrugBank.d265.s8.e1" ddi="true" type="effect" flags="True" e1_name="Chlorthalidone" e2_name="norepinephrine" e1_pos="0" e2_pos="9" path="0@@3@@9@@">Chlorthalidone@@@@amod@@drugs@@xsubj@@norepinephrine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d265.s9" text="This diminution is not sufficient to preclude effectiveness of the pressor agent for therapeutic use." new_text="This@@diminution@@is@@not@@sufficient@@to@@preclude@@effectiveness@@of@@the@@pressor@@agent@@for@@therapeutic@@use@@.@@"/> 
+</document>

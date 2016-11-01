@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d461"> 
+   <sentence id="DDI-DrugBank.d461.s0" text="Additive depressant effect when used with general anesthetics, sedatives, antianxiety drugs, hypnotics, alcohol, and other opiate analgesics." new_text="Additive@@depressant@@effect@@when@@used@@with@@general@@anesthetics@@,@@sedatives@@,@@antianxiety drugs@@,@@hypnotics@@,@@alcohol@@,@@and@@other@@opiate analgesics@@.@@"> 
+      <entity id="DDI-DrugBank.d461.s0.e0" charOffset="50-60" type="group" text="anesthetics" position="7"/>  
+      <entity id="DDI-DrugBank.d461.s0.e1" charOffset="63-71" type="group" text="sedatives" position="9"/>  
+      <entity id="DDI-DrugBank.d461.s0.e2" charOffset="74-90" type="group" text="antianxiety drugs" position="11"/>  
+      <entity id="DDI-DrugBank.d461.s0.e3" charOffset="93-101" type="group" text="hypnotics" position="13"/>  
+      <entity id="DDI-DrugBank.d461.s0.e4" charOffset="104-110" type="drug" text="alcohol" position="15"/>  
+      <entity id="DDI-DrugBank.d461.s0.e5" charOffset="123-139" type="group" text="opiate analgesics" position="19"/>  
+      <pair id="DDI-DrugBank.d461.s0.p0" e1="DDI-DrugBank.d461.s0.e0" e2="DDI-DrugBank.d461.s0.e1" ddi="false" flags="True" e1_name="anesthetics" e2_name="sedatives" e1_pos="7" e2_pos="9" path="7@@9@@">anesthetics@@@@conj_and@@sedatives</pair>  
+      <pair id="DDI-DrugBank.d461.s0.p1" e1="DDI-DrugBank.d461.s0.e0" e2="DDI-DrugBank.d461.s0.e2" ddi="false" flags="True" e1_name="anesthetics" e2_name="antianxiety drugs" e1_pos="7" e2_pos="11" path="7@@11@@">anesthetics@@@@conj_and@@antianxiety drugs</pair>  
+      <pair id="DDI-DrugBank.d461.s0.p2" e1="DDI-DrugBank.d461.s0.e0" e2="DDI-DrugBank.d461.s0.e3" ddi="false" flags="True" e1_name="anesthetics" e2_name="hypnotics" e1_pos="7" e2_pos="13" path="7@@13@@">anesthetics@@@@conj_and@@hypnotics</pair>  
+      <pair id="DDI-DrugBank.d461.s0.p3" e1="DDI-DrugBank.d461.s0.e0" e2="DDI-DrugBank.d461.s0.e4" ddi="false" flags="True" e1_name="anesthetics" e2_name="alcohol" e1_pos="7" e2_pos="15" path="7@@15@@">anesthetics@@@@conj_and@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d461.s0.p4" e1="DDI-DrugBank.d461.s0.e0" e2="DDI-DrugBank.d461.s0.e5" ddi="false" flags="True" e1_name="anesthetics" e2_name="opiate analgesics" e1_pos="7" e2_pos="19" path="7@@19@@">anesthetics@@@@conj_and@@opiate analgesics</pair>  
+      <pair id="DDI-DrugBank.d461.s0.p5" e1="DDI-DrugBank.d461.s0.e1" e2="DDI-DrugBank.d461.s0.e2" ddi="false" flags="True" e1_name="sedatives" e2_name="antianxiety drugs" e1_pos="9" e2_pos="11" path="9@@4@@11@@">sedatives@@@@prep_with@@used@@prep_with@@antianxiety drugs</pair>  
+      <pair id="DDI-DrugBank.d461.s0.p6" e1="DDI-DrugBank.d461.s0.e1" e2="DDI-DrugBank.d461.s0.e3" ddi="false" flags="True" e1_name="sedatives" e2_name="hypnotics" e1_pos="9" e2_pos="13" path="9@@4@@13@@">sedatives@@@@prep_with@@used@@prep_with@@hypnotics</pair>  
+      <pair id="DDI-DrugBank.d461.s0.p7" e1="DDI-DrugBank.d461.s0.e1" e2="DDI-DrugBank.d461.s0.e4" ddi="false" flags="True" e1_name="sedatives" e2_name="alcohol" e1_pos="9" e2_pos="15" path="9@@4@@15@@">sedatives@@@@prep_with@@used@@prep_with@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d461.s0.p8" e1="DDI-DrugBank.d461.s0.e1" e2="DDI-DrugBank.d461.s0.e5" ddi="false" flags="True" e1_name="sedatives" e2_name="opiate analgesics" e1_pos="9" e2_pos="19" path="9@@4@@19@@">sedatives@@@@prep_with@@used@@prep_with@@opiate analgesics</pair>  
+      <pair id="DDI-DrugBank.d461.s0.p9" e1="DDI-DrugBank.d461.s0.e2" e2="DDI-DrugBank.d461.s0.e3" ddi="false" flags="True" e1_name="antianxiety drugs" e2_name="hypnotics" e1_pos="11" e2_pos="13" path="11@@4@@13@@">antianxiety drugs@@@@prep_with@@used@@prep_with@@hypnotics</pair>  
+      <pair id="DDI-DrugBank.d461.s0.p10" e1="DDI-DrugBank.d461.s0.e2" e2="DDI-DrugBank.d461.s0.e4" ddi="false" flags="True" e1_name="antianxiety drugs" e2_name="alcohol" e1_pos="11" e2_pos="15" path="11@@4@@15@@">antianxiety drugs@@@@prep_with@@used@@prep_with@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d461.s0.p11" e1="DDI-DrugBank.d461.s0.e2" e2="DDI-DrugBank.d461.s0.e5" ddi="false" flags="True" e1_name="antianxiety drugs" e2_name="opiate analgesics" e1_pos="11" e2_pos="19" path="11@@4@@19@@">antianxiety drugs@@@@prep_with@@used@@prep_with@@opiate analgesics</pair>  
+      <pair id="DDI-DrugBank.d461.s0.p12" e1="DDI-DrugBank.d461.s0.e3" e2="DDI-DrugBank.d461.s0.e4" ddi="false" flags="True" e1_name="hypnotics" e2_name="alcohol" e1_pos="13" e2_pos="15" path="13@@4@@15@@">hypnotics@@@@prep_with@@used@@prep_with@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d461.s0.p13" e1="DDI-DrugBank.d461.s0.e3" e2="DDI-DrugBank.d461.s0.e5" ddi="false" flags="True" e1_name="hypnotics" e2_name="opiate analgesics" e1_pos="13" e2_pos="19" path="13@@4@@19@@">hypnotics@@@@prep_with@@used@@prep_with@@opiate analgesics</pair>  
+      <pair id="DDI-DrugBank.d461.s0.p14" e1="DDI-DrugBank.d461.s0.e4" e2="DDI-DrugBank.d461.s0.e5" ddi="false" flags="True" e1_name="alcohol" e2_name="opiate analgesics" e1_pos="15" e2_pos="19" path="15@@4@@19@@">alcohol@@@@prep_with@@used@@prep_with@@opiate analgesics</pair> 
+   </sentence> 
+</document>

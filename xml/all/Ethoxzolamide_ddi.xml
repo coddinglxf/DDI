@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d286"> 
+   <sentence id="DDI-DrugBank.d286.s0" text="Ethoxzolamide may increase the action of tricyclics, amphetamines, procainamide, and quinidine." new_text="Ethoxzolamide@@may@@increase@@the@@action@@of@@tricyclics@@,@@amphetamines@@,@@procainamide@@,@@and@@quinidine@@.@@"> 
+      <entity id="DDI-DrugBank.d286.s0.e0" charOffset="0-12" type="drug" text="Ethoxzolamide" position="0"/>  
+      <entity id="DDI-DrugBank.d286.s0.e1" charOffset="41-50" type="group" text="tricyclics" position="6"/>  
+      <entity id="DDI-DrugBank.d286.s0.e2" charOffset="53-64" type="group" text="amphetamines" position="8"/>  
+      <entity id="DDI-DrugBank.d286.s0.e3" charOffset="67-78" type="drug" text="procainamide" position="10"/>  
+      <entity id="DDI-DrugBank.d286.s0.e4" charOffset="85-93" type="drug" text="quinidine" position="13"/>  
+      <pair id="DDI-DrugBank.d286.s0.p0" e1="DDI-DrugBank.d286.s0.e0" e2="DDI-DrugBank.d286.s0.e1" ddi="true" type="effect" flags="True" e1_name="Ethoxzolamide" e2_name="tricyclics" e1_pos="0" e2_pos="6" path="0@@2@@4@@6@@">Ethoxzolamide@@@@nsubj@@increase@@dobj@@action@@prep_of@@tricyclics</pair>  
+      <pair id="DDI-DrugBank.d286.s0.p1" e1="DDI-DrugBank.d286.s0.e0" e2="DDI-DrugBank.d286.s0.e2" ddi="true" type="effect" flags="True" e1_name="Ethoxzolamide" e2_name="amphetamines" e1_pos="0" e2_pos="8" path="0@@2@@4@@8@@">Ethoxzolamide@@@@nsubj@@increase@@dobj@@action@@prep_of@@amphetamines</pair>  
+      <pair id="DDI-DrugBank.d286.s0.p2" e1="DDI-DrugBank.d286.s0.e0" e2="DDI-DrugBank.d286.s0.e3" ddi="true" type="effect" flags="True" e1_name="Ethoxzolamide" e2_name="procainamide" e1_pos="0" e2_pos="10" path="0@@2@@4@@10@@">Ethoxzolamide@@@@nsubj@@increase@@dobj@@action@@prep_of@@procainamide</pair>  
+      <pair id="DDI-DrugBank.d286.s0.p3" e1="DDI-DrugBank.d286.s0.e0" e2="DDI-DrugBank.d286.s0.e4" ddi="true" type="effect" flags="True" e1_name="Ethoxzolamide" e2_name="quinidine" e1_pos="0" e2_pos="13" path="0@@2@@4@@13@@">Ethoxzolamide@@@@nsubj@@increase@@dobj@@action@@prep_of@@quinidine</pair>  
+      <pair id="DDI-DrugBank.d286.s0.p4" e1="DDI-DrugBank.d286.s0.e1" e2="DDI-DrugBank.d286.s0.e2" ddi="false" flags="True" e1_name="tricyclics" e2_name="amphetamines" e1_pos="6" e2_pos="8" path="6@@8@@">tricyclics@@@@conj_and@@amphetamines</pair>  
+      <pair id="DDI-DrugBank.d286.s0.p5" e1="DDI-DrugBank.d286.s0.e1" e2="DDI-DrugBank.d286.s0.e3" ddi="false" flags="True" e1_name="tricyclics" e2_name="procainamide" e1_pos="6" e2_pos="10" path="6@@10@@">tricyclics@@@@conj_and@@procainamide</pair>  
+      <pair id="DDI-DrugBank.d286.s0.p6" e1="DDI-DrugBank.d286.s0.e1" e2="DDI-DrugBank.d286.s0.e4" ddi="false" flags="True" e1_name="tricyclics" e2_name="quinidine" e1_pos="6" e2_pos="13" path="6@@13@@">tricyclics@@@@conj_and@@quinidine</pair>  
+      <pair id="DDI-DrugBank.d286.s0.p7" e1="DDI-DrugBank.d286.s0.e2" e2="DDI-DrugBank.d286.s0.e3" ddi="false" flags="True" e1_name="amphetamines" e2_name="procainamide" e1_pos="8" e2_pos="10" path="8@@4@@10@@">amphetamines@@@@prep_of@@action@@prep_of@@procainamide</pair>  
+      <pair id="DDI-DrugBank.d286.s0.p8" e1="DDI-DrugBank.d286.s0.e2" e2="DDI-DrugBank.d286.s0.e4" ddi="false" flags="True" e1_name="amphetamines" e2_name="quinidine" e1_pos="8" e2_pos="13" path="8@@4@@13@@">amphetamines@@@@prep_of@@action@@prep_of@@quinidine</pair>  
+      <pair id="DDI-DrugBank.d286.s0.p9" e1="DDI-DrugBank.d286.s0.e3" e2="DDI-DrugBank.d286.s0.e4" ddi="false" flags="True" e1_name="procainamide" e2_name="quinidine" e1_pos="10" e2_pos="13" path="10@@4@@13@@">procainamide@@@@prep_of@@action@@prep_of@@quinidine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d286.s1" text="It may increase excretion of barbiturates, lithium, and ASA and may also increase the toxicity of salicylates." new_text="It@@may@@increase@@excretion@@of@@barbiturates@@,@@lithium@@,@@and@@ASA@@and@@may@@also@@increase@@the@@toxicity@@of@@salicylates@@.@@"> 
+      <entity id="DDI-DrugBank.d286.s1.e0" charOffset="29-40" type="group" text="barbiturates" position="5"/>  
+      <entity id="DDI-DrugBank.d286.s1.e1" charOffset="43-49" type="drug" text="lithium" position="7"/>  
+      <entity id="DDI-DrugBank.d286.s1.e2" charOffset="56-58" type="drug" text="ASA" position="10"/>  
+      <entity id="DDI-DrugBank.d286.s1.e3" charOffset="98-108" type="group" text="salicylates" position="18"/>  
+      <pair id="DDI-DrugBank.d286.s1.p0" e1="DDI-DrugBank.d286.s1.e0" e2="DDI-DrugBank.d286.s1.e1" ddi="false" flags="True" e1_name="barbiturates" e2_name="lithium" e1_pos="5" e2_pos="7" path="5@@7@@">barbiturates@@@@conj_and@@lithium</pair>  
+      <pair id="DDI-DrugBank.d286.s1.p1" e1="DDI-DrugBank.d286.s1.e0" e2="DDI-DrugBank.d286.s1.e2" ddi="false" flags="True" e1_name="barbiturates" e2_name="ASA" e1_pos="5" e2_pos="10" path="5@@10@@">barbiturates@@@@conj_and@@ASA</pair>  
+      <pair id="DDI-DrugBank.d286.s1.p2" e1="DDI-DrugBank.d286.s1.e0" e2="DDI-DrugBank.d286.s1.e3" ddi="false" flags="True" e1_name="barbiturates" e2_name="salicylates" e1_pos="5" e2_pos="18" path="5@@3@@2@@14@@16@@18@@">barbiturates@@@@prep_of@@excretion@@dobj@@increase@@conj_and@@increase@@dobj@@toxicity@@prep_of@@salicylates</pair>  
+      <pair id="DDI-DrugBank.d286.s1.p3" e1="DDI-DrugBank.d286.s1.e1" e2="DDI-DrugBank.d286.s1.e2" ddi="false" flags="True" e1_name="lithium" e2_name="ASA" e1_pos="7" e2_pos="10" path="7@@3@@10@@">lithium@@@@prep_of@@excretion@@prep_of@@ASA</pair>  
+      <pair id="DDI-DrugBank.d286.s1.p4" e1="DDI-DrugBank.d286.s1.e1" e2="DDI-DrugBank.d286.s1.e3" ddi="false" flags="True" e1_name="lithium" e2_name="salicylates" e1_pos="7" e2_pos="18" path="7@@3@@2@@14@@16@@18@@">lithium@@@@prep_of@@excretion@@dobj@@increase@@conj_and@@increase@@dobj@@toxicity@@prep_of@@salicylates</pair>  
+      <pair id="DDI-DrugBank.d286.s1.p5" e1="DDI-DrugBank.d286.s1.e2" e2="DDI-DrugBank.d286.s1.e3" ddi="false" flags="True" e1_name="ASA" e2_name="salicylates" e1_pos="10" e2_pos="18" path="10@@3@@2@@14@@16@@18@@">ASA@@@@prep_of@@excretion@@dobj@@increase@@conj_and@@increase@@dobj@@toxicity@@prep_of@@salicylates</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d286.s2" text="Coadministration of ethoxzolamide with other diuretics, amphotericin B, and corticosteroids may cause hypokalemia." new_text="Coadministration@@of@@ethoxzolamide@@with@@other@@diuretics@@,@@amphotericin B@@,@@and@@corticosteroids@@may@@cause@@hypokalemia@@.@@"> 
+      <entity id="DDI-DrugBank.d286.s2.e0" charOffset="20-32" type="drug" text="ethoxzolamide" position="2"/>  
+      <entity id="DDI-DrugBank.d286.s2.e1" charOffset="45-53" type="group" text="diuretics" position="5"/>  
+      <entity id="DDI-DrugBank.d286.s2.e2" charOffset="56-69" type="drug" text="amphotericin B" position="7"/>  
+      <entity id="DDI-DrugBank.d286.s2.e3" charOffset="76-90" type="group" text="corticosteroids" position="10"/>  
+      <pair id="DDI-DrugBank.d286.s2.p0" e1="DDI-DrugBank.d286.s2.e0" e2="DDI-DrugBank.d286.s2.e1" ddi="true" type="effect" flags="True" e1_name="ethoxzolamide" e2_name="diuretics" e1_pos="2" e2_pos="5" path="2@@5@@">ethoxzolamide@@@@prep_with@@diuretics</pair>  
+      <pair id="DDI-DrugBank.d286.s2.p1" e1="DDI-DrugBank.d286.s2.e0" e2="DDI-DrugBank.d286.s2.e2" ddi="true" type="effect" flags="True" e1_name="ethoxzolamide" e2_name="amphotericin B" e1_pos="2" e2_pos="7" path="2@@7@@">ethoxzolamide@@@@prep_with@@amphotericin B</pair>  
+      <pair id="DDI-DrugBank.d286.s2.p2" e1="DDI-DrugBank.d286.s2.e0" e2="DDI-DrugBank.d286.s2.e3" ddi="true" type="effect" flags="True" e1_name="ethoxzolamide" e2_name="corticosteroids" e1_pos="2" e2_pos="10" path="2@@10@@">ethoxzolamide@@@@prep_with@@corticosteroids</pair>  
+      <pair id="DDI-DrugBank.d286.s2.p3" e1="DDI-DrugBank.d286.s2.e1" e2="DDI-DrugBank.d286.s2.e2" ddi="false" flags="True" e1_name="diuretics" e2_name="amphotericin B" e1_pos="5" e2_pos="7" path="5@@7@@">diuretics@@@@conj_and@@amphotericin B</pair>  
+      <pair id="DDI-DrugBank.d286.s2.p4" e1="DDI-DrugBank.d286.s2.e1" e2="DDI-DrugBank.d286.s2.e3" ddi="false" flags="True" e1_name="diuretics" e2_name="corticosteroids" e1_pos="5" e2_pos="10" path="5@@10@@">diuretics@@@@conj_and@@corticosteroids</pair>  
+      <pair id="DDI-DrugBank.d286.s2.p5" e1="DDI-DrugBank.d286.s2.e2" e2="DDI-DrugBank.d286.s2.e3" ddi="false" flags="True" e1_name="amphotericin B" e2_name="corticosteroids" e1_pos="7" e2_pos="10" path="7@@2@@10@@">amphotericin B@@@@prep_with@@ethoxzolamide@@prep_with@@corticosteroids</pair> 
+   </sentence> 
+</document>

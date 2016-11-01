@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d57"> 
+   <sentence id="DDI-MedLine.d57.s0" text="Analgesic effects of antihistaminics.
+" new_text="Analgesic@@effects@@of@@antihistaminics@@.@@"> 
+      <entity id="DDI-MedLine.d57.s0.e0" charOffset="21-35" type="group" text="antihistaminics" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d57.s1" text="The literature provides considerable evidence indicating that several, but not all antihistaminics, are indeed analgesic agents and some are analgesic adjuvants as well." new_text="The@@literature@@provides@@considerable@@evidence@@indicating@@that@@several@@,@@but@@not@@all@@antihistaminics@@,@@are@@indeed@@analgesic agents@@and@@some@@are@@analgesic adjuvants@@as@@well@@.@@"> 
+      <entity id="DDI-MedLine.d57.s1.e0" charOffset="83-97" type="group" text="antihistaminics" position="12"/>  
+      <entity id="DDI-MedLine.d57.s1.e1" charOffset="111-126" type="group" text="analgesic agents" position="16"/>  
+      <entity id="DDI-MedLine.d57.s1.e2" charOffset="141-159" type="group" text="analgesic adjuvants" position="20"/>  
+      <pair id="DDI-MedLine.d57.s1.p0" e1="DDI-MedLine.d57.s1.e0" e2="DDI-MedLine.d57.s1.e1" ddi="false" flags="True" e1_name="antihistaminics" e2_name="analgesic agents" e1_pos="12" e2_pos="16" path="12@@16@@">antihistaminics@@@@nsubj@@analgesic agents</pair>  
+      <pair id="DDI-MedLine.d57.s1.p1" e1="DDI-MedLine.d57.s1.e0" e2="DDI-MedLine.d57.s1.e2" ddi="false" flags="True" e1_name="antihistaminics" e2_name="analgesic adjuvants" e1_pos="12" e2_pos="20" path="12@@16@@20@@">antihistaminics@@@@nsubj@@analgesic agents@@conj_and@@analgesic adjuvants</pair>  
+      <pair id="DDI-MedLine.d57.s1.p2" e1="DDI-MedLine.d57.s1.e1" e2="DDI-MedLine.d57.s1.e2" ddi="false" flags="True" e1_name="analgesic agents" e2_name="analgesic adjuvants" e1_pos="16" e2_pos="20" path="16@@20@@">analgesic agents@@@@conj_and@@analgesic adjuvants</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d57.s2" text="Those for which effectiveness is reported includes diphenhydramine, hydroxyzine, orphenadrine, pyrilamine, phenyltoloxamine, promethazine, methdilazine, and tripelennamine. " new_text="Those@@for@@which@@effectiveness@@is@@reported@@includes@@diphenhydramine@@,@@hydroxyzine@@,@@orphenadrine@@,@@pyrilamine@@,@@phenyltoloxamine@@,@@promethazine@@,@@methdilazine@@,@@and@@tripelennamine@@.@@"> 
+      <entity id="DDI-MedLine.d57.s2.e0" charOffset="51-65" type="drug" text="diphenhydramine" position="7"/>  
+      <entity id="DDI-MedLine.d57.s2.e1" charOffset="68-78" type="drug" text="hydroxyzine" position="9"/>  
+      <entity id="DDI-MedLine.d57.s2.e2" charOffset="81-92" type="drug" text="orphenadrine" position="11"/>  
+      <entity id="DDI-MedLine.d57.s2.e3" charOffset="95-104" type="drug" text="pyrilamine" position="13"/>  
+      <entity id="DDI-MedLine.d57.s2.e4" charOffset="107-122" type="drug_n" text="phenyltoloxamine" position="15"/>  
+      <entity id="DDI-MedLine.d57.s2.e5" charOffset="125-136" type="drug" text="promethazine" position="17"/>  
+      <entity id="DDI-MedLine.d57.s2.e6" charOffset="139-150" type="drug" text="methdilazine" position="19"/>  
+      <entity id="DDI-MedLine.d57.s2.e7" charOffset="157-170" type="drug" text="tripelennamine" position="22"/>  
+      <pair id="DDI-MedLine.d57.s2.p0" e1="DDI-MedLine.d57.s2.e0" e2="DDI-MedLine.d57.s2.e1" ddi="false" flags="True" e1_name="diphenhydramine" e2_name="hydroxyzine" e1_pos="7" e2_pos="9" path="7@@9@@">diphenhydramine@@@@conj_and@@hydroxyzine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p1" e1="DDI-MedLine.d57.s2.e0" e2="DDI-MedLine.d57.s2.e2" ddi="false" flags="True" e1_name="diphenhydramine" e2_name="orphenadrine" e1_pos="7" e2_pos="11" path="7@@11@@">diphenhydramine@@@@conj_and@@orphenadrine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p2" e1="DDI-MedLine.d57.s2.e0" e2="DDI-MedLine.d57.s2.e3" ddi="false" flags="True" e1_name="diphenhydramine" e2_name="pyrilamine" e1_pos="7" e2_pos="13" path="7@@13@@">diphenhydramine@@@@conj_and@@pyrilamine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p3" e1="DDI-MedLine.d57.s2.e0" e2="DDI-MedLine.d57.s2.e4" ddi="false" flags="True" e1_name="diphenhydramine" e2_name="phenyltoloxamine" e1_pos="7" e2_pos="15" path="7@@15@@">diphenhydramine@@@@conj_and@@phenyltoloxamine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p4" e1="DDI-MedLine.d57.s2.e0" e2="DDI-MedLine.d57.s2.e5" ddi="false" flags="True" e1_name="diphenhydramine" e2_name="promethazine" e1_pos="7" e2_pos="17" path="7@@17@@">diphenhydramine@@@@conj_and@@promethazine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p5" e1="DDI-MedLine.d57.s2.e0" e2="DDI-MedLine.d57.s2.e6" ddi="false" flags="True" e1_name="diphenhydramine" e2_name="methdilazine" e1_pos="7" e2_pos="19" path="7@@19@@">diphenhydramine@@@@conj_and@@methdilazine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p6" e1="DDI-MedLine.d57.s2.e0" e2="DDI-MedLine.d57.s2.e7" ddi="false" flags="True" e1_name="diphenhydramine" e2_name="tripelennamine" e1_pos="7" e2_pos="22" path="7@@22@@">diphenhydramine@@@@conj_and@@tripelennamine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p7" e1="DDI-MedLine.d57.s2.e1" e2="DDI-MedLine.d57.s2.e2" ddi="false" flags="True" e1_name="hydroxyzine" e2_name="orphenadrine" e1_pos="9" e2_pos="11" path="9@@6@@11@@">hydroxyzine@@@@acomp@@includes@@acomp@@orphenadrine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p8" e1="DDI-MedLine.d57.s2.e1" e2="DDI-MedLine.d57.s2.e3" ddi="false" flags="True" e1_name="hydroxyzine" e2_name="pyrilamine" e1_pos="9" e2_pos="13" path="9@@6@@13@@">hydroxyzine@@@@acomp@@includes@@acomp@@pyrilamine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p9" e1="DDI-MedLine.d57.s2.e1" e2="DDI-MedLine.d57.s2.e4" ddi="false" flags="True" e1_name="hydroxyzine" e2_name="phenyltoloxamine" e1_pos="9" e2_pos="15" path="9@@6@@15@@">hydroxyzine@@@@acomp@@includes@@acomp@@phenyltoloxamine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p10" e1="DDI-MedLine.d57.s2.e1" e2="DDI-MedLine.d57.s2.e5" ddi="false" flags="True" e1_name="hydroxyzine" e2_name="promethazine" e1_pos="9" e2_pos="17" path="9@@6@@17@@">hydroxyzine@@@@acomp@@includes@@acomp@@promethazine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p11" e1="DDI-MedLine.d57.s2.e1" e2="DDI-MedLine.d57.s2.e6" ddi="false" flags="True" e1_name="hydroxyzine" e2_name="methdilazine" e1_pos="9" e2_pos="19" path="9@@6@@19@@">hydroxyzine@@@@acomp@@includes@@acomp@@methdilazine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p12" e1="DDI-MedLine.d57.s2.e1" e2="DDI-MedLine.d57.s2.e7" ddi="false" flags="True" e1_name="hydroxyzine" e2_name="tripelennamine" e1_pos="9" e2_pos="22" path="9@@6@@22@@">hydroxyzine@@@@acomp@@includes@@acomp@@tripelennamine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p13" e1="DDI-MedLine.d57.s2.e2" e2="DDI-MedLine.d57.s2.e3" ddi="false" flags="True" e1_name="orphenadrine" e2_name="pyrilamine" e1_pos="11" e2_pos="13" path="11@@6@@13@@">orphenadrine@@@@acomp@@includes@@acomp@@pyrilamine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p14" e1="DDI-MedLine.d57.s2.e2" e2="DDI-MedLine.d57.s2.e4" ddi="false" flags="True" e1_name="orphenadrine" e2_name="phenyltoloxamine" e1_pos="11" e2_pos="15" path="11@@6@@15@@">orphenadrine@@@@acomp@@includes@@acomp@@phenyltoloxamine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p15" e1="DDI-MedLine.d57.s2.e2" e2="DDI-MedLine.d57.s2.e5" ddi="false" flags="True" e1_name="orphenadrine" e2_name="promethazine" e1_pos="11" e2_pos="17" path="11@@6@@17@@">orphenadrine@@@@acomp@@includes@@acomp@@promethazine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p16" e1="DDI-MedLine.d57.s2.e2" e2="DDI-MedLine.d57.s2.e6" ddi="false" flags="True" e1_name="orphenadrine" e2_name="methdilazine" e1_pos="11" e2_pos="19" path="11@@6@@19@@">orphenadrine@@@@acomp@@includes@@acomp@@methdilazine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p17" e1="DDI-MedLine.d57.s2.e2" e2="DDI-MedLine.d57.s2.e7" ddi="false" flags="True" e1_name="orphenadrine" e2_name="tripelennamine" e1_pos="11" e2_pos="22" path="11@@6@@22@@">orphenadrine@@@@acomp@@includes@@acomp@@tripelennamine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p18" e1="DDI-MedLine.d57.s2.e3" e2="DDI-MedLine.d57.s2.e4" ddi="false" flags="True" e1_name="pyrilamine" e2_name="phenyltoloxamine" e1_pos="13" e2_pos="15" path="13@@6@@15@@">pyrilamine@@@@acomp@@includes@@acomp@@phenyltoloxamine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p19" e1="DDI-MedLine.d57.s2.e3" e2="DDI-MedLine.d57.s2.e5" ddi="false" flags="True" e1_name="pyrilamine" e2_name="promethazine" e1_pos="13" e2_pos="17" path="13@@6@@17@@">pyrilamine@@@@acomp@@includes@@acomp@@promethazine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p20" e1="DDI-MedLine.d57.s2.e3" e2="DDI-MedLine.d57.s2.e6" ddi="false" flags="True" e1_name="pyrilamine" e2_name="methdilazine" e1_pos="13" e2_pos="19" path="13@@6@@19@@">pyrilamine@@@@acomp@@includes@@acomp@@methdilazine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p21" e1="DDI-MedLine.d57.s2.e3" e2="DDI-MedLine.d57.s2.e7" ddi="false" flags="True" e1_name="pyrilamine" e2_name="tripelennamine" e1_pos="13" e2_pos="22" path="13@@6@@22@@">pyrilamine@@@@acomp@@includes@@acomp@@tripelennamine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p22" e1="DDI-MedLine.d57.s2.e4" e2="DDI-MedLine.d57.s2.e5" ddi="false" flags="True" e1_name="phenyltoloxamine" e2_name="promethazine" e1_pos="15" e2_pos="17" path="15@@6@@17@@">phenyltoloxamine@@@@acomp@@includes@@acomp@@promethazine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p23" e1="DDI-MedLine.d57.s2.e4" e2="DDI-MedLine.d57.s2.e6" ddi="false" flags="True" e1_name="phenyltoloxamine" e2_name="methdilazine" e1_pos="15" e2_pos="19" path="15@@6@@19@@">phenyltoloxamine@@@@acomp@@includes@@acomp@@methdilazine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p24" e1="DDI-MedLine.d57.s2.e4" e2="DDI-MedLine.d57.s2.e7" ddi="false" flags="True" e1_name="phenyltoloxamine" e2_name="tripelennamine" e1_pos="15" e2_pos="22" path="15@@6@@22@@">phenyltoloxamine@@@@acomp@@includes@@acomp@@tripelennamine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p25" e1="DDI-MedLine.d57.s2.e5" e2="DDI-MedLine.d57.s2.e6" ddi="false" flags="True" e1_name="promethazine" e2_name="methdilazine" e1_pos="17" e2_pos="19" path="17@@6@@19@@">promethazine@@@@acomp@@includes@@acomp@@methdilazine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p26" e1="DDI-MedLine.d57.s2.e5" e2="DDI-MedLine.d57.s2.e7" ddi="false" flags="True" e1_name="promethazine" e2_name="tripelennamine" e1_pos="17" e2_pos="22" path="17@@6@@22@@">promethazine@@@@acomp@@includes@@acomp@@tripelennamine</pair>  
+      <pair id="DDI-MedLine.d57.s2.p27" e1="DDI-MedLine.d57.s2.e6" e2="DDI-MedLine.d57.s2.e7" ddi="false" flags="True" e1_name="methdilazine" e2_name="tripelennamine" e1_pos="19" e2_pos="22" path="19@@6@@22@@">methdilazine@@@@acomp@@includes@@acomp@@tripelennamine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d57.s3" text="The proposed mechanisms of analgesic action of antihistaminics are reviewed and discussed. " new_text="The@@proposed@@mechanisms@@of@@analgesic@@action@@of@@antihistaminics@@are@@reviewed@@and@@discussed@@.@@"> 
+      <entity id="DDI-MedLine.d57.s3.e0" charOffset="47-61" type="group" text="antihistaminics" position="7"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d57.s4" text="The literature suggests that more than one mechanism of action exists for them. " new_text="The@@literature@@suggests@@that@@more@@than@@one@@mechanism@@of@@action@@exists@@for@@them@@.@@"/>  
+   <sentence id="DDI-MedLine.d57.s5" text="There is considerable evidence suggesting that histaminergic and serotoninergic central pathways are involved in nociception and that antihistaminic drugs can modulate their responses (1). " new_text="There@@is@@considerable@@evidence@@suggesting@@that@@histaminergic@@and@@serotoninergic@@central@@pathways@@are@@involved@@in@@nociception@@and@@that@@antihistaminic@@drugs@@can@@modulate@@their@@responses@@(1)@@.@@"> 
+      <entity id="DDI-MedLine.d57.s5.e0" charOffset="134-147" type="group" text="antihistaminic" position="17"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d57.s6" text="The evidence for a role for norepinephrine and dopamine and the effects of antihistaminics on them are less well established. " new_text="The@@evidence@@for@@a@@role@@for@@norepinephrine@@and@@dopamine@@and@@the@@effects@@of@@antihistaminics@@on@@them@@are@@less@@well@@established@@.@@"> 
+      <entity id="DDI-MedLine.d57.s6.e0" charOffset="75-89" type="group" text="antihistaminics" position="13"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d57.s7" text="Still other pathways have been proposed. " new_text="Still@@other@@pathways@@have@@been@@proposed@@.@@"/>  
+   <sentence id="DDI-MedLine.d57.s8" text="A greater understanding of pain mechanisms will aid in elucidating the role of antihistaminics in analgesia." new_text="A@@greater@@understanding@@of@@pain@@mechanisms@@will@@aid@@in@@elucidating@@the@@role@@of@@antihistaminics@@in@@analgesia@@.@@"> 
+      <entity id="DDI-MedLine.d57.s8.e0" charOffset="79-93" type="group" text="antihistaminics" position="13"/> 
+   </sentence> 
+</document>

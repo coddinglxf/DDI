@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d169"> 
+   <sentence id="DDI-MedLine.d169.s0" text="Calcium does not inhibit the absorption of 5 milligrams of nonheme or heme iron at doses less than 800 milligrams in nonpregnant women." new_text="Calcium@@does@@not@@inhibit@@the@@absorption@@of@@5@@milligrams@@of@@nonheme@@or@@heme iron@@at@@doses@@less@@than@@800@@milligrams@@in@@nonpregnant@@women@@.@@"> 
+      <entity id="DDI-MedLine.d169.s0.e0" charOffset="0-6" type="drug" text="Calcium" position="0"/>  
+      <entity id="DDI-MedLine.d169.s0.e1" charOffset="59-65;75-78" type="drug" text="nonheme iron" position="not_a_number"/>  
+      <entity id="DDI-MedLine.d169.s0.e2" charOffset="70-78" type="drug" text="heme iron" position="12"/>  
+      <pair id="DDI-MedLine.d169.s0.p0" e1="DDI-MedLine.d169.s0.e0" e2="DDI-MedLine.d169.s0.e1" ddi="false" flags="False"/>  
+      <pair id="DDI-MedLine.d169.s0.p1" e1="DDI-MedLine.d169.s0.e0" e2="DDI-MedLine.d169.s0.e2" ddi="false" flags="True" e1_name="Calcium" e2_name="heme iron" e1_pos="0" e2_pos="12" path="0@@3@@5@@8@@12@@">Calcium@@@@nsubj@@inhibit@@dobj@@absorption@@prep_of@@milligrams@@prep_of@@heme iron</pair>  
+      <pair id="DDI-MedLine.d169.s0.p2" e1="DDI-MedLine.d169.s0.e1" e2="DDI-MedLine.d169.s0.e2" ddi="false" flags="False"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d169.s1" text="Calcium is the only known component in the diet that may affect absorption of both nonheme and heme iron. " new_text="Calcium@@is@@the@@only@@known@@component@@in@@the@@diet@@that@@may@@affect@@absorption@@of@@both@@nonheme@@and@@heme iron@@.@@"> 
+      <entity id="DDI-MedLine.d169.s1.e0" charOffset="0-6" type="drug" text="Calcium" position="0"/>  
+      <entity id="DDI-MedLine.d169.s1.e1" charOffset="83-89;100-103" type="drug" text="nonheme iron" position="not_a_number"/>  
+      <entity id="DDI-MedLine.d169.s1.e2" charOffset="95-103" type="drug" text="heme iron" position="17"/>  
+      <pair id="DDI-MedLine.d169.s1.p0" e1="DDI-MedLine.d169.s1.e0" e2="DDI-MedLine.d169.s1.e1" ddi="true" type="mechanism" flags="False"/>  
+      <pair id="DDI-MedLine.d169.s1.p1" e1="DDI-MedLine.d169.s1.e0" e2="DDI-MedLine.d169.s1.e2" ddi="true" type="mechanism" flags="True" e1_name="Calcium" e2_name="heme iron" e1_pos="0" e2_pos="17" path="0@@5@@8@@11@@12@@17@@">Calcium@@@@nsubj@@component@@prep_in@@diet@@rcmod@@affect@@dobj@@absorption@@prep_of@@heme iron</pair>  
+      <pair id="DDI-MedLine.d169.s1.p2" e1="DDI-MedLine.d169.s1.e1" e2="DDI-MedLine.d169.s1.e2" ddi="false" flags="False"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d169.s2" text="However, the evidence for a calcium effect on iron absorption mainly comes from studies that did not isolate the effect of calcium from that of other dietary components, because it was detected in single-meal studies. " new_text="However@@,@@the@@evidence@@for@@a@@calcium@@effect@@on@@iron@@absorption@@mainly@@comes@@from@@studies@@that@@did@@not@@isolate@@the@@effect@@of@@calcium@@from@@that@@of@@other@@dietary@@components@@,@@because@@it@@was@@detected@@in@@single-meal@@studies@@.@@"> 
+      <entity id="DDI-MedLine.d169.s2.e0" charOffset="28-34" type="drug" text="calcium" position="6"/>  
+      <entity id="DDI-MedLine.d169.s2.e1" charOffset="46-49" type="drug" text="iron" position="9"/>  
+      <entity id="DDI-MedLine.d169.s2.e2" charOffset="123-129" type="drug" text="calcium" position="22"/>  
+      <pair id="DDI-MedLine.d169.s2.p0" e1="DDI-MedLine.d169.s2.e0" e2="DDI-MedLine.d169.s2.e1" ddi="true" type="mechanism" flags="True" e1_name="calcium" e2_name="iron" e1_pos="6" e2_pos="9" path="6@@7@@10@@9@@">calcium@@@@nn@@effect@@prep_on@@absorption@@nn@@iron</pair>  
+      <pair id="DDI-MedLine.d169.s2.p1" e1="DDI-MedLine.d169.s2.e0" e2="DDI-MedLine.d169.s2.e2" ddi="false" flags="True" e1_name="calcium" e2_name="calcium" e1_pos="6" e2_pos="22" path="6@@7@@3@@12@@14@@18@@20@@22@@">calcium@@@@nn@@effect@@prep_for@@evidence@@nsubj@@comes@@prep_from@@studies@@rcmod@@isolate@@dobj@@effect@@prep_of@@calcium</pair>  
+      <pair id="DDI-MedLine.d169.s2.p2" e1="DDI-MedLine.d169.s2.e1" e2="DDI-MedLine.d169.s2.e2" ddi="false" flags="True" e1_name="iron" e2_name="calcium" e1_pos="9" e2_pos="22" path="9@@10@@7@@3@@12@@14@@18@@20@@22@@">iron@@@@nn@@absorption@@prep_on@@effect@@prep_for@@evidence@@nsubj@@comes@@prep_from@@studies@@rcmod@@isolate@@dobj@@effect@@prep_of@@calcium</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d169.s3" text="Our objective was to establish potential effects of calcium on absorption of nonheme and heme iron and the dose response for this effect in the absence of a meal. " new_text="Our@@objective@@was@@to@@establish@@potential@@effects@@of@@calcium@@on@@absorption@@of@@nonheme@@and@@heme iron@@and@@the@@dose@@response@@for@@this@@effect@@in@@the@@absence@@of@@a@@meal@@.@@"> 
+      <entity id="DDI-MedLine.d169.s3.e0" charOffset="52-58" type="drug" text="calcium" position="8"/>  
+      <entity id="DDI-MedLine.d169.s3.e1" charOffset="77-83;94-97" type="drug" text="nonheme iron" position="not_a_number"/>  
+      <entity id="DDI-MedLine.d169.s3.e2" charOffset="89-97" type="drug" text="heme iron" position="14"/>  
+      <pair id="DDI-MedLine.d169.s3.p0" e1="DDI-MedLine.d169.s3.e0" e2="DDI-MedLine.d169.s3.e1" ddi="false" flags="False"/>  
+      <pair id="DDI-MedLine.d169.s3.p1" e1="DDI-MedLine.d169.s3.e0" e2="DDI-MedLine.d169.s3.e2" ddi="false" flags="True" e1_name="calcium" e2_name="heme iron" e1_pos="8" e2_pos="14" path="8@@6@@4@@10@@14@@">calcium@@@@prep_of@@effects@@dobj@@establish@@prep_on@@absorption@@prep_of@@heme iron</pair>  
+      <pair id="DDI-MedLine.d169.s3.p2" e1="DDI-MedLine.d169.s3.e1" e2="DDI-MedLine.d169.s3.e2" ddi="false" flags="False"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d169.s4" text="Fifty-four healthy, nonpregnant women were selected to participate in 4 iron absorption studies using iron radioactive tracers. " new_text="Fifty-four@@healthy@@,@@nonpregnant@@women@@were@@selected@@to@@participate@@in@@4@@iron@@absorption@@studies@@using@@iron@@radioactive@@tracers@@.@@"> 
+      <entity id="DDI-MedLine.d169.s4.e0" charOffset="72-75" type="drug" text="iron" position="11"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d169.s5" text="We evaluated the effects of calcium doses between 200 and 1500 mg on absorption of 5 mg nonheme iron (as ferrous sulfate). " new_text="We@@evaluated@@the@@effects@@of@@calcium@@doses@@between@@200@@and@@1500@@mg@@on@@absorption@@of@@5@@mg@@nonheme iron@@(as@@ferrous sulfate@@)@@.@@"> 
+      <entity id="DDI-MedLine.d169.s5.e0" charOffset="28-34" type="drug" text="calcium" position="5"/>  
+      <entity id="DDI-MedLine.d169.s5.e1" charOffset="88-99" type="drug" text="nonheme iron" position="17"/>  
+      <entity id="DDI-MedLine.d169.s5.e2" charOffset="105-119" type="drug" text="ferrous sulfate" position="19"/>  
+      <pair id="DDI-MedLine.d169.s5.p0" e1="DDI-MedLine.d169.s5.e0" e2="DDI-MedLine.d169.s5.e1" ddi="false" flags="True" e1_name="calcium" e2_name="nonheme iron" e1_pos="5" e2_pos="17" path="5@@6@@3@@1@@13@@20@@17@@">calcium@@@@nn@@doses@@prep_of@@effects@@dobj@@evaluated@@prep_on@@absorption@@prep_of@@)@@amod@@nonheme iron</pair>  
+      <pair id="DDI-MedLine.d169.s5.p1" e1="DDI-MedLine.d169.s5.e0" e2="DDI-MedLine.d169.s5.e2" ddi="false" flags="True" e1_name="calcium" e2_name="ferrous sulfate" e1_pos="5" e2_pos="19" path="5@@6@@3@@1@@13@@20@@19@@">calcium@@@@nn@@doses@@prep_of@@effects@@dobj@@evaluated@@prep_on@@absorption@@prep_of@@)@@nn@@ferrous sulfate</pair>  
+      <pair id="DDI-MedLine.d169.s5.p2" e1="DDI-MedLine.d169.s5.e1" e2="DDI-MedLine.d169.s5.e2" ddi="false" flags="True" e1_name="nonheme iron" e2_name="ferrous sulfate" e1_pos="17" e2_pos="19" path="17@@20@@19@@">nonheme iron@@@@amod@@)@@nn@@ferrous sulfate</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d169.s6" text="We also evaluated the effects of calcium doses between 200 and 800 mg on absorption of 5 mg heme iron [as concentrated RBC (CRBC)]. " new_text="We@@also@@evaluated@@the@@effects@@of@@calcium@@doses@@between@@200@@and@@800@@mg@@on@@absorption@@of@@5@@mg@@heme iron@@[as@@concentrated@@RBC@@(CRBC)]@@.@@"> 
+      <entity id="DDI-MedLine.d169.s6.e0" charOffset="33-39" type="drug" text="calcium" position="6"/>  
+      <entity id="DDI-MedLine.d169.s6.e1" charOffset="92-100" type="drug" text="heme iron" position="18"/>  
+      <pair id="DDI-MedLine.d169.s6.p0" e1="DDI-MedLine.d169.s6.e0" e2="DDI-MedLine.d169.s6.e1" ddi="false" flags="True" e1_name="calcium" e2_name="heme iron" e1_pos="6" e2_pos="18" path="6@@7@@4@@2@@14@@19@@18@@">calcium@@@@nn@@doses@@prep_of@@effects@@dobj@@evaluated@@prep_on@@absorption@@prep_of@@[as@@nn@@heme iron</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d169.s7" text="Calcium was administered as calcium chloride in all studies and minerals were ingested on an empty stomach. " new_text="Calcium@@was@@administered@@as@@calcium chloride@@in@@all@@studies@@and@@minerals@@were@@ingested@@on@@an@@empty@@stomach@@.@@"> 
+      <entity id="DDI-MedLine.d169.s7.e0" charOffset="0-6" type="drug" text="Calcium" position="0"/>  
+      <entity id="DDI-MedLine.d169.s7.e1" charOffset="28-43" type="drug" text="calcium chloride" position="4"/>  
+      <entity id="DDI-MedLine.d169.s7.e2" charOffset="64-71" type="group" text="minerals" position="9"/>  
+      <pair id="DDI-MedLine.d169.s7.p0" e1="DDI-MedLine.d169.s7.e0" e2="DDI-MedLine.d169.s7.e1" ddi="false" flags="True" e1_name="Calcium" e2_name="calcium chloride" e1_pos="0" e2_pos="4" path="0@@2@@11@@4@@">Calcium@@@@nsubjpass@@administered@@advcl@@ingested@@nsubjpass@@calcium chloride</pair>  
+      <pair id="DDI-MedLine.d169.s7.p1" e1="DDI-MedLine.d169.s7.e0" e2="DDI-MedLine.d169.s7.e2" ddi="false" flags="True" e1_name="Calcium" e2_name="minerals" e1_pos="0" e2_pos="9" path="0@@2@@11@@4@@9@@">Calcium@@@@nsubjpass@@administered@@advcl@@ingested@@nsubjpass@@calcium chloride@@prep_in@@minerals</pair>  
+      <pair id="DDI-MedLine.d169.s7.p2" e1="DDI-MedLine.d169.s7.e1" e2="DDI-MedLine.d169.s7.e2" ddi="false" flags="True" e1_name="calcium chloride" e2_name="minerals" e1_pos="4" e2_pos="9" path="4@@9@@">calcium chloride@@@@prep_in@@minerals</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d169.s8" text="Calcium doses   1000 mg diminished nonheme iron absorption by an average of 49.6%." new_text="Calcium@@doses@@@@@@1000@@mg@@diminished@@nonheme iron@@absorption@@by@@an@@average@@of@@49.6%@@.@@"> 
+      <entity id="DDI-MedLine.d169.s8.e0" charOffset="0-6" type="drug" text="Calcium" position="0"/>  
+      <entity id="DDI-MedLine.d169.s8.e1" charOffset="35-46" type="drug" text="nonheme iron" position="7"/>  
+      <pair id="DDI-MedLine.d169.s8.p0" e1="DDI-MedLine.d169.s8.e0" e2="DDI-MedLine.d169.s8.e1" ddi="true" type="mechanism" flags="True" e1_name="Calcium" e2_name="nonheme iron" e1_pos="0" e2_pos="7" path="0@@4@@5@@8@@7@@">Calcium@@@@nn@@1000@@nsubj@@mg@@dobj@@absorption@@nn@@nonheme iron</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d169.s9" text="A calcium dose of 800 mg diminished absorption of 5 mg heme iron by 37.7%. " new_text="A@@calcium@@dose@@of@@800@@mg@@diminished@@absorption@@of@@5@@mg@@heme iron@@by@@37.7%@@.@@"> 
+      <entity id="DDI-MedLine.d169.s9.e0" charOffset="2-8" type="drug" text="calcium" position="1"/>  
+      <entity id="DDI-MedLine.d169.s9.e1" charOffset="55-63" type="drug" text="heme iron" position="11"/>  
+      <pair id="DDI-MedLine.d169.s9.p0" e1="DDI-MedLine.d169.s9.e0" e2="DDI-MedLine.d169.s9.e1" ddi="true" type="mechanism" flags="True" e1_name="calcium" e2_name="heme iron" e1_pos="1" e2_pos="11" path="1@@2@@6@@7@@11@@">calcium@@@@nn@@dose@@nsubj@@diminished@@dobj@@absorption@@prep_of@@heme iron</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d169.s10" text="In conclusion, we demonstrated an isolated effect of calcium (as chloride) on absorption of 5 mg of iron provided as nonheme (as sulfate) and heme (as CRBC) iron. " new_text="In@@conclusion@@,@@we@@demonstrated@@an@@isolated@@effect@@of@@calcium@@(as@@chloride)@@on@@absorption@@of@@5@@mg@@of@@iron@@provided@@as@@nonheme@@(as@@sulfate)@@and@@heme@@(as@@CRBC)@@iron@@.@@"> 
+      <entity id="DDI-MedLine.d169.s10.e0" charOffset="53-59" type="drug" text="calcium" position="9"/>  
+      <entity id="DDI-MedLine.d169.s10.e1" charOffset="117-123;157-160" type="drug" text="nonheme iron" position="not_a_number"/>  
+      <entity id="DDI-MedLine.d169.s10.e2" charOffset="142-145;157-160" type="drug" text="heme iron" position="not_a_number"/>  
+      <pair id="DDI-MedLine.d169.s10.p0" e1="DDI-MedLine.d169.s10.e0" e2="DDI-MedLine.d169.s10.e1" ddi="true" type="mechanism" flags="False"/>  
+      <pair id="DDI-MedLine.d169.s10.p1" e1="DDI-MedLine.d169.s10.e0" e2="DDI-MedLine.d169.s10.e2" ddi="true" type="mechanism" flags="False"/>  
+      <pair id="DDI-MedLine.d169.s10.p2" e1="DDI-MedLine.d169.s10.e1" e2="DDI-MedLine.d169.s10.e2" ddi="false" flags="False"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d169.s11" text="This effect was observed at doses higher than previously reported from single-meal studies, starting at ~800 mg of calcium." new_text="This@@effect@@was@@observed@@at@@doses@@higher@@than@@previously@@reported@@from@@single-meal@@studies@@,@@starting@@at@@~800@@mg@@of@@calcium@@.@@"> 
+      <entity id="DDI-MedLine.d169.s11.e0" charOffset="115-121" type="drug" text="calcium" position="19"/> 
+   </sentence> 
+</document>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d102"> 
+   <sentence id="DDI-MedLine.d102.s0" text="Influence of estradiol and progesterone on the sensitivity of rat thoracic aorta to noradrenaline.
+" new_text="Influence@@of@@estradiol@@and@@progesterone@@on@@the@@sensitivity@@of@@rat@@thoracic@@aorta@@to@@noradrenaline@@.@@"> 
+      <entity id="DDI-MedLine.d102.s0.e0" charOffset="13-21" type="drug" text="estradiol" position="2"/>  
+      <entity id="DDI-MedLine.d102.s0.e1" charOffset="27-38" type="drug" text="progesterone" position="4"/>  
+      <entity id="DDI-MedLine.d102.s0.e2" charOffset="84-96" type="drug" text="noradrenaline" position="13"/>  
+      <pair id="DDI-MedLine.d102.s0.p0" e1="DDI-MedLine.d102.s0.e0" e2="DDI-MedLine.d102.s0.e1" ddi="false" flags="True" e1_name="estradiol" e2_name="progesterone" e1_pos="2" e2_pos="4" path="2@@4@@">estradiol@@@@conj_and@@progesterone</pair>  
+      <pair id="DDI-MedLine.d102.s0.p1" e1="DDI-MedLine.d102.s0.e0" e2="DDI-MedLine.d102.s0.e2" ddi="false" flags="True" e1_name="estradiol" e2_name="noradrenaline" e1_pos="2" e2_pos="13" path="2@@0@@7@@11@@13@@">estradiol@@@@prep_of@@Influence@@prep_on@@sensitivity@@prep_of@@aorta@@prep_to@@noradrenaline</pair>  
+      <pair id="DDI-MedLine.d102.s0.p2" e1="DDI-MedLine.d102.s0.e1" e2="DDI-MedLine.d102.s0.e2" ddi="false" flags="True" e1_name="progesterone" e2_name="noradrenaline" e1_pos="4" e2_pos="13" path="4@@0@@7@@11@@13@@">progesterone@@@@prep_of@@Influence@@prep_on@@sensitivity@@prep_of@@aorta@@prep_to@@noradrenaline</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d102.s1" text="The aim of this study was to investigate the effects of low and high doses of estradiol, and of progesterone on the response to noradrenaline in rat thoracic aorta. " new_text="The@@aim@@of@@this@@study@@was@@to@@investigate@@the@@effects@@of@@low@@and@@high@@doses@@of@@estradiol@@,@@and@@of@@progesterone@@on@@the@@response@@to@@noradrenaline@@in@@rat@@thoracic@@aorta@@.@@"> 
+      <entity id="DDI-MedLine.d102.s1.e0" charOffset="78-86" type="drug" text="estradiol" position="16"/>  
+      <entity id="DDI-MedLine.d102.s1.e1" charOffset="96-107" type="drug" text="progesterone" position="20"/>  
+      <entity id="DDI-MedLine.d102.s1.e2" charOffset="128-140" type="drug" text="noradrenaline" position="25"/>  
+      <pair id="DDI-MedLine.d102.s1.p0" e1="DDI-MedLine.d102.s1.e0" e2="DDI-MedLine.d102.s1.e1" ddi="false" flags="True" e1_name="estradiol" e2_name="progesterone" e1_pos="16" e2_pos="20" path="16@@14@@19@@29@@20@@">estradiol@@@@prep_of@@doses@@conj_and@@of@@pobj@@aorta@@amod@@progesterone</pair>  
+      <pair id="DDI-MedLine.d102.s1.p1" e1="DDI-MedLine.d102.s1.e0" e2="DDI-MedLine.d102.s1.e2" ddi="false" flags="True" e1_name="estradiol" e2_name="noradrenaline" e1_pos="16" e2_pos="25" path="16@@14@@19@@29@@20@@23@@25@@">estradiol@@@@prep_of@@doses@@conj_and@@of@@pobj@@aorta@@amod@@progesterone@@prep_on@@response@@infmod@@noradrenaline</pair>  
+      <pair id="DDI-MedLine.d102.s1.p2" e1="DDI-MedLine.d102.s1.e1" e2="DDI-MedLine.d102.s1.e2" ddi="false" flags="True" e1_name="progesterone" e2_name="noradrenaline" e1_pos="20" e2_pos="25" path="20@@23@@25@@">progesterone@@@@prep_on@@response@@infmod@@noradrenaline</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d102.s2" text="Two weeks after bilateral ovariectomy, female rats received a s.c. " new_text="Two@@weeks@@after@@bilateral@@ovariectomy@@,@@female@@rats@@received@@a@@s.c@@.@@"/>  
+   <sentence id="DDI-MedLine.d102.s3" text="injection of vehicle (corn oil, 0.1 mL/day), estradiol (10 microg/kg/day or 4 mg/kg/day) and/or progesterone (20 mg/kg/day), for eight days. " new_text="injection@@of@@vehicle@@(corn@@oil@@,@@0.1@@mL/day)@@,@@estradiol@@(10@@microg/kg/day@@or@@4@@mg/kg/day)@@and/or@@progesterone@@(20@@mg/kg/day)@@,@@for@@eight@@days@@.@@"> 
+      <entity id="DDI-MedLine.d102.s3.e0" charOffset="45-53" type="drug" text="estradiol" position="9"/>  
+      <entity id="DDI-MedLine.d102.s3.e1" charOffset="96-107" type="drug" text="progesterone" position="16"/>  
+      <pair id="DDI-MedLine.d102.s3.p0" e1="DDI-MedLine.d102.s3.e0" e2="DDI-MedLine.d102.s3.e1" ddi="false" flags="True" e1_name="estradiol" e2_name="progesterone" e1_pos="9" e2_pos="16" path="9@@11@@0@@16@@">estradiol@@@@nn@@microg/kg/day@@prep_of@@injection@@nsubj@@progesterone</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d102.s4" text="On the ninth day, the rats were sacrificed and aortic rings, with or without endothelium, were used to generate concentration-response curves to noradrenaline. " new_text="On@@the@@ninth@@day@@,@@the@@rats@@were@@sacrificed@@and@@aortic@@rings@@,@@with@@or@@without@@endothelium@@,@@were@@used@@to@@generate@@concentration-response@@curves@@to@@noradrenaline@@.@@"> 
+      <entity id="DDI-MedLine.d102.s4.e0" charOffset="145-157" type="drug" text="noradrenaline" position="25"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d102.s5" text="Aortic rings with intact endothelium from the high-dose (4 mg/kg/day) estradiol group were supersensitive to noradrenaline compared to the vehicle or low-dose (10 microg/kg/day) estradiol groups (pD2 values = 7.86+/-0.09, 7.30+/-0.11 and 7.35+/-0.04, respectively). " new_text="Aortic@@rings@@with@@intact@@endothelium@@from@@the@@high-dose@@(4@@mg/kg/day)@@estradiol@@group@@were@@supersensitive@@to@@noradrenaline@@compared@@to@@the@@vehicle@@or@@low-dose@@(10@@microg/kg/day)@@estradiol@@groups@@(pD2@@values@@=@@7.86+/-0.09@@,@@7.30+/-0.11@@and@@7.35+/-0.04@@,@@respectively)@@.@@"> 
+      <entity id="DDI-MedLine.d102.s5.e0" charOffset="70-78" type="drug" text="estradiol" position="10"/>  
+      <entity id="DDI-MedLine.d102.s5.e1" charOffset="109-121" type="drug" text="noradrenaline" position="15"/>  
+      <pair id="DDI-MedLine.d102.s5.p0" e1="DDI-MedLine.d102.s5.e0" e2="DDI-MedLine.d102.s5.e1" ddi="true" type="effect" flags="True" e1_name="estradiol" e2_name="noradrenaline" e1_pos="10" e2_pos="15" path="10@@11@@4@@1@@15@@">estradiol@@@@amod@@group@@prep_from@@endothelium@@prep_with@@rings@@xsubj@@noradrenaline</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d102.s6" text="Endothelium-intact aortic rings from high-estradiol rats were supersensitive to noradrenaline when compared to vehicle-, progesterone- and progesterone + high-estradiol-treated rats (pD2 values = 7.77+/-0.12, 7.21+/-0.13, 6.93+/-0.04 and 7.22+/-0.18, respectively). " new_text="Endothelium-intact@@aortic@@rings@@from@@high-@@estradiol@@rats@@were@@supersensitive@@to@@noradrenaline@@when@@compared@@to@@vehicle-@@,@@progesterone@@-@@and@@progesterone@@+@@high-@@estradiol@@-treated@@rats@@(pD2@@values@@=@@7.77+/-0.12@@,@@7.21+/-0.13@@,@@6.93+/-0.04@@and@@7.22+/-0.18@@,@@respectively)@@.@@"> 
+      <entity id="DDI-MedLine.d102.s6.e0" charOffset="42-50" type="drug" text="estradiol" position="5"/>  
+      <entity id="DDI-MedLine.d102.s6.e1" charOffset="80-92" type="drug" text="noradrenaline" position="10"/>  
+      <entity id="DDI-MedLine.d102.s6.e2" charOffset="121-132" type="drug" text="progesterone" position="16"/>  
+      <entity id="DDI-MedLine.d102.s6.e3" charOffset="139-150" type="drug" text="progesterone" position="19"/>  
+      <entity id="DDI-MedLine.d102.s6.e4" charOffset="159-167" type="drug" text="estradiol" position="22"/>  
+      <pair id="DDI-MedLine.d102.s6.p0" e1="DDI-MedLine.d102.s6.e0" e2="DDI-MedLine.d102.s6.e1" ddi="true" type="effect" flags="True" e1_name="estradiol" e2_name="noradrenaline" e1_pos="5" e2_pos="10" path="5@@6@@2@@10@@">estradiol@@@@amod@@rats@@prep_from@@rings@@xsubj@@noradrenaline</pair>  
+      <pair id="DDI-MedLine.d102.s6.p1" e1="DDI-MedLine.d102.s6.e0" e2="DDI-MedLine.d102.s6.e2" ddi="false" flags="True" e1_name="estradiol" e2_name="progesterone" e1_pos="5" e2_pos="16" path="5@@6@@2@@10@@26@@21@@16@@">estradiol@@@@amod@@rats@@prep_from@@rings@@xsubj@@noradrenaline@@advcl@@values@@pobj@@high-@@amod@@progesterone</pair>  
+      <pair id="DDI-MedLine.d102.s6.p2" e1="DDI-MedLine.d102.s6.e0" e2="DDI-MedLine.d102.s6.e3" ddi="false" flags="True" e1_name="estradiol" e2_name="progesterone" e1_pos="5" e2_pos="19" path="5@@6@@2@@10@@26@@21@@19@@">estradiol@@@@amod@@rats@@prep_from@@rings@@xsubj@@noradrenaline@@advcl@@values@@pobj@@high-@@amod@@progesterone</pair>  
+      <pair id="DDI-MedLine.d102.s6.p3" e1="DDI-MedLine.d102.s6.e0" e2="DDI-MedLine.d102.s6.e4" ddi="false" flags="True" e1_name="estradiol" e2_name="estradiol" e1_pos="5" e2_pos="22" path="5@@6@@2@@10@@26@@25@@22@@">estradiol@@@@amod@@rats@@prep_from@@rings@@xsubj@@noradrenaline@@advcl@@values@@nsubj@@(pD2@@amod@@estradiol</pair>  
+      <pair id="DDI-MedLine.d102.s6.p4" e1="DDI-MedLine.d102.s6.e1" e2="DDI-MedLine.d102.s6.e2" ddi="false" flags="True" e1_name="noradrenaline" e2_name="progesterone" e1_pos="10" e2_pos="16" path="10@@26@@21@@16@@">noradrenaline@@@@advcl@@values@@pobj@@high-@@amod@@progesterone</pair>  
+      <pair id="DDI-MedLine.d102.s6.p5" e1="DDI-MedLine.d102.s6.e1" e2="DDI-MedLine.d102.s6.e3" ddi="false" flags="True" e1_name="noradrenaline" e2_name="progesterone" e1_pos="10" e2_pos="19" path="10@@26@@21@@19@@">noradrenaline@@@@advcl@@values@@pobj@@high-@@amod@@progesterone</pair>  
+      <pair id="DDI-MedLine.d102.s6.p6" e1="DDI-MedLine.d102.s6.e1" e2="DDI-MedLine.d102.s6.e4" ddi="false" flags="True" e1_name="noradrenaline" e2_name="estradiol" e1_pos="10" e2_pos="22" path="10@@26@@25@@22@@">noradrenaline@@@@advcl@@values@@nsubj@@(pD2@@amod@@estradiol</pair>  
+      <pair id="DDI-MedLine.d102.s6.p7" e1="DDI-MedLine.d102.s6.e2" e2="DDI-MedLine.d102.s6.e3" ddi="false" flags="True" e1_name="progesterone" e2_name="progesterone" e1_pos="16" e2_pos="19" path="16@@19@@">progesterone@@@@conj_and@@progesterone</pair>  
+      <pair id="DDI-MedLine.d102.s6.p8" e1="DDI-MedLine.d102.s6.e2" e2="DDI-MedLine.d102.s6.e4" ddi="false" flags="True" e1_name="progesterone" e2_name="estradiol" e1_pos="16" e2_pos="22" path="16@@21@@26@@25@@22@@">progesterone@@@@amod@@high-@@pobj@@values@@nsubj@@(pD2@@amod@@estradiol</pair>  
+      <pair id="DDI-MedLine.d102.s6.p9" e1="DDI-MedLine.d102.s6.e3" e2="DDI-MedLine.d102.s6.e4" ddi="false" flags="True" e1_name="progesterone" e2_name="estradiol" e1_pos="19" e2_pos="22" path="19@@21@@26@@25@@22@@">progesterone@@@@amod@@high-@@pobj@@values@@nsubj@@(pD2@@amod@@estradiol</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d102.s7" text="There were no significant differences among the pD2 values for noradrenaline in aortic rings without endothelium. " new_text="There@@were@@no@@significant@@differences@@among@@the@@pD2@@values@@for@@noradrenaline@@in@@aortic@@rings@@without@@endothelium@@.@@"> 
+      <entity id="DDI-MedLine.d102.s7.e0" charOffset="63-75" type="drug" text="noradrenaline" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d102.s8" text="Both of these effects were endothelium-dependent." new_text="Both@@of@@these@@effects@@were@@endothelium-dependent@@.@@"/> 
+</document>

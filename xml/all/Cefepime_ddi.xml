@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d378"> 
+   <sentence id="DDI-DrugBank.d378.s0" text="Renal function should be monitored carefully if high doses of aminoglycosides are to be administered with MAXIPIME because of the increased potential of nephrotoxicity and ototoxicity of aminoglycoside antibiotics." new_text="Renal@@function@@should@@be@@monitored@@carefully@@if@@high@@doses@@of@@aminoglycosides@@are@@to@@be@@administered@@with@@MAXIPIME@@because@@of@@the@@increased@@potential@@of@@nephrotoxicity@@and@@ototoxicity@@of@@aminoglycoside antibiotics@@.@@"> 
+      <entity id="DDI-DrugBank.d378.s0.e0" charOffset="62-76" type="group" text="aminoglycosides" position="10"/>  
+      <entity id="DDI-DrugBank.d378.s0.e1" charOffset="106-113" type="brand" text="MAXIPIME" position="16"/>  
+      <entity id="DDI-DrugBank.d378.s0.e2" charOffset="187-212" type="group" text="aminoglycoside antibiotics" position="27"/>  
+      <pair id="DDI-DrugBank.d378.s0.p0" e1="DDI-DrugBank.d378.s0.e0" e2="DDI-DrugBank.d378.s0.e1" ddi="true" type="advise" flags="True" e1_name="aminoglycosides" e2_name="MAXIPIME" e1_pos="10" e2_pos="16" path="10@@8@@14@@16@@">aminoglycosides@@@@prep_of@@doses@@xsubj@@administered@@prep_with@@MAXIPIME</pair>  
+      <pair id="DDI-DrugBank.d378.s0.p1" e1="DDI-DrugBank.d378.s0.e0" e2="DDI-DrugBank.d378.s0.e2" ddi="false" flags="True" e1_name="aminoglycosides" e2_name="aminoglycoside antibiotics" e1_pos="10" e2_pos="27" path="10@@8@@14@@21@@27@@">aminoglycosides@@@@prep_of@@doses@@xsubj@@administered@@prep_because_of@@potential@@prep_of@@aminoglycoside antibiotics</pair>  
+      <pair id="DDI-DrugBank.d378.s0.p2" e1="DDI-DrugBank.d378.s0.e1" e2="DDI-DrugBank.d378.s0.e2" ddi="false" flags="True" e1_name="MAXIPIME" e2_name="aminoglycoside antibiotics" e1_pos="16" e2_pos="27" path="16@@14@@21@@27@@">MAXIPIME@@@@prep_with@@administered@@prep_because_of@@potential@@prep_of@@aminoglycoside antibiotics</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d378.s1" text="Nephrotoxicity has been reported following concomitant administration of other cephalosporins with potent diuretics such as furosemide." new_text="Nephrotoxicity@@has@@been@@reported@@following@@concomitant@@administration@@of@@other@@cephalosporins@@with@@potent@@diuretics@@such@@as@@furosemide@@.@@"> 
+      <entity id="DDI-DrugBank.d378.s1.e0" charOffset="79-92" type="group" text="cephalosporins" position="9"/>  
+      <entity id="DDI-DrugBank.d378.s1.e1" charOffset="106-114" type="group" text="diuretics" position="12"/>  
+      <entity id="DDI-DrugBank.d378.s1.e2" charOffset="124-133" type="drug" text="furosemide" position="15"/>  
+      <pair id="DDI-DrugBank.d378.s1.p0" e1="DDI-DrugBank.d378.s1.e0" e2="DDI-DrugBank.d378.s1.e1" ddi="true" type="effect" flags="True" e1_name="cephalosporins" e2_name="diuretics" e1_pos="9" e2_pos="12" path="9@@12@@">cephalosporins@@@@prep_with@@diuretics</pair>  
+      <pair id="DDI-DrugBank.d378.s1.p1" e1="DDI-DrugBank.d378.s1.e0" e2="DDI-DrugBank.d378.s1.e2" ddi="true" type="effect" flags="True" e1_name="cephalosporins" e2_name="furosemide" e1_pos="9" e2_pos="15" path="9@@12@@15@@">cephalosporins@@@@prep_with@@diuretics@@prep_such_as@@furosemide</pair>  
+      <pair id="DDI-DrugBank.d378.s1.p2" e1="DDI-DrugBank.d378.s1.e1" e2="DDI-DrugBank.d378.s1.e2" ddi="false" flags="True" e1_name="diuretics" e2_name="furosemide" e1_pos="12" e2_pos="15" path="12@@15@@">diuretics@@@@prep_such_as@@furosemide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d378.s2" text="Drug/Laboratory Test Interactions The administration of cefepime may result in a false-positive reaction for glucose in the urine when using Clinitest  tablets." new_text="Drug/Laboratory@@Test@@Interactions@@The@@administration@@of@@cefepime@@may@@result@@in@@a@@false-positive@@reaction@@for@@glucose@@in@@the@@urine@@when@@using@@Clinitest@@@@tablets@@.@@"> 
+      <entity id="DDI-DrugBank.d378.s2.e0" charOffset="56-63" type="drug" text="cefepime" position="6"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d378.s3" text="It is recommended that glucose tests based on enzymatic glucose oxidase reactions (such as Clinistix  or Tes-Tape  ) be used." new_text="It@@is@@recommended@@that@@glucose@@tests@@based@@on@@enzymatic@@glucose@@oxidase@@reactions@@(such@@as@@Clinistix@@@@or@@Tes-Tape@@@@)@@be@@used@@.@@"/> 
+</document>

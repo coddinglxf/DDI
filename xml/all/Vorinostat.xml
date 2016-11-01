@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d769"> 
+   <sentence id="DDI-DrugBank.d769.s0" text="Coumarin-Derivative Anticoagulants: Prolongation of prothrombin time (PT) and International Normalized Ratio (INR) were observed in patients receiving ZOLINZA concomitantly with coumarin-derivative anticoagulants. " new_text="Coumarin-Derivative Anticoagulants@@:@@Prolongation@@of@@prothrombin@@time@@(PT)@@and@@International@@Normalized@@Ratio@@(INR)@@were@@observed@@in@@patients@@receiving@@ZOLINZA@@concomitantly@@with@@coumarin-derivative anticoagulants@@.@@"> 
+      <entity id="DDI-DrugBank.d769.s0.e0" charOffset="0-33" type="group" text="Coumarin-Derivative Anticoagulants" position="0"/>  
+      <entity id="DDI-DrugBank.d769.s0.e1" charOffset="151-157" type="brand" text="ZOLINZA" position="17"/>  
+      <entity id="DDI-DrugBank.d769.s0.e2" charOffset="178-211" type="group" text="coumarin-derivative anticoagulants" position="20"/>  
+      <pair id="DDI-DrugBank.d769.s0.p0" e1="DDI-DrugBank.d769.s0.e0" e2="DDI-DrugBank.d769.s0.e1" ddi="false" flags="True" e1_name="Coumarin-Derivative Anticoagulants" e2_name="ZOLINZA" e1_pos="0" e2_pos="17" path="0@@13@@15@@16@@17@@">Coumarin-Derivative Anticoagulants@@@@dep@@observed@@prep_in@@patients@@partmod@@receiving@@dobj@@ZOLINZA</pair>  
+      <pair id="DDI-DrugBank.d769.s0.p1" e1="DDI-DrugBank.d769.s0.e0" e2="DDI-DrugBank.d769.s0.e2" ddi="false" flags="True" e1_name="Coumarin-Derivative Anticoagulants" e2_name="coumarin-derivative anticoagulants" e1_pos="0" e2_pos="20" path="0@@13@@15@@16@@20@@">Coumarin-Derivative Anticoagulants@@@@dep@@observed@@prep_in@@patients@@partmod@@receiving@@prep_with@@coumarin-derivative anticoagulants</pair>  
+      <pair id="DDI-DrugBank.d769.s0.p2" e1="DDI-DrugBank.d769.s0.e1" e2="DDI-DrugBank.d769.s0.e2" ddi="true" type="effect" flags="True" e1_name="ZOLINZA" e2_name="coumarin-derivative anticoagulants" e1_pos="17" e2_pos="20" path="17@@16@@20@@">ZOLINZA@@@@dobj@@receiving@@prep_with@@coumarin-derivative anticoagulants</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d769.s1" text="Physicians should carefully monitor PT and INR in patients concurrently administered ZOLINZA and coumarin derivatives. " new_text="Physicians@@should@@carefully@@monitor@@PT@@and@@INR@@in@@patients@@concurrently@@administered@@ZOLINZA@@and@@coumarin derivatives@@.@@"> 
+      <entity id="DDI-DrugBank.d769.s1.e0" charOffset="85-91" type="brand" text="ZOLINZA" position="11"/>  
+      <entity id="DDI-DrugBank.d769.s1.e1" charOffset="97-116" type="group" text="coumarin derivatives" position="13"/>  
+      <pair id="DDI-DrugBank.d769.s1.p0" e1="DDI-DrugBank.d769.s1.e0" e2="DDI-DrugBank.d769.s1.e1" ddi="true" type="advise" flags="True" e1_name="ZOLINZA" e2_name="coumarin derivatives" e1_pos="11" e2_pos="13" path="11@@13@@">ZOLINZA@@@@conj_and@@coumarin derivatives</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d769.s2" text="Other HDAC Inhibitors Severe thrombocytopenia and gastrointestinal bleeding have been reported with concomitant use of ZOLINZA and other HDAC inhibitors (e.g., valproic acid). " new_text="Other@@HDAC Inhibitors@@Severe@@thrombocytopenia@@and@@gastrointestinal@@bleeding@@have@@been@@reported@@with@@concomitant@@use@@of@@ZOLINZA@@and@@other@@HDAC inhibitors@@(e.g.@@,@@valproic acid@@)@@.@@"> 
+      <entity id="DDI-DrugBank.d769.s2.e0" charOffset="6-20" type="group" text="HDAC Inhibitors" position="1"/>  
+      <entity id="DDI-DrugBank.d769.s2.e1" charOffset="119-125" type="brand" text="ZOLINZA" position="14"/>  
+      <entity id="DDI-DrugBank.d769.s2.e2" charOffset="137-151" type="group" text="HDAC inhibitors" position="17"/>  
+      <entity id="DDI-DrugBank.d769.s2.e3" charOffset="160-172" type="drug" text="valproic acid" position="20"/>  
+      <pair id="DDI-DrugBank.d769.s2.p0" e1="DDI-DrugBank.d769.s2.e0" e2="DDI-DrugBank.d769.s2.e1" ddi="false" flags="True" e1_name="HDAC Inhibitors" e2_name="ZOLINZA" e1_pos="1" e2_pos="14" path="1@@3@@9@@12@@14@@">HDAC Inhibitors@@@@nn@@thrombocytopenia@@nsubjpass@@reported@@prep_with@@use@@prep_of@@ZOLINZA</pair>  
+      <pair id="DDI-DrugBank.d769.s2.p1" e1="DDI-DrugBank.d769.s2.e0" e2="DDI-DrugBank.d769.s2.e2" ddi="false" flags="True" e1_name="HDAC Inhibitors" e2_name="HDAC inhibitors" e1_pos="1" e2_pos="17" path="1@@3@@9@@12@@21@@17@@">HDAC Inhibitors@@@@nn@@thrombocytopenia@@nsubjpass@@reported@@prep_with@@use@@prep_of@@)@@nn@@HDAC inhibitors</pair>  
+      <pair id="DDI-DrugBank.d769.s2.p2" e1="DDI-DrugBank.d769.s2.e0" e2="DDI-DrugBank.d769.s2.e3" ddi="false" flags="True" e1_name="HDAC Inhibitors" e2_name="valproic acid" e1_pos="1" e2_pos="20" path="1@@3@@9@@12@@21@@20@@">HDAC Inhibitors@@@@nn@@thrombocytopenia@@nsubjpass@@reported@@prep_with@@use@@prep_of@@)@@amod@@valproic acid</pair>  
+      <pair id="DDI-DrugBank.d769.s2.p3" e1="DDI-DrugBank.d769.s2.e1" e2="DDI-DrugBank.d769.s2.e2" ddi="true" type="effect" flags="True" e1_name="ZOLINZA" e2_name="HDAC inhibitors" e1_pos="14" e2_pos="17" path="14@@21@@17@@">ZOLINZA@@@@conj_and@@)@@nn@@HDAC inhibitors</pair>  
+      <pair id="DDI-DrugBank.d769.s2.p4" e1="DDI-DrugBank.d769.s2.e1" e2="DDI-DrugBank.d769.s2.e3" ddi="true" type="effect" flags="True" e1_name="ZOLINZA" e2_name="valproic acid" e1_pos="14" e2_pos="20" path="14@@21@@20@@">ZOLINZA@@@@conj_and@@)@@amod@@valproic acid</pair>  
+      <pair id="DDI-DrugBank.d769.s2.p5" e1="DDI-DrugBank.d769.s2.e2" e2="DDI-DrugBank.d769.s2.e3" ddi="false" flags="True" e1_name="HDAC inhibitors" e2_name="valproic acid" e1_pos="17" e2_pos="20" path="17@@21@@20@@">HDAC inhibitors@@@@nn@@)@@amod@@valproic acid</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d769.s3" text="Monitor platelet count every 2 weeks for the first 2 months." new_text="Monitor@@platelet@@count@@every@@2@@weeks@@for@@the@@first@@2@@months@@.@@"/> 
+</document>

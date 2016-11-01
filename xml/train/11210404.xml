@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d105"> 
+   <sentence id="DDI-MedLine.d105.s0" text="Lack of an effect of azithromycin on the disposition of zidovudine and dideoxyinosine in HIV-infected patients." new_text="Lack@@of@@an@@effect@@of@@azithromycin@@on@@the@@disposition@@of@@zidovudine@@and@@dideoxyinosine@@in@@HIV-infected@@patients@@.@@"> 
+      <entity id="DDI-MedLine.d105.s0.e0" charOffset="21-32" type="drug" text="azithromycin" position="5"/>  
+      <entity id="DDI-MedLine.d105.s0.e1" charOffset="56-65" type="drug" text="zidovudine" position="10"/>  
+      <entity id="DDI-MedLine.d105.s0.e2" charOffset="71-84" type="drug" text="dideoxyinosine" position="12"/>  
+      <pair id="DDI-MedLine.d105.s0.p0" e1="DDI-MedLine.d105.s0.e0" e2="DDI-MedLine.d105.s0.e1" ddi="false" flags="True" e1_name="azithromycin" e2_name="zidovudine" e1_pos="5" e2_pos="10" path="5@@3@@0@@8@@10@@">azithromycin@@@@prep_of@@effect@@prep_of@@Lack@@prep_on@@disposition@@prep_of@@zidovudine</pair>  
+      <pair id="DDI-MedLine.d105.s0.p1" e1="DDI-MedLine.d105.s0.e0" e2="DDI-MedLine.d105.s0.e2" ddi="false" flags="True" e1_name="azithromycin" e2_name="dideoxyinosine" e1_pos="5" e2_pos="12" path="5@@3@@0@@8@@12@@">azithromycin@@@@prep_of@@effect@@prep_of@@Lack@@prep_on@@disposition@@prep_of@@dideoxyinosine</pair>  
+      <pair id="DDI-MedLine.d105.s0.p2" e1="DDI-MedLine.d105.s0.e1" e2="DDI-MedLine.d105.s0.e2" ddi="false" flags="True" e1_name="zidovudine" e2_name="dideoxyinosine" e1_pos="10" e2_pos="12" path="10@@12@@">zidovudine@@@@conj_and@@dideoxyinosine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d105.s1" text="Two studies were conducted in HIV-infected subjects to assess the potential for azithromycin to interact with zidovudine and dideoxyinosine. " new_text="Two@@studies@@were@@conducted@@in@@HIV-infected@@subjects@@to@@assess@@the@@potential@@for@@azithromycin@@to@@interact@@with@@zidovudine@@and@@dideoxyinosine@@.@@"> 
+      <entity id="DDI-MedLine.d105.s1.e0" charOffset="80-91" type="drug" text="azithromycin" position="12"/>  
+      <entity id="DDI-MedLine.d105.s1.e1" charOffset="110-119" type="drug" text="zidovudine" position="16"/>  
+      <entity id="DDI-MedLine.d105.s1.e2" charOffset="125-138" type="drug" text="dideoxyinosine" position="18"/>  
+      <pair id="DDI-MedLine.d105.s1.p0" e1="DDI-MedLine.d105.s1.e0" e2="DDI-MedLine.d105.s1.e1" ddi="false" flags="True" e1_name="azithromycin" e2_name="zidovudine" e1_pos="12" e2_pos="16" path="12@@10@@8@@14@@16@@">azithromycin@@@@prep_for@@potential@@dobj@@assess@@xcomp@@interact@@prep_with@@zidovudine</pair>  
+      <pair id="DDI-MedLine.d105.s1.p1" e1="DDI-MedLine.d105.s1.e0" e2="DDI-MedLine.d105.s1.e2" ddi="false" flags="True" e1_name="azithromycin" e2_name="dideoxyinosine" e1_pos="12" e2_pos="18" path="12@@10@@8@@14@@18@@">azithromycin@@@@prep_for@@potential@@dobj@@assess@@xcomp@@interact@@prep_with@@dideoxyinosine</pair>  
+      <pair id="DDI-MedLine.d105.s1.p2" e1="DDI-MedLine.d105.s1.e1" e2="DDI-MedLine.d105.s1.e2" ddi="false" flags="True" e1_name="zidovudine" e2_name="dideoxyinosine" e1_pos="16" e2_pos="18" path="16@@18@@">zidovudine@@@@conj_and@@dideoxyinosine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d105.s2" text="Both studies used 12 subjects. " new_text="Both@@studies@@used@@12@@subjects@@.@@"/>  
+   <sentence id="DDI-MedLine.d105.s3" text="The zidovudine study dosed subjects with 1200 mg/day of azithromycin (n = 7) (later changed to 600 mg/day [n = 5]) for Days 8 to 21 of a 21-day course of 100 mg, five times/day of zidovudine. " new_text="The@@zidovudine@@study@@dosed@@subjects@@with@@1200@@mg/day@@of@@azithromycin@@(n@@=@@7)@@(later@@changed@@to@@600@@mg/day@@[n@@=@@5])@@for@@Days@@8@@to@@21@@of@@a@@21-day@@course@@of@@100@@mg@@,@@five@@times/day@@of@@zidovudine@@.@@"> 
+      <entity id="DDI-MedLine.d105.s3.e0" charOffset="4-13" type="drug" text="zidovudine" position="1"/>  
+      <entity id="DDI-MedLine.d105.s3.e1" charOffset="56-67" type="drug" text="azithromycin" position="9"/>  
+      <entity id="DDI-MedLine.d105.s3.e2" charOffset="180-189" type="drug" text="zidovudine" position="37"/>  
+      <pair id="DDI-MedLine.d105.s3.p0" e1="DDI-MedLine.d105.s3.e0" e2="DDI-MedLine.d105.s3.e1" ddi="false" flags="True" e1_name="zidovudine" e2_name="azithromycin" e1_pos="1" e2_pos="9" path="1@@2@@3@@13@@7@@10@@9@@">zidovudine@@@@amod@@study@@nsubj@@dosed@@advcl@@(later@@nsubj@@mg/day@@prep_of@@(n@@nn@@azithromycin</pair>  
+      <pair id="DDI-MedLine.d105.s3.p1" e1="DDI-MedLine.d105.s3.e0" e2="DDI-MedLine.d105.s3.e2" ddi="false" flags="True" e1_name="zidovudine" e2_name="zidovudine" e1_pos="1" e2_pos="37" path="1@@2@@3@@14@@32@@35@@37@@">zidovudine@@@@amod@@study@@nsubj@@dosed@@dep@@changed@@nsubj@@mg@@appos@@times/day@@prep_of@@zidovudine</pair>  
+      <pair id="DDI-MedLine.d105.s3.p2" e1="DDI-MedLine.d105.s3.e1" e2="DDI-MedLine.d105.s3.e2" ddi="false" flags="True" e1_name="azithromycin" e2_name="zidovudine" e1_pos="9" e2_pos="37" path="9@@10@@7@@13@@3@@14@@32@@35@@37@@">azithromycin@@@@nn@@(n@@prep_of@@mg/day@@nsubj@@(later@@advcl@@dosed@@dep@@changed@@nsubj@@mg@@appos@@times/day@@prep_of@@zidovudine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d105.s4" text="Subjects treated with 200 mg of dideoxyinosine twice daily for 21 days received 1200 mg of azithromycin or an equivalent amount of placebo/day for Days 8 to 21. " new_text="Subjects@@treated@@with@@200@@mg@@of@@dideoxyinosine@@twice@@daily@@for@@21@@days@@received@@1200@@mg@@of@@azithromycin@@or@@an@@equivalent@@amount@@of@@placebo/day@@for@@Days@@8@@to@@21@@.@@"> 
+      <entity id="DDI-MedLine.d105.s4.e0" charOffset="32-45" type="drug" text="dideoxyinosine" position="6"/>  
+      <entity id="DDI-MedLine.d105.s4.e1" charOffset="91-102" type="drug" text="azithromycin" position="16"/>  
+      <pair id="DDI-MedLine.d105.s4.p0" e1="DDI-MedLine.d105.s4.e0" e2="DDI-MedLine.d105.s4.e1" ddi="false" flags="True" e1_name="dideoxyinosine" e2_name="azithromycin" e1_pos="6" e2_pos="16" path="6@@11@@4@@1@@0@@12@@14@@16@@">dideoxyinosine@@@@nn@@days@@prep_of@@mg@@prep_with@@treated@@partmod@@Subjects@@nsubj@@received@@dobj@@mg@@prep_of@@azithromycin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d105.s5" text="Antiretroviral plasma and urine sampling were conducted on Days 1, 7, and 21 for zidovudine and on Days 7 and 21 for dideoxyinosine. " new_text="Antiretroviral@@plasma@@and@@urine@@sampling@@were@@conducted@@on@@Days@@1@@,@@7@@,@@and@@21@@for@@zidovudine@@and@@on@@Days@@7@@and@@21@@for@@dideoxyinosine@@.@@"> 
+      <entity id="DDI-MedLine.d105.s5.e0" charOffset="0-13" type="group" text="Antiretroviral" position="0"/>  
+      <entity id="DDI-MedLine.d105.s5.e1" charOffset="81-90" type="drug" text="zidovudine" position="16"/>  
+      <entity id="DDI-MedLine.d105.s5.e2" charOffset="117-130" type="drug" text="dideoxyinosine" position="24"/>  
+      <pair id="DDI-MedLine.d105.s5.p0" e1="DDI-MedLine.d105.s5.e0" e2="DDI-MedLine.d105.s5.e1" ddi="false" flags="True" e1_name="Antiretroviral" e2_name="zidovudine" e1_pos="0" e2_pos="16" path="0@@1@@6@@8@@9@@16@@">Antiretroviral@@@@amod@@plasma@@nsubjpass@@conducted@@prep_on@@Days@@dep@@1@@prep_for@@zidovudine</pair>  
+      <pair id="DDI-MedLine.d105.s5.p1" e1="DDI-MedLine.d105.s5.e0" e2="DDI-MedLine.d105.s5.e2" ddi="false" flags="True" e1_name="Antiretroviral" e2_name="dideoxyinosine" e1_pos="0" e2_pos="24" path="0@@1@@6@@19@@24@@">Antiretroviral@@@@amod@@plasma@@nsubjpass@@conducted@@prep_on@@Days@@prep_for@@dideoxyinosine</pair>  
+      <pair id="DDI-MedLine.d105.s5.p2" e1="DDI-MedLine.d105.s5.e1" e2="DDI-MedLine.d105.s5.e2" ddi="false" flags="True" e1_name="zidovudine" e2_name="dideoxyinosine" e1_pos="16" e2_pos="24" path="16@@9@@8@@19@@24@@">zidovudine@@@@prep_for@@1@@dep@@Days@@conj_and@@Days@@prep_for@@dideoxyinosine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d105.s6" text="Peripheral mononuclear cells were also collected for quantitation of phosphorylated zidovudine. " new_text="Peripheral@@mononuclear@@cells@@were@@also@@collected@@for@@quantitation@@of@@phosphorylated@@zidovudine@@.@@"> 
+      <entity id="DDI-MedLine.d105.s6.e0" charOffset="84-93" type="drug" text="zidovudine" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d105.s7" text="Azithromycin had no significant impact on the Cmax and AUC of zidovudine, although it significantly decreased the zidovudine tmax by 44% and increased the intracellular exposure to phosphorylated zidovudine by 110%. " new_text="Azithromycin@@had@@no@@significant@@impact@@on@@the@@Cmax@@and@@AUC@@of@@zidovudine@@,@@although@@it@@significantly@@decreased@@the@@zidovudine@@tmax@@by@@44%@@and@@increased@@the@@intracellular@@exposure@@to@@phosphorylated@@zidovudine@@by@@110%@@.@@"> 
+      <entity id="DDI-MedLine.d105.s7.e0" charOffset="0-11" type="drug" text="Azithromycin" position="0"/>  
+      <entity id="DDI-MedLine.d105.s7.e1" charOffset="62-71" type="drug" text="zidovudine" position="11"/>  
+      <entity id="DDI-MedLine.d105.s7.e2" charOffset="114-123" type="drug" text="zidovudine" position="18"/>  
+      <entity id="DDI-MedLine.d105.s7.e3" charOffset="196-205" type="drug" text="zidovudine" position="29"/>  
+      <pair id="DDI-MedLine.d105.s7.p0" e1="DDI-MedLine.d105.s7.e0" e2="DDI-MedLine.d105.s7.e1" ddi="false" flags="True" e1_name="Azithromycin" e2_name="zidovudine" e1_pos="0" e2_pos="11" path="0@@1@@4@@11@@">Azithromycin@@@@nsubj@@had@@dobj@@impact@@prep_of@@zidovudine</pair>  
+      <pair id="DDI-MedLine.d105.s7.p1" e1="DDI-MedLine.d105.s7.e0" e2="DDI-MedLine.d105.s7.e2" ddi="true" type="mechanism" flags="True" e1_name="Azithromycin" e2_name="zidovudine" e1_pos="0" e2_pos="18" path="0@@1@@16@@19@@18@@">Azithromycin@@@@nsubj@@had@@advcl@@decreased@@dobj@@tmax@@amod@@zidovudine</pair>  
+      <pair id="DDI-MedLine.d105.s7.p2" e1="DDI-MedLine.d105.s7.e0" e2="DDI-MedLine.d105.s7.e3" ddi="true" type="mechanism" flags="True" e1_name="Azithromycin" e2_name="zidovudine" e1_pos="0" e2_pos="29" path="0@@1@@23@@29@@">Azithromycin@@@@nsubj@@had@@advcl@@increased@@prep_to@@zidovudine</pair>  
+      <pair id="DDI-MedLine.d105.s7.p3" e1="DDI-MedLine.d105.s7.e1" e2="DDI-MedLine.d105.s7.e2" ddi="false" flags="True" e1_name="zidovudine" e2_name="zidovudine" e1_pos="11" e2_pos="18" path="11@@4@@1@@16@@19@@18@@">zidovudine@@@@prep_of@@impact@@dobj@@had@@advcl@@decreased@@dobj@@tmax@@amod@@zidovudine</pair>  
+      <pair id="DDI-MedLine.d105.s7.p4" e1="DDI-MedLine.d105.s7.e1" e2="DDI-MedLine.d105.s7.e3" ddi="false" flags="True" e1_name="zidovudine" e2_name="zidovudine" e1_pos="11" e2_pos="29" path="11@@4@@1@@23@@29@@">zidovudine@@@@prep_of@@impact@@dobj@@had@@advcl@@increased@@prep_to@@zidovudine</pair>  
+      <pair id="DDI-MedLine.d105.s7.p5" e1="DDI-MedLine.d105.s7.e2" e2="DDI-MedLine.d105.s7.e3" ddi="false" flags="True" e1_name="zidovudine" e2_name="zidovudine" e1_pos="18" e2_pos="29" path="18@@19@@16@@23@@29@@">zidovudine@@@@amod@@tmax@@dobj@@decreased@@conj_and@@increased@@prep_to@@zidovudine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d105.s8" text="Azithromycin had no significant effect on dideoxyinosine pharmacokinetics. " new_text="Azithromycin@@had@@no@@significant@@effect@@on@@dideoxyinosine@@pharmacokinetics@@.@@"> 
+      <entity id="DDI-MedLine.d105.s8.e0" charOffset="0-11" type="drug" text="Azithromycin" position="0"/>  
+      <entity id="DDI-MedLine.d105.s8.e1" charOffset="42-55" type="drug" text="dideoxyinosine" position="6"/>  
+      <pair id="DDI-MedLine.d105.s8.p0" e1="DDI-MedLine.d105.s8.e0" e2="DDI-MedLine.d105.s8.e1" ddi="false" flags="True" e1_name="Azithromycin" e2_name="dideoxyinosine" e1_pos="0" e2_pos="6" path="0@@1@@4@@7@@6@@">Azithromycin@@@@nsubj@@had@@dobj@@effect@@prep_on@@pharmacokinetics@@amod@@dideoxyinosine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d105.s9" text="Based on the results of these studies, it is concluded that azithromycin may be safely coadministered with both zidovudine and dideoxyinosine." new_text="Based@@on@@the@@results@@of@@these@@studies@@,@@it@@is@@concluded@@that@@azithromycin@@may@@be@@safely@@coadministered@@with@@both@@zidovudine@@and@@dideoxyinosine@@.@@"> 
+      <entity id="DDI-MedLine.d105.s9.e0" charOffset="60-71" type="drug" text="azithromycin" position="12"/>  
+      <entity id="DDI-MedLine.d105.s9.e1" charOffset="112-121" type="drug" text="zidovudine" position="19"/>  
+      <entity id="DDI-MedLine.d105.s9.e2" charOffset="127-140" type="drug" text="dideoxyinosine" position="21"/>  
+      <pair id="DDI-MedLine.d105.s9.p0" e1="DDI-MedLine.d105.s9.e0" e2="DDI-MedLine.d105.s9.e1" ddi="false" flags="True" e1_name="azithromycin" e2_name="zidovudine" e1_pos="12" e2_pos="19" path="12@@16@@19@@">azithromycin@@@@nsubjpass@@coadministered@@prep_with@@zidovudine</pair>  
+      <pair id="DDI-MedLine.d105.s9.p1" e1="DDI-MedLine.d105.s9.e0" e2="DDI-MedLine.d105.s9.e2" ddi="false" flags="True" e1_name="azithromycin" e2_name="dideoxyinosine" e1_pos="12" e2_pos="21" path="12@@16@@21@@">azithromycin@@@@nsubjpass@@coadministered@@prep_with@@dideoxyinosine</pair>  
+      <pair id="DDI-MedLine.d105.s9.p2" e1="DDI-MedLine.d105.s9.e1" e2="DDI-MedLine.d105.s9.e2" ddi="false" flags="True" e1_name="zidovudine" e2_name="dideoxyinosine" e1_pos="19" e2_pos="21" path="19@@21@@">zidovudine@@@@conj_and@@dideoxyinosine</pair> 
+   </sentence> 
+</document>

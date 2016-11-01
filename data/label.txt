@@ -1,0 +1,5 @@
+int 0
+advise 1
+effect 2
+mechanism 3
+other 4

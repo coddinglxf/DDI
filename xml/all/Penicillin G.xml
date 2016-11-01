@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d665"> 
+   <sentence id="DDI-DrugBank.d665.s0" text="Concurrent administration of bacteriostatic antibiotics (e.g., erythromycin, tetracycline) may diminish the bactericidal effects of penicillins by slowing the rate of bacterial growth. " new_text="Concurrent@@administration@@of@@bacteriostatic antibiotics@@(e.g.@@,@@erythromycin@@,@@tetracycline@@)@@may@@diminish@@the@@bactericidal@@effects@@of@@penicillins@@by@@slowing@@the@@rate@@of@@bacterial@@growth@@.@@"> 
+      <entity id="DDI-DrugBank.d665.s0.e0" charOffset="29-54" type="group" text="bacteriostatic antibiotics" position="3"/>  
+      <entity id="DDI-DrugBank.d665.s0.e1" charOffset="63-74" type="drug" text="erythromycin" position="6"/>  
+      <entity id="DDI-DrugBank.d665.s0.e2" charOffset="77-88" type="drug" text="tetracycline" position="8"/>  
+      <entity id="DDI-DrugBank.d665.s0.e3" charOffset="132-142" type="group" text="penicillins" position="16"/>  
+      <pair id="DDI-DrugBank.d665.s0.p0" e1="DDI-DrugBank.d665.s0.e0" e2="DDI-DrugBank.d665.s0.e1" ddi="false" flags="True" e1_name="bacteriostatic antibiotics" e2_name="erythromycin" e1_pos="3" e2_pos="6" path="3@@9@@6@@">bacteriostatic antibiotics@@@@amod@@)@@dep@@erythromycin</pair>  
+      <pair id="DDI-DrugBank.d665.s0.p1" e1="DDI-DrugBank.d665.s0.e0" e2="DDI-DrugBank.d665.s0.e2" ddi="false" flags="True" e1_name="bacteriostatic antibiotics" e2_name="tetracycline" e1_pos="3" e2_pos="8" path="3@@9@@8@@">bacteriostatic antibiotics@@@@amod@@)@@dep@@tetracycline</pair>  
+      <pair id="DDI-DrugBank.d665.s0.p2" e1="DDI-DrugBank.d665.s0.e0" e2="DDI-DrugBank.d665.s0.e3" ddi="true" type="effect" flags="True" e1_name="bacteriostatic antibiotics" e2_name="penicillins" e1_pos="3" e2_pos="16" path="3@@9@@1@@11@@14@@16@@">bacteriostatic antibiotics@@@@amod@@)@@prep_of@@administration@@nsubj@@diminish@@dobj@@effects@@prep_of@@penicillins</pair>  
+      <pair id="DDI-DrugBank.d665.s0.p3" e1="DDI-DrugBank.d665.s0.e1" e2="DDI-DrugBank.d665.s0.e2" ddi="false" flags="True" e1_name="erythromycin" e2_name="tetracycline" e1_pos="6" e2_pos="8" path="6@@9@@8@@">erythromycin@@@@dep@@)@@dep@@tetracycline</pair>  
+      <pair id="DDI-DrugBank.d665.s0.p4" e1="DDI-DrugBank.d665.s0.e1" e2="DDI-DrugBank.d665.s0.e3" ddi="true" type="effect" flags="True" e1_name="erythromycin" e2_name="penicillins" e1_pos="6" e2_pos="16" path="6@@9@@1@@11@@14@@16@@">erythromycin@@@@dep@@)@@prep_of@@administration@@nsubj@@diminish@@dobj@@effects@@prep_of@@penicillins</pair>  
+      <pair id="DDI-DrugBank.d665.s0.p5" e1="DDI-DrugBank.d665.s0.e2" e2="DDI-DrugBank.d665.s0.e3" ddi="true" type="effect" flags="True" e1_name="tetracycline" e2_name="penicillins" e1_pos="8" e2_pos="16" path="8@@9@@1@@11@@14@@16@@">tetracycline@@@@dep@@)@@prep_of@@administration@@nsubj@@diminish@@dobj@@effects@@prep_of@@penicillins</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d665.s1" text="Bactericidal agents work most effectively against the immature cell wall of rapidly proliferating microorganisms. " new_text="Bactericidal@@agents@@work@@most@@effectively@@against@@the@@immature@@cell@@wall@@of@@rapidly@@proliferating@@microorganisms@@.@@"/>  
+   <sentence id="DDI-DrugBank.d665.s2" text="This has been demonstrated in vitro; " new_text="This@@has@@been@@demonstrated@@in@@vitro;@@"/>  
+   <sentence id="DDI-DrugBank.d665.s3" text="however, the clinical significance of this interaction is not well documented. " new_text="however@@,@@the@@clinical@@significance@@of@@this@@interaction@@is@@not@@well@@documented@@.@@"/>  
+   <sentence id="DDI-DrugBank.d665.s4" text="There are few clinical situations in which the concurrent use of ''static'' and ''cidal '' antibiotics are indicated. " new_text="There@@are@@few@@clinical@@situations@@in@@which@@the@@concurrent@@use@@of@@''static''@@and@@''cidal@@''@@antibiotics@@are@@indicated@@.@@"> 
+      <entity id="DDI-DrugBank.d665.s4.e0" charOffset="91-101" type="group" text="antibiotics" position="15"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d665.s5" text="However, in selected circumstances in which such therapy is appropriate, using adequate doses of antibacterial agents and beginning penicillin therapy first, should minimize the potential for interaction. " new_text="However@@,@@in@@selected@@circumstances@@in@@which@@such@@therapy@@is@@appropriate@@,@@using@@adequate@@doses@@of@@antibacterial@@agents@@and@@beginning@@penicillin@@therapy@@first@@,@@should@@minimize@@the@@potential@@for@@interaction@@.@@"> 
+      <entity id="DDI-DrugBank.d665.s5.e0" charOffset="97-109" type="group" text="antibacterial" position="16"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d665.s6" text="Penicillin blood levels may be prolonged by concurrent administration of probenecid which blocks the renal tubular secretion of penicillins. " new_text="Penicillin@@blood@@levels@@may@@be@@prolonged@@by@@concurrent@@administration@@of@@probenecid@@which@@blocks@@the@@renal@@tubular@@secretion@@of@@penicillins@@.@@"> 
+      <entity id="DDI-DrugBank.d665.s6.e0" charOffset="0-9" type="group" text="Penicillin" position="0"/>  
+      <entity id="DDI-DrugBank.d665.s6.e1" charOffset="73-82" type="drug" text="probenecid" position="10"/>  
+      <entity id="DDI-DrugBank.d665.s6.e2" charOffset="128-138" type="group" text="penicillins" position="18"/>  
+      <pair id="DDI-DrugBank.d665.s6.p0" e1="DDI-DrugBank.d665.s6.e0" e2="DDI-DrugBank.d665.s6.e1" ddi="true" type="mechanism" flags="True" e1_name="Penicillin" e2_name="probenecid" e1_pos="0" e2_pos="10" path="0@@2@@5@@8@@10@@">Penicillin@@@@nn@@levels@@nsubj@@prolonged@@prep_by@@administration@@prep_of@@probenecid</pair>  
+      <pair id="DDI-DrugBank.d665.s6.p1" e1="DDI-DrugBank.d665.s6.e0" e2="DDI-DrugBank.d665.s6.e2" ddi="false" flags="True" e1_name="Penicillin" e2_name="penicillins" e1_pos="0" e2_pos="18" path="0@@2@@5@@8@@12@@16@@18@@">Penicillin@@@@nn@@levels@@nsubj@@prolonged@@prep_by@@administration@@rcmod@@blocks@@dobj@@secretion@@prep_of@@penicillins</pair>  
+      <pair id="DDI-DrugBank.d665.s6.p2" e1="DDI-DrugBank.d665.s6.e1" e2="DDI-DrugBank.d665.s6.e2" ddi="false" flags="True" e1_name="probenecid" e2_name="penicillins" e1_pos="10" e2_pos="18" path="10@@8@@12@@16@@18@@">probenecid@@@@prep_of@@administration@@rcmod@@blocks@@dobj@@secretion@@prep_of@@penicillins</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d665.s7" text="Displacement of penicillin from plasma protein binding sites will elevate the level of free penicillin in the serum." new_text="Displacement@@of@@penicillin@@from@@plasma@@protein@@binding@@sites@@will@@elevate@@the@@level@@of@@free@@penicillin@@in@@the@@serum@@.@@"> 
+      <entity id="DDI-DrugBank.d665.s7.e0" charOffset="16-25" type="group" text="penicillin" position="2"/>  
+      <entity id="DDI-DrugBank.d665.s7.e1" charOffset="92-101" type="group" text="penicillin" position="14"/>  
+      <pair id="DDI-DrugBank.d665.s7.p0" e1="DDI-DrugBank.d665.s7.e0" e2="DDI-DrugBank.d665.s7.e1" ddi="false" flags="True" e1_name="penicillin" e2_name="penicillin" e1_pos="2" e2_pos="14" path="2@@0@@9@@11@@14@@">penicillin@@@@prep_of@@Displacement@@nsubj@@elevate@@dobj@@level@@prep_of@@penicillin</pair> 
+   </sentence> 
+</document>

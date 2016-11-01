@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d433"> 
+   <sentence id="DDI-DrugBank.d433.s0" text="No formal drug interaction studies have been conducted with Rebif ." new_text="No@@formal@@drug@@interaction@@studies@@have@@been@@conducted@@with@@Rebif@@.@@"> 
+      <entity id="DDI-DrugBank.d433.s0.e0" charOffset="60-64" type="brand" text="Rebif" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d433.s1" text="Due to its potential to cause neutropenia and lymphopenia, proper monitoring of patients is required if Rebif  is given in combination with myelosuppressive agents." new_text="Due@@to@@its@@potential@@to@@cause@@neutropenia@@and@@lymphopenia@@,@@proper@@monitoring@@of@@patients@@is@@required@@if@@Rebif@@is@@given@@in@@combination@@with@@myelosuppressive@@agents@@.@@"> 
+      <entity id="DDI-DrugBank.d433.s1.e0" charOffset="104-108" type="brand" text="Rebif" position="17"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d433.s2" text="Also, the potential for hepatic injury should be considered when Rebif  is used in combination with other products associated with hepatic injury, or when new agents are added to the regimen of patients already on Rebif ." new_text="Also@@,@@the@@potential@@for@@hepatic@@injury@@should@@be@@considered@@when@@Rebif@@is@@used@@in@@combination@@with@@other@@products@@associated@@with@@hepatic@@injury@@,@@or@@when@@new@@agents@@are@@added@@to@@the@@regimen@@of@@patients@@already@@on@@Rebif@@.@@"> 
+      <entity id="DDI-DrugBank.d433.s2.e0" charOffset="65-69" type="brand" text="Rebif" position="11"/>  
+      <entity id="DDI-DrugBank.d433.s2.e1" charOffset="214-218" type="brand" text="Rebif" position="37"/>  
+      <pair id="DDI-DrugBank.d433.s2.p0" e1="DDI-DrugBank.d433.s2.e0" e2="DDI-DrugBank.d433.s2.e1" ddi="false" flags="True" e1_name="Rebif" e2_name="Rebif" e1_pos="11" e2_pos="37" path="11@@13@@29@@37@@">Rebif@@@@nsubjpass@@used@@conj_or@@added@@prep_on@@Rebif</pair> 
+   </sentence> 
+</document>

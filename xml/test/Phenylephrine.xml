@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d725"> 
+   <sentence id="DDI-DrugBank.d725.s0" text="Vasopressors, particularly metaraminol, may cause serious cardiac arrhythmias during halothane anesthesia and therefore should be used only with great caution or not at all. " new_text="Vasopressors@@,@@particularly@@metaraminol@@,@@may@@cause@@serious@@cardiac@@arrhythmias@@during@@halothane@@anesthesia@@and@@therefore@@should@@be@@used@@only@@with@@great@@caution@@or@@not@@at@@all@@.@@"> 
+      <entity id="DDI-DrugBank.d725.s0.e0" charOffset="0-11" type="group" text="Vasopressors" position="0"/>  
+      <entity id="DDI-DrugBank.d725.s0.e1" charOffset="27-37" type="drug" text="metaraminol" position="3"/>  
+      <entity id="DDI-DrugBank.d725.s0.e2" charOffset="85-93" type="drug" text="halothane" position="11"/>  
+      <pair id="DDI-DrugBank.d725.s0.p0" e1="DDI-DrugBank.d725.s0.e0" e2="DDI-DrugBank.d725.s0.e1" ddi="false" flags="True" e1_name="Vasopressors" e2_name="metaraminol" e1_pos="0" e2_pos="3" path="0@@3@@">Vasopressors@@@@amod@@metaraminol</pair>  
+      <pair id="DDI-DrugBank.d725.s0.p1" e1="DDI-DrugBank.d725.s0.e0" e2="DDI-DrugBank.d725.s0.e2" ddi="true" type="effect" flags="True" e1_name="Vasopressors" e2_name="halothane" e1_pos="0" e2_pos="11" path="0@@6@@12@@11@@">Vasopressors@@@@nsubj@@cause@@prep_during@@anesthesia@@amod@@halothane</pair>  
+      <pair id="DDI-DrugBank.d725.s0.p2" e1="DDI-DrugBank.d725.s0.e1" e2="DDI-DrugBank.d725.s0.e2" ddi="true" type="effect" flags="True" e1_name="metaraminol" e2_name="halothane" e1_pos="3" e2_pos="11" path="3@@0@@6@@12@@11@@">metaraminol@@@@amod@@Vasopressors@@nsubj@@cause@@prep_during@@anesthesia@@amod@@halothane</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d725.s1" text="MAO Inhibitors: The pressor effect of sympathomimetic pressor amines is markedly potentiated in patients receiving monoamine oxidase inhibitors (MAOI). " new_text="MAO Inhibitors@@:@@The@@pressor@@effect@@of@@sympathomimetic pressor amines@@is@@markedly@@potentiated@@in@@patients@@receiving@@monoamine oxidase inhibitors@@(@@MAOI@@)@@.@@"> 
+      <entity id="DDI-DrugBank.d725.s1.e0" charOffset="0-13" type="group" text="MAO Inhibitors" position="0"/>  
+      <entity id="DDI-DrugBank.d725.s1.e1" charOffset="38-67" type="group" text="sympathomimetic pressor amines" position="6"/>  
+      <entity id="DDI-DrugBank.d725.s1.e2" charOffset="115-142" type="group" text="monoamine oxidase inhibitors" position="13"/>  
+      <entity id="DDI-DrugBank.d725.s1.e3" charOffset="145-148" type="group" text="MAOI" position="15"/>  
+      <pair id="DDI-DrugBank.d725.s1.p0" e1="DDI-DrugBank.d725.s1.e0" e2="DDI-DrugBank.d725.s1.e1" ddi="false" flags="True" e1_name="MAO Inhibitors" e2_name="sympathomimetic pressor amines" e1_pos="0" e2_pos="6" path="0@@9@@4@@6@@">MAO Inhibitors@@@@dep@@potentiated@@nsubj@@effect@@prep_of@@sympathomimetic pressor amines</pair>  
+      <pair id="DDI-DrugBank.d725.s1.p1" e1="DDI-DrugBank.d725.s1.e0" e2="DDI-DrugBank.d725.s1.e2" ddi="false" flags="True" e1_name="MAO Inhibitors" e2_name="monoamine oxidase inhibitors" e1_pos="0" e2_pos="13" path="0@@9@@12@@16@@13@@">MAO Inhibitors@@@@dep@@potentiated@@xcomp@@receiving@@dobj@@)@@amod@@monoamine oxidase inhibitors</pair>  
+      <pair id="DDI-DrugBank.d725.s1.p2" e1="DDI-DrugBank.d725.s1.e0" e2="DDI-DrugBank.d725.s1.e3" ddi="false" flags="True" e1_name="MAO Inhibitors" e2_name="MAOI" e1_pos="0" e2_pos="15" path="0@@9@@12@@16@@15@@">MAO Inhibitors@@@@dep@@potentiated@@xcomp@@receiving@@dobj@@)@@nn@@MAOI</pair>  
+      <pair id="DDI-DrugBank.d725.s1.p3" e1="DDI-DrugBank.d725.s1.e1" e2="DDI-DrugBank.d725.s1.e2" ddi="true" type="effect" flags="True" e1_name="sympathomimetic pressor amines" e2_name="monoamine oxidase inhibitors" e1_pos="6" e2_pos="13" path="6@@4@@9@@12@@16@@13@@">sympathomimetic pressor amines@@@@prep_of@@effect@@nsubj@@potentiated@@xcomp@@receiving@@dobj@@)@@amod@@monoamine oxidase inhibitors</pair>  
+      <pair id="DDI-DrugBank.d725.s1.p4" e1="DDI-DrugBank.d725.s1.e1" e2="DDI-DrugBank.d725.s1.e3" ddi="true" type="effect" flags="True" e1_name="sympathomimetic pressor amines" e2_name="MAOI" e1_pos="6" e2_pos="15" path="6@@4@@9@@12@@16@@15@@">sympathomimetic pressor amines@@@@prep_of@@effect@@nsubj@@potentiated@@xcomp@@receiving@@dobj@@)@@nn@@MAOI</pair>  
+      <pair id="DDI-DrugBank.d725.s1.p5" e1="DDI-DrugBank.d725.s1.e2" e2="DDI-DrugBank.d725.s1.e3" ddi="false" flags="True" e1_name="monoamine oxidase inhibitors" e2_name="MAOI" e1_pos="13" e2_pos="15" path="13@@16@@15@@">monoamine oxidase inhibitors@@@@amod@@)@@nn@@MAOI</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d725.s2" text="Therefore, when initiating pressor therapy in these patients, the initial dose should be small and used with due caution. " new_text="Therefore@@,@@when@@initiating@@pressor@@therapy@@in@@these@@patients@@,@@the@@initial@@dose@@should@@be@@small@@and@@used@@with@@due@@caution@@.@@"/>  
+   <sentence id="DDI-DrugBank.d725.s3" text="The pressor response of adrenergic agents may also be potentiated by tricyclic antidepressants." new_text="The@@pressor@@response@@of@@adrenergic agents@@may@@also@@be@@potentiated@@by@@tricyclic antidepressants@@.@@"> 
+      <entity id="DDI-DrugBank.d725.s3.e0" charOffset="24-40" type="group" text="adrenergic agents" position="4"/>  
+      <entity id="DDI-DrugBank.d725.s3.e1" charOffset="69-93" type="group" text="tricyclic antidepressants" position="10"/>  
+      <pair id="DDI-DrugBank.d725.s3.p0" e1="DDI-DrugBank.d725.s3.e0" e2="DDI-DrugBank.d725.s3.e1" ddi="true" type="effect" flags="True" e1_name="adrenergic agents" e2_name="tricyclic antidepressants" e1_pos="4" e2_pos="10" path="4@@2@@8@@10@@">adrenergic agents@@@@prep_of@@response@@nsubjpass@@potentiated@@agent@@tricyclic antidepressants</pair> 
+   </sentence> 
+</document>

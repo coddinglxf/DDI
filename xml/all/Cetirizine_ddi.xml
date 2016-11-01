@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d393"> 
+   <sentence id="DDI-DrugBank.d393.s0" text="Pharmacokinetic interaction studies with cetirizine in adults were conducted with pseudoephedrine, antipyrine, ketoconazole, erythromycin and azithromycin." new_text="Pharmacokinetic@@interaction@@studies@@with@@cetirizine@@in@@adults@@were@@conducted@@with@@pseudoephedrine@@,@@antipyrine@@,@@ketoconazole@@,@@erythromycin@@and@@azithromycin@@.@@"> 
+      <entity id="DDI-DrugBank.d393.s0.e0" charOffset="41-50" type="drug" text="cetirizine" position="4"/>  
+      <entity id="DDI-DrugBank.d393.s0.e1" charOffset="82-96" type="drug" text="pseudoephedrine" position="10"/>  
+      <entity id="DDI-DrugBank.d393.s0.e2" charOffset="99-108" type="drug" text="antipyrine" position="12"/>  
+      <entity id="DDI-DrugBank.d393.s0.e3" charOffset="111-122" type="drug" text="ketoconazole" position="14"/>  
+      <entity id="DDI-DrugBank.d393.s0.e4" charOffset="125-136" type="drug" text="erythromycin" position="16"/>  
+      <entity id="DDI-DrugBank.d393.s0.e5" charOffset="142-153" type="drug" text="azithromycin" position="18"/>  
+      <pair id="DDI-DrugBank.d393.s0.p0" e1="DDI-DrugBank.d393.s0.e0" e2="DDI-DrugBank.d393.s0.e1" ddi="false" flags="True" e1_name="cetirizine" e2_name="pseudoephedrine" e1_pos="4" e2_pos="10" path="4@@2@@8@@10@@">cetirizine@@@@prep_with@@studies@@nsubjpass@@conducted@@prep_with@@pseudoephedrine</pair>  
+      <pair id="DDI-DrugBank.d393.s0.p1" e1="DDI-DrugBank.d393.s0.e0" e2="DDI-DrugBank.d393.s0.e2" ddi="false" flags="True" e1_name="cetirizine" e2_name="antipyrine" e1_pos="4" e2_pos="12" path="4@@2@@8@@12@@">cetirizine@@@@prep_with@@studies@@nsubjpass@@conducted@@prep_with@@antipyrine</pair>  
+      <pair id="DDI-DrugBank.d393.s0.p2" e1="DDI-DrugBank.d393.s0.e0" e2="DDI-DrugBank.d393.s0.e3" ddi="false" flags="True" e1_name="cetirizine" e2_name="ketoconazole" e1_pos="4" e2_pos="14" path="4@@2@@8@@14@@">cetirizine@@@@prep_with@@studies@@nsubjpass@@conducted@@prep_with@@ketoconazole</pair>  
+      <pair id="DDI-DrugBank.d393.s0.p3" e1="DDI-DrugBank.d393.s0.e0" e2="DDI-DrugBank.d393.s0.e4" ddi="false" flags="True" e1_name="cetirizine" e2_name="erythromycin" e1_pos="4" e2_pos="16" path="4@@2@@8@@16@@">cetirizine@@@@prep_with@@studies@@nsubjpass@@conducted@@prep_with@@erythromycin</pair>  
+      <pair id="DDI-DrugBank.d393.s0.p4" e1="DDI-DrugBank.d393.s0.e0" e2="DDI-DrugBank.d393.s0.e5" ddi="false" flags="True" e1_name="cetirizine" e2_name="azithromycin" e1_pos="4" e2_pos="18" path="4@@2@@8@@18@@">cetirizine@@@@prep_with@@studies@@nsubjpass@@conducted@@prep_with@@azithromycin</pair>  
+      <pair id="DDI-DrugBank.d393.s0.p5" e1="DDI-DrugBank.d393.s0.e1" e2="DDI-DrugBank.d393.s0.e2" ddi="false" flags="True" e1_name="pseudoephedrine" e2_name="antipyrine" e1_pos="10" e2_pos="12" path="10@@12@@">pseudoephedrine@@@@conj_and@@antipyrine</pair>  
+      <pair id="DDI-DrugBank.d393.s0.p6" e1="DDI-DrugBank.d393.s0.e1" e2="DDI-DrugBank.d393.s0.e3" ddi="false" flags="True" e1_name="pseudoephedrine" e2_name="ketoconazole" e1_pos="10" e2_pos="14" path="10@@14@@">pseudoephedrine@@@@conj_and@@ketoconazole</pair>  
+      <pair id="DDI-DrugBank.d393.s0.p7" e1="DDI-DrugBank.d393.s0.e1" e2="DDI-DrugBank.d393.s0.e4" ddi="false" flags="True" e1_name="pseudoephedrine" e2_name="erythromycin" e1_pos="10" e2_pos="16" path="10@@16@@">pseudoephedrine@@@@conj_and@@erythromycin</pair>  
+      <pair id="DDI-DrugBank.d393.s0.p8" e1="DDI-DrugBank.d393.s0.e1" e2="DDI-DrugBank.d393.s0.e5" ddi="false" flags="True" e1_name="pseudoephedrine" e2_name="azithromycin" e1_pos="10" e2_pos="18" path="10@@18@@">pseudoephedrine@@@@conj_and@@azithromycin</pair>  
+      <pair id="DDI-DrugBank.d393.s0.p9" e1="DDI-DrugBank.d393.s0.e2" e2="DDI-DrugBank.d393.s0.e3" ddi="false" flags="True" e1_name="antipyrine" e2_name="ketoconazole" e1_pos="12" e2_pos="14" path="12@@8@@14@@">antipyrine@@@@prep_with@@conducted@@prep_with@@ketoconazole</pair>  
+      <pair id="DDI-DrugBank.d393.s0.p10" e1="DDI-DrugBank.d393.s0.e2" e2="DDI-DrugBank.d393.s0.e4" ddi="false" flags="True" e1_name="antipyrine" e2_name="erythromycin" e1_pos="12" e2_pos="16" path="12@@8@@16@@">antipyrine@@@@prep_with@@conducted@@prep_with@@erythromycin</pair>  
+      <pair id="DDI-DrugBank.d393.s0.p11" e1="DDI-DrugBank.d393.s0.e2" e2="DDI-DrugBank.d393.s0.e5" ddi="false" flags="True" e1_name="antipyrine" e2_name="azithromycin" e1_pos="12" e2_pos="18" path="12@@8@@18@@">antipyrine@@@@prep_with@@conducted@@prep_with@@azithromycin</pair>  
+      <pair id="DDI-DrugBank.d393.s0.p12" e1="DDI-DrugBank.d393.s0.e3" e2="DDI-DrugBank.d393.s0.e4" ddi="false" flags="True" e1_name="ketoconazole" e2_name="erythromycin" e1_pos="14" e2_pos="16" path="14@@8@@16@@">ketoconazole@@@@prep_with@@conducted@@prep_with@@erythromycin</pair>  
+      <pair id="DDI-DrugBank.d393.s0.p13" e1="DDI-DrugBank.d393.s0.e3" e2="DDI-DrugBank.d393.s0.e5" ddi="false" flags="True" e1_name="ketoconazole" e2_name="azithromycin" e1_pos="14" e2_pos="18" path="14@@8@@18@@">ketoconazole@@@@prep_with@@conducted@@prep_with@@azithromycin</pair>  
+      <pair id="DDI-DrugBank.d393.s0.p14" e1="DDI-DrugBank.d393.s0.e4" e2="DDI-DrugBank.d393.s0.e5" ddi="false" flags="True" e1_name="erythromycin" e2_name="azithromycin" e1_pos="16" e2_pos="18" path="16@@8@@18@@">erythromycin@@@@prep_with@@conducted@@prep_with@@azithromycin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d393.s1" text="No interactions were observed." new_text="No@@interactions@@were@@observed@@.@@"/>  
+   <sentence id="DDI-DrugBank.d393.s2" text="In a multiple dose study of theophylline (400 mg once daily for 3 days) and cetirizine (20 mg once daily for 3 days), a 16% decrease in the clearance of cetirizine was observed." new_text="In@@a@@multiple@@dose@@study@@of@@theophylline@@(400@@mg@@once@@daily@@for@@3@@days)@@and@@cetirizine@@(20@@mg@@once@@daily@@for@@3@@days)@@,@@a@@16%@@decrease@@in@@the@@clearance@@of@@cetirizine@@was@@observed@@.@@"> 
+      <entity id="DDI-DrugBank.d393.s2.e0" charOffset="28-39" type="drug" text="theophylline" position="6"/>  
+      <entity id="DDI-DrugBank.d393.s2.e1" charOffset="76-85" type="drug" text="cetirizine" position="15"/>  
+      <entity id="DDI-DrugBank.d393.s2.e2" charOffset="153-162" type="drug" text="cetirizine" position="31"/>  
+      <pair id="DDI-DrugBank.d393.s2.p0" e1="DDI-DrugBank.d393.s2.e0" e2="DDI-DrugBank.d393.s2.e1" ddi="true" type="mechanism" flags="True" e1_name="theophylline" e2_name="cetirizine" e1_pos="6" e2_pos="15" path="6@@8@@10@@17@@15@@">theophylline@@@@amod@@mg@@advmod@@daily@@prep_for@@mg@@nn@@cetirizine</pair>  
+      <pair id="DDI-DrugBank.d393.s2.p1" e1="DDI-DrugBank.d393.s2.e0" e2="DDI-DrugBank.d393.s2.e2" ddi="false" flags="True" e1_name="theophylline" e2_name="cetirizine" e1_pos="6" e2_pos="31" path="6@@8@@4@@33@@26@@29@@31@@">theophylline@@@@amod@@mg@@prep_of@@study@@prep_in@@observed@@nsubj@@decrease@@prep_in@@clearance@@prep_of@@cetirizine</pair>  
+      <pair id="DDI-DrugBank.d393.s2.p2" e1="DDI-DrugBank.d393.s2.e1" e2="DDI-DrugBank.d393.s2.e2" ddi="false" flags="True" e1_name="cetirizine" e2_name="cetirizine" e1_pos="15" e2_pos="31" path="15@@17@@10@@8@@4@@33@@26@@29@@31@@">cetirizine@@@@nn@@mg@@prep_for@@daily@@advmod@@mg@@prep_of@@study@@prep_in@@observed@@nsubj@@decrease@@prep_in@@clearance@@prep_of@@cetirizine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d393.s3" text="The disposition of theophylline was not altered by concomitant cetirizine administration." new_text="The@@disposition@@of@@theophylline@@was@@not@@altered@@by@@concomitant@@cetirizine@@administration@@.@@"> 
+      <entity id="DDI-DrugBank.d393.s3.e0" charOffset="19-30" type="drug" text="theophylline" position="3"/>  
+      <entity id="DDI-DrugBank.d393.s3.e1" charOffset="63-72" type="drug" text="cetirizine" position="9"/>  
+      <pair id="DDI-DrugBank.d393.s3.p0" e1="DDI-DrugBank.d393.s3.e0" e2="DDI-DrugBank.d393.s3.e1" ddi="false" flags="True" e1_name="theophylline" e2_name="cetirizine" e1_pos="3" e2_pos="9" path="3@@1@@6@@10@@9@@">theophylline@@@@prep_of@@disposition@@nsubjpass@@altered@@agent@@administration@@nn@@cetirizine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d393.s4" text="Drug-Drug Interactions: No clinically significant drug interactions have been found with theophylline at a low dose, azithromycin, pseudoephedrine, ketoconazole, or erythromycin." new_text="Drug-Drug@@Interactions@@:@@No@@clinically@@significant@@drug@@interactions@@have@@been@@found@@with@@theophylline@@at@@a@@low@@dose@@,@@azithromycin@@,@@pseudoephedrine@@,@@ketoconazole@@,@@or@@erythromycin@@.@@"> 
+      <entity id="DDI-DrugBank.d393.s4.e0" charOffset="89-100" type="drug" text="theophylline" position="12"/>  
+      <entity id="DDI-DrugBank.d393.s4.e1" charOffset="117-128" type="drug" text="azithromycin" position="18"/>  
+      <entity id="DDI-DrugBank.d393.s4.e2" charOffset="131-145" type="drug" text="pseudoephedrine" position="20"/>  
+      <entity id="DDI-DrugBank.d393.s4.e3" charOffset="148-159" type="drug" text="ketoconazole" position="22"/>  
+      <entity id="DDI-DrugBank.d393.s4.e4" charOffset="165-176" type="drug" text="erythromycin" position="25"/>  
+      <pair id="DDI-DrugBank.d393.s4.p0" e1="DDI-DrugBank.d393.s4.e0" e2="DDI-DrugBank.d393.s4.e1" ddi="false" flags="True" e1_name="theophylline" e2_name="azithromycin" e1_pos="12" e2_pos="18" path="12@@10@@16@@18@@">theophylline@@@@prep_with@@found@@prep_at@@dose@@appos@@azithromycin</pair>  
+      <pair id="DDI-DrugBank.d393.s4.p1" e1="DDI-DrugBank.d393.s4.e0" e2="DDI-DrugBank.d393.s4.e2" ddi="false" flags="True" e1_name="theophylline" e2_name="pseudoephedrine" e1_pos="12" e2_pos="20" path="12@@10@@16@@20@@">theophylline@@@@prep_with@@found@@prep_at@@dose@@appos@@pseudoephedrine</pair>  
+      <pair id="DDI-DrugBank.d393.s4.p2" e1="DDI-DrugBank.d393.s4.e0" e2="DDI-DrugBank.d393.s4.e3" ddi="false" flags="True" e1_name="theophylline" e2_name="ketoconazole" e1_pos="12" e2_pos="22" path="12@@10@@16@@22@@">theophylline@@@@prep_with@@found@@prep_at@@dose@@appos@@ketoconazole</pair>  
+      <pair id="DDI-DrugBank.d393.s4.p3" e1="DDI-DrugBank.d393.s4.e0" e2="DDI-DrugBank.d393.s4.e4" ddi="false" flags="True" e1_name="theophylline" e2_name="erythromycin" e1_pos="12" e2_pos="25" path="12@@10@@16@@25@@">theophylline@@@@prep_with@@found@@prep_at@@dose@@appos@@erythromycin</pair>  
+      <pair id="DDI-DrugBank.d393.s4.p4" e1="DDI-DrugBank.d393.s4.e1" e2="DDI-DrugBank.d393.s4.e2" ddi="false" flags="True" e1_name="azithromycin" e2_name="pseudoephedrine" e1_pos="18" e2_pos="20" path="18@@20@@">azithromycin@@@@conj_or@@pseudoephedrine</pair>  
+      <pair id="DDI-DrugBank.d393.s4.p5" e1="DDI-DrugBank.d393.s4.e1" e2="DDI-DrugBank.d393.s4.e3" ddi="false" flags="True" e1_name="azithromycin" e2_name="ketoconazole" e1_pos="18" e2_pos="22" path="18@@22@@">azithromycin@@@@conj_or@@ketoconazole</pair>  
+      <pair id="DDI-DrugBank.d393.s4.p6" e1="DDI-DrugBank.d393.s4.e1" e2="DDI-DrugBank.d393.s4.e4" ddi="false" flags="True" e1_name="azithromycin" e2_name="erythromycin" e1_pos="18" e2_pos="25" path="18@@25@@">azithromycin@@@@conj_or@@erythromycin</pair>  
+      <pair id="DDI-DrugBank.d393.s4.p7" e1="DDI-DrugBank.d393.s4.e2" e2="DDI-DrugBank.d393.s4.e3" ddi="false" flags="True" e1_name="pseudoephedrine" e2_name="ketoconazole" e1_pos="20" e2_pos="22" path="20@@16@@22@@">pseudoephedrine@@@@appos@@dose@@appos@@ketoconazole</pair>  
+      <pair id="DDI-DrugBank.d393.s4.p8" e1="DDI-DrugBank.d393.s4.e2" e2="DDI-DrugBank.d393.s4.e4" ddi="false" flags="True" e1_name="pseudoephedrine" e2_name="erythromycin" e1_pos="20" e2_pos="25" path="20@@16@@25@@">pseudoephedrine@@@@appos@@dose@@appos@@erythromycin</pair>  
+      <pair id="DDI-DrugBank.d393.s4.p9" e1="DDI-DrugBank.d393.s4.e3" e2="DDI-DrugBank.d393.s4.e4" ddi="false" flags="True" e1_name="ketoconazole" e2_name="erythromycin" e1_pos="22" e2_pos="25" path="22@@16@@25@@">ketoconazole@@@@appos@@dose@@appos@@erythromycin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d393.s5" text="There was a small decrease in the clearance of cetirizine caused by a 400-mg dose of theophylline;" new_text="There@@was@@a@@small@@decrease@@in@@the@@clearance@@of@@cetirizine@@caused@@by@@a@@400-mg@@dose@@of@@theophylline@@;@@"> 
+      <entity id="DDI-DrugBank.d393.s5.e0" charOffset="47-56" type="drug" text="cetirizine" position="9"/>  
+      <entity id="DDI-DrugBank.d393.s5.e1" charOffset="85-96" type="drug" text="theophylline" position="16"/>  
+      <pair id="DDI-DrugBank.d393.s5.p0" e1="DDI-DrugBank.d393.s5.e0" e2="DDI-DrugBank.d393.s5.e1" ddi="true" type="mechanism" flags="True" e1_name="cetirizine" e2_name="theophylline" e1_pos="9" e2_pos="16" path="9@@10@@14@@16@@">cetirizine@@@@partmod@@caused@@agent@@dose@@prep_of@@theophylline</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d393.s6" text="it is possible that larger theophylline doses could have a greater effect." new_text="it@@is@@possible@@that@@larger@@theophylline@@doses@@could@@have@@a@@greater@@effect@@.@@"> 
+      <entity id="DDI-DrugBank.d393.s6.e0" charOffset="27-38" type="drug" text="theophylline" position="5"/> 
+   </sentence> 
+</document>

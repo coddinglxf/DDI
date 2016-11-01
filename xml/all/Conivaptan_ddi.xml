@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d315"> 
+   <sentence id="DDI-DrugBank.d315.s0" text="Digoxin: Coadministration of digoxin, a P-glycoprotein substrate, with oral conivaptan resulted in a reduction in clearance and an increase in digoxin Cmax and AUC values." new_text="Digoxin@@:@@Coadministration@@of@@digoxin@@,@@a@@P-glycoprotein@@substrate@@,@@with@@oral@@conivaptan@@resulted@@in@@a@@reduction@@in@@clearance@@and@@an@@increase@@in@@digoxin@@Cmax@@and@@AUC@@values@@.@@"> 
+      <entity id="DDI-DrugBank.d315.s0.e0" charOffset="0-6" type="drug" text="Digoxin" position="0"/>  
+      <entity id="DDI-DrugBank.d315.s0.e1" charOffset="29-35" type="drug" text="digoxin" position="4"/>  
+      <entity id="DDI-DrugBank.d315.s0.e2" charOffset="76-85" type="drug" text="conivaptan" position="12"/>  
+      <entity id="DDI-DrugBank.d315.s0.e3" charOffset="143-149" type="drug" text="digoxin" position="23"/>  
+      <pair id="DDI-DrugBank.d315.s0.p0" e1="DDI-DrugBank.d315.s0.e0" e2="DDI-DrugBank.d315.s0.e1" ddi="false" flags="True" e1_name="Digoxin" e2_name="digoxin" e1_pos="0" e2_pos="4" path="0@@2@@4@@">Digoxin@@@@dep@@Coadministration@@prep_of@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d315.s0.p1" e1="DDI-DrugBank.d315.s0.e0" e2="DDI-DrugBank.d315.s0.e2" ddi="false" flags="True" e1_name="Digoxin" e2_name="conivaptan" e1_pos="0" e2_pos="12" path="0@@2@@12@@">Digoxin@@@@dep@@Coadministration@@prep_with@@conivaptan</pair>  
+      <pair id="DDI-DrugBank.d315.s0.p2" e1="DDI-DrugBank.d315.s0.e0" e2="DDI-DrugBank.d315.s0.e3" ddi="false" flags="True" e1_name="Digoxin" e2_name="digoxin" e1_pos="0" e2_pos="23" path="0@@2@@12@@13@@21@@24@@23@@">Digoxin@@@@dep@@Coadministration@@prep_with@@conivaptan@@partmod@@resulted@@prep_in@@increase@@prep_in@@Cmax@@amod@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d315.s0.p3" e1="DDI-DrugBank.d315.s0.e1" e2="DDI-DrugBank.d315.s0.e2" ddi="true" type="mechanism" flags="True" e1_name="digoxin" e2_name="conivaptan" e1_pos="4" e2_pos="12" path="4@@2@@12@@">digoxin@@@@prep_of@@Coadministration@@prep_with@@conivaptan</pair>  
+      <pair id="DDI-DrugBank.d315.s0.p4" e1="DDI-DrugBank.d315.s0.e1" e2="DDI-DrugBank.d315.s0.e3" ddi="false" flags="True" e1_name="digoxin" e2_name="digoxin" e1_pos="4" e2_pos="23" path="4@@2@@12@@13@@21@@24@@23@@">digoxin@@@@prep_of@@Coadministration@@prep_with@@conivaptan@@partmod@@resulted@@prep_in@@increase@@prep_in@@Cmax@@amod@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d315.s0.p5" e1="DDI-DrugBank.d315.s0.e2" e2="DDI-DrugBank.d315.s0.e3" ddi="false" flags="True" e1_name="conivaptan" e2_name="digoxin" e1_pos="12" e2_pos="23" path="12@@13@@21@@24@@23@@">conivaptan@@@@partmod@@resulted@@prep_in@@increase@@prep_in@@Cmax@@amod@@digoxin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d315.s1" text="Therefore, if digoxin is administered with VAPRISOL, the clinician should be alert to the possibility of increases in digoxin levels." new_text="Therefore@@,@@if@@digoxin@@is@@administered@@with@@VAPRISOL@@,@@the@@clinician@@should@@be@@alert@@to@@the@@possibility@@of@@increases@@in@@digoxin@@levels@@.@@"> 
+      <entity id="DDI-DrugBank.d315.s1.e0" charOffset="14-20" type="drug" text="digoxin" position="3"/>  
+      <entity id="DDI-DrugBank.d315.s1.e1" charOffset="43-50" type="brand" text="VAPRISOL" position="7"/>  
+      <entity id="DDI-DrugBank.d315.s1.e2" charOffset="118-124" type="drug" text="digoxin" position="20"/>  
+      <pair id="DDI-DrugBank.d315.s1.p0" e1="DDI-DrugBank.d315.s1.e0" e2="DDI-DrugBank.d315.s1.e1" ddi="true" type="mechanism" flags="True" e1_name="digoxin" e2_name="VAPRISOL" e1_pos="3" e2_pos="7" path="3@@5@@7@@">digoxin@@@@nsubjpass@@administered@@prep_with@@VAPRISOL</pair>  
+      <pair id="DDI-DrugBank.d315.s1.p1" e1="DDI-DrugBank.d315.s1.e0" e2="DDI-DrugBank.d315.s1.e2" ddi="false" flags="True" e1_name="digoxin" e2_name="digoxin" e1_pos="3" e2_pos="20" path="3@@5@@13@@16@@18@@21@@20@@">digoxin@@@@nsubjpass@@administered@@advcl@@alert@@prep_to@@possibility@@prep_of@@increases@@prep_in@@levels@@nn@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d315.s1.p2" e1="DDI-DrugBank.d315.s1.e1" e2="DDI-DrugBank.d315.s1.e2" ddi="false" flags="True" e1_name="VAPRISOL" e2_name="digoxin" e1_pos="7" e2_pos="20" path="7@@5@@13@@16@@18@@21@@20@@">VAPRISOL@@@@prep_with@@administered@@advcl@@alert@@prep_to@@possibility@@prep_of@@increases@@prep_in@@levels@@nn@@digoxin</pair> 
+   </sentence> 
+</document>

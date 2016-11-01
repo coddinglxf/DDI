@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d728"> 
+   <sentence id="DDI-DrugBank.d728.s0" text="No specific cytochrome P450-based drug interaction studies have been conducted. " new_text="No@@specific@@cytochrome@@P450-based@@drug@@interaction@@studies@@have@@been@@conducted@@.@@"/>  
+   <sentence id="DDI-DrugBank.d728.s1" text="No pharmacokinetic interaction between 85 mg/m2 ELOXATIN and infusional 5-FU has been observed in patients treated every 2 weeks. " new_text="No@@pharmacokinetic@@interaction@@between@@85@@mg/m2@@ELOXATIN@@and@@infusional@@5-FU@@has@@been@@observed@@in@@patients@@treated@@every@@2@@weeks@@.@@"> 
+      <entity id="DDI-DrugBank.d728.s1.e0" charOffset="48-55" type="brand" text="ELOXATIN" position="6"/>  
+      <entity id="DDI-DrugBank.d728.s1.e1" charOffset="72-75" type="drug" text="5-FU" position="9"/>  
+      <pair id="DDI-DrugBank.d728.s1.p0" e1="DDI-DrugBank.d728.s1.e0" e2="DDI-DrugBank.d728.s1.e1" ddi="false" flags="True" e1_name="ELOXATIN" e2_name="5-FU" e1_pos="6" e2_pos="9" path="6@@8@@9@@">ELOXATIN@@@@conj_and@@infusional@@num@@5-FU</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d728.s2" text="Increases of 5-FU plasma concentrations by approximately 20% have been observed with doses of 130 mg/m2 ELOXATIN dosed every 3 weeks. " new_text="Increases@@of@@5-FU@@plasma@@concentrations@@by@@approximately@@20%@@have@@been@@observed@@with@@doses@@of@@130@@mg/m2@@ELOXATIN@@dosed@@every@@3@@weeks@@.@@"> 
+      <entity id="DDI-DrugBank.d728.s2.e0" charOffset="13-16" type="drug" text="5-FU" position="2"/>  
+      <entity id="DDI-DrugBank.d728.s2.e1" charOffset="104-111" type="brand" text="ELOXATIN" position="16"/>  
+      <pair id="DDI-DrugBank.d728.s2.p0" e1="DDI-DrugBank.d728.s2.e0" e2="DDI-DrugBank.d728.s2.e1" ddi="true" type="mechanism" flags="True" e1_name="5-FU" e2_name="ELOXATIN" e1_pos="2" e2_pos="16" path="2@@4@@0@@10@@12@@16@@">5-FU@@@@num@@concentrations@@prep_of@@Increases@@nsubjpass@@observed@@prep_with@@doses@@prep_of@@ELOXATIN</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d728.s3" text="Since platinum containing species are eliminated primarily through the kidney, clearance of these products may be decreased by coadministration of potentially nephrotoxic compounds; " new_text="Since@@platinum@@containing@@species@@are@@eliminated@@primarily@@through@@the@@kidney@@,@@clearance@@of@@these@@products@@may@@be@@decreased@@by@@coadministration@@of@@potentially@@nephrotoxic@@compounds;@@"/>  
+   <sentence id="DDI-DrugBank.d728.s4" text="although, this has not been specifically studied." new_text="although@@,@@this@@has@@not@@been@@specifically@@studied@@.@@"/> 
+</document>

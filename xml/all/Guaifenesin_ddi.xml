@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d398"> 
+   <sentence id="DDI-DrugBank.d398.s0" text="The use of codeine may result in additive CNS depressant effects when coadministered with alcohol, antihistamines, psychotropics or other drugs that produce CNS depression." new_text="The@@use@@of@@codeine@@may@@result@@in@@additive@@CNS@@depressant@@effects@@when@@coadministered@@with@@alcohol@@,@@antihistamines@@,@@psychotropics@@or@@other@@drugs@@that@@produce@@CNS@@depression@@.@@"> 
+      <entity id="DDI-DrugBank.d398.s0.e0" charOffset="11-17" type="drug" text="codeine" position="3"/>  
+      <entity id="DDI-DrugBank.d398.s0.e1" charOffset="90-96" type="drug" text="alcohol" position="14"/>  
+      <entity id="DDI-DrugBank.d398.s0.e2" charOffset="99-112" type="group" text="antihistamines" position="16"/>  
+      <entity id="DDI-DrugBank.d398.s0.e3" charOffset="115-127" type="group" text="psychotropics" position="18"/>  
+      <pair id="DDI-DrugBank.d398.s0.p0" e1="DDI-DrugBank.d398.s0.e0" e2="DDI-DrugBank.d398.s0.e1" ddi="true" type="effect" flags="True" e1_name="codeine" e2_name="alcohol" e1_pos="3" e2_pos="14" path="3@@1@@5@@12@@14@@">codeine@@@@prep_of@@use@@nsubj@@result@@advcl@@coadministered@@prep_with@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d398.s0.p1" e1="DDI-DrugBank.d398.s0.e0" e2="DDI-DrugBank.d398.s0.e2" ddi="true" type="effect" flags="True" e1_name="codeine" e2_name="antihistamines" e1_pos="3" e2_pos="16" path="3@@1@@5@@12@@16@@">codeine@@@@prep_of@@use@@nsubj@@result@@advcl@@coadministered@@prep_with@@antihistamines</pair>  
+      <pair id="DDI-DrugBank.d398.s0.p2" e1="DDI-DrugBank.d398.s0.e0" e2="DDI-DrugBank.d398.s0.e3" ddi="true" type="effect" flags="True" e1_name="codeine" e2_name="psychotropics" e1_pos="3" e2_pos="18" path="3@@1@@5@@12@@18@@">codeine@@@@prep_of@@use@@nsubj@@result@@advcl@@coadministered@@prep_with@@psychotropics</pair>  
+      <pair id="DDI-DrugBank.d398.s0.p3" e1="DDI-DrugBank.d398.s0.e1" e2="DDI-DrugBank.d398.s0.e2" ddi="false" flags="True" e1_name="alcohol" e2_name="antihistamines" e1_pos="14" e2_pos="16" path="14@@16@@">alcohol@@@@conj_or@@antihistamines</pair>  
+      <pair id="DDI-DrugBank.d398.s0.p4" e1="DDI-DrugBank.d398.s0.e1" e2="DDI-DrugBank.d398.s0.e3" ddi="false" flags="True" e1_name="alcohol" e2_name="psychotropics" e1_pos="14" e2_pos="18" path="14@@18@@">alcohol@@@@conj_or@@psychotropics</pair>  
+      <pair id="DDI-DrugBank.d398.s0.p5" e1="DDI-DrugBank.d398.s0.e2" e2="DDI-DrugBank.d398.s0.e3" ddi="false" flags="True" e1_name="antihistamines" e2_name="psychotropics" e1_pos="16" e2_pos="18" path="16@@12@@18@@">antihistamines@@@@prep_with@@coadministered@@prep_with@@psychotropics</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d398.s1" text="Serious toxicity may result if dextromethorphan is coadministered with monoamine oxidase inhibitors (MAOIs)." new_text="Serious@@toxicity@@may@@result@@if@@dextromethorphan@@is@@coadministered@@with@@monoamine oxidase inhibitors@@(@@MAOIs@@)@@.@@"> 
+      <entity id="DDI-DrugBank.d398.s1.e0" charOffset="31-46" type="drug" text="dextromethorphan" position="5"/>  
+      <entity id="DDI-DrugBank.d398.s1.e1" charOffset="71-98" type="group" text="monoamine oxidase inhibitors" position="9"/>  
+      <entity id="DDI-DrugBank.d398.s1.e2" charOffset="101-105" type="group" text="MAOIs" position="11"/>  
+      <pair id="DDI-DrugBank.d398.s1.p0" e1="DDI-DrugBank.d398.s1.e0" e2="DDI-DrugBank.d398.s1.e1" ddi="true" type="effect" flags="True" e1_name="dextromethorphan" e2_name="monoamine oxidase inhibitors" e1_pos="5" e2_pos="9" path="5@@7@@12@@9@@">dextromethorphan@@@@nsubjpass@@coadministered@@prep_with@@)@@nn@@monoamine oxidase inhibitors</pair>  
+      <pair id="DDI-DrugBank.d398.s1.p1" e1="DDI-DrugBank.d398.s1.e0" e2="DDI-DrugBank.d398.s1.e2" ddi="true" type="effect" flags="True" e1_name="dextromethorphan" e2_name="MAOIs" e1_pos="5" e2_pos="11" path="5@@7@@12@@11@@">dextromethorphan@@@@nsubjpass@@coadministered@@prep_with@@)@@nn@@MAOIs</pair>  
+      <pair id="DDI-DrugBank.d398.s1.p2" e1="DDI-DrugBank.d398.s1.e1" e2="DDI-DrugBank.d398.s1.e2" ddi="false" flags="True" e1_name="monoamine oxidase inhibitors" e2_name="MAOIs" e1_pos="9" e2_pos="11" path="9@@12@@11@@">monoamine oxidase inhibitors@@@@nn@@)@@nn@@MAOIs</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d398.s2" text="The use of dextromethorphan hydrobromide may result in additive CNS depressant effects when coadministered with alcohol, antihistamines, psychotropics or other drugs that produce CNS depression." new_text="The@@use@@of@@dextromethorphan hydrobromide@@may@@result@@in@@additive@@CNS@@depressant@@effects@@when@@coadministered@@with@@alcohol@@,@@antihistamines@@,@@psychotropics@@or@@other@@drugs@@that@@produce@@CNS@@depression@@.@@"> 
+      <entity id="DDI-DrugBank.d398.s2.e0" charOffset="11-39" type="drug" text="dextromethorphan hydrobromide" position="3"/>  
+      <entity id="DDI-DrugBank.d398.s2.e1" charOffset="112-118" type="drug" text="alcohol" position="14"/>  
+      <entity id="DDI-DrugBank.d398.s2.e2" charOffset="121-134" type="group" text="antihistamines" position="16"/>  
+      <entity id="DDI-DrugBank.d398.s2.e3" charOffset="137-149" type="group" text="psychotropics" position="18"/>  
+      <pair id="DDI-DrugBank.d398.s2.p0" e1="DDI-DrugBank.d398.s2.e0" e2="DDI-DrugBank.d398.s2.e1" ddi="true" type="effect" flags="True" e1_name="dextromethorphan hydrobromide" e2_name="alcohol" e1_pos="3" e2_pos="14" path="3@@1@@5@@12@@14@@">dextromethorphan hydrobromide@@@@prep_of@@use@@nsubj@@result@@advcl@@coadministered@@prep_with@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d398.s2.p1" e1="DDI-DrugBank.d398.s2.e0" e2="DDI-DrugBank.d398.s2.e2" ddi="true" type="effect" flags="True" e1_name="dextromethorphan hydrobromide" e2_name="antihistamines" e1_pos="3" e2_pos="16" path="3@@1@@5@@12@@16@@">dextromethorphan hydrobromide@@@@prep_of@@use@@nsubj@@result@@advcl@@coadministered@@prep_with@@antihistamines</pair>  
+      <pair id="DDI-DrugBank.d398.s2.p2" e1="DDI-DrugBank.d398.s2.e0" e2="DDI-DrugBank.d398.s2.e3" ddi="true" type="effect" flags="True" e1_name="dextromethorphan hydrobromide" e2_name="psychotropics" e1_pos="3" e2_pos="18" path="3@@1@@5@@12@@18@@">dextromethorphan hydrobromide@@@@prep_of@@use@@nsubj@@result@@advcl@@coadministered@@prep_with@@psychotropics</pair>  
+      <pair id="DDI-DrugBank.d398.s2.p3" e1="DDI-DrugBank.d398.s2.e1" e2="DDI-DrugBank.d398.s2.e2" ddi="false" flags="True" e1_name="alcohol" e2_name="antihistamines" e1_pos="14" e2_pos="16" path="14@@16@@">alcohol@@@@conj_or@@antihistamines</pair>  
+      <pair id="DDI-DrugBank.d398.s2.p4" e1="DDI-DrugBank.d398.s2.e1" e2="DDI-DrugBank.d398.s2.e3" ddi="false" flags="True" e1_name="alcohol" e2_name="psychotropics" e1_pos="14" e2_pos="18" path="14@@18@@">alcohol@@@@conj_or@@psychotropics</pair>  
+      <pair id="DDI-DrugBank.d398.s2.p5" e1="DDI-DrugBank.d398.s2.e2" e2="DDI-DrugBank.d398.s2.e3" ddi="false" flags="True" e1_name="antihistamines" e2_name="psychotropics" e1_pos="16" e2_pos="18" path="16@@12@@18@@">antihistamines@@@@prep_with@@coadministered@@prep_with@@psychotropics</pair> 
+   </sentence> 
+</document>

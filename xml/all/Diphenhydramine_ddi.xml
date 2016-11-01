@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d296"> 
+   <sentence id="DDI-DrugBank.d296.s0" text="Diphenhydramine hydrochloride has additive effects with alcohol and other CNS depressants (hypnotics, sedatives, tranquilizers, etc)." new_text="Diphenhydramine hydrochloride@@has@@additive@@effects@@with@@alcohol@@and@@other@@CNS depressants@@(@@hypnotics@@,@@sedatives@@,@@tranquilizers@@,@@etc)@@.@@"> 
+      <entity id="DDI-DrugBank.d296.s0.e0" charOffset="0-28" type="drug" text="Diphenhydramine hydrochloride" position="0"/>  
+      <entity id="DDI-DrugBank.d296.s0.e1" charOffset="56-62" type="drug" text="alcohol" position="5"/>  
+      <entity id="DDI-DrugBank.d296.s0.e2" charOffset="74-88" type="group" text="CNS depressants" position="8"/>  
+      <entity id="DDI-DrugBank.d296.s0.e3" charOffset="91-99" type="group" text="hypnotics" position="10"/>  
+      <entity id="DDI-DrugBank.d296.s0.e4" charOffset="102-110" type="group" text="sedatives" position="12"/>  
+      <entity id="DDI-DrugBank.d296.s0.e5" charOffset="113-125" type="group" text="tranquilizers" position="14"/>  
+      <pair id="DDI-DrugBank.d296.s0.p0" e1="DDI-DrugBank.d296.s0.e0" e2="DDI-DrugBank.d296.s0.e1" ddi="true" type="effect" flags="True" e1_name="Diphenhydramine hydrochloride" e2_name="alcohol" e1_pos="0" e2_pos="5" path="0@@1@@3@@8@@5@@">Diphenhydramine hydrochloride@@@@dep@@has@@dobj@@effects@@prep_with@@CNS depressants@@nn@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d296.s0.p1" e1="DDI-DrugBank.d296.s0.e0" e2="DDI-DrugBank.d296.s0.e2" ddi="true" type="effect" flags="True" e1_name="Diphenhydramine hydrochloride" e2_name="CNS depressants" e1_pos="0" e2_pos="8" path="0@@1@@3@@8@@">Diphenhydramine hydrochloride@@@@dep@@has@@dobj@@effects@@prep_with@@CNS depressants</pair>  
+      <pair id="DDI-DrugBank.d296.s0.p2" e1="DDI-DrugBank.d296.s0.e0" e2="DDI-DrugBank.d296.s0.e3" ddi="true" type="effect" flags="True" e1_name="Diphenhydramine hydrochloride" e2_name="hypnotics" e1_pos="0" e2_pos="10" path="0@@1@@10@@">Diphenhydramine hydrochloride@@@@dep@@has@@nsubj@@hypnotics</pair>  
+      <pair id="DDI-DrugBank.d296.s0.p3" e1="DDI-DrugBank.d296.s0.e0" e2="DDI-DrugBank.d296.s0.e4" ddi="true" type="effect" flags="True" e1_name="Diphenhydramine hydrochloride" e2_name="sedatives" e1_pos="0" e2_pos="12" path="0@@1@@10@@12@@">Diphenhydramine hydrochloride@@@@dep@@has@@nsubj@@hypnotics@@appos@@sedatives</pair>  
+      <pair id="DDI-DrugBank.d296.s0.p4" e1="DDI-DrugBank.d296.s0.e0" e2="DDI-DrugBank.d296.s0.e5" ddi="true" type="effect" flags="True" e1_name="Diphenhydramine hydrochloride" e2_name="tranquilizers" e1_pos="0" e2_pos="14" path="0@@1@@10@@14@@">Diphenhydramine hydrochloride@@@@dep@@has@@nsubj@@hypnotics@@appos@@tranquilizers</pair>  
+      <pair id="DDI-DrugBank.d296.s0.p5" e1="DDI-DrugBank.d296.s0.e1" e2="DDI-DrugBank.d296.s0.e2" ddi="false" flags="True" e1_name="alcohol" e2_name="CNS depressants" e1_pos="5" e2_pos="8" path="5@@8@@">alcohol@@@@nn@@CNS depressants</pair>  
+      <pair id="DDI-DrugBank.d296.s0.p6" e1="DDI-DrugBank.d296.s0.e1" e2="DDI-DrugBank.d296.s0.e3" ddi="false" flags="True" e1_name="alcohol" e2_name="hypnotics" e1_pos="5" e2_pos="10" path="5@@8@@3@@1@@10@@">alcohol@@@@nn@@CNS depressants@@prep_with@@effects@@dobj@@has@@nsubj@@hypnotics</pair>  
+      <pair id="DDI-DrugBank.d296.s0.p7" e1="DDI-DrugBank.d296.s0.e1" e2="DDI-DrugBank.d296.s0.e4" ddi="false" flags="True" e1_name="alcohol" e2_name="sedatives" e1_pos="5" e2_pos="12" path="5@@8@@3@@1@@10@@12@@">alcohol@@@@nn@@CNS depressants@@prep_with@@effects@@dobj@@has@@nsubj@@hypnotics@@appos@@sedatives</pair>  
+      <pair id="DDI-DrugBank.d296.s0.p8" e1="DDI-DrugBank.d296.s0.e1" e2="DDI-DrugBank.d296.s0.e5" ddi="false" flags="True" e1_name="alcohol" e2_name="tranquilizers" e1_pos="5" e2_pos="14" path="5@@8@@3@@1@@10@@14@@">alcohol@@@@nn@@CNS depressants@@prep_with@@effects@@dobj@@has@@nsubj@@hypnotics@@appos@@tranquilizers</pair>  
+      <pair id="DDI-DrugBank.d296.s0.p9" e1="DDI-DrugBank.d296.s0.e2" e2="DDI-DrugBank.d296.s0.e3" ddi="false" flags="True" e1_name="CNS depressants" e2_name="hypnotics" e1_pos="8" e2_pos="10" path="8@@3@@1@@10@@">CNS depressants@@@@prep_with@@effects@@dobj@@has@@nsubj@@hypnotics</pair>  
+      <pair id="DDI-DrugBank.d296.s0.p10" e1="DDI-DrugBank.d296.s0.e2" e2="DDI-DrugBank.d296.s0.e4" ddi="false" flags="True" e1_name="CNS depressants" e2_name="sedatives" e1_pos="8" e2_pos="12" path="8@@3@@1@@10@@12@@">CNS depressants@@@@prep_with@@effects@@dobj@@has@@nsubj@@hypnotics@@appos@@sedatives</pair>  
+      <pair id="DDI-DrugBank.d296.s0.p11" e1="DDI-DrugBank.d296.s0.e2" e2="DDI-DrugBank.d296.s0.e5" ddi="false" flags="True" e1_name="CNS depressants" e2_name="tranquilizers" e1_pos="8" e2_pos="14" path="8@@3@@1@@10@@14@@">CNS depressants@@@@prep_with@@effects@@dobj@@has@@nsubj@@hypnotics@@appos@@tranquilizers</pair>  
+      <pair id="DDI-DrugBank.d296.s0.p12" e1="DDI-DrugBank.d296.s0.e3" e2="DDI-DrugBank.d296.s0.e4" ddi="false" flags="True" e1_name="hypnotics" e2_name="sedatives" e1_pos="10" e2_pos="12" path="10@@12@@">hypnotics@@@@appos@@sedatives</pair>  
+      <pair id="DDI-DrugBank.d296.s0.p13" e1="DDI-DrugBank.d296.s0.e3" e2="DDI-DrugBank.d296.s0.e5" ddi="false" flags="True" e1_name="hypnotics" e2_name="tranquilizers" e1_pos="10" e2_pos="14" path="10@@14@@">hypnotics@@@@appos@@tranquilizers</pair>  
+      <pair id="DDI-DrugBank.d296.s0.p14" e1="DDI-DrugBank.d296.s0.e4" e2="DDI-DrugBank.d296.s0.e5" ddi="false" flags="True" e1_name="sedatives" e2_name="tranquilizers" e1_pos="12" e2_pos="14" path="12@@10@@14@@">sedatives@@@@appos@@hypnotics@@appos@@tranquilizers</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d296.s1" text="MAO inhibitors prolong and intensify the anticholinergic (drying) effects of antihistamines." new_text="MAO inhibitors@@prolong@@and@@intensify@@the@@anticholinergic@@(drying)@@effects@@of@@antihistamines@@.@@"> 
+      <entity id="DDI-DrugBank.d296.s1.e0" charOffset="0-13" type="group" text="MAO inhibitors" position="0"/>  
+      <entity id="DDI-DrugBank.d296.s1.e1" charOffset="77-90" type="group" text="antihistamines" position="9"/>  
+      <pair id="DDI-DrugBank.d296.s1.p0" e1="DDI-DrugBank.d296.s1.e0" e2="DDI-DrugBank.d296.s1.e1" ddi="true" type="effect" flags="True" e1_name="MAO inhibitors" e2_name="antihistamines" e1_pos="0" e2_pos="9" path="0@@3@@7@@9@@">MAO inhibitors@@@@nsubj@@intensify@@dobj@@effects@@prep_of@@antihistamines</pair> 
+   </sentence> 
+</document>

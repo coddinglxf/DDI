@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d39"> 
+   <sentence id="DDI-DrugBank.d39.s0" text="Persons taking most antibiotics, methotrexate and pyrimethamine invalidate folic acid and vitamin B12 diagnostic blood assays." new_text="Persons@@taking@@most@@antibiotics@@,@@methotrexate@@and@@pyrimethamine@@invalidate@@folic acid@@and@@vitamin B12@@diagnostic@@blood@@assays@@.@@"> 
+      <entity id="DDI-DrugBank.d39.s0.e0" charOffset="20-30" type="group" text="antibiotics" position="3"/>  
+      <entity id="DDI-DrugBank.d39.s0.e1" charOffset="33-44" type="drug" text="methotrexate" position="5"/>  
+      <entity id="DDI-DrugBank.d39.s0.e2" charOffset="50-62" type="drug" text="pyrimethamine" position="7"/>  
+      <entity id="DDI-DrugBank.d39.s0.e3" charOffset="75-84" type="drug" text="folic acid" position="9"/>  
+      <entity id="DDI-DrugBank.d39.s0.e4" charOffset="90-100" type="drug" text="vitamin B12" position="11"/>  
+      <pair id="DDI-DrugBank.d39.s0.p0" e1="DDI-DrugBank.d39.s0.e0" e2="DDI-DrugBank.d39.s0.e1" ddi="false" flags="True" e1_name="antibiotics" e2_name="methotrexate" e1_pos="3" e2_pos="5" path="3@@14@@5@@">antibiotics@@@@appos@@assays@@amod@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d39.s0.p1" e1="DDI-DrugBank.d39.s0.e0" e2="DDI-DrugBank.d39.s0.e2" ddi="false" flags="True" e1_name="antibiotics" e2_name="pyrimethamine" e1_pos="3" e2_pos="7" path="3@@14@@7@@">antibiotics@@@@appos@@assays@@amod@@pyrimethamine</pair>  
+      <pair id="DDI-DrugBank.d39.s0.p2" e1="DDI-DrugBank.d39.s0.e0" e2="DDI-DrugBank.d39.s0.e3" ddi="false" flags="True" e1_name="antibiotics" e2_name="folic acid" e1_pos="3" e2_pos="9" path="3@@14@@9@@">antibiotics@@@@appos@@assays@@amod@@folic acid</pair>  
+      <pair id="DDI-DrugBank.d39.s0.p3" e1="DDI-DrugBank.d39.s0.e0" e2="DDI-DrugBank.d39.s0.e4" ddi="false" flags="True" e1_name="antibiotics" e2_name="vitamin B12" e1_pos="3" e2_pos="11" path="3@@14@@11@@">antibiotics@@@@appos@@assays@@amod@@vitamin B12</pair>  
+      <pair id="DDI-DrugBank.d39.s0.p4" e1="DDI-DrugBank.d39.s0.e1" e2="DDI-DrugBank.d39.s0.e2" ddi="false" flags="True" e1_name="methotrexate" e2_name="pyrimethamine" e1_pos="5" e2_pos="7" path="5@@7@@">methotrexate@@@@conj_and@@pyrimethamine</pair>  
+      <pair id="DDI-DrugBank.d39.s0.p5" e1="DDI-DrugBank.d39.s0.e1" e2="DDI-DrugBank.d39.s0.e3" ddi="false" flags="True" e1_name="methotrexate" e2_name="folic acid" e1_pos="5" e2_pos="9" path="5@@14@@9@@">methotrexate@@@@amod@@assays@@amod@@folic acid</pair>  
+      <pair id="DDI-DrugBank.d39.s0.p6" e1="DDI-DrugBank.d39.s0.e1" e2="DDI-DrugBank.d39.s0.e4" ddi="false" flags="True" e1_name="methotrexate" e2_name="vitamin B12" e1_pos="5" e2_pos="11" path="5@@14@@11@@">methotrexate@@@@amod@@assays@@amod@@vitamin B12</pair>  
+      <pair id="DDI-DrugBank.d39.s0.p7" e1="DDI-DrugBank.d39.s0.e2" e2="DDI-DrugBank.d39.s0.e3" ddi="false" flags="True" e1_name="pyrimethamine" e2_name="folic acid" e1_pos="7" e2_pos="9" path="7@@14@@9@@">pyrimethamine@@@@amod@@assays@@amod@@folic acid</pair>  
+      <pair id="DDI-DrugBank.d39.s0.p8" e1="DDI-DrugBank.d39.s0.e2" e2="DDI-DrugBank.d39.s0.e4" ddi="false" flags="True" e1_name="pyrimethamine" e2_name="vitamin B12" e1_pos="7" e2_pos="11" path="7@@14@@11@@">pyrimethamine@@@@amod@@assays@@amod@@vitamin B12</pair>  
+      <pair id="DDI-DrugBank.d39.s0.p9" e1="DDI-DrugBank.d39.s0.e3" e2="DDI-DrugBank.d39.s0.e4" ddi="false" flags="True" e1_name="folic acid" e2_name="vitamin B12" e1_pos="9" e2_pos="11" path="9@@11@@">folic acid@@@@conj_and@@vitamin B12</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d39.s1" text="Colchicine para-aminosalicylic acid and heavy alcohol intake for longer than 2 weeks may produce malabsorption of vitamin B12." new_text="Colchicine@@para-aminosalicylic acid@@and@@heavy@@alcohol@@intake@@for@@longer@@than@@2@@weeks@@may@@produce@@malabsorption@@of@@vitamin B12@@.@@"> 
+      <entity id="DDI-DrugBank.d39.s1.e0" charOffset="0-9" type="drug" text="Colchicine" position="0"/>  
+      <entity id="DDI-DrugBank.d39.s1.e1" charOffset="11-34" type="drug" text="para-aminosalicylic acid" position="1"/>  
+      <entity id="DDI-DrugBank.d39.s1.e2" charOffset="46-52" type="drug" text="alcohol" position="4"/>  
+      <entity id="DDI-DrugBank.d39.s1.e3" charOffset="114-124" type="drug" text="vitamin B12" position="15"/>  
+      <pair id="DDI-DrugBank.d39.s1.p0" e1="DDI-DrugBank.d39.s1.e0" e2="DDI-DrugBank.d39.s1.e1" ddi="false" flags="True" e1_name="Colchicine" e2_name="para-aminosalicylic acid" e1_pos="0" e2_pos="1" path="0@@1@@">Colchicine@@@@npadvmod@@para-aminosalicylic acid</pair>  
+      <pair id="DDI-DrugBank.d39.s1.p1" e1="DDI-DrugBank.d39.s1.e0" e2="DDI-DrugBank.d39.s1.e2" ddi="false" flags="True" e1_name="Colchicine" e2_name="alcohol" e1_pos="0" e2_pos="4" path="0@@1@@5@@4@@">Colchicine@@@@npadvmod@@para-aminosalicylic acid@@conj_and@@intake@@nn@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d39.s1.p2" e1="DDI-DrugBank.d39.s1.e0" e2="DDI-DrugBank.d39.s1.e3" ddi="true" type="mechanism" flags="True" e1_name="Colchicine" e2_name="vitamin B12" e1_pos="0" e2_pos="15" path="0@@1@@12@@13@@15@@">Colchicine@@@@npadvmod@@para-aminosalicylic acid@@nsubj@@produce@@dobj@@malabsorption@@prep_of@@vitamin B12</pair>  
+      <pair id="DDI-DrugBank.d39.s1.p3" e1="DDI-DrugBank.d39.s1.e1" e2="DDI-DrugBank.d39.s1.e2" ddi="false" flags="True" e1_name="para-aminosalicylic acid" e2_name="alcohol" e1_pos="1" e2_pos="4" path="1@@5@@4@@">para-aminosalicylic acid@@@@conj_and@@intake@@nn@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d39.s1.p4" e1="DDI-DrugBank.d39.s1.e1" e2="DDI-DrugBank.d39.s1.e3" ddi="true" type="mechanism" flags="True" e1_name="para-aminosalicylic acid" e2_name="vitamin B12" e1_pos="1" e2_pos="15" path="1@@12@@13@@15@@">para-aminosalicylic acid@@@@nsubj@@produce@@dobj@@malabsorption@@prep_of@@vitamin B12</pair>  
+      <pair id="DDI-DrugBank.d39.s1.p5" e1="DDI-DrugBank.d39.s1.e2" e2="DDI-DrugBank.d39.s1.e3" ddi="true" type="mechanism" flags="True" e1_name="alcohol" e2_name="vitamin B12" e1_pos="4" e2_pos="15" path="4@@5@@12@@13@@15@@">alcohol@@@@nn@@intake@@nsubj@@produce@@dobj@@malabsorption@@prep_of@@vitamin B12</pair> 
+   </sentence> 
+</document>

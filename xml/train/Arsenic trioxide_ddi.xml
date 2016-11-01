@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d470"> 
+   <sentence id="DDI-DrugBank.d470.s0" text="No formal assessments of pharmacokinetic drug-drug interactions between TRISENOX and other agents have been conducted." new_text="No@@formal@@assessments@@of@@pharmacokinetic@@drug-drug@@interactions@@between@@TRISENOX@@and@@other@@agents@@have@@been@@conducted@@.@@"> 
+      <entity id="DDI-DrugBank.d470.s0.e0" charOffset="72-79" type="brand" text="TRISENOX" position="8"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d470.s1" text="Caution is advised when TRISENOX is coadministered with other medications that can prolong the QT interval (e.g. certain antiarrhythmics or thioridazine) or lead to electrolyte abnormalities (such as diuretics or amphotericin B)." new_text="Caution@@is@@advised@@when@@TRISENOX@@is@@coadministered@@with@@other@@medications@@that@@can@@prolong@@the@@QT@@interval@@(e.g@@.@@certain@@antiarrhythmics@@or@@thioridazine@@)@@or@@lead@@to@@electrolyte@@abnormalities@@(such@@as@@diuretics@@or@@amphotericin B@@)@@.@@"> 
+      <entity id="DDI-DrugBank.d470.s1.e0" charOffset="24-31" type="brand" text="TRISENOX" position="4"/>  
+      <entity id="DDI-DrugBank.d470.s1.e1" charOffset="121-135" type="group" text="antiarrhythmics" position="19"/>  
+      <entity id="DDI-DrugBank.d470.s1.e2" charOffset="140-151" type="drug" text="thioridazine" position="21"/>  
+      <entity id="DDI-DrugBank.d470.s1.e3" charOffset="200-208" type="group" text="diuretics" position="30"/>  
+      <entity id="DDI-DrugBank.d470.s1.e4" charOffset="213-226" type="drug" text="amphotericin B" position="32"/>  
+      <pair id="DDI-DrugBank.d470.s1.p0" e1="DDI-DrugBank.d470.s1.e0" e2="DDI-DrugBank.d470.s1.e1" ddi="true" type="advise" flags="True" e1_name="TRISENOX" e2_name="antiarrhythmics" e1_pos="4" e2_pos="19" path="4@@6@@9@@19@@">TRISENOX@@@@nsubjpass@@coadministered@@prep_with@@medications@@dep@@antiarrhythmics</pair>  
+      <pair id="DDI-DrugBank.d470.s1.p1" e1="DDI-DrugBank.d470.s1.e0" e2="DDI-DrugBank.d470.s1.e2" ddi="true" type="advise" flags="True" e1_name="TRISENOX" e2_name="thioridazine" e1_pos="4" e2_pos="21" path="4@@6@@9@@22@@21@@">TRISENOX@@@@nsubjpass@@coadministered@@prep_with@@medications@@dep@@)@@amod@@thioridazine</pair>  
+      <pair id="DDI-DrugBank.d470.s1.p2" e1="DDI-DrugBank.d470.s1.e0" e2="DDI-DrugBank.d470.s1.e3" ddi="true" type="advise" flags="True" e1_name="TRISENOX" e2_name="diuretics" e1_pos="4" e2_pos="30" path="4@@6@@24@@26@@30@@">TRISENOX@@@@nsubjpass@@coadministered@@prep_with@@lead@@infmod@@electrolyte@@prep_as@@diuretics</pair>  
+      <pair id="DDI-DrugBank.d470.s1.p3" e1="DDI-DrugBank.d470.s1.e0" e2="DDI-DrugBank.d470.s1.e4" ddi="true" type="advise" flags="True" e1_name="TRISENOX" e2_name="amphotericin B" e1_pos="4" e2_pos="32" path="4@@6@@24@@26@@33@@32@@">TRISENOX@@@@nsubjpass@@coadministered@@prep_with@@lead@@infmod@@electrolyte@@prep_as@@)@@nn@@amphotericin B</pair>  
+      <pair id="DDI-DrugBank.d470.s1.p4" e1="DDI-DrugBank.d470.s1.e1" e2="DDI-DrugBank.d470.s1.e2" ddi="false" flags="True" e1_name="antiarrhythmics" e2_name="thioridazine" e1_pos="19" e2_pos="21" path="19@@22@@21@@">antiarrhythmics@@@@conj_or@@)@@amod@@thioridazine</pair>  
+      <pair id="DDI-DrugBank.d470.s1.p5" e1="DDI-DrugBank.d470.s1.e1" e2="DDI-DrugBank.d470.s1.e3" ddi="false" flags="True" e1_name="antiarrhythmics" e2_name="diuretics" e1_pos="19" e2_pos="30" path="19@@9@@24@@26@@30@@">antiarrhythmics@@@@dep@@medications@@conj_or@@lead@@infmod@@electrolyte@@prep_as@@diuretics</pair>  
+      <pair id="DDI-DrugBank.d470.s1.p6" e1="DDI-DrugBank.d470.s1.e1" e2="DDI-DrugBank.d470.s1.e4" ddi="false" flags="True" e1_name="antiarrhythmics" e2_name="amphotericin B" e1_pos="19" e2_pos="32" path="19@@9@@24@@26@@33@@32@@">antiarrhythmics@@@@dep@@medications@@conj_or@@lead@@infmod@@electrolyte@@prep_as@@)@@nn@@amphotericin B</pair>  
+      <pair id="DDI-DrugBank.d470.s1.p7" e1="DDI-DrugBank.d470.s1.e2" e2="DDI-DrugBank.d470.s1.e3" ddi="false" flags="True" e1_name="thioridazine" e2_name="diuretics" e1_pos="21" e2_pos="30" path="21@@22@@9@@24@@26@@30@@">thioridazine@@@@amod@@)@@dep@@medications@@conj_or@@lead@@infmod@@electrolyte@@prep_as@@diuretics</pair>  
+      <pair id="DDI-DrugBank.d470.s1.p8" e1="DDI-DrugBank.d470.s1.e2" e2="DDI-DrugBank.d470.s1.e4" ddi="false" flags="True" e1_name="thioridazine" e2_name="amphotericin B" e1_pos="21" e2_pos="32" path="21@@22@@9@@24@@26@@33@@32@@">thioridazine@@@@amod@@)@@dep@@medications@@conj_or@@lead@@infmod@@electrolyte@@prep_as@@)@@nn@@amphotericin B</pair>  
+      <pair id="DDI-DrugBank.d470.s1.p9" e1="DDI-DrugBank.d470.s1.e3" e2="DDI-DrugBank.d470.s1.e4" ddi="false" flags="True" e1_name="diuretics" e2_name="amphotericin B" e1_pos="30" e2_pos="32" path="30@@33@@32@@">diuretics@@@@conj_or@@)@@nn@@amphotericin B</pair> 
+   </sentence> 
+</document>

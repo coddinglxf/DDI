@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d339"> 
+   <sentence id="DDI-DrugBank.d339.s0" text="Carbamazepine: Elevated carbamazepine levels have been reported in postmarketing experience when SUPRAX is administered concomitantly." new_text="Carbamazepine@@:@@Elevated@@carbamazepine@@levels@@have@@been@@reported@@in@@postmarketing@@experience@@when@@SUPRAX@@is@@administered@@concomitantly@@.@@"> 
+      <entity id="DDI-DrugBank.d339.s0.e0" charOffset="0-12" type="drug" text="Carbamazepine" position="0"/>  
+      <entity id="DDI-DrugBank.d339.s0.e1" charOffset="24-36" type="drug" text="carbamazepine" position="3"/>  
+      <entity id="DDI-DrugBank.d339.s0.e2" charOffset="97-102" type="brand" text="SUPRAX" position="12"/>  
+      <pair id="DDI-DrugBank.d339.s0.p0" e1="DDI-DrugBank.d339.s0.e0" e2="DDI-DrugBank.d339.s0.e1" ddi="false" flags="True" e1_name="Carbamazepine" e2_name="carbamazepine" e1_pos="0" e2_pos="3" path="0@@7@@4@@3@@">Carbamazepine@@@@dep@@reported@@nsubjpass@@levels@@nn@@carbamazepine</pair>  
+      <pair id="DDI-DrugBank.d339.s0.p1" e1="DDI-DrugBank.d339.s0.e0" e2="DDI-DrugBank.d339.s0.e2" ddi="false" flags="True" e1_name="Carbamazepine" e2_name="SUPRAX" e1_pos="0" e2_pos="12" path="0@@7@@10@@14@@12@@">Carbamazepine@@@@dep@@reported@@prep_in@@experience@@ccomp@@administered@@nsubjpass@@SUPRAX</pair>  
+      <pair id="DDI-DrugBank.d339.s0.p2" e1="DDI-DrugBank.d339.s0.e1" e2="DDI-DrugBank.d339.s0.e2" ddi="true" type="mechanism" flags="True" e1_name="carbamazepine" e2_name="SUPRAX" e1_pos="3" e2_pos="12" path="3@@4@@7@@10@@14@@12@@">carbamazepine@@@@nn@@levels@@nsubjpass@@reported@@prep_in@@experience@@ccomp@@administered@@nsubjpass@@SUPRAX</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d339.s1" text="Drug monitoring may be of assistance in detecting alterations in carbamazepine plasma concentrations." new_text="Drug@@monitoring@@may@@be@@of@@assistance@@in@@detecting@@alterations@@in@@carbamazepine@@plasma@@concentrations@@.@@"> 
+      <entity id="DDI-DrugBank.d339.s1.e0" charOffset="65-77" type="drug" text="carbamazepine" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d339.s2" text="Warfarin and Anticoagulants: Increased prothrombin time, with or without clinical bleeding, has been reported when cefixime is administered concomitantly." new_text="Warfarin@@and@@Anticoagulants@@:@@Increased@@prothrombin@@time@@,@@with@@or@@without@@clinical@@bleeding@@,@@has@@been@@reported@@when@@cefixime@@is@@administered@@concomitantly@@.@@"> 
+      <entity id="DDI-DrugBank.d339.s2.e0" charOffset="0-7" type="drug" text="Warfarin" position="0"/>  
+      <entity id="DDI-DrugBank.d339.s2.e1" charOffset="13-26" type="group" text="Anticoagulants" position="2"/>  
+      <entity id="DDI-DrugBank.d339.s2.e2" charOffset="115-122" type="drug" text="cefixime" position="18"/>  
+      <pair id="DDI-DrugBank.d339.s2.p0" e1="DDI-DrugBank.d339.s2.e0" e2="DDI-DrugBank.d339.s2.e1" ddi="false" flags="True" e1_name="Warfarin" e2_name="Anticoagulants" e1_pos="0" e2_pos="2" path="0@@2@@">Warfarin@@@@conj_and@@Anticoagulants</pair>  
+      <pair id="DDI-DrugBank.d339.s2.p1" e1="DDI-DrugBank.d339.s2.e0" e2="DDI-DrugBank.d339.s2.e2" ddi="true" type="effect" flags="True" e1_name="Warfarin" e2_name="cefixime" e1_pos="0" e2_pos="18" path="0@@16@@20@@18@@">Warfarin@@@@nsubjpass@@reported@@advcl@@administered@@nsubjpass@@cefixime</pair>  
+      <pair id="DDI-DrugBank.d339.s2.p2" e1="DDI-DrugBank.d339.s2.e1" e2="DDI-DrugBank.d339.s2.e2" ddi="true" type="effect" flags="True" e1_name="Anticoagulants" e2_name="cefixime" e1_pos="2" e2_pos="18" path="2@@16@@20@@18@@">Anticoagulants@@@@nsubjpass@@reported@@advcl@@administered@@nsubjpass@@cefixime</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d339.s3" text="Drug/Laboratory Test Interactions A false-positive reaction for ketones in the urine may occur with tests using nitroprusside but not with those using nitroferricyanide." new_text="Drug/Laboratory@@Test@@Interactions@@A@@false-positive@@reaction@@for@@ketones@@in@@the@@urine@@may@@occur@@with@@tests@@using@@nitroprusside@@but@@not@@with@@those@@using@@nitroferricyanide@@.@@"> 
+      <entity id="DDI-DrugBank.d339.s3.e0" charOffset="112-124" type="drug" text="nitroprusside" position="16"/>  
+      <entity id="DDI-DrugBank.d339.s3.e1" charOffset="151-167" type="drug" text="nitroferricyanide" position="22"/>  
+      <pair id="DDI-DrugBank.d339.s3.p0" e1="DDI-DrugBank.d339.s3.e0" e2="DDI-DrugBank.d339.s3.e1" ddi="false" flags="True" e1_name="nitroprusside" e2_name="nitroferricyanide" e1_pos="16" e2_pos="22" path="16@@15@@14@@21@@22@@">nitroprusside@@@@acomp@@using@@partmod@@tests@@conj_negcc@@using@@dobj@@nitroferricyanide</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d339.s4" text="The administration of SUPRAX may result in a false-positive reaction for glucose in the urine using Clinitest **, Benedict s solution, or Fehling s solution." new_text="The@@administration@@of@@SUPRAX@@may@@result@@in@@a@@false-positive@@reaction@@for@@glucose@@in@@the@@urine@@using@@Clinitest@@**@@,@@Benedict@@s@@solution@@,@@or@@Fehling@@s@@solution@@.@@"> 
+      <entity id="DDI-DrugBank.d339.s4.e0" charOffset="22-27" type="brand" text="SUPRAX" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d339.s5" text="It is recommended that glucose tests based on enzymatic glucose oxidase reactions (such as Clinistix ** or Tes-Tape **) be used." new_text="It@@is@@recommended@@that@@glucose@@tests@@based@@on@@enzymatic@@glucose@@oxidase@@reactions@@(such@@as@@Clinistix@@**@@or@@Tes-Tape@@**)@@be@@used@@.@@"/>  
+   <sentence id="DDI-DrugBank.d339.s6" text="A false-positive direct Coombs test has been reported during treatment with other cephalosporin antibiotics;" new_text="A@@false-positive@@direct@@Coombs@@test@@has@@been@@reported@@during@@treatment@@with@@other@@cephalosporin antibiotics@@;@@"> 
+      <entity id="DDI-DrugBank.d339.s6.e0" charOffset="82-106" type="group" text="cephalosporin antibiotics" position="12"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d339.s7" text="therefore, it should be recognized that a positive Coombs test may be due to the drug." new_text="therefore@@,@@it@@should@@be@@recognized@@that@@a@@positive@@Coombs@@test@@may@@be@@due@@to@@the@@drug@@.@@"/> 
+</document>

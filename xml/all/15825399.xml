@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d40"> 
+   <sentence id="DDI-MedLine.d40.s0" text="Studies on the mechanism of action of miconazole: effect of miconazole on respiration and cell permeability of Candida albicans.
+" new_text="Studies@@on@@the@@mechanism@@of@@action@@of@@miconazole@@:@@effect@@of@@miconazole@@on@@respiration@@and@@cell@@permeability@@of@@Candida@@albicans@@.@@"> 
+      <entity id="DDI-MedLine.d40.s0.e0" charOffset="38-47" type="drug" text="miconazole" position="7"/>  
+      <entity id="DDI-MedLine.d40.s0.e1" charOffset="60-69" type="drug" text="miconazole" position="11"/>  
+      <pair id="DDI-MedLine.d40.s0.p0" e1="DDI-MedLine.d40.s0.e0" e2="DDI-MedLine.d40.s0.e1" ddi="false" flags="True" e1_name="miconazole" e2_name="miconazole" e1_pos="7" e2_pos="11" path="7@@5@@3@@0@@9@@19@@11@@">miconazole@@@@prep_of@@action@@prep_of@@mechanism@@prep_on@@Studies@@dep@@effect@@prep_of@@albicans@@amod@@miconazole</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d40.s1" text="The antifungal drug, miconazole nitrate, inhibits the growth of several species of Candida. " new_text="The@@antifungal drug@@,@@miconazole nitrate@@,@@inhibits@@the@@growth@@of@@several@@species@@of@@Candida@@.@@"> 
+      <entity id="DDI-MedLine.d40.s1.e0" charOffset="4-18" type="group" text="antifungal drug" position="1"/>  
+      <entity id="DDI-MedLine.d40.s1.e1" charOffset="21-38" type="drug" text="miconazole nitrate" position="3"/>  
+      <pair id="DDI-MedLine.d40.s1.p0" e1="DDI-MedLine.d40.s1.e0" e2="DDI-MedLine.d40.s1.e1" ddi="false" flags="True" e1_name="antifungal drug" e2_name="miconazole nitrate" e1_pos="1" e2_pos="3" path="1@@3@@">antifungal drug@@@@appos@@miconazole nitrate</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d40.s2" text="Candida albicans, one of the pathogenic species, was totally inhibited at a concentration of approximately 10 mug/ml. " new_text="Candida@@albicans@@,@@one@@of@@the@@pathogenic@@species@@,@@was@@totally@@inhibited@@at@@a@@concentration@@of@@approximately@@10@@mug/ml@@.@@"/>  
+   <sentence id="DDI-MedLine.d40.s3" text="Endogenous respiration was unaffected by the drug at a concentration as high as 100 mug/ml, whereas exogenous respiration was markedly sensitive and inhibited to an extent of 85%. " new_text="Endogenous@@respiration@@was@@unaffected@@by@@the@@drug@@at@@a@@concentration@@as@@high@@as@@100@@mug/ml@@,@@whereas@@exogenous@@respiration@@was@@markedly@@sensitive@@and@@inhibited@@to@@an@@extent@@of@@85%@@.@@"/>  
+   <sentence id="DDI-MedLine.d40.s4" text="The permeability of the cell membrane was changed as evidenced by the leakage of 260-nm absorbing materials, amino acids, proteins, and inorganic cations. " new_text="The@@permeability@@of@@the@@cell@@membrane@@was@@changed@@as@@evidenced@@by@@the@@leakage@@of@@260-nm@@absorbing@@materials@@,@@amino@@acids@@,@@proteins@@,@@and@@inorganic@@cations@@.@@"/>  
+   <sentence id="DDI-MedLine.d40.s5" text="The results we present clearly show that the drug alters the cellular permeability, and thus the exogenous respiration becomes sensitive to the drug." new_text="The@@results@@we@@present@@clearly@@show@@that@@the@@drug@@alters@@the@@cellular@@permeability@@,@@and@@thus@@the@@exogenous@@respiration@@becomes@@sensitive@@to@@the@@drug@@.@@"/> 
+</document>

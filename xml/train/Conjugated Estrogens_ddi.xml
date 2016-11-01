@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d317"> 
+   <sentence id="DDI-DrugBank.d317.s0" text="DRUG/LABORATORY TEST INTERACTIONS 1." new_text="DRUG/LABORATORY@@TEST@@INTERACTIONS@@1@@.@@"/>  
+   <sentence id="DDI-DrugBank.d317.s1" text="Accelerated prothrombin time, partial thromboplastin time, and platelet aggregation time;" new_text="Accelerated@@prothrombin@@time@@,@@partial@@thromboplastin@@time@@,@@and@@platelet@@aggregation@@time;@@"/>  
+   <sentence id="DDI-DrugBank.d317.s2" text="increased platelet count;" new_text="increased@@platelet@@count;@@"/>  
+   <sentence id="DDI-DrugBank.d317.s3" text="increased factors II, VII antigen, VIII antigen, VIII coagulant activity, IX, X, XII, VII-X complex, II-VII-X complex, and beta-thromboglobulin;" new_text="increased@@factors@@II@@,@@VII@@antigen@@,@@VIII@@antigen@@,@@VIII@@coagulant@@activity@@,@@IX@@,@@X@@,@@XII@@,@@VII-X@@complex@@,@@II-VII-X@@complex@@,@@and@@beta-thromboglobulin;@@"/>  
+   <sentence id="DDI-DrugBank.d317.s4" text="decreased levels of anti-factor Xa and antithrombin III, decreased antithrombin III activity;" new_text="decreased@@levels@@of@@anti-factor@@Xa@@and@@antithrombin III@@,@@decreased@@antithrombin III@@activity;@@"> 
+      <entity id="DDI-DrugBank.d317.s4.e0" charOffset="39-54" type="drug" text="antithrombin III" position="6"/>  
+      <entity id="DDI-DrugBank.d317.s4.e1" charOffset="67-82" type="drug" text="antithrombin III" position="9"/>  
+      <pair id="DDI-DrugBank.d317.s4.p0" e1="DDI-DrugBank.d317.s4.e0" e2="DDI-DrugBank.d317.s4.e1" ddi="false" flags="True" e1_name="antithrombin III" e2_name="antithrombin III" e1_pos="6" e2_pos="9" path="6@@1@@8@@10@@9@@">antithrombin III@@@@prep_of@@levels@@nsubj@@decreased@@dobj@@activity;@@amod@@antithrombin III</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d317.s5" text="increased levels of fibrinogen and fibrinogen activity;" new_text="increased@@levels@@of@@fibrinogen@@and@@fibrinogen@@activity;@@"> 
+      <entity id="DDI-DrugBank.d317.s5.e0" charOffset="20-29" type="drug" text="fibrinogen" position="3"/>  
+      <entity id="DDI-DrugBank.d317.s5.e1" charOffset="35-44" type="drug" text="fibrinogen" position="5"/>  
+      <pair id="DDI-DrugBank.d317.s5.p0" e1="DDI-DrugBank.d317.s5.e0" e2="DDI-DrugBank.d317.s5.e1" ddi="false" flags="True" e1_name="fibrinogen" e2_name="fibrinogen" e1_pos="3" e2_pos="5" path="3@@5@@">fibrinogen@@@@conj_and@@fibrinogen</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d317.s6" text="increased plasminogen antigen and activity." new_text="increased@@plasminogen@@antigen@@and@@activity@@.@@"/>  
+   <sentence id="DDI-DrugBank.d317.s7" text="2." new_text="2@@.@@"/>  
+   <sentence id="DDI-DrugBank.d317.s8" text="Increased thyroid-binding globulin (TBG) levels leading to increased circulating total thyroid hormone levels as measured by protein-bound iodine (PBI), T4 levels (by column or by radioimmunoassay) or T3 levels by radioimmunoassay." new_text="Increased@@thyroid-binding@@globulin@@(TBG)@@levels@@leading@@to@@increased@@circulating@@total@@thyroid@@hormone@@levels@@as@@measured@@by@@protein-bound@@iodine@@(PBI)@@,@@T4@@levels@@(by@@column@@or@@by@@radioimmunoassay)@@or@@T3@@levels@@by@@radioimmunoassay@@.@@"> 
+      <entity id="DDI-DrugBank.d317.s8.e0" charOffset="139-144" type="drug" text="iodine" position="17"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d317.s9" text="T3 resin uptake is decreased, reflecting the elevated TBG." new_text="T3@@resin@@uptake@@is@@decreased@@,@@reflecting@@the@@elevated@@TBG@@.@@"/>  
+   <sentence id="DDI-DrugBank.d317.s10" text="Free T4 and free T3 concentrations are unaltered." new_text="Free@@T4@@and@@free@@T3@@concentrations@@are@@unaltered@@.@@"/>  
+   <sentence id="DDI-DrugBank.d317.s11" text="Patients on thyroid replacement therapy may require higher doses of thyroid hormone." new_text="Patients@@on@@thyroid@@replacement@@therapy@@may@@require@@higher@@doses@@of@@thyroid hormone@@.@@"> 
+      <entity id="DDI-DrugBank.d317.s11.e0" charOffset="68-82" type="group" text="thyroid hormone" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d317.s12" text="3." new_text="3@@.@@"/>  
+   <sentence id="DDI-DrugBank.d317.s13" text="Other binding proteins may be elevated in serum, (i.e., corticosteroid binding globulin (CBG), sex hormone binding globulin (SHBG)) leading to increased total circulating corticosteroids and sex steroids, respectively." new_text="Other@@binding@@proteins@@may@@be@@elevated@@in@@serum@@,@@(i.e.@@,@@corticosteroid@@binding@@globulin@@(CBG)@@,@@sex@@hormone@@binding@@globulin@@(SHBG))@@leading@@to@@increased@@total@@circulating@@corticosteroids@@and@@sex steroids@@,@@respectively@@.@@"> 
+      <entity id="DDI-DrugBank.d317.s13.e0" charOffset="171-185" type="group" text="corticosteroids" position="26"/>  
+      <entity id="DDI-DrugBank.d317.s13.e1" charOffset="191-202" type="group" text="sex steroids" position="28"/>  
+      <pair id="DDI-DrugBank.d317.s13.p0" e1="DDI-DrugBank.d317.s13.e0" e2="DDI-DrugBank.d317.s13.e1" ddi="false" flags="True" e1_name="corticosteroids" e2_name="sex steroids" e1_pos="26" e2_pos="28" path="26@@28@@">corticosteroids@@@@conj_and@@sex steroids</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d317.s14" text="Free hormone concentrations may be decreased." new_text="Free@@hormone@@concentrations@@may@@be@@decreased@@.@@"/>  
+   <sentence id="DDI-DrugBank.d317.s15" text="Other plasma proteins may be increased (angiotensinogen/renin substrate, alpha-1-antitrypsin, ceruloplasmin)." new_text="Other@@plasma@@proteins@@may@@be@@increased@@(angiotensinogen/renin@@substrate@@,@@alpha-1-antitrypsin@@,@@ceruloplasmin)@@.@@"/>  
+   <sentence id="DDI-DrugBank.d317.s16" text="4." new_text="4@@.@@"/>  
+   <sentence id="DDI-DrugBank.d317.s17" text="Increased plasma HDL and HDL2 cholesterol subfraction concentrations, reduced LDL cholesterol concentration, increased triglyceride levels." new_text="Increased@@plasma@@HDL@@and@@HDL2@@cholesterol@@subfraction@@concentrations@@,@@reduced@@LDL@@cholesterol@@concentration@@,@@increased@@triglyceride@@levels@@.@@"/>  
+   <sentence id="DDI-DrugBank.d317.s18" text="5." new_text="5@@.@@"/>  
+   <sentence id="DDI-DrugBank.d317.s19" text="Impaired glucose tolerance." new_text="Impaired@@glucose@@tolerance@@.@@"/>  
+   <sentence id="DDI-DrugBank.d317.s20" text="6." new_text="6@@.@@"/>  
+   <sentence id="DDI-DrugBank.d317.s21" text="Reduced response to metyrapone test." new_text="Reduced@@response@@to@@metyrapone@@test@@.@@"/> 
+</document>

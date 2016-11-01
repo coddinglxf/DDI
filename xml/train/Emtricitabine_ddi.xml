@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d375"> 
+   <sentence id="DDI-DrugBank.d375.s0" text="The potential for drug interactions with EMTRIVA has been studied in combination with indinavir, stavudine, famciclovir, and tenofovir disoproxil fumarate." new_text="The@@potential@@for@@drug@@interactions@@with@@EMTRIVA@@has@@been@@studied@@in@@combination@@with@@indinavir@@,@@stavudine@@,@@famciclovir@@,@@and@@tenofovir disoproxil fumarate@@.@@"> 
+      <entity id="DDI-DrugBank.d375.s0.e0" charOffset="41-47" type="brand" text="EMTRIVA" position="6"/>  
+      <entity id="DDI-DrugBank.d375.s0.e1" charOffset="86-94" type="drug" text="indinavir" position="13"/>  
+      <entity id="DDI-DrugBank.d375.s0.e2" charOffset="97-105" type="drug" text="stavudine" position="15"/>  
+      <entity id="DDI-DrugBank.d375.s0.e3" charOffset="108-118" type="drug" text="famciclovir" position="17"/>  
+      <entity id="DDI-DrugBank.d375.s0.e4" charOffset="125-153" type="drug" text="tenofovir disoproxil fumarate" position="20"/>  
+      <pair id="DDI-DrugBank.d375.s0.p0" e1="DDI-DrugBank.d375.s0.e0" e2="DDI-DrugBank.d375.s0.e1" ddi="false" flags="True" e1_name="EMTRIVA" e2_name="indinavir" e1_pos="6" e2_pos="13" path="6@@4@@1@@9@@13@@">EMTRIVA@@@@prep_with@@interactions@@prep_for@@potential@@nsubjpass@@studied@@prep_with@@indinavir</pair>  
+      <pair id="DDI-DrugBank.d375.s0.p1" e1="DDI-DrugBank.d375.s0.e0" e2="DDI-DrugBank.d375.s0.e2" ddi="false" flags="True" e1_name="EMTRIVA" e2_name="stavudine" e1_pos="6" e2_pos="15" path="6@@4@@1@@9@@13@@15@@">EMTRIVA@@@@prep_with@@interactions@@prep_for@@potential@@nsubjpass@@studied@@prep_with@@indinavir@@appos@@stavudine</pair>  
+      <pair id="DDI-DrugBank.d375.s0.p2" e1="DDI-DrugBank.d375.s0.e0" e2="DDI-DrugBank.d375.s0.e3" ddi="false" flags="True" e1_name="EMTRIVA" e2_name="famciclovir" e1_pos="6" e2_pos="17" path="6@@4@@1@@9@@13@@17@@">EMTRIVA@@@@prep_with@@interactions@@prep_for@@potential@@nsubjpass@@studied@@prep_with@@indinavir@@appos@@famciclovir</pair>  
+      <pair id="DDI-DrugBank.d375.s0.p3" e1="DDI-DrugBank.d375.s0.e0" e2="DDI-DrugBank.d375.s0.e4" ddi="false" flags="True" e1_name="EMTRIVA" e2_name="tenofovir disoproxil fumarate" e1_pos="6" e2_pos="20" path="6@@4@@1@@9@@13@@20@@">EMTRIVA@@@@prep_with@@interactions@@prep_for@@potential@@nsubjpass@@studied@@prep_with@@indinavir@@appos@@tenofovir disoproxil fumarate</pair>  
+      <pair id="DDI-DrugBank.d375.s0.p4" e1="DDI-DrugBank.d375.s0.e1" e2="DDI-DrugBank.d375.s0.e2" ddi="false" flags="True" e1_name="indinavir" e2_name="stavudine" e1_pos="13" e2_pos="15" path="13@@15@@">indinavir@@@@appos@@stavudine</pair>  
+      <pair id="DDI-DrugBank.d375.s0.p5" e1="DDI-DrugBank.d375.s0.e1" e2="DDI-DrugBank.d375.s0.e3" ddi="false" flags="True" e1_name="indinavir" e2_name="famciclovir" e1_pos="13" e2_pos="17" path="13@@17@@">indinavir@@@@appos@@famciclovir</pair>  
+      <pair id="DDI-DrugBank.d375.s0.p6" e1="DDI-DrugBank.d375.s0.e1" e2="DDI-DrugBank.d375.s0.e4" ddi="false" flags="True" e1_name="indinavir" e2_name="tenofovir disoproxil fumarate" e1_pos="13" e2_pos="20" path="13@@20@@">indinavir@@@@appos@@tenofovir disoproxil fumarate</pair>  
+      <pair id="DDI-DrugBank.d375.s0.p7" e1="DDI-DrugBank.d375.s0.e2" e2="DDI-DrugBank.d375.s0.e3" ddi="false" flags="True" e1_name="stavudine" e2_name="famciclovir" e1_pos="15" e2_pos="17" path="15@@17@@">stavudine@@@@conj_and@@famciclovir</pair>  
+      <pair id="DDI-DrugBank.d375.s0.p8" e1="DDI-DrugBank.d375.s0.e2" e2="DDI-DrugBank.d375.s0.e4" ddi="false" flags="True" e1_name="stavudine" e2_name="tenofovir disoproxil fumarate" e1_pos="15" e2_pos="20" path="15@@20@@">stavudine@@@@conj_and@@tenofovir disoproxil fumarate</pair>  
+      <pair id="DDI-DrugBank.d375.s0.p9" e1="DDI-DrugBank.d375.s0.e3" e2="DDI-DrugBank.d375.s0.e4" ddi="false" flags="True" e1_name="famciclovir" e2_name="tenofovir disoproxil fumarate" e1_pos="17" e2_pos="20" path="17@@13@@20@@">famciclovir@@@@appos@@indinavir@@appos@@tenofovir disoproxil fumarate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d375.s1" text="There were no clinically significant drug interactions for any of these drugs" new_text="There@@were@@no@@clinically@@significant@@drug@@interactions@@for@@any@@of@@these@@drugs@@"/>  
+   <sentence id="DDI-DrugBank.d375.s2" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d375.s3" text="" new_text=""/> 
+</document>

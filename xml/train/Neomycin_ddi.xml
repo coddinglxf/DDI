@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d330"> 
+   <sentence id="DDI-DrugBank.d330.s0" text="Caution should be taken in concurrent or serial use of other neurotoxic and/ or nephrotoxic drugs because of possible enhancement of the nephrotoxicity and/or ototoxicity of neomycin." new_text="Caution@@should@@be@@taken@@in@@concurrent@@or@@serial@@use@@of@@other@@neurotoxic@@and/@@or@@nephrotoxic@@drugs@@because@@of@@possible@@enhancement@@of@@the@@nephrotoxicity@@and/or@@ototoxicity@@of@@neomycin@@.@@"> 
+      <entity id="DDI-DrugBank.d330.s0.e0" charOffset="174-181" type="drug" text="neomycin" position="26"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d330.s1" text="Caution should also be taken in concurrent or serial use of other aminoglycosides and polymyxins because they may enhance neomycin s nephrotoxicity and/or ototoxicity and potentiate neomycin sulfate neuromuscular blocking effects." new_text="Caution@@should@@also@@be@@taken@@in@@concurrent@@or@@serial@@use@@of@@other@@aminoglycosides@@and@@polymyxins@@because@@they@@may@@enhance@@neomycin@@s@@nephrotoxicity@@and/or@@ototoxicity@@and@@potentiate@@neomycin sulfate@@neuromuscular@@blocking@@effects@@.@@"> 
+      <entity id="DDI-DrugBank.d330.s1.e0" charOffset="66-80" type="group" text="aminoglycosides" position="12"/>  
+      <entity id="DDI-DrugBank.d330.s1.e1" charOffset="86-95" type="group" text="polymyxins" position="14"/>  
+      <entity id="DDI-DrugBank.d330.s1.e2" charOffset="182-197" type="drug" text="neomycin sulfate" position="26"/>  
+      <pair id="DDI-DrugBank.d330.s1.p0" e1="DDI-DrugBank.d330.s1.e0" e2="DDI-DrugBank.d330.s1.e1" ddi="false" flags="True" e1_name="aminoglycosides" e2_name="polymyxins" e1_pos="12" e2_pos="14" path="12@@14@@">aminoglycosides@@@@conj_and@@polymyxins</pair>  
+      <pair id="DDI-DrugBank.d330.s1.p1" e1="DDI-DrugBank.d330.s1.e0" e2="DDI-DrugBank.d330.s1.e2" ddi="false" flags="True" e1_name="aminoglycosides" e2_name="neomycin sulfate" e1_pos="12" e2_pos="26" path="12@@9@@4@@18@@27@@26@@">aminoglycosides@@@@prep_of@@use@@prep_in@@taken@@advcl@@enhance@@ccomp@@neuromuscular@@nn@@neomycin sulfate</pair>  
+      <pair id="DDI-DrugBank.d330.s1.p2" e1="DDI-DrugBank.d330.s1.e1" e2="DDI-DrugBank.d330.s1.e2" ddi="false" flags="True" e1_name="polymyxins" e2_name="neomycin sulfate" e1_pos="14" e2_pos="26" path="14@@9@@4@@18@@27@@26@@">polymyxins@@@@prep_of@@use@@prep_in@@taken@@advcl@@enhance@@ccomp@@neuromuscular@@nn@@neomycin sulfate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d330.s2" text="Oral neomycin inhibits the gastrointestinal absorption of penicillin V, oral vitamin B-12, methotrexate and 5-fluorouracil." new_text="Oral@@neomycin@@inhibits@@the@@gastrointestinal@@absorption@@of@@penicillin V@@,@@oral@@vitamin B-12@@,@@methotrexate@@and@@5-fluorouracil@@.@@"> 
+      <entity id="DDI-DrugBank.d330.s2.e0" charOffset="5-12" type="drug" text="neomycin" position="1"/>  
+      <entity id="DDI-DrugBank.d330.s2.e1" charOffset="58-69" type="drug" text="penicillin V" position="7"/>  
+      <entity id="DDI-DrugBank.d330.s2.e2" charOffset="77-88" type="drug" text="vitamin B-12" position="10"/>  
+      <entity id="DDI-DrugBank.d330.s2.e3" charOffset="91-102" type="drug" text="methotrexate" position="12"/>  
+      <entity id="DDI-DrugBank.d330.s2.e4" charOffset="108-121" type="drug" text="5-fluorouracil" position="14"/>  
+      <pair id="DDI-DrugBank.d330.s2.p0" e1="DDI-DrugBank.d330.s2.e0" e2="DDI-DrugBank.d330.s2.e1" ddi="true" type="mechanism" flags="True" e1_name="neomycin" e2_name="penicillin V" e1_pos="1" e2_pos="7" path="1@@2@@5@@10@@7@@">neomycin@@@@nsubj@@inhibits@@dobj@@absorption@@prep_of@@vitamin B-12@@amod@@penicillin V</pair>  
+      <pair id="DDI-DrugBank.d330.s2.p1" e1="DDI-DrugBank.d330.s2.e0" e2="DDI-DrugBank.d330.s2.e2" ddi="true" type="mechanism" flags="True" e1_name="neomycin" e2_name="vitamin B-12" e1_pos="1" e2_pos="10" path="1@@2@@5@@10@@">neomycin@@@@nsubj@@inhibits@@dobj@@absorption@@prep_of@@vitamin B-12</pair>  
+      <pair id="DDI-DrugBank.d330.s2.p2" e1="DDI-DrugBank.d330.s2.e0" e2="DDI-DrugBank.d330.s2.e3" ddi="true" type="mechanism" flags="True" e1_name="neomycin" e2_name="methotrexate" e1_pos="1" e2_pos="12" path="1@@2@@5@@12@@">neomycin@@@@nsubj@@inhibits@@dobj@@absorption@@prep_of@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d330.s2.p3" e1="DDI-DrugBank.d330.s2.e0" e2="DDI-DrugBank.d330.s2.e4" ddi="true" type="mechanism" flags="True" e1_name="neomycin" e2_name="5-fluorouracil" e1_pos="1" e2_pos="14" path="1@@2@@5@@14@@">neomycin@@@@nsubj@@inhibits@@dobj@@absorption@@prep_of@@5-fluorouracil</pair>  
+      <pair id="DDI-DrugBank.d330.s2.p4" e1="DDI-DrugBank.d330.s2.e1" e2="DDI-DrugBank.d330.s2.e2" ddi="false" flags="True" e1_name="penicillin V" e2_name="vitamin B-12" e1_pos="7" e2_pos="10" path="7@@10@@">penicillin V@@@@amod@@vitamin B-12</pair>  
+      <pair id="DDI-DrugBank.d330.s2.p5" e1="DDI-DrugBank.d330.s2.e1" e2="DDI-DrugBank.d330.s2.e3" ddi="false" flags="True" e1_name="penicillin V" e2_name="methotrexate" e1_pos="7" e2_pos="12" path="7@@10@@12@@">penicillin V@@@@amod@@vitamin B-12@@conj_and@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d330.s2.p6" e1="DDI-DrugBank.d330.s2.e1" e2="DDI-DrugBank.d330.s2.e4" ddi="false" flags="True" e1_name="penicillin V" e2_name="5-fluorouracil" e1_pos="7" e2_pos="14" path="7@@10@@14@@">penicillin V@@@@amod@@vitamin B-12@@conj_and@@5-fluorouracil</pair>  
+      <pair id="DDI-DrugBank.d330.s2.p7" e1="DDI-DrugBank.d330.s2.e2" e2="DDI-DrugBank.d330.s2.e3" ddi="false" flags="True" e1_name="vitamin B-12" e2_name="methotrexate" e1_pos="10" e2_pos="12" path="10@@12@@">vitamin B-12@@@@conj_and@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d330.s2.p8" e1="DDI-DrugBank.d330.s2.e2" e2="DDI-DrugBank.d330.s2.e4" ddi="false" flags="True" e1_name="vitamin B-12" e2_name="5-fluorouracil" e1_pos="10" e2_pos="14" path="10@@14@@">vitamin B-12@@@@conj_and@@5-fluorouracil</pair>  
+      <pair id="DDI-DrugBank.d330.s2.p9" e1="DDI-DrugBank.d330.s2.e3" e2="DDI-DrugBank.d330.s2.e4" ddi="false" flags="True" e1_name="methotrexate" e2_name="5-fluorouracil" e1_pos="12" e2_pos="14" path="12@@5@@14@@">methotrexate@@@@prep_of@@absorption@@prep_of@@5-fluorouracil</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d330.s3" text="The gastrointestinal absorption of digoxin also appears to be inhibited." new_text="The@@gastrointestinal@@absorption@@of@@digoxin@@also@@appears@@to@@be@@inhibited@@.@@"> 
+      <entity id="DDI-DrugBank.d330.s3.e0" charOffset="35-41" type="drug" text="digoxin" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d330.s4" text="Therefore, digoxin serum levels should be monitored." new_text="Therefore@@,@@digoxin@@serum@@levels@@should@@be@@monitored@@.@@"> 
+      <entity id="DDI-DrugBank.d330.s4.e0" charOffset="11-17" type="drug" text="digoxin" position="2"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d330.s5" text="Oral neomycin sulfate may enhance the effect of coumarin in anticoagulants by decreasing vitamin K availability." new_text="Oral@@neomycin sulfate@@may@@enhance@@the@@effect@@of@@coumarin@@in@@anticoagulants@@by@@decreasing@@vitamin@@K@@availability@@.@@"> 
+      <entity id="DDI-DrugBank.d330.s5.e0" charOffset="5-20" type="drug" text="neomycin sulfate" position="1"/>  
+      <entity id="DDI-DrugBank.d330.s5.e1" charOffset="48-55" type="group" text="coumarin" position="7"/>  
+      <entity id="DDI-DrugBank.d330.s5.e2" charOffset="60-73" type="group" text="anticoagulants" position="9"/>  
+      <pair id="DDI-DrugBank.d330.s5.p0" e1="DDI-DrugBank.d330.s5.e0" e2="DDI-DrugBank.d330.s5.e1" ddi="true" type="effect" flags="True" e1_name="neomycin sulfate" e2_name="coumarin" e1_pos="1" e2_pos="7" path="1@@3@@5@@7@@">neomycin sulfate@@@@nsubj@@enhance@@dobj@@effect@@prep_of@@coumarin</pair>  
+      <pair id="DDI-DrugBank.d330.s5.p1" e1="DDI-DrugBank.d330.s5.e0" e2="DDI-DrugBank.d330.s5.e2" ddi="true" type="effect" flags="True" e1_name="neomycin sulfate" e2_name="anticoagulants" e1_pos="1" e2_pos="9" path="1@@3@@5@@7@@9@@">neomycin sulfate@@@@nsubj@@enhance@@dobj@@effect@@prep_of@@coumarin@@prep_in@@anticoagulants</pair>  
+      <pair id="DDI-DrugBank.d330.s5.p2" e1="DDI-DrugBank.d330.s5.e1" e2="DDI-DrugBank.d330.s5.e2" ddi="false" flags="True" e1_name="coumarin" e2_name="anticoagulants" e1_pos="7" e2_pos="9" path="7@@9@@">coumarin@@@@prep_in@@anticoagulants</pair> 
+   </sentence> 
+</document>

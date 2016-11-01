@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d715"> 
+   <sentence id="DDI-DrugBank.d715.s0" text="Caution should be observed in administering DEMSER to patients receiving phenothiazines or haloperidol because the extrapyramidal effects of these drugs can be expected to be potentiated by inhibition of catecholamine synthesis. " new_text="Caution@@should@@be@@observed@@in@@administering@@DEMSER@@to@@patients@@receiving@@phenothiazines@@or@@haloperidol@@because@@the@@extrapyramidal@@effects@@of@@these@@drugs@@can@@be@@expected@@to@@be@@potentiated@@by@@inhibition@@of@@catecholamine@@synthesis@@.@@"> 
+      <entity id="DDI-DrugBank.d715.s0.e0" charOffset="44-49" type="brand" text="DEMSER" position="6"/>  
+      <entity id="DDI-DrugBank.d715.s0.e1" charOffset="73-86" type="group" text="phenothiazines" position="10"/>  
+      <entity id="DDI-DrugBank.d715.s0.e2" charOffset="91-101" type="drug" text="haloperidol" position="12"/>  
+      <pair id="DDI-DrugBank.d715.s0.p0" e1="DDI-DrugBank.d715.s0.e0" e2="DDI-DrugBank.d715.s0.e1" ddi="true" type="advise" flags="True" e1_name="DEMSER" e2_name="phenothiazines" e1_pos="6" e2_pos="10" path="6@@5@@8@@9@@10@@">DEMSER@@@@dobj@@administering@@prep_to@@patients@@partmod@@receiving@@dobj@@phenothiazines</pair>  
+      <pair id="DDI-DrugBank.d715.s0.p1" e1="DDI-DrugBank.d715.s0.e0" e2="DDI-DrugBank.d715.s0.e2" ddi="true" type="advise" flags="True" e1_name="DEMSER" e2_name="haloperidol" e1_pos="6" e2_pos="12" path="6@@5@@3@@12@@">DEMSER@@@@dobj@@administering@@prepc_in@@observed@@conj_or@@haloperidol</pair>  
+      <pair id="DDI-DrugBank.d715.s0.p2" e1="DDI-DrugBank.d715.s0.e1" e2="DDI-DrugBank.d715.s0.e2" ddi="false" flags="True" e1_name="phenothiazines" e2_name="haloperidol" e1_pos="10" e2_pos="12" path="10@@9@@8@@5@@3@@12@@">phenothiazines@@@@dobj@@receiving@@partmod@@patients@@prep_to@@administering@@prepc_in@@observed@@conj_or@@haloperidol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d715.s1" text="Concurrent use of DEMSER with alcohol or other CNS depressants can increase their sedative effects." new_text="Concurrent@@use@@of@@DEMSER@@with@@alcohol@@or@@other@@CNS depressants@@can@@increase@@their@@sedative@@effects@@.@@"> 
+      <entity id="DDI-DrugBank.d715.s1.e0" charOffset="18-23" type="brand" text="DEMSER" position="3"/>  
+      <entity id="DDI-DrugBank.d715.s1.e1" charOffset="30-36" type="drug" text="alcohol" position="5"/>  
+      <entity id="DDI-DrugBank.d715.s1.e2" charOffset="47-61" type="drug" text="CNS depressants" position="8"/>  
+      <pair id="DDI-DrugBank.d715.s1.p0" e1="DDI-DrugBank.d715.s1.e0" e2="DDI-DrugBank.d715.s1.e1" ddi="true" type="effect" flags="True" e1_name="DEMSER" e2_name="alcohol" e1_pos="3" e2_pos="5" path="3@@8@@5@@">DEMSER@@@@prep_with@@CNS depressants@@nn@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d715.s1.p1" e1="DDI-DrugBank.d715.s1.e0" e2="DDI-DrugBank.d715.s1.e2" ddi="true" type="effect" flags="True" e1_name="DEMSER" e2_name="CNS depressants" e1_pos="3" e2_pos="8" path="3@@8@@">DEMSER@@@@prep_with@@CNS depressants</pair>  
+      <pair id="DDI-DrugBank.d715.s1.p2" e1="DDI-DrugBank.d715.s1.e1" e2="DDI-DrugBank.d715.s1.e2" ddi="false" flags="True" e1_name="alcohol" e2_name="CNS depressants" e1_pos="5" e2_pos="8" path="5@@8@@">alcohol@@@@nn@@CNS depressants</pair> 
+   </sentence> 
+</document>

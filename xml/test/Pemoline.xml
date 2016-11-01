@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d671"> 
+   <sentence id="DDI-DrugBank.d671.s0" text="The interaction of CYLERT (pemoline) with other drugs has not been studied in humans. " new_text="The@@interaction@@of@@CYLERT@@(@@pemoline@@)@@with@@other@@drugs@@has@@not@@been@@studied@@in@@humans@@.@@"> 
+      <entity id="DDI-DrugBank.d671.s0.e0" charOffset="19-24" type="brand" text="CYLERT" position="3"/>  
+      <entity id="DDI-DrugBank.d671.s0.e1" charOffset="27-34" type="drug" text="pemoline" position="5"/>  
+      <pair id="DDI-DrugBank.d671.s0.p0" e1="DDI-DrugBank.d671.s0.e0" e2="DDI-DrugBank.d671.s0.e1" ddi="false" flags="True" e1_name="CYLERT" e2_name="pemoline" e1_pos="3" e2_pos="5" path="3@@6@@5@@">CYLERT@@@@nn@@)@@nn@@pemoline</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d671.s1" text="Patients who are receiving CYLERT concurrently with other drugs, especially drugs with CNS activity, should be monitored carefully. " new_text="Patients@@who@@are@@receiving@@CYLERT@@concurrently@@with@@other@@drugs@@,@@especially@@drugs@@with@@CNS@@activity@@,@@should@@be@@monitored@@carefully@@.@@"> 
+      <entity id="DDI-DrugBank.d671.s1.e0" charOffset="27-32" type="brand" text="CYLERT" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d671.s2" text="Decreased seizure threshold has been reported in patients receiving CYLERT concomitantly with antiepileptic medications." new_text="Decreased@@seizure@@threshold@@has@@been@@reported@@in@@patients@@receiving@@CYLERT@@concomitantly@@with@@antiepileptic medications@@.@@"> 
+      <entity id="DDI-DrugBank.d671.s2.e0" charOffset="68-73" type="brand" text="CYLERT" position="9"/>  
+      <entity id="DDI-DrugBank.d671.s2.e1" charOffset="94-118" type="group" text="antiepileptic medications" position="12"/>  
+      <pair id="DDI-DrugBank.d671.s2.p0" e1="DDI-DrugBank.d671.s2.e0" e2="DDI-DrugBank.d671.s2.e1" ddi="true" type="effect" flags="True" e1_name="CYLERT" e2_name="antiepileptic medications" e1_pos="9" e2_pos="12" path="9@@8@@12@@">CYLERT@@@@dobj@@receiving@@prep_with@@antiepileptic medications</pair> 
+   </sentence> 
+</document>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d276"> 
+   <sentence id="DDI-DrugBank.d276.s0" text="Antacids containing magnesium trisilicate, when administered concomitantly with nitrofurantoin, reduce both the rate and extent of absorption." new_text="Antacids@@containing@@magnesium trisilicate@@,@@when@@administered@@concomitantly@@with@@nitrofurantoin@@,@@reduce@@both@@the@@rate@@and@@extent@@of@@absorption@@.@@"> 
+      <entity id="DDI-DrugBank.d276.s0.e0" charOffset="0-7" type="group" text="Antacids" position="0"/>  
+      <entity id="DDI-DrugBank.d276.s0.e1" charOffset="20-40" type="drug" text="magnesium trisilicate" position="2"/>  
+      <entity id="DDI-DrugBank.d276.s0.e2" charOffset="80-93" type="drug" text="nitrofurantoin" position="8"/>  
+      <pair id="DDI-DrugBank.d276.s0.p0" e1="DDI-DrugBank.d276.s0.e0" e2="DDI-DrugBank.d276.s0.e1" ddi="false" flags="True" e1_name="Antacids" e2_name="magnesium trisilicate" e1_pos="0" e2_pos="2" path="0@@1@@2@@">Antacids@@@@advmod@@containing@@acomp@@magnesium trisilicate</pair>  
+      <pair id="DDI-DrugBank.d276.s0.p1" e1="DDI-DrugBank.d276.s0.e0" e2="DDI-DrugBank.d276.s0.e2" ddi="false" flags="True" e1_name="Antacids" e2_name="nitrofurantoin" e1_pos="0" e2_pos="8" path="0@@1@@5@@8@@">Antacids@@@@advmod@@containing@@parataxis@@administered@@prep_with@@nitrofurantoin</pair>  
+      <pair id="DDI-DrugBank.d276.s0.p2" e1="DDI-DrugBank.d276.s0.e1" e2="DDI-DrugBank.d276.s0.e2" ddi="true" type="mechanism" flags="True" e1_name="magnesium trisilicate" e2_name="nitrofurantoin" e1_pos="2" e2_pos="8" path="2@@1@@5@@8@@">magnesium trisilicate@@@@acomp@@containing@@parataxis@@administered@@prep_with@@nitrofurantoin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d276.s1" text="The mechanism for this interaction probably is adsorption of nitrofurantoin onto the surface of magnesium trisilicate." new_text="The@@mechanism@@for@@this@@interaction@@probably@@is@@adsorption@@of@@nitrofurantoin@@onto@@the@@surface@@of@@magnesium trisilicate@@.@@"> 
+      <entity id="DDI-DrugBank.d276.s1.e0" charOffset="61-74" type="drug" text="nitrofurantoin" position="9"/>  
+      <entity id="DDI-DrugBank.d276.s1.e1" charOffset="96-116" type="drug" text="magnesium trisilicate" position="14"/>  
+      <pair id="DDI-DrugBank.d276.s1.p0" e1="DDI-DrugBank.d276.s1.e0" e2="DDI-DrugBank.d276.s1.e1" ddi="true" type="mechanism" flags="True" e1_name="nitrofurantoin" e2_name="magnesium trisilicate" e1_pos="9" e2_pos="14" path="9@@7@@12@@14@@">nitrofurantoin@@@@prep_of@@adsorption@@prep_onto@@surface@@prep_of@@magnesium trisilicate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d276.s2" text="Uricosuric drugs, such as probenecid and sulfinpyrazone, can inhibit renal tubular secretion of nitrofurantoin." new_text="Uricosuric drugs@@,@@such@@as@@probenecid@@and@@sulfinpyrazone@@,@@can@@inhibit@@renal@@tubular@@secretion@@of@@nitrofurantoin@@.@@"> 
+      <entity id="DDI-DrugBank.d276.s2.e0" charOffset="0-15" type="group" text="Uricosuric drugs" position="0"/>  
+      <entity id="DDI-DrugBank.d276.s2.e1" charOffset="26-35" type="drug" text="probenecid" position="4"/>  
+      <entity id="DDI-DrugBank.d276.s2.e2" charOffset="41-54" type="drug" text="sulfinpyrazone" position="6"/>  
+      <entity id="DDI-DrugBank.d276.s2.e3" charOffset="96-109" type="drug" text="nitrofurantoin" position="14"/>  
+      <pair id="DDI-DrugBank.d276.s2.p0" e1="DDI-DrugBank.d276.s2.e0" e2="DDI-DrugBank.d276.s2.e1" ddi="false" flags="True" e1_name="Uricosuric drugs" e2_name="probenecid" e1_pos="0" e2_pos="4" path="0@@4@@">Uricosuric drugs@@@@prep_such_as@@probenecid</pair>  
+      <pair id="DDI-DrugBank.d276.s2.p1" e1="DDI-DrugBank.d276.s2.e0" e2="DDI-DrugBank.d276.s2.e2" ddi="false" flags="True" e1_name="Uricosuric drugs" e2_name="sulfinpyrazone" e1_pos="0" e2_pos="6" path="0@@6@@">Uricosuric drugs@@@@prep_such_as@@sulfinpyrazone</pair>  
+      <pair id="DDI-DrugBank.d276.s2.p2" e1="DDI-DrugBank.d276.s2.e0" e2="DDI-DrugBank.d276.s2.e3" ddi="true" type="mechanism" flags="True" e1_name="Uricosuric drugs" e2_name="nitrofurantoin" e1_pos="0" e2_pos="14" path="0@@9@@12@@14@@">Uricosuric drugs@@@@nsubj@@inhibit@@dobj@@secretion@@prep_of@@nitrofurantoin</pair>  
+      <pair id="DDI-DrugBank.d276.s2.p3" e1="DDI-DrugBank.d276.s2.e1" e2="DDI-DrugBank.d276.s2.e2" ddi="false" flags="True" e1_name="probenecid" e2_name="sulfinpyrazone" e1_pos="4" e2_pos="6" path="4@@6@@">probenecid@@@@conj_and@@sulfinpyrazone</pair>  
+      <pair id="DDI-DrugBank.d276.s2.p4" e1="DDI-DrugBank.d276.s2.e1" e2="DDI-DrugBank.d276.s2.e3" ddi="true" type="mechanism" flags="True" e1_name="probenecid" e2_name="nitrofurantoin" e1_pos="4" e2_pos="14" path="4@@0@@9@@12@@14@@">probenecid@@@@prep_such_as@@Uricosuric drugs@@nsubj@@inhibit@@dobj@@secretion@@prep_of@@nitrofurantoin</pair>  
+      <pair id="DDI-DrugBank.d276.s2.p5" e1="DDI-DrugBank.d276.s2.e2" e2="DDI-DrugBank.d276.s2.e3" ddi="true" type="mechanism" flags="True" e1_name="sulfinpyrazone" e2_name="nitrofurantoin" e1_pos="6" e2_pos="14" path="6@@0@@9@@12@@14@@">sulfinpyrazone@@@@prep_such_as@@Uricosuric drugs@@nsubj@@inhibit@@dobj@@secretion@@prep_of@@nitrofurantoin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d276.s3" text="The resulting increase in nitrofurantoin serum levels may increase toxicity, and the decreased urinary levels could lessen its efficacy as a urinary tract antibacterial." new_text="The@@resulting@@increase@@in@@nitrofurantoin@@serum@@levels@@may@@increase@@toxicity@@,@@and@@the@@decreased@@urinary@@levels@@could@@lessen@@its@@efficacy@@as@@a@@urinary@@tract@@antibacterial@@.@@"> 
+      <entity id="DDI-DrugBank.d276.s3.e0" charOffset="26-39" type="drug" text="nitrofurantoin" position="4"/>  
+      <entity id="DDI-DrugBank.d276.s3.e1" charOffset="155-167" type="group" text="antibacterial" position="24"/>  
+      <pair id="DDI-DrugBank.d276.s3.p0" e1="DDI-DrugBank.d276.s3.e0" e2="DDI-DrugBank.d276.s3.e1" ddi="false" flags="True" e1_name="nitrofurantoin" e2_name="antibacterial" e1_pos="4" e2_pos="24" path="4@@6@@2@@8@@17@@24@@">nitrofurantoin@@@@amod@@levels@@prep_in@@increase@@nsubj@@increase@@conj_and@@lessen@@prep_as@@antibacterial</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d276.s4" text="Drug/Laboratory Test Interactions As a result of the presence of nitrofurantoin, a false-positive reaction for glucose in the urine may occur." new_text="Drug/Laboratory@@Test@@Interactions@@As@@a@@result@@of@@the@@presence@@of@@nitrofurantoin@@,@@a@@false-positive@@reaction@@for@@glucose@@in@@the@@urine@@may@@occur@@.@@"> 
+      <entity id="DDI-DrugBank.d276.s4.e0" charOffset="65-78" type="drug" text="nitrofurantoin" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d276.s5" text="This has been observed with Benedict s and Fehling s solutions but not with the glucose enzymatic test." new_text="This@@has@@been@@observed@@with@@Benedict@@s@@and@@Fehling@@s@@solutions@@but@@not@@with@@the@@glucose@@enzymatic@@test@@.@@"/> 
+</document>

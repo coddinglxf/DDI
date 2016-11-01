@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d757"> 
+   <sentence id="DDI-DrugBank.d757.s0" text="Usage with Alcohol: Due to the potential for increased CNS depressants effects, alcohol should be used with caution in patients who are currently receiving pentazocine." new_text="Usage@@with@@Alcohol@@:@@Due@@to@@the@@potential@@for@@increased@@CNS@@depressants@@effects@@,@@alcohol@@should@@be@@used@@with@@caution@@in@@patients@@who@@are@@currently@@receiving@@pentazocine@@.@@"> 
+      <entity id="DDI-DrugBank.d757.s0.e0" charOffset="11-17" type="drug" text="Alcohol" position="2"/>  
+      <entity id="DDI-DrugBank.d757.s0.e1" charOffset="80-86" type="drug" text="alcohol" position="14"/>  
+      <entity id="DDI-DrugBank.d757.s0.e2" charOffset="156-166" type="drug" text="pentazocine" position="26"/>  
+      <pair id="DDI-DrugBank.d757.s0.p0" e1="DDI-DrugBank.d757.s0.e0" e2="DDI-DrugBank.d757.s0.e1" ddi="false" flags="True" e1_name="Alcohol" e2_name="alcohol" e1_pos="2" e2_pos="14" path="2@@0@@17@@14@@">Alcohol@@@@prep_with@@Usage@@ccomp@@used@@nsubjpass@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d757.s0.p1" e1="DDI-DrugBank.d757.s0.e0" e2="DDI-DrugBank.d757.s0.e2" ddi="false" flags="True" e1_name="Alcohol" e2_name="pentazocine" e1_pos="2" e2_pos="26" path="2@@0@@17@@21@@25@@26@@">Alcohol@@@@prep_with@@Usage@@ccomp@@used@@prep_in@@patients@@rcmod@@receiving@@acomp@@pentazocine</pair>  
+      <pair id="DDI-DrugBank.d757.s0.p2" e1="DDI-DrugBank.d757.s0.e1" e2="DDI-DrugBank.d757.s0.e2" ddi="true" type="advise" flags="True" e1_name="alcohol" e2_name="pentazocine" e1_pos="14" e2_pos="26" path="14@@17@@21@@25@@26@@">alcohol@@@@nsubjpass@@used@@prep_in@@patients@@rcmod@@receiving@@acomp@@pentazocine</pair> 
+   </sentence> 
+</document>

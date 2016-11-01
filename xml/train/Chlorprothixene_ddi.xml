@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d503"> 
+   <sentence id="DDI-DrugBank.d503.s0" text="Chlorprothixene may increase the plasma-level of concomitantly given lithium." new_text="Chlorprothixene@@may@@increase@@the@@plasma-level@@of@@concomitantly@@given@@lithium@@.@@"> 
+      <entity id="DDI-DrugBank.d503.s0.e0" charOffset="0-14" type="drug" text="Chlorprothixene" position="0"/>  
+      <entity id="DDI-DrugBank.d503.s0.e1" charOffset="69-75" type="drug" text="lithium" position="8"/>  
+      <pair id="DDI-DrugBank.d503.s0.p0" e1="DDI-DrugBank.d503.s0.e0" e2="DDI-DrugBank.d503.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="Chlorprothixene" e2_name="lithium" e1_pos="0" e2_pos="8" path="0@@2@@4@@8@@">Chlorprothixene@@@@nsubj@@increase@@dobj@@plasma-level@@prep_of@@lithium</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d503.s1" text="In order to avoid lithium intoxication, lithium plasma levels should be monitored closely." new_text="In@@order@@to@@avoid@@lithium@@intoxication@@,@@lithium@@plasma@@levels@@should@@be@@monitored@@closely@@.@@"> 
+      <entity id="DDI-DrugBank.d503.s1.e0" charOffset="18-24" type="drug" text="lithium" position="4"/>  
+      <entity id="DDI-DrugBank.d503.s1.e1" charOffset="40-46" type="drug" text="lithium" position="7"/>  
+      <pair id="DDI-DrugBank.d503.s1.p0" e1="DDI-DrugBank.d503.s1.e0" e2="DDI-DrugBank.d503.s1.e1" ddi="false" flags="True" e1_name="lithium" e2_name="lithium" e1_pos="4" e2_pos="7" path="4@@5@@3@@12@@9@@7@@">lithium@@@@nn@@intoxication@@dobj@@avoid@@advcl@@monitored@@nsubjpass@@levels@@nn@@lithium</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d503.s2" text="If chlorprothixene is given concomitantly with opioids, the opioid dose should be reduced (by approx. 50%), because chlorprothixene amplifies the therapeutic actions and side-effects of opioids massively." new_text="If@@chlorprothixene@@is@@given@@concomitantly@@with@@opioids@@,@@the@@opioid@@dose@@should@@be@@reduced@@(by@@approx@@.@@50%)@@,@@because@@chlorprothixene@@amplifies@@the@@therapeutic@@actions@@and@@side-effects@@of@@opioids@@massively@@.@@"> 
+      <entity id="DDI-DrugBank.d503.s2.e0" charOffset="3-17" type="drug" text="chlorprothixene" position="1"/>  
+      <entity id="DDI-DrugBank.d503.s2.e1" charOffset="47-53" type="group" text="opioids" position="6"/>  
+      <entity id="DDI-DrugBank.d503.s2.e2" charOffset="60-65" type="group" text="opioid" position="9"/>  
+      <entity id="DDI-DrugBank.d503.s2.e3" charOffset="116-130" type="drug" text="chlorprothixene" position="20"/>  
+      <entity id="DDI-DrugBank.d503.s2.e4" charOffset="186-192" type="group" text="opioids" position="28"/>  
+      <pair id="DDI-DrugBank.d503.s2.p0" e1="DDI-DrugBank.d503.s2.e0" e2="DDI-DrugBank.d503.s2.e1" ddi="true" type="advise" flags="True" e1_name="chlorprothixene" e2_name="opioids" e1_pos="1" e2_pos="6" path="1@@3@@6@@">chlorprothixene@@@@nsubjpass@@given@@prep_with@@opioids</pair>  
+      <pair id="DDI-DrugBank.d503.s2.p1" e1="DDI-DrugBank.d503.s2.e0" e2="DDI-DrugBank.d503.s2.e2" ddi="false" flags="True" e1_name="chlorprothixene" e2_name="opioid" e1_pos="1" e2_pos="9" path="1@@3@@13@@10@@9@@">chlorprothixene@@@@nsubjpass@@given@@advcl@@reduced@@nsubjpass@@dose@@amod@@opioid</pair>  
+      <pair id="DDI-DrugBank.d503.s2.p2" e1="DDI-DrugBank.d503.s2.e0" e2="DDI-DrugBank.d503.s2.e3" ddi="false" flags="True" e1_name="chlorprothixene" e2_name="chlorprothixene" e1_pos="1" e2_pos="20" path="1@@3@@13@@15@@21@@20@@">chlorprothixene@@@@nsubjpass@@given@@advcl@@reduced@@dobj@@approx@@dep@@amplifies@@nsubj@@chlorprothixene</pair>  
+      <pair id="DDI-DrugBank.d503.s2.p3" e1="DDI-DrugBank.d503.s2.e0" e2="DDI-DrugBank.d503.s2.e4" ddi="false" flags="True" e1_name="chlorprothixene" e2_name="opioids" e1_pos="1" e2_pos="28" path="1@@3@@13@@15@@21@@24@@28@@">chlorprothixene@@@@nsubjpass@@given@@advcl@@reduced@@dobj@@approx@@dep@@amplifies@@dobj@@actions@@prep_of@@opioids</pair>  
+      <pair id="DDI-DrugBank.d503.s2.p4" e1="DDI-DrugBank.d503.s2.e1" e2="DDI-DrugBank.d503.s2.e2" ddi="false" flags="True" e1_name="opioids" e2_name="opioid" e1_pos="6" e2_pos="9" path="6@@3@@13@@10@@9@@">opioids@@@@prep_with@@given@@advcl@@reduced@@nsubjpass@@dose@@amod@@opioid</pair>  
+      <pair id="DDI-DrugBank.d503.s2.p5" e1="DDI-DrugBank.d503.s2.e1" e2="DDI-DrugBank.d503.s2.e3" ddi="false" flags="True" e1_name="opioids" e2_name="chlorprothixene" e1_pos="6" e2_pos="20" path="6@@3@@13@@15@@21@@20@@">opioids@@@@prep_with@@given@@advcl@@reduced@@dobj@@approx@@dep@@amplifies@@nsubj@@chlorprothixene</pair>  
+      <pair id="DDI-DrugBank.d503.s2.p6" e1="DDI-DrugBank.d503.s2.e1" e2="DDI-DrugBank.d503.s2.e4" ddi="false" flags="True" e1_name="opioids" e2_name="opioids" e1_pos="6" e2_pos="28" path="6@@3@@13@@15@@21@@24@@28@@">opioids@@@@prep_with@@given@@advcl@@reduced@@dobj@@approx@@dep@@amplifies@@dobj@@actions@@prep_of@@opioids</pair>  
+      <pair id="DDI-DrugBank.d503.s2.p7" e1="DDI-DrugBank.d503.s2.e2" e2="DDI-DrugBank.d503.s2.e3" ddi="false" flags="True" e1_name="opioid" e2_name="chlorprothixene" e1_pos="9" e2_pos="20" path="9@@10@@13@@15@@21@@20@@">opioid@@@@amod@@dose@@nsubjpass@@reduced@@dobj@@approx@@dep@@amplifies@@nsubj@@chlorprothixene</pair>  
+      <pair id="DDI-DrugBank.d503.s2.p8" e1="DDI-DrugBank.d503.s2.e2" e2="DDI-DrugBank.d503.s2.e4" ddi="false" flags="True" e1_name="opioid" e2_name="opioids" e1_pos="9" e2_pos="28" path="9@@10@@13@@15@@21@@24@@28@@">opioid@@@@amod@@dose@@nsubjpass@@reduced@@dobj@@approx@@dep@@amplifies@@dobj@@actions@@prep_of@@opioids</pair>  
+      <pair id="DDI-DrugBank.d503.s2.p9" e1="DDI-DrugBank.d503.s2.e3" e2="DDI-DrugBank.d503.s2.e4" ddi="true" type="effect" flags="True" e1_name="chlorprothixene" e2_name="opioids" e1_pos="20" e2_pos="28" path="20@@21@@24@@28@@">chlorprothixene@@@@nsubj@@amplifies@@dobj@@actions@@prep_of@@opioids</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d503.s3" text="Avoid the concomitant use of chlorprothixene and tramadol (Ultram)." new_text="Avoid@@the@@concomitant@@use@@of@@chlorprothixene@@and@@tramadol@@(@@Ultram@@)@@.@@"> 
+      <entity id="DDI-DrugBank.d503.s3.e0" charOffset="29-43" type="drug" text="chlorprothixene" position="5"/>  
+      <entity id="DDI-DrugBank.d503.s3.e1" charOffset="49-56" type="drug" text="tramadol" position="7"/>  
+      <entity id="DDI-DrugBank.d503.s3.e2" charOffset="59-64" type="brand" text="Ultram" position="9"/>  
+      <pair id="DDI-DrugBank.d503.s3.p0" e1="DDI-DrugBank.d503.s3.e0" e2="DDI-DrugBank.d503.s3.e1" ddi="true" type="advise" flags="True" e1_name="chlorprothixene" e2_name="tramadol" e1_pos="5" e2_pos="7" path="5@@7@@">chlorprothixene@@@@conj_and@@tramadol</pair>  
+      <pair id="DDI-DrugBank.d503.s3.p1" e1="DDI-DrugBank.d503.s3.e0" e2="DDI-DrugBank.d503.s3.e2" ddi="true" type="advise" flags="True" e1_name="chlorprothixene" e2_name="Ultram" e1_pos="5" e2_pos="9" path="5@@10@@9@@">chlorprothixene@@@@amod@@)@@nn@@Ultram</pair>  
+      <pair id="DDI-DrugBank.d503.s3.p2" e1="DDI-DrugBank.d503.s3.e1" e2="DDI-DrugBank.d503.s3.e2" ddi="false" flags="True" e1_name="tramadol" e2_name="Ultram" e1_pos="7" e2_pos="9" path="7@@10@@9@@">tramadol@@@@amod@@)@@nn@@Ultram</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d503.s4" text="Massive seizures may be encountered with this combination." new_text="Massive@@seizures@@may@@be@@encountered@@with@@this@@combination@@.@@"/>  
+   <sentence id="DDI-DrugBank.d503.s5" text="Consider additive sedative effects and confusional states to emerge, if chlorprothixene is given with benzodiazepines or barbituates." new_text="Consider@@additive@@sedative@@effects@@and@@confusional@@states@@to@@emerge@@,@@if@@chlorprothixene@@is@@given@@with@@benzodiazepines@@or@@barbituates@@.@@"> 
+      <entity id="DDI-DrugBank.d503.s5.e0" charOffset="72-86" type="drug" text="chlorprothixene" position="11"/>  
+      <entity id="DDI-DrugBank.d503.s5.e1" charOffset="102-116" type="group" text="benzodiazepines" position="15"/>  
+      <entity id="DDI-DrugBank.d503.s5.e2" charOffset="121-131" type="group" text="barbituates" position="17"/>  
+      <pair id="DDI-DrugBank.d503.s5.p0" e1="DDI-DrugBank.d503.s5.e0" e2="DDI-DrugBank.d503.s5.e1" ddi="true" type="effect" flags="True" e1_name="chlorprothixene" e2_name="benzodiazepines" e1_pos="11" e2_pos="15" path="11@@13@@15@@">chlorprothixene@@@@nsubjpass@@given@@prep_with@@benzodiazepines</pair>  
+      <pair id="DDI-DrugBank.d503.s5.p1" e1="DDI-DrugBank.d503.s5.e0" e2="DDI-DrugBank.d503.s5.e2" ddi="true" type="effect" flags="True" e1_name="chlorprothixene" e2_name="barbituates" e1_pos="11" e2_pos="17" path="11@@13@@17@@">chlorprothixene@@@@nsubjpass@@given@@prep_with@@barbituates</pair>  
+      <pair id="DDI-DrugBank.d503.s5.p2" e1="DDI-DrugBank.d503.s5.e1" e2="DDI-DrugBank.d503.s5.e2" ddi="false" flags="True" e1_name="benzodiazepines" e2_name="barbituates" e1_pos="15" e2_pos="17" path="15@@17@@">benzodiazepines@@@@conj_or@@barbituates</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d503.s6" text="Choose particular low doses of these drugs." new_text="Choose@@particular@@low@@doses@@of@@these@@drugs@@.@@"/>  
+   <sentence id="DDI-DrugBank.d503.s7" text="Exert particular caution in combining chlorprothixene with other anticholinergic drugs (tricyclic antidepressants and antiparkinsonian agents): Particularly the elderly may develop delirium, high fever, severe obstipation, even ileus and glaucoma." new_text="Exert@@particular@@caution@@in@@combining@@chlorprothixene@@with@@other@@anticholinergic drugs@@(@@tricyclic antidepressants@@and@@antiparkinsonian agents@@)@@:@@Particularly@@the@@elderly@@may@@develop@@delirium@@,@@high@@fever@@,@@severe@@obstipation@@,@@even@@ileus@@and@@glaucoma@@.@@"> 
+      <entity id="DDI-DrugBank.d503.s7.e0" charOffset="38-52" type="drug" text="chlorprothixene" position="5"/>  
+      <entity id="DDI-DrugBank.d503.s7.e1" charOffset="65-85" type="group" text="anticholinergic drugs" position="8"/>  
+      <entity id="DDI-DrugBank.d503.s7.e2" charOffset="88-112" type="group" text="tricyclic antidepressants" position="10"/>  
+      <entity id="DDI-DrugBank.d503.s7.e3" charOffset="118-140" type="group" text="antiparkinsonian agents" position="12"/>  
+      <pair id="DDI-DrugBank.d503.s7.p0" e1="DDI-DrugBank.d503.s7.e0" e2="DDI-DrugBank.d503.s7.e1" ddi="true" type="advise" flags="True" e1_name="chlorprothixene" e2_name="anticholinergic drugs" e1_pos="5" e2_pos="8" path="5@@4@@8@@">chlorprothixene@@@@dobj@@combining@@prep_with@@anticholinergic drugs</pair>  
+      <pair id="DDI-DrugBank.d503.s7.p1" e1="DDI-DrugBank.d503.s7.e0" e2="DDI-DrugBank.d503.s7.e2" ddi="true" type="advise" flags="True" e1_name="chlorprothixene" e2_name="tricyclic antidepressants" e1_pos="5" e2_pos="10" path="5@@4@@2@@9@@10@@">chlorprothixene@@@@dobj@@combining@@prepc_in@@caution@@nsubj@@(@@iobj@@tricyclic antidepressants</pair>  
+      <pair id="DDI-DrugBank.d503.s7.p2" e1="DDI-DrugBank.d503.s7.e0" e2="DDI-DrugBank.d503.s7.e3" ddi="true" type="advise" flags="True" e1_name="chlorprothixene" e2_name="antiparkinsonian agents" e1_pos="5" e2_pos="12" path="5@@4@@2@@9@@12@@">chlorprothixene@@@@dobj@@combining@@prepc_in@@caution@@nsubj@@(@@iobj@@antiparkinsonian agents</pair>  
+      <pair id="DDI-DrugBank.d503.s7.p3" e1="DDI-DrugBank.d503.s7.e1" e2="DDI-DrugBank.d503.s7.e2" ddi="false" flags="True" e1_name="anticholinergic drugs" e2_name="tricyclic antidepressants" e1_pos="8" e2_pos="10" path="8@@4@@2@@9@@10@@">anticholinergic drugs@@@@prep_with@@combining@@prepc_in@@caution@@nsubj@@(@@iobj@@tricyclic antidepressants</pair>  
+      <pair id="DDI-DrugBank.d503.s7.p4" e1="DDI-DrugBank.d503.s7.e1" e2="DDI-DrugBank.d503.s7.e3" ddi="false" flags="True" e1_name="anticholinergic drugs" e2_name="antiparkinsonian agents" e1_pos="8" e2_pos="12" path="8@@4@@2@@9@@12@@">anticholinergic drugs@@@@prep_with@@combining@@prepc_in@@caution@@nsubj@@(@@iobj@@antiparkinsonian agents</pair>  
+      <pair id="DDI-DrugBank.d503.s7.p5" e1="DDI-DrugBank.d503.s7.e2" e2="DDI-DrugBank.d503.s7.e3" ddi="false" flags="True" e1_name="tricyclic antidepressants" e2_name="antiparkinsonian agents" e1_pos="10" e2_pos="12" path="10@@12@@">tricyclic antidepressants@@@@conj_and@@antiparkinsonian agents</pair> 
+   </sentence> 
+</document>

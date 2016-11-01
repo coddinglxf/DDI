@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d577"> 
+   <sentence id="DDI-DrugBank.d577.s0" text="In elderly patients concurrently receiving certain diuretics, primarily thiazides, an increased incidence of thrombopenia with purpura has been reported. " new_text="In@@elderly@@patients@@concurrently@@receiving@@certain@@diuretics@@,@@primarily@@thiazides@@,@@an@@increased@@incidence@@of@@thrombopenia@@with@@purpura@@has@@been@@reported@@.@@"> 
+      <entity id="DDI-DrugBank.d577.s0.e0" charOffset="51-59" type="group" text="diuretics" position="6"/>  
+      <entity id="DDI-DrugBank.d577.s0.e1" charOffset="72-80" type="group" text="thiazides" position="9"/>  
+      <pair id="DDI-DrugBank.d577.s0.p0" e1="DDI-DrugBank.d577.s0.e0" e2="DDI-DrugBank.d577.s0.e1" ddi="false" flags="True" e1_name="diuretics" e2_name="thiazides" e1_pos="6" e2_pos="9" path="6@@9@@">diuretics@@@@dep@@thiazides</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d577.s1" text="It has been reported that sulfamethoxazole may prolong the prothrombin time in patients who are receiving the anticoagulant warfarin. " new_text="It@@has@@been@@reported@@that@@sulfamethoxazole@@may@@prolong@@the@@prothrombin@@time@@in@@patients@@who@@are@@receiving@@the@@anticoagulant@@warfarin@@.@@"> 
+      <entity id="DDI-DrugBank.d577.s1.e0" charOffset="26-41" type="drug" text="sulfamethoxazole" position="5"/>  
+      <entity id="DDI-DrugBank.d577.s1.e1" charOffset="110-122" type="group" text="anticoagulant" position="17"/>  
+      <entity id="DDI-DrugBank.d577.s1.e2" charOffset="124-131" type="drug" text="warfarin" position="18"/>  
+      <pair id="DDI-DrugBank.d577.s1.p0" e1="DDI-DrugBank.d577.s1.e0" e2="DDI-DrugBank.d577.s1.e1" ddi="false" flags="True" e1_name="sulfamethoxazole" e2_name="anticoagulant" e1_pos="5" e2_pos="17" path="5@@7@@12@@15@@18@@17@@">sulfamethoxazole@@@@nsubj@@prolong@@prep_in@@patients@@rcmod@@receiving@@dobj@@warfarin@@amod@@anticoagulant</pair>  
+      <pair id="DDI-DrugBank.d577.s1.p1" e1="DDI-DrugBank.d577.s1.e0" e2="DDI-DrugBank.d577.s1.e2" ddi="true" type="effect" flags="True" e1_name="sulfamethoxazole" e2_name="warfarin" e1_pos="5" e2_pos="18" path="5@@7@@12@@15@@18@@">sulfamethoxazole@@@@nsubj@@prolong@@prep_in@@patients@@rcmod@@receiving@@dobj@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d577.s1.p2" e1="DDI-DrugBank.d577.s1.e1" e2="DDI-DrugBank.d577.s1.e2" ddi="false" flags="True" e1_name="anticoagulant" e2_name="warfarin" e1_pos="17" e2_pos="18" path="17@@18@@">anticoagulant@@@@amod@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d577.s2" text="This interaction should be kept in mind when Gantanol is given to patients already on anticoagulant therapy, and the coagulation time should be reassessed. " new_text="This@@interaction@@should@@be@@kept@@in@@mind@@when@@Gantanol@@is@@given@@to@@patients@@already@@on@@anticoagulant@@therapy@@,@@and@@the@@coagulation@@time@@should@@be@@reassessed@@.@@"> 
+      <entity id="DDI-DrugBank.d577.s2.e0" charOffset="45-52" type="brand" text="Gantanol" position="8"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d577.s3" text="Sulfamethoxazole may inhibit the hepatic metabolism of phenytoin. " new_text="Sulfamethoxazole@@may@@inhibit@@the@@hepatic@@metabolism@@of@@phenytoin@@.@@"> 
+      <entity id="DDI-DrugBank.d577.s3.e0" charOffset="0-15" type="drug" text="Sulfamethoxazole" position="0"/>  
+      <entity id="DDI-DrugBank.d577.s3.e1" charOffset="55-63" type="drug" text="phenytoin" position="7"/>  
+      <pair id="DDI-DrugBank.d577.s3.p0" e1="DDI-DrugBank.d577.s3.e0" e2="DDI-DrugBank.d577.s3.e1" ddi="true" type="mechanism" flags="True" e1_name="Sulfamethoxazole" e2_name="phenytoin" e1_pos="0" e2_pos="7" path="0@@2@@5@@7@@">Sulfamethoxazole@@@@nsubj@@inhibit@@dobj@@metabolism@@prep_of@@phenytoin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d577.s4" text="At a 1.6-g dose, sulfamethoxazole produced a slight but significant increase in the half-life of phenytoin but did not produce a corresponding decrease in the metabolic clearance rate. " new_text="At@@a@@1.6-g@@dose@@,@@sulfamethoxazole@@produced@@a@@slight@@but@@significant@@increase@@in@@the@@half-life@@of@@phenytoin@@but@@did@@not@@produce@@a@@corresponding@@decrease@@in@@the@@metabolic@@clearance@@rate@@.@@"> 
+      <entity id="DDI-DrugBank.d577.s4.e0" charOffset="17-32" type="drug" text="sulfamethoxazole" position="5"/>  
+      <entity id="DDI-DrugBank.d577.s4.e1" charOffset="97-105" type="drug" text="phenytoin" position="16"/>  
+      <pair id="DDI-DrugBank.d577.s4.p0" e1="DDI-DrugBank.d577.s4.e0" e2="DDI-DrugBank.d577.s4.e1" ddi="true" type="mechanism" flags="True" e1_name="sulfamethoxazole" e2_name="phenytoin" e1_pos="5" e2_pos="16" path="5@@6@@14@@16@@">sulfamethoxazole@@@@nsubj@@produced@@prep_in@@half-life@@prep_of@@phenytoin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d577.s5" text="When administering these drugs concurrently, one should be alert for possible excessive phenytoin effect. " new_text="When@@administering@@these@@drugs@@concurrently@@,@@one@@should@@be@@alert@@for@@possible@@excessive@@phenytoin@@effect@@.@@"> 
+      <entity id="DDI-DrugBank.d577.s5.e0" charOffset="88-96" type="drug" text="phenytoin" position="13"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d577.s6" text="Sulfonamides can also displace methotrexate from plasma protein-binding sites, thus increasing free methotrexate concentrations. " new_text="Sulfonamides@@can@@also@@displace@@methotrexate@@from@@plasma@@protein-binding@@sites@@,@@thus@@increasing@@free@@methotrexate@@concentrations@@.@@"> 
+      <entity id="DDI-DrugBank.d577.s6.e0" charOffset="0-11" type="group" text="Sulfonamides" position="0"/>  
+      <entity id="DDI-DrugBank.d577.s6.e1" charOffset="31-42" type="drug" text="methotrexate" position="4"/>  
+      <entity id="DDI-DrugBank.d577.s6.e2" charOffset="100-111" type="drug" text="methotrexate" position="13"/>  
+      <pair id="DDI-DrugBank.d577.s6.p0" e1="DDI-DrugBank.d577.s6.e0" e2="DDI-DrugBank.d577.s6.e1" ddi="true" type="mechanism" flags="True" e1_name="Sulfonamides" e2_name="methotrexate" e1_pos="0" e2_pos="4" path="0@@3@@4@@">Sulfonamides@@@@nsubj@@displace@@dobj@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d577.s6.p1" e1="DDI-DrugBank.d577.s6.e0" e2="DDI-DrugBank.d577.s6.e2" ddi="false" flags="True" e1_name="Sulfonamides" e2_name="methotrexate" e1_pos="0" e2_pos="13" path="0@@3@@11@@14@@13@@">Sulfonamides@@@@nsubj@@displace@@partmod@@increasing@@dobj@@concentrations@@nn@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d577.s6.p2" e1="DDI-DrugBank.d577.s6.e1" e2="DDI-DrugBank.d577.s6.e2" ddi="false" flags="True" e1_name="methotrexate" e2_name="methotrexate" e1_pos="4" e2_pos="13" path="4@@3@@11@@14@@13@@">methotrexate@@@@dobj@@displace@@partmod@@increasing@@dobj@@concentrations@@nn@@methotrexate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d577.s7" text="The presence of sulfamethoxazole may interfere with the Jaff    alkaline picrate reaction assay for creatinine, resulting in overestimations of about 10% in the range of normal values." new_text="The@@presence@@of@@sulfamethoxazole@@may@@interfere@@with@@the@@Jaff@@@@@@@@alkaline@@picrate@@reaction@@assay@@for@@creatinine@@,@@resulting@@in@@overestimations@@of@@about@@10%@@in@@the@@range@@of@@normal@@values@@.@@"> 
+      <entity id="DDI-DrugBank.d577.s7.e0" charOffset="16-31" type="drug" text="sulfamethoxazole" position="3"/> 
+   </sentence> 
+</document>

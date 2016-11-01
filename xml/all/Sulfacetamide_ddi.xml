@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d65"> 
+   <sentence id="DDI-DrugBank.d65.s0" text="Sulfacetamide preparations are incompatible with silver preparations." new_text="Sulfacetamide@@preparations@@are@@incompatible@@with@@silver@@preparations@@.@@"> 
+      <entity id="DDI-DrugBank.d65.s0.e0" charOffset="0-12" type="drug" text="Sulfacetamide" position="0"/>  
+      <entity id="DDI-DrugBank.d65.s0.e1" charOffset="49-54" type="drug" text="silver" position="5"/>  
+      <pair id="DDI-DrugBank.d65.s0.p0" e1="DDI-DrugBank.d65.s0.e0" e2="DDI-DrugBank.d65.s0.e1" ddi="true" type="int" flags="True" e1_name="Sulfacetamide" e2_name="silver" e1_pos="0" e2_pos="5" path="0@@1@@3@@6@@5@@">Sulfacetamide@@@@amod@@preparations@@nsubj@@incompatible@@prep_with@@preparations@@amod@@silver</pair> 
+   </sentence> 
+</document>

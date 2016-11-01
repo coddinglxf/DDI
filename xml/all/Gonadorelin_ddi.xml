@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d369"> 
+   <sentence id="DDI-DrugBank.d369.s0" text="The Factrel test should be conducted in the absence of other drugs which directly affect the pituitary secretion of the gonadotropins." new_text="The@@Factrel@@test@@should@@be@@conducted@@in@@the@@absence@@of@@other@@drugs@@which@@directly@@affect@@the@@pituitary@@secretion@@of@@the@@gonadotropins@@.@@"> 
+      <entity id="DDI-DrugBank.d369.s0.e0" charOffset="4-10" type="brand" text="Factrel" position="1"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d369.s1" text="These would include a variety of preparations which contain androgens, estrogens, progestins, or glucocorticoids." new_text="These@@would@@include@@a@@variety@@of@@preparations@@which@@contain@@androgens@@,@@estrogens@@,@@progestins@@,@@or@@glucocorticoids@@.@@"> 
+      <entity id="DDI-DrugBank.d369.s1.e0" charOffset="60-68" type="group" text="androgens" position="9"/>  
+      <entity id="DDI-DrugBank.d369.s1.e1" charOffset="71-79" type="group" text="estrogens" position="11"/>  
+      <entity id="DDI-DrugBank.d369.s1.e2" charOffset="82-91" type="group" text="progestins" position="13"/>  
+      <entity id="DDI-DrugBank.d369.s1.e3" charOffset="97-111" type="group" text="glucocorticoids" position="16"/>  
+      <pair id="DDI-DrugBank.d369.s1.p0" e1="DDI-DrugBank.d369.s1.e0" e2="DDI-DrugBank.d369.s1.e1" ddi="false" flags="True" e1_name="androgens" e2_name="estrogens" e1_pos="9" e2_pos="11" path="9@@11@@">androgens@@@@conj_or@@estrogens</pair>  
+      <pair id="DDI-DrugBank.d369.s1.p1" e1="DDI-DrugBank.d369.s1.e0" e2="DDI-DrugBank.d369.s1.e2" ddi="false" flags="True" e1_name="androgens" e2_name="progestins" e1_pos="9" e2_pos="13" path="9@@13@@">androgens@@@@conj_or@@progestins</pair>  
+      <pair id="DDI-DrugBank.d369.s1.p2" e1="DDI-DrugBank.d369.s1.e0" e2="DDI-DrugBank.d369.s1.e3" ddi="false" flags="True" e1_name="androgens" e2_name="glucocorticoids" e1_pos="9" e2_pos="16" path="9@@16@@">androgens@@@@conj_or@@glucocorticoids</pair>  
+      <pair id="DDI-DrugBank.d369.s1.p3" e1="DDI-DrugBank.d369.s1.e1" e2="DDI-DrugBank.d369.s1.e2" ddi="false" flags="True" e1_name="estrogens" e2_name="progestins" e1_pos="11" e2_pos="13" path="11@@8@@13@@">estrogens@@@@dobj@@contain@@dobj@@progestins</pair>  
+      <pair id="DDI-DrugBank.d369.s1.p4" e1="DDI-DrugBank.d369.s1.e1" e2="DDI-DrugBank.d369.s1.e3" ddi="false" flags="True" e1_name="estrogens" e2_name="glucocorticoids" e1_pos="11" e2_pos="16" path="11@@8@@16@@">estrogens@@@@dobj@@contain@@dobj@@glucocorticoids</pair>  
+      <pair id="DDI-DrugBank.d369.s1.p5" e1="DDI-DrugBank.d369.s1.e2" e2="DDI-DrugBank.d369.s1.e3" ddi="false" flags="True" e1_name="progestins" e2_name="glucocorticoids" e1_pos="13" e2_pos="16" path="13@@8@@16@@">progestins@@@@dobj@@contain@@dobj@@glucocorticoids</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d369.s2" text="The gonadotropin levels may be transiently elevated by spironolactone, minimally elevated by levodopa, and suppressed by oral contraceptives and digoxin." new_text="The@@gonadotropin@@levels@@may@@be@@transiently@@elevated@@by@@spironolactone@@,@@minimally@@elevated@@by@@levodopa@@,@@and@@suppressed@@by@@oral@@contraceptives@@and@@digoxin@@.@@"> 
+      <entity id="DDI-DrugBank.d369.s2.e0" charOffset="55-68" type="drug" text="spironolactone" position="8"/>  
+      <entity id="DDI-DrugBank.d369.s2.e1" charOffset="93-100" type="drug" text="levodopa" position="13"/>  
+      <entity id="DDI-DrugBank.d369.s2.e2" charOffset="126-139" type="group" text="contraceptives" position="19"/>  
+      <entity id="DDI-DrugBank.d369.s2.e3" charOffset="145-151" type="drug" text="digoxin" position="21"/>  
+      <pair id="DDI-DrugBank.d369.s2.p0" e1="DDI-DrugBank.d369.s2.e0" e2="DDI-DrugBank.d369.s2.e1" ddi="false" flags="True" e1_name="spironolactone" e2_name="levodopa" e1_pos="8" e2_pos="13" path="8@@6@@11@@13@@">spironolactone@@@@prep_by@@elevated@@conj_and@@elevated@@prep_by@@levodopa</pair>  
+      <pair id="DDI-DrugBank.d369.s2.p1" e1="DDI-DrugBank.d369.s2.e0" e2="DDI-DrugBank.d369.s2.e2" ddi="false" flags="True" e1_name="spironolactone" e2_name="contraceptives" e1_pos="8" e2_pos="19" path="8@@6@@16@@19@@">spironolactone@@@@prep_by@@elevated@@conj_and@@suppressed@@prep_by@@contraceptives</pair>  
+      <pair id="DDI-DrugBank.d369.s2.p2" e1="DDI-DrugBank.d369.s2.e0" e2="DDI-DrugBank.d369.s2.e3" ddi="false" flags="True" e1_name="spironolactone" e2_name="digoxin" e1_pos="8" e2_pos="21" path="8@@6@@16@@21@@">spironolactone@@@@prep_by@@elevated@@conj_and@@suppressed@@prep_by@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d369.s2.p3" e1="DDI-DrugBank.d369.s2.e1" e2="DDI-DrugBank.d369.s2.e2" ddi="false" flags="True" e1_name="levodopa" e2_name="contraceptives" e1_pos="13" e2_pos="19" path="13@@11@@2@@16@@19@@">levodopa@@@@prep_by@@elevated@@nsubj@@levels@@nsubj@@suppressed@@prep_by@@contraceptives</pair>  
+      <pair id="DDI-DrugBank.d369.s2.p4" e1="DDI-DrugBank.d369.s2.e1" e2="DDI-DrugBank.d369.s2.e3" ddi="false" flags="True" e1_name="levodopa" e2_name="digoxin" e1_pos="13" e2_pos="21" path="13@@11@@2@@16@@21@@">levodopa@@@@prep_by@@elevated@@nsubj@@levels@@nsubj@@suppressed@@prep_by@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d369.s2.p5" e1="DDI-DrugBank.d369.s2.e2" e2="DDI-DrugBank.d369.s2.e3" ddi="false" flags="True" e1_name="contraceptives" e2_name="digoxin" e1_pos="19" e2_pos="21" path="19@@21@@">contraceptives@@@@conj_and@@digoxin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d369.s3" text="The response to Factrel may be blunted by phenothiazines and dopamine antagonists which cause a rise in prolactin." new_text="The@@response@@to@@Factrel@@may@@be@@blunted@@by@@phenothiazines@@and@@dopamine antagonists@@which@@cause@@a@@rise@@in@@prolactin@@.@@"> 
+      <entity id="DDI-DrugBank.d369.s3.e0" charOffset="16-22" type="brand" text="Factrel" position="3"/>  
+      <entity id="DDI-DrugBank.d369.s3.e1" charOffset="42-55" type="group" text="phenothiazines" position="8"/>  
+      <entity id="DDI-DrugBank.d369.s3.e2" charOffset="61-80" type="group" text="dopamine antagonists" position="10"/>  
+      <pair id="DDI-DrugBank.d369.s3.p0" e1="DDI-DrugBank.d369.s3.e0" e2="DDI-DrugBank.d369.s3.e1" ddi="true" type="effect" flags="True" e1_name="Factrel" e2_name="phenothiazines" e1_pos="3" e2_pos="8" path="3@@1@@6@@8@@">Factrel@@@@prep_to@@response@@nsubjpass@@blunted@@agent@@phenothiazines</pair>  
+      <pair id="DDI-DrugBank.d369.s3.p1" e1="DDI-DrugBank.d369.s3.e0" e2="DDI-DrugBank.d369.s3.e2" ddi="true" type="effect" flags="True" e1_name="Factrel" e2_name="dopamine antagonists" e1_pos="3" e2_pos="10" path="3@@1@@6@@10@@">Factrel@@@@prep_to@@response@@nsubjpass@@blunted@@agent@@dopamine antagonists</pair>  
+      <pair id="DDI-DrugBank.d369.s3.p2" e1="DDI-DrugBank.d369.s3.e1" e2="DDI-DrugBank.d369.s3.e2" ddi="false" flags="True" e1_name="phenothiazines" e2_name="dopamine antagonists" e1_pos="8" e2_pos="10" path="8@@10@@">phenothiazines@@@@conj_and@@dopamine antagonists</pair> 
+   </sentence> 
+</document>

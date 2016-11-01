@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d34"> 
+   <sentence id="DDI-DrugBank.d34.s0" text="Although acid-base and electrolyte disturbances were not reported in the clinical trials with dorzolamide, these disturbances have been reported with oral carbonic anhydrase inhibitors and have, in some instances, resulted in drug interactions (e.g., toxicity associated with high-dose salicylate therapy)." new_text="Although@@acid-base@@and@@electrolyte@@disturbances@@were@@not@@reported@@in@@the@@clinical@@trials@@with@@dorzolamide@@,@@these@@disturbances@@have@@been@@reported@@with@@oral@@carbonic anhydrase inhibitors@@and@@have@@,@@in@@some@@instances@@,@@resulted@@in@@drug@@interactions@@(e.g.@@,@@toxicity@@associated@@with@@high-dose@@salicylate@@therapy)@@.@@"> 
+      <entity id="DDI-DrugBank.d34.s0.e0" charOffset="94-104" type="drug" text="dorzolamide" position="13"/>  
+      <entity id="DDI-DrugBank.d34.s0.e1" charOffset="155-183" type="group" text="carbonic anhydrase inhibitors" position="22"/>  
+      <entity id="DDI-DrugBank.d34.s0.e2" charOffset="286-295" type="group" text="salicylate" position="40"/>  
+      <pair id="DDI-DrugBank.d34.s0.p0" e1="DDI-DrugBank.d34.s0.e0" e2="DDI-DrugBank.d34.s0.e1" ddi="true" type="effect" flags="True" e1_name="dorzolamide" e2_name="carbonic anhydrase inhibitors" e1_pos="13" e2_pos="22" path="13@@11@@7@@19@@22@@">dorzolamide@@@@prep_with@@trials@@prep_in@@reported@@advcl@@reported@@prep_with@@carbonic anhydrase inhibitors</pair>  
+      <pair id="DDI-DrugBank.d34.s0.p1" e1="DDI-DrugBank.d34.s0.e0" e2="DDI-DrugBank.d34.s0.e2" ddi="false" flags="True" e1_name="dorzolamide" e2_name="salicylate" e1_pos="13" e2_pos="40" path="13@@11@@7@@19@@30@@34@@36@@37@@41@@40@@">dorzolamide@@@@prep_with@@trials@@prep_in@@reported@@advcl@@reported@@ccomp@@resulted@@nsubj@@(e.g.@@appos@@toxicity@@partmod@@associated@@prep_with@@therapy)@@nn@@salicylate</pair>  
+      <pair id="DDI-DrugBank.d34.s0.p2" e1="DDI-DrugBank.d34.s0.e1" e2="DDI-DrugBank.d34.s0.e2" ddi="false" flags="True" e1_name="carbonic anhydrase inhibitors" e2_name="salicylate" e1_pos="22" e2_pos="40" path="22@@19@@30@@34@@36@@37@@41@@40@@">carbonic anhydrase inhibitors@@@@prep_with@@reported@@ccomp@@resulted@@nsubj@@(e.g.@@appos@@toxicity@@partmod@@associated@@prep_with@@therapy)@@nn@@salicylate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d34.s1" text="Therefore, the potential for such drug interactions should be considered in patients receiving dorzolamide." new_text="Therefore@@,@@the@@potential@@for@@such@@drug@@interactions@@should@@be@@considered@@in@@patients@@receiving@@dorzolamide@@.@@"> 
+      <entity id="DDI-DrugBank.d34.s1.e0" charOffset="95-105" type="drug" text="dorzolamide" position="14"/> 
+   </sentence> 
+</document>

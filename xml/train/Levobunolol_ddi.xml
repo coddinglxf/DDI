@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d252"> 
+   <sentence id="DDI-DrugBank.d252.s0" text="Although BETAGAN used alone has little or no effect on pupil size, mydriasis resulting from concomitant therapy with BETAGAN and epinephrine may occur." new_text="Although@@BETAGAN@@used@@alone@@has@@little@@or@@no@@effect@@on@@pupil@@size@@,@@mydriasis@@resulting@@from@@concomitant@@therapy@@with@@BETAGAN@@and@@epinephrine@@may@@occur@@.@@"> 
+      <entity id="DDI-DrugBank.d252.s0.e0" charOffset="9-15" type="brand" text="BETAGAN" position="1"/>  
+      <entity id="DDI-DrugBank.d252.s0.e1" charOffset="117-123" type="brand" text="BETAGAN" position="19"/>  
+      <entity id="DDI-DrugBank.d252.s0.e2" charOffset="129-139" type="drug" text="epinephrine" position="21"/>  
+      <pair id="DDI-DrugBank.d252.s0.p0" e1="DDI-DrugBank.d252.s0.e0" e2="DDI-DrugBank.d252.s0.e1" ddi="false" flags="True" e1_name="BETAGAN" e2_name="BETAGAN" e1_pos="1" e2_pos="19" path="1@@4@@23@@13@@14@@19@@">BETAGAN@@@@nsubj@@has@@advcl@@occur@@nsubj@@mydriasis@@partmod@@resulting@@prep_with@@BETAGAN</pair>  
+      <pair id="DDI-DrugBank.d252.s0.p1" e1="DDI-DrugBank.d252.s0.e0" e2="DDI-DrugBank.d252.s0.e2" ddi="false" flags="True" e1_name="BETAGAN" e2_name="epinephrine" e1_pos="1" e2_pos="21" path="1@@4@@23@@13@@14@@21@@">BETAGAN@@@@nsubj@@has@@advcl@@occur@@nsubj@@mydriasis@@partmod@@resulting@@prep_with@@epinephrine</pair>  
+      <pair id="DDI-DrugBank.d252.s0.p2" e1="DDI-DrugBank.d252.s0.e1" e2="DDI-DrugBank.d252.s0.e2" ddi="true" type="effect" flags="True" e1_name="BETAGAN" e2_name="epinephrine" e1_pos="19" e2_pos="21" path="19@@21@@">BETAGAN@@@@conj_and@@epinephrine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d252.s1" text="Close observation of the patient is recommended when a beta-blocker is administered to patients receiving catecholamine-depleting drugs such as reserpine, because of possible additive effects and the production of hypotension and/or marked bradycardia, which may produce vertigo, syncope or postural hypotension." new_text="Close@@observation@@of@@the@@patient@@is@@recommended@@when@@a@@beta-blocker@@is@@administered@@to@@patients@@receiving@@catecholamine-depleting@@drugs@@such@@as@@reserpine@@,@@because@@of@@possible@@additive@@effects@@and@@the@@production@@of@@hypotension@@and/or@@marked@@bradycardia@@,@@which@@may@@produce@@vertigo@@,@@syncope@@or@@postural@@hypotension@@.@@"> 
+      <entity id="DDI-DrugBank.d252.s1.e0" charOffset="55-66" type="group" text="beta-blocker" position="9"/>  
+      <entity id="DDI-DrugBank.d252.s1.e1" charOffset="144-152" type="drug" text="reserpine" position="19"/>  
+      <pair id="DDI-DrugBank.d252.s1.p0" e1="DDI-DrugBank.d252.s1.e0" e2="DDI-DrugBank.d252.s1.e1" ddi="true" type="advise" flags="True" e1_name="beta-blocker" e2_name="reserpine" e1_pos="9" e2_pos="19" path="9@@11@@13@@14@@16@@19@@">beta-blocker@@@@nsubjpass@@administered@@prep_to@@patients@@partmod@@receiving@@dobj@@drugs@@prep_such_as@@reserpine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d252.s2" text="Patients receiving beta-adrenergic blocking agents along with either oral or intravenous calcium antagonists should be monitored for possible atrioventricular conduction disturbances, left ventricular failure and hypotension." new_text="Patients@@receiving@@beta-adrenergic blocking agents@@along@@with@@either@@oral@@or@@intravenous@@calcium antagonists@@should@@be@@monitored@@for@@possible@@atrioventricular@@conduction@@disturbances@@,@@left@@ventricular@@failure@@and@@hypotension@@.@@"> 
+      <entity id="DDI-DrugBank.d252.s2.e0" charOffset="19-49" type="group" text="beta-adrenergic blocking agents" position="2"/>  
+      <entity id="DDI-DrugBank.d252.s2.e1" charOffset="89-107" type="group" text="calcium antagonists" position="9"/>  
+      <pair id="DDI-DrugBank.d252.s2.p0" e1="DDI-DrugBank.d252.s2.e0" e2="DDI-DrugBank.d252.s2.e1" ddi="true" type="advise" flags="True" e1_name="beta-adrenergic blocking agents" e2_name="calcium antagonists" e1_pos="2" e2_pos="9" path="2@@1@@9@@">beta-adrenergic blocking agents@@@@dobj@@receiving@@prep_along_with@@calcium antagonists</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d252.s3" text="In patients with impaired cardiac function, simultaneous use should be avoided altogether." new_text="In@@patients@@with@@impaired@@cardiac@@function@@,@@simultaneous@@use@@should@@be@@avoided@@altogether@@.@@"/>  
+   <sentence id="DDI-DrugBank.d252.s4" text="The concomitant use of beta-adrenergic blocking agents with digitalis and calcium antagonists may have additive effects on prolonging atrioventricular conduction time." new_text="The@@concomitant@@use@@of@@beta-adrenergic blocking agents@@with@@digitalis@@and@@calcium antagonist@@s@@may@@have@@additive@@effects@@on@@prolonging@@atrioventricular@@conduction@@time@@.@@"> 
+      <entity id="DDI-DrugBank.d252.s4.e0" charOffset="23-53" type="group" text="beta-adrenergic blocking agents" position="4"/>  
+      <entity id="DDI-DrugBank.d252.s4.e1" charOffset="60-68" type="group" text="digitalis" position="6"/>  
+      <entity id="DDI-DrugBank.d252.s4.e2" charOffset="74-91" type="group" text="calcium antagonist" position="8"/>  
+      <pair id="DDI-DrugBank.d252.s4.p0" e1="DDI-DrugBank.d252.s4.e0" e2="DDI-DrugBank.d252.s4.e1" ddi="true" type="effect" flags="True" e1_name="beta-adrenergic blocking agents" e2_name="digitalis" e1_pos="4" e2_pos="6" path="4@@9@@6@@">beta-adrenergic blocking agents@@@@prep_with@@s@@nn@@digitalis</pair>  
+      <pair id="DDI-DrugBank.d252.s4.p1" e1="DDI-DrugBank.d252.s4.e0" e2="DDI-DrugBank.d252.s4.e2" ddi="true" type="effect" flags="True" e1_name="beta-adrenergic blocking agents" e2_name="calcium antagonist" e1_pos="4" e2_pos="8" path="4@@9@@8@@">beta-adrenergic blocking agents@@@@prep_with@@s@@nn@@calcium antagonist</pair>  
+      <pair id="DDI-DrugBank.d252.s4.p2" e1="DDI-DrugBank.d252.s4.e1" e2="DDI-DrugBank.d252.s4.e2" ddi="false" flags="True" e1_name="digitalis" e2_name="calcium antagonist" e1_pos="6" e2_pos="8" path="6@@8@@">digitalis@@@@conj_and@@calcium antagonist</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d252.s5" text="Phenothiazine-related compounds and beta-adrenergic blocking agents may have additive hypotensite effects due to the inhibition of each other s metabolism." new_text="Phenothiazine-related compounds@@and@@beta-adrenergic blocking agents@@may@@have@@additive@@hypotensite@@effects@@due@@to@@the@@inhibition@@of@@each@@other@@s@@metabolism@@.@@"> 
+      <entity id="DDI-DrugBank.d252.s5.e0" charOffset="0-30" type="group" text="Phenothiazine-related compounds" position="0"/>  
+      <entity id="DDI-DrugBank.d252.s5.e1" charOffset="36-66" type="group" text="beta-adrenergic blocking agents" position="2"/>  
+      <pair id="DDI-DrugBank.d252.s5.p0" e1="DDI-DrugBank.d252.s5.e0" e2="DDI-DrugBank.d252.s5.e1" ddi="true" type="mechanism" flags="True" e1_name="Phenothiazine-related compounds" e2_name="beta-adrenergic blocking agents" e1_pos="0" e2_pos="2" path="0@@2@@">Phenothiazine-related compounds@@@@conj_and@@beta-adrenergic blocking agents</pair> 
+   </sentence> 
+</document>

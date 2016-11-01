@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d588"> 
+   <sentence id="DDI-DrugBank.d588.s0" text="Diuretics: Furosemide and probably other loop diuretics given concomitantly with metolazone can cause unusually large or prolonged losses of fluid and electrolytes. " new_text="Diuretics@@:@@Furosemide@@and@@probably@@other@@loop diuretics@@given@@concomitantly@@with@@metolazone@@can@@cause@@unusually@@large@@or@@prolonged@@losses@@of@@fluid@@and@@electrolytes@@.@@"> 
+      <entity id="DDI-DrugBank.d588.s0.e0" charOffset="0-8" type="group" text="Diuretics" position="0"/>  
+      <entity id="DDI-DrugBank.d588.s0.e1" charOffset="11-20" type="drug" text="Furosemide" position="2"/>  
+      <entity id="DDI-DrugBank.d588.s0.e2" charOffset="41-54" type="group" text="loop diuretics" position="6"/>  
+      <entity id="DDI-DrugBank.d588.s0.e3" charOffset="81-90" type="drug" text="metolazone" position="10"/>  
+      <pair id="DDI-DrugBank.d588.s0.p0" e1="DDI-DrugBank.d588.s0.e0" e2="DDI-DrugBank.d588.s0.e1" ddi="false" flags="True" e1_name="Diuretics" e2_name="Furosemide" e1_pos="0" e2_pos="2" path="0@@2@@">Diuretics@@@@dep@@Furosemide</pair>  
+      <pair id="DDI-DrugBank.d588.s0.p1" e1="DDI-DrugBank.d588.s0.e0" e2="DDI-DrugBank.d588.s0.e2" ddi="false" flags="True" e1_name="Diuretics" e2_name="loop diuretics" e1_pos="0" e2_pos="6" path="0@@6@@">Diuretics@@@@dep@@loop diuretics</pair>  
+      <pair id="DDI-DrugBank.d588.s0.p2" e1="DDI-DrugBank.d588.s0.e0" e2="DDI-DrugBank.d588.s0.e3" ddi="false" flags="True" e1_name="Diuretics" e2_name="metolazone" e1_pos="0" e2_pos="10" path="0@@6@@7@@10@@">Diuretics@@@@dep@@loop diuretics@@partmod@@given@@prep_with@@metolazone</pair>  
+      <pair id="DDI-DrugBank.d588.s0.p3" e1="DDI-DrugBank.d588.s0.e1" e2="DDI-DrugBank.d588.s0.e2" ddi="false" flags="True" e1_name="Furosemide" e2_name="loop diuretics" e1_pos="2" e2_pos="6" path="2@@6@@">Furosemide@@@@conj_and@@loop diuretics</pair>  
+      <pair id="DDI-DrugBank.d588.s0.p4" e1="DDI-DrugBank.d588.s0.e1" e2="DDI-DrugBank.d588.s0.e3" ddi="true" type="effect" flags="True" e1_name="Furosemide" e2_name="metolazone" e1_pos="2" e2_pos="10" path="2@@6@@7@@10@@">Furosemide@@@@conj_and@@loop diuretics@@partmod@@given@@prep_with@@metolazone</pair>  
+      <pair id="DDI-DrugBank.d588.s0.p5" e1="DDI-DrugBank.d588.s0.e2" e2="DDI-DrugBank.d588.s0.e3" ddi="true" type="effect" flags="True" e1_name="loop diuretics" e2_name="metolazone" e1_pos="6" e2_pos="10" path="6@@7@@10@@">loop diuretics@@@@partmod@@given@@prep_with@@metolazone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d588.s1" text="Other Antihypertensives: When MYKROX Tablets are used with other antihypertensive drugs, care must be taken, especially during initial therapy. " new_text="Other@@Antihypertensives@@:@@When@@MYKROX@@Tablets@@are@@used@@with@@other@@antihypertensive drugs@@,@@care@@must@@be@@taken@@,@@especially@@during@@initial@@therapy@@.@@"> 
+      <entity id="DDI-DrugBank.d588.s1.e0" charOffset="6-22" type="group" text="Antihypertensives" position="1"/>  
+      <entity id="DDI-DrugBank.d588.s1.e1" charOffset="30-35" type="brand" text="MYKROX" position="4"/>  
+      <entity id="DDI-DrugBank.d588.s1.e2" charOffset="65-86" type="group" text="antihypertensive drugs" position="10"/>  
+      <pair id="DDI-DrugBank.d588.s1.p0" e1="DDI-DrugBank.d588.s1.e0" e2="DDI-DrugBank.d588.s1.e1" ddi="false" flags="True" e1_name="Antihypertensives" e2_name="MYKROX" e1_pos="1" e2_pos="4" path="1@@15@@7@@5@@4@@">Antihypertensives@@@@dep@@taken@@advcl@@used@@nsubjpass@@Tablets@@nn@@MYKROX</pair>  
+      <pair id="DDI-DrugBank.d588.s1.p1" e1="DDI-DrugBank.d588.s1.e0" e2="DDI-DrugBank.d588.s1.e2" ddi="false" flags="True" e1_name="Antihypertensives" e2_name="antihypertensive drugs" e1_pos="1" e2_pos="10" path="1@@15@@7@@10@@">Antihypertensives@@@@dep@@taken@@advcl@@used@@prep_with@@antihypertensive drugs</pair>  
+      <pair id="DDI-DrugBank.d588.s1.p2" e1="DDI-DrugBank.d588.s1.e1" e2="DDI-DrugBank.d588.s1.e2" ddi="true" type="advise" flags="True" e1_name="MYKROX" e2_name="antihypertensive drugs" e1_pos="4" e2_pos="10" path="4@@5@@7@@10@@">MYKROX@@@@nn@@Tablets@@nsubjpass@@used@@prep_with@@antihypertensive drugs</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d588.s2" text="Dosage adjustments of other antihypertensives may be necessary. " new_text="Dosage@@adjustments@@of@@other@@antihypertensives@@may@@be@@necessary@@.@@"> 
+      <entity id="DDI-DrugBank.d588.s2.e0" charOffset="28-44" type="group" text="antihypertensives" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d588.s3" text="Alcohol, Barbiturates, and Narcotics: The hypotensive effects of these drugs may be potentiated by the volume contraction that may be associated with metolazone therapy. " new_text="Alcohol@@,@@Barbiturates@@,@@and@@Narcotics@@:@@The@@hypotensive@@effects@@of@@these@@drugs@@may@@be@@potentiated@@by@@the@@volume@@contraction@@that@@may@@be@@associated@@with@@metolazone@@therapy@@.@@"> 
+      <entity id="DDI-DrugBank.d588.s3.e0" charOffset="0-6" type="drug" text="Alcohol" position="0"/>  
+      <entity id="DDI-DrugBank.d588.s3.e1" charOffset="9-20" type="group" text="Barbiturates" position="2"/>  
+      <entity id="DDI-DrugBank.d588.s3.e2" charOffset="27-35" type="group" text="Narcotics" position="5"/>  
+      <entity id="DDI-DrugBank.d588.s3.e3" charOffset="150-159" type="drug" text="metolazone" position="25"/>  
+      <pair id="DDI-DrugBank.d588.s3.p0" e1="DDI-DrugBank.d588.s3.e0" e2="DDI-DrugBank.d588.s3.e1" ddi="false" flags="True" e1_name="Alcohol" e2_name="Barbiturates" e1_pos="0" e2_pos="2" path="0@@2@@">Alcohol@@@@conj_and@@Barbiturates</pair>  
+      <pair id="DDI-DrugBank.d588.s3.p1" e1="DDI-DrugBank.d588.s3.e0" e2="DDI-DrugBank.d588.s3.e2" ddi="false" flags="True" e1_name="Alcohol" e2_name="Narcotics" e1_pos="0" e2_pos="5" path="0@@5@@">Alcohol@@@@conj_and@@Narcotics</pair>  
+      <pair id="DDI-DrugBank.d588.s3.p2" e1="DDI-DrugBank.d588.s3.e0" e2="DDI-DrugBank.d588.s3.e3" ddi="false" flags="True" e1_name="Alcohol" e2_name="metolazone" e1_pos="0" e2_pos="25" path="0@@15@@19@@23@@26@@25@@">Alcohol@@@@nsubjpass@@potentiated@@agent@@contraction@@rcmod@@associated@@prep_with@@therapy@@amod@@metolazone</pair>  
+      <pair id="DDI-DrugBank.d588.s3.p3" e1="DDI-DrugBank.d588.s3.e1" e2="DDI-DrugBank.d588.s3.e2" ddi="false" flags="True" e1_name="Barbiturates" e2_name="Narcotics" e1_pos="2" e2_pos="5" path="2@@0@@5@@">Barbiturates@@@@conj_and@@Alcohol@@conj_and@@Narcotics</pair>  
+      <pair id="DDI-DrugBank.d588.s3.p4" e1="DDI-DrugBank.d588.s3.e1" e2="DDI-DrugBank.d588.s3.e3" ddi="false" flags="True" e1_name="Barbiturates" e2_name="metolazone" e1_pos="2" e2_pos="25" path="2@@15@@19@@23@@26@@25@@">Barbiturates@@@@nsubjpass@@potentiated@@agent@@contraction@@rcmod@@associated@@prep_with@@therapy@@amod@@metolazone</pair>  
+      <pair id="DDI-DrugBank.d588.s3.p5" e1="DDI-DrugBank.d588.s3.e2" e2="DDI-DrugBank.d588.s3.e3" ddi="false" flags="True" e1_name="Narcotics" e2_name="metolazone" e1_pos="5" e2_pos="25" path="5@@15@@19@@23@@26@@25@@">Narcotics@@@@nsubjpass@@potentiated@@agent@@contraction@@rcmod@@associated@@prep_with@@therapy@@amod@@metolazone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d588.s4" text="Digitalis Glycosides: Diuretic-induced hypokalemia can increase the sensitivity of the myocardium to digitalis. " new_text="Digitalis Glycosides@@:@@Diuretic@@-induced@@hypokalemia@@can@@increase@@the@@sensitivity@@of@@the@@myocardium@@to@@digitalis@@.@@"> 
+      <entity id="DDI-DrugBank.d588.s4.e0" charOffset="0-19" type="group" text="Digitalis Glycosides" position="0"/>  
+      <entity id="DDI-DrugBank.d588.s4.e1" charOffset="22-29" type="group" text="Diuretic" position="2"/>  
+      <entity id="DDI-DrugBank.d588.s4.e2" charOffset="101-109" type="group" text="digitalis" position="13"/>  
+      <pair id="DDI-DrugBank.d588.s4.p0" e1="DDI-DrugBank.d588.s4.e0" e2="DDI-DrugBank.d588.s4.e1" ddi="false" flags="True" e1_name="Digitalis Glycosides" e2_name="Diuretic" e1_pos="0" e2_pos="2" path="0@@6@@4@@2@@">Digitalis Glycosides@@@@dep@@increase@@nsubj@@hypokalemia@@amod@@Diuretic</pair>  
+      <pair id="DDI-DrugBank.d588.s4.p1" e1="DDI-DrugBank.d588.s4.e0" e2="DDI-DrugBank.d588.s4.e2" ddi="false" flags="True" e1_name="Digitalis Glycosides" e2_name="digitalis" e1_pos="0" e2_pos="13" path="0@@6@@13@@">Digitalis Glycosides@@@@dep@@increase@@prep_to@@digitalis</pair>  
+      <pair id="DDI-DrugBank.d588.s4.p2" e1="DDI-DrugBank.d588.s4.e1" e2="DDI-DrugBank.d588.s4.e2" ddi="true" type="effect" flags="True" e1_name="Diuretic" e2_name="digitalis" e1_pos="2" e2_pos="13" path="2@@4@@6@@13@@">Diuretic@@@@amod@@hypokalemia@@nsubj@@increase@@prep_to@@digitalis</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d588.s5" text="Serious arrhythmias can result. " new_text="Serious@@arrhythmias@@can@@result@@.@@"/>  
+   <sentence id="DDI-DrugBank.d588.s6" text="Corticosteroids or ACTH: May increase the risk of hypokalemia and increase salt and water retention. " new_text="Corticosteroids@@or@@ACTH@@:@@May@@increase@@the@@risk@@of@@hypokalemia@@and@@increase@@salt@@and@@water@@retention@@.@@"> 
+      <entity id="DDI-DrugBank.d588.s6.e0" charOffset="0-14" type="group" text="Corticosteroids" position="0"/>  
+      <entity id="DDI-DrugBank.d588.s6.e1" charOffset="19-22" type="drug" text="ACTH" position="2"/>  
+      <pair id="DDI-DrugBank.d588.s6.p0" e1="DDI-DrugBank.d588.s6.e0" e2="DDI-DrugBank.d588.s6.e1" ddi="false" flags="True" e1_name="Corticosteroids" e2_name="ACTH" e1_pos="0" e2_pos="2" path="0@@2@@">Corticosteroids@@@@conj_or@@ACTH</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d588.s7" text="Lithium: Serum lithium levels may increase. " new_text="Lithium@@:@@Serum@@lithium@@levels@@may@@increase@@.@@"> 
+      <entity id="DDI-DrugBank.d588.s7.e0" charOffset="0-6" type="drug" text="Lithium" position="0"/>  
+      <entity id="DDI-DrugBank.d588.s7.e1" charOffset="15-21" type="drug" text="lithium" position="3"/>  
+      <pair id="DDI-DrugBank.d588.s7.p0" e1="DDI-DrugBank.d588.s7.e0" e2="DDI-DrugBank.d588.s7.e1" ddi="false" flags="True" e1_name="Lithium" e2_name="lithium" e1_pos="0" e2_pos="3" path="0@@6@@4@@3@@">Lithium@@@@advmod@@increase@@nsubj@@levels@@nn@@lithium</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d588.s8" text="Curariform Drugs: Diuretic-induced hypokalemia may enhance neuromuscular blocking effects of curariform drugs (such as tubocurarine) the most serious effect would be respiratory depression which could proceed to apnea. " new_text="Curariform Drugs@@:@@Diuretic@@-induced@@hypokalemia@@may@@enhance@@neuromuscular@@blocking@@effects@@of@@curariform drugs@@(such@@as@@tubocurarine@@)@@the@@most@@serious@@effect@@would@@be@@respiratory@@depression@@which@@could@@proceed@@to@@apnea@@.@@"> 
+      <entity id="DDI-DrugBank.d588.s8.e0" charOffset="0-15" type="group" text="Curariform Drugs" position="0"/>  
+      <entity id="DDI-DrugBank.d588.s8.e1" charOffset="18-25" type="group" text="Diuretic" position="2"/>  
+      <entity id="DDI-DrugBank.d588.s8.e2" charOffset="93-108" type="group" text="curariform drugs" position="11"/>  
+      <entity id="DDI-DrugBank.d588.s8.e3" charOffset="119-130" type="drug" text="tubocurarine" position="14"/>  
+      <pair id="DDI-DrugBank.d588.s8.p0" e1="DDI-DrugBank.d588.s8.e0" e2="DDI-DrugBank.d588.s8.e1" ddi="false" flags="True" e1_name="Curariform Drugs" e2_name="Diuretic" e1_pos="0" e2_pos="2" path="0@@6@@4@@2@@">Curariform Drugs@@@@dep@@enhance@@nsubj@@hypokalemia@@amod@@Diuretic</pair>  
+      <pair id="DDI-DrugBank.d588.s8.p1" e1="DDI-DrugBank.d588.s8.e0" e2="DDI-DrugBank.d588.s8.e2" ddi="false" flags="True" e1_name="Curariform Drugs" e2_name="curariform drugs" e1_pos="0" e2_pos="11" path="0@@6@@7@@8@@9@@12@@11@@">Curariform Drugs@@@@dep@@enhance@@dobj@@neuromuscular@@partmod@@blocking@@dobj@@effects@@prep_of@@(such@@amod@@curariform drugs</pair>  
+      <pair id="DDI-DrugBank.d588.s8.p2" e1="DDI-DrugBank.d588.s8.e0" e2="DDI-DrugBank.d588.s8.e3" ddi="false" flags="True" e1_name="Curariform Drugs" e2_name="tubocurarine" e1_pos="0" e2_pos="14" path="0@@6@@7@@8@@15@@14@@">Curariform Drugs@@@@dep@@enhance@@dobj@@neuromuscular@@partmod@@blocking@@prep_as@@)@@amod@@tubocurarine</pair>  
+      <pair id="DDI-DrugBank.d588.s8.p3" e1="DDI-DrugBank.d588.s8.e1" e2="DDI-DrugBank.d588.s8.e2" ddi="true" type="effect" flags="True" e1_name="Diuretic" e2_name="curariform drugs" e1_pos="2" e2_pos="11" path="2@@4@@6@@7@@8@@9@@12@@11@@">Diuretic@@@@amod@@hypokalemia@@nsubj@@enhance@@dobj@@neuromuscular@@partmod@@blocking@@dobj@@effects@@prep_of@@(such@@amod@@curariform drugs</pair>  
+      <pair id="DDI-DrugBank.d588.s8.p4" e1="DDI-DrugBank.d588.s8.e1" e2="DDI-DrugBank.d588.s8.e3" ddi="true" type="effect" flags="True" e1_name="Diuretic" e2_name="tubocurarine" e1_pos="2" e2_pos="14" path="2@@4@@6@@7@@8@@15@@14@@">Diuretic@@@@amod@@hypokalemia@@nsubj@@enhance@@dobj@@neuromuscular@@partmod@@blocking@@prep_as@@)@@amod@@tubocurarine</pair>  
+      <pair id="DDI-DrugBank.d588.s8.p5" e1="DDI-DrugBank.d588.s8.e2" e2="DDI-DrugBank.d588.s8.e3" ddi="false" flags="True" e1_name="curariform drugs" e2_name="tubocurarine" e1_pos="11" e2_pos="14" path="11@@12@@9@@8@@15@@14@@">curariform drugs@@@@amod@@(such@@prep_of@@effects@@dobj@@blocking@@prep_as@@)@@amod@@tubocurarine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d588.s9" text="Accordingly, it may be advisable to discontinue MYKROX Tablets three days before elective surgery. " new_text="Accordingly@@,@@it@@may@@be@@advisable@@to@@discontinue@@MYKROX@@Tablets@@three@@days@@before@@elective@@surgery@@.@@"> 
+      <entity id="DDI-DrugBank.d588.s9.e0" charOffset="48-53" type="brand" text="MYKROX" position="8"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d588.s10" text="Salicylates and Other Non-Steroidal Anti-Inflammatory Drugs: May decrease the antihypertensive effects of MYKROX Tablets. " new_text="Salicylates@@and@@Other@@Non-Steroidal Anti-Inflammatory Drugs@@:@@May@@decrease@@the@@antihypertensive@@effects@@of@@MYKROX@@Tablets@@.@@"> 
+      <entity id="DDI-DrugBank.d588.s10.e0" charOffset="0-10" type="group" text="Salicylates" position="0"/>  
+      <entity id="DDI-DrugBank.d588.s10.e1" charOffset="22-58" type="group" text="Non-Steroidal Anti-Inflammatory Drugs" position="3"/>  
+      <entity id="DDI-DrugBank.d588.s10.e2" charOffset="106-111" type="brand" text="MYKROX" position="11"/>  
+      <pair id="DDI-DrugBank.d588.s10.p0" e1="DDI-DrugBank.d588.s10.e0" e2="DDI-DrugBank.d588.s10.e1" ddi="false" flags="True" e1_name="Salicylates" e2_name="Non-Steroidal Anti-Inflammatory Drugs" e1_pos="0" e2_pos="3" path="0@@3@@">Salicylates@@@@conj_and@@Non-Steroidal Anti-Inflammatory Drugs</pair>  
+      <pair id="DDI-DrugBank.d588.s10.p1" e1="DDI-DrugBank.d588.s10.e0" e2="DDI-DrugBank.d588.s10.e2" ddi="true" type="effect" flags="True" e1_name="Salicylates" e2_name="MYKROX" e1_pos="0" e2_pos="11" path="0@@6@@9@@12@@11@@">Salicylates@@@@nsubj@@decrease@@dobj@@effects@@prep_of@@Tablets@@nn@@MYKROX</pair>  
+      <pair id="DDI-DrugBank.d588.s10.p2" e1="DDI-DrugBank.d588.s10.e1" e2="DDI-DrugBank.d588.s10.e2" ddi="true" type="effect" flags="True" e1_name="Non-Steroidal Anti-Inflammatory Drugs" e2_name="MYKROX" e1_pos="3" e2_pos="11" path="3@@6@@9@@12@@11@@">Non-Steroidal Anti-Inflammatory Drugs@@@@nsubj@@decrease@@dobj@@effects@@prep_of@@Tablets@@nn@@MYKROX</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d588.s11" text="Sympathomimetics: Metolazone may decrease arterial responsiveness to norepinephrine, but this diminution is not sufficient to preclude effectiveness of the pressor agent for therapeutic use. " new_text="Sympathomimetics@@:@@Metolazone@@may@@decrease@@arterial@@responsiveness@@to@@norepinephrine@@,@@but@@this@@diminution@@is@@not@@sufficient@@to@@preclude@@effectiveness@@of@@the@@pressor@@agent@@for@@therapeutic@@use@@.@@"> 
+      <entity id="DDI-DrugBank.d588.s11.e0" charOffset="0-15" type="group" text="Sympathomimetics" position="0"/>  
+      <entity id="DDI-DrugBank.d588.s11.e1" charOffset="18-27" type="drug" text="Metolazone" position="2"/>  
+      <entity id="DDI-DrugBank.d588.s11.e2" charOffset="69-82" type="drug" text="norepinephrine" position="8"/>  
+      <pair id="DDI-DrugBank.d588.s11.p0" e1="DDI-DrugBank.d588.s11.e0" e2="DDI-DrugBank.d588.s11.e1" ddi="false" flags="True" e1_name="Sympathomimetics" e2_name="Metolazone" e1_pos="0" e2_pos="2" path="0@@4@@2@@">Sympathomimetics@@@@dep@@decrease@@nsubj@@Metolazone</pair>  
+      <pair id="DDI-DrugBank.d588.s11.p1" e1="DDI-DrugBank.d588.s11.e0" e2="DDI-DrugBank.d588.s11.e2" ddi="false" flags="True" e1_name="Sympathomimetics" e2_name="norepinephrine" e1_pos="0" e2_pos="8" path="0@@4@@8@@">Sympathomimetics@@@@dep@@decrease@@xcomp@@norepinephrine</pair>  
+      <pair id="DDI-DrugBank.d588.s11.p2" e1="DDI-DrugBank.d588.s11.e1" e2="DDI-DrugBank.d588.s11.e2" ddi="true" type="effect" flags="True" e1_name="Metolazone" e2_name="norepinephrine" e1_pos="2" e2_pos="8" path="2@@8@@">Metolazone@@@@xsubj@@norepinephrine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d588.s12" text="Methenamine: Efficacy may be decreased due to urinary alkalizing effect of metolazone. " new_text="Methenamine@@:@@Efficacy@@may@@be@@decreased@@due@@to@@urinary@@alkalizing@@effect@@of@@metolazone@@.@@"> 
+      <entity id="DDI-DrugBank.d588.s12.e0" charOffset="0-10" type="drug" text="Methenamine" position="0"/>  
+      <entity id="DDI-DrugBank.d588.s12.e1" charOffset="75-84" type="drug" text="metolazone" position="12"/>  
+      <pair id="DDI-DrugBank.d588.s12.p0" e1="DDI-DrugBank.d588.s12.e0" e2="DDI-DrugBank.d588.s12.e1" ddi="true" type="effect" flags="True" e1_name="Methenamine" e2_name="metolazone" e1_pos="0" e2_pos="12" path="0@@5@@10@@12@@">Methenamine@@@@dep@@decreased@@prep_due_to@@effect@@prep_of@@metolazone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d588.s13" text="Anticoagulants: Metolazone, as well as other thiazide-like diuretics, may affect the hypoprothrombinemic response to anticoagulants; " new_text="Anticoagulants@@:@@Metolazone@@,@@as@@well@@as@@other@@thiazide-like diuretics@@,@@may@@affect@@the@@hypoprothrombinemic@@response@@to@@anticoagulants@@;@@"> 
+      <entity id="DDI-DrugBank.d588.s13.e0" charOffset="0-13" type="group" text="Anticoagulants" position="0"/>  
+      <entity id="DDI-DrugBank.d588.s13.e1" charOffset="16-25" type="drug" text="Metolazone" position="2"/>  
+      <entity id="DDI-DrugBank.d588.s13.e2" charOffset="45-67" type="group" text="thiazide-like diuretics" position="8"/>  
+      <entity id="DDI-DrugBank.d588.s13.e3" charOffset="117-130" type="group" text="anticoagulants" position="16"/>  
+      <pair id="DDI-DrugBank.d588.s13.p0" e1="DDI-DrugBank.d588.s13.e0" e2="DDI-DrugBank.d588.s13.e1" ddi="false" flags="True" e1_name="Anticoagulants" e2_name="Metolazone" e1_pos="0" e2_pos="2" path="0@@2@@">Anticoagulants@@@@dep@@Metolazone</pair>  
+      <pair id="DDI-DrugBank.d588.s13.p1" e1="DDI-DrugBank.d588.s13.e0" e2="DDI-DrugBank.d588.s13.e2" ddi="false" flags="True" e1_name="Anticoagulants" e2_name="thiazide-like diuretics" e1_pos="0" e2_pos="8" path="0@@8@@">Anticoagulants@@@@conj_and@@thiazide-like diuretics</pair>  
+      <pair id="DDI-DrugBank.d588.s13.p2" e1="DDI-DrugBank.d588.s13.e0" e2="DDI-DrugBank.d588.s13.e3" ddi="false" flags="True" e1_name="Anticoagulants" e2_name="anticoagulants" e1_pos="0" e2_pos="16" path="0@@11@@16@@">Anticoagulants@@@@nsubj@@affect@@prep_to@@anticoagulants</pair>  
+      <pair id="DDI-DrugBank.d588.s13.p3" e1="DDI-DrugBank.d588.s13.e1" e2="DDI-DrugBank.d588.s13.e2" ddi="false" flags="True" e1_name="Metolazone" e2_name="thiazide-like diuretics" e1_pos="2" e2_pos="8" path="2@@0@@8@@">Metolazone@@@@dep@@Anticoagulants@@conj_and@@thiazide-like diuretics</pair>  
+      <pair id="DDI-DrugBank.d588.s13.p4" e1="DDI-DrugBank.d588.s13.e1" e2="DDI-DrugBank.d588.s13.e3" ddi="true" type="effect" flags="True" e1_name="Metolazone" e2_name="anticoagulants" e1_pos="2" e2_pos="16" path="2@@0@@11@@16@@">Metolazone@@@@dep@@Anticoagulants@@nsubj@@affect@@prep_to@@anticoagulants</pair>  
+      <pair id="DDI-DrugBank.d588.s13.p5" e1="DDI-DrugBank.d588.s13.e2" e2="DDI-DrugBank.d588.s13.e3" ddi="false" flags="True" e1_name="thiazide-like diuretics" e2_name="anticoagulants" e1_pos="8" e2_pos="16" path="8@@11@@16@@">thiazide-like diuretics@@@@nsubj@@affect@@prep_to@@anticoagulants</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d588.s14" text="dosage adjustments may be necessary." new_text="dosage@@adjustments@@may@@be@@necessary@@.@@"/> 
+</document>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d68"> 
+   <sentence id="DDI-MedLine.d68.s0" text="[The effect of cimetidine on the renal excretion of verografin and iodamide in dogs] The intravenous injection of cimetidine in a dose of 20 mg/kg enhanced verografine and iodamide excretion in chronic canine experiments. " new_text="[The@@effect@@of@@cimetidine@@on@@the@@renal@@excretion@@of@@verografin@@and@@iodamide@@in@@dogs]@@The@@intravenous@@injection@@of@@cimetidine@@in@@a@@dose@@of@@20@@mg/kg@@enhanced@@verografine@@and@@iodamide@@excretion@@in@@chronic@@canine@@experiments@@.@@"> 
+      <entity id="DDI-MedLine.d68.s0.e0" charOffset="15-24" type="drug" text="cimetidine" position="3"/>  
+      <entity id="DDI-MedLine.d68.s0.e1" charOffset="52-61" type="drug" text="verografin" position="9"/>  
+      <entity id="DDI-MedLine.d68.s0.e2" charOffset="67-74" type="drug" text="iodamide" position="11"/>  
+      <entity id="DDI-MedLine.d68.s0.e3" charOffset="114-123" type="drug" text="cimetidine" position="18"/>  
+      <entity id="DDI-MedLine.d68.s0.e4" charOffset="156-166" type="drug" text="verografine" position="26"/>  
+      <entity id="DDI-MedLine.d68.s0.e5" charOffset="172-179" type="drug" text="iodamide" position="28"/>  
+      <pair id="DDI-MedLine.d68.s0.p0" e1="DDI-MedLine.d68.s0.e0" e2="DDI-MedLine.d68.s0.e1" ddi="false" flags="True" e1_name="cimetidine" e2_name="verografin" e1_pos="3" e2_pos="9" path="3@@1@@9@@">cimetidine@@@@prep_of@@effect@@prep_of@@verografin</pair>  
+      <pair id="DDI-MedLine.d68.s0.p1" e1="DDI-MedLine.d68.s0.e0" e2="DDI-MedLine.d68.s0.e2" ddi="false" flags="True" e1_name="cimetidine" e2_name="iodamide" e1_pos="3" e2_pos="11" path="3@@1@@11@@">cimetidine@@@@prep_of@@effect@@prep_of@@iodamide</pair>  
+      <pair id="DDI-MedLine.d68.s0.p2" e1="DDI-MedLine.d68.s0.e0" e2="DDI-MedLine.d68.s0.e3" ddi="false" flags="True" e1_name="cimetidine" e2_name="cimetidine" e1_pos="3" e2_pos="18" path="3@@1@@18@@">cimetidine@@@@prep_of@@effect@@prep_of@@cimetidine</pair>  
+      <pair id="DDI-MedLine.d68.s0.p3" e1="DDI-MedLine.d68.s0.e0" e2="DDI-MedLine.d68.s0.e4" ddi="false" flags="True" e1_name="cimetidine" e2_name="verografine" e1_pos="3" e2_pos="26" path="3@@1@@25@@29@@26@@">cimetidine@@@@prep_of@@effect@@partmod@@enhanced@@dobj@@excretion@@amod@@verografine</pair>  
+      <pair id="DDI-MedLine.d68.s0.p4" e1="DDI-MedLine.d68.s0.e0" e2="DDI-MedLine.d68.s0.e5" ddi="false" flags="True" e1_name="cimetidine" e2_name="iodamide" e1_pos="3" e2_pos="28" path="3@@1@@25@@29@@28@@">cimetidine@@@@prep_of@@effect@@partmod@@enhanced@@dobj@@excretion@@amod@@iodamide</pair>  
+      <pair id="DDI-MedLine.d68.s0.p5" e1="DDI-MedLine.d68.s0.e1" e2="DDI-MedLine.d68.s0.e2" ddi="false" flags="True" e1_name="verografin" e2_name="iodamide" e1_pos="9" e2_pos="11" path="9@@11@@">verografin@@@@conj_and@@iodamide</pair>  
+      <pair id="DDI-MedLine.d68.s0.p6" e1="DDI-MedLine.d68.s0.e1" e2="DDI-MedLine.d68.s0.e3" ddi="false" flags="True" e1_name="verografin" e2_name="cimetidine" e1_pos="9" e2_pos="18" path="9@@1@@18@@">verografin@@@@prep_of@@effect@@prep_of@@cimetidine</pair>  
+      <pair id="DDI-MedLine.d68.s0.p7" e1="DDI-MedLine.d68.s0.e1" e2="DDI-MedLine.d68.s0.e4" ddi="false" flags="True" e1_name="verografin" e2_name="verografine" e1_pos="9" e2_pos="26" path="9@@1@@25@@29@@26@@">verografin@@@@prep_of@@effect@@partmod@@enhanced@@dobj@@excretion@@amod@@verografine</pair>  
+      <pair id="DDI-MedLine.d68.s0.p8" e1="DDI-MedLine.d68.s0.e1" e2="DDI-MedLine.d68.s0.e5" ddi="false" flags="True" e1_name="verografin" e2_name="iodamide" e1_pos="9" e2_pos="28" path="9@@1@@25@@29@@28@@">verografin@@@@prep_of@@effect@@partmod@@enhanced@@dobj@@excretion@@amod@@iodamide</pair>  
+      <pair id="DDI-MedLine.d68.s0.p9" e1="DDI-MedLine.d68.s0.e2" e2="DDI-MedLine.d68.s0.e3" ddi="false" flags="True" e1_name="iodamide" e2_name="cimetidine" e1_pos="11" e2_pos="18" path="11@@1@@18@@">iodamide@@@@prep_of@@effect@@prep_of@@cimetidine</pair>  
+      <pair id="DDI-MedLine.d68.s0.p10" e1="DDI-MedLine.d68.s0.e2" e2="DDI-MedLine.d68.s0.e4" ddi="false" flags="True" e1_name="iodamide" e2_name="verografine" e1_pos="11" e2_pos="26" path="11@@1@@25@@29@@26@@">iodamide@@@@prep_of@@effect@@partmod@@enhanced@@dobj@@excretion@@amod@@verografine</pair>  
+      <pair id="DDI-MedLine.d68.s0.p11" e1="DDI-MedLine.d68.s0.e2" e2="DDI-MedLine.d68.s0.e5" ddi="false" flags="True" e1_name="iodamide" e2_name="iodamide" e1_pos="11" e2_pos="28" path="11@@1@@25@@29@@28@@">iodamide@@@@prep_of@@effect@@partmod@@enhanced@@dobj@@excretion@@amod@@iodamide</pair>  
+      <pair id="DDI-MedLine.d68.s0.p12" e1="DDI-MedLine.d68.s0.e3" e2="DDI-MedLine.d68.s0.e4" ddi="true" type="mechanism" flags="True" e1_name="cimetidine" e2_name="verografine" e1_pos="18" e2_pos="26" path="18@@1@@25@@29@@26@@">cimetidine@@@@prep_of@@effect@@partmod@@enhanced@@dobj@@excretion@@amod@@verografine</pair>  
+      <pair id="DDI-MedLine.d68.s0.p13" e1="DDI-MedLine.d68.s0.e3" e2="DDI-MedLine.d68.s0.e5" ddi="true" type="mechanism" flags="True" e1_name="cimetidine" e2_name="iodamide" e1_pos="18" e2_pos="28" path="18@@1@@25@@29@@28@@">cimetidine@@@@prep_of@@effect@@partmod@@enhanced@@dobj@@excretion@@amod@@iodamide</pair>  
+      <pair id="DDI-MedLine.d68.s0.p14" e1="DDI-MedLine.d68.s0.e4" e2="DDI-MedLine.d68.s0.e5" ddi="false" flags="True" e1_name="verografine" e2_name="iodamide" e1_pos="26" e2_pos="28" path="26@@28@@">verografine@@@@conj_and@@iodamide</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d68.s1" text="The higher verografine and iodamide excretion was due to their increased renal tubular secretion. " new_text="The@@higher@@verografine@@and@@iodamide@@excretion@@was@@due@@to@@their@@increased@@renal@@tubular@@secretion@@.@@"> 
+      <entity id="DDI-MedLine.d68.s1.e0" charOffset="11-21" type="drug" text="verografine" position="2"/>  
+      <entity id="DDI-MedLine.d68.s1.e1" charOffset="27-34" type="drug" text="iodamide" position="4"/>  
+      <pair id="DDI-MedLine.d68.s1.p0" e1="DDI-MedLine.d68.s1.e0" e2="DDI-MedLine.d68.s1.e1" ddi="false" flags="True" e1_name="verografine" e2_name="iodamide" e1_pos="2" e2_pos="4" path="2@@5@@4@@">verografine@@@@conj_and@@excretion@@amod@@iodamide</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d68.s2" text="In dogs, cimetidine unchanged the secretion of cardiotrast, a test agent for anionic transport. " new_text="In@@dogs@@,@@cimetidine@@unchanged@@the@@secretion@@of@@cardiotrast@@,@@a@@test@@agent@@for@@anionic@@transport@@.@@"> 
+      <entity id="DDI-MedLine.d68.s2.e0" charOffset="9-18" type="drug" text="cimetidine" position="3"/>  
+      <entity id="DDI-MedLine.d68.s2.e1" charOffset="47-57" type="drug" text="cardiotrast" position="8"/>  
+      <pair id="DDI-MedLine.d68.s2.p0" e1="DDI-MedLine.d68.s2.e0" e2="DDI-MedLine.d68.s2.e1" ddi="false" flags="True" e1_name="cimetidine" e2_name="cardiotrast" e1_pos="3" e2_pos="8" path="3@@4@@6@@8@@">cimetidine@@@@acomp@@unchanged@@dep@@secretion@@prep_of@@cardiotrast</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d68.s3" text="Possible extrarenal mechanisms of action of cimetidine on verografine and iodamide transport were also examined." new_text="Possible@@extrarenal@@mechanisms@@of@@action@@of@@cimetidine@@on@@verografine@@and@@iodamide@@transport@@were@@also@@examined@@.@@"> 
+      <entity id="DDI-MedLine.d68.s3.e0" charOffset="44-53" type="drug" text="cimetidine" position="6"/>  
+      <entity id="DDI-MedLine.d68.s3.e1" charOffset="58-68" type="drug" text="verografine" position="8"/>  
+      <entity id="DDI-MedLine.d68.s3.e2" charOffset="74-81" type="drug" text="iodamide" position="10"/>  
+      <pair id="DDI-MedLine.d68.s3.p0" e1="DDI-MedLine.d68.s3.e0" e2="DDI-MedLine.d68.s3.e1" ddi="false" flags="True" e1_name="cimetidine" e2_name="verografine" e1_pos="6" e2_pos="8" path="6@@11@@8@@">cimetidine@@@@prep_on@@transport@@amod@@verografine</pair>  
+      <pair id="DDI-MedLine.d68.s3.p1" e1="DDI-MedLine.d68.s3.e0" e2="DDI-MedLine.d68.s3.e2" ddi="false" flags="True" e1_name="cimetidine" e2_name="iodamide" e1_pos="6" e2_pos="10" path="6@@11@@10@@">cimetidine@@@@prep_on@@transport@@amod@@iodamide</pair>  
+      <pair id="DDI-MedLine.d68.s3.p2" e1="DDI-MedLine.d68.s3.e1" e2="DDI-MedLine.d68.s3.e2" ddi="false" flags="True" e1_name="verografine" e2_name="iodamide" e1_pos="8" e2_pos="10" path="8@@10@@">verografine@@@@conj_and@@iodamide</pair> 
+   </sentence> 
+</document>

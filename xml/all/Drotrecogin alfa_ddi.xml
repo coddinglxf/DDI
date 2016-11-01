@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d190"> 
+   <sentence id="DDI-DrugBank.d190.s0" text="Drug interaction studies with Xigris have not been performed in patients with severe sepsis." new_text="Drug@@interaction@@studies@@with@@Xigris@@have@@not@@been@@performed@@in@@patients@@with@@severe@@sepsis@@.@@"> 
+      <entity id="DDI-DrugBank.d190.s0.e0" charOffset="30-35" type="brand" text="Xigris" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d190.s1" text="However, since there is an increased risk of bleeding with Xigris, caution should be employed when Xigris is used with other drugs that affect hemostasis." new_text="However@@,@@since@@there@@is@@an@@increased@@risk@@of@@bleeding@@with@@Xigris@@,@@caution@@should@@be@@employed@@when@@Xigris@@is@@used@@with@@other@@drugs@@that@@affect@@hemostasis@@.@@"> 
+      <entity id="DDI-DrugBank.d190.s1.e0" charOffset="59-64" type="brand" text="Xigris" position="11"/>  
+      <entity id="DDI-DrugBank.d190.s1.e1" charOffset="99-104" type="brand" text="Xigris" position="18"/>  
+      <pair id="DDI-DrugBank.d190.s1.p0" e1="DDI-DrugBank.d190.s1.e0" e2="DDI-DrugBank.d190.s1.e1" ddi="false" flags="True" e1_name="Xigris" e2_name="Xigris" e1_pos="11" e2_pos="18" path="11@@9@@7@@4@@16@@20@@18@@">Xigris@@@@prep_with@@bleeding@@prepc_of@@risk@@nsubj@@is@@advcl@@employed@@advcl@@used@@nsubjpass@@Xigris</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d190.s2" text="Approximately 2/3 of the patients in the Phase 3 study received either prophylactic low dose heparin (unfractionated heparin up to 15,000 units/day) or prophylactic doses of low molecular weight heparins as indicated in the prescribing information for the specific products." new_text="Approximately@@2/3@@of@@the@@patients@@in@@the@@Phase@@3@@study@@received@@either@@prophylactic@@low@@dose@@heparin@@(@@unfractionated heparin@@up@@to@@15,000@@units/day)@@or@@prophylactic@@doses@@of@@low molecular weight heparins@@as@@indicated@@in@@the@@prescribing@@information@@for@@the@@specific@@products@@.@@"> 
+      <entity id="DDI-DrugBank.d190.s2.e0" charOffset="93-99" type="drug" text="heparin" position="15"/>  
+      <entity id="DDI-DrugBank.d190.s2.e1" charOffset="102-123" type="drug" text="unfractionated heparin" position="17"/>  
+      <entity id="DDI-DrugBank.d190.s2.e2" charOffset="174-202" type="group" text="low molecular weight heparins" position="26"/>  
+      <pair id="DDI-DrugBank.d190.s2.p0" e1="DDI-DrugBank.d190.s2.e0" e2="DDI-DrugBank.d190.s2.e1" ddi="false" flags="True" e1_name="heparin" e2_name="unfractionated heparin" e1_pos="15" e2_pos="17" path="15@@16@@17@@">heparin@@@@nn@@(@@partmod@@unfractionated heparin</pair>  
+      <pair id="DDI-DrugBank.d190.s2.p1" e1="DDI-DrugBank.d190.s2.e0" e2="DDI-DrugBank.d190.s2.e2" ddi="false" flags="True" e1_name="heparin" e2_name="low molecular weight heparins" e1_pos="15" e2_pos="26" path="15@@16@@24@@26@@">heparin@@@@nn@@(@@conj_or@@doses@@prep_of@@low molecular weight heparins</pair>  
+      <pair id="DDI-DrugBank.d190.s2.p2" e1="DDI-DrugBank.d190.s2.e1" e2="DDI-DrugBank.d190.s2.e2" ddi="false" flags="True" e1_name="unfractionated heparin" e2_name="low molecular weight heparins" e1_pos="17" e2_pos="26" path="17@@16@@24@@26@@">unfractionated heparin@@@@partmod@@(@@conj_or@@doses@@prep_of@@low molecular weight heparins</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d190.s3" text="Concomitant use of prophylactic low dose heparin did not appear to affect safety, however, its effects on the efficacy of Xigris have not been evaluated in an adequate and well-controlled clinical trial." new_text="Concomitant@@use@@of@@prophylactic@@low@@dose@@heparin@@did@@not@@appear@@to@@affect@@safety@@,@@however@@,@@its@@effects@@on@@the@@efficacy@@of@@Xigris@@have@@not@@been@@evaluated@@in@@an@@adequate@@and@@well-controlled@@clinical@@trial@@.@@"> 
+      <entity id="DDI-DrugBank.d190.s3.e0" charOffset="41-47" type="drug" text="heparin" position="6"/>  
+      <entity id="DDI-DrugBank.d190.s3.e1" charOffset="122-127" type="brand" text="Xigris" position="22"/>  
+      <pair id="DDI-DrugBank.d190.s3.p0" e1="DDI-DrugBank.d190.s3.e0" e2="DDI-DrugBank.d190.s3.e1" ddi="false" flags="True" e1_name="heparin" e2_name="Xigris" e1_pos="6" e2_pos="22" path="6@@1@@9@@26@@17@@20@@22@@">heparin@@@@prep_of@@use@@nsubj@@appear@@ccomp@@evaluated@@nsubjpass@@effects@@prep_on@@efficacy@@prep_of@@Xigris</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d190.s4" text="Drug/Laboratory Test Interaction Because Xigris may affect the APTT assay, Xigris present in plasma samples may interfere with one-stage coagulation assays based on the APTT (such as factor VIII, IX, and XI assays)." new_text="Drug/Laboratory@@Test@@Interaction@@Because@@Xigris@@may@@affect@@the@@APTT@@assay@@,@@Xigris@@present@@in@@plasma@@samples@@may@@interfere@@with@@one-stage@@coagulation@@assays@@based@@on@@the@@APTT@@(such@@as@@factor@@VIII@@,@@IX@@,@@and@@XI@@assays)@@.@@"> 
+      <entity id="DDI-DrugBank.d190.s4.e0" charOffset="41-46" type="brand" text="Xigris" position="4"/>  
+      <entity id="DDI-DrugBank.d190.s4.e1" charOffset="75-80" type="brand" text="Xigris" position="11"/>  
+      <pair id="DDI-DrugBank.d190.s4.p0" e1="DDI-DrugBank.d190.s4.e0" e2="DDI-DrugBank.d190.s4.e1" ddi="false" flags="True" e1_name="Xigris" e2_name="Xigris" e1_pos="4" e2_pos="11" path="4@@6@@12@@11@@">Xigris@@@@nsubj@@affect@@advcl@@present@@nsubj@@Xigris</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d190.s5" text="This interference may result in an apparent factor concentration that is lower than the true concentration." new_text="This@@interference@@may@@result@@in@@an@@apparent@@factor@@concentration@@that@@is@@lower@@than@@the@@true@@concentration@@.@@"/>  
+   <sentence id="DDI-DrugBank.d190.s6" text="Xigris present in plasma samples does not interfere with one-stage factor assays based on the PT (such as factor II, V, VII, and X assays)." new_text="Xigris@@present@@in@@plasma@@samples@@does@@not@@interfere@@with@@one-stage@@factor@@assays@@based@@on@@the@@PT@@(such@@as@@factor@@II@@,@@V@@,@@VII@@,@@and@@X@@assays)@@.@@"> 
+      <entity id="DDI-DrugBank.d190.s6.e0" charOffset="0-5" type="brand" text="Xigris" position="0"/> 
+   </sentence> 
+</document>

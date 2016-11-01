@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d69"> 
+   <sentence id="DDI-DrugBank.d69.s0" text="Use of Cerubidine in a patient who has previously received doxorubicin increases the risk of cardiotoxicity." new_text="Use@@of@@Cerubidine@@in@@a@@patient@@who@@has@@previously@@received@@doxorubicin@@increases@@the@@risk@@of@@cardiotoxicity@@.@@"> 
+      <entity id="DDI-DrugBank.d69.s0.e0" charOffset="7-16" type="brand" text="Cerubidine" position="2"/>  
+      <entity id="DDI-DrugBank.d69.s0.e1" charOffset="59-69" type="drug" text="doxorubicin" position="10"/>  
+      <pair id="DDI-DrugBank.d69.s0.p0" e1="DDI-DrugBank.d69.s0.e0" e2="DDI-DrugBank.d69.s0.e1" ddi="true" type="effect" flags="True" e1_name="Cerubidine" e2_name="doxorubicin" e1_pos="2" e2_pos="10" path="2@@5@@9@@10@@">Cerubidine@@@@prep_in@@patient@@rcmod@@received@@dobj@@doxorubicin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d69.s1" text="Cerubidine should not be used in patients who have previously received the recommended maximum cumulative doses of doxorubicin or Cerubidine." new_text="Cerubidine@@should@@not@@be@@used@@in@@patients@@who@@have@@previously@@received@@the@@recommended@@maximum@@cumulative@@doses@@of@@doxorubicin@@or@@Cerubidine@@.@@"> 
+      <entity id="DDI-DrugBank.d69.s1.e0" charOffset="0-9" type="brand" text="Cerubidine" position="0"/>  
+      <entity id="DDI-DrugBank.d69.s1.e1" charOffset="115-125" type="drug" text="doxorubicin" position="17"/>  
+      <entity id="DDI-DrugBank.d69.s1.e2" charOffset="130-139" type="brand" text="Cerubidine" position="19"/>  
+      <pair id="DDI-DrugBank.d69.s1.p0" e1="DDI-DrugBank.d69.s1.e0" e2="DDI-DrugBank.d69.s1.e1" ddi="true" type="advise" flags="True" e1_name="Cerubidine" e2_name="doxorubicin" e1_pos="0" e2_pos="17" path="0@@4@@6@@10@@15@@17@@">Cerubidine@@@@nsubjpass@@used@@prep_in@@patients@@rcmod@@received@@dobj@@doses@@prep_of@@doxorubicin</pair>  
+      <pair id="DDI-DrugBank.d69.s1.p1" e1="DDI-DrugBank.d69.s1.e0" e2="DDI-DrugBank.d69.s1.e2" ddi="false" flags="True" e1_name="Cerubidine" e2_name="Cerubidine" e1_pos="0" e2_pos="19" path="0@@4@@6@@10@@15@@19@@">Cerubidine@@@@nsubjpass@@used@@prep_in@@patients@@rcmod@@received@@dobj@@doses@@prep_of@@Cerubidine</pair>  
+      <pair id="DDI-DrugBank.d69.s1.p2" e1="DDI-DrugBank.d69.s1.e1" e2="DDI-DrugBank.d69.s1.e2" ddi="false" flags="True" e1_name="doxorubicin" e2_name="Cerubidine" e1_pos="17" e2_pos="19" path="17@@19@@">doxorubicin@@@@conj_or@@Cerubidine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d69.s2" text="Cyclophosphamide used concurrently with Cerubidine may also result in increased cardiotoxicity." new_text="Cyclophosphamide@@used@@concurrently@@with@@Cerubidine@@may@@also@@result@@in@@increased@@cardiotoxicity@@.@@"> 
+      <entity id="DDI-DrugBank.d69.s2.e0" charOffset="0-15" type="drug" text="Cyclophosphamide" position="0"/>  
+      <entity id="DDI-DrugBank.d69.s2.e1" charOffset="40-49" type="brand" text="Cerubidine" position="4"/>  
+      <pair id="DDI-DrugBank.d69.s2.p0" e1="DDI-DrugBank.d69.s2.e0" e2="DDI-DrugBank.d69.s2.e1" ddi="true" type="effect" flags="True" e1_name="Cyclophosphamide" e2_name="Cerubidine" e1_pos="0" e2_pos="4" path="0@@1@@4@@">Cyclophosphamide@@@@partmod@@used@@prep_with@@Cerubidine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d69.s3" text="Dosage reduction of Cerubidine may be required when used concurrently with other myelosuppressive agents." new_text="Dosage@@reduction@@of@@Cerubidine@@may@@be@@required@@when@@used@@concurrently@@with@@other@@myelosuppressive@@agents@@.@@"> 
+      <entity id="DDI-DrugBank.d69.s3.e0" charOffset="20-29" type="brand" text="Cerubidine" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d69.s4" text="Hepatotoxic medications, such as high-dose methotrexate, may impair liver function and increase the risk of toxicity." new_text="Hepatotoxic@@medications@@,@@such@@as@@high-dose@@methotrexate@@,@@may@@impair@@liver@@function@@and@@increase@@the@@risk@@of@@toxicity@@.@@"> 
+      <entity id="DDI-DrugBank.d69.s4.e0" charOffset="43-54" type="drug" text="methotrexate" position="6"/> 
+   </sentence> 
+</document>

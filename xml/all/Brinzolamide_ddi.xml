@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d497"> 
+   <sentence id="DDI-DrugBank.d497.s0" text="AZOPT (brinzolamide ophthalmic suspension) 1% contains a carbonic anhydrase inhibitor." new_text="AZOPT@@(@@brinzolamide@@ophthalmic@@suspension)@@1%@@contains@@a@@carbonic anhydrase inhibitor@@.@@"> 
+      <entity id="DDI-DrugBank.d497.s0.e0" charOffset="0-4" type="brand" text="AZOPT" position="0"/>  
+      <entity id="DDI-DrugBank.d497.s0.e1" charOffset="7-18" type="drug" text="brinzolamide" position="2"/>  
+      <entity id="DDI-DrugBank.d497.s0.e2" charOffset="57-84" type="group" text="carbonic anhydrase inhibitor" position="8"/>  
+      <pair id="DDI-DrugBank.d497.s0.p0" e1="DDI-DrugBank.d497.s0.e0" e2="DDI-DrugBank.d497.s0.e1" ddi="false" flags="True" e1_name="AZOPT" e2_name="brinzolamide" e1_pos="0" e2_pos="2" path="0@@5@@2@@">AZOPT@@@@nn@@1%@@nn@@brinzolamide</pair>  
+      <pair id="DDI-DrugBank.d497.s0.p1" e1="DDI-DrugBank.d497.s0.e0" e2="DDI-DrugBank.d497.s0.e2" ddi="false" flags="True" e1_name="AZOPT" e2_name="carbonic anhydrase inhibitor" e1_pos="0" e2_pos="8" path="0@@5@@6@@8@@">AZOPT@@@@nn@@1%@@nsubj@@contains@@dobj@@carbonic anhydrase inhibitor</pair>  
+      <pair id="DDI-DrugBank.d497.s0.p2" e1="DDI-DrugBank.d497.s0.e1" e2="DDI-DrugBank.d497.s0.e2" ddi="false" flags="True" e1_name="brinzolamide" e2_name="carbonic anhydrase inhibitor" e1_pos="2" e2_pos="8" path="2@@5@@6@@8@@">brinzolamide@@@@nn@@1%@@nsubj@@contains@@dobj@@carbonic anhydrase inhibitor</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d497.s1" text="Acid-base and electrolyte alterations were not reported in the clinical trials with brinzolamide." new_text="Acid-base@@and@@electrolyte@@alterations@@were@@not@@reported@@in@@the@@clinical@@trials@@with@@brinzolamide@@.@@"> 
+      <entity id="DDI-DrugBank.d497.s1.e0" charOffset="84-95" type="drug" text="brinzolamide" position="12"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d497.s2" text="However, in patients treated with oral carbonic anhydrase inhibitors, rare instances of drug interactions have occurred with high-dose salicylate therapy." new_text="However@@,@@in@@patients@@treated@@with@@oral@@carbonic anhydrase inhibitors@@,@@rare@@instances@@of@@drug@@interactions@@have@@occurred@@with@@high-dose@@salicylate@@therapy@@.@@"> 
+      <entity id="DDI-DrugBank.d497.s2.e0" charOffset="39-67" type="group" text="carbonic anhydrase inhibitors" position="7"/>  
+      <entity id="DDI-DrugBank.d497.s2.e1" charOffset="135-144" type="drug" text="salicylate" position="18"/>  
+      <pair id="DDI-DrugBank.d497.s2.p0" e1="DDI-DrugBank.d497.s2.e0" e2="DDI-DrugBank.d497.s2.e1" ddi="true" type="int" flags="True" e1_name="carbonic anhydrase inhibitors" e2_name="salicylate" e1_pos="7" e2_pos="18" path="7@@4@@3@@15@@19@@18@@">carbonic anhydrase inhibitors@@@@prep_with@@treated@@partmod@@patients@@prep_in@@occurred@@prep_with@@therapy@@nn@@salicylate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d497.s3" text="Therefore, the potential for such drug interaction should be considered in patients receiving AZOPT (brinzolamide ophthalmic suspension) 1%." new_text="Therefore@@,@@the@@potential@@for@@such@@drug@@interaction@@should@@be@@considered@@in@@patients@@receiving@@AZOPT@@(@@brinzolamide@@ophthalmic@@suspension)@@1%@@.@@"> 
+      <entity id="DDI-DrugBank.d497.s3.e0" charOffset="94-98" type="brand" text="AZOPT" position="14"/>  
+      <entity id="DDI-DrugBank.d497.s3.e1" charOffset="101-112" type="drug" text="brinzolamide" position="16"/>  
+      <pair id="DDI-DrugBank.d497.s3.p0" e1="DDI-DrugBank.d497.s3.e0" e2="DDI-DrugBank.d497.s3.e1" ddi="false" flags="True" e1_name="AZOPT" e2_name="brinzolamide" e1_pos="14" e2_pos="16" path="14@@15@@16@@">AZOPT@@@@nn@@(@@nsubj@@brinzolamide</pair> 
+   </sentence> 
+</document>

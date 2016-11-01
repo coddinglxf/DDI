@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d150"> 
+   <sentence id="DDI-DrugBank.d150.s0" text="FLEXERIL may have life-threatening interactions with MAO inhibitors." new_text="FLEXERIL@@may@@have@@life-threatening@@interactions@@with@@MAO inhibitors@@.@@"> 
+      <entity id="DDI-DrugBank.d150.s0.e0" charOffset="0-7" type="brand" text="FLEXERIL" position="0"/>  
+      <entity id="DDI-DrugBank.d150.s0.e1" charOffset="53-66" type="group" text="MAO inhibitors" position="6"/>  
+      <pair id="DDI-DrugBank.d150.s0.p0" e1="DDI-DrugBank.d150.s0.e0" e2="DDI-DrugBank.d150.s0.e1" ddi="true" type="int" flags="True" e1_name="FLEXERIL" e2_name="MAO inhibitors" e1_pos="0" e2_pos="6" path="0@@2@@4@@6@@">FLEXERIL@@@@nsubj@@have@@dobj@@interactions@@prep_with@@MAO inhibitors</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d150.s1" text="FLEXERIL may enhance the effects of alcohol, barbiturates, and other CNS depressants." new_text="FLEXERIL@@may@@enhance@@the@@effects@@of@@alcohol@@,@@barbiturates@@,@@and@@other@@CNS depressants@@.@@"> 
+      <entity id="DDI-DrugBank.d150.s1.e0" charOffset="0-7" type="brand" text="FLEXERIL" position="0"/>  
+      <entity id="DDI-DrugBank.d150.s1.e1" charOffset="36-42" type="drug" text="alcohol" position="6"/>  
+      <entity id="DDI-DrugBank.d150.s1.e2" charOffset="45-56" type="group" text="barbiturates" position="8"/>  
+      <entity id="DDI-DrugBank.d150.s1.e3" charOffset="69-83" type="group" text="CNS depressants" position="12"/>  
+      <pair id="DDI-DrugBank.d150.s1.p0" e1="DDI-DrugBank.d150.s1.e0" e2="DDI-DrugBank.d150.s1.e1" ddi="true" type="effect" flags="True" e1_name="FLEXERIL" e2_name="alcohol" e1_pos="0" e2_pos="6" path="0@@2@@4@@6@@">FLEXERIL@@@@nsubj@@enhance@@dobj@@effects@@prep_of@@alcohol</pair>  
+      <pair id="DDI-DrugBank.d150.s1.p1" e1="DDI-DrugBank.d150.s1.e0" e2="DDI-DrugBank.d150.s1.e2" ddi="true" type="effect" flags="True" e1_name="FLEXERIL" e2_name="barbiturates" e1_pos="0" e2_pos="8" path="0@@2@@4@@8@@">FLEXERIL@@@@nsubj@@enhance@@dobj@@effects@@prep_of@@barbiturates</pair>  
+      <pair id="DDI-DrugBank.d150.s1.p2" e1="DDI-DrugBank.d150.s1.e0" e2="DDI-DrugBank.d150.s1.e3" ddi="true" type="effect" flags="True" e1_name="FLEXERIL" e2_name="CNS depressants" e1_pos="0" e2_pos="12" path="0@@2@@4@@12@@">FLEXERIL@@@@nsubj@@enhance@@dobj@@effects@@prep_of@@CNS depressants</pair>  
+      <pair id="DDI-DrugBank.d150.s1.p3" e1="DDI-DrugBank.d150.s1.e1" e2="DDI-DrugBank.d150.s1.e2" ddi="false" flags="True" e1_name="alcohol" e2_name="barbiturates" e1_pos="6" e2_pos="8" path="6@@8@@">alcohol@@@@conj_and@@barbiturates</pair>  
+      <pair id="DDI-DrugBank.d150.s1.p4" e1="DDI-DrugBank.d150.s1.e1" e2="DDI-DrugBank.d150.s1.e3" ddi="false" flags="True" e1_name="alcohol" e2_name="CNS depressants" e1_pos="6" e2_pos="12" path="6@@12@@">alcohol@@@@conj_and@@CNS depressants</pair>  
+      <pair id="DDI-DrugBank.d150.s1.p5" e1="DDI-DrugBank.d150.s1.e2" e2="DDI-DrugBank.d150.s1.e3" ddi="false" flags="True" e1_name="barbiturates" e2_name="CNS depressants" e1_pos="8" e2_pos="12" path="8@@4@@12@@">barbiturates@@@@prep_of@@effects@@prep_of@@CNS depressants</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d150.s2" text="Tricyclic antidepressants may block the antihypertensive action of guanethidine and similarly acting compounds." new_text="Tricyclic antidepressants@@may@@block@@the@@antihypertensive@@action@@of@@guanethidine@@and@@similarly@@acting@@compounds@@.@@"> 
+      <entity id="DDI-DrugBank.d150.s2.e0" charOffset="0-24" type="group" text="Tricyclic antidepressants" position="0"/>  
+      <entity id="DDI-DrugBank.d150.s2.e1" charOffset="67-78" type="drug" text="guanethidine" position="7"/>  
+      <pair id="DDI-DrugBank.d150.s2.p0" e1="DDI-DrugBank.d150.s2.e0" e2="DDI-DrugBank.d150.s2.e1" ddi="true" type="effect" flags="True" e1_name="Tricyclic antidepressants" e2_name="guanethidine" e1_pos="0" e2_pos="7" path="0@@2@@5@@11@@7@@">Tricyclic antidepressants@@@@nsubj@@block@@dobj@@action@@prep_of@@compounds@@amod@@guanethidine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d150.s3" text="Tricyclic antidepressants may enhance the seizure risk in patients taking tramadol" new_text="Tricyclic antidepressants@@may@@enhance@@the@@seizure@@risk@@in@@patients@@taking@@tramadol@@"> 
+      <entity id="DDI-DrugBank.d150.s3.e0" charOffset="0-24" type="group" text="Tricyclic antidepressants" position="0"/>  
+      <entity id="DDI-DrugBank.d150.s3.e1" charOffset="74-81" type="drug" text="tramadol" position="9"/>  
+      <pair id="DDI-DrugBank.d150.s3.p0" e1="DDI-DrugBank.d150.s3.e0" e2="DDI-DrugBank.d150.s3.e1" ddi="true" type="effect" flags="True" e1_name="Tricyclic antidepressants" e2_name="tramadol" e1_pos="0" e2_pos="9" path="0@@2@@7@@8@@9@@">Tricyclic antidepressants@@@@nsubj@@enhance@@prep_in@@patients@@partmod@@taking@@acomp@@tramadol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d150.s4" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d150.s5" text="" new_text=""/> 
+</document>

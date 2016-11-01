@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d216"> 
+   <sentence id="DDI-DrugBank.d216.s0" text="CNS-Active Drugs Ethanol An additive effect on psychomotor performance was seen with coadministration of eszopiclone and ethanol 0.70 g/kg for up to 4 hours after ethanol administration." new_text="CNS-Active@@Drugs@@Ethanol@@An@@additive@@effect@@on@@psychomotor@@performance@@was@@seen@@with@@coadministration@@of@@eszopiclone@@and@@ethanol@@0.70@@g/kg@@for@@up@@to@@4@@hours@@after@@ethanol@@administration@@.@@"> 
+      <entity id="DDI-DrugBank.d216.s0.e0" charOffset="17-23" type="drug" text="Ethanol" position="2"/>  
+      <entity id="DDI-DrugBank.d216.s0.e1" charOffset="105-115" type="drug" text="eszopiclone" position="14"/>  
+      <entity id="DDI-DrugBank.d216.s0.e2" charOffset="121-127" type="drug" text="ethanol" position="16"/>  
+      <entity id="DDI-DrugBank.d216.s0.e3" charOffset="163-169" type="drug" text="ethanol" position="25"/>  
+      <pair id="DDI-DrugBank.d216.s0.p0" e1="DDI-DrugBank.d216.s0.e0" e2="DDI-DrugBank.d216.s0.e1" ddi="false" flags="True" e1_name="Ethanol" e2_name="eszopiclone" e1_pos="2" e2_pos="14" path="2@@10@@12@@14@@">Ethanol@@@@rcmod@@seen@@prep_with@@coadministration@@prep_of@@eszopiclone</pair>  
+      <pair id="DDI-DrugBank.d216.s0.p1" e1="DDI-DrugBank.d216.s0.e0" e2="DDI-DrugBank.d216.s0.e2" ddi="false" flags="True" e1_name="Ethanol" e2_name="ethanol" e1_pos="2" e2_pos="16" path="2@@10@@12@@16@@">Ethanol@@@@rcmod@@seen@@prep_with@@coadministration@@prep_of@@ethanol</pair>  
+      <pair id="DDI-DrugBank.d216.s0.p2" e1="DDI-DrugBank.d216.s0.e0" e2="DDI-DrugBank.d216.s0.e3" ddi="false" flags="True" e1_name="Ethanol" e2_name="ethanol" e1_pos="2" e2_pos="25" path="2@@17@@18@@26@@25@@">Ethanol@@@@dep@@0.70@@partmod@@g/kg@@prep_after@@administration@@nn@@ethanol</pair>  
+      <pair id="DDI-DrugBank.d216.s0.p3" e1="DDI-DrugBank.d216.s0.e1" e2="DDI-DrugBank.d216.s0.e2" ddi="true" type="effect" flags="True" e1_name="eszopiclone" e2_name="ethanol" e1_pos="14" e2_pos="16" path="14@@16@@">eszopiclone@@@@conj_and@@ethanol</pair>  
+      <pair id="DDI-DrugBank.d216.s0.p4" e1="DDI-DrugBank.d216.s0.e1" e2="DDI-DrugBank.d216.s0.e3" ddi="false" flags="True" e1_name="eszopiclone" e2_name="ethanol" e1_pos="14" e2_pos="25" path="14@@12@@10@@2@@17@@18@@26@@25@@">eszopiclone@@@@prep_of@@coadministration@@prep_with@@seen@@rcmod@@Ethanol@@dep@@0.70@@partmod@@g/kg@@prep_after@@administration@@nn@@ethanol</pair>  
+      <pair id="DDI-DrugBank.d216.s0.p5" e1="DDI-DrugBank.d216.s0.e2" e2="DDI-DrugBank.d216.s0.e3" ddi="false" flags="True" e1_name="ethanol" e2_name="ethanol" e1_pos="16" e2_pos="25" path="16@@12@@10@@2@@17@@18@@26@@25@@">ethanol@@@@prep_of@@coadministration@@prep_with@@seen@@rcmod@@Ethanol@@dep@@0.70@@partmod@@g/kg@@prep_after@@administration@@nn@@ethanol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d216.s1" text="Paroxetine: Coadministration of single doses of eszopiclone 3 mg and paroxetine 20 mg daily for 7 days produced no pharmacokinetic or pharmacodynamic interaction." new_text="Paroxetine@@:@@Coadministration@@of@@single@@doses@@of@@eszopiclone@@3@@mg@@and@@paroxetine@@20@@mg@@daily@@for@@7@@days@@produced@@no@@pharmacokinetic@@or@@pharmacodynamic@@interaction@@.@@"> 
+      <entity id="DDI-DrugBank.d216.s1.e0" charOffset="0-9" type="drug" text="Paroxetine" position="0"/>  
+      <entity id="DDI-DrugBank.d216.s1.e1" charOffset="48-58" type="drug" text="eszopiclone" position="7"/>  
+      <entity id="DDI-DrugBank.d216.s1.e2" charOffset="69-78" type="drug" text="paroxetine" position="11"/>  
+      <pair id="DDI-DrugBank.d216.s1.p0" e1="DDI-DrugBank.d216.s1.e0" e2="DDI-DrugBank.d216.s1.e1" ddi="false" flags="True" e1_name="Paroxetine" e2_name="eszopiclone" e1_pos="0" e2_pos="7" path="0@@2@@5@@9@@7@@">Paroxetine@@@@dep@@Coadministration@@prep_of@@doses@@prep_of@@mg@@nn@@eszopiclone</pair>  
+      <pair id="DDI-DrugBank.d216.s1.p1" e1="DDI-DrugBank.d216.s1.e0" e2="DDI-DrugBank.d216.s1.e2" ddi="false" flags="True" e1_name="Paroxetine" e2_name="paroxetine" e1_pos="0" e2_pos="11" path="0@@2@@5@@14@@11@@">Paroxetine@@@@dep@@Coadministration@@prep_of@@doses@@prep_of@@daily@@amod@@paroxetine</pair>  
+      <pair id="DDI-DrugBank.d216.s1.p2" e1="DDI-DrugBank.d216.s1.e1" e2="DDI-DrugBank.d216.s1.e2" ddi="false" flags="True" e1_name="eszopiclone" e2_name="paroxetine" e1_pos="7" e2_pos="11" path="7@@9@@14@@11@@">eszopiclone@@@@nn@@mg@@conj_and@@daily@@amod@@paroxetine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d216.s2" text="Lorazepam: Coadministration of single doses of eszopiclone 3 mg and lorazepam 2 mg did not have clinically relevant effects on the pharmacodynamics or pharmacokinetics of either drug." new_text="Lorazepam@@:@@Coadministration@@of@@single@@doses@@of@@eszopiclone@@3@@mg@@and@@lorazepam@@2@@mg@@did@@not@@have@@clinically@@relevant@@effects@@on@@the@@pharmacodynamics@@or@@pharmacokinetics@@of@@either@@drug@@.@@"> 
+      <entity id="DDI-DrugBank.d216.s2.e0" charOffset="0-8" type="drug" text="Lorazepam" position="0"/>  
+      <entity id="DDI-DrugBank.d216.s2.e1" charOffset="47-57" type="drug" text="eszopiclone" position="7"/>  
+      <entity id="DDI-DrugBank.d216.s2.e2" charOffset="68-76" type="drug" text="lorazepam" position="11"/>  
+      <pair id="DDI-DrugBank.d216.s2.p0" e1="DDI-DrugBank.d216.s2.e0" e2="DDI-DrugBank.d216.s2.e1" ddi="false" flags="True" e1_name="Lorazepam" e2_name="eszopiclone" e1_pos="0" e2_pos="7" path="0@@16@@2@@5@@9@@7@@">Lorazepam@@@@dep@@have@@nsubj@@Coadministration@@prep_of@@doses@@prep_of@@mg@@amod@@eszopiclone</pair>  
+      <pair id="DDI-DrugBank.d216.s2.p1" e1="DDI-DrugBank.d216.s2.e0" e2="DDI-DrugBank.d216.s2.e2" ddi="false" flags="True" e1_name="Lorazepam" e2_name="lorazepam" e1_pos="0" e2_pos="11" path="0@@16@@2@@5@@13@@11@@">Lorazepam@@@@dep@@have@@nsubj@@Coadministration@@prep_of@@doses@@prep_of@@mg@@nn@@lorazepam</pair>  
+      <pair id="DDI-DrugBank.d216.s2.p2" e1="DDI-DrugBank.d216.s2.e1" e2="DDI-DrugBank.d216.s2.e2" ddi="false" flags="True" e1_name="eszopiclone" e2_name="lorazepam" e1_pos="7" e2_pos="11" path="7@@9@@13@@11@@">eszopiclone@@@@amod@@mg@@conj_and@@mg@@nn@@lorazepam</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d216.s3" text="Olanzapine: Coadministration of eszopiclone 3 mg and olanzapine 10 mg produced a decrease in DSST scores." new_text="Olanzapine@@:@@Coadministration@@of@@eszopiclone@@3@@mg@@and@@olanzapine@@10@@mg@@produced@@a@@decrease@@in@@DSST@@scores@@.@@"> 
+      <entity id="DDI-DrugBank.d216.s3.e0" charOffset="0-9" type="drug" text="Olanzapine" position="0"/>  
+      <entity id="DDI-DrugBank.d216.s3.e1" charOffset="32-42" type="drug" text="eszopiclone" position="4"/>  
+      <entity id="DDI-DrugBank.d216.s3.e2" charOffset="53-62" type="drug" text="olanzapine" position="8"/>  
+      <pair id="DDI-DrugBank.d216.s3.p0" e1="DDI-DrugBank.d216.s3.e0" e2="DDI-DrugBank.d216.s3.e1" ddi="false" flags="True" e1_name="Olanzapine" e2_name="eszopiclone" e1_pos="0" e2_pos="4" path="0@@11@@2@@6@@4@@">Olanzapine@@@@dep@@produced@@nsubj@@Coadministration@@prep_of@@mg@@nn@@eszopiclone</pair>  
+      <pair id="DDI-DrugBank.d216.s3.p1" e1="DDI-DrugBank.d216.s3.e0" e2="DDI-DrugBank.d216.s3.e2" ddi="false" flags="True" e1_name="Olanzapine" e2_name="olanzapine" e1_pos="0" e2_pos="8" path="0@@11@@2@@10@@8@@">Olanzapine@@@@dep@@produced@@nsubj@@Coadministration@@prep_of@@mg@@amod@@olanzapine</pair>  
+      <pair id="DDI-DrugBank.d216.s3.p2" e1="DDI-DrugBank.d216.s3.e1" e2="DDI-DrugBank.d216.s3.e2" ddi="true" type="effect" flags="True" e1_name="eszopiclone" e2_name="olanzapine" e1_pos="4" e2_pos="8" path="4@@6@@10@@8@@">eszopiclone@@@@nn@@mg@@conj_and@@mg@@amod@@olanzapine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d216.s4" text="The interaction was pharmacodynamic;" new_text="The@@interaction@@was@@pharmacodynamic;@@"/>  
+   <sentence id="DDI-DrugBank.d216.s5" text="there was no alteration in the pharmacokinetics of either drug." new_text="there@@was@@no@@alteration@@in@@the@@pharmacokinetics@@of@@either@@drug@@.@@"/>  
+   <sentence id="DDI-DrugBank.d216.s6" text="Drugs That Inhibit CYP3A4 (Ketoconazole) CYP3A4 is a major metabolic pathway for elimination of eszopiclone." new_text="Drugs@@That@@Inhibit@@CYP3A4@@(@@Ketoconazole@@)@@CYP3A4@@is@@a@@major@@metabolic@@pathway@@for@@elimination@@of@@eszopiclone@@.@@"> 
+      <entity id="DDI-DrugBank.d216.s6.e0" charOffset="27-38" type="drug" text="Ketoconazole" position="5"/>  
+      <entity id="DDI-DrugBank.d216.s6.e1" charOffset="96-106" type="drug" text="eszopiclone" position="16"/>  
+      <pair id="DDI-DrugBank.d216.s6.p0" e1="DDI-DrugBank.d216.s6.e0" e2="DDI-DrugBank.d216.s6.e1" ddi="false" flags="True" e1_name="Ketoconazole" e2_name="eszopiclone" e1_pos="5" e2_pos="16" path="5@@7@@0@@12@@14@@16@@">Ketoconazole@@@@nn@@CYP3A4@@dep@@Drugs@@nsubj@@pathway@@prep_for@@elimination@@prep_of@@eszopiclone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d216.s7" text="The AUC of eszopiclone was increased 2.2-fold by coadministration of ketoconazole, a potent inhibitor of CYP3A4, 400 mg daily for 5 days." new_text="The@@AUC@@of@@eszopiclone@@was@@increased@@2.2-fold@@by@@coadministration@@of@@ketoconazole@@,@@a@@potent@@inhibitor@@of@@CYP3A4@@,@@400@@mg@@daily@@for@@5@@days@@.@@"> 
+      <entity id="DDI-DrugBank.d216.s7.e0" charOffset="11-21" type="drug" text="eszopiclone" position="3"/>  
+      <entity id="DDI-DrugBank.d216.s7.e1" charOffset="69-80" type="drug" text="ketoconazole" position="10"/>  
+      <pair id="DDI-DrugBank.d216.s7.p0" e1="DDI-DrugBank.d216.s7.e0" e2="DDI-DrugBank.d216.s7.e1" ddi="true" type="mechanism" flags="True" e1_name="eszopiclone" e2_name="ketoconazole" e1_pos="3" e2_pos="10" path="3@@1@@5@@6@@8@@10@@">eszopiclone@@@@prep_of@@AUC@@nsubjpass@@increased@@acomp@@2.2-fold@@prep_by@@coadministration@@prep_of@@ketoconazole</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d216.s8" text="Cmax and t1/2 were increased 1.4-fold and 1.3-fold, respectively." new_text="Cmax@@and@@t1/2@@were@@increased@@1.4-fold@@and@@1.3-fold@@,@@respectively@@.@@"/>  
+   <sentence id="DDI-DrugBank.d216.s9" text="Other strong inhibitors of CYP3A4 (e.g., itraconazole, clarithromycin, nefazodone, troleandomycin, ritonavir, nelfinavir) would be expected to behave similarly." new_text="Other@@strong@@inhibitors@@of@@CYP3A4@@(e.g.@@,@@itraconazole@@,@@clarithromycin@@,@@nefazodone@@,@@troleandomycin@@,@@ritonavir@@,@@nelfinavir@@)@@would@@be@@expected@@to@@behave@@similarly@@.@@"> 
+      <entity id="DDI-DrugBank.d216.s9.e0" charOffset="41-52" type="drug" text="itraconazole" position="7"/>  
+      <entity id="DDI-DrugBank.d216.s9.e1" charOffset="55-68" type="drug" text="clarithromycin" position="9"/>  
+      <entity id="DDI-DrugBank.d216.s9.e2" charOffset="71-80" type="drug" text="nefazodone" position="11"/>  
+      <entity id="DDI-DrugBank.d216.s9.e3" charOffset="83-96" type="drug" text="troleandomycin" position="13"/>  
+      <entity id="DDI-DrugBank.d216.s9.e4" charOffset="99-107" type="drug" text="ritonavir" position="15"/>  
+      <entity id="DDI-DrugBank.d216.s9.e5" charOffset="110-119" type="drug" text="nelfinavir" position="17"/>  
+      <pair id="DDI-DrugBank.d216.s9.p0" e1="DDI-DrugBank.d216.s9.e0" e2="DDI-DrugBank.d216.s9.e1" ddi="false" flags="True" e1_name="itraconazole" e2_name="clarithromycin" e1_pos="7" e2_pos="9" path="7@@18@@9@@">itraconazole@@@@dep@@)@@dep@@clarithromycin</pair>  
+      <pair id="DDI-DrugBank.d216.s9.p1" e1="DDI-DrugBank.d216.s9.e0" e2="DDI-DrugBank.d216.s9.e2" ddi="false" flags="True" e1_name="itraconazole" e2_name="nefazodone" e1_pos="7" e2_pos="11" path="7@@18@@11@@">itraconazole@@@@dep@@)@@dep@@nefazodone</pair>  
+      <pair id="DDI-DrugBank.d216.s9.p2" e1="DDI-DrugBank.d216.s9.e0" e2="DDI-DrugBank.d216.s9.e3" ddi="false" flags="True" e1_name="itraconazole" e2_name="troleandomycin" e1_pos="7" e2_pos="13" path="7@@18@@13@@">itraconazole@@@@dep@@)@@dep@@troleandomycin</pair>  
+      <pair id="DDI-DrugBank.d216.s9.p3" e1="DDI-DrugBank.d216.s9.e0" e2="DDI-DrugBank.d216.s9.e4" ddi="false" flags="True" e1_name="itraconazole" e2_name="ritonavir" e1_pos="7" e2_pos="15" path="7@@18@@15@@">itraconazole@@@@dep@@)@@dep@@ritonavir</pair>  
+      <pair id="DDI-DrugBank.d216.s9.p4" e1="DDI-DrugBank.d216.s9.e0" e2="DDI-DrugBank.d216.s9.e5" ddi="false" flags="True" e1_name="itraconazole" e2_name="nelfinavir" e1_pos="7" e2_pos="17" path="7@@18@@17@@">itraconazole@@@@dep@@)@@dep@@nelfinavir</pair>  
+      <pair id="DDI-DrugBank.d216.s9.p5" e1="DDI-DrugBank.d216.s9.e1" e2="DDI-DrugBank.d216.s9.e2" ddi="false" flags="True" e1_name="clarithromycin" e2_name="nefazodone" e1_pos="9" e2_pos="11" path="9@@18@@11@@">clarithromycin@@@@dep@@)@@dep@@nefazodone</pair>  
+      <pair id="DDI-DrugBank.d216.s9.p6" e1="DDI-DrugBank.d216.s9.e1" e2="DDI-DrugBank.d216.s9.e3" ddi="false" flags="True" e1_name="clarithromycin" e2_name="troleandomycin" e1_pos="9" e2_pos="13" path="9@@18@@13@@">clarithromycin@@@@dep@@)@@dep@@troleandomycin</pair>  
+      <pair id="DDI-DrugBank.d216.s9.p7" e1="DDI-DrugBank.d216.s9.e1" e2="DDI-DrugBank.d216.s9.e4" ddi="false" flags="True" e1_name="clarithromycin" e2_name="ritonavir" e1_pos="9" e2_pos="15" path="9@@18@@15@@">clarithromycin@@@@dep@@)@@dep@@ritonavir</pair>  
+      <pair id="DDI-DrugBank.d216.s9.p8" e1="DDI-DrugBank.d216.s9.e1" e2="DDI-DrugBank.d216.s9.e5" ddi="false" flags="True" e1_name="clarithromycin" e2_name="nelfinavir" e1_pos="9" e2_pos="17" path="9@@18@@17@@">clarithromycin@@@@dep@@)@@dep@@nelfinavir</pair>  
+      <pair id="DDI-DrugBank.d216.s9.p9" e1="DDI-DrugBank.d216.s9.e2" e2="DDI-DrugBank.d216.s9.e3" ddi="false" flags="True" e1_name="nefazodone" e2_name="troleandomycin" e1_pos="11" e2_pos="13" path="11@@18@@13@@">nefazodone@@@@dep@@)@@dep@@troleandomycin</pair>  
+      <pair id="DDI-DrugBank.d216.s9.p10" e1="DDI-DrugBank.d216.s9.e2" e2="DDI-DrugBank.d216.s9.e4" ddi="false" flags="True" e1_name="nefazodone" e2_name="ritonavir" e1_pos="11" e2_pos="15" path="11@@18@@15@@">nefazodone@@@@dep@@)@@dep@@ritonavir</pair>  
+      <pair id="DDI-DrugBank.d216.s9.p11" e1="DDI-DrugBank.d216.s9.e2" e2="DDI-DrugBank.d216.s9.e5" ddi="false" flags="True" e1_name="nefazodone" e2_name="nelfinavir" e1_pos="11" e2_pos="17" path="11@@18@@17@@">nefazodone@@@@dep@@)@@dep@@nelfinavir</pair>  
+      <pair id="DDI-DrugBank.d216.s9.p12" e1="DDI-DrugBank.d216.s9.e3" e2="DDI-DrugBank.d216.s9.e4" ddi="false" flags="True" e1_name="troleandomycin" e2_name="ritonavir" e1_pos="13" e2_pos="15" path="13@@18@@15@@">troleandomycin@@@@dep@@)@@dep@@ritonavir</pair>  
+      <pair id="DDI-DrugBank.d216.s9.p13" e1="DDI-DrugBank.d216.s9.e3" e2="DDI-DrugBank.d216.s9.e5" ddi="false" flags="True" e1_name="troleandomycin" e2_name="nelfinavir" e1_pos="13" e2_pos="17" path="13@@18@@17@@">troleandomycin@@@@dep@@)@@dep@@nelfinavir</pair>  
+      <pair id="DDI-DrugBank.d216.s9.p14" e1="DDI-DrugBank.d216.s9.e4" e2="DDI-DrugBank.d216.s9.e5" ddi="false" flags="True" e1_name="ritonavir" e2_name="nelfinavir" e1_pos="15" e2_pos="17" path="15@@18@@17@@">ritonavir@@@@dep@@)@@dep@@nelfinavir</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d216.s10" text="Drugs That Induce CYP3A4 (Rifampicin) Racemic zopiclone exposure was decreased 80% by concomitant useof rifampicin, a potent inducer of CYP3A4." new_text="Drugs@@That@@Induce@@CYP3A4@@(@@Rifampicin@@)@@Racemic@@zopiclone@@exposure@@was@@decreased@@80%@@by@@concomitant@@useof@@rifampicin@@,@@a@@potent@@inducer@@of@@CYP3A4@@.@@"> 
+      <entity id="DDI-DrugBank.d216.s10.e0" charOffset="26-35" type="drug" text="Rifampicin" position="5"/>  
+      <entity id="DDI-DrugBank.d216.s10.e1" charOffset="46-54" type="drug" text="zopiclone" position="8"/>  
+      <entity id="DDI-DrugBank.d216.s10.e2" charOffset="104-113" type="drug" text="rifampicin" position="16"/>  
+      <pair id="DDI-DrugBank.d216.s10.p0" e1="DDI-DrugBank.d216.s10.e0" e2="DDI-DrugBank.d216.s10.e1" ddi="false" flags="True" e1_name="Rifampicin" e2_name="zopiclone" e1_pos="5" e2_pos="8" path="5@@9@@8@@">Rifampicin@@@@nn@@exposure@@nn@@zopiclone</pair>  
+      <pair id="DDI-DrugBank.d216.s10.p1" e1="DDI-DrugBank.d216.s10.e0" e2="DDI-DrugBank.d216.s10.e2" ddi="false" flags="True" e1_name="Rifampicin" e2_name="rifampicin" e1_pos="5" e2_pos="16" path="5@@9@@0@@11@@16@@">Rifampicin@@@@nn@@exposure@@dep@@Drugs@@nsubjpass@@decreased@@agent@@rifampicin</pair>  
+      <pair id="DDI-DrugBank.d216.s10.p2" e1="DDI-DrugBank.d216.s10.e1" e2="DDI-DrugBank.d216.s10.e2" ddi="true" type="mechanism" flags="True" e1_name="zopiclone" e2_name="rifampicin" e1_pos="8" e2_pos="16" path="8@@9@@0@@11@@16@@">zopiclone@@@@nn@@exposure@@dep@@Drugs@@nsubjpass@@decreased@@agent@@rifampicin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d216.s11" text="A similar effect would be expected with eszopiclone." new_text="A@@similar@@effect@@would@@be@@expected@@with@@eszopiclone@@.@@"> 
+      <entity id="DDI-DrugBank.d216.s11.e0" charOffset="40-50" type="drug" text="eszopiclone" position="7"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d216.s12" text="Drugs Highly Bound To Plasma Protein Eszopiclone is not highly bound to plasma proteins (52-59% bound);" new_text="Drugs@@Highly@@Bound@@To@@Plasma@@Protein@@Eszopiclone@@is@@not@@highly@@bound@@to@@plasma@@proteins@@(52-59%@@bound);@@"> 
+      <entity id="DDI-DrugBank.d216.s12.e0" charOffset="37-47" type="drug" text="Eszopiclone" position="6"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d216.s13" text="therefore, the disposition of eszopiclone is not expected to be sensitive to alterations in protein binding." new_text="therefore@@,@@the@@disposition@@of@@eszopiclone@@is@@not@@expected@@to@@be@@sensitive@@to@@alterations@@in@@protein@@binding@@.@@"> 
+      <entity id="DDI-DrugBank.d216.s13.e0" charOffset="30-40" type="drug" text="eszopiclone" position="5"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d216.s14" text="Administration of eszopiclone 3 mg to a patient taking another drug that is highly protein-bound would not be expected to cause an alteration in the free concentration of either drug." new_text="Administration@@of@@eszopiclone@@3@@mg@@to@@a@@patient@@taking@@another@@drug@@that@@is@@highly@@protein-bound@@would@@not@@be@@expected@@to@@cause@@an@@alteration@@in@@the@@free@@concentration@@of@@either@@drug@@.@@"> 
+      <entity id="DDI-DrugBank.d216.s14.e0" charOffset="18-28" type="drug" text="eszopiclone" position="2"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d216.s15" text="Drugs With A Narrow Therapeutic Index Digoxin A single dose of eszopiclone 3 mg did not affect the pharmacokinetics of digoxin measured at steady state following dosing of 0.5 mg twice daily for one day and 0.25 mg daily for the next 6 days." new_text="Drugs@@With@@A@@Narrow@@Therapeutic@@Index@@Digoxin@@A@@single@@dose@@of@@eszopiclone@@3@@mg@@did@@not@@affect@@the@@pharmacokinetics@@of@@digoxin@@measured@@at@@steady@@state@@following@@dosing@@of@@0.5@@mg@@twice@@daily@@for@@one@@day@@and@@0.25@@mg@@daily@@for@@the@@next@@6@@days@@.@@"> 
+      <entity id="DDI-DrugBank.d216.s15.e0" charOffset="38-44" type="drug" text="Digoxin" position="6"/>  
+      <entity id="DDI-DrugBank.d216.s15.e1" charOffset="63-73" type="drug" text="eszopiclone" position="11"/>  
+      <entity id="DDI-DrugBank.d216.s15.e2" charOffset="119-125" type="drug" text="digoxin" position="20"/>  
+      <pair id="DDI-DrugBank.d216.s15.p0" e1="DDI-DrugBank.d216.s15.e0" e2="DDI-DrugBank.d216.s15.e1" ddi="false" flags="True" e1_name="Digoxin" e2_name="eszopiclone" e1_pos="6" e2_pos="11" path="6@@16@@9@@13@@11@@">Digoxin@@@@prep_with@@affect@@nsubj@@dose@@prep_of@@mg@@amod@@eszopiclone</pair>  
+      <pair id="DDI-DrugBank.d216.s15.p1" e1="DDI-DrugBank.d216.s15.e0" e2="DDI-DrugBank.d216.s15.e2" ddi="false" flags="True" e1_name="Digoxin" e2_name="digoxin" e1_pos="6" e2_pos="20" path="6@@16@@18@@20@@">Digoxin@@@@prep_with@@affect@@dobj@@pharmacokinetics@@prep_of@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d216.s15.p2" e1="DDI-DrugBank.d216.s15.e1" e2="DDI-DrugBank.d216.s15.e2" ddi="false" flags="True" e1_name="eszopiclone" e2_name="digoxin" e1_pos="11" e2_pos="20" path="11@@13@@9@@16@@18@@20@@">eszopiclone@@@@amod@@mg@@prep_of@@dose@@nsubj@@affect@@dobj@@pharmacokinetics@@prep_of@@digoxin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d216.s16" text="Warfarin: Eszopiclone 3 mg administered daily for 5 days did not affect the pharmacokinetics of (R)- or (S)-warfarin, nor were there any changes in the pharmacodynamic profile (prothrombin time) following a single 25 mg oral dose of warfarin" new_text="Warfarin@@:@@Eszopiclone@@3@@mg@@administered@@daily@@for@@5@@days@@did@@not@@affect@@the@@pharmacokinetics@@of@@(R)-@@or@@(S)-warfarin@@,@@nor@@were@@there@@any@@changes@@in@@the@@pharmacodynamic@@profile@@(prothrombin@@time)@@following@@a@@single@@25@@mg@@oral@@dose@@of@@warfarin@@"> 
+      <entity id="DDI-DrugBank.d216.s16.e0" charOffset="0-7" type="drug" text="Warfarin" position="0"/>  
+      <entity id="DDI-DrugBank.d216.s16.e1" charOffset="10-20" type="drug" text="Eszopiclone" position="2"/>  
+      <entity id="DDI-DrugBank.d216.s16.e2" charOffset="95-98;107-114" type="drug" text="(R)-warfarin" position="not_a_number"/>  
+      <entity id="DDI-DrugBank.d216.s16.e3" charOffset="104-115" type="drug" text="(S)-warfarin" position="18"/>  
+      <entity id="DDI-DrugBank.d216.s16.e4" charOffset="233-240" type="drug" text="warfarin" position="39"/>  
+      <pair id="DDI-DrugBank.d216.s16.p0" e1="DDI-DrugBank.d216.s16.e0" e2="DDI-DrugBank.d216.s16.e1" ddi="false" flags="True" e1_name="Warfarin" e2_name="Eszopiclone" e1_pos="0" e2_pos="2" path="0@@4@@2@@">Warfarin@@@@dep@@mg@@nn@@Eszopiclone</pair>  
+      <pair id="DDI-DrugBank.d216.s16.p1" e1="DDI-DrugBank.d216.s16.e0" e2="DDI-DrugBank.d216.s16.e2" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d216.s16.p2" e1="DDI-DrugBank.d216.s16.e0" e2="DDI-DrugBank.d216.s16.e3" ddi="false" flags="True" e1_name="Warfarin" e2_name="(S)-warfarin" e1_pos="0" e2_pos="18" path="0@@12@@14@@18@@">Warfarin@@@@nsubj@@affect@@dobj@@pharmacokinetics@@prep_of@@(S)-warfarin</pair>  
+      <pair id="DDI-DrugBank.d216.s16.p3" e1="DDI-DrugBank.d216.s16.e0" e2="DDI-DrugBank.d216.s16.e4" ddi="false" flags="True" e1_name="Warfarin" e2_name="warfarin" e1_pos="0" e2_pos="39" path="0@@12@@21@@24@@30@@37@@39@@">Warfarin@@@@nsubj@@affect@@conj_nor@@were@@nsubj@@changes@@prep_in@@time)@@prep_following@@dose@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d216.s16.p4" e1="DDI-DrugBank.d216.s16.e1" e2="DDI-DrugBank.d216.s16.e2" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d216.s16.p5" e1="DDI-DrugBank.d216.s16.e1" e2="DDI-DrugBank.d216.s16.e3" ddi="false" flags="True" e1_name="Eszopiclone" e2_name="(S)-warfarin" e1_pos="2" e2_pos="18" path="2@@4@@0@@12@@14@@18@@">Eszopiclone@@@@nn@@mg@@dep@@Warfarin@@nsubj@@affect@@dobj@@pharmacokinetics@@prep_of@@(S)-warfarin</pair>  
+      <pair id="DDI-DrugBank.d216.s16.p6" e1="DDI-DrugBank.d216.s16.e1" e2="DDI-DrugBank.d216.s16.e4" ddi="false" flags="True" e1_name="Eszopiclone" e2_name="warfarin" e1_pos="2" e2_pos="39" path="2@@4@@0@@12@@21@@24@@30@@37@@39@@">Eszopiclone@@@@nn@@mg@@dep@@Warfarin@@nsubj@@affect@@conj_nor@@were@@nsubj@@changes@@prep_in@@time)@@prep_following@@dose@@prep_of@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d216.s16.p7" e1="DDI-DrugBank.d216.s16.e2" e2="DDI-DrugBank.d216.s16.e3" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d216.s16.p8" e1="DDI-DrugBank.d216.s16.e2" e2="DDI-DrugBank.d216.s16.e4" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d216.s16.p9" e1="DDI-DrugBank.d216.s16.e3" e2="DDI-DrugBank.d216.s16.e4" ddi="false" flags="True" e1_name="(S)-warfarin" e2_name="warfarin" e1_pos="18" e2_pos="39" path="18@@14@@12@@21@@24@@30@@37@@39@@">(S)-warfarin@@@@prep_of@@pharmacokinetics@@dobj@@affect@@conj_nor@@were@@nsubj@@changes@@prep_in@@time)@@prep_following@@dose@@prep_of@@warfarin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d216.s17" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d216.s18" text="" new_text=""/> 
+</document>

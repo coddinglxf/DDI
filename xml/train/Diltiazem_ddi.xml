@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d565"> 
+   <sentence id="DDI-DrugBank.d565.s0" text="Due to the potential for additive effects, caution and careful titration are warranted in patients receiving diltiazem hydrochloride concomitantly with other agents known to affect cardiac contractility and/or conduction." new_text="Due@@to@@the@@potential@@for@@additive@@effects@@,@@caution@@and@@careful@@titration@@are@@warranted@@in@@patients@@receiving@@diltiazem hydrochloride@@concomitantly@@with@@other@@agents@@known@@to@@affect@@cardiac@@contractility@@and/or@@conduction@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s0.e0" charOffset="109-131" type="drug" text="diltiazem hydrochloride" position="17"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s1" text="Pharmacologic studies indicate that there may be additive effects in prolonging AV conduction when using beta-blockers or digitalis concomitantly with Tiazac." new_text="Pharmacologic@@studies@@indicate@@that@@there@@may@@be@@additive@@effects@@in@@prolonging@@AV@@conduction@@when@@using@@beta-blockers@@or@@digitalis@@concomitantly@@with@@Tiazac@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s1.e0" charOffset="105-117" type="group" text="beta-blockers" position="15"/>  
+      <entity id="DDI-DrugBank.d565.s1.e1" charOffset="122-130" type="group" text="digitalis" position="17"/>  
+      <entity id="DDI-DrugBank.d565.s1.e2" charOffset="151-156" type="brand" text="Tiazac" position="20"/>  
+      <pair id="DDI-DrugBank.d565.s1.p0" e1="DDI-DrugBank.d565.s1.e0" e2="DDI-DrugBank.d565.s1.e1" ddi="false" flags="True" e1_name="beta-blockers" e2_name="digitalis" e1_pos="15" e2_pos="17" path="15@@17@@">beta-blockers@@@@conj_or@@digitalis</pair>  
+      <pair id="DDI-DrugBank.d565.s1.p1" e1="DDI-DrugBank.d565.s1.e0" e2="DDI-DrugBank.d565.s1.e2" ddi="true" type="effect" flags="True" e1_name="beta-blockers" e2_name="Tiazac" e1_pos="15" e2_pos="20" path="15@@14@@20@@">beta-blockers@@@@dobj@@using@@prep_with@@Tiazac</pair>  
+      <pair id="DDI-DrugBank.d565.s1.p2" e1="DDI-DrugBank.d565.s1.e1" e2="DDI-DrugBank.d565.s1.e2" ddi="true" type="effect" flags="True" e1_name="digitalis" e2_name="Tiazac" e1_pos="17" e2_pos="20" path="17@@14@@20@@">digitalis@@@@dobj@@using@@prep_with@@Tiazac</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s2" text="As with all drugs, care should be exercised when treating patients with multiple medications." new_text="As@@with@@all@@drugs@@,@@care@@should@@be@@exercised@@when@@treating@@patients@@with@@multiple@@medications@@.@@"/>  
+   <sentence id="DDI-DrugBank.d565.s3" text="Diltiazem is both a substrate and an inhibitor of the cytochrome P-450 3A4 enzyme system." new_text="Diltiazem@@is@@both@@a@@substrate@@and@@an@@inhibitor@@of@@the@@cytochrome@@P-450@@3A4@@enzyme@@system@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s3.e0" charOffset="0-8" type="drug" text="Diltiazem" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s4" text="Other drugs that are specific substrates, inhibitors, or inducers of the enzyme system may have a significant impact on the efficacy and side effect profile of diltiazem." new_text="Other@@drugs@@that@@are@@specific@@substrates@@,@@inhibitors@@,@@or@@inducers@@of@@the@@enzyme@@system@@may@@have@@a@@significant@@impact@@on@@the@@efficacy@@and@@side@@effect@@profile@@of@@diltiazem@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s4.e0" charOffset="160-168" type="drug" text="diltiazem" position="28"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s5" text="Patients taking other drugs that are substrates of CYP450 3A4, especially patients with renal and/or hepatic impairment, may require dosage adjustment when starting or stopping concomitantly administered diltiazem in order to maintain optimum therapeutic blood levels." new_text="Patients@@taking@@other@@drugs@@that@@are@@substrates@@of@@CYP450@@3A4@@,@@especially@@patients@@with@@renal@@and/or@@hepatic@@impairment@@,@@may@@require@@dosage@@adjustment@@when@@starting@@or@@stopping@@concomitantly@@administered@@diltiazem@@in@@order@@to@@maintain@@optimum@@therapeutic@@blood@@levels@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s5.e0" charOffset="204-212" type="drug" text="diltiazem" position="29"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s6" text="Beta Blockers" new_text="Beta Blockers@@"> 
+      <entity id="DDI-DrugBank.d565.s6.e0" charOffset="0-12" type="group" text="Beta Blockers" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s7" text="Controlled and uncontrolled domestic studies suggest that concomitant use of diltiazem hydrochloride and beta-blockers is usually well tolerated, but available data are not sufficient to predict the effects of concomitant treatment in patients with left ventricular dysfunction or cardiac conduction abnormalities." new_text="Controlled@@and@@uncontrolled@@domestic@@studies@@suggest@@that@@concomitant@@use@@of@@diltiazem hydrochloride@@and@@beta-blockers@@is@@usually@@well@@tolerated@@,@@but@@available@@data@@are@@not@@sufficient@@to@@predict@@the@@effects@@of@@concomitant@@treatment@@in@@patients@@with@@left@@ventricular@@dysfunction@@or@@cardiac@@conduction@@abnormalities@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s7.e0" charOffset="77-99" type="drug" text="diltiazem hydrochloride" position="10"/>  
+      <entity id="DDI-DrugBank.d565.s7.e1" charOffset="105-117" type="group" text="beta-blockers" position="12"/>  
+      <pair id="DDI-DrugBank.d565.s7.p0" e1="DDI-DrugBank.d565.s7.e0" e2="DDI-DrugBank.d565.s7.e1" ddi="false" flags="True" e1_name="diltiazem hydrochloride" e2_name="beta-blockers" e1_pos="10" e2_pos="12" path="10@@12@@">diltiazem hydrochloride@@@@conj_and@@beta-blockers</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s8" text="Administration of diltiazem hydrochloride concomitantly with propranolol in five normal volunteers resulted in increased propranolol levels in all subjects and bioavailability of propranolol was increased approximately 50%." new_text="Administration@@of@@diltiazem hydrochloride@@concomitantly@@with@@propranolol@@in@@five@@normal@@volunteers@@resulted@@in@@increased@@propranolol@@levels@@in@@all@@subjects@@and@@bioavailability@@of@@propranolol@@was@@increased@@approximately@@50%@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s8.e0" charOffset="18-40" type="drug" text="diltiazem hydrochloride" position="2"/>  
+      <entity id="DDI-DrugBank.d565.s8.e1" charOffset="61-71" type="drug" text="propranolol" position="5"/>  
+      <entity id="DDI-DrugBank.d565.s8.e2" charOffset="121-131" type="drug" text="propranolol" position="13"/>  
+      <entity id="DDI-DrugBank.d565.s8.e3" charOffset="179-189" type="drug" text="propranolol" position="21"/>  
+      <pair id="DDI-DrugBank.d565.s8.p0" e1="DDI-DrugBank.d565.s8.e0" e2="DDI-DrugBank.d565.s8.e1" ddi="true" type="mechanism" flags="True" e1_name="diltiazem hydrochloride" e2_name="propranolol" e1_pos="2" e2_pos="5" path="2@@3@@5@@">diltiazem hydrochloride@@@@amod@@concomitantly@@prep_with@@propranolol</pair>  
+      <pair id="DDI-DrugBank.d565.s8.p1" e1="DDI-DrugBank.d565.s8.e0" e2="DDI-DrugBank.d565.s8.e2" ddi="false" flags="True" e1_name="diltiazem hydrochloride" e2_name="propranolol" e1_pos="2" e2_pos="13" path="2@@3@@5@@9@@10@@14@@13@@">diltiazem hydrochloride@@@@amod@@concomitantly@@prep_with@@propranolol@@prep_in@@volunteers@@partmod@@resulted@@prep_in@@levels@@amod@@propranolol</pair>  
+      <pair id="DDI-DrugBank.d565.s8.p2" e1="DDI-DrugBank.d565.s8.e0" e2="DDI-DrugBank.d565.s8.e3" ddi="false" flags="True" e1_name="diltiazem hydrochloride" e2_name="propranolol" e1_pos="2" e2_pos="21" path="2@@3@@5@@9@@10@@14@@17@@21@@">diltiazem hydrochloride@@@@amod@@concomitantly@@prep_with@@propranolol@@prep_in@@volunteers@@partmod@@resulted@@prep_in@@levels@@prep_in@@subjects@@prep_of@@propranolol</pair>  
+      <pair id="DDI-DrugBank.d565.s8.p3" e1="DDI-DrugBank.d565.s8.e1" e2="DDI-DrugBank.d565.s8.e2" ddi="false" flags="True" e1_name="propranolol" e2_name="propranolol" e1_pos="5" e2_pos="13" path="5@@9@@10@@14@@13@@">propranolol@@@@prep_in@@volunteers@@partmod@@resulted@@prep_in@@levels@@amod@@propranolol</pair>  
+      <pair id="DDI-DrugBank.d565.s8.p4" e1="DDI-DrugBank.d565.s8.e1" e2="DDI-DrugBank.d565.s8.e3" ddi="false" flags="True" e1_name="propranolol" e2_name="propranolol" e1_pos="5" e2_pos="21" path="5@@9@@10@@14@@17@@21@@">propranolol@@@@prep_in@@volunteers@@partmod@@resulted@@prep_in@@levels@@prep_in@@subjects@@prep_of@@propranolol</pair>  
+      <pair id="DDI-DrugBank.d565.s8.p5" e1="DDI-DrugBank.d565.s8.e2" e2="DDI-DrugBank.d565.s8.e3" ddi="false" flags="True" e1_name="propranolol" e2_name="propranolol" e1_pos="13" e2_pos="21" path="13@@14@@17@@21@@">propranolol@@@@amod@@levels@@prep_in@@subjects@@prep_of@@propranolol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s9" text="In vitro, propranolol appears to be displaced from its binding sites by diltiazem." new_text="In@@vitro@@,@@propranolol@@appears@@to@@be@@displaced@@from@@its@@binding@@sites@@by@@diltiazem@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s9.e0" charOffset="10-20" type="drug" text="propranolol" position="3"/>  
+      <entity id="DDI-DrugBank.d565.s9.e1" charOffset="72-80" type="drug" text="diltiazem" position="13"/>  
+      <pair id="DDI-DrugBank.d565.s9.p0" e1="DDI-DrugBank.d565.s9.e0" e2="DDI-DrugBank.d565.s9.e1" ddi="true" type="mechanism" flags="True" e1_name="propranolol" e2_name="diltiazem" e1_pos="3" e2_pos="13" path="3@@7@@13@@">propranolol@@@@xsubj@@displaced@@agent@@diltiazem</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s10" text="If combination therapy is initiated or withdrawn in conjunction with propranolol, an adjustment in the propranolol dose may be warranted." new_text="If@@combination@@therapy@@is@@initiated@@or@@withdrawn@@in@@conjunction@@with@@propranolol@@,@@an@@adjustment@@in@@the@@propranolol@@dose@@may@@be@@warranted@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s10.e0" charOffset="69-79" type="drug" text="propranolol" position="10"/>  
+      <entity id="DDI-DrugBank.d565.s10.e1" charOffset="103-113" type="drug" text="propranolol" position="16"/>  
+      <pair id="DDI-DrugBank.d565.s10.p0" e1="DDI-DrugBank.d565.s10.e0" e2="DDI-DrugBank.d565.s10.e1" ddi="false" flags="True" e1_name="propranolol" e2_name="propranolol" e1_pos="10" e2_pos="16" path="10@@8@@4@@20@@13@@17@@16@@">propranolol@@@@prep_with@@conjunction@@prep_in@@initiated@@advcl@@warranted@@nsubjpass@@adjustment@@prep_in@@dose@@amod@@propranolol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s11" text="Cimetidine" new_text="Cimetidine@@"> 
+      <entity id="DDI-DrugBank.d565.s11.e0" charOffset="0-9" type="drug" text="Cimetidine" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s12" text="A study in six healthy volunteers has shown a significant increase in peak diltiazem plasma levels (58%) and AUC (53%) after a 1-week course of cimetidine 1200 mg/day and a single dose of diltiazem 60mg." new_text="A@@study@@in@@six@@healthy@@volunteers@@has@@shown@@a@@significant@@increase@@in@@peak@@diltiazem@@plasma@@levels@@(58%)@@and@@AUC@@(53%)@@after@@a@@1-week@@course@@of@@cimetidine@@1200@@mg/day@@and@@a@@single@@dose@@of@@diltiazem@@60mg@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s12.e0" charOffset="75-83" type="drug" text="diltiazem" position="13"/>  
+      <entity id="DDI-DrugBank.d565.s12.e1" charOffset="144-153" type="drug" text="cimetidine" position="25"/>  
+      <entity id="DDI-DrugBank.d565.s12.e2" charOffset="188-196" type="drug" text="diltiazem" position="33"/>  
+      <pair id="DDI-DrugBank.d565.s12.p0" e1="DDI-DrugBank.d565.s12.e0" e2="DDI-DrugBank.d565.s12.e1" ddi="false" flags="True" e1_name="diltiazem" e2_name="cimetidine" e1_pos="13" e2_pos="25" path="13@@15@@18@@23@@27@@25@@">diltiazem@@@@nn@@levels@@conj_and@@AUC@@prep_after@@course@@prep_of@@mg/day@@amod@@cimetidine</pair>  
+      <pair id="DDI-DrugBank.d565.s12.p1" e1="DDI-DrugBank.d565.s12.e0" e2="DDI-DrugBank.d565.s12.e2" ddi="false" flags="True" e1_name="diltiazem" e2_name="diltiazem" e1_pos="13" e2_pos="33" path="13@@15@@18@@31@@34@@33@@">diltiazem@@@@nn@@levels@@conj_and@@AUC@@prep_after@@dose@@prep_of@@60mg@@nn@@diltiazem</pair>  
+      <pair id="DDI-DrugBank.d565.s12.p2" e1="DDI-DrugBank.d565.s12.e1" e2="DDI-DrugBank.d565.s12.e2" ddi="true" type="mechanism" flags="True" e1_name="cimetidine" e2_name="diltiazem" e1_pos="25" e2_pos="33" path="25@@27@@23@@31@@34@@33@@">cimetidine@@@@amod@@mg/day@@prep_of@@course@@conj_and@@dose@@prep_of@@60mg@@nn@@diltiazem</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s13" text="Ranitidine produced smaller, nonsignificant increases." new_text="Ranitidine@@produced@@smaller@@,@@nonsignificant@@increases@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s13.e0" charOffset="0-9" type="drug" text="Ranitidine" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s14" text="The effect may be mediated by cimetidines known inhibition of hepatic cytochrome P-450, the enzyme system responsible for the first-pass metabolism of diltiazem." new_text="The@@effect@@may@@be@@mediated@@by@@cimetidine@@s@@known@@inhibition@@of@@hepatic@@cytochrome@@P-450@@,@@the@@enzyme@@system@@responsible@@for@@the@@first-pass@@metabolism@@of@@diltiazem@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s14.e0" charOffset="30-39" type="drug" text="cimetidine" position="6"/>  
+      <entity id="DDI-DrugBank.d565.s14.e1" charOffset="151-159" type="drug" text="diltiazem" position="24"/>  
+      <pair id="DDI-DrugBank.d565.s14.p0" e1="DDI-DrugBank.d565.s14.e0" e2="DDI-DrugBank.d565.s14.e1" ddi="true" type="mechanism" flags="True" e1_name="cimetidine" e2_name="diltiazem" e1_pos="6" e2_pos="24" path="6@@4@@8@@13@@17@@18@@22@@24@@">cimetidine@@@@agent@@mediated@@dep@@known@@nsubjpass@@P-450@@appos@@system@@amod@@responsible@@prep_for@@metabolism@@prep_of@@diltiazem</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s15" text="Patients currently receiving diltiazem therapy should be carefully monitored for a change in pharmacological effect when initiating and discontinuing therapy with cimetidine." new_text="Patients@@currently@@receiving@@diltiazem@@therapy@@should@@be@@carefully@@monitored@@for@@a@@change@@in@@pharmacological@@effect@@when@@initiating@@and@@discontinuing@@therapy@@with@@cimetidine@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s15.e0" charOffset="29-37" type="drug" text="diltiazem" position="3"/>  
+      <entity id="DDI-DrugBank.d565.s15.e1" charOffset="163-172" type="drug" text="cimetidine" position="21"/>  
+      <pair id="DDI-DrugBank.d565.s15.p0" e1="DDI-DrugBank.d565.s15.e0" e2="DDI-DrugBank.d565.s15.e1" ddi="true" type="advise" flags="True" e1_name="diltiazem" e2_name="cimetidine" e1_pos="3" e2_pos="21" path="3@@4@@2@@0@@8@@16@@21@@">diltiazem@@@@nn@@therapy@@dobj@@receiving@@partmod@@Patients@@nsubjpass@@monitored@@ccomp@@initiating@@prep_with@@cimetidine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s16" text="An adjustment in the diltiazem dose may be warranted." new_text="An@@adjustment@@in@@the@@diltiazem@@dose@@may@@be@@warranted@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s16.e0" charOffset="21-29" type="drug" text="diltiazem" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s17" text="Digitalis" new_text="Digitalis@@"> 
+      <entity id="DDI-DrugBank.d565.s17.e0" charOffset="0-8" type="group" text="Digitalis" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s18" text="Administration of diltiazem hydrochloride with digoxin in 24 healthy male subjects increased plasma digoxin concentrations approximately 20%." new_text="Administration@@of@@diltiazem hydrochloride@@with@@digoxin@@in@@24@@healthy@@male@@subjects@@increased@@plasma@@digoxin@@concentrations@@approximately@@20%@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s18.e0" charOffset="18-40" type="drug" text="diltiazem hydrochloride" position="2"/>  
+      <entity id="DDI-DrugBank.d565.s18.e1" charOffset="47-53" type="drug" text="digoxin" position="4"/>  
+      <entity id="DDI-DrugBank.d565.s18.e2" charOffset="100-106" type="drug" text="digoxin" position="12"/>  
+      <pair id="DDI-DrugBank.d565.s18.p0" e1="DDI-DrugBank.d565.s18.e0" e2="DDI-DrugBank.d565.s18.e1" ddi="true" type="mechanism" flags="True" e1_name="diltiazem hydrochloride" e2_name="digoxin" e1_pos="2" e2_pos="4" path="2@@4@@">diltiazem hydrochloride@@@@prep_with@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d565.s18.p1" e1="DDI-DrugBank.d565.s18.e0" e2="DDI-DrugBank.d565.s18.e2" ddi="false" flags="True" e1_name="diltiazem hydrochloride" e2_name="digoxin" e1_pos="2" e2_pos="12" path="2@@0@@10@@13@@12@@">diltiazem hydrochloride@@@@prep_of@@Administration@@nsubj@@increased@@iobj@@concentrations@@nn@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d565.s18.p2" e1="DDI-DrugBank.d565.s18.e1" e2="DDI-DrugBank.d565.s18.e2" ddi="false" flags="True" e1_name="digoxin" e2_name="digoxin" e1_pos="4" e2_pos="12" path="4@@2@@0@@10@@13@@12@@">digoxin@@@@prep_with@@diltiazem hydrochloride@@prep_of@@Administration@@nsubj@@increased@@iobj@@concentrations@@nn@@digoxin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s19" text="Another investigator found no increase in digoxin levels in 12 patients with coronary artery disease." new_text="Another@@investigator@@found@@no@@increase@@in@@digoxin@@levels@@in@@12@@patients@@with@@coronary@@artery@@disease@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s19.e0" charOffset="42-48" type="drug" text="digoxin" position="6"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s20" text="Since there have been conflicting results regarding the effect of digoxin levels, it is recommended that digoxin levels be monitored when initiating, adjusting, and discontinuing diltiazem hydrochloride therapy to avoid possible over- or under-digitalization." new_text="Since@@there@@have@@been@@conflicting@@results@@regarding@@the@@effect@@of@@digoxin@@levels@@,@@it@@is@@recommended@@that@@digoxin@@levels@@be@@monitored@@when@@initiating@@,@@adjusting@@,@@and@@discontinuing@@diltiazem hydrochloride@@therapy@@to@@avoid@@possible@@over-@@or@@under-digitalization@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s20.e0" charOffset="66-72" type="drug" text="digoxin" position="10"/>  
+      <entity id="DDI-DrugBank.d565.s20.e1" charOffset="105-111" type="drug" text="digoxin" position="17"/>  
+      <entity id="DDI-DrugBank.d565.s20.e2" charOffset="179-201" type="drug" text="diltiazem hydrochloride" position="28"/>  
+      <pair id="DDI-DrugBank.d565.s20.p0" e1="DDI-DrugBank.d565.s20.e0" e2="DDI-DrugBank.d565.s20.e1" ddi="false" flags="True" e1_name="digoxin" e2_name="digoxin" e1_pos="10" e2_pos="17" path="10@@11@@8@@5@@15@@20@@18@@17@@">digoxin@@@@nn@@levels@@prep_of@@effect@@prep_regarding@@results@@advcl@@recommended@@ccomp@@monitored@@nsubjpass@@levels@@nn@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d565.s20.p1" e1="DDI-DrugBank.d565.s20.e0" e2="DDI-DrugBank.d565.s20.e2" ddi="false" flags="True" e1_name="digoxin" e2_name="diltiazem hydrochloride" e1_pos="10" e2_pos="28" path="10@@11@@8@@5@@15@@20@@27@@29@@28@@">digoxin@@@@nn@@levels@@prep_of@@effect@@prep_regarding@@results@@advcl@@recommended@@ccomp@@monitored@@advcl@@discontinuing@@dobj@@therapy@@amod@@diltiazem hydrochloride</pair>  
+      <pair id="DDI-DrugBank.d565.s20.p2" e1="DDI-DrugBank.d565.s20.e1" e2="DDI-DrugBank.d565.s20.e2" ddi="true" type="advise" flags="True" e1_name="digoxin" e2_name="diltiazem hydrochloride" e1_pos="17" e2_pos="28" path="17@@18@@20@@27@@29@@28@@">digoxin@@@@nn@@levels@@nsubjpass@@monitored@@advcl@@discontinuing@@dobj@@therapy@@amod@@diltiazem hydrochloride</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s21" text="Anesthetics" new_text="Anesthetics@@"> 
+      <entity id="DDI-DrugBank.d565.s21.e0" charOffset="0-10" type="group" text="Anesthetics" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s22" text="The depression of cardiac contractility, conductivity, and automaticity as well as the vascular dilation associated with anesthetics may be potentiated by calcium channel blockers." new_text="The@@depression@@of@@cardiac@@contractility@@,@@conductivity@@,@@and@@automaticity@@as@@well@@as@@the@@vascular@@dilation@@associated@@with@@anesthetics@@may@@be@@potentiated@@by@@calcium channel blockers@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s22.e0" charOffset="121-131" type="group" text="anesthetics" position="18"/>  
+      <entity id="DDI-DrugBank.d565.s22.e1" charOffset="155-178" type="group" text="calcium channel blockers" position="23"/>  
+      <pair id="DDI-DrugBank.d565.s22.p0" e1="DDI-DrugBank.d565.s22.e0" e2="DDI-DrugBank.d565.s22.e1" ddi="true" type="effect" flags="True" e1_name="anesthetics" e2_name="calcium channel blockers" e1_pos="18" e2_pos="23" path="18@@16@@15@@1@@21@@23@@">anesthetics@@@@prep_with@@associated@@partmod@@dilation@@prep_of@@depression@@nsubjpass@@potentiated@@agent@@calcium channel blockers</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s23" text="When used concomitantly, anesthetics and calcium channel blockers should be titrated carefully." new_text="When@@used@@concomitantly@@,@@anesthetics@@and@@calcium channel blockers@@should@@be@@titrated@@carefully@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s23.e0" charOffset="25-35" type="group" text="anesthetics" position="4"/>  
+      <entity id="DDI-DrugBank.d565.s23.e1" charOffset="41-64" type="group" text="calcium channel blockers" position="6"/>  
+      <pair id="DDI-DrugBank.d565.s23.p0" e1="DDI-DrugBank.d565.s23.e0" e2="DDI-DrugBank.d565.s23.e1" ddi="true" type="advise" flags="True" e1_name="anesthetics" e2_name="calcium channel blockers" e1_pos="4" e2_pos="6" path="4@@6@@">anesthetics@@@@conj_and@@calcium channel blockers</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s24" text="Cyclosporine" new_text="Cyclosporine@@"> 
+      <entity id="DDI-DrugBank.d565.s24.e0" charOffset="0-11" type="drug" text="Cyclosporine" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s25" text="A pharmacokinetic interaction between diltiazem and cyclosporine has been observed during studies involving renal and cardiac transplant patients." new_text="A@@pharmacokinetic@@interaction@@between@@diltiazem@@and@@cyclosporine@@has@@been@@observed@@during@@studies@@involving@@renal@@and@@cardiac@@transplant@@patients@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s25.e0" charOffset="38-46" type="drug" text="diltiazem" position="4"/>  
+      <entity id="DDI-DrugBank.d565.s25.e1" charOffset="52-63" type="drug" text="cyclosporine" position="6"/>  
+      <pair id="DDI-DrugBank.d565.s25.p0" e1="DDI-DrugBank.d565.s25.e0" e2="DDI-DrugBank.d565.s25.e1" ddi="true" type="int" flags="True" e1_name="diltiazem" e2_name="cyclosporine" e1_pos="4" e2_pos="6" path="4@@6@@">diltiazem@@@@conj_and@@cyclosporine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s26" text="In renal and cardiac transplant recipients, a reduction of cyclosporine dose ranging from 15% to 48% was necessary to maintain cyclosporine trough concentrations similar to those seen prior to the addition of diltiazem." new_text="In@@renal@@and@@cardiac@@transplant@@recipients@@,@@a@@reduction@@of@@cyclosporine@@dose@@ranging@@from@@15%@@to@@48%@@was@@necessary@@to@@maintain@@cyclosporine@@trough@@concentrations@@similar@@to@@those@@seen@@prior@@to@@the@@addition@@of@@diltiazem@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s26.e0" charOffset="59-70" type="drug" text="cyclosporine" position="10"/>  
+      <entity id="DDI-DrugBank.d565.s26.e1" charOffset="127-138" type="drug" text="cyclosporine" position="21"/>  
+      <entity id="DDI-DrugBank.d565.s26.e2" charOffset="209-217" type="drug" text="diltiazem" position="33"/>  
+      <pair id="DDI-DrugBank.d565.s26.p0" e1="DDI-DrugBank.d565.s26.e0" e2="DDI-DrugBank.d565.s26.e1" ddi="false" flags="True" e1_name="cyclosporine" e2_name="cyclosporine" e1_pos="10" e2_pos="21" path="10@@11@@8@@20@@24@@23@@21@@">cyclosporine@@@@amod@@dose@@prep_of@@reduction@@xsubj@@maintain@@xcomp@@similar@@nsubj@@concentrations@@amod@@cyclosporine</pair>  
+      <pair id="DDI-DrugBank.d565.s26.p1" e1="DDI-DrugBank.d565.s26.e0" e2="DDI-DrugBank.d565.s26.e2" ddi="true" type="mechanism" flags="True" e1_name="cyclosporine" e2_name="diltiazem" e1_pos="10" e2_pos="33" path="10@@11@@8@@20@@24@@26@@27@@31@@33@@">cyclosporine@@@@amod@@dose@@prep_of@@reduction@@xsubj@@maintain@@xcomp@@similar@@prep_to@@those@@partmod@@seen@@prep_prior_to@@addition@@prep_of@@diltiazem</pair>  
+      <pair id="DDI-DrugBank.d565.s26.p2" e1="DDI-DrugBank.d565.s26.e1" e2="DDI-DrugBank.d565.s26.e2" ddi="false" flags="True" e1_name="cyclosporine" e2_name="diltiazem" e1_pos="21" e2_pos="33" path="21@@23@@24@@26@@27@@31@@33@@">cyclosporine@@@@amod@@concentrations@@nsubj@@similar@@prep_to@@those@@partmod@@seen@@prep_prior_to@@addition@@prep_of@@diltiazem</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s27" text="If these agents are to be administered concurrently, cyclosporine concentrations should be monitored, especially when diltiazem therapy is initiated, adjusted, or discontinued." new_text="If@@these@@agents@@are@@to@@be@@administered@@concurrently@@,@@cyclosporine@@concentrations@@should@@be@@monitored@@,@@especially@@when@@diltiazem@@therapy@@is@@initiated@@,@@adjusted@@,@@or@@discontinued@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s27.e0" charOffset="53-64" type="drug" text="cyclosporine" position="9"/>  
+      <entity id="DDI-DrugBank.d565.s27.e1" charOffset="118-126" type="drug" text="diltiazem" position="17"/>  
+      <pair id="DDI-DrugBank.d565.s27.p0" e1="DDI-DrugBank.d565.s27.e0" e2="DDI-DrugBank.d565.s27.e1" ddi="true" type="advise" flags="True" e1_name="cyclosporine" e2_name="diltiazem" e1_pos="9" e2_pos="17" path="9@@10@@13@@20@@18@@17@@">cyclosporine@@@@amod@@concentrations@@nsubjpass@@monitored@@advcl@@initiated@@nsubjpass@@therapy@@nn@@diltiazem</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s28" text="The effect of cyclosporine on diltiazem plasma concentrations has not been evaluated." new_text="The@@effect@@of@@cyclosporine@@on@@diltiazem@@plasma@@concentrations@@has@@not@@been@@evaluated@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s28.e0" charOffset="14-25" type="drug" text="cyclosporine" position="3"/>  
+      <entity id="DDI-DrugBank.d565.s28.e1" charOffset="30-38" type="drug" text="diltiazem" position="5"/>  
+      <pair id="DDI-DrugBank.d565.s28.p0" e1="DDI-DrugBank.d565.s28.e0" e2="DDI-DrugBank.d565.s28.e1" ddi="false" flags="True" e1_name="cyclosporine" e2_name="diltiazem" e1_pos="3" e2_pos="5" path="3@@7@@5@@">cyclosporine@@@@prep_on@@concentrations@@nn@@diltiazem</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s29" text="Carbamazepine" new_text="Carbamazepine@@"> 
+      <entity id="DDI-DrugBank.d565.s29.e0" charOffset="0-12" type="drug" text="Carbamazepine" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s30" text="Concomitant administration of diltiazem with carbamazepine has been reported to result in elevated serum levels of carbamazepine (40% to 72% increase), resulting in toxicity in some cases." new_text="Concomitant@@administration@@of@@diltiazem@@with@@carbamazepine@@has@@been@@reported@@to@@result@@in@@elevated@@serum@@levels@@of@@carbamazepine@@(40%@@to@@72%@@increase)@@,@@resulting@@in@@toxicity@@in@@some@@cases@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s30.e0" charOffset="30-38" type="drug" text="diltiazem" position="3"/>  
+      <entity id="DDI-DrugBank.d565.s30.e1" charOffset="45-57" type="drug" text="carbamazepine" position="5"/>  
+      <entity id="DDI-DrugBank.d565.s30.e2" charOffset="115-127" type="drug" text="carbamazepine" position="16"/>  
+      <pair id="DDI-DrugBank.d565.s30.p0" e1="DDI-DrugBank.d565.s30.e0" e2="DDI-DrugBank.d565.s30.e1" ddi="true" type="mechanism" flags="True" e1_name="diltiazem" e2_name="carbamazepine" e1_pos="3" e2_pos="5" path="3@@5@@">diltiazem@@@@prep_with@@carbamazepine</pair>  
+      <pair id="DDI-DrugBank.d565.s30.p1" e1="DDI-DrugBank.d565.s30.e0" e2="DDI-DrugBank.d565.s30.e2" ddi="false" flags="True" e1_name="diltiazem" e2_name="carbamazepine" e1_pos="3" e2_pos="16" path="3@@1@@10@@14@@17@@16@@">diltiazem@@@@prep_of@@administration@@xsubj@@result@@prep_in@@levels@@prep_of@@(40%@@amod@@carbamazepine</pair>  
+      <pair id="DDI-DrugBank.d565.s30.p2" e1="DDI-DrugBank.d565.s30.e1" e2="DDI-DrugBank.d565.s30.e2" ddi="false" flags="True" e1_name="carbamazepine" e2_name="carbamazepine" e1_pos="5" e2_pos="16" path="5@@3@@1@@10@@14@@17@@16@@">carbamazepine@@@@prep_with@@diltiazem@@prep_of@@administration@@xsubj@@result@@prep_in@@levels@@prep_of@@(40%@@amod@@carbamazepine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s31" text="Patients receiving these drugs concurrently should be monitored for a potential drug interaction." new_text="Patients@@receiving@@these@@drugs@@concurrently@@should@@be@@monitored@@for@@a@@potential@@drug@@interaction@@.@@"/>  
+   <sentence id="DDI-DrugBank.d565.s32" text="Benzodiazepines" new_text="Benzodiazepines@@"> 
+      <entity id="DDI-DrugBank.d565.s32.e0" charOffset="0-14" type="group" text="Benzodiazepines" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s33" text="Studies showed that diltiazem increased the AUC of midazolam and triazolam by 3-4 fold and the Cmax by 2-fold, compared to placebo." new_text="Studies@@showed@@that@@diltiazem@@increased@@the@@AUC@@of@@midazolam@@and@@triazolam@@by@@3-4@@fold@@and@@the@@Cmax@@by@@2-fold@@,@@compared@@to@@placebo@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s33.e0" charOffset="20-28" type="drug" text="diltiazem" position="3"/>  
+      <entity id="DDI-DrugBank.d565.s33.e1" charOffset="51-59" type="drug" text="midazolam" position="8"/>  
+      <entity id="DDI-DrugBank.d565.s33.e2" charOffset="65-73" type="drug" text="triazolam" position="10"/>  
+      <pair id="DDI-DrugBank.d565.s33.p0" e1="DDI-DrugBank.d565.s33.e0" e2="DDI-DrugBank.d565.s33.e1" ddi="true" type="mechanism" flags="True" e1_name="diltiazem" e2_name="midazolam" e1_pos="3" e2_pos="8" path="3@@4@@6@@8@@">diltiazem@@@@nsubj@@increased@@dobj@@AUC@@prep_of@@midazolam</pair>  
+      <pair id="DDI-DrugBank.d565.s33.p1" e1="DDI-DrugBank.d565.s33.e0" e2="DDI-DrugBank.d565.s33.e2" ddi="true" type="mechanism" flags="True" e1_name="diltiazem" e2_name="triazolam" e1_pos="3" e2_pos="10" path="3@@4@@6@@10@@">diltiazem@@@@nsubj@@increased@@dobj@@AUC@@prep_of@@triazolam</pair>  
+      <pair id="DDI-DrugBank.d565.s33.p2" e1="DDI-DrugBank.d565.s33.e1" e2="DDI-DrugBank.d565.s33.e2" ddi="false" flags="True" e1_name="midazolam" e2_name="triazolam" e1_pos="8" e2_pos="10" path="8@@10@@">midazolam@@@@conj_and@@triazolam</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s34" text="The elimination half life of midazolam and triazolam also increased (1.5-2.5 fold) during coadministration with diltiazem." new_text="The@@elimination@@half@@life@@of@@midazolam@@and@@triazolam@@also@@increased@@(1.5-2.5@@fold)@@during@@coadministration@@with@@diltiazem@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s34.e0" charOffset="29-37" type="drug" text="midazolam" position="5"/>  
+      <entity id="DDI-DrugBank.d565.s34.e1" charOffset="43-51" type="drug" text="triazolam" position="7"/>  
+      <entity id="DDI-DrugBank.d565.s34.e2" charOffset="112-120" type="drug" text="diltiazem" position="15"/>  
+      <pair id="DDI-DrugBank.d565.s34.p0" e1="DDI-DrugBank.d565.s34.e0" e2="DDI-DrugBank.d565.s34.e1" ddi="false" flags="True" e1_name="midazolam" e2_name="triazolam" e1_pos="5" e2_pos="7" path="5@@7@@">midazolam@@@@conj_and@@triazolam</pair>  
+      <pair id="DDI-DrugBank.d565.s34.p1" e1="DDI-DrugBank.d565.s34.e0" e2="DDI-DrugBank.d565.s34.e2" ddi="true" type="mechanism" flags="True" e1_name="midazolam" e2_name="diltiazem" e1_pos="5" e2_pos="15" path="5@@3@@9@@15@@">midazolam@@@@prep_of@@life@@nsubj@@increased@@prep_with@@diltiazem</pair>  
+      <pair id="DDI-DrugBank.d565.s34.p2" e1="DDI-DrugBank.d565.s34.e1" e2="DDI-DrugBank.d565.s34.e2" ddi="true" type="mechanism" flags="True" e1_name="triazolam" e2_name="diltiazem" e1_pos="7" e2_pos="15" path="7@@3@@9@@15@@">triazolam@@@@prep_of@@life@@nsubj@@increased@@prep_with@@diltiazem</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s35" text="These pharmacokinetic effects seen during diltiazem coadministration can result in increased clinical effects (e.g., prolonged sodation)of both midazolam and triazolam." new_text="These@@pharmacokinetic@@effects@@seen@@during@@diltiazem@@coadministration@@can@@result@@in@@increased@@clinical@@effects@@(e.g.@@,@@prolonged@@sodation)of@@both@@midazolam@@and@@triazolam@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s35.e0" charOffset="42-50" type="drug" text="diltiazem" position="5"/>  
+      <entity id="DDI-DrugBank.d565.s35.e1" charOffset="144-152" type="drug" text="midazolam" position="18"/>  
+      <entity id="DDI-DrugBank.d565.s35.e2" charOffset="158-166" type="drug" text="triazolam" position="20"/>  
+      <pair id="DDI-DrugBank.d565.s35.p0" e1="DDI-DrugBank.d565.s35.e0" e2="DDI-DrugBank.d565.s35.e1" ddi="true" type="effect" flags="True" e1_name="diltiazem" e2_name="midazolam" e1_pos="5" e2_pos="18" path="5@@6@@3@@2@@8@@16@@18@@">diltiazem@@@@nn@@coadministration@@prep_during@@seen@@partmod@@effects@@nsubj@@result@@prep_in@@sodation)of@@conj@@midazolam</pair>  
+      <pair id="DDI-DrugBank.d565.s35.p1" e1="DDI-DrugBank.d565.s35.e0" e2="DDI-DrugBank.d565.s35.e2" ddi="true" type="effect" flags="True" e1_name="diltiazem" e2_name="triazolam" e1_pos="5" e2_pos="20" path="5@@6@@3@@2@@8@@20@@">diltiazem@@@@nn@@coadministration@@prep_during@@seen@@partmod@@effects@@nsubj@@result@@prep_in@@triazolam</pair>  
+      <pair id="DDI-DrugBank.d565.s35.p2" e1="DDI-DrugBank.d565.s35.e1" e2="DDI-DrugBank.d565.s35.e2" ddi="false" flags="True" e1_name="midazolam" e2_name="triazolam" e1_pos="18" e2_pos="20" path="18@@16@@8@@20@@">midazolam@@@@conj@@sodation)of@@prep_in@@result@@prep_in@@triazolam</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s36" text="Lovastatin" new_text="Lovastatin@@"> 
+      <entity id="DDI-DrugBank.d565.s36.e0" charOffset="0-9" type="drug" text="Lovastatin" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s37" text="In a ten-subject study, coadministration of diltiazem (120 mg bid) with lovastatin resulted in a 3-4 times increase in mean lovastatin AUC and Cmax vs. lovastatin alone;" new_text="In@@a@@ten-subject@@study@@,@@coadministration@@of@@diltiazem@@(120@@mg@@bid)@@with@@lovastatin@@resulted@@in@@a@@3-4@@times@@increase@@in@@mean@@lovastatin@@AUC@@and@@Cmax@@vs@@.@@lovastatin@@alone;@@"> 
+      <entity id="DDI-DrugBank.d565.s37.e0" charOffset="44-52" type="drug" text="diltiazem" position="7"/>  
+      <entity id="DDI-DrugBank.d565.s37.e1" charOffset="72-81" type="drug" text="lovastatin" position="12"/>  
+      <entity id="DDI-DrugBank.d565.s37.e2" charOffset="124-133" type="drug" text="lovastatin" position="21"/>  
+      <entity id="DDI-DrugBank.d565.s37.e3" charOffset="152-161" type="drug" text="lovastatin" position="27"/>  
+      <pair id="DDI-DrugBank.d565.s37.p0" e1="DDI-DrugBank.d565.s37.e0" e2="DDI-DrugBank.d565.s37.e1" ddi="true" type="mechanism" flags="True" e1_name="diltiazem" e2_name="lovastatin" e1_pos="7" e2_pos="12" path="7@@10@@12@@">diltiazem@@@@nn@@bid)@@prep_with@@lovastatin</pair>  
+      <pair id="DDI-DrugBank.d565.s37.p1" e1="DDI-DrugBank.d565.s37.e0" e2="DDI-DrugBank.d565.s37.e2" ddi="false" flags="True" e1_name="diltiazem" e2_name="lovastatin" e1_pos="7" e2_pos="21" path="7@@10@@5@@13@@18@@22@@21@@">diltiazem@@@@nn@@bid)@@prep_of@@coadministration@@nsubj@@resulted@@prep_in@@increase@@prep_in@@AUC@@nn@@lovastatin</pair>  
+      <pair id="DDI-DrugBank.d565.s37.p2" e1="DDI-DrugBank.d565.s37.e0" e2="DDI-DrugBank.d565.s37.e3" ddi="false" flags="True" e1_name="diltiazem" e2_name="lovastatin" e1_pos="7" e2_pos="27" path="7@@10@@5@@13@@18@@28@@27@@">diltiazem@@@@nn@@bid)@@prep_of@@coadministration@@nsubj@@resulted@@prep_in@@increase@@prep_in@@alone;@@amod@@lovastatin</pair>  
+      <pair id="DDI-DrugBank.d565.s37.p3" e1="DDI-DrugBank.d565.s37.e1" e2="DDI-DrugBank.d565.s37.e2" ddi="false" flags="True" e1_name="lovastatin" e2_name="lovastatin" e1_pos="12" e2_pos="21" path="12@@10@@5@@13@@18@@22@@21@@">lovastatin@@@@prep_with@@bid)@@prep_of@@coadministration@@nsubj@@resulted@@prep_in@@increase@@prep_in@@AUC@@nn@@lovastatin</pair>  
+      <pair id="DDI-DrugBank.d565.s37.p4" e1="DDI-DrugBank.d565.s37.e1" e2="DDI-DrugBank.d565.s37.e3" ddi="false" flags="True" e1_name="lovastatin" e2_name="lovastatin" e1_pos="12" e2_pos="27" path="12@@10@@5@@13@@18@@28@@27@@">lovastatin@@@@prep_with@@bid)@@prep_of@@coadministration@@nsubj@@resulted@@prep_in@@increase@@prep_in@@alone;@@amod@@lovastatin</pair>  
+      <pair id="DDI-DrugBank.d565.s37.p5" e1="DDI-DrugBank.d565.s37.e2" e2="DDI-DrugBank.d565.s37.e3" ddi="false" flags="True" e1_name="lovastatin" e2_name="lovastatin" e1_pos="21" e2_pos="27" path="21@@22@@28@@27@@">lovastatin@@@@nn@@AUC@@conj_and@@alone;@@amod@@lovastatin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s38" text="no change in pravastatin AUC and Cmax was observed during diltiazem coadministration." new_text="no@@change@@in@@pravastatin@@AUC@@and@@Cmax@@was@@observed@@during@@diltiazem@@coadministration@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s38.e0" charOffset="13-23" type="drug" text="pravastatin" position="3"/>  
+      <entity id="DDI-DrugBank.d565.s38.e1" charOffset="58-66" type="drug" text="diltiazem" position="10"/>  
+      <pair id="DDI-DrugBank.d565.s38.p0" e1="DDI-DrugBank.d565.s38.e0" e2="DDI-DrugBank.d565.s38.e1" ddi="false" flags="True" e1_name="pravastatin" e2_name="diltiazem" e1_pos="3" e2_pos="10" path="3@@4@@1@@8@@11@@10@@">pravastatin@@@@nn@@AUC@@prep_in@@change@@nsubjpass@@observed@@prep_during@@coadministration@@nn@@diltiazem</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s39" text="Diltiazem plasma levels were not significantly affected by lovastatin or pravastatin." new_text="Diltiazem@@plasma@@levels@@were@@not@@significantly@@affected@@by@@lovastatin@@or@@pravastatin@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s39.e0" charOffset="0-8" type="drug" text="Diltiazem" position="0"/>  
+      <entity id="DDI-DrugBank.d565.s39.e1" charOffset="59-68" type="drug" text="lovastatin" position="8"/>  
+      <entity id="DDI-DrugBank.d565.s39.e2" charOffset="73-83" type="drug" text="pravastatin" position="10"/>  
+      <pair id="DDI-DrugBank.d565.s39.p0" e1="DDI-DrugBank.d565.s39.e0" e2="DDI-DrugBank.d565.s39.e1" ddi="false" flags="True" e1_name="Diltiazem" e2_name="lovastatin" e1_pos="0" e2_pos="8" path="0@@2@@6@@8@@">Diltiazem@@@@amod@@levels@@nsubjpass@@affected@@agent@@lovastatin</pair>  
+      <pair id="DDI-DrugBank.d565.s39.p1" e1="DDI-DrugBank.d565.s39.e0" e2="DDI-DrugBank.d565.s39.e2" ddi="false" flags="True" e1_name="Diltiazem" e2_name="pravastatin" e1_pos="0" e2_pos="10" path="0@@2@@6@@10@@">Diltiazem@@@@amod@@levels@@nsubjpass@@affected@@agent@@pravastatin</pair>  
+      <pair id="DDI-DrugBank.d565.s39.p2" e1="DDI-DrugBank.d565.s39.e1" e2="DDI-DrugBank.d565.s39.e2" ddi="false" flags="True" e1_name="lovastatin" e2_name="pravastatin" e1_pos="8" e2_pos="10" path="8@@10@@">lovastatin@@@@conj_or@@pravastatin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s40" text="Rifampin" new_text="Rifampin@@"> 
+      <entity id="DDI-DrugBank.d565.s40.e0" charOffset="0-7" type="drug" text="Rifampin" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s41" text="Coadministration of rifampin with diltiazem lowered the diltiazem plasma concentrations to undetectable levels." new_text="Coadministration@@of@@rifampin@@with@@diltiazem@@lowered@@the@@diltiazem@@plasma@@concentrations@@to@@undetectable@@levels@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s41.e0" charOffset="20-27" type="drug" text="rifampin" position="2"/>  
+      <entity id="DDI-DrugBank.d565.s41.e1" charOffset="34-42" type="drug" text="diltiazem" position="4"/>  
+      <entity id="DDI-DrugBank.d565.s41.e2" charOffset="56-64" type="drug" text="diltiazem" position="7"/>  
+      <pair id="DDI-DrugBank.d565.s41.p0" e1="DDI-DrugBank.d565.s41.e0" e2="DDI-DrugBank.d565.s41.e1" ddi="true" type="mechanism" flags="True" e1_name="rifampin" e2_name="diltiazem" e1_pos="2" e2_pos="4" path="2@@4@@">rifampin@@@@prep_with@@diltiazem</pair>  
+      <pair id="DDI-DrugBank.d565.s41.p1" e1="DDI-DrugBank.d565.s41.e0" e2="DDI-DrugBank.d565.s41.e2" ddi="false" flags="True" e1_name="rifampin" e2_name="diltiazem" e1_pos="2" e2_pos="7" path="2@@0@@5@@9@@7@@">rifampin@@@@prep_of@@Coadministration@@nsubj@@lowered@@dobj@@concentrations@@amod@@diltiazem</pair>  
+      <pair id="DDI-DrugBank.d565.s41.p2" e1="DDI-DrugBank.d565.s41.e1" e2="DDI-DrugBank.d565.s41.e2" ddi="false" flags="True" e1_name="diltiazem" e2_name="diltiazem" e1_pos="4" e2_pos="7" path="4@@2@@0@@5@@9@@7@@">diltiazem@@@@prep_with@@rifampin@@prep_of@@Coadministration@@nsubj@@lowered@@dobj@@concentrations@@amod@@diltiazem</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d565.s42" text="Coadministration of diltiazem with rifampin or any known CYP3A4 inducer should be avoided when possible, and alternative therapy considered." new_text="Coadministration@@of@@diltiazem@@with@@rifampin@@or@@any@@known@@CYP3A4@@inducer@@should@@be@@avoided@@when@@possible@@,@@and@@alternative@@therapy@@considered@@.@@"> 
+      <entity id="DDI-DrugBank.d565.s42.e0" charOffset="20-28" type="drug" text="diltiazem" position="2"/>  
+      <entity id="DDI-DrugBank.d565.s42.e1" charOffset="35-42" type="drug" text="rifampin" position="4"/>  
+      <pair id="DDI-DrugBank.d565.s42.p0" e1="DDI-DrugBank.d565.s42.e0" e2="DDI-DrugBank.d565.s42.e1" ddi="true" type="advise" flags="True" e1_name="diltiazem" e2_name="rifampin" e1_pos="2" e2_pos="4" path="2@@9@@4@@">diltiazem@@@@prep_with@@inducer@@nn@@rifampin</pair> 
+   </sentence> 
+</document>

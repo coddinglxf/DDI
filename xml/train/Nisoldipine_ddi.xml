@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d106"> 
+   <sentence id="DDI-DrugBank.d106.s0" text="A 30 to 45% increase in AUC and Cmax of nisoldipine was observed with concomitant administration of cimetidine 400 mg twice daily." new_text="A@@30@@to@@45%@@increase@@in@@AUC@@and@@Cmax@@of@@nisoldipine@@was@@observed@@with@@concomitant@@administration@@of@@cimetidine 400 mg@@twice@@daily@@.@@"> 
+      <entity id="DDI-DrugBank.d106.s0.e0" charOffset="40-50" type="drug" text="nisoldipine" position="10"/>  
+      <entity id="DDI-DrugBank.d106.s0.e1" charOffset="100-116" type="drug" text="cimetidine 400 mg" position="17"/>  
+      <pair id="DDI-DrugBank.d106.s0.p0" e1="DDI-DrugBank.d106.s0.e0" e2="DDI-DrugBank.d106.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="nisoldipine" e2_name="cimetidine 400 mg" e1_pos="10" e2_pos="17" path="10@@4@@12@@15@@17@@">nisoldipine@@@@prep_of@@increase@@nsubjpass@@observed@@prep_with@@administration@@prep_of@@cimetidine 400 mg</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d106.s1" text="Ranitidine 150 mg twice daily did not interact significantly with nisoldipine (AUC was decreased by 15-20 %)." new_text="Ranitidine@@150@@mg@@twice@@daily@@did@@not@@interact@@significantly@@with@@nisoldipine@@(AUC@@was@@decreased@@by@@15-20@@%)@@.@@"> 
+      <entity id="DDI-DrugBank.d106.s1.e0" charOffset="0-9" type="drug" text="Ranitidine" position="0"/>  
+      <entity id="DDI-DrugBank.d106.s1.e1" charOffset="66-76" type="drug" text="nisoldipine" position="10"/>  
+      <pair id="DDI-DrugBank.d106.s1.p0" e1="DDI-DrugBank.d106.s1.e0" e2="DDI-DrugBank.d106.s1.e1" ddi="false" flags="True" e1_name="Ranitidine" e2_name="nisoldipine" e1_pos="0" e2_pos="10" path="0@@2@@7@@13@@11@@10@@">Ranitidine@@@@amod@@mg@@nsubj@@interact@@advcl@@decreased@@nsubjpass@@(AUC@@amod@@nisoldipine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d106.s2" text="No pharmacodynamic effects of either histamine H2 receptor antagonist were observed." new_text="No@@pharmacodynamic@@effects@@of@@either@@histamine H2 receptor antagonist@@were@@observed@@.@@"> 
+      <entity id="DDI-DrugBank.d106.s2.e0" charOffset="37-68" type="group" text="histamine H2 receptor antagonist" position="5"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d106.s3" text="Coadministration of phenytoin with 40 mg SULAR tablets in epileptic patients lowered the nisoldipine plasma concentrations to undetectable levels." new_text="Coadministration@@of@@phenytoin@@with@@40@@mg@@SULAR@@tablets@@in@@epileptic@@patients@@lowered@@the@@nisoldipine@@plasma@@concentrations@@to@@undetectable@@levels@@.@@"> 
+      <entity id="DDI-DrugBank.d106.s3.e0" charOffset="20-28" type="drug" text="phenytoin" position="2"/>  
+      <entity id="DDI-DrugBank.d106.s3.e1" charOffset="41-45" type="brand" text="SULAR" position="6"/>  
+      <entity id="DDI-DrugBank.d106.s3.e2" charOffset="89-99" type="drug" text="nisoldipine" position="13"/>  
+      <pair id="DDI-DrugBank.d106.s3.p0" e1="DDI-DrugBank.d106.s3.e0" e2="DDI-DrugBank.d106.s3.e1" ddi="true" type="mechanism" flags="True" e1_name="phenytoin" e2_name="SULAR" e1_pos="2" e2_pos="6" path="2@@7@@6@@">phenytoin@@@@prep_with@@tablets@@nn@@SULAR</pair>  
+      <pair id="DDI-DrugBank.d106.s3.p1" e1="DDI-DrugBank.d106.s3.e0" e2="DDI-DrugBank.d106.s3.e2" ddi="false" flags="True" e1_name="phenytoin" e2_name="nisoldipine" e1_pos="2" e2_pos="13" path="2@@0@@11@@15@@13@@">phenytoin@@@@prep_of@@Coadministration@@nsubj@@lowered@@dobj@@concentrations@@amod@@nisoldipine</pair>  
+      <pair id="DDI-DrugBank.d106.s3.p2" e1="DDI-DrugBank.d106.s3.e1" e2="DDI-DrugBank.d106.s3.e2" ddi="false" flags="True" e1_name="SULAR" e2_name="nisoldipine" e1_pos="6" e2_pos="13" path="6@@7@@2@@0@@11@@15@@13@@">SULAR@@@@nn@@tablets@@prep_with@@phenytoin@@prep_of@@Coadministration@@nsubj@@lowered@@dobj@@concentrations@@amod@@nisoldipine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d106.s4" text="Coadministration of SULAR with phenytoin or any known CYP3A4 inducer should be avoided and alternative antihypertensive therapy should be considered." new_text="Coadministration@@of@@SULAR@@with@@phenytoin@@or@@any@@known@@CYP3A4@@inducer@@should@@be@@avoided@@and@@alternative@@antihypertensive@@therapy@@should@@be@@considered@@.@@"> 
+      <entity id="DDI-DrugBank.d106.s4.e0" charOffset="20-24" type="brand" text="SULAR" position="2"/>  
+      <entity id="DDI-DrugBank.d106.s4.e1" charOffset="31-39" type="drug" text="phenytoin" position="4"/>  
+      <entity id="DDI-DrugBank.d106.s4.e2" charOffset="103-118" type="group" text="antihypertensive" position="15"/>  
+      <pair id="DDI-DrugBank.d106.s4.p0" e1="DDI-DrugBank.d106.s4.e0" e2="DDI-DrugBank.d106.s4.e1" ddi="true" type="advise" flags="True" e1_name="SULAR" e2_name="phenytoin" e1_pos="2" e2_pos="4" path="2@@9@@4@@">SULAR@@@@prep_with@@inducer@@nn@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d106.s4.p1" e1="DDI-DrugBank.d106.s4.e0" e2="DDI-DrugBank.d106.s4.e2" ddi="false" flags="True" e1_name="SULAR" e2_name="antihypertensive" e1_pos="2" e2_pos="15" path="2@@0@@12@@19@@16@@15@@">SULAR@@@@prep_of@@Coadministration@@nsubjpass@@avoided@@conj_and@@considered@@nsubjpass@@therapy@@nn@@antihypertensive</pair>  
+      <pair id="DDI-DrugBank.d106.s4.p2" e1="DDI-DrugBank.d106.s4.e1" e2="DDI-DrugBank.d106.s4.e2" ddi="false" flags="True" e1_name="phenytoin" e2_name="antihypertensive" e1_pos="4" e2_pos="15" path="4@@9@@2@@0@@12@@19@@16@@15@@">phenytoin@@@@nn@@inducer@@prep_with@@SULAR@@prep_of@@Coadministration@@nsubjpass@@avoided@@conj_and@@considered@@nsubjpass@@therapy@@nn@@antihypertensive</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d106.s5" text="Pharmacokinetic interactions between nisoldipine and beta-blockers (atenolol, propranolol) were variable and not significant." new_text="Pharmacokinetic@@interactions@@between@@nisoldipine@@and@@beta-blockers@@(@@atenolol@@,@@propranolol@@)@@were@@variable@@and@@not@@significant@@.@@"> 
+      <entity id="DDI-DrugBank.d106.s5.e0" charOffset="37-47" type="drug" text="nisoldipine" position="3"/>  
+      <entity id="DDI-DrugBank.d106.s5.e1" charOffset="53-65" type="group" text="beta-blockers" position="5"/>  
+      <entity id="DDI-DrugBank.d106.s5.e2" charOffset="68-75" type="drug" text="atenolol" position="7"/>  
+      <entity id="DDI-DrugBank.d106.s5.e3" charOffset="78-88" type="drug" text="propranolol" position="9"/>  
+      <pair id="DDI-DrugBank.d106.s5.p0" e1="DDI-DrugBank.d106.s5.e0" e2="DDI-DrugBank.d106.s5.e1" ddi="false" flags="True" e1_name="nisoldipine" e2_name="beta-blockers" e1_pos="3" e2_pos="5" path="3@@5@@">nisoldipine@@@@conj_and@@beta-blockers</pair>  
+      <pair id="DDI-DrugBank.d106.s5.p1" e1="DDI-DrugBank.d106.s5.e0" e2="DDI-DrugBank.d106.s5.e2" ddi="false" flags="True" e1_name="nisoldipine" e2_name="atenolol" e1_pos="3" e2_pos="7" path="3@@10@@7@@">nisoldipine@@@@amod@@)@@amod@@atenolol</pair>  
+      <pair id="DDI-DrugBank.d106.s5.p2" e1="DDI-DrugBank.d106.s5.e0" e2="DDI-DrugBank.d106.s5.e3" ddi="false" flags="True" e1_name="nisoldipine" e2_name="propranolol" e1_pos="3" e2_pos="9" path="3@@10@@9@@">nisoldipine@@@@amod@@)@@amod@@propranolol</pair>  
+      <pair id="DDI-DrugBank.d106.s5.p3" e1="DDI-DrugBank.d106.s5.e1" e2="DDI-DrugBank.d106.s5.e2" ddi="false" flags="True" e1_name="beta-blockers" e2_name="atenolol" e1_pos="5" e2_pos="7" path="5@@10@@7@@">beta-blockers@@@@amod@@)@@amod@@atenolol</pair>  
+      <pair id="DDI-DrugBank.d106.s5.p4" e1="DDI-DrugBank.d106.s5.e1" e2="DDI-DrugBank.d106.s5.e3" ddi="false" flags="True" e1_name="beta-blockers" e2_name="propranolol" e1_pos="5" e2_pos="9" path="5@@10@@9@@">beta-blockers@@@@amod@@)@@amod@@propranolol</pair>  
+      <pair id="DDI-DrugBank.d106.s5.p5" e1="DDI-DrugBank.d106.s5.e2" e2="DDI-DrugBank.d106.s5.e3" ddi="false" flags="True" e1_name="atenolol" e2_name="propranolol" e1_pos="7" e2_pos="9" path="7@@10@@9@@">atenolol@@@@amod@@)@@amod@@propranolol</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d106.s6" text="Propranolol attenuated the heart rate increase following administration of immediate release nisoldipine." new_text="Propranolol@@attenuated@@the@@heart@@rate@@increase@@following@@administration@@of@@immediate@@release@@nisoldipine@@.@@"> 
+      <entity id="DDI-DrugBank.d106.s6.e0" charOffset="0-10" type="drug" text="Propranolol" position="0"/>  
+      <entity id="DDI-DrugBank.d106.s6.e1" charOffset="93-103" type="drug" text="nisoldipine" position="11"/>  
+      <pair id="DDI-DrugBank.d106.s6.p0" e1="DDI-DrugBank.d106.s6.e0" e2="DDI-DrugBank.d106.s6.e1" ddi="true" type="effect" flags="True" e1_name="Propranolol" e2_name="nisoldipine" e1_pos="0" e2_pos="11" path="0@@1@@5@@7@@11@@">Propranolol@@@@nsubj@@attenuated@@dobj@@increase@@prep_following@@administration@@prep_of@@nisoldipine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d106.s7" text="The blood pressure effect of SULAR tended to be greater in patients on atenolol than in patients on no other antihypertensive therapy." new_text="The@@blood@@pressure@@effect@@of@@SULAR@@tended@@to@@be@@greater@@in@@patients@@on@@atenolol@@than@@in@@patients@@on@@no@@other@@antihypertensive@@therapy@@.@@"> 
+      <entity id="DDI-DrugBank.d106.s7.e0" charOffset="29-33" type="brand" text="SULAR" position="5"/>  
+      <entity id="DDI-DrugBank.d106.s7.e1" charOffset="71-78" type="drug" text="atenolol" position="13"/>  
+      <entity id="DDI-DrugBank.d106.s7.e2" charOffset="109-124" type="group" text="antihypertensive" position="20"/>  
+      <pair id="DDI-DrugBank.d106.s7.p0" e1="DDI-DrugBank.d106.s7.e0" e2="DDI-DrugBank.d106.s7.e1" ddi="true" type="effect" flags="True" e1_name="SULAR" e2_name="atenolol" e1_pos="5" e2_pos="13" path="5@@3@@9@@11@@13@@">SULAR@@@@prep_of@@effect@@xsubj@@greater@@prep_in@@patients@@prep_on@@atenolol</pair>  
+      <pair id="DDI-DrugBank.d106.s7.p1" e1="DDI-DrugBank.d106.s7.e0" e2="DDI-DrugBank.d106.s7.e2" ddi="false" flags="True" e1_name="SULAR" e2_name="antihypertensive" e1_pos="5" e2_pos="20" path="5@@3@@9@@16@@21@@20@@">SULAR@@@@prep_of@@effect@@xsubj@@greater@@prep_in@@patients@@prep_on@@therapy@@nn@@antihypertensive</pair>  
+      <pair id="DDI-DrugBank.d106.s7.p2" e1="DDI-DrugBank.d106.s7.e1" e2="DDI-DrugBank.d106.s7.e2" ddi="false" flags="True" e1_name="atenolol" e2_name="antihypertensive" e1_pos="13" e2_pos="20" path="13@@11@@9@@16@@21@@20@@">atenolol@@@@prep_on@@patients@@prep_in@@greater@@prep_in@@patients@@prep_on@@therapy@@nn@@antihypertensive</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d106.s8" text="Quinidine at 648 mg bid decreased the bioavailability (AUC) of nisoldipine by 26%, but not the peak concentration." new_text="Quinidine@@at@@648@@mg@@bid@@decreased@@the@@bioavailability@@(AUC)@@of@@nisoldipine@@by@@26%@@,@@but@@not@@the@@peak@@concentration@@.@@"> 
+      <entity id="DDI-DrugBank.d106.s8.e0" charOffset="0-8" type="drug" text="Quinidine" position="0"/>  
+      <entity id="DDI-DrugBank.d106.s8.e1" charOffset="63-73" type="drug" text="nisoldipine" position="10"/>  
+      <pair id="DDI-DrugBank.d106.s8.p0" e1="DDI-DrugBank.d106.s8.e0" e2="DDI-DrugBank.d106.s8.e1" ddi="true" type="mechanism" flags="True" e1_name="Quinidine" e2_name="nisoldipine" e1_pos="0" e2_pos="10" path="0@@5@@8@@10@@">Quinidine@@@@nsubj@@decreased@@dobj@@(AUC)@@prep_of@@nisoldipine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d106.s9" text="The immediate release, but not the coat-core formulation of nisoldipine increased plasma quinidine concentrations by about 20%." new_text="The@@immediate@@release@@,@@but@@not@@the@@coat-core@@formulation@@of@@nisoldipine@@increased@@plasma@@quinidine@@concentrations@@by@@about@@20%@@.@@"> 
+      <entity id="DDI-DrugBank.d106.s9.e0" charOffset="60-70" type="drug" text="nisoldipine" position="10"/>  
+      <entity id="DDI-DrugBank.d106.s9.e1" charOffset="89-97" type="drug" text="quinidine" position="13"/>  
+      <pair id="DDI-DrugBank.d106.s9.p0" e1="DDI-DrugBank.d106.s9.e0" e2="DDI-DrugBank.d106.s9.e1" ddi="true" type="mechanism" flags="True" e1_name="nisoldipine" e2_name="quinidine" e1_pos="10" e2_pos="13" path="10@@2@@11@@14@@13@@">nisoldipine@@@@prep_of@@release@@nsubj@@increased@@dobj@@concentrations@@nn@@quinidine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d106.s10" text="This interaction was not accompanied by ECG changes and its clinical significance is not known." new_text="This@@interaction@@was@@not@@accompanied@@by@@ECG@@changes@@and@@its@@clinical@@significance@@is@@not@@known@@.@@"/>  
+   <sentence id="DDI-DrugBank.d106.s11" text="No significant interactions were found between nisoldipine and warfarin or digoxin." new_text="No@@significant@@interactions@@were@@found@@between@@nisoldipine@@and@@warfarin@@or@@digoxin@@.@@"> 
+      <entity id="DDI-DrugBank.d106.s11.e0" charOffset="47-57" type="drug" text="nisoldipine" position="6"/>  
+      <entity id="DDI-DrugBank.d106.s11.e1" charOffset="63-70" type="drug" text="warfarin" position="8"/>  
+      <entity id="DDI-DrugBank.d106.s11.e2" charOffset="75-81" type="drug" text="digoxin" position="10"/>  
+      <pair id="DDI-DrugBank.d106.s11.p0" e1="DDI-DrugBank.d106.s11.e0" e2="DDI-DrugBank.d106.s11.e1" ddi="false" flags="True" e1_name="nisoldipine" e2_name="warfarin" e1_pos="6" e2_pos="8" path="6@@8@@">nisoldipine@@@@conj_and@@warfarin</pair>  
+      <pair id="DDI-DrugBank.d106.s11.p1" e1="DDI-DrugBank.d106.s11.e0" e2="DDI-DrugBank.d106.s11.e2" ddi="false" flags="True" e1_name="nisoldipine" e2_name="digoxin" e1_pos="6" e2_pos="10" path="6@@10@@">nisoldipine@@@@conj_or@@digoxin</pair>  
+      <pair id="DDI-DrugBank.d106.s11.p2" e1="DDI-DrugBank.d106.s11.e1" e2="DDI-DrugBank.d106.s11.e2" ddi="false" flags="True" e1_name="warfarin" e2_name="digoxin" e1_pos="8" e2_pos="10" path="8@@4@@10@@">warfarin@@@@prep_between@@found@@prep_between@@digoxin</pair> 
+   </sentence> 
+</document>

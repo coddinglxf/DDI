@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d204"> 
+   <sentence id="DDI-MedLine.d204.s0" text="Distinct synergistic action of piperacillin and methylglyoxal against Pseudomonas aeruginosa.
+" new_text="Distinct@@synergistic@@action@@of@@piperacillin@@and@@methylglyoxal@@against@@Pseudomonas@@aeruginosa@@.@@"> 
+      <entity id="DDI-MedLine.d204.s0.e0" charOffset="31-42" type="drug" text="piperacillin" position="4"/>  
+      <entity id="DDI-MedLine.d204.s0.e1" charOffset="48-60" type="drug_n" text="methylglyoxal" position="6"/>  
+      <pair id="DDI-MedLine.d204.s0.p0" e1="DDI-MedLine.d204.s0.e0" e2="DDI-MedLine.d204.s0.e1" ddi="false" flags="True" e1_name="piperacillin" e2_name="methylglyoxal" e1_pos="4" e2_pos="6" path="4@@6@@">piperacillin@@@@conj_and@@methylglyoxal</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d204.s1" text="The dicarbonyl compound methylglyoxal is a natural constituent of Manuka honey produced from Manuka flowers in New Zealand. " new_text="The@@dicarbonyl@@compound@@methylglyoxal@@is@@a@@natural@@constituent@@of@@Manuka@@honey@@produced@@from@@Manuka@@flowers@@in@@New@@Zealand@@.@@"> 
+      <entity id="DDI-MedLine.d204.s1.e0" charOffset="24-36" type="drug_n" text="methylglyoxal" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d204.s2" text="It is known to possess both anticancer and antibacterial activity. " new_text="It@@is@@known@@to@@possess@@both@@anticancer@@and@@antibacterial@@activity@@.@@"/>  
+   <sentence id="DDI-MedLine.d204.s3" text="Such observations prompted to investigate the ability of methylglyoxal as a potent drug against multidrug resistant Pseudomonas aeruginosa. " new_text="Such@@observations@@prompted@@to@@investigate@@the@@ability@@of@@methylglyoxal@@as@@a@@potent@@drug@@against@@multidrug@@resistant@@Pseudomonas@@aeruginosa@@.@@"> 
+      <entity id="DDI-MedLine.d204.s3.e0" charOffset="57-69" type="drug_n" text="methylglyoxal" position="8"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d204.s4" text="A total of 12 test P. " new_text="A@@total@@of@@12@@test@@P@@.@@"/>  
+   <sentence id="DDI-MedLine.d204.s5" text="aeruginosa strains isolated from various hospitals were tested for their resistances against many antibiotics, most of which are applied in the treatment of P. " new_text="aeruginosa@@strains@@isolated@@from@@various@@hospitals@@were@@tested@@for@@their@@resistances@@against@@many@@antibiotics@@,@@most@@of@@which@@are@@applied@@in@@the@@treatment@@of@@P@@.@@"> 
+      <entity id="DDI-MedLine.d204.s5.e0" charOffset="98-108" type="group" text="antibiotics" position="13"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d204.s6" text="aeruginosa infections. " new_text="aeruginosa@@infections@@.@@"/>  
+   <sentence id="DDI-MedLine.d204.s7" text="Results revealed that the strains were resistant to many drugs at high levels, only piperacillin, carbenicillin, amikacin and ciprofloxacin showed resistances at comparatively lower levels. " new_text="Results@@revealed@@that@@the@@strains@@were@@resistant@@to@@many@@drugs@@at@@high@@levels@@,@@only@@piperacillin@@,@@carbenicillin@@,@@amikacin@@and@@ciprofloxacin@@showed@@resistances@@at@@comparatively@@lower@@levels@@.@@"> 
+      <entity id="DDI-MedLine.d204.s7.e0" charOffset="84-95" type="drug" text="piperacillin" position="15"/>  
+      <entity id="DDI-MedLine.d204.s7.e1" charOffset="98-110" type="drug" text="carbenicillin" position="17"/>  
+      <entity id="DDI-MedLine.d204.s7.e2" charOffset="113-120" type="drug" text="amikacin" position="19"/>  
+      <entity id="DDI-MedLine.d204.s7.e3" charOffset="126-138" type="drug" text="ciprofloxacin" position="21"/>  
+      <pair id="DDI-MedLine.d204.s7.p0" e1="DDI-MedLine.d204.s7.e0" e2="DDI-MedLine.d204.s7.e1" ddi="false" flags="True" e1_name="piperacillin" e2_name="carbenicillin" e1_pos="15" e2_pos="17" path="15@@17@@">piperacillin@@@@conj_and@@carbenicillin</pair>  
+      <pair id="DDI-MedLine.d204.s7.p1" e1="DDI-MedLine.d204.s7.e0" e2="DDI-MedLine.d204.s7.e2" ddi="false" flags="True" e1_name="piperacillin" e2_name="amikacin" e1_pos="15" e2_pos="19" path="15@@19@@">piperacillin@@@@conj_and@@amikacin</pair>  
+      <pair id="DDI-MedLine.d204.s7.p2" e1="DDI-MedLine.d204.s7.e0" e2="DDI-MedLine.d204.s7.e3" ddi="false" flags="True" e1_name="piperacillin" e2_name="ciprofloxacin" e1_pos="15" e2_pos="21" path="15@@21@@">piperacillin@@@@conj_and@@ciprofloxacin</pair>  
+      <pair id="DDI-MedLine.d204.s7.p3" e1="DDI-MedLine.d204.s7.e1" e2="DDI-MedLine.d204.s7.e2" ddi="false" flags="True" e1_name="carbenicillin" e2_name="amikacin" e1_pos="17" e2_pos="19" path="17@@6@@19@@">carbenicillin@@@@attr@@resistant@@attr@@amikacin</pair>  
+      <pair id="DDI-MedLine.d204.s7.p4" e1="DDI-MedLine.d204.s7.e1" e2="DDI-MedLine.d204.s7.e3" ddi="false" flags="True" e1_name="carbenicillin" e2_name="ciprofloxacin" e1_pos="17" e2_pos="21" path="17@@6@@21@@">carbenicillin@@@@attr@@resistant@@attr@@ciprofloxacin</pair>  
+      <pair id="DDI-MedLine.d204.s7.p5" e1="DDI-MedLine.d204.s7.e2" e2="DDI-MedLine.d204.s7.e3" ddi="false" flags="True" e1_name="amikacin" e2_name="ciprofloxacin" e1_pos="19" e2_pos="21" path="19@@6@@21@@">amikacin@@@@attr@@resistant@@attr@@ciprofloxacin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d204.s8" text="Following multiple experimentations it was observed that methylglyoxal was also antimicrobic against all the strains at comparable levels. " new_text="Following@@multiple@@experimentations@@it@@was@@observed@@that@@methylglyoxal@@was@@also@@antimicrobic@@against@@all@@the@@strains@@at@@comparable@@levels@@.@@"> 
+      <entity id="DDI-MedLine.d204.s8.e0" charOffset="57-69" type="drug_n" text="methylglyoxal" position="7"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d204.s9" text="Distinct and statistically significant synergism was observed between methylglyoxal and piperacillin by disc diffusion tests when compared with their individual effects. " new_text="Distinct@@and@@statistically@@significant@@synergism@@was@@observed@@between@@methylglyoxal@@and@@piperacillin@@by@@disc@@diffusion@@tests@@when@@compared@@with@@their@@individual@@effects@@.@@"> 
+      <entity id="DDI-MedLine.d204.s9.e0" charOffset="70-82" type="drug_n" text="methylglyoxal" position="8"/>  
+      <entity id="DDI-MedLine.d204.s9.e1" charOffset="88-99" type="drug" text="piperacillin" position="10"/>  
+      <pair id="DDI-MedLine.d204.s9.p0" e1="DDI-MedLine.d204.s9.e0" e2="DDI-MedLine.d204.s9.e1" ddi="true" type="effect" flags="True" e1_name="methylglyoxal" e2_name="piperacillin" e1_pos="8" e2_pos="10" path="8@@10@@">methylglyoxal@@@@conj_and@@piperacillin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d204.s10" text="The fractional inhibitory concentration index of this combination evaluated by checkerboard analysis, was 0.5, which confirmed synergism between the pair. " new_text="The@@fractional@@inhibitory@@concentration@@index@@of@@this@@combination@@evaluated@@by@@checkerboard@@analysis@@,@@was@@0.5@@,@@which@@confirmed@@synergism@@between@@the@@pair@@.@@"/>  
+   <sentence id="DDI-MedLine.d204.s11" text="Synergism was also noted when methylglyoxal was combined with carbenicillin and amikacin." new_text="Synergism@@was@@also@@noted@@when@@methylglyoxal@@was@@combined@@with@@carbenicillin@@and@@amikacin@@.@@"> 
+      <entity id="DDI-MedLine.d204.s11.e0" charOffset="30-42" type="drug_n" text="methylglyoxal" position="5"/>  
+      <entity id="DDI-MedLine.d204.s11.e1" charOffset="62-74" type="drug" text="carbenicillin" position="9"/>  
+      <entity id="DDI-MedLine.d204.s11.e2" charOffset="80-87" type="drug" text="amikacin" position="11"/>  
+      <pair id="DDI-MedLine.d204.s11.p0" e1="DDI-MedLine.d204.s11.e0" e2="DDI-MedLine.d204.s11.e1" ddi="true" type="effect" flags="True" e1_name="methylglyoxal" e2_name="carbenicillin" e1_pos="5" e2_pos="9" path="5@@7@@9@@">methylglyoxal@@@@nsubjpass@@combined@@prep_with@@carbenicillin</pair>  
+      <pair id="DDI-MedLine.d204.s11.p1" e1="DDI-MedLine.d204.s11.e0" e2="DDI-MedLine.d204.s11.e2" ddi="true" type="effect" flags="True" e1_name="methylglyoxal" e2_name="amikacin" e1_pos="5" e2_pos="11" path="5@@7@@11@@">methylglyoxal@@@@nsubjpass@@combined@@prep_with@@amikacin</pair>  
+      <pair id="DDI-MedLine.d204.s11.p2" e1="DDI-MedLine.d204.s11.e1" e2="DDI-MedLine.d204.s11.e2" ddi="false" flags="True" e1_name="carbenicillin" e2_name="amikacin" e1_pos="9" e2_pos="11" path="9@@11@@">carbenicillin@@@@conj_and@@amikacin</pair> 
+   </sentence> 
+</document>

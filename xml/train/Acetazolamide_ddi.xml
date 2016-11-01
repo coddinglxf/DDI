@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d368"> 
+   <sentence id="DDI-DrugBank.d368.s0" text="DIAMOX modifies phenytoin metabolism with increased serum levels of phenytoin." new_text="DIAMOX@@modifies@@phenytoin@@metabolism@@with@@increased@@serum@@levels@@of@@phenytoin@@.@@"> 
+      <entity id="DDI-DrugBank.d368.s0.e0" charOffset="0-5" type="brand" text="DIAMOX" position="0"/>  
+      <entity id="DDI-DrugBank.d368.s0.e1" charOffset="16-24" type="drug" text="phenytoin" position="2"/>  
+      <entity id="DDI-DrugBank.d368.s0.e2" charOffset="68-76" type="drug" text="phenytoin" position="9"/>  
+      <pair id="DDI-DrugBank.d368.s0.p0" e1="DDI-DrugBank.d368.s0.e0" e2="DDI-DrugBank.d368.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="DIAMOX" e2_name="phenytoin" e1_pos="0" e2_pos="2" path="0@@1@@3@@2@@">DIAMOX@@@@nsubj@@modifies@@dobj@@metabolism@@nn@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d368.s0.p1" e1="DDI-DrugBank.d368.s0.e0" e2="DDI-DrugBank.d368.s0.e2" ddi="true" type="mechanism" flags="True" e1_name="DIAMOX" e2_name="phenytoin" e1_pos="0" e2_pos="9" path="0@@1@@7@@9@@">DIAMOX@@@@nsubj@@modifies@@prep_with@@levels@@prep_of@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d368.s0.p2" e1="DDI-DrugBank.d368.s0.e1" e2="DDI-DrugBank.d368.s0.e2" ddi="false" flags="True" e1_name="phenytoin" e2_name="phenytoin" e1_pos="2" e2_pos="9" path="2@@3@@1@@7@@9@@">phenytoin@@@@nn@@metabolism@@dobj@@modifies@@prep_with@@levels@@prep_of@@phenytoin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d368.s1" text="This may increase or enhance the occurrence of osteomalacia in some patients receiving chronic phenytoin therapy." new_text="This@@may@@increase@@or@@enhance@@the@@occurrence@@of@@osteomalacia@@in@@some@@patients@@receiving@@chronic@@phenytoin@@therapy@@.@@"> 
+      <entity id="DDI-DrugBank.d368.s1.e0" charOffset="95-103" type="drug" text="phenytoin" position="14"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d368.s2" text="Caution is advised in patients receiving chronic concomitant therapy." new_text="Caution@@is@@advised@@in@@patients@@receiving@@chronic@@concomitant@@therapy@@.@@"/>  
+   <sentence id="DDI-DrugBank.d368.s3" text="By decreasing the gastrointestinal absorption of primidone, DIAMOX may decrease serum concentrations of primidone and its metabolites, with a consequent possible decrease in anticonvulsant effect." new_text="By@@decreasing@@the@@gastrointestinal@@absorption@@of@@primidone@@,@@DIAMOX@@may@@decrease@@serum@@concentrations@@of@@primidone@@and@@its@@metabolites@@,@@with@@a@@consequent@@possible@@decrease@@in@@anticonvulsant@@effect@@.@@"> 
+      <entity id="DDI-DrugBank.d368.s3.e0" charOffset="49-57" type="drug" text="primidone" position="6"/>  
+      <entity id="DDI-DrugBank.d368.s3.e1" charOffset="60-65" type="brand" text="DIAMOX" position="8"/>  
+      <entity id="DDI-DrugBank.d368.s3.e2" charOffset="104-112" type="drug" text="primidone" position="14"/>  
+      <pair id="DDI-DrugBank.d368.s3.p0" e1="DDI-DrugBank.d368.s3.e0" e2="DDI-DrugBank.d368.s3.e1" ddi="false" flags="True" e1_name="primidone" e2_name="DIAMOX" e1_pos="6" e2_pos="8" path="6@@4@@1@@10@@8@@">primidone@@@@prep_of@@absorption@@dobj@@decreasing@@prepc_by@@decrease@@nsubj@@DIAMOX</pair>  
+      <pair id="DDI-DrugBank.d368.s3.p1" e1="DDI-DrugBank.d368.s3.e0" e2="DDI-DrugBank.d368.s3.e2" ddi="false" flags="True" e1_name="primidone" e2_name="primidone" e1_pos="6" e2_pos="14" path="6@@4@@1@@10@@12@@14@@">primidone@@@@prep_of@@absorption@@dobj@@decreasing@@prepc_by@@decrease@@dobj@@concentrations@@prep_of@@primidone</pair>  
+      <pair id="DDI-DrugBank.d368.s3.p2" e1="DDI-DrugBank.d368.s3.e1" e2="DDI-DrugBank.d368.s3.e2" ddi="true" type="mechanism" flags="True" e1_name="DIAMOX" e2_name="primidone" e1_pos="8" e2_pos="14" path="8@@10@@12@@14@@">DIAMOX@@@@nsubj@@decrease@@dobj@@concentrations@@prep_of@@primidone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d368.s4" text="Caution is advised when beginning, discontinuing, or changing the dose of DIAMOX in patients receiving primidone." new_text="Caution@@is@@advised@@when@@beginning@@,@@discontinuing@@,@@or@@changing@@the@@dose@@of@@DIAMOX@@in@@patients@@receiving@@primidone@@.@@"> 
+      <entity id="DDI-DrugBank.d368.s4.e0" charOffset="74-79" type="brand" text="DIAMOX" position="13"/>  
+      <entity id="DDI-DrugBank.d368.s4.e1" charOffset="103-111" type="drug" text="primidone" position="17"/>  
+      <pair id="DDI-DrugBank.d368.s4.p0" e1="DDI-DrugBank.d368.s4.e0" e2="DDI-DrugBank.d368.s4.e1" ddi="true" type="advise" flags="True" e1_name="DIAMOX" e2_name="primidone" e1_pos="13" e2_pos="17" path="13@@11@@9@@15@@16@@17@@">DIAMOX@@@@prep_of@@dose@@dobj@@changing@@prep_in@@patients@@partmod@@receiving@@acomp@@primidone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d368.s5" text="Because of possible additive effects with other carbonic anhydrase inhibitors, concomitant use is not advisable." new_text="Because@@of@@possible@@additive@@effects@@with@@other@@carbonic anhydrase inhibitors@@,@@concomitant@@use@@is@@not@@advisable@@.@@"> 
+      <entity id="DDI-DrugBank.d368.s5.e0" charOffset="48-76" type="group" text="carbonic anhydrase inhibitors" position="7"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d368.s6" text="Acetazolamide may increase the effects of other folic acid antagonists." new_text="Acetazolamide@@may@@increase@@the@@effects@@of@@other@@folic acid antagonists@@.@@"> 
+      <entity id="DDI-DrugBank.d368.s6.e0" charOffset="0-12" type="drug" text="Acetazolamide" position="0"/>  
+      <entity id="DDI-DrugBank.d368.s6.e1" charOffset="48-69" type="group" text="folic acid antagonists" position="7"/>  
+      <pair id="DDI-DrugBank.d368.s6.p0" e1="DDI-DrugBank.d368.s6.e0" e2="DDI-DrugBank.d368.s6.e1" ddi="true" type="effect" flags="True" e1_name="Acetazolamide" e2_name="folic acid antagonists" e1_pos="0" e2_pos="7" path="0@@2@@4@@7@@">Acetazolamide@@@@nsubj@@increase@@dobj@@effects@@prep_of@@folic acid antagonists</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d368.s7" text="Acetazolamide may increase or decrease blood glucose levels." new_text="Acetazolamide@@may@@increase@@or@@decrease@@blood@@glucose@@levels@@.@@"> 
+      <entity id="DDI-DrugBank.d368.s7.e0" charOffset="0-12" type="drug" text="Acetazolamide" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d368.s8" text="Consideration should be taken in patients being treated with antidiabetic agents." new_text="Consideration@@should@@be@@taken@@in@@patients@@being@@treated@@with@@antidiabetic@@agents@@.@@"> 
+      <entity id="DDI-DrugBank.d368.s8.e0" charOffset="61-72" type="drug" text="antidiabetic" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d368.s9" text="Acetazolamide decreases urinary excretion of amphetamine and may enhance the magnitude and duration of their effect." new_text="Acetazolamide@@decreases@@urinary@@excretion@@of@@amphetamine@@and@@may@@enhance@@the@@magnitude@@and@@duration@@of@@their@@effect@@.@@"> 
+      <entity id="DDI-DrugBank.d368.s9.e0" charOffset="0-12" type="drug" text="Acetazolamide" position="0"/>  
+      <entity id="DDI-DrugBank.d368.s9.e1" charOffset="45-55" type="drug" text="amphetamine" position="5"/>  
+      <pair id="DDI-DrugBank.d368.s9.p0" e1="DDI-DrugBank.d368.s9.e0" e2="DDI-DrugBank.d368.s9.e1" ddi="true" type="mechanism" flags="True" e1_name="Acetazolamide" e2_name="amphetamine" e1_pos="0" e2_pos="5" path="0@@1@@3@@5@@">Acetazolamide@@@@nsubj@@decreases@@dobj@@excretion@@prep_of@@amphetamine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d368.s10" text="Acetazolamide reduces urinary excretion of quinidine and may enhance its effect." new_text="Acetazolamide@@reduces@@urinary@@excretion@@of@@quinidine@@and@@may@@enhance@@its@@effect@@.@@"> 
+      <entity id="DDI-DrugBank.d368.s10.e0" charOffset="0-12" type="drug" text="Acetazolamide" position="0"/>  
+      <entity id="DDI-DrugBank.d368.s10.e1" charOffset="43-51" type="drug" text="quinidine" position="5"/>  
+      <pair id="DDI-DrugBank.d368.s10.p0" e1="DDI-DrugBank.d368.s10.e0" e2="DDI-DrugBank.d368.s10.e1" ddi="true" type="mechanism" flags="True" e1_name="Acetazolamide" e2_name="quinidine" e1_pos="0" e2_pos="5" path="0@@1@@3@@5@@">Acetazolamide@@@@nsubj@@reduces@@dobj@@excretion@@prep_of@@quinidine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d368.s11" text="Acetazolamide may prevent the urinary antiseptic effect of methenamine." new_text="Acetazolamide@@may@@prevent@@the@@urinary@@antiseptic@@effect@@of@@methenamine@@.@@"> 
+      <entity id="DDI-DrugBank.d368.s11.e0" charOffset="0-12" type="drug" text="Acetazolamide" position="0"/>  
+      <entity id="DDI-DrugBank.d368.s11.e1" charOffset="59-69" type="drug" text="methenamine" position="8"/>  
+      <pair id="DDI-DrugBank.d368.s11.p0" e1="DDI-DrugBank.d368.s11.e0" e2="DDI-DrugBank.d368.s11.e1" ddi="true" type="effect" flags="True" e1_name="Acetazolamide" e2_name="methenamine" e1_pos="0" e2_pos="8" path="0@@2@@6@@8@@">Acetazolamide@@@@nsubj@@prevent@@dobj@@effect@@prep_of@@methenamine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d368.s12" text="Acetazolamide increases lithium excretion and the lithium may be decreased." new_text="Acetazolamide@@increases@@lithium@@excretion@@and@@the@@lithium@@may@@be@@decreased@@.@@"> 
+      <entity id="DDI-DrugBank.d368.s12.e0" charOffset="0-12" type="drug" text="Acetazolamide" position="0"/>  
+      <entity id="DDI-DrugBank.d368.s12.e1" charOffset="24-30" type="drug" text="lithium" position="2"/>  
+      <entity id="DDI-DrugBank.d368.s12.e2" charOffset="50-56" type="drug" text="lithium" position="6"/>  
+      <pair id="DDI-DrugBank.d368.s12.p0" e1="DDI-DrugBank.d368.s12.e0" e2="DDI-DrugBank.d368.s12.e1" ddi="true" type="mechanism" flags="True" e1_name="Acetazolamide" e2_name="lithium" e1_pos="0" e2_pos="2" path="0@@3@@2@@">Acetazolamide@@@@amod@@excretion@@nn@@lithium</pair>  
+      <pair id="DDI-DrugBank.d368.s12.p1" e1="DDI-DrugBank.d368.s12.e0" e2="DDI-DrugBank.d368.s12.e2" ddi="false" flags="True" e1_name="Acetazolamide" e2_name="lithium" e1_pos="0" e2_pos="6" path="0@@3@@6@@">Acetazolamide@@@@amod@@excretion@@conj_and@@lithium</pair>  
+      <pair id="DDI-DrugBank.d368.s12.p2" e1="DDI-DrugBank.d368.s12.e1" e2="DDI-DrugBank.d368.s12.e2" ddi="false" flags="True" e1_name="lithium" e2_name="lithium" e1_pos="2" e2_pos="6" path="2@@3@@6@@">lithium@@@@nn@@excretion@@conj_and@@lithium</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d368.s13" text="Acetazolamide and sodium bicarbonate used concurrently increases the risk of renal calculus formation." new_text="Acetazolamide@@and@@sodium bicarbonate@@used@@concurrently@@increases@@the@@risk@@of@@renal@@calculus@@formation@@.@@"> 
+      <entity id="DDI-DrugBank.d368.s13.e0" charOffset="0-12" type="drug" text="Acetazolamide" position="0"/>  
+      <entity id="DDI-DrugBank.d368.s13.e1" charOffset="18-35" type="drug" text="sodium bicarbonate" position="2"/>  
+      <pair id="DDI-DrugBank.d368.s13.p0" e1="DDI-DrugBank.d368.s13.e0" e2="DDI-DrugBank.d368.s13.e1" ddi="true" type="effect" flags="True" e1_name="Acetazolamide" e2_name="sodium bicarbonate" e1_pos="0" e2_pos="2" path="0@@2@@">Acetazolamide@@@@conj_and@@sodium bicarbonate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d368.s14" text="Acetazolamide may elevate cyclosporine levels." new_text="Acetazolamide@@may@@elevate@@cyclosporine@@levels@@.@@"> 
+      <entity id="DDI-DrugBank.d368.s14.e0" charOffset="0-12" type="drug" text="Acetazolamide" position="0"/>  
+      <entity id="DDI-DrugBank.d368.s14.e1" charOffset="26-37" type="drug" text="cyclosporine" position="3"/>  
+      <pair id="DDI-DrugBank.d368.s14.p0" e1="DDI-DrugBank.d368.s14.e0" e2="DDI-DrugBank.d368.s14.e1" ddi="true" type="mechanism" flags="True" e1_name="Acetazolamide" e2_name="cyclosporine" e1_pos="0" e2_pos="3" path="0@@2@@4@@3@@">Acetazolamide@@@@nsubj@@elevate@@dobj@@levels@@amod@@cyclosporine</pair> 
+   </sentence> 
+</document>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d430"> 
+   <sentence id="DDI-DrugBank.d430.s0" text="Intravenous ranitidine was shown to double the bioavailability of oral alendronate." new_text="Intravenous@@ranitidine@@was@@shown@@to@@double@@the@@bioavailability@@of@@oral@@alendronate@@.@@"> 
+      <entity id="DDI-DrugBank.d430.s0.e0" charOffset="12-21" type="drug" text="ranitidine" position="1"/>  
+      <entity id="DDI-DrugBank.d430.s0.e1" charOffset="71-81" type="drug" text="alendronate" position="10"/>  
+      <pair id="DDI-DrugBank.d430.s0.p0" e1="DDI-DrugBank.d430.s0.e0" e2="DDI-DrugBank.d430.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="ranitidine" e2_name="alendronate" e1_pos="1" e2_pos="10" path="1@@5@@7@@10@@">ranitidine@@@@xsubj@@double@@dobj@@bioavailability@@prep_of@@alendronate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d430.s1" text="The clinical significance of this increased bioavailability and whether similar increases will occur in patients given oral H2-antagonists is unknown;" new_text="The@@clinical@@significance@@of@@this@@increased@@bioavailability@@and@@whether@@similar@@increases@@will@@occur@@in@@patients@@given@@oral@@H2-antagonists@@is@@unknown;@@"> 
+      <entity id="DDI-DrugBank.d430.s1.e0" charOffset="124-137" type="group" text="H2-antagonists" position="17"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d430.s2" text="no other specific drug interaction studies were performed." new_text="no@@other@@specific@@drug@@interaction@@studies@@were@@performed@@.@@"/>  
+   <sentence id="DDI-DrugBank.d430.s3" text="Products containing calcium and other multivalent cations likely will interfere with absorption of alendronate." new_text="Products@@containing@@calcium@@and@@other@@multivalent cations@@likely@@will@@interfere@@with@@absorption@@of@@alendronate@@.@@"> 
+      <entity id="DDI-DrugBank.d430.s3.e0" charOffset="20-26" type="drug" text="calcium" position="2"/>  
+      <entity id="DDI-DrugBank.d430.s3.e1" charOffset="38-56" type="drug" text="multivalent cations" position="5"/>  
+      <entity id="DDI-DrugBank.d430.s3.e2" charOffset="99-109" type="drug" text="alendronate" position="12"/>  
+      <pair id="DDI-DrugBank.d430.s3.p0" e1="DDI-DrugBank.d430.s3.e0" e2="DDI-DrugBank.d430.s3.e1" ddi="false" flags="True" e1_name="calcium" e2_name="multivalent cations" e1_pos="2" e2_pos="5" path="2@@5@@">calcium@@@@conj_and@@multivalent cations</pair>  
+      <pair id="DDI-DrugBank.d430.s3.p1" e1="DDI-DrugBank.d430.s3.e0" e2="DDI-DrugBank.d430.s3.e2" ddi="true" type="mechanism" flags="True" e1_name="calcium" e2_name="alendronate" e1_pos="2" e2_pos="12" path="2@@1@@0@@8@@10@@12@@">calcium@@@@dobj@@containing@@partmod@@Products@@nsubj@@interfere@@prep_with@@absorption@@prep_of@@alendronate</pair>  
+      <pair id="DDI-DrugBank.d430.s3.p2" e1="DDI-DrugBank.d430.s3.e1" e2="DDI-DrugBank.d430.s3.e2" ddi="true" type="mechanism" flags="True" e1_name="multivalent cations" e2_name="alendronate" e1_pos="5" e2_pos="12" path="5@@1@@0@@8@@10@@12@@">multivalent cations@@@@dobj@@containing@@partmod@@Products@@nsubj@@interfere@@prep_with@@absorption@@prep_of@@alendronate</pair> 
+   </sentence> 
+</document>

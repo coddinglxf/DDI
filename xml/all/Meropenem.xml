@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d762"> 
+   <sentence id="DDI-DrugBank.d762.s0" text="Probenecid competes with meropenem for active tubular secretion and thus inhibits the renal excretion of meropenem. " new_text="Probenecid@@competes@@with@@meropenem@@for@@active@@tubular@@secretion@@and@@thus@@inhibits@@the@@renal@@excretion@@of@@meropenem@@.@@"> 
+      <entity id="DDI-DrugBank.d762.s0.e0" charOffset="0-9" type="drug" text="Probenecid" position="0"/>  
+      <entity id="DDI-DrugBank.d762.s0.e1" charOffset="25-33" type="drug" text="meropenem" position="3"/>  
+      <entity id="DDI-DrugBank.d762.s0.e2" charOffset="105-113" type="drug" text="meropenem" position="15"/>  
+      <pair id="DDI-DrugBank.d762.s0.p0" e1="DDI-DrugBank.d762.s0.e0" e2="DDI-DrugBank.d762.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="Probenecid" e2_name="meropenem" e1_pos="0" e2_pos="3" path="0@@1@@3@@">Probenecid@@@@nsubj@@competes@@prep_with@@meropenem</pair>  
+      <pair id="DDI-DrugBank.d762.s0.p1" e1="DDI-DrugBank.d762.s0.e0" e2="DDI-DrugBank.d762.s0.e2" ddi="false" flags="True" e1_name="Probenecid" e2_name="meropenem" e1_pos="0" e2_pos="15" path="0@@10@@13@@15@@">Probenecid@@@@nsubj@@inhibits@@dobj@@excretion@@prep_of@@meropenem</pair>  
+      <pair id="DDI-DrugBank.d762.s0.p2" e1="DDI-DrugBank.d762.s0.e1" e2="DDI-DrugBank.d762.s0.e2" ddi="false" flags="True" e1_name="meropenem" e2_name="meropenem" e1_pos="3" e2_pos="15" path="3@@1@@10@@13@@15@@">meropenem@@@@prep_with@@competes@@conj_and@@inhibits@@dobj@@excretion@@prep_of@@meropenem</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d762.s1" text="This led to statistically significant increases in the elimination half-life (38%) and in the extent of systemic exposure (56%). " new_text="This@@led@@to@@statistically@@significant@@increases@@in@@the@@elimination@@half-life@@(38%)@@and@@in@@the@@extent@@of@@systemic@@exposure@@(56%)@@.@@"/>  
+   <sentence id="DDI-DrugBank.d762.s2" text="Therefore, the coadministration of probenecid with meropenem is not recommended. " new_text="Therefore@@,@@the@@coadministration@@of@@probenecid@@with@@meropenem@@is@@not@@recommended@@.@@"> 
+      <entity id="DDI-DrugBank.d762.s2.e0" charOffset="35-44" type="drug" text="probenecid" position="5"/>  
+      <entity id="DDI-DrugBank.d762.s2.e1" charOffset="51-59" type="drug" text="meropenem" position="7"/>  
+      <pair id="DDI-DrugBank.d762.s2.p0" e1="DDI-DrugBank.d762.s2.e0" e2="DDI-DrugBank.d762.s2.e1" ddi="true" type="advise" flags="True" e1_name="probenecid" e2_name="meropenem" e1_pos="5" e2_pos="7" path="5@@7@@">probenecid@@@@prep_with@@meropenem</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d762.s3" text="There is evidence that meropenem may reduce serum levels of valproic acid to subtherapeutic levels (therapeutic range considered to be 50 to 100    g/mL total valproate)." new_text="There@@is@@evidence@@that@@meropenem@@may@@reduce@@serum@@levels@@of@@valproic acid@@to@@subtherapeutic@@levels@@(therapeutic@@range@@considered@@to@@be@@50@@to@@100@@@@@@@@g/mL@@total@@valproate@@)@@.@@"> 
+      <entity id="DDI-DrugBank.d762.s3.e0" charOffset="23-31" type="drug" text="meropenem" position="4"/>  
+      <entity id="DDI-DrugBank.d762.s3.e1" charOffset="60-72" type="drug" text="valproic acid" position="10"/>  
+      <entity id="DDI-DrugBank.d762.s3.e2" charOffset="159-167" type="drug" text="valproate" position="27"/>  
+      <pair id="DDI-DrugBank.d762.s3.p0" e1="DDI-DrugBank.d762.s3.e0" e2="DDI-DrugBank.d762.s3.e1" ddi="true" type="mechanism" flags="True" e1_name="meropenem" e2_name="valproic acid" e1_pos="4" e2_pos="10" path="4@@6@@8@@15@@10@@">meropenem@@@@nsubj@@reduce@@dobj@@levels@@prep_of@@range@@amod@@valproic acid</pair>  
+      <pair id="DDI-DrugBank.d762.s3.p1" e1="DDI-DrugBank.d762.s3.e0" e2="DDI-DrugBank.d762.s3.e2" ddi="false" flags="True" e1_name="meropenem" e2_name="valproate" e1_pos="4" e2_pos="27" path="4@@6@@8@@15@@16@@23@@24@@28@@27@@">meropenem@@@@nsubj@@reduce@@dobj@@levels@@prep_of@@range@@partmod@@considered@@xcomp@@@@partmod@@@@dobj@@)@@nn@@valproate</pair>  
+      <pair id="DDI-DrugBank.d762.s3.p2" e1="DDI-DrugBank.d762.s3.e1" e2="DDI-DrugBank.d762.s3.e2" ddi="false" flags="True" e1_name="valproic acid" e2_name="valproate" e1_pos="10" e2_pos="27" path="10@@15@@16@@23@@24@@28@@27@@">valproic acid@@@@amod@@range@@partmod@@considered@@xcomp@@@@partmod@@@@dobj@@)@@nn@@valproate</pair> 
+   </sentence> 
+</document>

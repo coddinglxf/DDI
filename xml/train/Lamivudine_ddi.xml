@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d71"> 
+   <sentence id="DDI-DrugBank.d71.s0" text="Lamivudine is predominantly eliminated in the urine by active organic cationic secretion." new_text="Lamivudine@@is@@predominantly@@eliminated@@in@@the@@urine@@by@@active@@organic@@cationic@@secretion@@.@@"> 
+      <entity id="DDI-DrugBank.d71.s0.e0" charOffset="0-9" type="drug" text="Lamivudine" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d71.s1" text="The possibility of interactions with other drugs administered concurrently should be considered, particularly when their main route of elimination is active renal secretion via the organic cationic transport system (e.g., trimethoprim)." new_text="The@@possibility@@of@@interactions@@with@@other@@drugs@@administered@@concurrently@@should@@be@@considered@@,@@particularly@@when@@their@@main@@route@@of@@elimination@@is@@active@@renal@@secretion@@via@@the@@organic@@cationic@@transport@@system@@(e.g.@@,@@trimethoprim@@)@@.@@"> 
+      <entity id="DDI-DrugBank.d71.s1.e0" charOffset="222-233" type="drug" text="trimethoprim" position="32"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d71.s2" text="No change in dose of either drug is recommended." new_text="No@@change@@in@@dose@@of@@either@@drug@@is@@recommended@@.@@"/>  
+   <sentence id="DDI-DrugBank.d71.s3" text="There is no information regarding the effect on lamivudine pharmacokinetics of higher doses of TMP/SMX such as those used to treat Pneumocystis carinii pneumonia." new_text="There@@is@@no@@information@@regarding@@the@@effect@@on@@lamivudine@@pharmacokinetics@@of@@higher@@doses@@of@@TMP@@/@@SMX@@such@@as@@those@@used@@to@@treat@@Pneumocystis@@carinii@@pneumonia@@.@@"> 
+      <entity id="DDI-DrugBank.d71.s3.e0" charOffset="48-57" type="drug" text="lamivudine" position="8"/>  
+      <entity id="DDI-DrugBank.d71.s3.e1" charOffset="95-97" type="drug" text="TMP" position="14"/>  
+      <entity id="DDI-DrugBank.d71.s3.e2" charOffset="99-101" type="drug" text="SMX" position="16"/>  
+      <pair id="DDI-DrugBank.d71.s3.p0" e1="DDI-DrugBank.d71.s3.e0" e2="DDI-DrugBank.d71.s3.e1" ddi="false" flags="True" e1_name="lamivudine" e2_name="TMP" e1_pos="8" e2_pos="14" path="8@@9@@12@@14@@">lamivudine@@@@amod@@pharmacokinetics@@prep_of@@doses@@prep_of@@TMP</pair>  
+      <pair id="DDI-DrugBank.d71.s3.p1" e1="DDI-DrugBank.d71.s3.e0" e2="DDI-DrugBank.d71.s3.e2" ddi="false" flags="True" e1_name="lamivudine" e2_name="SMX" e1_pos="8" e2_pos="16" path="8@@9@@6@@3@@1@@16@@">lamivudine@@@@amod@@pharmacokinetics@@prep_on@@effect@@prep_regarding@@information@@nsubj@@is@@dep@@SMX</pair>  
+      <pair id="DDI-DrugBank.d71.s3.p2" e1="DDI-DrugBank.d71.s3.e1" e2="DDI-DrugBank.d71.s3.e2" ddi="false" flags="True" e1_name="TMP" e2_name="SMX" e1_pos="14" e2_pos="16" path="14@@12@@9@@6@@3@@1@@16@@">TMP@@@@prep_of@@doses@@prep_of@@pharmacokinetics@@prep_on@@effect@@prep_regarding@@information@@nsubj@@is@@dep@@SMX</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d71.s4" text="No data are available regarding interactions with other drugs that have renal clearance mechanisms similar to that of lamivudine." new_text="No@@data@@are@@available@@regarding@@interactions@@with@@other@@drugs@@that@@have@@renal@@clearance@@mechanisms@@similar@@to@@that@@of@@lamivudine@@.@@"> 
+      <entity id="DDI-DrugBank.d71.s4.e0" charOffset="118-127" type="drug" text="lamivudine" position="18"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d71.s5" text="Lamivudine and zalcitabine may inhibit the intracellular phosphorylation of one another." new_text="Lamivudine@@and@@zalcitabine@@may@@inhibit@@the@@intracellular@@phosphorylation@@of@@one@@another@@.@@"> 
+      <entity id="DDI-DrugBank.d71.s5.e0" charOffset="0-9" type="drug" text="Lamivudine" position="0"/>  
+      <entity id="DDI-DrugBank.d71.s5.e1" charOffset="15-25" type="drug" text="zalcitabine" position="2"/>  
+      <pair id="DDI-DrugBank.d71.s5.p0" e1="DDI-DrugBank.d71.s5.e0" e2="DDI-DrugBank.d71.s5.e1" ddi="true" type="effect" flags="True" e1_name="Lamivudine" e2_name="zalcitabine" e1_pos="0" e2_pos="2" path="0@@2@@">Lamivudine@@@@conj_and@@zalcitabine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d71.s6" text="Therefore, use of lamivudine in combination with zalcitabine is not recommended" new_text="Therefore@@,@@use@@of@@lamivudine@@in@@combination@@with@@zalcitabine@@is@@not@@recommended@@"> 
+      <entity id="DDI-DrugBank.d71.s6.e0" charOffset="18-27" type="drug" text="lamivudine" position="4"/>  
+      <entity id="DDI-DrugBank.d71.s6.e1" charOffset="49-59" type="drug" text="zalcitabine" position="8"/>  
+      <pair id="DDI-DrugBank.d71.s6.p0" e1="DDI-DrugBank.d71.s6.e0" e2="DDI-DrugBank.d71.s6.e1" ddi="true" type="advise" flags="True" e1_name="lamivudine" e2_name="zalcitabine" e1_pos="4" e2_pos="8" path="4@@6@@8@@">lamivudine@@@@prep_in@@combination@@prep_with@@zalcitabine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d71.s7" text="." new_text=".@@"/>  
+   <sentence id="DDI-DrugBank.d71.s8" text="" new_text=""/> 
+</document>

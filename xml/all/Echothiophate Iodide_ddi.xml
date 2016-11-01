@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d377"> 
+   <sentence id="DDI-DrugBank.d377.s0" text="Phospholine Iodide potentiates other cholinesterase inhibitors such as succinylcholine or organophosphate and carbamate insecticides." new_text="Phospholine Iodide@@potentiates@@other@@cholinesterase inhibitors@@such@@as@@succinylcholine@@or@@organophosphate@@and@@carbamate insecticide@@s@@.@@"> 
+      <entity id="DDI-DrugBank.d377.s0.e0" charOffset="0-17" type="drug" text="Phospholine Iodide" position="0"/>  
+      <entity id="DDI-DrugBank.d377.s0.e1" charOffset="37-61" type="group" text="cholinesterase inhibitors" position="3"/>  
+      <entity id="DDI-DrugBank.d377.s0.e2" charOffset="71-85" type="drug" text="succinylcholine" position="6"/>  
+      <entity id="DDI-DrugBank.d377.s0.e3" charOffset="90-104;120-130" type="drug_n" text="organophosphate insecticide" position="not_a_number"/>  
+      <entity id="DDI-DrugBank.d377.s0.e4" charOffset="110-130" type="drug_n" text="carbamate insecticide" position="10"/>  
+      <pair id="DDI-DrugBank.d377.s0.p0" e1="DDI-DrugBank.d377.s0.e0" e2="DDI-DrugBank.d377.s0.e1" ddi="true" type="effect" flags="True" e1_name="Phospholine Iodide" e2_name="cholinesterase inhibitors" e1_pos="0" e2_pos="3" path="0@@1@@3@@">Phospholine Iodide@@@@nsubj@@potentiates@@dobj@@cholinesterase inhibitors</pair>  
+      <pair id="DDI-DrugBank.d377.s0.p1" e1="DDI-DrugBank.d377.s0.e0" e2="DDI-DrugBank.d377.s0.e2" ddi="true" type="effect" flags="True" e1_name="Phospholine Iodide" e2_name="succinylcholine" e1_pos="0" e2_pos="6" path="0@@1@@3@@6@@">Phospholine Iodide@@@@nsubj@@potentiates@@dobj@@cholinesterase inhibitors@@prep_such_as@@succinylcholine</pair>  
+      <pair id="DDI-DrugBank.d377.s0.p2" e1="DDI-DrugBank.d377.s0.e0" e2="DDI-DrugBank.d377.s0.e3" ddi="true" type="effect" flags="False"/>  
+      <pair id="DDI-DrugBank.d377.s0.p3" e1="DDI-DrugBank.d377.s0.e0" e2="DDI-DrugBank.d377.s0.e4" ddi="true" type="effect" flags="True" e1_name="Phospholine Iodide" e2_name="carbamate insecticide" e1_pos="0" e2_pos="10" path="0@@10@@">Phospholine Iodide@@@@nsubj@@carbamate insecticide</pair>  
+      <pair id="DDI-DrugBank.d377.s0.p4" e1="DDI-DrugBank.d377.s0.e1" e2="DDI-DrugBank.d377.s0.e2" ddi="false" flags="True" e1_name="cholinesterase inhibitors" e2_name="succinylcholine" e1_pos="3" e2_pos="6" path="3@@6@@">cholinesterase inhibitors@@@@prep_such_as@@succinylcholine</pair>  
+      <pair id="DDI-DrugBank.d377.s0.p5" e1="DDI-DrugBank.d377.s0.e1" e2="DDI-DrugBank.d377.s0.e3" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d377.s0.p6" e1="DDI-DrugBank.d377.s0.e1" e2="DDI-DrugBank.d377.s0.e4" ddi="false" flags="True" e1_name="cholinesterase inhibitors" e2_name="carbamate insecticide" e1_pos="3" e2_pos="10" path="3@@1@@10@@">cholinesterase inhibitors@@@@dobj@@potentiates@@conj_and@@carbamate insecticide</pair>  
+      <pair id="DDI-DrugBank.d377.s0.p7" e1="DDI-DrugBank.d377.s0.e2" e2="DDI-DrugBank.d377.s0.e3" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d377.s0.p8" e1="DDI-DrugBank.d377.s0.e2" e2="DDI-DrugBank.d377.s0.e4" ddi="false" flags="True" e1_name="succinylcholine" e2_name="carbamate insecticide" e1_pos="6" e2_pos="10" path="6@@3@@1@@10@@">succinylcholine@@@@prep_such_as@@cholinesterase inhibitors@@dobj@@potentiates@@conj_and@@carbamate insecticide</pair>  
+      <pair id="DDI-DrugBank.d377.s0.p9" e1="DDI-DrugBank.d377.s0.e3" e2="DDI-DrugBank.d377.s0.e4" ddi="false" flags="False"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d377.s1" text="Patients undergoing systemic anticholinesterase treatment should be warned of the possible additive effects of Phospholine Iodide." new_text="Patients@@undergoing@@systemic@@anticholinesterase@@treatment@@should@@be@@warned@@of@@the@@possible@@additive@@effects@@of@@Phospholine Iodide@@.@@"> 
+      <entity id="DDI-DrugBank.d377.s1.e0" charOffset="111-128" type="drug" text="Phospholine Iodide" position="14"/> 
+   </sentence> 
+</document>

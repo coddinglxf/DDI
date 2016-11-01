@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d365"> 
+   <sentence id="DDI-DrugBank.d365.s0" text="Medroxyprogesterone Acetate - L-histidine was observed to enhance (in tissue culture) the effect of medroxyprogesterone acetate in reducing the number of human breast cancer cells that were in the S phase." new_text="Medroxyprogesterone Acetate@@-@@L-histidine@@was@@observed@@to@@enhance@@(in@@tissue@@culture)@@the@@effect@@of@@medroxyprogesterone acetate@@in@@reducing@@the@@number@@of@@human@@breast@@cancer@@cells@@that@@were@@in@@the@@S@@phase@@.@@"> 
+      <entity id="DDI-DrugBank.d365.s0.e0" charOffset="0-26" type="drug" text="Medroxyprogesterone Acetate" position="0"/>  
+      <entity id="DDI-DrugBank.d365.s0.e1" charOffset="30-40" type="drug" text="L-histidine" position="2"/>  
+      <entity id="DDI-DrugBank.d365.s0.e2" charOffset="100-126" type="drug" text="medroxyprogesterone acetate" position="13"/>  
+      <pair id="DDI-DrugBank.d365.s0.p0" e1="DDI-DrugBank.d365.s0.e0" e2="DDI-DrugBank.d365.s0.e1" ddi="false" flags="True" e1_name="Medroxyprogesterone Acetate" e2_name="L-histidine" e1_pos="0" e2_pos="2" path="0@@4@@2@@">Medroxyprogesterone Acetate@@@@dep@@observed@@nsubj@@L-histidine</pair>  
+      <pair id="DDI-DrugBank.d365.s0.p1" e1="DDI-DrugBank.d365.s0.e0" e2="DDI-DrugBank.d365.s0.e2" ddi="false" flags="True" e1_name="Medroxyprogesterone Acetate" e2_name="medroxyprogesterone acetate" e1_pos="0" e2_pos="13" path="0@@4@@6@@8@@9@@11@@13@@">Medroxyprogesterone Acetate@@@@dep@@observed@@xcomp@@enhance@@dobj@@tissue@@partmod@@culture)@@dobj@@effect@@prep_of@@medroxyprogesterone acetate</pair>  
+      <pair id="DDI-DrugBank.d365.s0.p2" e1="DDI-DrugBank.d365.s0.e1" e2="DDI-DrugBank.d365.s0.e2" ddi="true" type="effect" flags="True" e1_name="L-histidine" e2_name="medroxyprogesterone acetate" e1_pos="2" e2_pos="13" path="2@@6@@8@@9@@11@@13@@">L-histidine@@@@xsubj@@enhance@@dobj@@tissue@@partmod@@culture)@@dobj@@effect@@prep_of@@medroxyprogesterone acetate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d365.s1" text="H1 and H2 Blockers - Although not reported, L-histidine, via its metabolism to histamine, might decrease the efficacy of H1 and H2 blockers." new_text="H1@@and@@H2 Blockers@@-@@Although@@not@@reported@@,@@L-histidine@@,@@via@@its@@metabolism@@to@@histamine@@,@@might@@decrease@@the@@efficacy@@of@@H1@@and@@H2 blockers@@.@@"> 
+      <entity id="DDI-DrugBank.d365.s1.e0" charOffset="0-1;10-17" type="group" text="H1 Blockers" position="not_a_number"/>  
+      <entity id="DDI-DrugBank.d365.s1.e1" charOffset="7-17" type="group" text="H2 Blockers" position="2"/>  
+      <entity id="DDI-DrugBank.d365.s1.e2" charOffset="44-54" type="drug" text="L-histidine" position="8"/>  
+      <entity id="DDI-DrugBank.d365.s1.e3" charOffset="121-122;131-138" type="group" text="H1 blockers" position="not_a_number"/>  
+      <entity id="DDI-DrugBank.d365.s1.e4" charOffset="128-138" type="group" text="H2 blockers" position="23"/>  
+      <pair id="DDI-DrugBank.d365.s1.p0" e1="DDI-DrugBank.d365.s1.e0" e2="DDI-DrugBank.d365.s1.e1" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d365.s1.p1" e1="DDI-DrugBank.d365.s1.e0" e2="DDI-DrugBank.d365.s1.e2" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d365.s1.p2" e1="DDI-DrugBank.d365.s1.e0" e2="DDI-DrugBank.d365.s1.e3" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d365.s1.p3" e1="DDI-DrugBank.d365.s1.e0" e2="DDI-DrugBank.d365.s1.e4" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d365.s1.p4" e1="DDI-DrugBank.d365.s1.e1" e2="DDI-DrugBank.d365.s1.e2" ddi="false" flags="True" e1_name="H2 Blockers" e2_name="L-histidine" e1_pos="2" e2_pos="8" path="2@@17@@8@@">H2 Blockers@@@@dep@@decrease@@nsubj@@L-histidine</pair>  
+      <pair id="DDI-DrugBank.d365.s1.p5" e1="DDI-DrugBank.d365.s1.e1" e2="DDI-DrugBank.d365.s1.e3" ddi="false" flags="False"/>  
+      <pair id="DDI-DrugBank.d365.s1.p6" e1="DDI-DrugBank.d365.s1.e1" e2="DDI-DrugBank.d365.s1.e4" ddi="false" flags="True" e1_name="H2 Blockers" e2_name="H2 blockers" e1_pos="2" e2_pos="23" path="2@@17@@19@@23@@">H2 Blockers@@@@dep@@decrease@@dobj@@efficacy@@prep_of@@H2 blockers</pair>  
+      <pair id="DDI-DrugBank.d365.s1.p7" e1="DDI-DrugBank.d365.s1.e2" e2="DDI-DrugBank.d365.s1.e3" ddi="true" type="effect" flags="False"/>  
+      <pair id="DDI-DrugBank.d365.s1.p8" e1="DDI-DrugBank.d365.s1.e2" e2="DDI-DrugBank.d365.s1.e4" ddi="true" type="effect" flags="True" e1_name="L-histidine" e2_name="H2 blockers" e1_pos="8" e2_pos="23" path="8@@17@@19@@23@@">L-histidine@@@@nsubj@@decrease@@dobj@@efficacy@@prep_of@@H2 blockers</pair>  
+      <pair id="DDI-DrugBank.d365.s1.p9" e1="DDI-DrugBank.d365.s1.e3" e2="DDI-DrugBank.d365.s1.e4" ddi="false" flags="False"/> 
+   </sentence> 
+</document>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d21"> 
+   <sentence id="DDI-DrugBank.d21.s0" text="Tissue culture and animal studies indicate that ELSPAR can diminish or abolish the effect of methotrexate on malignant cells.14 This effect on methotrexate activity persists as long as plasma asparagine levels are suppressed." new_text="Tissue@@culture@@and@@animal@@studies@@indicate@@that@@ELSPAR@@can@@diminish@@or@@abolish@@the@@effect@@of@@methotrexate@@on@@malignant@@cells.14@@This@@effect@@on@@methotrexate@@activity@@persists@@as@@long@@as@@plasma@@asparagine@@levels@@are@@suppressed@@.@@"> 
+      <entity id="DDI-DrugBank.d21.s0.e0" charOffset="48-53" type="brand" text="ELSPAR" position="7"/>  
+      <entity id="DDI-DrugBank.d21.s0.e1" charOffset="93-104" type="drug" text="methotrexate" position="15"/>  
+      <entity id="DDI-DrugBank.d21.s0.e2" charOffset="143-154" type="drug" text="methotrexate" position="22"/>  
+      <pair id="DDI-DrugBank.d21.s0.p0" e1="DDI-DrugBank.d21.s0.e0" e2="DDI-DrugBank.d21.s0.e1" ddi="true" type="effect" flags="True" e1_name="ELSPAR" e2_name="methotrexate" e1_pos="7" e2_pos="15" path="7@@9@@13@@15@@">ELSPAR@@@@nsubj@@diminish@@dobj@@effect@@prep_of@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d21.s0.p1" e1="DDI-DrugBank.d21.s0.e0" e2="DDI-DrugBank.d21.s0.e2" ddi="false" flags="True" e1_name="ELSPAR" e2_name="methotrexate" e1_pos="7" e2_pos="22" path="7@@9@@5@@24@@20@@23@@22@@">ELSPAR@@@@nsubj@@diminish@@ccomp@@indicate@@dep@@persists@@nsubj@@effect@@prep_on@@activity@@amod@@methotrexate</pair>  
+      <pair id="DDI-DrugBank.d21.s0.p2" e1="DDI-DrugBank.d21.s0.e1" e2="DDI-DrugBank.d21.s0.e2" ddi="false" flags="True" e1_name="methotrexate" e2_name="methotrexate" e1_pos="15" e2_pos="22" path="15@@13@@9@@5@@24@@20@@23@@22@@">methotrexate@@@@prep_of@@effect@@dobj@@diminish@@ccomp@@indicate@@dep@@persists@@nsubj@@effect@@prep_on@@activity@@amod@@methotrexate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d21.s1" text="These results would seem to dictate against the clinical use of methotrexate with ELSPAR, or during the period following ELSPAR therapy when plasma asparagine levels are below normal." new_text="These@@results@@would@@seem@@to@@dictate@@against@@the@@clinical@@use@@of@@methotrexate@@with@@ELSPAR@@,@@or@@during@@the@@period@@following@@ELSPAR@@therapy@@when@@plasma@@asparagine@@levels@@are@@below@@normal@@.@@"> 
+      <entity id="DDI-DrugBank.d21.s1.e0" charOffset="64-75" type="drug" text="methotrexate" position="11"/>  
+      <entity id="DDI-DrugBank.d21.s1.e1" charOffset="82-87" type="brand" text="ELSPAR" position="13"/>  
+      <entity id="DDI-DrugBank.d21.s1.e2" charOffset="121-126" type="brand" text="ELSPAR" position="20"/>  
+      <pair id="DDI-DrugBank.d21.s1.p0" e1="DDI-DrugBank.d21.s1.e0" e2="DDI-DrugBank.d21.s1.e1" ddi="true" type="advise" flags="True" e1_name="methotrexate" e2_name="ELSPAR" e1_pos="11" e2_pos="13" path="11@@9@@5@@13@@">methotrexate@@@@prep_of@@use@@prep_against@@dictate@@prep_with@@ELSPAR</pair>  
+      <pair id="DDI-DrugBank.d21.s1.p1" e1="DDI-DrugBank.d21.s1.e0" e2="DDI-DrugBank.d21.s1.e2" ddi="false" flags="True" e1_name="methotrexate" e2_name="ELSPAR" e1_pos="11" e2_pos="20" path="11@@9@@5@@18@@21@@20@@">methotrexate@@@@prep_of@@use@@prep_against@@dictate@@prep_during@@period@@prep_following@@therapy@@amod@@ELSPAR</pair>  
+      <pair id="DDI-DrugBank.d21.s1.p2" e1="DDI-DrugBank.d21.s1.e1" e2="DDI-DrugBank.d21.s1.e2" ddi="false" flags="True" e1_name="ELSPAR" e2_name="ELSPAR" e1_pos="13" e2_pos="20" path="13@@5@@18@@21@@20@@">ELSPAR@@@@prep_with@@dictate@@prep_during@@period@@prep_following@@therapy@@amod@@ELSPAR</pair> 
+   </sentence> 
+</document>

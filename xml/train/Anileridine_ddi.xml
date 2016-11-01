@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d215"> 
+   <sentence id="DDI-DrugBank.d215.s0" text="Caution should be observed when anileridine is coadministered with other opioids, sedatives, phenothiazines, or anesthetics, as these agents may increase respiratory and circulatory depression." new_text="Caution@@should@@be@@observed@@when@@anileridine@@is@@coadministered@@with@@other@@opioids@@,@@sedatives@@,@@phenothiazines@@,@@or@@anesthetics@@,@@as@@these@@agents@@may@@increase@@respiratory@@and@@circulatory@@depression@@.@@"> 
+      <entity id="DDI-DrugBank.d215.s0.e0" charOffset="32-42" type="drug" text="anileridine" position="5"/>  
+      <entity id="DDI-DrugBank.d215.s0.e1" charOffset="73-79" type="group" text="opioids" position="10"/>  
+      <entity id="DDI-DrugBank.d215.s0.e2" charOffset="82-90" type="group" text="sedatives" position="12"/>  
+      <entity id="DDI-DrugBank.d215.s0.e3" charOffset="93-106" type="group" text="phenothiazines" position="14"/>  
+      <entity id="DDI-DrugBank.d215.s0.e4" charOffset="112-122" type="group" text="anesthetics" position="17"/>  
+      <pair id="DDI-DrugBank.d215.s0.p0" e1="DDI-DrugBank.d215.s0.e0" e2="DDI-DrugBank.d215.s0.e1" ddi="true" type="advise" flags="True" e1_name="anileridine" e2_name="opioids" e1_pos="5" e2_pos="10" path="5@@7@@10@@">anileridine@@@@nsubjpass@@coadministered@@prep_with@@opioids</pair>  
+      <pair id="DDI-DrugBank.d215.s0.p1" e1="DDI-DrugBank.d215.s0.e0" e2="DDI-DrugBank.d215.s0.e2" ddi="true" type="advise" flags="True" e1_name="anileridine" e2_name="sedatives" e1_pos="5" e2_pos="12" path="5@@7@@12@@">anileridine@@@@nsubjpass@@coadministered@@prep_with@@sedatives</pair>  
+      <pair id="DDI-DrugBank.d215.s0.p2" e1="DDI-DrugBank.d215.s0.e0" e2="DDI-DrugBank.d215.s0.e3" ddi="true" type="advise" flags="True" e1_name="anileridine" e2_name="phenothiazines" e1_pos="5" e2_pos="14" path="5@@7@@14@@">anileridine@@@@nsubjpass@@coadministered@@prep_with@@phenothiazines</pair>  
+      <pair id="DDI-DrugBank.d215.s0.p3" e1="DDI-DrugBank.d215.s0.e0" e2="DDI-DrugBank.d215.s0.e4" ddi="true" type="advise" flags="True" e1_name="anileridine" e2_name="anesthetics" e1_pos="5" e2_pos="17" path="5@@7@@17@@">anileridine@@@@nsubjpass@@coadministered@@prep_with@@anesthetics</pair>  
+      <pair id="DDI-DrugBank.d215.s0.p4" e1="DDI-DrugBank.d215.s0.e1" e2="DDI-DrugBank.d215.s0.e2" ddi="false" flags="True" e1_name="opioids" e2_name="sedatives" e1_pos="10" e2_pos="12" path="10@@12@@">opioids@@@@conj_or@@sedatives</pair>  
+      <pair id="DDI-DrugBank.d215.s0.p5" e1="DDI-DrugBank.d215.s0.e1" e2="DDI-DrugBank.d215.s0.e3" ddi="false" flags="True" e1_name="opioids" e2_name="phenothiazines" e1_pos="10" e2_pos="14" path="10@@14@@">opioids@@@@conj_or@@phenothiazines</pair>  
+      <pair id="DDI-DrugBank.d215.s0.p6" e1="DDI-DrugBank.d215.s0.e1" e2="DDI-DrugBank.d215.s0.e4" ddi="false" flags="True" e1_name="opioids" e2_name="anesthetics" e1_pos="10" e2_pos="17" path="10@@17@@">opioids@@@@conj_or@@anesthetics</pair>  
+      <pair id="DDI-DrugBank.d215.s0.p7" e1="DDI-DrugBank.d215.s0.e2" e2="DDI-DrugBank.d215.s0.e3" ddi="false" flags="True" e1_name="sedatives" e2_name="phenothiazines" e1_pos="12" e2_pos="14" path="12@@7@@14@@">sedatives@@@@prep_with@@coadministered@@prep_with@@phenothiazines</pair>  
+      <pair id="DDI-DrugBank.d215.s0.p8" e1="DDI-DrugBank.d215.s0.e2" e2="DDI-DrugBank.d215.s0.e4" ddi="false" flags="True" e1_name="sedatives" e2_name="anesthetics" e1_pos="12" e2_pos="17" path="12@@7@@17@@">sedatives@@@@prep_with@@coadministered@@prep_with@@anesthetics</pair>  
+      <pair id="DDI-DrugBank.d215.s0.p9" e1="DDI-DrugBank.d215.s0.e3" e2="DDI-DrugBank.d215.s0.e4" ddi="false" flags="True" e1_name="phenothiazines" e2_name="anesthetics" e1_pos="14" e2_pos="17" path="14@@7@@17@@">phenothiazines@@@@prep_with@@coadministered@@prep_with@@anesthetics</pair> 
+   </sentence> 
+</document>

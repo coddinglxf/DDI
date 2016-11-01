@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d129"> 
+   <sentence id="DDI-MedLine.d129.s0" text="Green tea polyphenols as potent enhancers of glucocorticoid-induced mouse mammary tumor virus gene expression.
+" new_text="Green tea polyphenols@@as@@potent@@enhancers@@of@@glucocorticoid-induced@@mouse@@mammary@@tumor@@virus@@gene@@expression@@.@@"> 
+      <entity id="DDI-MedLine.d129.s0.e0" charOffset="0-20" type="drug" text="Green tea polyphenols" position="0"/>  
+      <entity id="DDI-MedLine.d129.s0.e1" charOffset="32-40" type="drug" text="enhancers" position="3"/>  
+      <pair id="DDI-MedLine.d129.s0.p0" e1="DDI-MedLine.d129.s0.e0" e2="DDI-MedLine.d129.s0.e1" ddi="false" flags="True" e1_name="Green tea polyphenols" e2_name="enhancers" e1_pos="0" e2_pos="3" path="0@@3@@">Green tea polyphenols@@@@prep_as@@enhancers</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d129.s1" text="The effect of natural and synthetic galloyl esters on glucocorticoid-induced gene expression was evaluated by using rat fibroblast 3Y1 cells stably transfected with a luciferase reporter gene under the transcriptional regulation of the mouse mammary tumor virus promoter. " new_text="The@@effect@@of@@natural@@and@@synthetic@@galloyl@@esters@@on@@glucocorticoid-induced@@gene@@expression@@was@@evaluated@@by@@using@@rat@@fibroblast@@3Y1@@cells@@stably@@transfected@@with@@a@@luciferase@@reporter@@gene@@under@@the@@transcriptional@@regulation@@of@@the@@mouse@@mammary@@tumor@@virus@@promoter@@.@@"> 
+      <entity id="DDI-MedLine.d129.s1.e0" charOffset="262-269" type="drug" text="promoter" position="37"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d129.s2" text="The glucocorticoid-induced gene transcription was strongly suppressed by synthetic alkyl esters; " new_text="The@@glucocorticoid-induced@@gene@@transcription@@was@@strongly@@suppressed@@by@@synthetic@@alkyl@@esters;@@"/>  
+   <sentence id="DDI-MedLine.d129.s3" text="n-dodecyl gallate showed the most potent inhibition (66% inhibition at 10 microM), which was far more potent than that of crude tannic acid. " new_text="n-dodecyl gallate@@showed@@the@@most@@potent@@inhibition@@(66%@@inhibition@@at@@10@@microM)@@,@@which@@was@@far@@more@@potent@@than@@that@@of@@crude@@tannic acid@@.@@"> 
+      <entity id="DDI-MedLine.d129.s3.e0" charOffset="0-16" type="drug" text="n-dodecyl gallate" position="0"/>  
+      <entity id="DDI-MedLine.d129.s3.e1" charOffset="128-138" type="drug" text="tannic acid" position="21"/>  
+      <pair id="DDI-MedLine.d129.s3.p0" e1="DDI-MedLine.d129.s3.e0" e2="DDI-MedLine.d129.s3.e1" ddi="false" flags="True" e1_name="n-dodecyl gallate" e2_name="tannic acid" e1_pos="0" e2_pos="21" path="0@@1@@7@@16@@18@@21@@">n-dodecyl gallate@@@@dep@@showed@@nsubj@@inhibition@@rcmod@@potent@@prep_than@@that@@prep_of@@tannic acid</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d129.s4" text="n-Octyl and n-cetyl gallate also showed good inhibition, while gallic acid itself was not so active, suggesting that the presence of hydrophobic side chain is important for the suppressive effect. " new_text="n-Octyl@@and@@n-cetyl@@gallate@@also@@showed@@good@@inhibition@@,@@while@@gallic@@acid@@itself@@was@@not@@so@@active@@,@@suggesting@@that@@the@@presence@@of@@hydrophobic@@side@@chain@@is@@important@@for@@the@@suppressive@@effect@@.@@"/>  
+   <sentence id="DDI-MedLine.d129.s5" text="On the other hand, surprisingly, green tea gallocatechins, (-)-epigallocatechin-3-O-gallate and theasinensin A, potently enhanced the promoter activity (182 and 247% activity at 1 microM, respectively). " new_text="On@@the@@other@@hand@@,@@surprisingly@@,@@green tea gallocatechins@@,@@(-)-epigallocatechin-3-O-gallate@@and@@theasinensin@@A@@,@@potently@@enhanced@@the@@promoter@@activity@@(182@@and@@247%@@activity@@at@@1@@microM@@,@@respectively)@@.@@"> 
+      <entity id="DDI-MedLine.d129.s5.e0" charOffset="33-56" type="drug" text="green tea gallocatechins" position="7"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d129.s6" text="The regulation of the level of the glucocorticoid-induced gene expression by the antioxidative gallates is of great interest from a therapeutic point of view." new_text="The@@regulation@@of@@the@@level@@of@@the@@glucocorticoid-induced@@gene@@expression@@by@@the@@antioxidative@@gallates@@is@@of@@great@@interest@@from@@a@@therapeutic@@point@@of@@view@@.@@"/> 
+</document>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d180"> 
+   <sentence id="DDI-DrugBank.d180.s0" text="Digitalis toxicity may be aggravated by the initial release of norepinephrine caused by Bretylium Tosylate Injection." new_text="Digitalis@@toxicity@@may@@be@@aggravated@@by@@the@@initial@@release@@of@@norepinephrine@@caused@@by@@Bretylium Tosylate@@Injection@@.@@"> 
+      <entity id="DDI-DrugBank.d180.s0.e0" charOffset="0-8" type="group" text="Digitalis" position="0"/>  
+      <entity id="DDI-DrugBank.d180.s0.e1" charOffset="88-105" type="drug" text="Bretylium Tosylate" position="13"/>  
+      <pair id="DDI-DrugBank.d180.s0.p0" e1="DDI-DrugBank.d180.s0.e0" e2="DDI-DrugBank.d180.s0.e1" ddi="true" type="effect" flags="True" e1_name="Digitalis" e2_name="Bretylium Tosylate" e1_pos="0" e2_pos="13" path="0@@1@@4@@8@@10@@11@@14@@13@@">Digitalis@@@@nn@@toxicity@@nsubjpass@@aggravated@@agent@@release@@prep_of@@norepinephrine@@partmod@@caused@@agent@@Injection@@nn@@Bretylium Tosylate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d180.s1" text="The pressor effects of catecholamines such as dopamine or norepinephrine are enhanced by Bretylium Tosylate." new_text="The@@pressor@@effects@@of@@catecholamines@@such@@as@@dopamine@@or@@norepinephrine@@are@@enhanced@@by@@Bretylium Tosylate@@.@@"> 
+      <entity id="DDI-DrugBank.d180.s1.e0" charOffset="23-36" type="group" text="catecholamines" position="4"/>  
+      <entity id="DDI-DrugBank.d180.s1.e1" charOffset="46-53" type="drug" text="dopamine" position="7"/>  
+      <entity id="DDI-DrugBank.d180.s1.e2" charOffset="58-71" type="drug" text="norepinephrine" position="9"/>  
+      <entity id="DDI-DrugBank.d180.s1.e3" charOffset="89-106" type="drug" text="Bretylium Tosylate" position="13"/>  
+      <pair id="DDI-DrugBank.d180.s1.p0" e1="DDI-DrugBank.d180.s1.e0" e2="DDI-DrugBank.d180.s1.e1" ddi="false" flags="True" e1_name="catecholamines" e2_name="dopamine" e1_pos="4" e2_pos="7" path="4@@7@@">catecholamines@@@@prep_such_as@@dopamine</pair>  
+      <pair id="DDI-DrugBank.d180.s1.p1" e1="DDI-DrugBank.d180.s1.e0" e2="DDI-DrugBank.d180.s1.e2" ddi="false" flags="True" e1_name="catecholamines" e2_name="norepinephrine" e1_pos="4" e2_pos="9" path="4@@9@@">catecholamines@@@@prep_such_as@@norepinephrine</pair>  
+      <pair id="DDI-DrugBank.d180.s1.p2" e1="DDI-DrugBank.d180.s1.e0" e2="DDI-DrugBank.d180.s1.e3" ddi="true" type="effect" flags="True" e1_name="catecholamines" e2_name="Bretylium Tosylate" e1_pos="4" e2_pos="13" path="4@@2@@11@@13@@">catecholamines@@@@prep_of@@effects@@nsubjpass@@enhanced@@agent@@Bretylium Tosylate</pair>  
+      <pair id="DDI-DrugBank.d180.s1.p3" e1="DDI-DrugBank.d180.s1.e1" e2="DDI-DrugBank.d180.s1.e2" ddi="false" flags="True" e1_name="dopamine" e2_name="norepinephrine" e1_pos="7" e2_pos="9" path="7@@9@@">dopamine@@@@conj_or@@norepinephrine</pair>  
+      <pair id="DDI-DrugBank.d180.s1.p4" e1="DDI-DrugBank.d180.s1.e1" e2="DDI-DrugBank.d180.s1.e3" ddi="true" type="effect" flags="True" e1_name="dopamine" e2_name="Bretylium Tosylate" e1_pos="7" e2_pos="13" path="7@@4@@2@@11@@13@@">dopamine@@@@prep_such_as@@catecholamines@@prep_of@@effects@@nsubjpass@@enhanced@@agent@@Bretylium Tosylate</pair>  
+      <pair id="DDI-DrugBank.d180.s1.p5" e1="DDI-DrugBank.d180.s1.e2" e2="DDI-DrugBank.d180.s1.e3" ddi="true" type="effect" flags="True" e1_name="norepinephrine" e2_name="Bretylium Tosylate" e1_pos="9" e2_pos="13" path="9@@4@@2@@11@@13@@">norepinephrine@@@@prep_such_as@@catecholamines@@prep_of@@effects@@nsubjpass@@enhanced@@agent@@Bretylium Tosylate</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d180.s2" text="When catecholamines are administered, dilute solutions should be used and blood pressure should be monitored closely." new_text="When@@catecholamines@@are@@administered@@,@@dilute@@solutions@@should@@be@@used@@and@@blood@@pressure@@should@@be@@monitored@@closely@@.@@"> 
+      <entity id="DDI-DrugBank.d180.s2.e0" charOffset="5-18" type="group" text="catecholamines" position="1"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d180.s3" text="Although there is little published information on concomitant administration of lidocaine and Bretylium Tosylate, these drugs are often administered concurrently without any evidence of interactions resulting in adverse effects or diminished efficacy." new_text="Although@@there@@is@@little@@published@@information@@on@@concomitant@@administration@@of@@lidocaine@@and@@Bretylium Tosylate@@,@@these@@drugs@@are@@often@@administered@@concurrently@@without@@any@@evidence@@of@@interactions@@resulting@@in@@adverse@@effects@@or@@diminished@@efficacy@@.@@"> 
+      <entity id="DDI-DrugBank.d180.s3.e0" charOffset="80-88" type="drug" text="lidocaine" position="10"/>  
+      <entity id="DDI-DrugBank.d180.s3.e1" charOffset="94-111" type="drug" text="Bretylium Tosylate" position="12"/>  
+      <pair id="DDI-DrugBank.d180.s3.p0" e1="DDI-DrugBank.d180.s3.e0" e2="DDI-DrugBank.d180.s3.e1" ddi="false" flags="True" e1_name="lidocaine" e2_name="Bretylium Tosylate" e1_pos="10" e2_pos="12" path="10@@12@@">lidocaine@@@@conj_and@@Bretylium Tosylate</pair> 
+   </sentence> 
+</document>

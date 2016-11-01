@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d45"> 
+   <sentence id="DDI-MedLine.d45.s0" text="Selective survival in pentazocine and tripelennamine of Pseudomonas aeruginosa serotype O11 from drug addicts.
+" new_text="Selective@@survival@@in@@pentazocine@@and@@tripelennamine@@of@@Pseudomonas@@aeruginosa@@serotype@@O11@@from@@drug@@addicts@@.@@"> 
+      <entity id="DDI-MedLine.d45.s0.e0" charOffset="22-32" type="drug" text="pentazocine" position="3"/>  
+      <entity id="DDI-MedLine.d45.s0.e1" charOffset="38-51" type="drug" text="tripelennamine" position="5"/>  
+      <pair id="DDI-MedLine.d45.s0.p0" e1="DDI-MedLine.d45.s0.e0" e2="DDI-MedLine.d45.s0.e1" ddi="false" flags="True" e1_name="pentazocine" e2_name="tripelennamine" e1_pos="3" e2_pos="5" path="3@@5@@">pentazocine@@@@conj_and@@tripelennamine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d45.s1" text="The growth of Pseudomonas aeruginosa, particularly serotype O11, in pentazocine and tripelennamine " new_text="The@@growth@@of@@Pseudomonas@@aeruginosa@@,@@particularly@@serotype@@O11@@,@@in@@pentazocine@@and@@tripelennamine@@"> 
+      <entity id="DDI-MedLine.d45.s1.e0" charOffset="68-78" type="drug" text="pentazocine" position="11"/>  
+      <entity id="DDI-MedLine.d45.s1.e1" charOffset="84-97" type="drug" text="tripelennamine" position="13"/>  
+      <pair id="DDI-MedLine.d45.s1.p0" e1="DDI-MedLine.d45.s1.e0" e2="DDI-MedLine.d45.s1.e1" ddi="false" flags="True" e1_name="pentazocine" e2_name="tripelennamine" e1_pos="11" e2_pos="13" path="11@@13@@">pentazocine@@@@conj_and@@tripelennamine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d45.s2" text="was evaluated as a possible explanation for the association of deep-seated infection with this organism and abuse of these drugs. " new_text="was@@evaluated@@as@@a@@possible@@explanation@@for@@the@@association@@of@@deep-seated@@infection@@with@@this@@organism@@and@@abuse@@of@@these@@drugs@@.@@"/>  
+   <sentence id="DDI-MedLine.d45.s3" text="The mean reduction of growth caused by the drugs was 1,000-fold greater for 49 Pseudomonas strains from normal subjects than for 32 strains from drug addicts (4.2 vs. 1.3 logs of reduction at 2 hr, P less than .0005). " new_text="The@@mean@@reduction@@of@@growth@@caused@@by@@the@@drugs@@was@@1,000-fold@@greater@@for@@49@@Pseudomonas@@strains@@from@@normal@@subjects@@than@@for@@32@@strains@@from@@drug@@addicts@@(4.2@@vs@@.@@1.3@@logs@@of@@reduction@@at@@2@@hr@@,@@P@@less@@than@@.0005)@@.@@"/>  
+   <sentence id="DDI-MedLine.d45.s4" text="A common phenotypic subset of the serotype O11 strains from drug addicts was especially resistant to the inhibitory effects. " new_text="A@@common@@phenotypic@@subset@@of@@the@@serotype@@O11@@strains@@from@@drug@@addicts@@was@@especially@@resistant@@to@@the@@inhibitory@@effects@@.@@"/>  
+   <sentence id="DDI-MedLine.d45.s5" text="Twelve strains of Staphylococcus aureus (a frequent cause of infection in heroin, but not in pentazocine and tripelennamine, addicts) were completely inhibited by the drug combination. " new_text="Twelve@@strains@@of@@Staphylococcus@@aureus@@(a@@frequent@@cause@@of@@infection@@in@@heroin@@,@@but@@not@@in@@pentazocine@@and@@tripelennamine@@,@@addicts)@@were@@completely@@inhibited@@by@@the@@drug@@combination@@.@@"> 
+      <entity id="DDI-MedLine.d45.s5.e0" charOffset="74-79" type="drug_n" text="heroin" position="11"/>  
+      <entity id="DDI-MedLine.d45.s5.e1" charOffset="93-103" type="drug" text="pentazocine" position="16"/>  
+      <entity id="DDI-MedLine.d45.s5.e2" charOffset="109-122" type="drug" text="tripelennamine" position="18"/>  
+      <pair id="DDI-MedLine.d45.s5.p0" e1="DDI-MedLine.d45.s5.e0" e2="DDI-MedLine.d45.s5.e1" ddi="false" flags="True" e1_name="heroin" e2_name="pentazocine" e1_pos="11" e2_pos="16" path="11@@10@@15@@16@@">heroin@@@@pobj@@in@@dep@@in@@pobj@@pentazocine</pair>  
+      <pair id="DDI-MedLine.d45.s5.p1" e1="DDI-MedLine.d45.s5.e0" e2="DDI-MedLine.d45.s5.e2" ddi="false" flags="True" e1_name="heroin" e2_name="tripelennamine" e1_pos="11" e2_pos="18" path="11@@10@@15@@18@@">heroin@@@@pobj@@in@@dep@@in@@pobj@@tripelennamine</pair>  
+      <pair id="DDI-MedLine.d45.s5.p2" e1="DDI-MedLine.d45.s5.e1" e2="DDI-MedLine.d45.s5.e2" ddi="true" type="effect" flags="True" e1_name="pentazocine" e2_name="tripelennamine" e1_pos="16" e2_pos="18" path="16@@18@@">pentazocine@@@@conj_and@@tripelennamine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d45.s6" text="Dose-response curves (derived from the results of using the tablets as well as pure powders) showed that tripelennamine was responsible for the inhibitory activity, which was partially antagonized by pentazocine. " new_text="Dose-response@@curves@@(derived@@from@@the@@results@@of@@using@@the@@tablets@@as@@well@@as@@pure@@powders)@@showed@@that@@tripelennamine@@was@@responsible@@for@@the@@inhibitory@@activity@@,@@which@@was@@partially@@antagonized@@by@@pentazocine@@.@@"> 
+      <entity id="DDI-MedLine.d45.s6.e0" charOffset="105-118" type="drug" text="tripelennamine" position="17"/>  
+      <entity id="DDI-MedLine.d45.s6.e1" charOffset="200-210" type="drug" text="pentazocine" position="30"/>  
+      <pair id="DDI-MedLine.d45.s6.p0" e1="DDI-MedLine.d45.s6.e0" e2="DDI-MedLine.d45.s6.e1" ddi="true" type="effect" flags="True" e1_name="tripelennamine" e2_name="pentazocine" e1_pos="17" e2_pos="30" path="17@@19@@23@@28@@30@@">tripelennamine@@@@nsubj@@responsible@@prep_for@@activity@@rcmod@@antagonized@@agent@@pentazocine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d45.s7" text="We conclude that an ability of some P. " new_text="We@@conclude@@that@@an@@ability@@of@@some@@P@@.@@"/>  
+   <sentence id="DDI-MedLine.d45.s8" text="aeruginosa serotype O11 strains, but not S. " new_text="aeruginosa@@serotype@@O11@@strains@@,@@but@@not@@S@@.@@"/>  
+   <sentence id="DDI-MedLine.d45.s9" text="aureus, to survive in pentazocine and tripelennamine may explain in part a shift from S. " new_text="aureus@@,@@to@@survive@@in@@pentazocine@@and@@tripelennamine@@may@@explain@@in@@part@@a@@shift@@from@@S@@.@@"> 
+      <entity id="DDI-MedLine.d45.s9.e0" charOffset="22-32" type="drug" text="pentazocine" position="5"/>  
+      <entity id="DDI-MedLine.d45.s9.e1" charOffset="38-51" type="drug" text="tripelennamine" position="7"/>  
+      <pair id="DDI-MedLine.d45.s9.p0" e1="DDI-MedLine.d45.s9.e0" e2="DDI-MedLine.d45.s9.e1" ddi="false" flags="True" e1_name="pentazocine" e2_name="tripelennamine" e1_pos="5" e2_pos="7" path="5@@7@@">pentazocine@@@@conj_and@@tripelennamine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d45.s10" text="aureus to P. " new_text="aureus@@to@@P@@.@@"/>  
+   <sentence id="DDI-MedLine.d45.s11" text="aeruginosa as common pathogens of drug addicts in areas where abuse of this combination of drugs has increased." new_text="aeruginosa@@as@@common@@pathogens@@of@@drug@@addicts@@in@@areas@@where@@abuse@@of@@this@@combination@@of@@drugs@@has@@increased@@.@@"/> 
+</document>

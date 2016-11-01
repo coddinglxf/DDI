@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d494"> 
+   <sentence id="DDI-DrugBank.d494.s0" text="Concomitant use with other calcium-containing medicines (including antacids) may cause too much calcium in the blood or urine, which may increase the chance of side effects." new_text="Concomitant@@use@@with@@other@@calcium@@-containing@@medicines@@(including@@antacids@@)@@may@@cause@@too@@much@@calcium@@in@@the@@blood@@or@@urine@@,@@which@@may@@increase@@the@@chance@@of@@side@@effects@@.@@"> 
+      <entity id="DDI-DrugBank.d494.s0.e0" charOffset="27-33" type="drug" text="calcium" position="4"/>  
+      <entity id="DDI-DrugBank.d494.s0.e1" charOffset="67-74" type="group" text="antacids" position="8"/>  
+      <entity id="DDI-DrugBank.d494.s0.e2" charOffset="96-102" type="drug" text="calcium" position="14"/>  
+      <pair id="DDI-DrugBank.d494.s0.p0" e1="DDI-DrugBank.d494.s0.e0" e2="DDI-DrugBank.d494.s0.e1" ddi="false" flags="True" e1_name="calcium" e2_name="antacids" e1_pos="4" e2_pos="8" path="4@@6@@7@@9@@8@@">calcium@@@@nn@@medicines@@partmod@@(including@@dobj@@)@@amod@@antacids</pair>  
+      <pair id="DDI-DrugBank.d494.s0.p1" e1="DDI-DrugBank.d494.s0.e0" e2="DDI-DrugBank.d494.s0.e2" ddi="false" flags="True" e1_name="calcium" e2_name="calcium" e1_pos="4" e2_pos="14" path="4@@6@@1@@11@@14@@">calcium@@@@nn@@medicines@@prep_with@@use@@nsubj@@cause@@dobj@@calcium</pair>  
+      <pair id="DDI-DrugBank.d494.s0.p2" e1="DDI-DrugBank.d494.s0.e1" e2="DDI-DrugBank.d494.s0.e2" ddi="false" flags="True" e1_name="antacids" e2_name="calcium" e1_pos="8" e2_pos="14" path="8@@9@@7@@6@@1@@11@@14@@">antacids@@@@amod@@)@@dobj@@(including@@partmod@@medicines@@prep_with@@use@@nsubj@@cause@@dobj@@calcium</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d494.s1" text="Using calcium acetate with digitalis glycosides (heart medicine) may cause hypercalcemia (too much calcium in the blood), which could increase the chance of developing an irregular heartbeat." new_text="Using@@calcium acetate@@with@@digitalis glycosides@@(heart@@medicine)@@may@@cause@@hypercalcemia@@(too@@much@@calcium@@in@@the@@blood)@@,@@which@@could@@increase@@the@@chance@@of@@developing@@an@@irregular@@heartbeat@@.@@"> 
+      <entity id="DDI-DrugBank.d494.s1.e0" charOffset="6-20" type="drug" text="calcium acetate" position="1"/>  
+      <entity id="DDI-DrugBank.d494.s1.e1" charOffset="27-46" type="group" text="digitalis glycosides" position="3"/>  
+      <entity id="DDI-DrugBank.d494.s1.e2" charOffset="99-105" type="drug" text="calcium" position="11"/>  
+      <pair id="DDI-DrugBank.d494.s1.p0" e1="DDI-DrugBank.d494.s1.e0" e2="DDI-DrugBank.d494.s1.e1" ddi="true" type="effect" flags="True" e1_name="calcium acetate" e2_name="digitalis glycosides" e1_pos="1" e2_pos="3" path="1@@0@@5@@3@@">calcium acetate@@@@dobj@@Using@@prep_with@@medicine)@@amod@@digitalis glycosides</pair>  
+      <pair id="DDI-DrugBank.d494.s1.p1" e1="DDI-DrugBank.d494.s1.e0" e2="DDI-DrugBank.d494.s1.e2" ddi="false" flags="True" e1_name="calcium acetate" e2_name="calcium" e1_pos="1" e2_pos="11" path="1@@0@@11@@">calcium acetate@@@@dobj@@Using@@nsubj@@calcium</pair>  
+      <pair id="DDI-DrugBank.d494.s1.p2" e1="DDI-DrugBank.d494.s1.e1" e2="DDI-DrugBank.d494.s1.e2" ddi="false" flags="True" e1_name="digitalis glycosides" e2_name="calcium" e1_pos="3" e2_pos="11" path="3@@5@@0@@11@@">digitalis glycosides@@@@amod@@medicine)@@prep_with@@Using@@nsubj@@calcium</pair> 
+   </sentence> 
+</document>

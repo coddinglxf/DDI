@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d89"> 
+   <sentence id="DDI-MedLine.d89.s0" text="Therapeutic drug monitoring can avoid iatrogenic alterations caused by 99mTc-methylene diphosphonate (MDP)-gentamicin interaction.
+" new_text="Therapeutic@@drug@@monitoring@@can@@avoid@@iatrogenic@@alterations@@caused@@by@@99mTc-methylene diphosphonate@@(MDP)-@@gentamicin@@interaction@@.@@"> 
+      <entity id="DDI-MedLine.d89.s0.e0" charOffset="71-99" type="drug" text="99mTc-methylene diphosphonate" position="9"/>  
+      <entity id="DDI-MedLine.d89.s0.e1" charOffset="107-116" type="drug" text="gentamicin" position="11"/>  
+      <pair id="DDI-MedLine.d89.s0.p0" e1="DDI-MedLine.d89.s0.e0" e2="DDI-MedLine.d89.s0.e1" ddi="true" type="effect" flags="True" e1_name="99mTc-methylene diphosphonate" e2_name="gentamicin" e1_pos="9" e2_pos="11" path="9@@12@@11@@">99mTc-methylene diphosphonate@@@@amod@@interaction@@nn@@gentamicin</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d89.s1" text="Gentamicin is an aminoglycoside antibiotic used to treat a wide variety of infections caused by gram-negative organisms, but it is potentially toxic to the kidneys. " new_text="Gentamicin@@is@@an@@aminoglycoside antibiotic@@used@@to@@treat@@a@@wide@@variety@@of@@infections@@caused@@by@@gram-negative@@organisms@@,@@but@@it@@is@@potentially@@toxic@@to@@the@@kidneys@@.@@"> 
+      <entity id="DDI-MedLine.d89.s1.e0" charOffset="0-9" type="drug" text="Gentamicin" position="0"/>  
+      <entity id="DDI-MedLine.d89.s1.e1" charOffset="17-41" type="group" text="aminoglycoside antibiotic" position="3"/>  
+      <pair id="DDI-MedLine.d89.s1.p0" e1="DDI-MedLine.d89.s1.e0" e2="DDI-MedLine.d89.s1.e1" ddi="false" flags="True" e1_name="Gentamicin" e2_name="aminoglycoside antibiotic" e1_pos="0" e2_pos="3" path="0@@3@@">Gentamicin@@@@nsubj@@aminoglycoside antibiotic</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d89.s2" text="Due to its nephrotoxicity, gentamicin may cause abnormal renal uptake to be seen on 99mTc-MDP bone scintigraphy. " new_text="Due@@to@@its@@nephrotoxicity@@,@@gentamicin@@may@@cause@@abnormal@@renal@@uptake@@to@@be@@seen@@on@@99mTc-MDP@@bone@@scintigraphy@@.@@"> 
+      <entity id="DDI-MedLine.d89.s2.e0" charOffset="27-36" type="drug" text="gentamicin" position="5"/>  
+      <entity id="DDI-MedLine.d89.s2.e1" charOffset="84-92" type="drug" text="99mTc-MDP" position="15"/>  
+      <pair id="DDI-MedLine.d89.s2.p0" e1="DDI-MedLine.d89.s2.e0" e2="DDI-MedLine.d89.s2.e1" ddi="true" type="mechanism" flags="True" e1_name="gentamicin" e2_name="99mTc-MDP" e1_pos="5" e2_pos="15" path="5@@13@@17@@15@@">gentamicin@@@@xsubj@@seen@@prep_on@@scintigraphy@@amod@@99mTc-MDP</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d89.s3" text="The presence of the radiopharmaceutical in the kidneys, along with an increase in renal retention, tend to produce scintigraphic results that falsely identify characteristics related to diseases such as renal vascular, or urinary tract obstruction, and even renal cancer. " new_text="The@@presence@@of@@the@@radiopharmaceutical@@in@@the@@kidneys@@,@@along@@with@@an@@increase@@in@@renal@@retention@@,@@tend@@to@@produce@@scintigraphic@@results@@that@@falsely@@identify@@characteristics@@related@@to@@diseases@@such@@as@@renal@@vascular@@,@@or@@urinary@@tract@@obstruction@@,@@and@@even@@renal@@cancer@@.@@"> 
+      <entity id="DDI-MedLine.d89.s3.e0" charOffset="20-38" type="group" text="radiopharmaceutical" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d89.s4" text="An altered biodistribution may provide misleading information that can either mask or mimic certain disease symptoms. " new_text="An@@altered@@biodistribution@@may@@provide@@misleading@@information@@that@@can@@either@@mask@@or@@mimic@@certain@@disease@@symptoms@@.@@"/>  
+   <sentence id="DDI-MedLine.d89.s5" text="A method to maximize the therapeutic benefit of gentamicin while minimizing the risk of nephrotoxicity and the appearance of a hot kidney on scintigraphy is desirable. " new_text="A@@method@@to@@maximize@@the@@therapeutic@@benefit@@of@@gentamicin@@while@@minimizing@@the@@risk@@of@@nephrotoxicity@@and@@the@@appearance@@of@@a@@hot@@kidney@@on@@scintigraphy@@is@@desirable@@.@@"> 
+      <entity id="DDI-MedLine.d89.s5.e0" charOffset="48-57" type="drug" text="gentamicin" position="8"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d89.s6" text="Serial pharmacokinetic dosing has been proposed as a method to accomplish this goal. " new_text="Serial@@pharmacokinetic@@dosing@@has@@been@@proposed@@as@@a@@method@@to@@accomplish@@this@@goal@@.@@"/>  
+   <sentence id="DDI-MedLine.d89.s7" text="Therapeutic drug monitoring (TDM) of gentamicin therapy, and bone scintigraphy employing 99mTc-MDP as the radiopharmaceutical was carried out in 22 patients. " new_text="Therapeutic@@drug@@monitoring@@(TDM)@@of@@gentamicin@@therapy@@,@@and@@bone@@scintigraphy@@employing@@99mTc-MDP@@as@@the@@radiopharmaceutical@@was@@carried@@out@@in@@22@@patients@@.@@"> 
+      <entity id="DDI-MedLine.d89.s7.e0" charOffset="37-46" type="drug" text="gentamicin" position="5"/>  
+      <entity id="DDI-MedLine.d89.s7.e1" charOffset="89-97" type="drug" text="99mTc-MDP" position="12"/>  
+      <entity id="DDI-MedLine.d89.s7.e2" charOffset="106-124" type="group" text="radiopharmaceutical" position="15"/>  
+      <pair id="DDI-MedLine.d89.s7.p0" e1="DDI-MedLine.d89.s7.e0" e2="DDI-MedLine.d89.s7.e1" ddi="false" flags="True" e1_name="gentamicin" e2_name="99mTc-MDP" e1_pos="5" e2_pos="12" path="5@@6@@3@@11@@12@@">gentamicin@@@@amod@@therapy@@prep_of@@(TDM)@@partmod@@employing@@acomp@@99mTc-MDP</pair>  
+      <pair id="DDI-MedLine.d89.s7.p1" e1="DDI-MedLine.d89.s7.e0" e2="DDI-MedLine.d89.s7.e2" ddi="false" flags="True" e1_name="gentamicin" e2_name="radiopharmaceutical" e1_pos="5" e2_pos="15" path="5@@6@@3@@11@@12@@15@@">gentamicin@@@@amod@@therapy@@prep_of@@(TDM)@@partmod@@employing@@acomp@@99mTc-MDP@@prep_as@@radiopharmaceutical</pair>  
+      <pair id="DDI-MedLine.d89.s7.p2" e1="DDI-MedLine.d89.s7.e1" e2="DDI-MedLine.d89.s7.e2" ddi="false" flags="True" e1_name="99mTc-MDP" e2_name="radiopharmaceutical" e1_pos="12" e2_pos="15" path="12@@15@@">99mTc-MDP@@@@prep_as@@radiopharmaceutical</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d89.s8" text="The data presented here demonstrate that with serial pharmacokinetic dosing of gentamicin, the iatrogenic alteration caused by gentamicin therapy can be avoided." new_text="The@@data@@presented@@here@@demonstrate@@that@@with@@serial@@pharmacokinetic@@dosing@@of@@gentamicin@@,@@the@@iatrogenic@@alteration@@caused@@by@@gentamicin@@therapy@@can@@be@@avoided@@.@@"> 
+      <entity id="DDI-MedLine.d89.s8.e0" charOffset="79-88" type="drug" text="gentamicin" position="11"/>  
+      <entity id="DDI-MedLine.d89.s8.e1" charOffset="127-136" type="drug" text="gentamicin" position="18"/>  
+      <pair id="DDI-MedLine.d89.s8.p0" e1="DDI-MedLine.d89.s8.e0" e2="DDI-MedLine.d89.s8.e1" ddi="false" flags="True" e1_name="gentamicin" e2_name="gentamicin" e1_pos="11" e2_pos="18" path="11@@9@@22@@15@@16@@19@@18@@">gentamicin@@@@prep_of@@dosing@@prep_with@@avoided@@nsubjpass@@alteration@@partmod@@caused@@agent@@therapy@@nn@@gentamicin</pair> 
+   </sentence> 
+</document>

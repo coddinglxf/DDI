@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d651"> 
+   <sentence id="DDI-DrugBank.d651.s0" text="Drug Interactions: Women on oral contraceptives have shown a significant increase in plasma vitamin A levels." new_text="Drug@@Interactions@@:@@Women@@on@@oral@@contraceptives@@have@@shown@@a@@significant@@increase@@in@@plasma@@vitamin A@@levels@@.@@"> 
+      <entity id="DDI-DrugBank.d651.s0.e0" charOffset="33-46" type="group" text="contraceptives" position="6"/>  
+      <entity id="DDI-DrugBank.d651.s0.e1" charOffset="92-100" type="group" text="vitamin A" position="14"/>  
+      <pair id="DDI-DrugBank.d651.s0.p0" e1="DDI-DrugBank.d651.s0.e0" e2="DDI-DrugBank.d651.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="contraceptives" e2_name="vitamin A" e1_pos="6" e2_pos="14" path="6@@3@@8@@11@@15@@14@@">contraceptives@@@@prep_on@@Women@@nsubj@@shown@@dobj@@increase@@prep_in@@levels@@nn@@vitamin A</pair> 
+   </sentence> 
+</document>

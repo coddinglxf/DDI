@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d211"> 
+   <sentence id="DDI-DrugBank.d211.s0" text="When administered concurrently, the following drugs may interact with ampicillin." new_text="When@@administered@@concurrently@@,@@the@@following@@drugs@@may@@interact@@with@@ampicillin@@.@@"> 
+      <entity id="DDI-DrugBank.d211.s0.e0" charOffset="70-79" type="drug" text="ampicillin" position="10"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d211.s1" text="Allopurinol: Increased possibility of skin rash, particularly in hyperuricemic patients may occur." new_text="Allopurinol@@:@@Increased@@possibility@@of@@skin@@rash@@,@@particularly@@in@@hyperuricemic@@patients@@may@@occur@@.@@"> 
+      <entity id="DDI-DrugBank.d211.s1.e0" charOffset="0-10" type="drug" text="Allopurinol" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d211.s2" text="Bacteriostatic Antibiotics: Chloramphenicol, erythromycins, sulfonamides, or tetracyclines may interfere with the bactericidal effect of penicillins." new_text="Bacteriostatic Antibiotics@@:@@Chloramphenicol@@,@@erythromycins@@,@@sulfonamides@@,@@or@@tetracyclines@@may@@interfere@@with@@the@@bactericidal@@effect@@of@@penicillins@@.@@"> 
+      <entity id="DDI-DrugBank.d211.s2.e0" charOffset="0-25" type="group" text="Bacteriostatic Antibiotics" position="0"/>  
+      <entity id="DDI-DrugBank.d211.s2.e1" charOffset="28-42" type="drug" text="Chloramphenicol" position="2"/>  
+      <entity id="DDI-DrugBank.d211.s2.e2" charOffset="45-57" type="drug" text="erythromycins" position="4"/>  
+      <entity id="DDI-DrugBank.d211.s2.e3" charOffset="60-71" type="group" text="sulfonamides" position="6"/>  
+      <entity id="DDI-DrugBank.d211.s2.e4" charOffset="77-89" type="group" text="tetracyclines" position="9"/>  
+      <entity id="DDI-DrugBank.d211.s2.e5" charOffset="137-147" type="group" text="penicillins" position="17"/>  
+      <pair id="DDI-DrugBank.d211.s2.p0" e1="DDI-DrugBank.d211.s2.e0" e2="DDI-DrugBank.d211.s2.e1" ddi="false" flags="True" e1_name="Bacteriostatic Antibiotics" e2_name="Chloramphenicol" e1_pos="0" e2_pos="2" path="0@@11@@2@@">Bacteriostatic Antibiotics@@@@dep@@interfere@@nsubj@@Chloramphenicol</pair>  
+      <pair id="DDI-DrugBank.d211.s2.p1" e1="DDI-DrugBank.d211.s2.e0" e2="DDI-DrugBank.d211.s2.e2" ddi="false" flags="True" e1_name="Bacteriostatic Antibiotics" e2_name="erythromycins" e1_pos="0" e2_pos="4" path="0@@11@@4@@">Bacteriostatic Antibiotics@@@@dep@@interfere@@nsubj@@erythromycins</pair>  
+      <pair id="DDI-DrugBank.d211.s2.p2" e1="DDI-DrugBank.d211.s2.e0" e2="DDI-DrugBank.d211.s2.e3" ddi="false" flags="True" e1_name="Bacteriostatic Antibiotics" e2_name="sulfonamides" e1_pos="0" e2_pos="6" path="0@@11@@6@@">Bacteriostatic Antibiotics@@@@dep@@interfere@@nsubj@@sulfonamides</pair>  
+      <pair id="DDI-DrugBank.d211.s2.p3" e1="DDI-DrugBank.d211.s2.e0" e2="DDI-DrugBank.d211.s2.e4" ddi="false" flags="True" e1_name="Bacteriostatic Antibiotics" e2_name="tetracyclines" e1_pos="0" e2_pos="9" path="0@@11@@9@@">Bacteriostatic Antibiotics@@@@dep@@interfere@@nsubj@@tetracyclines</pair>  
+      <pair id="DDI-DrugBank.d211.s2.p4" e1="DDI-DrugBank.d211.s2.e0" e2="DDI-DrugBank.d211.s2.e5" ddi="false" flags="True" e1_name="Bacteriostatic Antibiotics" e2_name="penicillins" e1_pos="0" e2_pos="17" path="0@@11@@15@@17@@">Bacteriostatic Antibiotics@@@@dep@@interfere@@prep_with@@effect@@prep_of@@penicillins</pair>  
+      <pair id="DDI-DrugBank.d211.s2.p5" e1="DDI-DrugBank.d211.s2.e1" e2="DDI-DrugBank.d211.s2.e2" ddi="false" flags="True" e1_name="Chloramphenicol" e2_name="erythromycins" e1_pos="2" e2_pos="4" path="2@@4@@">Chloramphenicol@@@@conj_or@@erythromycins</pair>  
+      <pair id="DDI-DrugBank.d211.s2.p6" e1="DDI-DrugBank.d211.s2.e1" e2="DDI-DrugBank.d211.s2.e3" ddi="false" flags="True" e1_name="Chloramphenicol" e2_name="sulfonamides" e1_pos="2" e2_pos="6" path="2@@6@@">Chloramphenicol@@@@conj_or@@sulfonamides</pair>  
+      <pair id="DDI-DrugBank.d211.s2.p7" e1="DDI-DrugBank.d211.s2.e1" e2="DDI-DrugBank.d211.s2.e4" ddi="false" flags="True" e1_name="Chloramphenicol" e2_name="tetracyclines" e1_pos="2" e2_pos="9" path="2@@9@@">Chloramphenicol@@@@conj_or@@tetracyclines</pair>  
+      <pair id="DDI-DrugBank.d211.s2.p8" e1="DDI-DrugBank.d211.s2.e1" e2="DDI-DrugBank.d211.s2.e5" ddi="true" type="effect" flags="True" e1_name="Chloramphenicol" e2_name="penicillins" e1_pos="2" e2_pos="17" path="2@@11@@15@@17@@">Chloramphenicol@@@@nsubj@@interfere@@prep_with@@effect@@prep_of@@penicillins</pair>  
+      <pair id="DDI-DrugBank.d211.s2.p9" e1="DDI-DrugBank.d211.s2.e2" e2="DDI-DrugBank.d211.s2.e3" ddi="false" flags="True" e1_name="erythromycins" e2_name="sulfonamides" e1_pos="4" e2_pos="6" path="4@@2@@6@@">erythromycins@@@@conj_or@@Chloramphenicol@@conj_or@@sulfonamides</pair>  
+      <pair id="DDI-DrugBank.d211.s2.p10" e1="DDI-DrugBank.d211.s2.e2" e2="DDI-DrugBank.d211.s2.e4" ddi="false" flags="True" e1_name="erythromycins" e2_name="tetracyclines" e1_pos="4" e2_pos="9" path="4@@2@@9@@">erythromycins@@@@conj_or@@Chloramphenicol@@conj_or@@tetracyclines</pair>  
+      <pair id="DDI-DrugBank.d211.s2.p11" e1="DDI-DrugBank.d211.s2.e2" e2="DDI-DrugBank.d211.s2.e5" ddi="true" type="effect" flags="True" e1_name="erythromycins" e2_name="penicillins" e1_pos="4" e2_pos="17" path="4@@11@@15@@17@@">erythromycins@@@@nsubj@@interfere@@prep_with@@effect@@prep_of@@penicillins</pair>  
+      <pair id="DDI-DrugBank.d211.s2.p12" e1="DDI-DrugBank.d211.s2.e3" e2="DDI-DrugBank.d211.s2.e4" ddi="false" flags="True" e1_name="sulfonamides" e2_name="tetracyclines" e1_pos="6" e2_pos="9" path="6@@2@@9@@">sulfonamides@@@@conj_or@@Chloramphenicol@@conj_or@@tetracyclines</pair>  
+      <pair id="DDI-DrugBank.d211.s2.p13" e1="DDI-DrugBank.d211.s2.e3" e2="DDI-DrugBank.d211.s2.e5" ddi="true" type="effect" flags="True" e1_name="sulfonamides" e2_name="penicillins" e1_pos="6" e2_pos="17" path="6@@11@@15@@17@@">sulfonamides@@@@nsubj@@interfere@@prep_with@@effect@@prep_of@@penicillins</pair>  
+      <pair id="DDI-DrugBank.d211.s2.p14" e1="DDI-DrugBank.d211.s2.e4" e2="DDI-DrugBank.d211.s2.e5" ddi="true" type="effect" flags="True" e1_name="tetracyclines" e2_name="penicillins" e1_pos="9" e2_pos="17" path="9@@11@@15@@17@@">tetracyclines@@@@nsubj@@interfere@@prep_with@@effect@@prep_of@@penicillins</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d211.s3" text="This has been demonstrated in view, however, the clinical significance of this interaction is not well documented." new_text="This@@has@@been@@demonstrated@@in@@view@@,@@however@@,@@the@@clinical@@significance@@of@@this@@interaction@@is@@not@@well@@documented@@.@@"/>  
+   <sentence id="DDI-DrugBank.d211.s4" text="Oral Contraceptives: May be less effective and increased breakthrough bleeding may occur." new_text="Oral@@Contraceptives@@:@@May@@be@@less@@effective@@and@@increased@@breakthrough@@bleeding@@may@@occur@@.@@"> 
+      <entity id="DDI-DrugBank.d211.s4.e0" charOffset="5-18" type="group" text="Contraceptives" position="1"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d211.s5" text="Probenecid: May decrease renal tubular secretion of ampicillin resulting in increased blood levels and/or ampicillin toxicity." new_text="Probenecid@@:@@May@@decrease@@renal@@tubular@@secretion@@of@@ampicillin@@resulting@@in@@increased@@blood@@levels@@and/or@@ampicillin@@toxicity@@.@@"> 
+      <entity id="DDI-DrugBank.d211.s5.e0" charOffset="0-9" type="drug" text="Probenecid" position="0"/>  
+      <entity id="DDI-DrugBank.d211.s5.e1" charOffset="52-61" type="drug" text="ampicillin" position="8"/>  
+      <entity id="DDI-DrugBank.d211.s5.e2" charOffset="106-115" type="drug" text="ampicillin" position="15"/>  
+      <pair id="DDI-DrugBank.d211.s5.p0" e1="DDI-DrugBank.d211.s5.e0" e2="DDI-DrugBank.d211.s5.e1" ddi="true" type="mechanism" flags="True" e1_name="Probenecid" e2_name="ampicillin" e1_pos="0" e2_pos="8" path="0@@3@@6@@8@@">Probenecid@@@@dep@@decrease@@dobj@@secretion@@prep_of@@ampicillin</pair>  
+      <pair id="DDI-DrugBank.d211.s5.p1" e1="DDI-DrugBank.d211.s5.e0" e2="DDI-DrugBank.d211.s5.e2" ddi="false" flags="True" e1_name="Probenecid" e2_name="ampicillin" e1_pos="0" e2_pos="15" path="0@@3@@6@@8@@9@@16@@15@@">Probenecid@@@@dep@@decrease@@dobj@@secretion@@prep_of@@ampicillin@@partmod@@resulting@@prep_in@@toxicity@@nn@@ampicillin</pair>  
+      <pair id="DDI-DrugBank.d211.s5.p2" e1="DDI-DrugBank.d211.s5.e1" e2="DDI-DrugBank.d211.s5.e2" ddi="false" flags="True" e1_name="ampicillin" e2_name="ampicillin" e1_pos="8" e2_pos="15" path="8@@9@@16@@15@@">ampicillin@@@@partmod@@resulting@@prep_in@@toxicity@@nn@@ampicillin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d211.s6" text="Drug/Laboratory Test Interaction After treatment with ampicillin, a false-positive reaction for glucose in the urine may occur with copper sulfate tests (Benedicts solution, Fehlings solution, or Clinitest tablets) but not with enzyme based tests such as Clinistix and Glucose Enzymatic Test Strip USP." new_text="Drug/Laboratory@@Test@@Interaction@@After@@treatment@@with@@ampicillin@@,@@a@@false-positive@@reaction@@for@@glucose@@in@@the@@urine@@may@@occur@@with@@copper sulfate@@tests@@(Benedicts@@solution@@,@@Fehlings@@solution@@,@@or@@Clinitest@@tablets)@@but@@not@@with@@enzyme@@based@@tests@@such@@as@@Clinistix@@and@@Glucose@@Enzymatic@@Test@@Strip@@USP@@.@@"> 
+      <entity id="DDI-DrugBank.d211.s6.e0" charOffset="54-63" type="drug" text="ampicillin" position="6"/>  
+      <entity id="DDI-DrugBank.d211.s6.e1" charOffset="132-145" type="drug_n" text="copper sulfate" position="19"/>  
+      <pair id="DDI-DrugBank.d211.s6.p0" e1="DDI-DrugBank.d211.s6.e0" e2="DDI-DrugBank.d211.s6.e1" ddi="false" flags="True" e1_name="ampicillin" e2_name="copper sulfate" e1_pos="6" e2_pos="19" path="6@@4@@17@@20@@19@@">ampicillin@@@@prep_with@@treatment@@prep_after@@occur@@prep_with@@tests@@amod@@copper sulfate</pair> 
+   </sentence> 
+</document>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d429"> 
+   <sentence id="DDI-DrugBank.d429.s0" text="Antacids and kaolin: Antacids and kaolin can reduce absorption of chloroquine;" new_text="Antacids@@and@@kaolin@@:@@Antacids@@and@@kaolin@@can@@reduce@@absorption@@of@@chloroquine@@;@@"> 
+      <entity id="DDI-DrugBank.d429.s0.e0" charOffset="0-7" type="group" text="Antacids" position="0"/>  
+      <entity id="DDI-DrugBank.d429.s0.e1" charOffset="13-18" type="drug" text="kaolin" position="2"/>  
+      <entity id="DDI-DrugBank.d429.s0.e2" charOffset="21-28" type="group" text="Antacids" position="4"/>  
+      <entity id="DDI-DrugBank.d429.s0.e3" charOffset="34-39" type="drug" text="kaolin" position="6"/>  
+      <entity id="DDI-DrugBank.d429.s0.e4" charOffset="66-76" type="drug" text="chloroquine" position="11"/>  
+      <pair id="DDI-DrugBank.d429.s0.p0" e1="DDI-DrugBank.d429.s0.e0" e2="DDI-DrugBank.d429.s0.e1" ddi="false" flags="True" e1_name="Antacids" e2_name="kaolin" e1_pos="0" e2_pos="2" path="0@@2@@">Antacids@@@@conj_and@@kaolin</pair>  
+      <pair id="DDI-DrugBank.d429.s0.p1" e1="DDI-DrugBank.d429.s0.e0" e2="DDI-DrugBank.d429.s0.e2" ddi="false" flags="True" e1_name="Antacids" e2_name="Antacids" e1_pos="0" e2_pos="4" path="0@@2@@4@@">Antacids@@@@conj_and@@kaolin@@dep@@Antacids</pair>  
+      <pair id="DDI-DrugBank.d429.s0.p2" e1="DDI-DrugBank.d429.s0.e0" e2="DDI-DrugBank.d429.s0.e3" ddi="false" flags="True" e1_name="Antacids" e2_name="kaolin" e1_pos="0" e2_pos="6" path="0@@2@@6@@">Antacids@@@@conj_and@@kaolin@@dep@@kaolin</pair>  
+      <pair id="DDI-DrugBank.d429.s0.p3" e1="DDI-DrugBank.d429.s0.e0" e2="DDI-DrugBank.d429.s0.e4" ddi="false" flags="True" e1_name="Antacids" e2_name="chloroquine" e1_pos="0" e2_pos="11" path="0@@8@@9@@11@@">Antacids@@@@nsubj@@reduce@@dobj@@absorption@@prep_of@@chloroquine</pair>  
+      <pair id="DDI-DrugBank.d429.s0.p4" e1="DDI-DrugBank.d429.s0.e1" e2="DDI-DrugBank.d429.s0.e2" ddi="false" flags="True" e1_name="kaolin" e2_name="Antacids" e1_pos="2" e2_pos="4" path="2@@4@@">kaolin@@@@dep@@Antacids</pair>  
+      <pair id="DDI-DrugBank.d429.s0.p5" e1="DDI-DrugBank.d429.s0.e1" e2="DDI-DrugBank.d429.s0.e3" ddi="false" flags="True" e1_name="kaolin" e2_name="kaolin" e1_pos="2" e2_pos="6" path="2@@6@@">kaolin@@@@dep@@kaolin</pair>  
+      <pair id="DDI-DrugBank.d429.s0.p6" e1="DDI-DrugBank.d429.s0.e1" e2="DDI-DrugBank.d429.s0.e4" ddi="false" flags="True" e1_name="kaolin" e2_name="chloroquine" e1_pos="2" e2_pos="11" path="2@@8@@9@@11@@">kaolin@@@@nsubj@@reduce@@dobj@@absorption@@prep_of@@chloroquine</pair>  
+      <pair id="DDI-DrugBank.d429.s0.p7" e1="DDI-DrugBank.d429.s0.e2" e2="DDI-DrugBank.d429.s0.e3" ddi="false" flags="True" e1_name="Antacids" e2_name="kaolin" e1_pos="4" e2_pos="6" path="4@@6@@">Antacids@@@@conj_and@@kaolin</pair>  
+      <pair id="DDI-DrugBank.d429.s0.p8" e1="DDI-DrugBank.d429.s0.e2" e2="DDI-DrugBank.d429.s0.e4" ddi="true" type="mechanism" flags="True" e1_name="Antacids" e2_name="chloroquine" e1_pos="4" e2_pos="11" path="4@@2@@8@@9@@11@@">Antacids@@@@dep@@kaolin@@nsubj@@reduce@@dobj@@absorption@@prep_of@@chloroquine</pair>  
+      <pair id="DDI-DrugBank.d429.s0.p9" e1="DDI-DrugBank.d429.s0.e3" e2="DDI-DrugBank.d429.s0.e4" ddi="true" type="mechanism" flags="True" e1_name="kaolin" e2_name="chloroquine" e1_pos="6" e2_pos="11" path="6@@2@@8@@9@@11@@">kaolin@@@@dep@@kaolin@@nsubj@@reduce@@dobj@@absorption@@prep_of@@chloroquine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d429.s1" text="an interval of at least 4 hours between intake of these agents and chloroquine should be observed." new_text="an@@interval@@of@@at@@least@@4@@hours@@between@@intake@@of@@these@@agents@@and@@chloroquine@@should@@be@@observed@@.@@"> 
+      <entity id="DDI-DrugBank.d429.s1.e0" charOffset="67-77" type="drug" text="chloroquine" position="13"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d429.s2" text="Cimetidine: Cimetidine can inhibit the metabolism of chloroquine, increasing its plasma level." new_text="Cimetidine@@:@@Cimetidine@@can@@inhibit@@the@@metabolism@@of@@chloroquine@@,@@increasing@@its@@plasma@@level@@.@@"> 
+      <entity id="DDI-DrugBank.d429.s2.e0" charOffset="0-9" type="drug" text="Cimetidine" position="0"/>  
+      <entity id="DDI-DrugBank.d429.s2.e1" charOffset="12-21" type="drug" text="Cimetidine" position="2"/>  
+      <entity id="DDI-DrugBank.d429.s2.e2" charOffset="53-63" type="drug" text="chloroquine" position="8"/>  
+      <pair id="DDI-DrugBank.d429.s2.p0" e1="DDI-DrugBank.d429.s2.e0" e2="DDI-DrugBank.d429.s2.e1" ddi="false" flags="True" e1_name="Cimetidine" e2_name="Cimetidine" e1_pos="0" e2_pos="2" path="0@@4@@2@@">Cimetidine@@@@dep@@inhibit@@nsubj@@Cimetidine</pair>  
+      <pair id="DDI-DrugBank.d429.s2.p1" e1="DDI-DrugBank.d429.s2.e0" e2="DDI-DrugBank.d429.s2.e2" ddi="false" flags="True" e1_name="Cimetidine" e2_name="chloroquine" e1_pos="0" e2_pos="8" path="0@@4@@6@@8@@">Cimetidine@@@@dep@@inhibit@@dobj@@metabolism@@prep_of@@chloroquine</pair>  
+      <pair id="DDI-DrugBank.d429.s2.p2" e1="DDI-DrugBank.d429.s2.e1" e2="DDI-DrugBank.d429.s2.e2" ddi="true" type="mechanism" flags="True" e1_name="Cimetidine" e2_name="chloroquine" e1_pos="2" e2_pos="8" path="2@@4@@6@@8@@">Cimetidine@@@@nsubj@@inhibit@@dobj@@metabolism@@prep_of@@chloroquine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d429.s3" text="Concomitant use of cimetidine should be avoided." new_text="Concomitant@@use@@of@@cimetidine@@should@@be@@avoided@@.@@"> 
+      <entity id="DDI-DrugBank.d429.s3.e0" charOffset="19-28" type="drug" text="cimetidine" position="3"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d429.s4" text="Ampicillin: In a study of healthy volunteers, chloroquine significantly reduced the bioavailability of ampicillin." new_text="Ampicillin@@:@@In@@a@@study@@of@@healthy@@volunteers@@,@@chloroquine@@significantly@@reduced@@the@@bioavailability@@of@@ampicillin@@.@@"> 
+      <entity id="DDI-DrugBank.d429.s4.e0" charOffset="0-9" type="drug" text="Ampicillin" position="0"/>  
+      <entity id="DDI-DrugBank.d429.s4.e1" charOffset="46-56" type="drug" text="chloroquine" position="9"/>  
+      <entity id="DDI-DrugBank.d429.s4.e2" charOffset="103-112" type="drug" text="ampicillin" position="15"/>  
+      <pair id="DDI-DrugBank.d429.s4.p0" e1="DDI-DrugBank.d429.s4.e0" e2="DDI-DrugBank.d429.s4.e1" ddi="false" flags="True" e1_name="Ampicillin" e2_name="chloroquine" e1_pos="0" e2_pos="9" path="0@@11@@9@@">Ampicillin@@@@dep@@reduced@@nsubj@@chloroquine</pair>  
+      <pair id="DDI-DrugBank.d429.s4.p1" e1="DDI-DrugBank.d429.s4.e0" e2="DDI-DrugBank.d429.s4.e2" ddi="false" flags="True" e1_name="Ampicillin" e2_name="ampicillin" e1_pos="0" e2_pos="15" path="0@@11@@13@@15@@">Ampicillin@@@@dep@@reduced@@dobj@@bioavailability@@prep_of@@ampicillin</pair>  
+      <pair id="DDI-DrugBank.d429.s4.p2" e1="DDI-DrugBank.d429.s4.e1" e2="DDI-DrugBank.d429.s4.e2" ddi="true" type="mechanism" flags="True" e1_name="chloroquine" e2_name="ampicillin" e1_pos="9" e2_pos="15" path="9@@11@@13@@15@@">chloroquine@@@@nsubj@@reduced@@dobj@@bioavailability@@prep_of@@ampicillin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d429.s5" text="An interval of at least two hours between intake of this agent and chloroquine should be observed." new_text="An@@interval@@of@@at@@least@@two@@hours@@between@@intake@@of@@this@@agent@@and@@chloroquine@@should@@be@@observed@@.@@"> 
+      <entity id="DDI-DrugBank.d429.s5.e0" charOffset="67-77" type="drug" text="chloroquine" position="13"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d429.s6" text="Cyclosporin: After introduction of chloroquine (oral form), a sudden increase in serum cyclosporin level has been reported." new_text="Cyclosporin@@:@@After@@introduction@@of@@chloroquine@@(oral@@form)@@,@@a@@sudden@@increase@@in@@serum@@cyclosporin@@level@@has@@been@@reported@@.@@"> 
+      <entity id="DDI-DrugBank.d429.s6.e0" charOffset="0-10" type="drug" text="Cyclosporin" position="0"/>  
+      <entity id="DDI-DrugBank.d429.s6.e1" charOffset="35-45" type="drug" text="chloroquine" position="5"/>  
+      <entity id="DDI-DrugBank.d429.s6.e2" charOffset="87-97" type="drug" text="cyclosporin" position="14"/>  
+      <pair id="DDI-DrugBank.d429.s6.p0" e1="DDI-DrugBank.d429.s6.e0" e2="DDI-DrugBank.d429.s6.e1" ddi="false" flags="True" e1_name="Cyclosporin" e2_name="chloroquine" e1_pos="0" e2_pos="5" path="0@@18@@3@@7@@5@@">Cyclosporin@@@@dep@@reported@@prep_after@@introduction@@prep_of@@form)@@amod@@chloroquine</pair>  
+      <pair id="DDI-DrugBank.d429.s6.p1" e1="DDI-DrugBank.d429.s6.e0" e2="DDI-DrugBank.d429.s6.e2" ddi="false" flags="True" e1_name="Cyclosporin" e2_name="cyclosporin" e1_pos="0" e2_pos="14" path="0@@18@@11@@15@@14@@">Cyclosporin@@@@dep@@reported@@nsubjpass@@increase@@prep_in@@level@@nn@@cyclosporin</pair>  
+      <pair id="DDI-DrugBank.d429.s6.p2" e1="DDI-DrugBank.d429.s6.e1" e2="DDI-DrugBank.d429.s6.e2" ddi="true" type="mechanism" flags="True" e1_name="chloroquine" e2_name="cyclosporin" e1_pos="5" e2_pos="14" path="5@@7@@3@@18@@11@@15@@14@@">chloroquine@@@@amod@@form)@@prep_of@@introduction@@prep_after@@reported@@nsubjpass@@increase@@prep_in@@level@@nn@@cyclosporin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d429.s7" text="Therefore, close monitoring of serum cyclosporin level is recommended and, if necessary, chloroquine should be discontinued." new_text="Therefore@@,@@close@@monitoring@@of@@serum@@cyclosporin@@level@@is@@recommended@@and@@,@@if@@necessary@@,@@chloroquine@@should@@be@@discontinued@@.@@"> 
+      <entity id="DDI-DrugBank.d429.s7.e0" charOffset="37-47" type="drug" text="cyclosporin" position="6"/>  
+      <entity id="DDI-DrugBank.d429.s7.e1" charOffset="89-99" type="drug" text="chloroquine" position="15"/>  
+      <pair id="DDI-DrugBank.d429.s7.p0" e1="DDI-DrugBank.d429.s7.e0" e2="DDI-DrugBank.d429.s7.e1" ddi="false" flags="True" e1_name="cyclosporin" e2_name="chloroquine" e1_pos="6" e2_pos="15" path="6@@7@@3@@18@@15@@">cyclosporin@@@@nn@@level@@prep_of@@monitoring@@nsubjpass@@discontinued@@advmod@@chloroquine</pair> 
+   </sentence> 
+</document>

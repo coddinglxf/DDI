@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d96"> 
+   <sentence id="DDI-DrugBank.d96.s0" text="Dimenhydrinate may decrease emetic response to apomorphine." new_text="Dimenhydrinate@@may@@decrease@@emetic@@response@@to@@apomorphine@@.@@"> 
+      <entity id="DDI-DrugBank.d96.s0.e0" charOffset="0-13" type="drug" text="Dimenhydrinate" position="0"/>  
+      <entity id="DDI-DrugBank.d96.s0.e1" charOffset="28-33" type="group" text="emetic" position="3"/>  
+      <entity id="DDI-DrugBank.d96.s0.e2" charOffset="47-57" type="drug" text="apomorphine" position="6"/>  
+      <pair id="DDI-DrugBank.d96.s0.p0" e1="DDI-DrugBank.d96.s0.e0" e2="DDI-DrugBank.d96.s0.e1" ddi="false" flags="True" e1_name="Dimenhydrinate" e2_name="emetic" e1_pos="0" e2_pos="3" path="0@@2@@4@@3@@">Dimenhydrinate@@@@nsubj@@decrease@@dobj@@response@@amod@@emetic</pair>  
+      <pair id="DDI-DrugBank.d96.s0.p1" e1="DDI-DrugBank.d96.s0.e0" e2="DDI-DrugBank.d96.s0.e2" ddi="true" type="effect" flags="True" e1_name="Dimenhydrinate" e2_name="apomorphine" e1_pos="0" e2_pos="6" path="0@@6@@">Dimenhydrinate@@@@xsubj@@apomorphine</pair>  
+      <pair id="DDI-DrugBank.d96.s0.p2" e1="DDI-DrugBank.d96.s0.e1" e2="DDI-DrugBank.d96.s0.e2" ddi="false" flags="True" e1_name="emetic" e2_name="apomorphine" e1_pos="3" e2_pos="6" path="3@@4@@2@@6@@">emetic@@@@amod@@response@@dobj@@decrease@@xcomp@@apomorphine</pair> 
+   </sentence> 
+</document>

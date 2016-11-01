@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d308"> 
+   <sentence id="DDI-DrugBank.d308.s0" text="THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES." new_text="THE@@POTENTIATING@@ACTION@@OF@@HYDROXYZINE@@MUST@@BE@@CONSIDERED@@WHEN@@THE@@DRUG@@IS@@USED@@IN@@CONJUNCTION@@WITH@@CENTRAL NERVOUS SYSTEM DEPRESSANTS@@SUCH@@AS@@NARCOTICS@@,@@NON-NARCOTIC ANALGESICS@@AND@@BARBITURATES@@.@@"> 
+      <entity id="DDI-DrugBank.d308.s0.e0" charOffset="27-37" type="drug" text="HYDROXYZINE" position="4"/>  
+      <entity id="DDI-DrugBank.d308.s0.e1" charOffset="100-133" type="group" text="CENTRAL NERVOUS SYSTEM DEPRESSANTS" position="16"/>  
+      <entity id="DDI-DrugBank.d308.s0.e2" charOffset="143-151" type="group" text="NARCOTICS" position="19"/>  
+      <entity id="DDI-DrugBank.d308.s0.e3" charOffset="154-176" type="group" text="NON-NARCOTIC ANALGESICS" position="21"/>  
+      <entity id="DDI-DrugBank.d308.s0.e4" charOffset="182-193" type="group" text="BARBITURATES" position="23"/>  
+      <pair id="DDI-DrugBank.d308.s0.p0" e1="DDI-DrugBank.d308.s0.e0" e2="DDI-DrugBank.d308.s0.e1" ddi="true" type="effect" flags="True" e1_name="HYDROXYZINE" e2_name="CENTRAL NERVOUS SYSTEM DEPRESSANTS" e1_pos="4" e2_pos="16" path="4@@6@@2@@7@@12@@19@@16@@">HYDROXYZINE@@@@nn@@BE@@prep_of@@ACTION@@nsubj@@CONSIDERED@@advcl@@USED@@prep_with@@NARCOTICS@@nn@@CENTRAL NERVOUS SYSTEM DEPRESSANTS</pair>  
+      <pair id="DDI-DrugBank.d308.s0.p1" e1="DDI-DrugBank.d308.s0.e0" e2="DDI-DrugBank.d308.s0.e2" ddi="true" type="effect" flags="True" e1_name="HYDROXYZINE" e2_name="NARCOTICS" e1_pos="4" e2_pos="19" path="4@@6@@2@@7@@12@@19@@">HYDROXYZINE@@@@nn@@BE@@prep_of@@ACTION@@nsubj@@CONSIDERED@@advcl@@USED@@prep_with@@NARCOTICS</pair>  
+      <pair id="DDI-DrugBank.d308.s0.p2" e1="DDI-DrugBank.d308.s0.e0" e2="DDI-DrugBank.d308.s0.e3" ddi="true" type="effect" flags="True" e1_name="HYDROXYZINE" e2_name="NON-NARCOTIC ANALGESICS" e1_pos="4" e2_pos="21" path="4@@6@@2@@7@@12@@21@@">HYDROXYZINE@@@@nn@@BE@@prep_of@@ACTION@@nsubj@@CONSIDERED@@advcl@@USED@@prep_with@@NON-NARCOTIC ANALGESICS</pair>  
+      <pair id="DDI-DrugBank.d308.s0.p3" e1="DDI-DrugBank.d308.s0.e0" e2="DDI-DrugBank.d308.s0.e4" ddi="true" type="effect" flags="True" e1_name="HYDROXYZINE" e2_name="BARBITURATES" e1_pos="4" e2_pos="23" path="4@@6@@2@@7@@12@@23@@">HYDROXYZINE@@@@nn@@BE@@prep_of@@ACTION@@nsubj@@CONSIDERED@@advcl@@USED@@prep_with@@BARBITURATES</pair>  
+      <pair id="DDI-DrugBank.d308.s0.p4" e1="DDI-DrugBank.d308.s0.e1" e2="DDI-DrugBank.d308.s0.e2" ddi="false" flags="True" e1_name="CENTRAL NERVOUS SYSTEM DEPRESSANTS" e2_name="NARCOTICS" e1_pos="16" e2_pos="19" path="16@@19@@">CENTRAL NERVOUS SYSTEM DEPRESSANTS@@@@nn@@NARCOTICS</pair>  
+      <pair id="DDI-DrugBank.d308.s0.p5" e1="DDI-DrugBank.d308.s0.e1" e2="DDI-DrugBank.d308.s0.e3" ddi="false" flags="True" e1_name="CENTRAL NERVOUS SYSTEM DEPRESSANTS" e2_name="NON-NARCOTIC ANALGESICS" e1_pos="16" e2_pos="21" path="16@@19@@21@@">CENTRAL NERVOUS SYSTEM DEPRESSANTS@@@@nn@@NARCOTICS@@conj_and@@NON-NARCOTIC ANALGESICS</pair>  
+      <pair id="DDI-DrugBank.d308.s0.p6" e1="DDI-DrugBank.d308.s0.e1" e2="DDI-DrugBank.d308.s0.e4" ddi="false" flags="True" e1_name="CENTRAL NERVOUS SYSTEM DEPRESSANTS" e2_name="BARBITURATES" e1_pos="16" e2_pos="23" path="16@@19@@23@@">CENTRAL NERVOUS SYSTEM DEPRESSANTS@@@@nn@@NARCOTICS@@conj_and@@BARBITURATES</pair>  
+      <pair id="DDI-DrugBank.d308.s0.p7" e1="DDI-DrugBank.d308.s0.e2" e2="DDI-DrugBank.d308.s0.e3" ddi="false" flags="True" e1_name="NARCOTICS" e2_name="NON-NARCOTIC ANALGESICS" e1_pos="19" e2_pos="21" path="19@@21@@">NARCOTICS@@@@conj_and@@NON-NARCOTIC ANALGESICS</pair>  
+      <pair id="DDI-DrugBank.d308.s0.p8" e1="DDI-DrugBank.d308.s0.e2" e2="DDI-DrugBank.d308.s0.e4" ddi="false" flags="True" e1_name="NARCOTICS" e2_name="BARBITURATES" e1_pos="19" e2_pos="23" path="19@@23@@">NARCOTICS@@@@conj_and@@BARBITURATES</pair>  
+      <pair id="DDI-DrugBank.d308.s0.p9" e1="DDI-DrugBank.d308.s0.e3" e2="DDI-DrugBank.d308.s0.e4" ddi="false" flags="True" e1_name="NON-NARCOTIC ANALGESICS" e2_name="BARBITURATES" e1_pos="21" e2_pos="23" path="21@@12@@23@@">NON-NARCOTIC ANALGESICS@@@@prep_with@@USED@@prep_with@@BARBITURATES</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d308.s1" text="Therefore when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced." new_text="Therefore@@when@@central nervous system depressants@@are@@administered@@concomitantly@@with@@hydroxyzine@@their@@dosage@@should@@be@@reduced@@.@@"> 
+      <entity id="DDI-DrugBank.d308.s1.e0" charOffset="15-48" type="group" text="central nervous system depressants" position="2"/>  
+      <entity id="DDI-DrugBank.d308.s1.e1" charOffset="86-96" type="drug" text="hydroxyzine" position="7"/>  
+      <pair id="DDI-DrugBank.d308.s1.p0" e1="DDI-DrugBank.d308.s1.e0" e2="DDI-DrugBank.d308.s1.e1" ddi="true" type="advise" flags="True" e1_name="central nervous system depressants" e2_name="hydroxyzine" e1_pos="2" e2_pos="7" path="2@@4@@7@@">central nervous system depressants@@@@nsubjpass@@administered@@prep_with@@hydroxyzine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d308.s2" text="Since drowsiness may occur with use of this drug, patients should be warned of this possibility and cautioned against driving a car or operating dangerous machinery while taking Atarax." new_text="Since@@drowsiness@@may@@occur@@with@@use@@of@@this@@drug@@,@@patients@@should@@be@@warned@@of@@this@@possibility@@and@@cautioned@@against@@driving@@a@@car@@or@@operating@@dangerous@@machinery@@while@@taking@@Atarax@@.@@"> 
+      <entity id="DDI-DrugBank.d308.s2.e0" charOffset="178-183" type="brand" text="Atarax" position="29"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d308.s3" text="Patients should be advised against the simultaneous use of other CNS depressant drugs, and cautioned that the effect of alcohol may be increased." new_text="Patients@@should@@be@@advised@@against@@the@@simultaneous@@use@@of@@other@@CNS depressant drugs@@,@@and@@cautioned@@that@@the@@effect@@of@@alcohol@@may@@be@@increased@@.@@"> 
+      <entity id="DDI-DrugBank.d308.s3.e0" charOffset="65-84" type="group" text="CNS depressant drugs" position="10"/>  
+      <entity id="DDI-DrugBank.d308.s3.e1" charOffset="120-126" type="drug" text="alcohol" position="18"/>  
+      <pair id="DDI-DrugBank.d308.s3.p0" e1="DDI-DrugBank.d308.s3.e0" e2="DDI-DrugBank.d308.s3.e1" ddi="false" flags="True" e1_name="CNS depressant drugs" e2_name="alcohol" e1_pos="10" e2_pos="18" path="10@@7@@3@@13@@21@@16@@18@@">CNS depressant drugs@@@@prep_of@@use@@prep_against@@advised@@conj_and@@cautioned@@ccomp@@increased@@nsubjpass@@effect@@prep_of@@alcohol</pair> 
+   </sentence> 
+</document>

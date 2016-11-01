@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d487"> 
+   <sentence id="DDI-DrugBank.d487.s0" text="The pharmacokinetic interactions listed below are potentially clinically important." new_text="The@@pharmacokinetic@@interactions@@listed@@below@@are@@potentially@@clinically@@important@@.@@"/>  
+   <sentence id="DDI-DrugBank.d487.s1" text="Drugs that induce hepatic enzymes such as phenobarbital, phenytoin and rifampin may increase the clearance of corticosteroids and may require increases in corticosteroid dose to achieve the desired response." new_text="Drugs@@that@@induce@@hepatic@@enzymes@@such@@as@@phenobarbital@@,@@phenytoin@@and@@rifampin@@may@@increase@@the@@clearance@@of@@corticosteroids@@and@@may@@require@@increases@@in@@corticosteroid@@dose@@to@@achieve@@the@@desired@@response@@.@@"> 
+      <entity id="DDI-DrugBank.d487.s1.e0" charOffset="42-54" type="drug" text="phenobarbital" position="7"/>  
+      <entity id="DDI-DrugBank.d487.s1.e1" charOffset="57-65" type="drug" text="phenytoin" position="9"/>  
+      <entity id="DDI-DrugBank.d487.s1.e2" charOffset="71-78" type="drug" text="rifampin" position="11"/>  
+      <entity id="DDI-DrugBank.d487.s1.e3" charOffset="110-124" type="group" text="corticosteroids" position="17"/>  
+      <entity id="DDI-DrugBank.d487.s1.e4" charOffset="155-168" type="group" text="corticosteroid" position="23"/>  
+      <pair id="DDI-DrugBank.d487.s1.p0" e1="DDI-DrugBank.d487.s1.e0" e2="DDI-DrugBank.d487.s1.e1" ddi="false" flags="True" e1_name="phenobarbital" e2_name="phenytoin" e1_pos="7" e2_pos="9" path="7@@9@@">phenobarbital@@@@conj_and@@phenytoin</pair>  
+      <pair id="DDI-DrugBank.d487.s1.p1" e1="DDI-DrugBank.d487.s1.e0" e2="DDI-DrugBank.d487.s1.e2" ddi="false" flags="True" e1_name="phenobarbital" e2_name="rifampin" e1_pos="7" e2_pos="11" path="7@@11@@">phenobarbital@@@@conj_and@@rifampin</pair>  
+      <pair id="DDI-DrugBank.d487.s1.p2" e1="DDI-DrugBank.d487.s1.e0" e2="DDI-DrugBank.d487.s1.e3" ddi="true" type="mechanism" flags="True" e1_name="phenobarbital" e2_name="corticosteroids" e1_pos="7" e2_pos="17" path="7@@4@@2@@0@@13@@15@@17@@">phenobarbital@@@@prep_such_as@@enzymes@@dobj@@induce@@rcmod@@Drugs@@nsubj@@increase@@dobj@@clearance@@prep_of@@corticosteroids</pair>  
+      <pair id="DDI-DrugBank.d487.s1.p3" e1="DDI-DrugBank.d487.s1.e0" e2="DDI-DrugBank.d487.s1.e4" ddi="true" type="advise" flags="True" e1_name="phenobarbital" e2_name="corticosteroid" e1_pos="7" e2_pos="23" path="7@@4@@2@@0@@20@@21@@24@@23@@">phenobarbital@@@@prep_such_as@@enzymes@@dobj@@induce@@rcmod@@Drugs@@nsubj@@require@@dobj@@increases@@prep_in@@dose@@amod@@corticosteroid</pair>  
+      <pair id="DDI-DrugBank.d487.s1.p4" e1="DDI-DrugBank.d487.s1.e1" e2="DDI-DrugBank.d487.s1.e2" ddi="false" flags="True" e1_name="phenytoin" e2_name="rifampin" e1_pos="9" e2_pos="11" path="9@@4@@11@@">phenytoin@@@@prep_such_as@@enzymes@@prep_such_as@@rifampin</pair>  
+      <pair id="DDI-DrugBank.d487.s1.p5" e1="DDI-DrugBank.d487.s1.e1" e2="DDI-DrugBank.d487.s1.e3" ddi="true" type="mechanism" flags="True" e1_name="phenytoin" e2_name="corticosteroids" e1_pos="9" e2_pos="17" path="9@@4@@2@@0@@13@@15@@17@@">phenytoin@@@@prep_such_as@@enzymes@@dobj@@induce@@rcmod@@Drugs@@nsubj@@increase@@dobj@@clearance@@prep_of@@corticosteroids</pair>  
+      <pair id="DDI-DrugBank.d487.s1.p6" e1="DDI-DrugBank.d487.s1.e1" e2="DDI-DrugBank.d487.s1.e4" ddi="true" type="advise" flags="True" e1_name="phenytoin" e2_name="corticosteroid" e1_pos="9" e2_pos="23" path="9@@4@@2@@0@@20@@21@@24@@23@@">phenytoin@@@@prep_such_as@@enzymes@@dobj@@induce@@rcmod@@Drugs@@nsubj@@require@@dobj@@increases@@prep_in@@dose@@amod@@corticosteroid</pair>  
+      <pair id="DDI-DrugBank.d487.s1.p7" e1="DDI-DrugBank.d487.s1.e2" e2="DDI-DrugBank.d487.s1.e3" ddi="true" type="mechanism" flags="True" e1_name="rifampin" e2_name="corticosteroids" e1_pos="11" e2_pos="17" path="11@@4@@2@@0@@13@@15@@17@@">rifampin@@@@prep_such_as@@enzymes@@dobj@@induce@@rcmod@@Drugs@@nsubj@@increase@@dobj@@clearance@@prep_of@@corticosteroids</pair>  
+      <pair id="DDI-DrugBank.d487.s1.p8" e1="DDI-DrugBank.d487.s1.e2" e2="DDI-DrugBank.d487.s1.e4" ddi="true" type="advise" flags="True" e1_name="rifampin" e2_name="corticosteroid" e1_pos="11" e2_pos="23" path="11@@4@@2@@0@@20@@21@@24@@23@@">rifampin@@@@prep_such_as@@enzymes@@dobj@@induce@@rcmod@@Drugs@@nsubj@@require@@dobj@@increases@@prep_in@@dose@@amod@@corticosteroid</pair>  
+      <pair id="DDI-DrugBank.d487.s1.p9" e1="DDI-DrugBank.d487.s1.e3" e2="DDI-DrugBank.d487.s1.e4" ddi="false" flags="True" e1_name="corticosteroids" e2_name="corticosteroid" e1_pos="17" e2_pos="23" path="17@@15@@13@@20@@21@@24@@23@@">corticosteroids@@@@prep_of@@clearance@@dobj@@increase@@conj_and@@require@@dobj@@increases@@prep_in@@dose@@amod@@corticosteroid</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d487.s2" text="Drugs such as troleandomycin and ketoconazole may inhibit the metabolism of corticosteroids and thus decrease their clearance." new_text="Drugs@@such@@as@@troleandomycin@@and@@ketoconazole@@may@@inhibit@@the@@metabolism@@of@@corticosteroids@@and@@thus@@decrease@@their@@clearance@@.@@"> 
+      <entity id="DDI-DrugBank.d487.s2.e0" charOffset="14-27" type="drug" text="troleandomycin" position="3"/>  
+      <entity id="DDI-DrugBank.d487.s2.e1" charOffset="33-44" type="drug" text="ketoconazole" position="5"/>  
+      <entity id="DDI-DrugBank.d487.s2.e2" charOffset="76-90" type="group" text="corticosteroids" position="11"/>  
+      <pair id="DDI-DrugBank.d487.s2.p0" e1="DDI-DrugBank.d487.s2.e0" e2="DDI-DrugBank.d487.s2.e1" ddi="false" flags="True" e1_name="troleandomycin" e2_name="ketoconazole" e1_pos="3" e2_pos="5" path="3@@5@@">troleandomycin@@@@conj_and@@ketoconazole</pair>  
+      <pair id="DDI-DrugBank.d487.s2.p1" e1="DDI-DrugBank.d487.s2.e0" e2="DDI-DrugBank.d487.s2.e2" ddi="true" type="mechanism" flags="True" e1_name="troleandomycin" e2_name="corticosteroids" e1_pos="3" e2_pos="11" path="3@@0@@7@@9@@11@@">troleandomycin@@@@prep_such_as@@Drugs@@nsubj@@inhibit@@dobj@@metabolism@@prep_of@@corticosteroids</pair>  
+      <pair id="DDI-DrugBank.d487.s2.p2" e1="DDI-DrugBank.d487.s2.e1" e2="DDI-DrugBank.d487.s2.e2" ddi="true" type="mechanism" flags="True" e1_name="ketoconazole" e2_name="corticosteroids" e1_pos="5" e2_pos="11" path="5@@0@@7@@9@@11@@">ketoconazole@@@@prep_such_as@@Drugs@@nsubj@@inhibit@@dobj@@metabolism@@prep_of@@corticosteroids</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d487.s3" text="Therefore, the dose of corticosteroid should be titrated to avoid steroid toxicity." new_text="Therefore@@,@@the@@dose@@of@@corticosteroid@@should@@be@@titrated@@to@@avoid@@steroid@@toxicity@@.@@"> 
+      <entity id="DDI-DrugBank.d487.s3.e0" charOffset="23-36" type="group" text="corticosteroid" position="5"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d487.s4" text="Corticosteroids may increase the clearance of chronic high dose aspirin." new_text="Corticosteroids@@may@@increase@@the@@clearance@@of@@chronic@@high@@dose@@aspirin@@.@@"> 
+      <entity id="DDI-DrugBank.d487.s4.e0" charOffset="0-14" type="group" text="Corticosteroids" position="0"/>  
+      <entity id="DDI-DrugBank.d487.s4.e1" charOffset="64-70" type="brand" text="aspirin" position="9"/>  
+      <pair id="DDI-DrugBank.d487.s4.p0" e1="DDI-DrugBank.d487.s4.e0" e2="DDI-DrugBank.d487.s4.e1" ddi="true" type="effect" flags="True" e1_name="Corticosteroids" e2_name="aspirin" e1_pos="0" e2_pos="9" path="0@@2@@4@@9@@">Corticosteroids@@@@nsubj@@increase@@dobj@@clearance@@prep_of@@aspirin</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d487.s5" text="This could lead to decreased salicylate serum levels or increase the risk of salicylate toxicity when corticosteroid is withdrawn." new_text="This@@could@@lead@@to@@decreased@@salicylate@@serum@@levels@@or@@increase@@the@@risk@@of@@salicylate@@toxicity@@when@@corticosteroid@@is@@withdrawn@@.@@"> 
+      <entity id="DDI-DrugBank.d487.s5.e0" charOffset="29-38" type="group" text="salicylate" position="5"/>  
+      <entity id="DDI-DrugBank.d487.s5.e1" charOffset="77-86" type="group" text="salicylate" position="13"/>  
+      <entity id="DDI-DrugBank.d487.s5.e2" charOffset="102-115" type="drug" text="corticosteroid" position="16"/>  
+      <pair id="DDI-DrugBank.d487.s5.p0" e1="DDI-DrugBank.d487.s5.e0" e2="DDI-DrugBank.d487.s5.e1" ddi="false" flags="True" e1_name="salicylate" e2_name="salicylate" e1_pos="5" e2_pos="13" path="5@@7@@2@@9@@11@@14@@13@@">salicylate@@@@nn@@levels@@prep_to@@lead@@conj_or@@increase@@dobj@@risk@@prep_of@@toxicity@@nn@@salicylate</pair>  
+      <pair id="DDI-DrugBank.d487.s5.p1" e1="DDI-DrugBank.d487.s5.e0" e2="DDI-DrugBank.d487.s5.e2" ddi="false" flags="True" e1_name="salicylate" e2_name="corticosteroid" e1_pos="5" e2_pos="16" path="5@@7@@2@@9@@18@@16@@">salicylate@@@@nn@@levels@@prep_to@@lead@@conj_or@@increase@@advcl@@withdrawn@@nsubjpass@@corticosteroid</pair>  
+      <pair id="DDI-DrugBank.d487.s5.p2" e1="DDI-DrugBank.d487.s5.e1" e2="DDI-DrugBank.d487.s5.e2" ddi="true" type="effect" flags="True" e1_name="salicylate" e2_name="corticosteroid" e1_pos="13" e2_pos="16" path="13@@14@@11@@9@@18@@16@@">salicylate@@@@nn@@toxicity@@prep_of@@risk@@dobj@@increase@@advcl@@withdrawn@@nsubjpass@@corticosteroid</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d487.s6" text="Aspirin should be used cautiously in conjunction with cortico-steroids in patients suffering from hypopro-thrombinemia." new_text="Aspirin@@should@@be@@used@@cautiously@@in@@conjunction@@with@@cortico-steroids@@in@@patients@@suffering@@from@@hypopro-thrombinemia@@.@@"> 
+      <entity id="DDI-DrugBank.d487.s6.e0" charOffset="0-6" type="brand" text="Aspirin" position="0"/>  
+      <entity id="DDI-DrugBank.d487.s6.e1" charOffset="54-69" type="group" text="cortico-steroids" position="8"/>  
+      <pair id="DDI-DrugBank.d487.s6.p0" e1="DDI-DrugBank.d487.s6.e0" e2="DDI-DrugBank.d487.s6.e1" ddi="true" type="advise" flags="True" e1_name="Aspirin" e2_name="cortico-steroids" e1_pos="0" e2_pos="8" path="0@@3@@8@@">Aspirin@@@@nsubjpass@@used@@prep_with@@cortico-steroids</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d487.s7" text="The effect of corticosteroids on oral anticoagulants is variable." new_text="The@@effect@@of@@corticosteroids@@on@@oral@@anticoagulants@@is@@variable@@.@@"> 
+      <entity id="DDI-DrugBank.d487.s7.e0" charOffset="14-28" type="group" text="corticosteroids" position="3"/>  
+      <entity id="DDI-DrugBank.d487.s7.e1" charOffset="38-51" type="group" text="anticoagulants" position="6"/>  
+      <pair id="DDI-DrugBank.d487.s7.p0" e1="DDI-DrugBank.d487.s7.e0" e2="DDI-DrugBank.d487.s7.e1" ddi="true" type="effect" flags="True" e1_name="corticosteroids" e2_name="anticoagulants" e1_pos="3" e2_pos="6" path="3@@6@@">corticosteroids@@@@prep_on@@anticoagulants</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d487.s8" text="There are reports of enhanced as well as diminished effects of anticoagulants when given concurrently with corticosteroids." new_text="There@@are@@reports@@of@@enhanced@@as@@well@@as@@diminished@@effects@@of@@anticoagulants@@when@@given@@concurrently@@with@@corticosteroids@@.@@"> 
+      <entity id="DDI-DrugBank.d487.s8.e0" charOffset="63-76" type="group" text="anticoagulants" position="11"/>  
+      <entity id="DDI-DrugBank.d487.s8.e1" charOffset="107-121" type="group" text="corticosteroids" position="16"/>  
+      <pair id="DDI-DrugBank.d487.s8.p0" e1="DDI-DrugBank.d487.s8.e0" e2="DDI-DrugBank.d487.s8.e1" ddi="true" type="effect" flags="True" e1_name="anticoagulants" e2_name="corticosteroids" e1_pos="11" e2_pos="16" path="11@@9@@1@@13@@16@@">anticoagulants@@@@prep_of@@effects@@nsubj@@are@@advcl@@given@@prep_with@@corticosteroids</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d487.s9" text="Therefore, coagulation indices should be monitored to maintain the desired anticoagulant effect." new_text="Therefore@@,@@coagulation@@indices@@should@@be@@monitored@@to@@maintain@@the@@desired@@anticoagulant@@effect@@.@@"/> 
+</document>

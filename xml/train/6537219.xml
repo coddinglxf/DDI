@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d81"> 
+   <sentence id="DDI-MedLine.d81.s0" text="Hypothermia as an index of the disulfiram-ethanol reaction in the rat.
+" new_text="Hypothermia@@as@@an@@index@@of@@the@@disulfiram@@-@@ethanol@@reaction@@in@@the@@rat@@.@@"> 
+      <entity id="DDI-MedLine.d81.s0.e0" charOffset="31-40" type="drug" text="disulfiram" position="6"/>  
+      <entity id="DDI-MedLine.d81.s0.e1" charOffset="42-48" type="drug" text="ethanol" position="8"/>  
+      <pair id="DDI-MedLine.d81.s0.p0" e1="DDI-MedLine.d81.s0.e0" e2="DDI-MedLine.d81.s0.e1" ddi="false" flags="True" e1_name="disulfiram" e2_name="ethanol" e1_pos="6" e2_pos="8" path="6@@3@@0@@9@@8@@">disulfiram@@@@prep_of@@index@@prep_as@@Hypothermia@@dep@@reaction@@nn@@ethanol</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d81.s1" text="Decreased core temperature in female rats was investigated as one possible index of the disulfiram-ethanol reaction (DER). " new_text="Decreased@@core@@temperature@@in@@female@@rats@@was@@investigated@@as@@one@@possible@@index@@of@@the@@disulfiram@@-@@ethanol@@reaction@@(DER)@@.@@"> 
+      <entity id="DDI-MedLine.d81.s1.e0" charOffset="88-97" type="drug" text="disulfiram" position="14"/>  
+      <entity id="DDI-MedLine.d81.s1.e1" charOffset="99-105" type="drug" text="ethanol" position="16"/>  
+      <pair id="DDI-MedLine.d81.s1.p0" e1="DDI-MedLine.d81.s1.e0" e2="DDI-MedLine.d81.s1.e1" ddi="false" flags="True" e1_name="disulfiram" e2_name="ethanol" e1_pos="14" e2_pos="16" path="14@@11@@7@@18@@17@@16@@">disulfiram@@@@prep_of@@index@@prep_as@@investigated@@parataxis@@(DER)@@nsubj@@reaction@@nn@@ethanol</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d81.s2" text="Core temperature was decreased in rats in a dose-dependent manner when ethanol was administered to rats treated with disulfiram 8 hours before the ethanol challenge. " new_text="Core@@temperature@@was@@decreased@@in@@rats@@in@@a@@dose-dependent@@manner@@when@@ethanol@@was@@administered@@to@@rats@@treated@@with@@disulfiram@@8@@hours@@before@@the@@ethanol@@challenge@@.@@"> 
+      <entity id="DDI-MedLine.d81.s2.e0" charOffset="71-77" type="drug" text="ethanol" position="11"/>  
+      <entity id="DDI-MedLine.d81.s2.e1" charOffset="117-126" type="drug" text="disulfiram" position="18"/>  
+      <entity id="DDI-MedLine.d81.s2.e2" charOffset="147-153" type="drug" text="ethanol" position="23"/>  
+      <pair id="DDI-MedLine.d81.s2.p0" e1="DDI-MedLine.d81.s2.e0" e2="DDI-MedLine.d81.s2.e1" ddi="true" type="effect" flags="True" e1_name="ethanol" e2_name="disulfiram" e1_pos="11" e2_pos="18" path="11@@13@@15@@16@@18@@">ethanol@@@@nsubjpass@@administered@@prep_to@@rats@@partmod@@treated@@prep_with@@disulfiram</pair>  
+      <pair id="DDI-MedLine.d81.s2.p1" e1="DDI-MedLine.d81.s2.e0" e2="DDI-MedLine.d81.s2.e2" ddi="false" flags="True" e1_name="ethanol" e2_name="ethanol" e1_pos="11" e2_pos="23" path="11@@13@@15@@16@@24@@23@@">ethanol@@@@nsubjpass@@administered@@prep_to@@rats@@partmod@@treated@@prep_before@@challenge@@nn@@ethanol</pair>  
+      <pair id="DDI-MedLine.d81.s2.p2" e1="DDI-MedLine.d81.s2.e1" e2="DDI-MedLine.d81.s2.e2" ddi="false" flags="True" e1_name="disulfiram" e2_name="ethanol" e1_pos="18" e2_pos="23" path="18@@16@@24@@23@@">disulfiram@@@@prep_with@@treated@@prep_before@@challenge@@nn@@ethanol</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d81.s3" text="The decrease in temperature began within 20 minutes after ethanol administration, reaching a maximal decrease between 60 and 120 minutes post ethanol. " new_text="The@@decrease@@in@@temperature@@began@@within@@20@@minutes@@after@@ethanol@@administration@@,@@reaching@@a@@maximal@@decrease@@between@@60@@and@@120@@minutes@@post@@ethanol@@.@@"> 
+      <entity id="DDI-MedLine.d81.s3.e0" charOffset="58-64" type="drug" text="ethanol" position="9"/>  
+      <entity id="DDI-MedLine.d81.s3.e1" charOffset="142-148" type="drug" text="ethanol" position="22"/>  
+      <pair id="DDI-MedLine.d81.s3.p0" e1="DDI-MedLine.d81.s3.e0" e2="DDI-MedLine.d81.s3.e1" ddi="false" flags="True" e1_name="ethanol" e2_name="ethanol" e1_pos="9" e2_pos="22" path="9@@10@@4@@12@@15@@20@@22@@">ethanol@@@@nn@@administration@@prep_after@@began@@xcomp@@reaching@@dobj@@decrease@@prep_between@@minutes@@dep@@ethanol</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d81.s4" text="The core temperature returned to normal 300 minutes after ethanol. " new_text="The@@core@@temperature@@returned@@to@@normal@@300@@minutes@@after@@ethanol@@.@@"> 
+      <entity id="DDI-MedLine.d81.s4.e0" charOffset="58-64" type="drug" text="ethanol" position="9"/> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d81.s5" text="The blood pressure (carotid cannulation) decreased along with the core temperature. " new_text="The@@blood@@pressure@@(carotid@@cannulation)@@decreased@@along@@with@@the@@core@@temperature@@.@@"/>  
+   <sentence id="DDI-MedLine.d81.s6" text="Maximal hypotension was found 120 minutes post ethanol, and returned to normal 300 minutes after ethanol. " new_text="Maximal@@hypotension@@was@@found@@120@@minutes@@post@@ethanol@@,@@and@@returned@@to@@normal@@300@@minutes@@after@@ethanol@@.@@"> 
+      <entity id="DDI-MedLine.d81.s6.e0" charOffset="47-53" type="drug" text="ethanol" position="7"/>  
+      <entity id="DDI-MedLine.d81.s6.e1" charOffset="97-103" type="drug" text="ethanol" position="16"/>  
+      <pair id="DDI-MedLine.d81.s6.p0" e1="DDI-MedLine.d81.s6.e0" e2="DDI-MedLine.d81.s6.e1" ddi="false" flags="True" e1_name="ethanol" e2_name="ethanol" e1_pos="7" e2_pos="16" path="7@@3@@10@@16@@">ethanol@@@@dobj@@found@@conj_and@@returned@@prep_after@@ethanol</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d81.s7" text="Heart rate increased initially and returned to normal 40 minutes after ethanol challenge." new_text="Heart@@rate@@increased@@initially@@and@@returned@@to@@normal@@40@@minutes@@after@@ethanol@@challenge@@.@@"> 
+      <entity id="DDI-MedLine.d81.s7.e0" charOffset="71-77" type="drug" text="ethanol" position="11"/> 
+   </sentence> 
+</document>

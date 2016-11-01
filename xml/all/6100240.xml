@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d2"> 
+   <sentence id="DDI-MedLine.d2.s0" text="Failure of neomycin to modify ACTH induced hypertension in sheep." new_text="Failure@@of@@neomycin@@to@@modify@@ACTH@@induced@@hypertension@@in@@sheep@@.@@"> 
+      <entity id="DDI-MedLine.d2.s0.e0" charOffset="11-18" type="drug" text="neomycin" position="2"/>  
+      <entity id="DDI-MedLine.d2.s0.e1" charOffset="30-33" type="group" text="ACTH" position="5"/>  
+      <pair id="DDI-MedLine.d2.s0.p0" e1="DDI-MedLine.d2.s0.e0" e2="DDI-MedLine.d2.s0.e1" ddi="false" flags="True" e1_name="neomycin" e2_name="ACTH" e1_pos="2" e2_pos="5" path="2@@0@@4@@7@@5@@">neomycin@@@@prep_of@@Failure@@infmod@@modify@@dobj@@hypertension@@nn@@ACTH</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d2.s1" text="Studies in rats have shown that neomycin administration attenuates certain types of adrenocortical steroid dependent hypertension, including ACTH hypertension. " new_text="Studies@@in@@rats@@have@@shown@@that@@neomycin@@administration@@attenuates@@certain@@types@@of@@adrenocortical steroid@@dependent@@hypertension@@,@@including@@ACTH@@hypertension@@.@@"> 
+      <entity id="DDI-MedLine.d2.s1.e0" charOffset="32-39" type="drug" text="neomycin" position="6"/>  
+      <entity id="DDI-MedLine.d2.s1.e1" charOffset="84-105" type="group" text="adrenocortical steroid" position="12"/>  
+      <entity id="DDI-MedLine.d2.s1.e2" charOffset="141-144" type="drug" text="ACTH" position="17"/>  
+      <pair id="DDI-MedLine.d2.s1.p0" e1="DDI-MedLine.d2.s1.e0" e2="DDI-MedLine.d2.s1.e1" ddi="false" flags="True" e1_name="neomycin" e2_name="adrenocortical steroid" e1_pos="6" e2_pos="12" path="6@@7@@8@@10@@14@@13@@12@@">neomycin@@@@nn@@administration@@nsubj@@attenuates@@dobj@@types@@prep_of@@hypertension@@amod@@dependent@@amod@@adrenocortical steroid</pair>  
+      <pair id="DDI-MedLine.d2.s1.p1" e1="DDI-MedLine.d2.s1.e0" e2="DDI-MedLine.d2.s1.e2" ddi="true" type="effect" flags="True" e1_name="neomycin" e2_name="ACTH" e1_pos="6" e2_pos="17" path="6@@7@@8@@10@@18@@17@@">neomycin@@@@nn@@administration@@nsubj@@attenuates@@dobj@@types@@prep_including@@hypertension@@nn@@ACTH</pair>  
+      <pair id="DDI-MedLine.d2.s1.p2" e1="DDI-MedLine.d2.s1.e1" e2="DDI-MedLine.d2.s1.e2" ddi="false" flags="True" e1_name="adrenocortical steroid" e2_name="ACTH" e1_pos="12" e2_pos="17" path="12@@13@@14@@10@@18@@17@@">adrenocortical steroid@@@@amod@@dependent@@amod@@hypertension@@prep_of@@types@@prep_including@@hypertension@@nn@@ACTH</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d2.s2" text="The effects of oral neomycin on ACTH induced hypertension were examined in conscious sheep. " new_text="The@@effects@@of@@oral@@neomycin@@on@@ACTH@@induced@@hypertension@@were@@examined@@in@@conscious@@sheep@@.@@"> 
+      <entity id="DDI-MedLine.d2.s2.e0" charOffset="20-27" type="drug" text="neomycin" position="4"/>  
+      <entity id="DDI-MedLine.d2.s2.e1" charOffset="32-35" type="group" text="ACTH" position="6"/>  
+      <pair id="DDI-MedLine.d2.s2.p0" e1="DDI-MedLine.d2.s2.e0" e2="DDI-MedLine.d2.s2.e1" ddi="false" flags="True" e1_name="neomycin" e2_name="ACTH" e1_pos="4" e2_pos="6" path="4@@8@@6@@">neomycin@@@@prep_on@@hypertension@@nn@@ACTH</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d2.s3" text="Neomycin has no effect on the blood pressure or metabolic responses to ACTH in sheep." new_text="Neomycin@@has@@no@@effect@@on@@the@@blood@@pressure@@or@@metabolic@@responses@@to@@ACTH@@in@@sheep@@.@@"> 
+      <entity id="DDI-MedLine.d2.s3.e0" charOffset="0-7" type="drug" text="Neomycin" position="0"/>  
+      <entity id="DDI-MedLine.d2.s3.e1" charOffset="71-74" type="group" text="ACTH" position="12"/>  
+      <pair id="DDI-MedLine.d2.s3.p0" e1="DDI-MedLine.d2.s3.e0" e2="DDI-MedLine.d2.s3.e1" ddi="false" flags="True" e1_name="Neomycin" e2_name="ACTH" e1_pos="0" e2_pos="12" path="0@@1@@3@@12@@">Neomycin@@@@nsubj@@has@@dobj@@effect@@infmod@@ACTH</pair> 
+   </sentence> 
+</document>

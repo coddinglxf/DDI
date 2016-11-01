@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d511"> 
+   <sentence id="DDI-DrugBank.d511.s0" text="A possible drug interaction of FOSCAVIR and intravenous pentamidine has been described." new_text="A@@possible@@drug@@interaction@@of@@FOSCAVIR@@and@@intravenous@@pentamidine@@has@@been@@described@@.@@"> 
+      <entity id="DDI-DrugBank.d511.s0.e0" charOffset="31-38" type="brand" text="FOSCAVIR" position="5"/>  
+      <entity id="DDI-DrugBank.d511.s0.e1" charOffset="56-66" type="drug" text="pentamidine" position="8"/>  
+      <pair id="DDI-DrugBank.d511.s0.p0" e1="DDI-DrugBank.d511.s0.e0" e2="DDI-DrugBank.d511.s0.e1" ddi="true" type="int" flags="True" e1_name="FOSCAVIR" e2_name="pentamidine" e1_pos="5" e2_pos="8" path="5@@8@@">FOSCAVIR@@@@amod@@pentamidine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d511.s1" text="Concomitant treatment of four patients in the United Kingdom with FOSCAVIR and intravenous pentamidine may have caused hypocalcemia;" new_text="Concomitant@@treatment@@of@@four@@patients@@in@@the@@United@@Kingdom@@with@@FOSCAVIR@@and@@intravenous@@pentamidine@@may@@have@@caused@@hypocalcemia;@@"> 
+      <entity id="DDI-DrugBank.d511.s1.e0" charOffset="66-73" type="brand" text="FOSCAVIR" position="10"/>  
+      <entity id="DDI-DrugBank.d511.s1.e1" charOffset="91-101" type="drug" text="pentamidine" position="13"/>  
+      <pair id="DDI-DrugBank.d511.s1.p0" e1="DDI-DrugBank.d511.s1.e0" e2="DDI-DrugBank.d511.s1.e1" ddi="true" type="effect" flags="True" e1_name="FOSCAVIR" e2_name="pentamidine" e1_pos="10" e2_pos="13" path="10@@13@@">FOSCAVIR@@@@amod@@pentamidine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d511.s2" text="one patient died with severe hypocalcemia." new_text="one@@patient@@died@@with@@severe@@hypocalcemia@@.@@"/>  
+   <sentence id="DDI-DrugBank.d511.s3" text="Toxicity associated with concomitant use of aerosolized pentamidine has not been reported." new_text="Toxicity@@associated@@with@@concomitant@@use@@of@@aerosolized@@pentamidine@@has@@not@@been@@reported@@.@@"> 
+      <entity id="DDI-DrugBank.d511.s3.e0" charOffset="56-66" type="drug" text="pentamidine" position="7"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d511.s4" text="Because of foscarnets tendency to cause renal impairment, the use of FOSCAVIR should be avoided in combination with potentially nephrotoxic drugs such as aminoglycosides, amphotericin B and intravenous pentamidine unless the potential benefits outweigh the risks to the patient." new_text="Because@@of@@foscarnet@@s@@tendency@@to@@cause@@renal@@impairment@@,@@the@@use@@of@@FOSCAVIR@@should@@be@@avoided@@in@@combination@@with@@potentially@@nephrotoxic@@drugs@@such@@as@@aminoglycosides@@,@@amphotericin B@@and@@intravenous@@pentamidine@@unless@@the@@potential@@benefits@@outweigh@@the@@risks@@to@@the@@patient@@.@@"> 
+      <entity id="DDI-DrugBank.d511.s4.e0" charOffset="11-19" type="drug" text="foscarnet" position="2"/>  
+      <entity id="DDI-DrugBank.d511.s4.e1" charOffset="69-76" type="brand" text="FOSCAVIR" position="13"/>  
+      <entity id="DDI-DrugBank.d511.s4.e2" charOffset="154-168" type="group" text="aminoglycosides" position="25"/>  
+      <entity id="DDI-DrugBank.d511.s4.e3" charOffset="171-184" type="drug" text="amphotericin B" position="27"/>  
+      <entity id="DDI-DrugBank.d511.s4.e4" charOffset="202-212" type="drug" text="pentamidine" position="30"/>  
+      <pair id="DDI-DrugBank.d511.s4.p0" e1="DDI-DrugBank.d511.s4.e0" e2="DDI-DrugBank.d511.s4.e1" ddi="false" flags="True" e1_name="foscarnet" e2_name="FOSCAVIR" e1_pos="2" e2_pos="13" path="2@@4@@16@@11@@13@@">foscarnet@@@@prep_of@@tendency@@advcl@@avoided@@nsubjpass@@use@@prep_of@@FOSCAVIR</pair>  
+      <pair id="DDI-DrugBank.d511.s4.p1" e1="DDI-DrugBank.d511.s4.e0" e2="DDI-DrugBank.d511.s4.e2" ddi="false" flags="True" e1_name="foscarnet" e2_name="aminoglycosides" e1_pos="2" e2_pos="25" path="2@@4@@16@@22@@25@@">foscarnet@@@@prep_of@@tendency@@advcl@@avoided@@prep_with@@drugs@@prep_such_as@@aminoglycosides</pair>  
+      <pair id="DDI-DrugBank.d511.s4.p2" e1="DDI-DrugBank.d511.s4.e0" e2="DDI-DrugBank.d511.s4.e3" ddi="false" flags="True" e1_name="foscarnet" e2_name="amphotericin B" e1_pos="2" e2_pos="27" path="2@@4@@16@@22@@27@@">foscarnet@@@@prep_of@@tendency@@advcl@@avoided@@prep_with@@drugs@@prep_such_as@@amphotericin B</pair>  
+      <pair id="DDI-DrugBank.d511.s4.p3" e1="DDI-DrugBank.d511.s4.e0" e2="DDI-DrugBank.d511.s4.e4" ddi="false" flags="True" e1_name="foscarnet" e2_name="pentamidine" e1_pos="2" e2_pos="30" path="2@@4@@16@@22@@30@@">foscarnet@@@@prep_of@@tendency@@advcl@@avoided@@prep_with@@drugs@@prep_such_as@@pentamidine</pair>  
+      <pair id="DDI-DrugBank.d511.s4.p4" e1="DDI-DrugBank.d511.s4.e1" e2="DDI-DrugBank.d511.s4.e2" ddi="true" type="advise" flags="True" e1_name="FOSCAVIR" e2_name="aminoglycosides" e1_pos="13" e2_pos="25" path="13@@11@@16@@22@@25@@">FOSCAVIR@@@@prep_of@@use@@nsubjpass@@avoided@@prep_with@@drugs@@prep_such_as@@aminoglycosides</pair>  
+      <pair id="DDI-DrugBank.d511.s4.p5" e1="DDI-DrugBank.d511.s4.e1" e2="DDI-DrugBank.d511.s4.e3" ddi="true" type="advise" flags="True" e1_name="FOSCAVIR" e2_name="amphotericin B" e1_pos="13" e2_pos="27" path="13@@11@@16@@22@@27@@">FOSCAVIR@@@@prep_of@@use@@nsubjpass@@avoided@@prep_with@@drugs@@prep_such_as@@amphotericin B</pair>  
+      <pair id="DDI-DrugBank.d511.s4.p6" e1="DDI-DrugBank.d511.s4.e1" e2="DDI-DrugBank.d511.s4.e4" ddi="true" type="advise" flags="True" e1_name="FOSCAVIR" e2_name="pentamidine" e1_pos="13" e2_pos="30" path="13@@11@@16@@22@@30@@">FOSCAVIR@@@@prep_of@@use@@nsubjpass@@avoided@@prep_with@@drugs@@prep_such_as@@pentamidine</pair>  
+      <pair id="DDI-DrugBank.d511.s4.p7" e1="DDI-DrugBank.d511.s4.e2" e2="DDI-DrugBank.d511.s4.e3" ddi="false" flags="True" e1_name="aminoglycosides" e2_name="amphotericin B" e1_pos="25" e2_pos="27" path="25@@27@@">aminoglycosides@@@@conj_and@@amphotericin B</pair>  
+      <pair id="DDI-DrugBank.d511.s4.p8" e1="DDI-DrugBank.d511.s4.e2" e2="DDI-DrugBank.d511.s4.e4" ddi="false" flags="True" e1_name="aminoglycosides" e2_name="pentamidine" e1_pos="25" e2_pos="30" path="25@@30@@">aminoglycosides@@@@conj_and@@pentamidine</pair>  
+      <pair id="DDI-DrugBank.d511.s4.p9" e1="DDI-DrugBank.d511.s4.e3" e2="DDI-DrugBank.d511.s4.e4" ddi="false" flags="True" e1_name="amphotericin B" e2_name="pentamidine" e1_pos="27" e2_pos="30" path="27@@22@@30@@">amphotericin B@@@@prep_such_as@@drugs@@prep_such_as@@pentamidine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d511.s5" text="Since FOSCAVIR decreases serum concentrations of ionized calcium, concurrent treatment with other drugs known to influence serum calcium concentrations should be used with particular caution." new_text="Since@@FOSCAVIR@@decreases@@serum@@concentrations@@of@@ionized@@calcium@@,@@concurrent@@treatment@@with@@other@@drugs@@known@@to@@influence@@serum@@calcium@@concentrations@@should@@be@@used@@with@@particular@@caution@@.@@"> 
+      <entity id="DDI-DrugBank.d511.s5.e0" charOffset="6-13" type="brand" text="FOSCAVIR" position="1"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d511.s6" text="Ganciclovir: The pharmacokinetics of foscarnet and ganciclovir were not altered in 13 patients receiving either concomitant therapy or daily alternating therapy for maintenance of CMV disease." new_text="Ganciclovir@@:@@The@@pharmacokinetics@@of@@foscarnet@@and@@ganciclovir@@were@@not@@altered@@in@@13@@patients@@receiving@@either@@concomitant@@therapy@@or@@daily@@alternating@@therapy@@for@@maintenance@@of@@CMV@@disease@@.@@"> 
+      <entity id="DDI-DrugBank.d511.s6.e0" charOffset="0-10" type="drug" text="Ganciclovir" position="0"/>  
+      <entity id="DDI-DrugBank.d511.s6.e1" charOffset="37-45" type="drug" text="foscarnet" position="5"/>  
+      <entity id="DDI-DrugBank.d511.s6.e2" charOffset="51-61" type="drug" text="ganciclovir" position="7"/>  
+      <pair id="DDI-DrugBank.d511.s6.p0" e1="DDI-DrugBank.d511.s6.e0" e2="DDI-DrugBank.d511.s6.e1" ddi="false" flags="True" e1_name="Ganciclovir" e2_name="foscarnet" e1_pos="0" e2_pos="5" path="0@@10@@3@@5@@">Ganciclovir@@@@dep@@altered@@nsubjpass@@pharmacokinetics@@prep_of@@foscarnet</pair>  
+      <pair id="DDI-DrugBank.d511.s6.p1" e1="DDI-DrugBank.d511.s6.e0" e2="DDI-DrugBank.d511.s6.e2" ddi="false" flags="True" e1_name="Ganciclovir" e2_name="ganciclovir" e1_pos="0" e2_pos="7" path="0@@10@@3@@7@@">Ganciclovir@@@@dep@@altered@@nsubjpass@@pharmacokinetics@@prep_of@@ganciclovir</pair>  
+      <pair id="DDI-DrugBank.d511.s6.p2" e1="DDI-DrugBank.d511.s6.e1" e2="DDI-DrugBank.d511.s6.e2" ddi="false" flags="True" e1_name="foscarnet" e2_name="ganciclovir" e1_pos="5" e2_pos="7" path="5@@7@@">foscarnet@@@@conj_and@@ganciclovir</pair> 
+   </sentence> 
+</document>

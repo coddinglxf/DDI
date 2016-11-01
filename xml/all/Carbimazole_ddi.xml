@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d213"> 
+   <sentence id="DDI-DrugBank.d213.s0" text="Iodine or iodine excess may decrease the effect of Carbimazole, and an iodine deficiency can increase the effect of Carbimazole." new_text="Iodine@@or@@iodine@@excess@@may@@decrease@@the@@effect@@of@@Carbimazole@@,@@and@@an@@iodine@@deficiency@@can@@increase@@the@@effect@@of@@Carbimazole@@.@@"> 
+      <entity id="DDI-DrugBank.d213.s0.e0" charOffset="0-5" type="drug" text="Iodine" position="0"/>  
+      <entity id="DDI-DrugBank.d213.s0.e1" charOffset="10-15" type="drug" text="iodine" position="2"/>  
+      <entity id="DDI-DrugBank.d213.s0.e2" charOffset="51-61" type="drug" text="Carbimazole" position="9"/>  
+      <entity id="DDI-DrugBank.d213.s0.e3" charOffset="71-76" type="drug" text="iodine" position="13"/>  
+      <entity id="DDI-DrugBank.d213.s0.e4" charOffset="116-126" type="drug" text="Carbimazole" position="20"/>  
+      <pair id="DDI-DrugBank.d213.s0.p0" e1="DDI-DrugBank.d213.s0.e0" e2="DDI-DrugBank.d213.s0.e1" ddi="false" flags="True" e1_name="Iodine" e2_name="iodine" e1_pos="0" e2_pos="2" path="0@@2@@">Iodine@@@@conj_or@@iodine</pair>  
+      <pair id="DDI-DrugBank.d213.s0.p1" e1="DDI-DrugBank.d213.s0.e0" e2="DDI-DrugBank.d213.s0.e2" ddi="true" type="effect" flags="True" e1_name="Iodine" e2_name="Carbimazole" e1_pos="0" e2_pos="9" path="0@@3@@5@@7@@9@@">Iodine@@@@amod@@excess@@nsubj@@decrease@@dobj@@effect@@prep_of@@Carbimazole</pair>  
+      <pair id="DDI-DrugBank.d213.s0.p2" e1="DDI-DrugBank.d213.s0.e0" e2="DDI-DrugBank.d213.s0.e3" ddi="false" flags="True" e1_name="Iodine" e2_name="iodine" e1_pos="0" e2_pos="13" path="0@@3@@5@@16@@14@@13@@">Iodine@@@@amod@@excess@@nsubj@@decrease@@conj_and@@increase@@nsubj@@deficiency@@amod@@iodine</pair>  
+      <pair id="DDI-DrugBank.d213.s0.p3" e1="DDI-DrugBank.d213.s0.e0" e2="DDI-DrugBank.d213.s0.e4" ddi="false" flags="True" e1_name="Iodine" e2_name="Carbimazole" e1_pos="0" e2_pos="20" path="0@@3@@5@@16@@18@@20@@">Iodine@@@@amod@@excess@@nsubj@@decrease@@conj_and@@increase@@dobj@@effect@@prep_of@@Carbimazole</pair>  
+      <pair id="DDI-DrugBank.d213.s0.p4" e1="DDI-DrugBank.d213.s0.e1" e2="DDI-DrugBank.d213.s0.e2" ddi="false" flags="True" e1_name="iodine" e2_name="Carbimazole" e1_pos="2" e2_pos="9" path="2@@3@@5@@7@@9@@">iodine@@@@amod@@excess@@nsubj@@decrease@@dobj@@effect@@prep_of@@Carbimazole</pair>  
+      <pair id="DDI-DrugBank.d213.s0.p5" e1="DDI-DrugBank.d213.s0.e1" e2="DDI-DrugBank.d213.s0.e3" ddi="false" flags="True" e1_name="iodine" e2_name="iodine" e1_pos="2" e2_pos="13" path="2@@3@@5@@16@@14@@13@@">iodine@@@@amod@@excess@@nsubj@@decrease@@conj_and@@increase@@nsubj@@deficiency@@amod@@iodine</pair>  
+      <pair id="DDI-DrugBank.d213.s0.p6" e1="DDI-DrugBank.d213.s0.e1" e2="DDI-DrugBank.d213.s0.e4" ddi="false" flags="True" e1_name="iodine" e2_name="Carbimazole" e1_pos="2" e2_pos="20" path="2@@3@@5@@16@@18@@20@@">iodine@@@@amod@@excess@@nsubj@@decrease@@conj_and@@increase@@dobj@@effect@@prep_of@@Carbimazole</pair>  
+      <pair id="DDI-DrugBank.d213.s0.p7" e1="DDI-DrugBank.d213.s0.e2" e2="DDI-DrugBank.d213.s0.e3" ddi="false" flags="True" e1_name="Carbimazole" e2_name="iodine" e1_pos="9" e2_pos="13" path="9@@7@@5@@16@@14@@13@@">Carbimazole@@@@prep_of@@effect@@dobj@@decrease@@conj_and@@increase@@nsubj@@deficiency@@amod@@iodine</pair>  
+      <pair id="DDI-DrugBank.d213.s0.p8" e1="DDI-DrugBank.d213.s0.e2" e2="DDI-DrugBank.d213.s0.e4" ddi="false" flags="True" e1_name="Carbimazole" e2_name="Carbimazole" e1_pos="9" e2_pos="20" path="9@@7@@5@@16@@18@@20@@">Carbimazole@@@@prep_of@@effect@@dobj@@decrease@@conj_and@@increase@@dobj@@effect@@prep_of@@Carbimazole</pair>  
+      <pair id="DDI-DrugBank.d213.s0.p9" e1="DDI-DrugBank.d213.s0.e3" e2="DDI-DrugBank.d213.s0.e4" ddi="true" type="effect" flags="True" e1_name="iodine" e2_name="Carbimazole" e1_pos="13" e2_pos="20" path="13@@14@@16@@18@@20@@">iodine@@@@amod@@deficiency@@nsubj@@increase@@dobj@@effect@@prep_of@@Carbimazole</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d213.s1" text="Serum concentration of digoxin and digitoxin may increase when patients take antithyroid agents." new_text="Serum@@concentration@@of@@digoxin@@and@@digitoxin@@may@@increase@@when@@patients@@take@@antithyroid agents@@.@@"> 
+      <entity id="DDI-DrugBank.d213.s1.e0" charOffset="23-29" type="drug" text="digoxin" position="3"/>  
+      <entity id="DDI-DrugBank.d213.s1.e1" charOffset="35-43" type="drug" text="digitoxin" position="5"/>  
+      <entity id="DDI-DrugBank.d213.s1.e2" charOffset="77-94" type="group" text="antithyroid agents" position="11"/>  
+      <pair id="DDI-DrugBank.d213.s1.p0" e1="DDI-DrugBank.d213.s1.e0" e2="DDI-DrugBank.d213.s1.e1" ddi="false" flags="True" e1_name="digoxin" e2_name="digitoxin" e1_pos="3" e2_pos="5" path="3@@5@@">digoxin@@@@conj_and@@digitoxin</pair>  
+      <pair id="DDI-DrugBank.d213.s1.p1" e1="DDI-DrugBank.d213.s1.e0" e2="DDI-DrugBank.d213.s1.e2" ddi="true" type="mechanism" flags="True" e1_name="digoxin" e2_name="antithyroid agents" e1_pos="3" e2_pos="11" path="3@@1@@7@@10@@11@@">digoxin@@@@prep_of@@concentration@@nsubj@@increase@@advcl@@take@@dobj@@antithyroid agents</pair>  
+      <pair id="DDI-DrugBank.d213.s1.p2" e1="DDI-DrugBank.d213.s1.e1" e2="DDI-DrugBank.d213.s1.e2" ddi="true" type="mechanism" flags="True" e1_name="digitoxin" e2_name="antithyroid agents" e1_pos="5" e2_pos="11" path="5@@1@@7@@10@@11@@">digitoxin@@@@prep_of@@concentration@@nsubj@@increase@@advcl@@take@@dobj@@antithyroid agents</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d213.s2" text="A decrease of the dosage may be necessary when patient becomes euthyroid." new_text="A@@decrease@@of@@the@@dosage@@may@@be@@necessary@@when@@patient@@becomes@@euthyroid@@.@@"/>  
+   <sentence id="DDI-DrugBank.d213.s3" text="Antithyroid agents may decrease thyroidal uptake of sodium iodide I131, a rebound in uptake may occur up to 5 days after sudden withdrawal of Carbimazole." new_text="Antithyroid agents@@may@@decrease@@thyroidal@@uptake@@of@@sodium iodide I131@@,@@a@@rebound@@in@@uptake@@may@@occur@@up@@to@@5@@days@@after@@sudden@@withdrawal@@of@@Carbimazole@@.@@"> 
+      <entity id="DDI-DrugBank.d213.s3.e0" charOffset="0-17" type="group" text="Antithyroid agents" position="0"/>  
+      <entity id="DDI-DrugBank.d213.s3.e1" charOffset="52-69" type="drug" text="sodium iodide I131" position="6"/>  
+      <entity id="DDI-DrugBank.d213.s3.e2" charOffset="142-152" type="drug" text="Carbimazole" position="22"/>  
+      <pair id="DDI-DrugBank.d213.s3.p0" e1="DDI-DrugBank.d213.s3.e0" e2="DDI-DrugBank.d213.s3.e1" ddi="true" type="effect" flags="True" e1_name="Antithyroid agents" e2_name="sodium iodide I131" e1_pos="0" e2_pos="6" path="0@@2@@4@@6@@">Antithyroid agents@@@@nsubj@@decrease@@dobj@@uptake@@prep_of@@sodium iodide I131</pair>  
+      <pair id="DDI-DrugBank.d213.s3.p1" e1="DDI-DrugBank.d213.s3.e0" e2="DDI-DrugBank.d213.s3.e2" ddi="false" flags="True" e1_name="Antithyroid agents" e2_name="Carbimazole" e1_pos="0" e2_pos="22" path="0@@2@@13@@20@@22@@">Antithyroid agents@@@@nsubj@@decrease@@ccomp@@occur@@prep_after@@withdrawal@@prep_of@@Carbimazole</pair>  
+      <pair id="DDI-DrugBank.d213.s3.p2" e1="DDI-DrugBank.d213.s3.e1" e2="DDI-DrugBank.d213.s3.e2" ddi="false" flags="True" e1_name="sodium iodide I131" e2_name="Carbimazole" e1_pos="6" e2_pos="22" path="6@@4@@2@@13@@20@@22@@">sodium iodide I131@@@@prep_of@@uptake@@dobj@@decrease@@ccomp@@occur@@prep_after@@withdrawal@@prep_of@@Carbimazole</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d213.s4" text="Patients response to oral anticoagulants may be affected by his/her thyroid and metabolic status." new_text="Patients@@response@@to@@oral@@anticoagulants@@may@@be@@affected@@by@@his/her@@thyroid@@and@@metabolic@@status@@.@@"> 
+      <entity id="DDI-DrugBank.d213.s4.e0" charOffset="26-39" type="group" text="anticoagulants" position="4"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d213.s5" text="An evaluation of prothrombin time and an adjustment of anticoagulant dosage are recommended" new_text="An@@evaluation@@of@@prothrombin@@time@@and@@an@@adjustment@@of@@anticoagulant@@dosage@@are@@recommended@@"> 
+      <entity id="DDI-DrugBank.d213.s5.e0" charOffset="55-67" type="group" text="anticoagulant" position="9"/> 
+   </sentence> 
+</document>

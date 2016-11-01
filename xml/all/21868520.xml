@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d147"> 
+   <sentence id="DDI-MedLine.d147.s0" text="Interaction of dacarbazine and imexon, in vitro and in vivo, in human A375 melanoma cells.
+" new_text="Interaction@@of@@dacarbazine@@and@@imexon@@,@@in@@vitro@@and@@in@@vivo@@,@@in@@human@@A375@@melanoma@@cells@@.@@"> 
+      <entity id="DDI-MedLine.d147.s0.e0" charOffset="15-25" type="drug" text="dacarbazine" position="2"/>  
+      <entity id="DDI-MedLine.d147.s0.e1" charOffset="31-36" type="drug_n" text="imexon" position="4"/>  
+      <pair id="DDI-MedLine.d147.s0.p0" e1="DDI-MedLine.d147.s0.e0" e2="DDI-MedLine.d147.s0.e1" ddi="false" flags="True" e1_name="dacarbazine" e2_name="imexon" e1_pos="2" e2_pos="4" path="2@@4@@">dacarbazine@@@@conj_and@@imexon</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d147.s1" text="We evaluated mechanisms of interaction between the alkyating agent dacarbazine (DTIC) and the pro-oxidant, imexon, in the human A375 melanoma cell line." new_text="We@@evaluated@@mechanisms@@of@@interaction@@between@@the@@alkyating@@agent@@dacarbazine@@(@@DTIC@@)@@and@@the@@pro-oxidant@@,@@imexon@@,@@in@@the@@human@@A375@@melanoma@@cell@@line@@.@@"> 
+      <entity id="DDI-MedLine.d147.s1.e0" charOffset="67-77" type="drug" text="dacarbazine" position="9"/>  
+      <entity id="DDI-MedLine.d147.s1.e1" charOffset="80-83" type="drug" text="DTIC" position="11"/>  
+      <entity id="DDI-MedLine.d147.s1.e2" charOffset="107-112" type="drug" text="imexon" position="17"/>  
+      <pair id="DDI-MedLine.d147.s1.p0" e1="DDI-MedLine.d147.s1.e0" e2="DDI-MedLine.d147.s1.e1" ddi="false" flags="True" e1_name="dacarbazine" e2_name="DTIC" e1_pos="9" e2_pos="11" path="9@@12@@11@@">dacarbazine@@@@nn@@)@@nn@@DTIC</pair>  
+      <pair id="DDI-MedLine.d147.s1.p1" e1="DDI-MedLine.d147.s1.e0" e2="DDI-MedLine.d147.s1.e2" ddi="false" flags="True" e1_name="dacarbazine" e2_name="imexon" e1_pos="9" e2_pos="17" path="9@@12@@4@@15@@17@@">dacarbazine@@@@nn@@)@@prep_between@@interaction@@conj_and@@pro-oxidant@@appos@@imexon</pair>  
+      <pair id="DDI-MedLine.d147.s1.p2" e1="DDI-MedLine.d147.s1.e1" e2="DDI-MedLine.d147.s1.e2" ddi="false" flags="True" e1_name="DTIC" e2_name="imexon" e1_pos="11" e2_pos="17" path="11@@12@@4@@15@@17@@">DTIC@@@@nn@@)@@prep_between@@interaction@@conj_and@@pro-oxidant@@appos@@imexon</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d147.s2" text="The effect of DTIC and imexon, alone and in combination, was evaluated for growth inhibition (MTT), radiolabeled drug uptake, cellular thiol content (HPLC), and DNA strand breaks (Comet assay). " new_text="The@@effect@@of@@DTIC@@and@@imexon@@,@@alone@@and@@in@@combination@@,@@was@@evaluated@@for@@growth@@inhibition@@(MTT)@@,@@radiolabeled@@drug@@uptake@@,@@cellular@@thiol@@content@@(HPLC)@@,@@and@@DNA@@strand@@breaks@@(Comet@@assay)@@.@@"> 
+      <entity id="DDI-MedLine.d147.s2.e0" charOffset="14-17" type="drug" text="DTIC" position="3"/>  
+      <entity id="DDI-MedLine.d147.s2.e1" charOffset="23-28" type="drug" text="imexon" position="5"/>  
+      <pair id="DDI-MedLine.d147.s2.p0" e1="DDI-MedLine.d147.s2.e0" e2="DDI-MedLine.d147.s2.e1" ddi="false" flags="True" e1_name="DTIC" e2_name="imexon" e1_pos="3" e2_pos="5" path="3@@5@@">DTIC@@@@conj_and@@imexon</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d147.s3" text="Pharmacokinetic and antitumor effects were evaluated in mice. " new_text="Pharmacokinetic@@and@@antitumor@@effects@@were@@evaluated@@in@@mice@@.@@"/>  
+   <sentence id="DDI-MedLine.d147.s4" text="Growth inhibition in vitro was additive with the two drugs. " new_text="Growth@@inhibition@@in@@vitro@@was@@additive@@with@@the@@two@@drugs@@.@@"/>  
+   <sentence id="DDI-MedLine.d147.s5" text="There was no effect on drug uptake or on the number of DNA strand breaks. " new_text="There@@was@@no@@effect@@on@@drug@@uptake@@or@@on@@the@@number@@of@@DNA@@strand@@breaks@@.@@"/>  
+   <sentence id="DDI-MedLine.d147.s6" text="There was a &gt;75% reduction in cellular glutathione and cysteine with imexon but not DTIC. " new_text="There@@was@@a@@&gt;75%@@reduction@@in@@cellular@@glutathione@@and@@cysteine@@with@@imexon@@but@@not@@DTIC@@.@@"> 
+      <entity id="DDI-MedLine.d147.s6.e0" charOffset="69-74" type="drug" text="imexon" position="11"/>  
+      <entity id="DDI-MedLine.d147.s6.e1" charOffset="84-87" type="drug" text="DTIC" position="14"/>  
+      <pair id="DDI-MedLine.d147.s6.p0" e1="DDI-MedLine.d147.s6.e0" e2="DDI-MedLine.d147.s6.e1" ddi="false" flags="True" e1_name="imexon" e2_name="DTIC" e1_pos="11" e2_pos="14" path="11@@4@@14@@">imexon@@@@prep_with@@reduction@@conj_negcc@@DTIC</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d147.s7" text="Co-administration of the two drugs in mice caused an increase in the area under the curve of both drugs, but the combination was not effective in reducing human A375 melanoma tumors in vivo. " new_text="Co-administration@@of@@the@@two@@drugs@@in@@mice@@caused@@an@@increase@@in@@the@@area@@under@@the@@curve@@of@@both@@drugs@@,@@but@@the@@combination@@was@@not@@effective@@in@@reducing@@human@@A375@@melanoma@@tumors@@in@@vivo@@.@@"/>  
+   <sentence id="DDI-MedLine.d147.s8" text="Imexon and dacarbazine show additive effects in vitro but not in vivo in human A375 melanoma cells." new_text="Imexon@@and@@dacarbazine@@show@@additive@@effects@@in@@vitro@@but@@not@@in@@vivo@@in@@human@@A375@@melanoma@@cells@@.@@"> 
+      <entity id="DDI-MedLine.d147.s8.e0" charOffset="0-5" type="drug" text="Imexon" position="0"/>  
+      <entity id="DDI-MedLine.d147.s8.e1" charOffset="11-21" type="drug" text="dacarbazine" position="2"/>  
+      <pair id="DDI-MedLine.d147.s8.p0" e1="DDI-MedLine.d147.s8.e0" e2="DDI-MedLine.d147.s8.e1" ddi="true" type="effect" flags="True" e1_name="Imexon" e2_name="dacarbazine" e1_pos="0" e2_pos="2" path="0@@2@@">Imexon@@@@conj_and@@dacarbazine</pair> 
+   </sentence> 
+</document>

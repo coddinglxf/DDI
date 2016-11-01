@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-MedLine.d73"> 
+   <sentence id="DDI-MedLine.d73.s0" text="Neurochemical and functional consequences following 1-methyl-4-phenyl-1,2,5,6-tetrahydropyridine (MPTP) and methamphetamine.
+" new_text="Neurochemical@@and@@functional@@consequences@@following@@1-methyl-4-phenyl-1,2,5,6-tetrahydropyridine@@(@@MPTP@@)@@and@@methamphetamine@@.@@"> 
+      <entity id="DDI-MedLine.d73.s0.e0" charOffset="52-95" type="drug_n" text="1-methyl-4-phenyl-1,2,5,6-tetrahydropyridine" position="5"/>  
+      <entity id="DDI-MedLine.d73.s0.e1" charOffset="98-101" type="drug_n" text="MPTP" position="7"/>  
+      <entity id="DDI-MedLine.d73.s0.e2" charOffset="108-122" type="drug" text="methamphetamine" position="10"/>  
+      <pair id="DDI-MedLine.d73.s0.p0" e1="DDI-MedLine.d73.s0.e0" e2="DDI-MedLine.d73.s0.e1" ddi="false" flags="True" e1_name="1-methyl-4-phenyl-1,2,5,6-tetrahydropyridine" e2_name="MPTP" e1_pos="5" e2_pos="7" path="5@@6@@3@@7@@">1-methyl-4-phenyl-1,2,5,6-tetrahydropyridine@@@@amod@@(@@prep_following@@consequences@@nsubj@@MPTP</pair>  
+      <pair id="DDI-MedLine.d73.s0.p1" e1="DDI-MedLine.d73.s0.e0" e2="DDI-MedLine.d73.s0.e2" ddi="false" flags="True" e1_name="1-methyl-4-phenyl-1,2,5,6-tetrahydropyridine" e2_name="methamphetamine" e1_pos="5" e2_pos="10" path="5@@6@@3@@7@@10@@">1-methyl-4-phenyl-1,2,5,6-tetrahydropyridine@@@@amod@@(@@prep_following@@consequences@@nsubj@@MPTP@@acomp@@methamphetamine</pair>  
+      <pair id="DDI-MedLine.d73.s0.p2" e1="DDI-MedLine.d73.s0.e1" e2="DDI-MedLine.d73.s0.e2" ddi="false" flags="True" e1_name="MPTP" e2_name="methamphetamine" e1_pos="7" e2_pos="10" path="7@@10@@">MPTP@@@@acomp@@methamphetamine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d73.s1" text="The neurochemical and functional consequences following MPTP administration to the rat were evaluated and compared to similar effects following methamphetamine administration. " new_text="The@@neurochemical@@and@@functional@@consequences@@following@@MPTP@@administration@@to@@the@@rat@@were@@evaluated@@and@@compared@@to@@similar@@effects@@following@@methamphetamine@@administration@@.@@"> 
+      <entity id="DDI-MedLine.d73.s1.e0" charOffset="56-59" type="drug_n" text="MPTP" position="6"/>  
+      <entity id="DDI-MedLine.d73.s1.e1" charOffset="144-158" type="drug" text="methamphetamine" position="19"/>  
+      <pair id="DDI-MedLine.d73.s1.p0" e1="DDI-MedLine.d73.s1.e0" e2="DDI-MedLine.d73.s1.e1" ddi="false" flags="True" e1_name="MPTP" e2_name="methamphetamine" e1_pos="6" e2_pos="19" path="6@@7@@4@@12@@17@@20@@19@@">MPTP@@@@nn@@administration@@prep_following@@consequences@@nsubjpass@@evaluated@@prep_to@@effects@@prep_following@@administration@@amod@@methamphetamine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d73.s2" text="It was observed that MPTP induced long lasting depletions of striatal dopamine concentrations and this neurotoxic effect could be prevented by pargyline pretreatment. " new_text="It@@was@@observed@@that@@MPTP@@induced@@long@@lasting@@depletions@@of@@striatal@@dopamine@@concentrations@@and@@this@@neurotoxic@@effect@@could@@be@@prevented@@by@@pargyline@@pretreatment@@.@@"> 
+      <entity id="DDI-MedLine.d73.s2.e0" charOffset="21-24" type="drug_n" text="MPTP" position="4"/>  
+      <entity id="DDI-MedLine.d73.s2.e1" charOffset="143-151" type="drug" text="pargyline" position="21"/>  
+      <pair id="DDI-MedLine.d73.s2.p0" e1="DDI-MedLine.d73.s2.e0" e2="DDI-MedLine.d73.s2.e1" ddi="true" type="effect" flags="True" e1_name="MPTP" e2_name="pargyline" e1_pos="4" e2_pos="21" path="4@@19@@22@@21@@">MPTP@@@@nsubjpass@@prevented@@agent@@pretreatment@@amod@@pargyline</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d73.s3" text="The MPTP-induced neuronal damage produced a tolerance to the disruptive effects of amphetamine and a supersensitivity to the disruptive effects of apomorphine in rats responding in a schedule controlled paradigm. " new_text="The@@MPTP@@-induced@@neuronal@@damage@@produced@@a@@tolerance@@to@@the@@disruptive@@effects@@of@@amphetamine@@and@@a@@supersensitivity@@to@@the@@disruptive@@effects@@of@@apomorphine@@in@@rats@@responding@@in@@a@@schedule@@controlled@@paradigm@@.@@"> 
+      <entity id="DDI-MedLine.d73.s3.e0" charOffset="4-7" type="drug" text="MPTP" position="1"/>  
+      <entity id="DDI-MedLine.d73.s3.e1" charOffset="83-93" type="drug" text="amphetamine" position="13"/>  
+      <entity id="DDI-MedLine.d73.s3.e2" charOffset="147-157" type="drug" text="apomorphine" position="22"/>  
+      <pair id="DDI-MedLine.d73.s3.p0" e1="DDI-MedLine.d73.s3.e0" e2="DDI-MedLine.d73.s3.e1" ddi="true" type="effect" flags="True" e1_name="MPTP" e2_name="amphetamine" e1_pos="1" e2_pos="13" path="1@@4@@5@@11@@13@@">MPTP@@@@nn@@damage@@nsubj@@produced@@prep_to@@effects@@prep_of@@amphetamine</pair>  
+      <pair id="DDI-MedLine.d73.s3.p1" e1="DDI-MedLine.d73.s3.e0" e2="DDI-MedLine.d73.s3.e2" ddi="true" type="effect" flags="True" e1_name="MPTP" e2_name="apomorphine" e1_pos="1" e2_pos="22" path="1@@4@@5@@20@@22@@">MPTP@@@@nn@@damage@@nsubj@@produced@@prep_to@@effects@@prep_of@@apomorphine</pair>  
+      <pair id="DDI-MedLine.d73.s3.p2" e1="DDI-MedLine.d73.s3.e1" e2="DDI-MedLine.d73.s3.e2" ddi="false" flags="True" e1_name="amphetamine" e2_name="apomorphine" e1_pos="13" e2_pos="22" path="13@@11@@5@@20@@22@@">amphetamine@@@@prep_of@@effects@@prep_to@@produced@@prep_to@@effects@@prep_of@@apomorphine</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d73.s4" text="Methamphetamine, like MPTP, produced depletions of striatal dopamine but these actions were potentiated by pargyline pretreatment. " new_text="Methamphetamine@@,@@like@@MPTP@@,@@produced@@depletions@@of@@striatal@@dopamine@@but@@these@@actions@@were@@potentiated@@by@@pargyline@@pretreatment@@.@@"> 
+      <entity id="DDI-MedLine.d73.s4.e0" charOffset="0-14" type="drug" text="Methamphetamine" position="0"/>  
+      <entity id="DDI-MedLine.d73.s4.e1" charOffset="22-25" type="drug_n" text="MPTP" position="3"/>  
+      <entity id="DDI-MedLine.d73.s4.e2" charOffset="107-115" type="drug" text="pargyline" position="16"/>  
+      <pair id="DDI-MedLine.d73.s4.p0" e1="DDI-MedLine.d73.s4.e0" e2="DDI-MedLine.d73.s4.e1" ddi="false" flags="True" e1_name="Methamphetamine" e2_name="MPTP" e1_pos="0" e2_pos="3" path="0@@5@@3@@">Methamphetamine@@@@nsubj@@produced@@prep_like@@MPTP</pair>  
+      <pair id="DDI-MedLine.d73.s4.p1" e1="DDI-MedLine.d73.s4.e0" e2="DDI-MedLine.d73.s4.e2" ddi="true" type="effect" flags="True" e1_name="Methamphetamine" e2_name="pargyline" e1_pos="0" e2_pos="16" path="0@@5@@14@@17@@16@@">Methamphetamine@@@@nsubj@@produced@@conj_but@@potentiated@@agent@@pretreatment@@amod@@pargyline</pair>  
+      <pair id="DDI-MedLine.d73.s4.p2" e1="DDI-MedLine.d73.s4.e1" e2="DDI-MedLine.d73.s4.e2" ddi="false" flags="True" e1_name="MPTP" e2_name="pargyline" e1_pos="3" e2_pos="16" path="3@@5@@14@@17@@16@@">MPTP@@@@prep_like@@produced@@conj_but@@potentiated@@agent@@pretreatment@@amod@@pargyline</pair> 
+   </sentence>  
+   <sentence id="DDI-MedLine.d73.s5" text="These observations are discussed in reference to possible deleterious effects following the administration of pargyline to patients with Parkinson's Disease." new_text="These@@observations@@are@@discussed@@in@@reference@@to@@possible@@deleterious@@effects@@following@@the@@administration@@of@@pargyline@@to@@patients@@with@@Parkinson's@@Disease@@.@@"> 
+      <entity id="DDI-MedLine.d73.s5.e0" charOffset="110-118" type="drug" text="pargyline" position="14"/> 
+   </sentence> 
+</document>

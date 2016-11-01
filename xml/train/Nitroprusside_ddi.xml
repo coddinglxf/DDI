@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d394"> 
+   <sentence id="DDI-DrugBank.d394.s0" text="The hypotensive effect of sodium nitroprusside is augmented by that of most other hypotensive drugs, including ganglionic blocking agents, negative inotropic agents, and inhaled anesthetics." new_text="The@@hypotensive@@effect@@of@@sodium nitroprusside@@is@@augmented@@by@@that@@of@@most@@other@@hypotensive drugs@@,@@including@@ganglionic blocking agents@@,@@negative@@inotropic@@agents@@,@@and@@inhaled@@anesthetics@@.@@"> 
+      <entity id="DDI-DrugBank.d394.s0.e0" charOffset="26-45" type="drug" text="sodium nitroprusside" position="4"/>  
+      <entity id="DDI-DrugBank.d394.s0.e1" charOffset="82-98" type="group" text="hypotensive drugs" position="12"/>  
+      <entity id="DDI-DrugBank.d394.s0.e2" charOffset="111-136" type="group" text="ganglionic blocking agents" position="15"/>  
+      <entity id="DDI-DrugBank.d394.s0.e3" charOffset="178-188" type="group" text="anesthetics" position="23"/>  
+      <pair id="DDI-DrugBank.d394.s0.p0" e1="DDI-DrugBank.d394.s0.e0" e2="DDI-DrugBank.d394.s0.e1" ddi="true" type="effect" flags="True" e1_name="sodium nitroprusside" e2_name="hypotensive drugs" e1_pos="4" e2_pos="12" path="4@@2@@6@@8@@12@@">sodium nitroprusside@@@@prep_of@@effect@@nsubjpass@@augmented@@agent@@that@@prep_of@@hypotensive drugs</pair>  
+      <pair id="DDI-DrugBank.d394.s0.p1" e1="DDI-DrugBank.d394.s0.e0" e2="DDI-DrugBank.d394.s0.e2" ddi="true" type="effect" flags="True" e1_name="sodium nitroprusside" e2_name="ganglionic blocking agents" e1_pos="4" e2_pos="15" path="4@@2@@6@@8@@15@@">sodium nitroprusside@@@@prep_of@@effect@@nsubjpass@@augmented@@agent@@that@@prep_including@@ganglionic blocking agents</pair>  
+      <pair id="DDI-DrugBank.d394.s0.p2" e1="DDI-DrugBank.d394.s0.e0" e2="DDI-DrugBank.d394.s0.e3" ddi="true" type="effect" flags="True" e1_name="sodium nitroprusside" e2_name="anesthetics" e1_pos="4" e2_pos="23" path="4@@2@@6@@8@@23@@">sodium nitroprusside@@@@prep_of@@effect@@nsubjpass@@augmented@@agent@@that@@prep_including@@anesthetics</pair>  
+      <pair id="DDI-DrugBank.d394.s0.p3" e1="DDI-DrugBank.d394.s0.e1" e2="DDI-DrugBank.d394.s0.e2" ddi="false" flags="True" e1_name="hypotensive drugs" e2_name="ganglionic blocking agents" e1_pos="12" e2_pos="15" path="12@@8@@15@@">hypotensive drugs@@@@prep_of@@that@@prep_including@@ganglionic blocking agents</pair>  
+      <pair id="DDI-DrugBank.d394.s0.p4" e1="DDI-DrugBank.d394.s0.e1" e2="DDI-DrugBank.d394.s0.e3" ddi="false" flags="True" e1_name="hypotensive drugs" e2_name="anesthetics" e1_pos="12" e2_pos="23" path="12@@8@@23@@">hypotensive drugs@@@@prep_of@@that@@prep_including@@anesthetics</pair>  
+      <pair id="DDI-DrugBank.d394.s0.p5" e1="DDI-DrugBank.d394.s0.e2" e2="DDI-DrugBank.d394.s0.e3" ddi="false" flags="True" e1_name="ganglionic blocking agents" e2_name="anesthetics" e1_pos="15" e2_pos="23" path="15@@23@@">ganglionic blocking agents@@@@conj_and@@anesthetics</pair> 
+   </sentence> 
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d416"> 
+   <sentence id="DDI-DrugBank.d416.s0" text="Renal clearance measurements of PAH cannot be made with any significant accuracy in patients receiving sulfonamides, procaine, or thiazolesulfone." new_text="Renal@@clearance@@measurements@@of@@PAH@@cannot@@be@@made@@with@@any@@significant@@accuracy@@in@@patients@@receiving@@sulfonamides@@,@@procaine@@,@@or@@thiazolesulfone@@.@@"> 
+      <entity id="DDI-DrugBank.d416.s0.e0" charOffset="32-34" type="drug" text="PAH" position="4"/>  
+      <entity id="DDI-DrugBank.d416.s0.e1" charOffset="103-114" type="group" text="sulfonamides" position="15"/>  
+      <entity id="DDI-DrugBank.d416.s0.e2" charOffset="117-124" type="drug" text="procaine" position="17"/>  
+      <entity id="DDI-DrugBank.d416.s0.e3" charOffset="130-144" type="drug" text="thiazolesulfone" position="20"/>  
+      <pair id="DDI-DrugBank.d416.s0.p0" e1="DDI-DrugBank.d416.s0.e0" e2="DDI-DrugBank.d416.s0.e1" ddi="true" type="effect" flags="True" e1_name="PAH" e2_name="sulfonamides" e1_pos="4" e2_pos="15" path="4@@2@@5@@7@@11@@13@@14@@15@@">PAH@@@@prep_of@@measurements@@nsubj@@cannot@@dep@@made@@prep_with@@accuracy@@prep_in@@patients@@partmod@@receiving@@dobj@@sulfonamides</pair>  
+      <pair id="DDI-DrugBank.d416.s0.p1" e1="DDI-DrugBank.d416.s0.e0" e2="DDI-DrugBank.d416.s0.e2" ddi="true" type="effect" flags="True" e1_name="PAH" e2_name="procaine" e1_pos="4" e2_pos="17" path="4@@2@@5@@7@@11@@13@@14@@17@@">PAH@@@@prep_of@@measurements@@nsubj@@cannot@@dep@@made@@prep_with@@accuracy@@prep_in@@patients@@partmod@@receiving@@dobj@@procaine</pair>  
+      <pair id="DDI-DrugBank.d416.s0.p2" e1="DDI-DrugBank.d416.s0.e0" e2="DDI-DrugBank.d416.s0.e3" ddi="true" type="effect" flags="True" e1_name="PAH" e2_name="thiazolesulfone" e1_pos="4" e2_pos="20" path="4@@2@@5@@7@@11@@13@@14@@20@@">PAH@@@@prep_of@@measurements@@nsubj@@cannot@@dep@@made@@prep_with@@accuracy@@prep_in@@patients@@partmod@@receiving@@dobj@@thiazolesulfone</pair>  
+      <pair id="DDI-DrugBank.d416.s0.p3" e1="DDI-DrugBank.d416.s0.e1" e2="DDI-DrugBank.d416.s0.e2" ddi="false" flags="True" e1_name="sulfonamides" e2_name="procaine" e1_pos="15" e2_pos="17" path="15@@17@@">sulfonamides@@@@conj_or@@procaine</pair>  
+      <pair id="DDI-DrugBank.d416.s0.p4" e1="DDI-DrugBank.d416.s0.e1" e2="DDI-DrugBank.d416.s0.e3" ddi="false" flags="True" e1_name="sulfonamides" e2_name="thiazolesulfone" e1_pos="15" e2_pos="20" path="15@@20@@">sulfonamides@@@@conj_or@@thiazolesulfone</pair>  
+      <pair id="DDI-DrugBank.d416.s0.p5" e1="DDI-DrugBank.d416.s0.e2" e2="DDI-DrugBank.d416.s0.e3" ddi="false" flags="True" e1_name="procaine" e2_name="thiazolesulfone" e1_pos="17" e2_pos="20" path="17@@14@@20@@">procaine@@@@dobj@@receiving@@dobj@@thiazolesulfone</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d416.s1" text="These compounds interfere with chemical color development essential to the analytical procedures." new_text="These@@compounds@@interfere@@with@@chemical@@color@@development@@essential@@to@@the@@analytical@@procedures@@.@@"/>  
+   <sentence id="DDI-DrugBank.d416.s2" text="Probenecid depresses tubular secretion of certain weak acids such as PAH." new_text="Probenecid@@depresses@@tubular@@secretion@@of@@certain@@weak@@acids@@such@@as@@PAH@@.@@"> 
+      <entity id="DDI-DrugBank.d416.s2.e0" charOffset="0-9" type="drug" text="Probenecid" position="0"/>  
+      <entity id="DDI-DrugBank.d416.s2.e1" charOffset="69-71" type="drug" text="PAH" position="10"/>  
+      <pair id="DDI-DrugBank.d416.s2.p0" e1="DDI-DrugBank.d416.s2.e0" e2="DDI-DrugBank.d416.s2.e1" ddi="true" type="mechanism" flags="True" e1_name="Probenecid" e2_name="PAH" e1_pos="0" e2_pos="10" path="0@@1@@3@@7@@10@@">Probenecid@@@@nsubj@@depresses@@dobj@@secretion@@prep_of@@acids@@prep_such_as@@PAH</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d416.s3" text="Therefore, patients receiving probenecid will have erroneously low ERPF and Tm PAH values." new_text="Therefore@@,@@patients@@receiving@@probenecid@@will@@have@@erroneously@@low@@ERPF@@and@@Tm@@PAH@@values@@.@@"> 
+      <entity id="DDI-DrugBank.d416.s3.e0" charOffset="30-39" type="drug" text="probenecid" position="4"/>  
+      <entity id="DDI-DrugBank.d416.s3.e1" charOffset="79-81" type="drug" text="PAH" position="12"/>  
+      <pair id="DDI-DrugBank.d416.s3.p0" e1="DDI-DrugBank.d416.s3.e0" e2="DDI-DrugBank.d416.s3.e1" ddi="true" type="effect" flags="True" e1_name="probenecid" e2_name="PAH" e1_pos="4" e2_pos="12" path="4@@3@@2@@6@@13@@12@@">probenecid@@@@acomp@@receiving@@partmod@@patients@@nsubj@@have@@dobj@@values@@nn@@PAH</pair> 
+   </sentence> 
+</document>

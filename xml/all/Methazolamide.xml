@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d630"> 
+   <sentence id="DDI-DrugBank.d630.s0" text="Methazolamide should be used with caution in patients on steroid therapy because of the potential for developing hypokalemia. " new_text="Methazolamide@@should@@be@@used@@with@@caution@@in@@patients@@on@@steroid@@therapy@@because@@of@@the@@potential@@for@@developing@@hypokalemia@@.@@"> 
+      <entity id="DDI-DrugBank.d630.s0.e0" charOffset="0-12" type="drug" text="Methazolamide" position="0"/> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d630.s1" text="Caution is advised for patients receiving high-dose aspirin and methazolamide concomitantly, as anorexia, tachypnea, lethargy, coma and death have been reported with concomitant use of high-dose aspirin and carbonic anhydrase inhibitors." new_text="Caution@@is@@advised@@for@@patients@@receiving@@high-dose@@aspirin@@and@@methazolamide@@concomitantly@@,@@as@@anorexia@@,@@tachypnea@@,@@lethargy@@,@@coma@@and@@death@@have@@been@@reported@@with@@concomitant@@use@@of@@high-dose@@aspirin@@and@@carbonic anhydrase inhibitors@@.@@"> 
+      <entity id="DDI-DrugBank.d630.s1.e0" charOffset="52-58" type="brand" text="aspirin" position="7"/>  
+      <entity id="DDI-DrugBank.d630.s1.e1" charOffset="64-76" type="drug" text="methazolamide" position="9"/>  
+      <entity id="DDI-DrugBank.d630.s1.e2" charOffset="195-201" type="brand" text="aspirin" position="30"/>  
+      <entity id="DDI-DrugBank.d630.s1.e3" charOffset="207-235" type="group" text="carbonic anhydrase inhibitors" position="32"/>  
+      <pair id="DDI-DrugBank.d630.s1.p0" e1="DDI-DrugBank.d630.s1.e0" e2="DDI-DrugBank.d630.s1.e1" ddi="true" type="advise" flags="True" e1_name="aspirin" e2_name="methazolamide" e1_pos="7" e2_pos="9" path="7@@9@@">aspirin@@@@conj_and@@methazolamide</pair>  
+      <pair id="DDI-DrugBank.d630.s1.p1" e1="DDI-DrugBank.d630.s1.e0" e2="DDI-DrugBank.d630.s1.e2" ddi="false" flags="True" e1_name="aspirin" e2_name="aspirin" e1_pos="7" e2_pos="30" path="7@@5@@4@@2@@0@@24@@27@@30@@">aspirin@@@@dobj@@receiving@@partmod@@patients@@prep_for@@advised@@rcmod@@Caution@@nsubjpass@@reported@@prep_with@@use@@prep_of@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d630.s1.p2" e1="DDI-DrugBank.d630.s1.e0" e2="DDI-DrugBank.d630.s1.e3" ddi="false" flags="True" e1_name="aspirin" e2_name="carbonic anhydrase inhibitors" e1_pos="7" e2_pos="32" path="7@@5@@4@@2@@0@@24@@27@@32@@">aspirin@@@@dobj@@receiving@@partmod@@patients@@prep_for@@advised@@rcmod@@Caution@@nsubjpass@@reported@@prep_with@@use@@prep_of@@carbonic anhydrase inhibitors</pair>  
+      <pair id="DDI-DrugBank.d630.s1.p3" e1="DDI-DrugBank.d630.s1.e1" e2="DDI-DrugBank.d630.s1.e2" ddi="false" flags="True" e1_name="methazolamide" e2_name="aspirin" e1_pos="9" e2_pos="30" path="9@@5@@4@@2@@0@@24@@27@@30@@">methazolamide@@@@dobj@@receiving@@partmod@@patients@@prep_for@@advised@@rcmod@@Caution@@nsubjpass@@reported@@prep_with@@use@@prep_of@@aspirin</pair>  
+      <pair id="DDI-DrugBank.d630.s1.p4" e1="DDI-DrugBank.d630.s1.e1" e2="DDI-DrugBank.d630.s1.e3" ddi="false" flags="True" e1_name="methazolamide" e2_name="carbonic anhydrase inhibitors" e1_pos="9" e2_pos="32" path="9@@5@@4@@2@@0@@24@@27@@32@@">methazolamide@@@@dobj@@receiving@@partmod@@patients@@prep_for@@advised@@rcmod@@Caution@@nsubjpass@@reported@@prep_with@@use@@prep_of@@carbonic anhydrase inhibitors</pair>  
+      <pair id="DDI-DrugBank.d630.s1.p5" e1="DDI-DrugBank.d630.s1.e2" e2="DDI-DrugBank.d630.s1.e3" ddi="true" type="effect" flags="True" e1_name="aspirin" e2_name="carbonic anhydrase inhibitors" e1_pos="30" e2_pos="32" path="30@@32@@">aspirin@@@@conj_and@@carbonic anhydrase inhibitors</pair> 
+   </sentence> 
+</document>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d679"> 
+   <sentence id="DDI-DrugBank.d679.s0" text="Preliminary evidence suggests that cimetidine inhibits mebendazole metabolism and may result in an increase in plasma concentrations of mebendazole." new_text="Preliminary@@evidence@@suggests@@that@@cimetidine@@inhibits@@mebendazole@@metabolism@@and@@may@@result@@in@@an@@increase@@in@@plasma@@concentrations@@of@@mebendazole@@.@@"> 
+      <entity id="DDI-DrugBank.d679.s0.e0" charOffset="35-44" type="drug" text="cimetidine" position="4"/>  
+      <entity id="DDI-DrugBank.d679.s0.e1" charOffset="55-65" type="drug" text="mebendazole" position="6"/>  
+      <entity id="DDI-DrugBank.d679.s0.e2" charOffset="136-146" type="drug" text="mebendazole" position="18"/>  
+      <pair id="DDI-DrugBank.d679.s0.p0" e1="DDI-DrugBank.d679.s0.e0" e2="DDI-DrugBank.d679.s0.e1" ddi="true" type="mechanism" flags="True" e1_name="cimetidine" e2_name="mebendazole" e1_pos="4" e2_pos="6" path="4@@5@@7@@6@@">cimetidine@@@@nsubj@@inhibits@@dobj@@metabolism@@amod@@mebendazole</pair>  
+      <pair id="DDI-DrugBank.d679.s0.p1" e1="DDI-DrugBank.d679.s0.e0" e2="DDI-DrugBank.d679.s0.e2" ddi="false" flags="True" e1_name="cimetidine" e2_name="mebendazole" e1_pos="4" e2_pos="18" path="4@@10@@13@@16@@18@@">cimetidine@@@@nsubj@@result@@prep_in@@increase@@prep_in@@concentrations@@prep_of@@mebendazole</pair>  
+      <pair id="DDI-DrugBank.d679.s0.p2" e1="DDI-DrugBank.d679.s0.e1" e2="DDI-DrugBank.d679.s0.e2" ddi="false" flags="True" e1_name="mebendazole" e2_name="mebendazole" e1_pos="6" e2_pos="18" path="6@@7@@5@@10@@13@@16@@18@@">mebendazole@@@@amod@@metabolism@@dobj@@inhibits@@conj_and@@result@@prep_in@@increase@@prep_in@@concentrations@@prep_of@@mebendazole</pair> 
+   </sentence> 
+</document>

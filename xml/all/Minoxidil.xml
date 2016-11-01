@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d573"> 
+   <sentence id="DDI-DrugBank.d573.s0" text="Interaction with Guanethidine: Although minoxidil does not itself cause orthostatic hypotension, its administration to patients already receiving guanethidine can result in profound orthostatic effects. " new_text="Interaction@@with@@Guanethidine@@:@@Although@@minoxidil@@does@@not@@itself@@cause@@orthostatic@@hypotension@@,@@its@@administration@@to@@patients@@already@@receiving@@guanethidine@@can@@result@@in@@profound@@orthostatic@@effects@@.@@"> 
+      <entity id="DDI-DrugBank.d573.s0.e0" charOffset="17-28" type="drug" text="Guanethidine" position="2"/>  
+      <entity id="DDI-DrugBank.d573.s0.e1" charOffset="40-48" type="drug" text="minoxidil" position="5"/>  
+      <entity id="DDI-DrugBank.d573.s0.e2" charOffset="146-157" type="drug" text="guanethidine" position="19"/>  
+      <pair id="DDI-DrugBank.d573.s0.p0" e1="DDI-DrugBank.d573.s0.e0" e2="DDI-DrugBank.d573.s0.e1" ddi="false" flags="True" e1_name="Guanethidine" e2_name="minoxidil" e1_pos="2" e2_pos="5" path="2@@0@@21@@9@@5@@">Guanethidine@@@@prep_with@@Interaction@@dep@@result@@advcl@@cause@@nsubj@@minoxidil</pair>  
+      <pair id="DDI-DrugBank.d573.s0.p1" e1="DDI-DrugBank.d573.s0.e0" e2="DDI-DrugBank.d573.s0.e2" ddi="false" flags="True" e1_name="Guanethidine" e2_name="guanethidine" e1_pos="2" e2_pos="19" path="2@@0@@21@@14@@16@@18@@19@@">Guanethidine@@@@prep_with@@Interaction@@dep@@result@@nsubj@@administration@@prep_to@@patients@@partmod@@receiving@@dobj@@guanethidine</pair>  
+      <pair id="DDI-DrugBank.d573.s0.p2" e1="DDI-DrugBank.d573.s0.e1" e2="DDI-DrugBank.d573.s0.e2" ddi="true" type="effect" flags="True" e1_name="minoxidil" e2_name="guanethidine" e1_pos="5" e2_pos="19" path="5@@9@@21@@14@@16@@18@@19@@">minoxidil@@@@nsubj@@cause@@advcl@@result@@nsubj@@administration@@prep_to@@patients@@partmod@@receiving@@dobj@@guanethidine</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d573.s1" text="If at all possible guanethidine should be discontinued well before minoxidil is begun. " new_text="If@@at@@all@@possible@@guanethidine@@should@@be@@discontinued@@well@@before@@minoxidil@@is@@begun@@.@@"> 
+      <entity id="DDI-DrugBank.d573.s1.e0" charOffset="19-30" type="drug" text="guanethidine" position="4"/>  
+      <entity id="DDI-DrugBank.d573.s1.e1" charOffset="67-75" type="drug" text="minoxidil" position="10"/>  
+      <pair id="DDI-DrugBank.d573.s1.p0" e1="DDI-DrugBank.d573.s1.e0" e2="DDI-DrugBank.d573.s1.e1" ddi="true" type="advise" flags="True" e1_name="guanethidine" e2_name="minoxidil" e1_pos="4" e2_pos="10" path="4@@7@@10@@">guanethidine@@@@prep_at@@discontinued@@prep_before@@minoxidil</pair> 
+   </sentence>  
+   <sentence id="DDI-DrugBank.d573.s2" text="Where this is not possible, minoxidil therapy should be started in the hospital and the patient should remain institutionalized until severe orthostatic effects are no longer present or the patient has learned to avoid activities that provoke them." new_text="Where@@this@@is@@not@@possible@@,@@minoxidil@@therapy@@should@@be@@started@@in@@the@@hospital@@and@@the@@patient@@should@@remain@@institutionalized@@until@@severe@@orthostatic@@effects@@are@@no@@longer@@present@@or@@the@@patient@@has@@learned@@to@@avoid@@activities@@that@@provoke@@them@@.@@"> 
+      <entity id="DDI-DrugBank.d573.s2.e0" charOffset="28-36" type="drug" text="minoxidil" position="6"/> 
+   </sentence> 
+</document>

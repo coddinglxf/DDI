@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document id="DDI-DrugBank.d149"> 
+   <sentence id="DDI-DrugBank.d149.s0" text="Possible drug interactions of HUMORSOL with succinylcholine or with other anticholinesterase agents." new_text="Possible@@drug@@interactions@@of@@HUMORSOL@@with@@succinylcholine@@or@@with@@other@@anticholinesterase agents@@.@@"> 
+      <entity id="DDI-DrugBank.d149.s0.e0" charOffset="30-37" type="brand" text="HUMORSOL" position="4"/>  
+      <entity id="DDI-DrugBank.d149.s0.e1" charOffset="44-58" type="drug" text="succinylcholine" position="6"/>  
+      <entity id="DDI-DrugBank.d149.s0.e2" charOffset="74-98" type="group" text="anticholinesterase agents" position="10"/>  
+      <pair id="DDI-DrugBank.d149.s0.p0" e1="DDI-DrugBank.d149.s0.e0" e2="DDI-DrugBank.d149.s0.e1" ddi="true" type="int" flags="True" e1_name="HUMORSOL" e2_name="succinylcholine" e1_pos="4" e2_pos="6" path="4@@2@@6@@">HUMORSOL@@@@prep_of@@interactions@@prep_with@@succinylcholine</pair>  
+      <pair id="DDI-DrugBank.d149.s0.p1" e1="DDI-DrugBank.d149.s0.e0" e2="DDI-DrugBank.d149.s0.e2" ddi="true" type="int" flags="True" e1_name="HUMORSOL" e2_name="anticholinesterase agents" e1_pos="4" e2_pos="10" path="4@@2@@10@@">HUMORSOL@@@@prep_of@@interactions@@prep_with@@anticholinesterase agents</pair>  
+      <pair id="DDI-DrugBank.d149.s0.p2" e1="DDI-DrugBank.d149.s0.e1" e2="DDI-DrugBank.d149.s0.e2" ddi="false" flags="True" e1_name="succinylcholine" e2_name="anticholinesterase agents" e1_pos="6" e2_pos="10" path="6@@10@@">succinylcholine@@@@conj_or@@anticholinesterase agents</pair> 
+   </sentence> 
+</document>
