@@ -4,7 +4,7 @@ The best way to configure the environment is to use Anaconda, after install Anac
 
 Here is the introduction of each file:
 data directory: include the pre-trained word embedding
-log and  directories: include the output log
+log directory: include the output log
 
 the rest of .py files are used to train the model. 
 
